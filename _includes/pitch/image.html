@@ -1,0 +1,7 @@
+<div class="col-lg-4 col-xs-4 text-center {{ pitch.image.class }}">
+  {% if pitch.image.path %}
+    <img class="max-width-100" src="{{ site.assets_url }}{{ pitch.image.path }}" alt="{{ pitch.image.alt }}">
+  {% elsif pitch.image.icon %}
+    <i class="{{ pitch.image.icon }}"></i>
+  {% endif %}
+</div>

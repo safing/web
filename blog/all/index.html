@@ -1,0 +1,34 @@
+---
+layout: page_column
+title: "Blog"
+heading: "Blog"
+subheading: "sorted by date"
+---
+
+<div class="padding-top-40 padding-bottom-80">
+  <table class="post-list table table-condensed">
+    {% for post in site.posts %}
+      {% assign postyear = post.date | date: "%Y" %}
+      <tr class="post">
+      {% ifchanged postyear %}
+        <td class="no-border">
+          <h2 class="padding-top-20">{{ postyear }}</h2>
+        </td>
+        <td class="no-border"></td>
+        <td class="no-border"></td>
+      </tr>
+      <tr class="post no-border">
+      {% endifchanged %}
+        <td><a href="{{ site.base_url }}{{ post.url | replace_first: '/', '' }}" class="stealth-href">{{ post.title }}</a></td>
+        <td>
+          <span class="tags">
+            {% for tag in post.tags %}
+              <a href="{{ site.base_url }}blog/tags/#{{ tag }}" class="stealth-href"><i class="fa fa-tag fa-flip-horizontal"></i> {{ tag }}</a>
+            {% endfor %}
+          </span>
+        </td>
+        <td class="text-right">{{ post.date | date: "%-d %b %Y" }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+</div>

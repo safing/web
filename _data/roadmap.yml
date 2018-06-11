@@ -1,0 +1,55 @@
+elements:
+  - time: 2016
+    heading: Finalizing The Concept
+    body: Think. Discuss. Write. Repeat
+    icon: gears # font awesome icon
+    funding_status: null
+  - time: 2017
+    heading: "Portmaster: Get back in control!"
+    body: Decide for yourself which applications share your data
+    icon: code
+    funding_status: 2
+  - time: Q2 2018
+    heading: Release the first version
+    body: "First release, finally explore the power of Safing!"
+    icon: gift
+    funding_status: null
+  - time: 2018
+    heading: "Port17: Private Internet Reimagined"
+    body: Stop sharing your Internet activities. What you do online is private.
+    icon: briefcase
+    funding_status: 1
+  - time: 2018
+    heading: Stamp Community
+    body: The go-to place to share information about websites and Internet entities.
+    icon: tag
+    funding_status: 1
+
+drafts:
+  - time: 2019
+    heading: "Safing ❤️ Mobile"
+    body: We will bring the power and convenience of Safing to mobile devices.
+    icon: mobile
+    funding_status: 0
+  - time: 2020
+    heading: Safing Apps
+    body: "A framework for apps that feel like they use the cloud, but don't. Stop giving your private data to strangers."
+    icon: calendar
+    funding_status: 0
+  - time: 2021
+    heading: Truly Secure Communication
+    body: We will add messaging capabilities to Safing. Full privacy, full anonymity, no metadata.
+    icon: comments
+    funding_status: 0
+
+config:
+  funding:
+    0:
+      color_class: "danger"
+      text: "[FUNDING NEEDED]"
+    1:
+      color_class: "warning"
+      text: "[FUNDING IN PROGRESS]"
+    2:
+      color_class: "primary"
+      text: "[FUNDED]"

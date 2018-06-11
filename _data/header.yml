@@ -1,0 +1,15 @@
+menus:
+  - title: Our Values
+    url: /our-values/
+    dropdown: true
+    submenus:
+      - title: Privacy First
+        url: /our-values/
+      - title: Open Source
+        url: /our-values/
+      - title: Ethical Funding
+        url: /our-values#ethical-funding
+  - title: Technology
+    url: /technology/
+  - title: Download
+    url: /download/

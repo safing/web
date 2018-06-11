@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang={{ site.lang }}>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include header.html %}
+    <div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+              <h1 class="section-heading padding-top-40">
+              {% if page.heading %}
+                {{ page.heading }}
+              {% elsif page.title %}
+                {{ page.title }}
+              {% elsif layout.heading %}
+                {{ layout.heading }}
+              {% endif %}
+            </h1>
+            {% if page.subheading %}
+              <h3 class="section-subheading text-muted padding-bottom-40">
+                {% if page.subheading %}
+                  {{ page.subheading }}
+                {% elsif page.title %}
+                {% elsif layout.subheading %}
+                  {{ layout.subheading }}
+                {% endif %}
+              </h3>
+            {% endif %}
+          </div>
+        </div>
+        {% if page.include_divider %}
+          {% include page_divider.html %}
+        {% endif %}
+      </div>
+
+      {{ content }}
+    </div>
+
+    {% unless page.exclude_community_snippet %}
+      {% include community_snippet.html %}
+    {% endunless %}
+    {% include footer.html %}
+  </body>
+</html>
+
+{% include foot.html %}

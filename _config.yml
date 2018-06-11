@@ -1,0 +1,74 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Safing
+encoding: "utf-8"
+lang: "en"
+email: hello@safing.io
+emailobfuscated: "=b!isfg>#nbjmup;ifmmpAtbgjoh/jp#?ifmmpAtbgjoh/jp=0b?"
+description: > # this means to ignore newlines until "base_url:"
+  Safing is a software that protects your privacy online. It's so easy, anyone can use it.
+base_url: "/" # the subpath of your site, e.g. /blog
+assets_url: "/assets/"
+vendor_url: "/vendor/"
+community_hub_url: "/community-hub/"
+url: "https://safing.io" # the base hostname & protocol for your site
+cover: "img/cover.jpg"
+logo: "img/logo_name_70h_reduced.png"
+twitter_username: SafingIO
+github_username: Safing
+markdown: kramdown
+highlightjs_theme: "monokai_sublime"
+
+paginate: 10
+paginate_path: "blog/page:num"
+excerpt_separator: "<!--break-->"
+inter_post_navigation: false
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+      permalink: "blog/post/:year/:month/:title/"
+      type: "post"
+
+# Social icons and sharing options
+#
+# Social settings are used in two places:
+# * In the footer, as links to your personal profiles
+# * After each blog post for sharing widgets
+#
+# Example:
+#
+# social:
+#   - name: Twitter                         # Name of the service
+#     icon: twitter                         # Font Awesome icon to use (minus fa- prefix)
+#     username: "@SafingIO"                 # (User) Name to display in the footer link
+#     url: https://twitter.com/SafingIO     # URL of your profile (leave blank to not display in footer)
+#     desc: Follow us Twitter               # Description to display as link title, etc
+#     share: true                           # Include in the "Share" section of posts (social_sharing must be true for this)
+
+social_sharing: false
+communities:
+  twitter:
+    name: Twitter
+    icon: twitter
+    username: SafingIO
+    url: https://twitter.com/SafingIO
+    desc: Follow me on Twitter
+    share: false
+  github:
+    name: GitHub
+    icon: github
+    username: Safing
+    url: https://github.com/Safing
+    desc: Fork us on GitHub
+    share: false

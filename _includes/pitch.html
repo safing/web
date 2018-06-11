@@ -1,0 +1,9 @@
+<div class="row vertical-align padding-top-40 padding-bottom-40">
+  {% if modulo == 0 %}
+    {% include pitch/image.html %}
+    {% include pitch/text.html %}
+  {% else %}
+    {% include pitch/text.html %}
+    {% include pitch/image.html %}
+  {% endif %}
+</div>

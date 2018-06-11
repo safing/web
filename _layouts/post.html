@@ -1,0 +1,91 @@
+---
+layout: page_column
+title: "Blog"
+heading: "Blog"
+subheading: "Announcements and things we'd like to share"
+---
+
+<div class="post">
+  <div class="date">
+    <a href="{{ site.base_url }}blog/all/#{{ page.date | date: "%Y" }}" class="stealth-href">{{ page.date | date: "%-d %b %Y" }}</a>
+  </div>
+  <div class="tags">
+    {% for tag in page.tags %}
+      <a href="{{ site.base_url }}blog/tags/#{{ tag }}" class="stealth-href"><i class="fa fa-tag fa-flip-horizontal"></i> {{ tag }}</a>
+    {% endfor %}
+  </div>
+
+  <div class="content">
+    {{ content | replace: '<!--break-->', '<a class="anchor" id="continue"></a>' }}
+  </div>
+</div>
+
+{% if site.social_sharing == true %}
+<section class="share">
+  <span>Share: </span>
+  {% for social in site.social %}
+    {% capture full_url %}{{ site.url }}{{ site.base_url }}{{ page.url }}{% endcapture %}
+    {% if social.name == "Twitter" and social.share == true %}
+      <a href="//twitter.com/share?text={{ page.title | cgi_escape }}&url={{ full_url }}&via={{social.username}}"
+        onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+        <i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+      </a>
+    {% endif %}
+    {% if social.name == "Facebook" and social.share == true %}
+      <a href="//www.facebook.com/sharer.php?t={{ page.title | cgi_escape }}&u={{ full_url }}"
+        onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+        <i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+      </a>
+    {% endif %}
+    {% if social.name == "Google+" and social.share == true %}
+      <a href="//plus.google.com/share?title={{ page.title | cgi_escape }}&url={{ full_url }}"
+        onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+        <i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+      </a>
+    {% endif %}
+    {% if social.name == "LinkedIn" and social.share == true %}
+      <a href="//www.linkedin.com/shareArticle?mini=true&url={{ full_url }}"
+        onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+        <i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+      </a>
+    {% endif %}
+    {% if social.name == "Pinterest" and social.share == true %}
+      <a href="//www.pinterest.com/pin/create/button/?description={{ page.title | cgi_escape }}&url={{ full_url }}&media={{ site.url }}{% if page.cover %}{{ page.cover | prepend: site.base_url  }}{% elsif site.cover %}{{ site.cover | prepend: site.base_url }}{% else %}{{ site.logo | prepend: site.base_url }}{% endif %}"
+        onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+        <i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+      </a>
+    {% endif %}
+    {% if social.name == "Reddit" and social.share == true %}
+      <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent('{{ full_url }}') + '&title={{page.title}}'; return false">
+        <i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+      </a>
+    {% endif %}
+  {% endfor %}
+</section>
+{% endif %}
+{% if site.inter_post_navigation == true %}
+  <section class="post-navigation">
+    <span class="prev-post">
+      {% if page.previous.url %}
+        <a href="{{page.previous.url | prepend: site.base_url}}">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x"></i>
+            <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
+          </span>
+          <span class="page-number">{{page.previous.title}}</span>
+        </a>
+      {% endif %}
+    </span>
+    <span class="next-post">
+      {% if page.next.url %}
+        <a href="{{page.next.url | prepend: site.base_url}}">
+          <span class="page-number">{{page.next.title}}</span>
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x"></i>
+            <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      {% endif %}
+    </span>
+  </section>
+{% endif %}

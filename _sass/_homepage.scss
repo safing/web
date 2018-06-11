@@ -1,0 +1,30 @@
+#features {
+  padding-top: 0px;
+
+  p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+#vision-mission {
+  padding-bottom: 30px;
+  padding-top: 60px;
+
+  @media(min-width: 768px) {
+    .row.vertical-align {
+      &:last-child {
+        margin-left: 110px;
+      }
+
+      @media(min-width: 990px) {
+        div:first-child {
+          padding: 0;
+        }
+        div:last-child {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}

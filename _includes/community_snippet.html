@@ -1,0 +1,37 @@
+{% include page_divider.html %}
+
+<span class="community-snippet">
+  <aside>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center">
+          <p class="lead">
+            {% if page.community_snippet_intro %}
+              {{ page.community_snippet_intro }}
+            {% else %}
+              Interested?&nbsp;&nbsp;&nbsp;Eager?&nbsp;&nbsp;&nbsp;Confused?
+            {% endif %}
+          <p>
+        </div>
+      </div>
+      <hr class="primary">
+      <a href="{{ site.community_hub_url }}">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <div class="row vertical-align padding-bottom-40">
+              <div class="col-lg-12 col-xs-12">
+                <h2>Get involved!</h2>
+                <p class="lead">
+                  Be&nbsp;part&nbsp;of&nbsp;the&nbsp;team&nbsp;-
+                  <span class="color-primary">
+                    join&nbsp;our&nbsp;community&nbsp;&nbsp;<i class="fa fa-users"></i>
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </aside>
+</span>
