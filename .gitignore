@@ -46,3 +46,5 @@ _site/
 .sass-cache/
 .jekyll-metadata
 
+# others
+~$*
