@@ -48,3 +48,16 @@ _site/
 
 # others
 ~$*
+
+# from Github server
+_theme_packages
+_res
+
+Thumbs.db
+
+!.gitkeep
+
+.rbenv-version
+.rvmrc
+.bundle
+*.plist
