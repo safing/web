@@ -41,6 +41,6 @@ Instead of pushing a free product and worry about the business model later (*cou
 
 - Portmaster is and always will be free. 'Put you back in control of your data' is our core vision, which is why we concluded to release Portmaster for free.
 
-- Port17 will be a subscription based service. Of course we need to cover our costs and pay our bills. But more importantly we want to have the funds to further engage in our mission and to extend our services. That is why we decided on the subscription model - instead of building just on donations - which we feel would be infeasible.
+- Gate17 will be a subscription based service. Of course we need to cover our costs and pay our bills. But more importantly we want to have the funds to further engage in our mission and to extend our services. That is why we decided on the subscription model - instead of building just on donations - which we feel would be infeasible.
 
-If you want to support us, use Port17! And if you want to go further, get involved in our community!
+If you want to support us, use Gate17! And if you want to go further, get involved in our community!

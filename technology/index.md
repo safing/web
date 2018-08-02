@@ -18,10 +18,10 @@ Application profiles describe an application's behavior in the sense of how it i
 Profiles represent an application as experienced by the user, not as defined by technology - making them easy to understand and superior to other common application classification approaches.
 They can be either created by users themselves or - most of the times - obtained through Stamp <span class="text-lighter">(explained later)</span>.
 
-## Port17
+## Gate17
 
-Port17 brings together several state of the art network technologies and gives them a new spicy twist 🌶️.  
-The goal of Port17 is to protect connection data as well as metadata from [surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism).
+Gate17 brings together several state of the art network technologies and gives them a new spicy twist 🌶️.  
+The goal of Gate17 is to protect connection data as well as metadata from [surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism).
 
 Adapted core concepts:
 
@@ -32,7 +32,7 @@ Adapted core concepts:
 
 The new spicy twist 🌶️:
 
-- To protect network data and metadata as long as possible, Port17 selects exit nodes [^exitnode] in proximity to the destination server.
+- To protect network data and metadata as long as possible, Gate17 selects exit nodes [^exitnode] in proximity to the destination server.
 - Routes are calculated for maximum speed by default and use a minimum of 3 nodes. This behavior changes based on the active security level, providing slower, but tougher routes with more nodes.
 - Exit node [^exitnode] selection can be influenced up to application/domain pairs.
 - Unencrypted connections are only handled by trusted nodes run by Safing. In this sense we act as a trusted anchor until all the web is encrypted. There is no room for MITM-ing [^mitm] nodes.
@@ -49,7 +49,7 @@ The new spicy twist 🌶️:
 [^mitm]: [Man-in-the-Middle Attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
 [^osi]: [OSI network model](https://en.wikipedia.org/wiki/OSI_model)
 
-<span class="note-light"> A final note: You may have noted that Port17 is, in some aspects, similar to the [Tor Project](https://www.torproject.org/). The key difference is, that Port17 focuses on speed and usability, but does not claim to match Tor's level of security. We will provide a in-depth comparison in the future.</span>
+<span class="note-light"> A final note: You may have noted that Gate17 is, in some aspects, similar to the [Tor Project](https://www.torproject.org/). The key difference is, that Gate17 focuses on speed and usability, but does not claim to match Tor's level of security. We will provide a in-depth comparison in the future.</span>
 
 ## Stamp
 
