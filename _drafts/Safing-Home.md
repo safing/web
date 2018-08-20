@@ -6,11 +6,13 @@ Your digital safe harbor
 
 ## Take back control of your data.
 
-We provide you with a simple but powerful tool that manages your connections to the Internet — protecting your privacy. [Learn about Port Master](#)
+<!-- We provide you with a simple but powerful tool that manages your connections to the Internet — protecting your privacy. [Learn about Port Master](#) -->
 
-On top of that we make sure the data sent out is protected from prying eyes on the way to its destination. [Learn about Port 17](#)
+With the Portmaster you are back in charge of you digital self.
+You can decide weather you want to share your data or not.
 
-— 
+<!-- On top of that we make sure the data sent out is protected from prying eyes on the way to its destination. [Learn about Port 17](#) -->
+To further protect your private data you can make use of Gate17. A privacy first network which enables you appear on 100+ places in the Web at the same time.
 
 ### Portmaster, Your application firewall
 The Port Master ensures that applications only send data to service providers you trust. This way your device leaks no data. To ensure usability and effectiveness the firewall has pre-configured application profiles which know which connections are required for an optimal and private experience. 
