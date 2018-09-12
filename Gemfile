@@ -5,6 +5,8 @@ gem 'jekyll'
 group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll-minifier'
+  gem 'jekyll-haml'
+  gem 'jekyll-less'
 end
 
 gem 'therubyracer'
