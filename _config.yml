@@ -16,7 +16,6 @@ description: > # this means to ignore newlines until "base_url:"
 base_url: "/" # the subpath of your site, e.g. /blog
 assets_url: "/assets/"
 vendor_url: "/vendor/"
-community_hub_url: "/community-hub/"
 url: "https://safing.io" # the base hostname & protocol for your site
 cover: "img/cover.jpg"
 logo: "img/logo_name_70h_reduced.png"
@@ -29,6 +28,13 @@ paginate: 10
 paginate_path: "blog/page:num"
 excerpt_separator: "<!--break-->"
 inter_post_navigation: false
+
+our_values_url: "/our-values/"
+technology_url: "/technology/"
+download_url: "/download/"
+community_hub_url: "/community-hub/"
+contact_url: "/contact/"
+blog_url: "/blog/"
 
 defaults:
   -

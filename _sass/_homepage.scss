@@ -1,30 +1,65 @@
-#features {
-  padding-top: 0px;
-
-  p {
-    padding-top: 5px;
-    padding-bottom: 5px;
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  html {
+    font-size: 1.0rem;
   }
 }
 
-#vision-mission {
-  padding-bottom: 30px;
-  padding-top: 60px;
-
-  @media(min-width: 768px) {
-    .row.vertical-align {
-      &:last-child {
-        margin-left: 110px;
-      }
-
-      @media(min-width: 990px) {
-        div:first-child {
-          padding: 0;
-        }
-        div:last-child {
-          padding-left: 0;
-        }
-      }
-    }
+/* Tablet / iPad Portrait */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  html {
+    font-size: 1.2rem;
   }
 }
+
+/* Computer / Desktop / iPad Landscape */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  html {
+    font-size: 1.3rem;
+  }
+}
+
+/* Large Monitor */
+@media only screen and (min-width: 1200px) and (max-width: 1919px) {
+  html {
+    font-size: 1.3rem;
+  }
+}
+
+/* Widescreen Monitor */
+@media only screen and (min-width: 1920px) {
+  html {
+    font-size: 1.3rem;
+  }
+}
+
+// #features {
+//   padding-top: 0px;
+//
+//   p {
+//     padding-top: 5px;
+//     padding-bottom: 5px;
+//   }
+// }
+//
+// #vision-mission {
+//   padding-bottom: 30px;
+//   padding-top: 60px;
+//
+//   @media(min-width: 768px) {
+//     .row.vertical-align {
+//       &:last-child {
+//         margin-left: 110px;
+//       }
+//
+//       @media(min-width: 990px) {
+//         div:first-child {
+//           padding: 0;
+//         }
+//         div:last-child {
+//           padding-left: 0;
+//         }
+//       }
+//     }
+//   }
+// }

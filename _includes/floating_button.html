@@ -1,0 +1,31 @@
+<div id="floating-button">
+  <button class="circular ui icon button sidebar-toggle">
+    <i class="sidebar icon"></i>
+  </button>
+  {% if include.download %}
+  <div class="spacer"></div>
+  <a href="{{ site.download_url }}">      
+    <button class="circular ui icon button">
+      <i class="download icon"></i>
+    </button>
+  </a>
+  {% endif %}
+</div>
+
+<script type="text/javascript">
+
+  function scrollFunction() {
+    var h = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight
+    if (document.body.scrollTop > h || document.documentElement.scrollTop > h) {
+      document.getElementById("floating-button").classList.add("visible");
+    } else {
+      document.getElementById("floating-button").classList.remove("visible");
+    }
+  }
+  window.onscroll = scrollFunction
+
+</script>
+
+<!-- <div class="ui icon button mobile-hidden" onclick="topFunction()" id="myBtn" title="Go to top" style="padding: 0px; font-size: 2rem;">
+  <i class='ui chevron up icon' style='color: #f39200; '></i>
+</div> -->
