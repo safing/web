@@ -5,8 +5,11 @@ heading: "Blog"
 subheading: "Announcements and things we'd like to share"
 ---
 
+<p style="text-align: center; margin-top: -40px;">For announcements, please check <a href="/blog/tags/#announcement">here</a>.</p>
+
 <div class="post-list">
   {% for post in site.posts limit:10 %}
+    {% unless post.tags contains "announcement" %}
     <div class="post">
       {% include page_divider.html %}
 
@@ -37,6 +40,7 @@ subheading: "Announcements and things we'd like to share"
       </div>
 
     </div>
+    {% endunless %}
   {% endfor %}
 </div>
 
