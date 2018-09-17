@@ -17,7 +17,17 @@
   background-color: $fill_medium;
   color: $white;
 }
+.ui.button.safing-full {
 
+  color: $fill_lighter;
+  background-color: $white;
+}
+
+.ui.button.safing-full:hover {
+
+  background-color: $fill_lighter;
+  color: $white;
+}
 
 
 
