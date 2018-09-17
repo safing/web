@@ -1,12 +1,15 @@
 body, .ui.header, h1, h2, h3, h4, h5, h6, p {
   font-family: 'Roboto', 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
+
 a{
-  color: $primary;
+  color: $anchor;
 }
 a:hover{
-  color: $secondary;
+  color: $anchor_hover;
+  text-decoration: underline;
 }
+
 .color-primary {
   color: $primary;
 }
