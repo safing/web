@@ -1,28 +1,30 @@
-.ui.button.safing-active {
-  color: $white;
+.ui.safing-primary {
   background-color: $primary;
+
+  &.button {
+    color: $white;
+
+    &:hover {
+      background-color: darken($primary, 5%);
+    }
+  }
 }
 
-.ui.button.safing-active:hover {
-  background-color: $anchor_hover;
-  color: $white;
-}
-
-.ui.button.safing-secondary{
+.ui.button.safing-secondary {
   color: $secondary;
+
+  &:hover {
+    color: $secondary;
+  }
 }
 
-.ui.button.safing-secondary:hover{
-  background-color: $fill_medium;
-  color: $white;
-}
 
 .ui.button.safing-full {
-  color: $fill_lighter;
+  color: $secondary;
   background-color: $white;
-}
 
-.ui.button.safing-full:hover {
-  background-color: $fill_lighter;
-  color: $white;
+  &:hover {
+    background-color: $secondary;
+    color: $white;
+  }
 }

@@ -5,13 +5,18 @@ body, .ui.header, h1, h2, h3, h4, h5, h6, p {
 a {
   color: $anchor;
 }
-a:hover {
+
+p a:hover {
   color: $anchor_hover;
   text-decoration: underline;
 }
 
 .color-primary {
   color: $primary;
+
+  &:hover {
+    color: darken($primary, 10%)
+  }
 }
 
 .color-primary-important {
