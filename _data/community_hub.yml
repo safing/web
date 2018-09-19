@@ -5,7 +5,7 @@ communities:
       Bothered by visiting safing.io every day? Subscribe to our newsletter to stay informed!
 #
     image:
-      icon: far fa-envelope-open fa-7x
+      icon: huge envelope open outline icon
       alt: newsletter
       class: color-primary
     url: 'https://safing.us13.list-manage.com/subscribe?u=d8e68cb729409a59d97df4790&id=d57e88b8a3'
@@ -15,7 +15,7 @@ communities:
       One of our lead developers gives you a look inside his coding shell. Watch the development of Stamp in real time!
 #
     image:
-      icon: fab fa-twitch fa-7x
+      icon: huge twitch icon
       alt: twitch
       class: twitch
     url: https://twitch.tv/davegson
@@ -25,7 +25,7 @@ communities:
       Join our active community, discussing Safing and other privacy related topics in our Online Forum. Because we believe to regain your privacy you need more than just some tools.&nbsp;&nbsp;&nbsp;_[Coming soon... ]_
 #
     image:
-      icon: fab fa-discourse fa-7x
+      icon: huge discourse icon
       alt: discourse
     url: '#'
     pending: true
@@ -44,7 +44,7 @@ communities:
       Want to be part of our Twitter Force? Follow us @SafingIO PM’s are closed 😉
 #
     image:
-      icon: fab fa-twitter fa-7x
+      icon: huge twitter icon
       alt: twitter
       class: twitter
     url: https://twitter.com/SafingIO
@@ -54,6 +54,6 @@ communities:
       Don’t like our personalities? Check out our code. Where we try to be our best selves.
 #
     image:
-      icon: fab fa-github fa-7x
+      icon: huge github icon
       alt: github
     url: https://github.com/Safing
