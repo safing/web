@@ -1,49 +1,43 @@
 # Title
 
-Take Back Control of Your Data! 
+Take Back Control of Your Data!
 
 
-# PM
+# Portmaster - Application Firewall
 
-The Portmaster enables you to protect your data on your device.
-You are back in charge of outgoing connections, you choose what data is allowed to be sent.
+The Portmaster enables you to protect your data on your device. You are back in charge of your outgoing connections: you choose what data you share and what data stays private.
+
 Now you can use all applications without sacrificing privacy nor features.
+Use your applications without sacrificing privacy nor features!
 
+REVIEW: textfluss ab 2. Satz ist ein wenig rau
 
-# G17
+# Gate17 - your Secure Network
 
-<!-- With Gate 17 the data you send out into the open internet is secured.
-Your data is encrypted on your device and sent out into the world through our secure network. Each connection on its very own path, calculated to minimize exposure on the open web and maximize your privacy. Because each connection is handled and routed separately you leave the network on multiple places at once!
+Stay private while surfing the Web with Gate17. Now you are in charge of where your traffic is going: you can handle connections separately, choosing where each shall leave the network.
 
+It gives you the power to appear at multiple places on the web at once!
 
-Start with a value – like with PM!  -->
+# Privacy First
 
-
-Gate17 lets you stay private while surfing the Web.
-Now you are in charge of where your traffic is going, you can handle each connection separately, choosing where it shall leave the network.
-It gives you the power to appear at multiple places on the web at once.
-
-
-# Privacy first
-
-For us, privacy isn’t a feature – it’s the foundation we build our products on.
+For us, privacy isn’t just a feature – it’s the foundation we build our products on.
 We make sacrifices on all other fronts to protect your privacy and push the limits of technology to do so.
 
 
-# Opensource & Ethical Funding – Transparency
+# Open Source & Ethical Funding
 
-Because privacy requires trust, transparency is a major topic for us, therefor we release our code as Opensource.
-But Transparency can’t just stop there. To show you our commitment to the path we are taking we are fully transparent about our funding and partnerships.
+Transparency is a key value for us, therefore we release our code open source. To truly be a privacy first company, we also believe that we must be open about all our financial influences & partnerships.
 
+Learn more...
 
 # Community
 
-Privacy isn’t a one shoe fits all kind of thing. And we don’t claim to have an all-encompassing solution. You will need more than what we provide to get the best privacy possible. So, we create spaces where you can talk about all thing’s privacy.
+Privacy isn’t a 'one shoe fits all' kind of thing. And we do not claim to have an all-encompassing solution. You will need more than what we provide to get the best privacy possible. So, we create spaces where you can talk about all things privacy.
 
 
 # Blog
 
 <!-- It would be too much to publish our every thought on our main homepage. So, we share our ideas and discuss topics - all related to privacy - here. -->
 
-For everything to long for a tweet or even a forum post we keep it old-school with a blog.
-You might find some think pieces, product announcements and similar stuff in here.
+For everything too long for a tweet or even a forum post, we keep it old school with a blog.
+Over there, you might find some think pieces, product announcements and similar stuff.
