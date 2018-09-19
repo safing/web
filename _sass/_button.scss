@@ -1,55 +1,28 @@
 .ui.button.safing-active {
-
   color: $white;
   background-color: $primary;
 }
 
 .ui.button.safing-active:hover {
-
   background-color: $anchor_hover;
   color: $white;
 }
-.ui.button.safing-secondary{
 
+.ui.button.safing-secondary{
   color: $secondary;
 }
-.ui.button.safing-secondary:hover{
 
+.ui.button.safing-secondary:hover{
   background-color: $fill_medium;
   color: $white;
 }
-.ui.button.safing-full {
 
+.ui.button.safing-full {
   color: $fill_lighter;
   background-color: $white;
 }
 
 .ui.button.safing-full:hover {
-
   background-color: $fill_lighter;
   color: $white;
-}
-
-
-
-//go to top button
-#myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 200px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: $secondary; /* Set a background color */
-    color: $white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-}
-
-#myBtn:hover {
-    background-color: $secondary; /* Add a dark-grey background on hover */
-    //old color: #555
 }

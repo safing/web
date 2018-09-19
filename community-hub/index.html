@@ -6,12 +6,12 @@ exclude_community_snippet: true
 ---
 <div class="community-hub">
   {% for pitch in site.data.community_hub.communities %}
-  <a href="{{ pitch.url }}"{% if pitch.pending %}{% else %} target="_blank"{% endif %}>
-  <div class="ui basic segment">
-      {% comment %}0 = even (right text), 1 = odd (left text){% endcomment %}
-      {% assign modulo = forloop.index | modulo: 2 %}
-      {% include pitch.html %}
-    </div>
+    <a href="{{ pitch.url }}"{% if pitch.pending %}{% else %} target="_blank"{% endif %}>
+      <div class="ui basic segment">
+        {% comment %}0 = even (right text), 1 = odd (left text){% endcomment %}
+        {% assign modulo = forloop.index | modulo: 2 %}
+        {% include pitch.html %}
+      </div>
     <a>
   {% endfor %}
 </div>
