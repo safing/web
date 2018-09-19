@@ -1,19 +1,20 @@
 .ui.button.safing-active {
-  box-shadow: 0 0 0 2px $primary inset !important;
-  color: $primary;
+
+  color: $white;
+  background-color: $primary;
 }
 
 .ui.button.safing-active:hover {
-  box-shadow: 0 0 0 2px $primary inset !important;
-  background-color: $primary;
+
+  background-color: $anchor_hover;
   color: $white;
 }
 .ui.button.safing-secondary{
-  box-shadow: 0 0 0 2px $secondary inset !important;
+
   color: $secondary;
 }
 .ui.button.safing-secondary:hover{
-  box-shadow: 0 0 0 2px $fill_medium inset !important;
+
   background-color: $fill_medium;
   color: $white;
 }
