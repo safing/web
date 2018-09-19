@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang={{ site.lang }}>
+<html lang={{ site.lang }} >
   <head>
     {% include head.html %}
   </head>
   <body>
     {% include header.html %}
-    <div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-              <h1 class="section-heading padding-top-40">
+    {% include floating_button.html download=true %}
+    <div class="content" style="padding: 1rem 0 0 0;">
+      <div class="ui basic center aligned very padded segment" style="margin: 0;"  >
+
+              <h1 class="">
               {% if page.heading %}
                 {{ page.heading }}
               {% elsif page.title %}
@@ -19,7 +19,7 @@
               {% endif %}
             </h1>
             {% if page.subheading %}
-              <h3 class="section-subheading text-muted padding-bottom-40">
+              <h3 class="">
                 {% if page.subheading %}
                   {{ page.subheading }}
                 {% elsif page.title %}
@@ -28,8 +28,7 @@
                 {% endif %}
               </h3>
             {% endif %}
-          </div>
-        </div>
+
         {% if page.include_divider %}
           {% include page_divider.html %}
         {% endif %}

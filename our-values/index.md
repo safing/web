@@ -23,7 +23,7 @@ Our mission at Safing is to make sure everyone can protect their digital selves 
 
 ## Open Source
 
-To ensure maximum privacy for our users and to build trust we need to be transparent in every aspect. That's why we [publish all of our hard work](({{ site.communities.github.url }})) as open source. This way you can have a look at our source code and inspect if we truly stay to our word.
+To ensure maximum privacy for our users and to build trust we need to be transparent in every aspect. That's why we [publish all of our hard work]({{ site.communities.github.url }}) as open source. This way you can have a look at our source code and inspect if we truly stay to our word.
 
 ## Ethical Funding
 
@@ -33,7 +33,7 @@ Taking money always means opening up to influences. That is why we see it as our
 
 For us, ethical funding also means we want to make sure that our users know who paid for the programs and services they use.
 
-As a result we have adopted a transparent funding policy to openly share [how we are funded](/funding). All our funding (and partnerships) will remain public!
+As a result we have adopted a transparent funding policy to openly share how we are funded. All our funding (and partnerships) will remain public!
 
 #### Clear Business Model
 
@@ -44,3 +44,80 @@ Instead of pushing a free product and worry about the business model later (*cou
 - Gate17 will be a subscription based service. Of course we need to cover our costs and pay our bills. But more importantly we want to have the funds to further engage in our mission and to extend our services. That is why we decided on the subscription model - instead of building just on donations - which we feel would be infeasible.
 
 If you want to support us, use Gate17! And if you want to go further, get involved in our community!
+
+#### Funding and Partnerships &nbsp;&nbsp;&nbsp; <small class="text-lighter">updated 09.2018</small>
+
+Financially, we started out with a funding from [Netidee](https://www.netidee.at/) in 2017, a initiative by the [Internet Foundation Austria](https://www.nic.at/en) that funds open source projects.
+We also started to invest our personal time and money to further push the project, which would drastically increase over the next year.
+In 2018, we finished the Netidee funded project scope, and became participant in the ESA-BIC Austria.
+
+<div class="margin-top-80"></div>
+
+<div class="ui two stackable cards">
+
+  <!-- Netidee card -->
+  <div class="ui card">
+    <div class="image">
+      <img src="{{ site.assets_url }}img/netidee.png">
+    </div>
+    <div class="content">
+      <a class="header" href="https://www.netidee.at/">Netidee</a>
+      <div class="meta">
+        <span class="date">2017-2018</span>
+      </div>
+      <div class="description">
+        <a href="https://www.netidee.at/">Netidee</a> funding helped us to kickstart all this.
+      </div>
+    </div>
+    <div class="extra content">
+        <i class="money icon"></i> received 47.799€ funding
+    </div>
+  </div>
+
+  <!-- ESA-BIC card -->
+  <div class="ui card">
+    <div class="image" style="padding: 20px; background-color: white;">
+      <img src="{{ site.assets_url }}img/esa-bic_austria.svg">
+    </div>
+    <div class="content">
+      <a class="header" href="http://www.esa-bic.at/">ESA-BIC Austria</a>
+      <div class="meta">
+        <span class="date">2018-2020</span>
+      </div>
+      <div class="description">
+        Safing ICS Technologies GmbH is participating in the <a href="http://www.esa-bic.at/">ESA Business Incubation Centre Austria</a>.<br>
+        We are incubated by <a href="http://www.accent.at/home.html">Accent</a>, with <a href="http://sciencepark.at/">SPG</a> as the contractual partner.
+      </div>
+    </div>
+    <div class="extra content">
+        <i class="user icon"></i> coaching over the incubation timespan
+        <div class="margin-top-10"></div>
+        <i class="money icon"></i> received 10.000€ in funding
+        <div class="margin-top-10"></div>
+        <i class="clock icon"></i> another 40.000€ held out in prospect
+    </div>
+  </div>
+
+  <!-- Fund of Excellence -->
+  <div class="ui card">
+    <div class="header">
+      <h1 style="font-size: 3rem; text-align: center;">FoE</h1>
+    </div>
+    <div class="content">
+      <a class="header" href="https://www.fundofexcellence.com/">Fund of Excellence</a>
+      <div class="meta">
+        <span class="date">2018-2019</span>
+      </div>
+      <div class="description">
+        The <a href="https://www.fundofexcellence.com/">Fund of Excellence</a> is an investment fund by the <a href="https://www.erstegroup.com/en/home">Erste Group</a>, that invests in people, rather than companies.<br>
+        They are actively investing in one of Safing's founders.
+      </div>
+    </div>
+    <div class="extra content">
+        <i class="money icon"></i> receiving continuous personal funding
+    </div>
+  </div>
+
+</div>
+
+<div class="margin-top-80"></div>

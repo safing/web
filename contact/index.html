@@ -1,0 +1,42 @@
+---
+layout: page
+title: Contact
+heading: Contact
+subheading: Contact us, we'd like to hear from you!
+exclude_community_snippet: true
+---
+<div class="ui container">
+<div class="text-center contact-text">
+  You can reach us at <span class="contact-email">@</span>.<br>
+  <i class="fa fa-lg fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;We are located in Austria.<br>The Safing ICS Technologies GmbH is the legal entity behind Safing and was founded in 2017
+</div>
+</div>
+
+<div class="contact-image" style="margin-bottom: -6px;">
+  <img src="{{ site.assets_url }}img/contact_img.jpg">
+</div>
+
+<script type="text/javascript">
+  // email de/obfuscation
+  function debfus(s) {
+    var n = 0
+    var r = ""
+    for( var i = 0; i < s.length; i++)
+    {
+      n = s.charCodeAt( i )
+      if( n >= 8364 )
+      {
+        n = 128
+      }
+      r += String.fromCharCode( n - 1 )
+    }
+    return r
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+    var elements = document.getElementsByClassName("contact-email")
+    var email = debfus('{{ site.emailobfuscated }}')
+    for (var i=0, len=elements.length; i<len; i++) {
+      elements[i].innerHTML = email
+    }
+  })
+</script>

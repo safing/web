@@ -3,38 +3,168 @@ title: Safing
 ---
 <!DOCTYPE html>
 <html lang={{ site.lang }}>
-  <head>
-    {% include head.html %}
+<head>
+  {% include head.html %}
+</head>
+<body>
+  {% include header.html home=true %}
+  {% include floating_button.html download=true %}
+  <div class='content' style='background-image: url("/assets/img/shortlandscape.png"); background-size: 100%;background-repeat: no-repeat;'>
+    <div class='ui grid'>
+      <div class='computer only sixteen wide column' style='height: 10rem;'></div>
+      <div class='tablet only sixteen wide column' style='height: 8rem;'></div>
+      <div class='mobile only sixteen wide column' style='height: 5rem;'></div>
+      <div class='computer tablet only two wide column'></div>
+      <div class='ten wide column'>
+        <h1 class='ui inverted header' style="margin: 10px;">
+          Take Back Control of Your Data!
+        </h1>
+        <a href="/download">
+          <button class='ui safing-primary large button' style="margin: 5px 0px 5px 10px;">
+            Download
+          </button>
+        </a>
+        <a href="#portmaster">
+          <button class='ui safing-secondary large button' style="margin: 5px 0px 5px 10px;">
+            Learn more
+          </button>
+        </a>
+      </div>
+      <div class='tablet only sixteen wide center aligned column' style='padding-top: 10rem;'></div>
+      <div class='computer only sixteen wide center aligned column' style='padding-top: 18rem;'>
+        <a href="#portmaster">
+          <i class='ui chevron down icon' style='color: #f0903fb3; font-size: 4rem;'></i>
+        </a>
+      </div>
+    </div>
+    <div style='background-image: url("/assets/img/lighthouse.png"); background-position: bottom right; background-repeat: no-repeat; background-size: 44%;'>
+      <div class='ui container'>
+        <div class='ui basic segment' id="portmaster">
+          <div class='ui middle aligned centered grid'>
+            <div class='mobile tablet only column' style='width: 9rem;'>
+              <img class='ui fluid medium right floated image' src='{{ site.assets_url }}img/portmasterhandy.png'>
+            </div>
+            <div class='ten wide computer sixteen wide mobile column'>
+              <h2>
+                Portmaster - Application Firewall
+              </h2>
+              <p>
+                The Portmaster enables you to protect your data on your device. You are back in charge of your outgoing connections: you choose what data you share and what data stays private.
+              </p>
+              <a href="/technology">
+                <button class='ui safing-secondary button'>
+                  Technical Details
+                </button>
+              </a>
+              <a href='/download'>
+                <button class='ui safing-primary button'>
+                  Download
+                </button>
+              </a>
+            </div>
+            <div class='computer only six wide column' style='width: 15rem;'>
+              <img class='ui fluid medium right floated image' src='{{ site.assets_url }}img/portmasterbig.png'>
+            </div>
+          </div>
+        </div>
+        <div class='ui basic segment'>
+          <div class='ui middle aligned centered grid'>
+            <div class='computer only six wide column' style='width: 15rem;'>
+              <img class='ui fluid medium image' src='{{ site.assets_url }}img/gate17.png'>
+            </div>
+            <div class='mobile tablet only column' style='width: 9rem;'>
+              <img class='ui fluid medium image' src='{{ site.assets_url }}img/gate17.png'>
+            </div>
+            <div class='ten wide computer sixteen wide mobile right aligned column'>
+              <h2>
+                Gate17 is your secure network
+              </h2>
+              <p>
+                Stay private while surfing the Web with Gate17. Now you are in charge of where your traffic is going: you can handle connections separately, choosing where each shall leave the network.
+                <br/>
+                <br/>
+                It gives you the power to appear at multiple places on the web at once!
+              </p>
+              <a href="/technology">
+                <button class='ui safing-secondary right floated button'>
+                  Technical Details
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class='ui basic padded segment'>
+          <div class='ui middle aligned centered grid'>
+            <div class='mobile tablet only column' style='width: 13rem;'>
+              <img class='ui fluid image' src='{{ site.assets_url }}img/box.png'>
+            </div>
+            <div class='ten wide computer sixteen wide mobile column'>
+              <h2>
+                Privacy First
+              </h2>
+              <p>
+                For us, privacy isn't just a feature – it's the foundation we build our products on. We make sacrifices on all other fronts to protect your privacy and push the limits of technology to do so.
+              </p>
+              <a href="/our-values">
+                <button class='ui safing-secondary button'>
+                  Learn more ...
+                </button>
+              </a>
+            </div>
+            <div class='computer only six wide column' style='width: 20rem; padding: 0;'>
+              <img class='ui fluid image' src='{{ site.assets_url }}img/box.png'>
+            </div>
+          </div>
+        </div>
+        <div class='ui basic padded segment'>
+          <div class='ui middle aligned centered grid'>
+            <div class='computer only six wide column' style='width: 20rem; padding: 0;'>
+              <img class='ui fluid image' src='{{ site.assets_url }}img/message_in_a_bottle.png'>
+            </div>
+            <div class='mobile tablet only column' style='width: 13rem;'>
+              <img class='ui fluid image' src='{{ site.assets_url }}img/message_in_a_bottle.png'>
+            </div>
+            <div class='ten wide computer sixteen wide mobile right aligned column'>
+              <h2>
+                Open Source & Ehtical Funding
+              </h2>
+              <p>
+                Transparency is a key value for us, therefore we release our code open source. To truly be a privacy first company, we also believe that we must be open about all our financial influences & partnerships.
+              </p>
+              <a href="/our-values#open-source">
+                <button class='ui safing-secondary right floated button'>
+                  Learn more ...
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class='ui basic segment' style='padding-bottom: 5rem;'>
+          <div class='ui middle aligned grid'>
+            <div class='eight wide computer sixteen wide mobile column'>
+              <h2>
+                Community
+              </h2>
+              <p>
+                Privacy isn't a "one shoe fits all" kind of thing. And we do not claim to have an all-encompassing solution. You will need more than what we provide to get the best privacy possible. So, we create spaces where you can talk about all things privacy.
+              </p>
+              <a href="/community-hub">
+                <button class='ui safing-primary button'>
+                  Join our community
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="{{ site.vendor_url }}css/animate.min.css" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body id="page-top">
-    {% include header.html  %}
-    {% include index/cover.html  %}
-    {% include index/statements.html %}
-    {% include page_divider.html %}
-    {% include index/features.html %}
     {% include community_snippet.html %}
     {% include footer.html %}
-  </body>
-
-  <foot>
-    <!-- load JS after everything else -->
-    {% include foot.html %}
-    <!-- requirements for creative.js -->
-    <script src="{{ site.vendor_url }}js/jquery.easing.min.js"></script>
-    <script src="{{ site.vendor_url }}js/jquery.fittext.js"></script>
-    <script src="{{ site.vendor_url }}js/wow.min.js"></script>
-
-    <script src="{{ site.vendor_url }}js/creative.js"></script>
-  </foot>
+  </div>
+</body>
+<foot>
+  {% include foot.html home=true %}
+  <script src='{{ site.assets_url }}js/home.js'></script>
+</foot>
 </html>

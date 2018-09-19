@@ -1,37 +1,36 @@
-{% include page_divider.html %}
-
 <span class="community-snippet">
   <aside>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-md-offset-3 text-center">
-          <p class="lead">
+    <div class='ui vertical footer segment snippet'>
+      <div class="container">
+        <div class='ui basic middle aligned center aligned segment'>
             {% if page.community_snippet_intro %}
-              {{ page.community_snippet_intro }}
+              <p>
+                {{ page.community_snippet_intro }}
+              </p>
             {% else %}
-              Interested?&nbsp;&nbsp;&nbsp;Eager?&nbsp;&nbsp;&nbsp;Confused?
+              <p style='word-spacing: 30px;'>
+                Interested? Eager? Confused?
+              <p>
             {% endif %}
-          <p>
         </div>
-      </div>
-      <hr class="primary">
-      <a href="{{ site.community_hub_url }}">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2 text-center">
-            <div class="row vertical-align padding-bottom-40">
-              <div class="col-lg-12 col-xs-12">
-                <h2>Get involved!</h2>
-                <p class="lead">
-                  Be&nbsp;part&nbsp;of&nbsp;the&nbsp;team&nbsp;-
+        <div class='ui divider'></div>
+          <div class="ui center aligned basic segment">
+            <a class="ui basic button" href='{{ site.community_hub_url }}'>
+              <!-- <button class="ui basic button"> -->
+                <h2>
+                  Get involved!
+                </h2>
+                <p>
+                  Be part of the team -
                   <span class="color-primary">
-                    join&nbsp;our&nbsp;community&nbsp;&nbsp;<i class="fa fa-users"></i>
+                    join our community
+                    <i class='ui users icon'></i>
                   </span>
                 </p>
-              </div>
-            </div>
-          </div>
+            <!-- </button> -->
+          </a>
         </div>
-      </a>
+      </div>
     </div>
   </aside>
 </span>

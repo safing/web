@@ -1,8 +1,22 @@
-$primary: #1fa787 !default;
+// from INFOUND
+$primary: #f39200 !default;
+// old: $primary: #1fa787 !default;
+$fill_light: #667082 !default;
+$fill_medium: #38465c !default;
+$fill_dark: #222a37 !default;
 
-$email_user: 'hello' !default;
-$email_domain: 'safing.io' !default;
+// adaptions
+$background_main: #f7f7f7 !default;
+$fill_lighter: #788294 !default;
+$secondary: $fill_medium;
+$discreet: #F7F7F7;
 
+$background_bar: #031949;
+
+$anchor: #0078ff;
+$anchor_hover: #258bff;
+
+// other colors
 $color_mine_shaft_approx: #333 !default;
 $color_alto_approx: #ddd !default;
 $color_celeste_approx: #ccc !default;
@@ -17,3 +31,7 @@ $white: #ffffff !default;
 
 $opacity-light: 0.7;
 $opacity-lighter: 0.5;
+
+// email
+$email_user: 'hello' !default;
+$email_domain: 'safing.io' !default;

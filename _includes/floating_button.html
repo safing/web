@@ -1,0 +1,27 @@
+<div id="floating-button">
+  <button class="ui circular icon button sidebar-toggle safing-full">
+    <i class="sidebar icon"></i>
+  </button>
+  {% if include.download %}
+  <div class="spacer"></div>
+  <a href="{{ site.download_url }}">
+    <button class="ui circular icon button safing-full">
+      <i class="download icon"></i>
+    </button>
+  </a>
+  {% endif %}
+</div>
+
+<script type="text/javascript">
+
+  function scrollFunction() {
+    var h = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight
+    if (document.body.scrollTop > h || document.documentElement.scrollTop > h) {
+      document.getElementById("floating-button").classList.add("visible");
+    } else {
+      document.getElementById("floating-button").classList.remove("visible");
+    }
+  }
+  window.onscroll = scrollFunction
+
+</script>

@@ -1,0 +1,30 @@
+.ui.safing-primary {
+  background-color: $primary;
+
+  &.button {
+    color: $white;
+
+    &:hover {
+      background-color: darken($primary, 5%);
+    }
+  }
+}
+
+.ui.button.safing-secondary {
+  color: $secondary;
+
+  &:hover {
+    color: $secondary;
+  }
+}
+
+
+.ui.button.safing-full {
+  color: $secondary;
+  background-color: $white;
+
+  &:hover {
+    background-color: $secondary;
+    color: $white;
+  }
+}

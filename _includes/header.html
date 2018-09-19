@@ -1,37 +1,73 @@
-<nav id="mainNav" class="navbar navbar-default {% if page.url == site.base_url %}navbar-fixed-top{% else %}navbar-static{% endif %}">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand page-scroll logo-sitename" href="{% if page.url == "/" %}#top{% else %}/{% endif %}">
-        <img class="logo-name" src="{{ site.assets_url }}{{ site.logo }}" alt="{{ site.title }}">
-      </a>
-    </div>
+<div class='ui vertical inverted sidebar menu right overlay'>
+  <a class='item' href='/'>
+    <img class='ui image' src='{{ site.assets_url }}img/logo_v3_name_light.svg' style='width: 10rem; padding: 0.6rem;'>
+  </a>
+  <a class='item' href="/our-values" >
+    OUR VALUES
+  </a>
+  <a class='item' href="/technology">
+    TECHNOLOGY
+  </a>
+  <a class='item' href="/download">
+    DOWNLOAD
+  </a>
+</div>
 
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        {% for menu in site.data.header.menus %}
-          {% if menu.dropdown %}
-            <li class="dropdown">
-              <a class="page-scroll" href="{{ menu.url }}">{{ menu.title }}</a>
-
-              <ul class="our-values-dropdown dropdown-menu nav navbar-nav navbar-right text-uppercase">
-                {% for submenu in menu.submenus %}
-                  <li><a href="{{ submenu.url }}"><strong>{{ submenu.title }}</strong></a></li>
-                {% endfor %}
-              </ul>
-            </li>
-          {% else %}
-            <li>
-              <a class="page-scroll" href="{{ menu.url }}">{{ menu.title }}</a>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
+<div class='ui inverted stackable borderless menu {% if include.home %}home{% endif %}' id='menubar'>
+  <div class='menu'>
+    <a class='item' href='/' style='padding: 0 6px;'>
+      <img class='ui image' src='{{ site.assets_url }}img/logo_v3_name_light.svg' style='width: 10rem; padding: 0.6rem;'>
+    </a>
   </div>
-</nav>
+
+  <div class='right menu' id="menubar-computer">
+    <a class='item' href="/our-values">
+      OUR VALUES
+    </a>
+    <a class='item' href="/technology">
+      TECHNOLOGY
+    </a>
+    <a class='item' href="/download" style="z-index: 10;">
+      DOWNLOAD
+    </a>
+  </div>
+
+  <div class='right menu' id="menubar-mobile">
+    <a class='item sidebar-toggle sidebar-icon'>
+      <i class='sidebar icon'></i>
+    </a>
+  </div>
+</div>
+
+<script type="text/javascript">
+
+  function ready(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading"){
+      fn();
+    } else {
+      document.addEventListener('DOMContentLoaded', fn);
+    }
+  }
+
+  function resizeFunction() {
+    var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
+    if (w > 767) {
+      document.getElementById("menubar-computer").classList.remove("deactivated");
+      document.getElementById("menubar-mobile").classList.remove("activated");
+      document.getElementById("menubar").classList.remove("mobile");
+    } else {
+      document.getElementById("menubar-computer").classList.add("deactivated");
+      document.getElementById("menubar-mobile").classList.add("activated");
+      document.getElementById("menubar").classList.add("mobile");
+    }
+  }
+
+  ready(function(){
+    // remove stackable from menu
+    document.getElementById("menubar").classList.remove("stackable");
+
+    window.onresize = resizeFunction
+    resizeFunction()
+  })
+
+</script>
