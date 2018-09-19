@@ -2,10 +2,10 @@ body, .ui.header, h1, h2, h3, h4, h5, h6, p {
   font-family: 'Roboto', 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
-a{
+a {
   color: $anchor;
 }
-a:hover{
+a:hover {
   color: $anchor_hover;
   text-decoration: underline;
 }
@@ -13,6 +13,7 @@ a:hover{
 .color-primary {
   color: $primary;
 }
+
 .color-primary-important {
   color: $primary !important;
 }
@@ -26,15 +27,9 @@ a:hover{
   color: $white
 }
 
-
 .max-width-100 {
   max-width: 100%;
 }
-
-.pusher {
-  background-color: $fill_light !important;
-}
-
 
 .content{
   background-color: $background_main;
