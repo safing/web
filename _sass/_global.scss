@@ -2,6 +2,10 @@ body, .ui.header, h1, h2, h3, h4, h5, h6, p {
   font-family: 'Roboto', 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
+.pusher {
+  background-color: $fill_light !important;
+}
+
 a {
   color: $anchor;
 }

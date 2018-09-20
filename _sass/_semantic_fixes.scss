@@ -63,7 +63,7 @@
   [class*="computer-only"]:not([class*="widescreen"]),
   [class*="large-screen-only"]:not([class*="widescreen"]),
   [class*="widescreen-hidden"],
-  [class*="widescreen or-lower hidden"] {
+  [class*="widescreen-or-lower-hidden"] {
     display: none !important;
   }
 }

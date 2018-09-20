@@ -3,8 +3,15 @@
   background-color: $fill_light;
   margin: 0 !important;
 
+  .column {
+    padding: 5px;
+    text-align: center;
+  }
 
   a {
-    color: $primary;
+    color: $fill_medium;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
