@@ -55,5 +55,5 @@ communities:
 #
     image:
       icon: huge rss icon
-      alt: steem
-      url: https://steemit.com/@safingio/
+      alt: blog
+    url: /blog/
