@@ -64,24 +64,28 @@
 }
 
 .markdownpage {
+  font-size: 0.8rem;
+  
   p {
     padding-top: 5px;
     padding-bottom: 5px;
+
   }
 
   li {
-    font-size: 16px;
+
     padding-bottom: 4px;
+    line-height: 24px;
   }
 
   h5 {
-    font-size: 16px;
+
     line-height: 24px;
     font-weight: bold;
   }
 
   h6 {
-    font-size: 16px;
+
     line-height: 24px;
   }
 
