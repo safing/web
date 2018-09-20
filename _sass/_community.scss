@@ -52,19 +52,28 @@
     }
 
     &:hover > div {
-      background-color: $color_gallery_approx;
-      border-radius: 35px;
+      background-color: $color_gallery_approx !important;
+      border-radius: 35px !important;
     }
   }
   padding-bottom: 20px;
   font-size: 1rem;
-}
-
-.twitch {
-
-
-}
-
-.twitter {
-
+  .twitch.icon {
+    color: #4b367c;
+  }
+  .twitter.icon {
+    color: #1da1f2;
+  }
+  .github.icon {
+    color: black;
+  }
+  .discourse.icon {
+    color: green;
+  }
+  .rss.icon {
+    color: #a0a5ae;
+  }
+  .envelope.icon {
+    color: $primary;
+  }
 }
