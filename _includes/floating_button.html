@@ -15,7 +15,11 @@
 <script type="text/javascript">
 
   function scrollFunction() {
-    var h = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight
+    {% if include.heightref %}
+    var h = document.getElementById('{{ include.heightref }}').offsetTop
+    {% else %}
+    var h = (window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight) / 4
+    {% endif %}
     if (document.body.scrollTop > h || document.documentElement.scrollTop > h) {
       document.getElementById("floating-button").classList.add("visible");
     } else {

@@ -1,7 +1,7 @@
 #floating-button {
   position: fixed;
-  right: 25px;
   top: 25px;
+  right: 25px;
   box-shadow: 1px 2px 3px 1px #718399;
   background-color: $discreet;
   // width: 64px; DEFINED BELOW!
@@ -40,7 +40,8 @@
 @media only screen and (max-width: 767px) {
   #floating-button {
     width: 51px;
-    right: -4px;
+    top: 10px;
+    right: 10px;
   }
 }
 
