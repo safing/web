@@ -56,3 +56,4 @@ communities:
       icon: huge rss icon
       alt: blog
     url: /blog/
+    internal: true
