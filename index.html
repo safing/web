@@ -9,13 +9,17 @@ title: Safing
 <body>
   {% include header.html home=true %}
   {% include floating_button.html heightref="portmaster" download=true %}
-  <div class='content' style='background-image: url("/assets/img/shortlandscape.png"); background-size: 100%;background-repeat: no-repeat;'>
-    <div class='ui grid'>
+  <div class='content' style=''>
+    <div style='position: absolute; top: 0; width: 100%;'>
+      <div id="banner-background" style='width: 100%; background-image: url("/assets/img/landscape.png"); background-size: cover; background-repeat: no-repeat; background-position: center bottom; height: 100vh;'></div>
+      <div id="banner-transition" style='width: 100%; height: 100vh; background-image: url("/assets/img/landscape_footer.png"); background-size: contain; background-repeat: no-repeat; background-position: center top;'></div>
+    </div>
+    <div id="banner-content" class='ui grid' style="height: 110vh;">
       <div class='computer only sixteen wide column' style='height: 10rem;'></div>
       <div class='tablet only sixteen wide column' style='height: 8rem;'></div>
-      <div class='mobile only sixteen wide column' style='height: 5rem;'></div>
+      <div class='mobile only sixteen wide column' style='height: 5rem;'></div> -->
       <div class='computer tablet only two wide column'></div>
-      <div class='ten wide column'>
+      <div class='ten wide column' style="height: 80%;">
         <h1 class='ui inverted header' style="margin: 10px;">
           Take Back Control of Your Data!
         </h1>
@@ -51,7 +55,7 @@ title: Safing
               <p>
                 The Portmaster enables you to protect your data on your device. You are back in charge of your outgoing connections: you choose what data you share and what data stays private.
               </p>
-              <a href="/technology">
+              <a href="/technology#portmaster">
                 <button class='ui safing-secondary button'>
                   Technical Details
                 </button>
@@ -85,7 +89,7 @@ title: Safing
                 <br/>
                 It gives you the power to appear at multiple places on the web at once!
               </p>
-              <a href="/technology">
+              <a href="/technology#gate17">
                 <button class='ui safing-secondary right floated button'>
                   Technical Details
                 </button>
@@ -105,7 +109,7 @@ title: Safing
               <p>
                 For us, privacy isn't just a feature – it's the foundation we build our products on. We make sacrifices on all other fronts to protect your privacy and push the limits of technology to do so.
               </p>
-              <a href="/our-values">
+              <a href="/our-values#privacy-first">
                 <button class='ui safing-secondary button'>
                   Learn more ...
                 </button>
@@ -165,6 +169,41 @@ title: Safing
 </body>
 <foot>
   {% include foot.html home=true %}
+  <script type="text/javascript">
+    // fix content on mobile browsers that change vh if the top bar disappears
+
+    function ready(fn) {
+      if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading"){
+        fn();
+      } else {
+        document.addEventListener('DOMContentLoaded', fn);
+      }
+    }
+
+    var lastWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
+
+    function bannerResize() {
+      var h = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight
+      document.getElementById("banner-background").style.height = h + "px"
+      document.getElementById("banner-transition").style.height = h + "px"
+      document.getElementById("banner-content").style.height = Math.floor(h*1.1) + "px"
+    }
+
+    function bannerResizer() {
+      // fix content on mobile browsers that change vh if the top bar disappears
+      var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
+      if (w != lastWidth) {
+        lastWidth = w
+        bannerResize()
+      }
+    }
+
+    ready(function(){
+      window.addEventListener("resize", bannerResizer);
+      bannerResize()
+    })
+
+  </script>
   <script src='{{ site.assets_url }}js/home.js'></script>
 </foot>
 </html>

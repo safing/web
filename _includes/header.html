@@ -69,7 +69,7 @@
     // remove stackable from menu
     document.getElementById("menubar").classList.remove("stackable");
 
-    window.onresize = resizeFunction
+    window.addEventListener("resize", resizeFunction);
     resizeFunction()
   })
 
