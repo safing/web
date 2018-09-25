@@ -1,11 +1,11 @@
 .footer-section {
   width: 100%;
-  background-color: $fill_light;
+  background-color: $background_bar;
   margin: 0 !important;
   padding: 1rem;
 
   a {
-    color: $fill_medium;
+    color: $discreet;
     &:hover {
       text-decoration: underline;
     }

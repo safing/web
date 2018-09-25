@@ -2,7 +2,7 @@
 layout: page_markdown
 title: our-values
 heading: Our Values
-community_snippet_intro: 'Share our values? Wanna help us shape the future?'
+community_snippet_intro: 'Share our values?'
 ---
 
 ## Privacy First

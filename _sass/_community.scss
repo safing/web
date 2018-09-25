@@ -21,43 +21,71 @@
 //     }
 //   }
 // }
-.community-snippet a {
+.community-snippet {
+  p{
+    margin: 0;
+  }
+  h2{
+    margin: 0;
+  }
+  a {
   color: $white !important;
+  }
+}
+.community-snippet .ui.mobile.only{
+  p{
+    padding: 2px 0;
+  }
+  h2{
+    padding: 5px 0 25px 0;
+  }
 }
 .community-snippet .ui.divider {
-  border-top: $primary 3px solid !important;
-  margin: 0 25%;
+  color: $primary;
+  margin: 0 14%;
+  border-top: solid !important;
+  // border-top: $primary 3px solid !important;
+  // margin: 0 25%;
 
 }
 .community-snippet .ui.basic.segment {
   margin: 0 !important;
   padding: 0 !important;
 }
-.community-snippet .ui.basic.button {
-  color: $white !important;
-  box-shadow: 0 0 0 -1px;
-  margin: 5px;
-  &:hover {
-    background-color: $secondary !important;
+// .community-snippet .ui.button {
+//   color: $white !important;
+//   background-color: $secondary !important;
+//   box-shadow: 0 0 0 -1px;
+//   margin: 5px;
+//   &:hover {
+//     background-color: $fill_dark !important;
+//
+//   }
+// }
 
-  }
-}
+.community-hub .ui.button{
+    width: 100%;
+    border-radius: 92px;
+    margin: 1rem 0;
 
-.community-hub {
-  a {
-    color: $color_mine_shaft_approx;
 
-    &:hover {
-      text-decoration: none;
-    }
 
-    &:hover > div {
-      background-color: $color_gallery_approx !important;
-      border-radius: 35px !important;
-    }
-  }
-  padding-bottom: 20px;
-  font-size: 1rem;
+
+
+  // a {
+  //   color: $color_mine_shaft_approx;
+  //
+  //   &:hover {
+  //     text-decoration: none;
+  //   }
+  //
+  //   &:hover > div {
+  //     background-color: $color_gallery_approx !important;
+  //     border-radius: 35px !important;
+     // }
+  // }
+  // padding-bottom: 20px;
+  // font-size: 1rem;
   .twitch.icon {
     color: #4b367c;
   }
