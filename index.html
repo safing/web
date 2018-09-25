@@ -11,15 +11,36 @@ title: Safing
   {% include floating_button.html heightref="portmaster" download=true %}
   <div class='content' style=''>
     <div style='position: absolute; top: 0; width: 100%;'>
-      <div id="banner-background" style='width: 100%; background-image: url("/assets/img/landscape.png"); background-size: cover; background-repeat: no-repeat; background-position: center bottom; height: 100vh;'></div>
+      <div id="banner-background" style='width: 100%; background-image: url("/assets/img/landscape.png"); background-size: cover; background-repeat: no-repeat; background-position: center bottom; height: 100vh;'>
+          <!-- learnmore icon -->
+          <a id="learnmore-icon" class="ui bottom mobile-hidden" href="#portmaster" style='position: absolute; bottom: 50%; right: 2%; z-index:100;'>
+            <i class='angle double down icon' style='color: #f39200; font-size: 3rem;'></i>
+          </a>
+            <!-- <div class="ui grid  mobile-hidden" style='position: absolute; bottom: 50%; left: 0%;'>
+              <div class="four wide column">
+                <img src='{{ site.assets_url }}img/community_logo.svg' style="height: 4rem;">
+
+              </div>
+              <div class="twelve wide column" style="padding: 38px 0 0 10px; z-index: 100;">
+                <a class="ui bottom" href="/community-hub">
+                <button class='ui safing-primary button' >
+                  Join our community
+                </button>
+              </a>
+
+              </div>
+            </div> -->
+
+      </div>
       <div id="banner-transition" style='width: 100%; height: 100vh; background-image: url("/assets/img/landscape_footer.png"); background-size: contain; background-repeat: no-repeat; background-position: center top;'></div>
+
     </div>
     <div id="banner-content" class='ui grid' style="height: 110vh;">
       <div class='computer only sixteen wide column' style='height: 10rem;'></div>
       <div class='tablet only sixteen wide column' style='height: 8rem;'></div>
       <div class='mobile only sixteen wide column' style='height: 5rem;'></div> -->
       <div class='computer tablet only two wide column'></div>
-      <div class='ten wide column' style="height: 80%;">
+      <div class='ten wide column' style="height: 80%; z-index: 100;">
         <h1 class='ui inverted header' style="margin: 10px;">
           Take Back Control of Your Data!
         </h1>
@@ -29,19 +50,32 @@ title: Safing
           </button>
         </a>
         <a href="#portmaster">
-          <button class='ui safing-secondary large button' style="margin: 5px 0px 5px 10px;">
+          <button id="learnmore-button" class='ui safing-secondary large button' style="margin: 5px 0px 5px 10px;">
             Learn more
           </button>
         </a>
       </div>
-      <div class='tablet only sixteen wide center aligned column' style='padding-top: 10rem;'></div>
-      <div class='computer only sixteen wide center aligned column' style='padding-top: 18rem;'>
-        <a href="#portmaster">
-          <i class='ui chevron down icon' style='color: #f0903fb3; font-size: 4rem;'></i>
-        </a>
+    </div>
+    <!-- Widescreen lighthouse -->
+    <div class="or-lower-hidden" style='position: absolute; bottom: 15.5rem; width: 100%;'>
+      <div style='background-image: url("/assets/img/lighthouse.png");background-repeat: no-repeat; background-position: right bottom; height: 200rem; background-size: 45%;'>
       </div>
     </div>
-    <div style='background-image: url("/assets/img/lighthouse.png"); background-position: bottom right; background-repeat: no-repeat; background-size: 44%;'>
+    <!-- lighthouse -->
+    <div class="mobile-hidden tablet-hidden widescreen-hidden" style='position: absolute; bottom: 15.5rem; width: 100%;'>
+      <div style='background-image: url("/assets/img/lighthouse.png");background-repeat: no-repeat; background-position: right bottom; height: 200rem; background-size: 45%;'>
+      </div>
+    </div>
+    <!-- Tablet lighthouse -->
+    <div class="mobile-hidden computer-hidden large-screen-hidden widescreen-hidden" style='position: absolute; bottom: 13rem; width: 100%;'>
+      <div style='background-image: url("/assets/img/lighthouse_mobile.png");background-repeat: no-repeat; background-position: right bottom; height: 40rem; background-size: 45%;'>
+      </div>
+    </div>
+    <!-- Mobile lighthouse -->
+    <div class="computer-hidden tablet-hidden large-screen-hidden widescreen-hidden" style='position: absolute; bottom: 19.5rem; width: 100%;'>
+      <div style='background-image: url("/assets/img/lighthouse_mobile.png");background-repeat: no-repeat; background-position: right bottom; height: 40rem; background-size: 45%;'>
+      </div>
+    </div>
       <div class='ui container'>
         <div class='ui basic segment' id="portmaster">
           <div class='ui middle aligned centered grid'>
@@ -111,7 +145,7 @@ title: Safing
               </p>
               <a href="/our-values#privacy-first">
                 <button class='ui safing-secondary button'>
-                  Learn more ...
+                  Learn more
                 </button>
               </a>
             </div>
@@ -137,7 +171,7 @@ title: Safing
               </p>
               <a href="/our-values#open-source">
                 <button class='ui safing-secondary right floated button'>
-                  Learn more ...
+                  Learn more
                 </button>
               </a>
             </div>
@@ -161,7 +195,6 @@ title: Safing
           </div>
         </div>
       </div>
-    </div>
 
     {% include community_snippet.html %}
     {% include footer.html %}
@@ -198,9 +231,19 @@ title: Safing
       }
     }
 
+    function scrollToPM(event){
+      event.preventDefault()
+      document.getElementById("portmaster").scrollIntoView({
+        behavior: 'smooth'
+      })
+    }
+
     ready(function(){
       window.addEventListener("resize", bannerResizer);
       bannerResize()
+
+      document.getElementById("learnmore-button").addEventListener("click", scrollToPM)
+      document.getElementById("learnmore-icon").addEventListener("click", scrollToPM)
     })
 
   </script>
