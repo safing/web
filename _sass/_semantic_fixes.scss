@@ -67,3 +67,52 @@
     display: none !important;
   }
 }
+
+/***/
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .hidden-on-mobile {
+    display: none !important;
+  }
+}
+
+/* Tablet / iPad Portrait */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .hidden-on-tablet {
+    display: none !important;
+  }
+}
+/* Tablet and lower*/
+@media only screen and (max-width: 991px) {
+  .hidden-on-tablet-and-lower {
+    display: none !important;
+  }
+}
+
+/* Computer / Desktop / iPad Landscape */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .hidden-on-computer {
+    display: none !important;
+  }
+}
+/* Computer and wider */
+@media only screen and (min-width: 992px) {
+  .hidden-on-computer-and-wider {
+    display: none !important;
+  }
+}
+
+/* Large Monitor */
+@media only screen and (min-width: 1200px) and (max-width: 1919px) {
+  .hidden-on-large-screen {
+    display: none !important;
+  }
+}
+
+/* Widescreen Monitor */
+@media only screen and (min-width: 1920px) {
+  .hidden-on-widescreen {
+    display: none !important;
+  }
+}
