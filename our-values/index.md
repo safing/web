@@ -19,7 +19,7 @@ We believe that this has become increasingly difficult in an age where private d
   <p class="text-light">Surveillance capitalism in short is the growth and income focus of capitalism paired with the information gathered from huge amounts of personal data. This combination results in more and better tracking of user behavior to exploit them financially.</p>
 </blockquote>
 
-Our mission at Safing is to make sure everyone can protect their digital selves without making compromises in usability or privacy. We give users back control over their data.
+Our mission at Safing is to make sure everyone can protect their digital selves without making compromises in usability or privacy. We help users taking back control over their data.
 
 ## Open Source
 
@@ -37,11 +37,11 @@ As a result we have adopted a transparent funding policy to openly share how we 
 
 ### Clear Business Model
 
-Instead of pushing a free product and worry about the business model later (*cough* - *selling user data* - *cough*) we want to have that part figured out right from the start. So this is how we'll do it:
+Instead of pushing a free product and worry about the business model later, we want to have that part figured out right from the start. So, this is how we'll do it:
 
-- Portmaster is and always will be free. 'Put you back in control of your data' is our core vision, which is why we concluded to release Portmaster for free.
+- Portmaster is and always will be free. 'Getting people back in control of their data' is our core vision, which is why we concluded to release Portmaster for free.
 
-- Gate17 will be a subscription based service. Of course we need to cover our costs and pay our bills. But more importantly we want to have the funds to further engage in our mission and to extend our services. That is why we decided on the subscription model - instead of building just on donations - which we feel would be infeasible.
+- Gate17 is a subscription based service. Of course we need to cover our costs and pay our bills. But more importantly we want to have the funds to further engage in our mission and to extend our services. That is why we decided on the subscription model - instead of building just on donations - which we feel would be infeasible.
 
 What is really important, is that we will never put profits before our vision. We will never sacrifice the privacy of our users for money.
 
