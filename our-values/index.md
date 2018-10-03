@@ -29,13 +29,13 @@ To ensure maximum privacy for our users and to build trust we need to be transpa
 
 Taking money always means opening up to influences. That is why we see it as our responsibility to be thoughtful about taking investments. We do not want parties to gain influence which do not or might not stand behind our values. That is why in our current funding phase we took more personal risks instead of selling parts of our company for easy money.
 
-#### Transparent Funding Policy
+### Transparent Funding Policy
 
 For us, ethical funding also means we want to make sure that our users know who paid for the programs and services they use.
 
 As a result we have adopted a transparent funding policy to openly share how we are funded. All our funding (and partnerships) will remain public!
 
-#### Clear Business Model
+### Clear Business Model
 
 Instead of pushing a free product and worry about the business model later (*cough* - *selling user data* - *cough*) we want to have that part figured out right from the start. So this is how we'll do it:
 
@@ -43,13 +43,21 @@ Instead of pushing a free product and worry about the business model later (*cou
 
 - Gate17 will be a subscription based service. Of course we need to cover our costs and pay our bills. But more importantly we want to have the funds to further engage in our mission and to extend our services. That is why we decided on the subscription model - instead of building just on donations - which we feel would be infeasible.
 
+What is really important, is that we will never put profits before our vision. We will never sacrifice the privacy of our users for money.
+
 If you want to support us, use Gate17! And if you want to go further, get involved in our community!
 
-#### Funding and Partnerships &nbsp;&nbsp;&nbsp; <small class="text-lighter">updated 09.2018</small>
+## Ownership
 
-Financially, we started out with a funding from [Netidee](https://www.netidee.at/) in 2017, a initiative by the [Internet Foundation Austria](https://www.nic.at/en) that funds open source projects.
-We also started to invest our personal time and money to further push the project, which would drastically increase over the next year.
-In 2018, we finished the Netidee funded project scope, and became participant in the ESA-BIC Austria.
+The company behind Safing is _Safing ICS Technologies GmbH_, a private company with limited liability registered in Austria. Austria, located in central Europe and member of the EU, is one of the few remaining neutral nations and established it's neutrality based on swiss model after WWII.
+
+The company is owned by it's three founders. No one else will ever receive voting power within the company.
+
+## Influences &nbsp;&nbsp;&nbsp; <small class="text-lighter">updated 10.2018</small>
+
+This section shall inform about what influence the company is exposed to. This includes received funding, partnerships, supporters, trainings and other things.
+
+Besides the received funding listed below, we also started to invest our personal time and money to further push the project and company. Starting in 2017 and drastically increasing over the next year we personally invested over 200.000€ in value.
 
 <div class="margin-top-80"></div>
 
@@ -117,6 +125,10 @@ In 2018, we finished the Netidee funded project scope, and became participant in
         <i class="money icon"></i> receiving continuous personal funding
     </div>
   </div>
+
+  <!-- Accent -->
+  <!-- Science Park Graz -->
+  <!-- YC Startup School -->
 
 </div>
 
