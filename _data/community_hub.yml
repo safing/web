@@ -7,6 +7,7 @@ communities:
     image:
       icon: huge envelope open outline icon
       alt: newsletter
+
     url: 'https://safing.us13.list-manage.com/subscribe?u=d8e68cb729409a59d97df4790&id=d57e88b8a3'
   - text: >
       ### Twitch
@@ -21,13 +22,12 @@ communities:
   - text: >
       ### Discourse
 
-      Join our active community, discussing Safing and other privacy related topics in our Online Forum. Because we believe to regain your privacy you need more than just some tools.&nbsp;&nbsp;&nbsp;_[Coming soon... ]_
+      Join our active community, discussing Safing and other privacy related topics in our Online Forum. Because we believe to regain your privacy you need more than just some tools.
 #
     image:
       icon: huge discourse icon
       alt: discourse
-    url: '#'
-    pending: true
+    url: 'https://safing.community'
   - text: >
       ### Twitter
 
@@ -54,6 +54,5 @@ communities:
 #
     image:
       icon: huge rss icon
-      alt: blog
-    url: /blog/
-    internal: true
+      alt: steem
+      url: https://steemit.com/@safingio/
