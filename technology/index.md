@@ -57,7 +57,7 @@ Stamp is an online community where participants _"stamp"_ <span class="text-ligh
 
 ## Further Reading
 
-- Find the full docs: <span class="note-light">coming soon</span>
+- Read our [full docs](https://docs.safing.io)
 - Find our source code [on Github](https://github.com/Safing).
 
 <div class="margin-top-40 page-divider"></div>
