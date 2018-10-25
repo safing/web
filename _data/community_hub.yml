@@ -1,5 +1,23 @@
 communities:
   - text: >
+      ### Discourse
+
+      Join our active community, discussing Safing and other privacy related topics in our Online Forum. Because we believe to regain your privacy you need more than just some tools.
+#
+    image:
+      icon: huge discourse icon
+      alt: discourse
+    url: 'https://discourse.safing.community/'
+  - text: >
+      ### Github
+
+      Don’t like our personalities? Check out our code. Where we try to be our best selves.
+#
+    image:
+      icon: huge github icon
+      alt: github
+    url: https://github.com/Safing
+  - text: >
       ### Email Newsletter
 
       Bothered by visiting safing.io every day? Subscribe to our newsletter to stay informed!
@@ -20,15 +38,6 @@ communities:
       class: twitch
     url: https://twitch.tv/davegson
   - text: >
-      ### Discourse
-
-      Join our active community, discussing Safing and other privacy related topics in our Online Forum. Because we believe to regain your privacy you need more than just some tools.
-#
-    image:
-      icon: huge discourse icon
-      alt: discourse
-    url: 'https://safing.community'
-  - text: >
       ### Twitter
 
       Want to be part of our Twitter Force? Follow us @SafingIO PM’s are closed 😉
@@ -38,15 +47,6 @@ communities:
       alt: twitter
       class: twitter
     url: https://twitter.com/SafingIO
-  - text: >
-      ### Github
-
-      Don’t like our personalities? Check out our code. Where we try to be our best selves.
-#
-    image:
-      icon: huge github icon
-      alt: github
-    url: https://github.com/Safing
   - text: >
       ### Blog
 
