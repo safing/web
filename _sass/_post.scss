@@ -65,7 +65,7 @@
 
 .markdownpage {
   font-size: 0.8rem;
-  
+
   p {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -97,5 +97,20 @@
   .footnotes p {
     margin: 0 !important;
     padding: 0 !important;
+  }
+
+  table, td, th {
+    border: 1px solid #00000044;
+  }
+
+  table {
+    border-collapse: collapse;
+    td, th {
+      padding: 4px;
+      min-width: 100px;
+    }
+    td:nth-child(n+2), th {
+      text-align: center;
+    }
   }
 }
