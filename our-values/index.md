@@ -53,7 +53,7 @@ The company behind Safing is _Safing ICS Technologies GmbH_, a private company w
 
 The company is owned by it's three founders. No one else will ever receive voting power within the company.
 
-## Influences &nbsp;&nbsp;&nbsp; <small class="text-lighter">updated 10.2018</small>
+## Influences &nbsp;&nbsp;&nbsp; <small class="text-lighter">updated 12.2018</small>
 
 This section shall inform about what influence the company is exposed to. This includes received funding, partnerships, supporters, trainings and other things.
 
@@ -74,11 +74,13 @@ Besides the received funding listed below, we also started to invest our persona
         <span class="date">2017-2018</span>
       </div>
       <div class="description">
-        <a href="https://www.netidee.at/">Netidee</a> funding helped us to kickstart all this.
+        <a href="https://www.netidee.at/">Netidee</a> funding from 2017 helped us to kickstart all this. In late 2018, they granted a follow-up funding for the year 2019 🎉
       </div>
     </div>
     <div class="extra content">
-        <i class="money icon"></i> received 47.799€ funding
+        <i class="green money icon"></i> received <b>47.799€</b> funding (2017)
+        <div class="margin-top-10"></div>
+        <i class="blue clock icon"></i> another 37.560€ held out in prospect (2019)
     </div>
   </div>
 
@@ -98,11 +100,11 @@ Besides the received funding listed below, we also started to invest our persona
       </div>
     </div>
     <div class="extra content">
-        <i class="user icon"></i> coaching over the incubation timespan
+        <i class="grey user icon"></i> coaching over the incubation timespan
         <div class="margin-top-10"></div>
-        <i class="money icon"></i> received 10.000€ in funding
+        <i class="green money icon"></i> received <b>10.000€</b> in funding
         <div class="margin-top-10"></div>
-        <i class="clock icon"></i> another 40.000€ held out in prospect
+        <i class="blue clock icon"></i> another 40.000€ held out in prospect
     </div>
   </div>
 
@@ -122,7 +124,7 @@ Besides the received funding listed below, we also started to invest our persona
       </div>
     </div>
     <div class="extra content">
-        <i class="money icon"></i> receiving continuous personal funding
+        <i class="green money icon"></i> receiving continuous personal funding
     </div>
   </div>
 
