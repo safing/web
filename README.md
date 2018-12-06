@@ -1,9 +1,13 @@
 # Safing Website
 
-Install dependencies:
+### Run Safing locally:
 
-    bundle install --path vendor/bundle
+1. [Install docker](https://www.docker.com/get-started)
 
-Run development server:
+2. Run
 
-    bundle exec jekyll serve
+```
+docker-compose up
+```
+
+3. Access the local version at http://localhost:4000
