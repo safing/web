@@ -19,7 +19,7 @@ We believe that this has become increasingly difficult in an age where private d
   <p class="text-light">Surveillance capitalism in short is the growth and income focus of capitalism paired with the information gathered from huge amounts of personal data. This combination results in more and better tracking of user behavior to exploit them financially.</p>
 </blockquote>
 
-Our mission at Safing is to make sure everyone can protect their digital selves without making compromises in usability or privacy. We help users taking back control over their data.
+Our mission at Safing is to make sure everyone can protect their digital selves without making compromises in usability or privacy. We help users take back control over their data.
 
 ## Open Source
 
@@ -49,9 +49,9 @@ If you want to support us, use Gate17! And if you want to go further, get involv
 
 ## Ownership
 
-The company behind Safing is _Safing ICS Technologies GmbH_, a private company with limited liability registered in Austria. Austria, located in central Europe and member of the EU, is one of the few remaining neutral nations and established it's neutrality based on swiss model after WWII.
+The company behind Safing is _Safing ICS Technologies GmbH_, a private company with limited liability registered in Austria. Austria, located in central Europe and member of the EU, is one of the few remaining neutral nations and established its neutrality based on the swiss model after WWII.
 
-The company is owned by it's three founders. No one else will ever receive voting power within the company.
+The company is owned by its three founders. No one else will ever receive voting power within the company.
 
 ## Influences &nbsp;&nbsp;&nbsp; <small class="text-lighter">updated 12.2018</small>
 
