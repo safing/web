@@ -40,7 +40,7 @@ p a:hover {
   max-width: 100%;
 }
 
-.content{
+body > .content, .pusher > .content {
   background-color: $background_main;
 }
 
