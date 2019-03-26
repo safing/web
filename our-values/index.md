@@ -3,6 +3,7 @@ layout: page_markdown
 title: our-values
 heading: Our Values
 community_snippet_intro: 'Share our values?'
+container_class: 'text'
 ---
 
 ## Privacy First
@@ -49,9 +50,96 @@ If you want to support us, use Gate17! And if you want to go further, get involv
 
 ## Ownership
 
-The company behind Safing is _Safing ICS Technologies GmbH_, a private company with limited liability registered in Austria. Austria, located in central Europe and member of the EU, is one of the few remaining neutral nations and established its neutrality based on the swiss model after WWII.
+The company behind Safing is _Safing ICS Technologies GmbH_, a private company registered in Austria. The company is fully owned by its three founders:
 
-The company is owned by its three founders. No one else will ever receive voting power within the company.
+<div class="nine wide column">
+  <div class="ui three fluid cards middle lowered">
+    <div class="card">
+    <div class="image">
+    <img src="{{ site.assets_url }}img/profiles/dhaavi.png">
+    </div>
+    <div class="content">
+    <div class="ui small header">
+    Daniel
+    </div>
+    <div class="ui list">
+    <a href="https://twitter.com/dehaavi" target="\_blank">
+    <div class="item">
+    <div class="content">
+    <i class="twitter icon"></i>
+    @dehaavi
+    </div>
+    </div>
+    </a>
+    <a href="https://github.com/dhaavi" target="\_blank">
+    <div class="item">
+    <div class="content">
+    <i class="github black icon"></i>
+    dhaavi
+    </div>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    <div class="card">
+      <div class="image">
+        <img src="{{ site.assets_url }}img/profiles/davegson.jpg">
+      </div>
+      <div class="content">
+        <div class="ui small header">
+        David
+        </div>
+        <div class="ui list">
+          <a href="https://twitter.com/davegson" target="\_blank">
+            <div class="item">
+              <div class="content">
+                <i class="twitter icon"></i>
+                @davegson
+              </div>
+            </div>
+          </a>
+          <a href="https://github.com/davegson" target="\_blank">
+            <div class="item">
+              <div class="content">
+                <i class="github black icon"></i>
+                davegson
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="image">
+        <img src="{{ site.assets_url }}img/profiles/raphty.png">
+      </div>
+      <div class="content">
+        <div class="ui small header">
+        Raphty
+        </div>
+        <div class="ui list">
+          <a href="https://twitter.com/Raphty101" target="\_blank">
+            <div class="item">
+              <div class="content">
+                <i class="twitter icon" style="margin: 0;"></i>
+                @Raphty101
+              </div>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/raphael-fiedler-808a7441" target="\_blank">
+            <div class="item">
+              <div class="content">
+                <i class="linkedin black icon"></i>
+                Raphael
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 ## Influences &nbsp;&nbsp;&nbsp; <small class="text-lighter">updated 12.2018</small>
 
@@ -60,9 +148,7 @@ This section shall inform about what influence the company is exposed to. This i
 Besides the received funding listed below, we also started to invest our personal time and money to further push the project and company. Starting in 2017 and drastically increasing over the next year we personally invested over 200.000€ in value.
 
 <div class="margin-top-80"></div>
-
-<div class="ui two stackable cards">
-
+<div class="ui two stackable cards" id="influences">
   <!-- Netidee card -->
   <div class="ui card">
     <div class="image">

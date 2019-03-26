@@ -36,6 +36,10 @@ p a:hover {
   color: $white
 }
 
+.ui.text.container {
+  max-width: 850px !important;
+}
+
 .max-width-100 {
   max-width: 100%;
 }
