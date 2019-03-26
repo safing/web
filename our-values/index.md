@@ -141,7 +141,7 @@ The company behind Safing is _Safing ICS Technologies GmbH_, a private company r
   </div>
 </div>
 
-## Influences &nbsp;&nbsp;&nbsp; <small class="text-lighter">updated 4.2019</small>
+## Influences &nbsp;&nbsp;&nbsp; <small class="text-lighter">updated March 2019</small>
 
 This section shall inform about what influence the company is exposed to. This includes received funding, partnerships, supporters, trainings and other things.
 
