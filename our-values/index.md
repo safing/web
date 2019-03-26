@@ -141,7 +141,7 @@ The company behind Safing is _Safing ICS Technologies GmbH_, a private company r
   </div>
 </div>
 
-## Influences &nbsp;&nbsp;&nbsp; <small class="text-lighter">updated 12.2018</small>
+## Influences &nbsp;&nbsp;&nbsp; <small class="text-lighter">updated 4.2019</small>
 
 This section shall inform about what influence the company is exposed to. This includes received funding, partnerships, supporters, trainings and other things.
 
@@ -166,7 +166,9 @@ Besides the received funding listed below, we also started to invest our persona
     <div class="extra content">
         <i class="green money icon"></i> received <b>47.799€</b> funding (2017)
         <div class="margin-top-10"></div>
-        <i class="blue clock icon"></i> another 37.560€ held out in prospect (2019)
+        <i class="green money icon"></i> received <b>18.780€</b> funding (2019)
+        <div class="margin-top-10"></div>
+        <i class="blue clock icon"></i> another 18.780€ held out in prospect (2019)
     </div>
   </div>
 
