@@ -1,6 +1,7 @@
 ---
 layout: page_markdown
 title: Technology
+container_class: 'text'
 # heading: The Tech That Powers Safing
 # subheading: How Safing works.
 ---
@@ -20,17 +21,17 @@ They can be either created by users themselves or - most of the times - obtained
 
 ## Gate17
 
-Gate17 brings together several state of the art network technologies and gives them a new spicy twist 🌶️.  
-The goal of Gate17 is to protect connection data as well as metadata from [surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism).
+Gate17 brings together several state of the art network technologies and gives them a new spicy twist️.  
+Its goal is to protect connection data as well as metadata from [surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism).
 
-Adapted core concepts:
+#### Adapted core concepts
 
 - To protect your privacy, we use newest proven encryption technology: a __double ratchet__ [^doubleratchet] based protocol to provide perfect forward and backward secrecy which can change used algorithms on demand through configuration.
 - The __onion-encrypted multi-hop architecture__ [^onionrouting] protects your identity and makes you anonymous online.
 - __Zero roundtrip__ connection establishment enable blazing fast connections.
 - __Paid community nodes__ are highly welcome to build a huge, capable and trustless network.
 
-The new spicy twist 🌶️:
+#### The new spicy twist 🌶️
 
 - To protect network data and metadata as long as possible, Gate17 selects exit nodes [^exitnode] in proximity to the destination server.
 - Routes are calculated for maximum speed by default and use a minimum of 3 nodes. This behavior changes based on the active security level, providing slower, but tougher routes with more nodes.
