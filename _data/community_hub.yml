@@ -47,12 +47,3 @@ communities:
       alt: twitter
       class: twitter
     url: https://twitter.com/SafingIO
-  - text: >
-      ### Blog
-
-      For everything too long for a tweet or even a forum post, we keep it old school with a blog. Over there, you might find some think pieces, product announcements and similar stuff.
-#
-    image:
-      icon: huge rss icon
-      alt: steem
-      url: https://steemit.com/@safingio/
