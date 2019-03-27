@@ -2,7 +2,7 @@ communities:
   - text: >
       ### Discourse
 
-      Join our active community, discussing Safing and other privacy related topics in our Online Forum. Because we believe to regain your privacy you need more than just some tools.
+      Join our community, discuss our products or ask anything related to us and our company. Help us forge #cyberfreedom!
 #
     image:
       icon: huge discourse icon
@@ -29,22 +29,22 @@ communities:
     url: '/newsletter/'
     internal: true
   - text: >
-      ### Twitch
-
-      One of our lead developers gives you a look inside his coding shell. Watch the development of Stamp in real time!
-#
-    image:
-      icon: huge twitch icon
-      alt: twitch
-      class: twitch
-    url: https://twitch.tv/davegson
-  - text: >
       ### Twitter
 
-      Want to be part of our Twitter Force? Follow us @SafingIO PM’s are closed 😉
+      Want to be part of our Twitter Force? Follow us @SafingIO
 #
     image:
       icon: huge twitter icon
       alt: twitter
       class: twitter
     url: https://twitter.com/SafingIO
+  - text: >
+      ### Twitch
+
+      One of our lead developers gives you a look inside his coding shell. Watch the development of Stamp in real time! Disclaimer: currently very irregular
+#
+    image:
+      icon: huge twitch icon
+      alt: twitch
+      class: twitch
+    url: https://twitch.tv/davegson
