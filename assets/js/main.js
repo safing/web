@@ -13,6 +13,8 @@ $(document).ready(function() {
     event.preventDefault()
     $(".ui.sidebar").sidebar("toggle");
   })
+
+  $('.popup-trigger').popup();
 })
 
 function getSearchParameters() {

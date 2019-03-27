@@ -1,0 +1,62 @@
+---
+layout: page_column
+title: newsletter
+heading: Subscribe to our Newsletter
+---
+<script type="text/javascript">
+  var params = getSearchParameters();
+
+  if (typeof params.error_email != "undefined" && params.error_email.length > 0) {
+    $('body').toast({
+      title: 'Please provide a valid email address',
+      displayTime: 6000,
+      showProgress: 'bottom',
+      class: 'red',
+      showIcon: 'x',
+      position: 'top center',
+      closeIcon: true
+    });
+  }
+
+  if (typeof params.field_consent_text != "undefined" && params.field_consent_text == "no") {
+    $('body').toast({
+      title: 'Please accept our terms',
+      displayTime: 6000,
+      showProgress: 'bottom',
+      class: 'red',
+      showIcon: 'x',
+      position: 'top center',
+      closeIcon: true
+    });
+  }
+</script>
+
+<div class="ui middle aligned center aligned grid">
+  <div class="column newsletter" style="max-width: 450px;">
+    <form class="ui form" action="https://t80607841.emailsys1a.net/184/1387/c70759e794/subscribe/form.html" method="post">
+      <div class="ui segment">
+        <div class="required field">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email"/>
+        </div>
+        <div class="required inline field">
+          <div class="ui checkbox">
+            <input type="checkbox" id="consent_text" name="consent_text" value="yes"/>
+            <label class="consent" for="consent_text">
+              I agree that Safing &
+              <a href="https://rapidmail.de" target="_blank" data-tooltip="located in Germany, GDPR compliant" data-variation="mini">
+                rapidmail.de
+              </a>
+              may proccess and use the email for newsletter purposes.
+
+              <span class="popup-trigger" data-variation="mini inverted very wide" data-position="top center" data-content="Safing will use the email you provide from this form to provide you with semi regular updates. The Newsletter is managed by rapidmail, a GDPR compliant company located in Germany. You can change your mind at any time by clicking the unsubscribe link placed in every email you receive from us or by contacting mail@safing.io. By checking this box, you agree to the use of your email in accordance with these terms.">
+                <i class="info circle icon"></i>
+              </span>
+            </label>
+          </div>
+        </div>
+        <input type="submit" class="ui submit button" value="Subscribe" />
+      </div>
+    </form>
+  </div>
+</div>

@@ -4,6 +4,37 @@ title: community-hub
 heading: The Community Hub
 exclude_community_snippet: true
 ---
+
+<script type="text/javascript">
+  var params = getSearchParameters();
+
+  if (params.newsletter == 'confirm') {
+    $('body').toast({
+      title: 'Success - But Confirmation Required',
+      message: 'Please confirm your email to finish the process. Thank you for your effort!',
+      displayTime: 10000,
+      showProgress: 'bottom',
+      class: 'orange',
+      showIcon: 'hand point right outline',
+      position: 'top center',
+      closeIcon: true
+    });
+  }
+
+  if (params.newsletter == 'success') {
+    $('body').toast({
+      title: 'Success',
+      message: 'Thanks for subscribing to our newsletter, we\'re happy we\'ll stay in touch!',
+      displayTime: 8000,
+      showProgress: 'bottom',
+      class: 'green',
+      showIcon: 'checkmark',
+      position: 'top center',
+      closeIcon: true
+    });
+  }
+</script>
+
 <div class="community-hub">
   {% for pitch in site.data.community_hub.communities %}
 
