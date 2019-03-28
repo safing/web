@@ -5,7 +5,7 @@ communities:
       Let's talk - Join our community. Get to know us and our products!
 #
     image:
-      path: /img/icons/lighthouse_icon.svg
+      path: /img/icons/community_logo.svg
       alt: safing community
 
     url: 'https://discourse.safing.community/'
