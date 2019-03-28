@@ -1,9 +1,9 @@
 <div class="four wide column">
-  <div class="ui center aligned basic segment {{ pitch.image.class }}">
+  <div class="ui basic segment {{ pitch.image.class }}">
     {% if pitch.image.path %}
-      <img class="ui tiny image" src="{{ site.assets_url }}{{ pitch.image.path }}" alt="{{ pitch.image.alt }}">
+      <img class="ui tiny image margin-0-auto" src="{{ site.assets_url }}{{ pitch.image.path }}" alt="{{ pitch.image.alt }}">
     {% elsif pitch.image.icon %}
-      <i class="{{ pitch.image.icon }}"></i>
+      <i class="{{ pitch.image.icon }} margin-0-auto"></i>
     {% endif %}
   </div>
 </div>
