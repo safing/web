@@ -1,12 +1,13 @@
 communities:
   - text: >
-      ### Discourse
+      ### Safing Community
 
-      Join our community, discuss our products or ask anything related to us and our company. Help us forge #cyberfreedom!
+      Let's talk - Join our community. Get to know us and our products!
 #
     image:
-      icon: huge discourse icon
-      alt: discourse
+      path: /img/icons/lighthouse_icon.svg
+      alt: safing community
+
     url: 'https://discourse.safing.community/'
   - text: >
       ### Github
@@ -20,7 +21,7 @@ communities:
   - text: >
       ### Email Newsletter
 
-      Bothered by visiting safing.io every day? Subscribe to our newsletter to stay informed!
+      Bothered by visiting safing.io every day? Subscribe to stay informed!
 #
     image:
       icon: huge envelope open outline icon
@@ -41,7 +42,7 @@ communities:
   - text: >
       ### Twitch
 
-      One of our lead developers gives you a look inside his coding shell. Watch the development of Stamp in real time! Disclaimer: currently very irregular
+      One of our lead developers gives you a look inside his coding shell. Disclaimer: currently very irregular
 #
     image:
       icon: huge twitch icon
