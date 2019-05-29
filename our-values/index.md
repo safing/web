@@ -178,13 +178,13 @@ Besides the received funding listed below, we also started to invest our persona
       <img src="{{ site.assets_url }}img/esa-bic_austria.svg">
     </div>
     <div class="content">
-      <a class="header" href="http://www.esa-bic.at/">ESA-BIC Austria</a>
+      <a class="header" href="/esa-bic/">ESA-BIC Austria</a>
       <div class="meta">
         <span class="date">2018-2020</span>
       </div>
       <div class="description">
-        Safing ICS Technologies GmbH is participating in the <a href="http://www.esa-bic.at/">ESA Business Incubation Centre Austria</a>.<br>
-        We are incubated by <a href="http://www.accent.at/home.html">Accent</a>, with <a href="http://sciencepark.at/">SPG</a> as the contractual partner.
+        Safing ICS Technologies GmbH is <a href="/esa-bic/">participating in the ESA Business Incubation Centre Austria</a>.<br>
+        We are incubated by Accent, with SPG and the Lower Austrian State as the contractual partners.
       </div>
     </div>
     <div class="extra content">
