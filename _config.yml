@@ -78,3 +78,9 @@ communities:
     url: https://github.com/Safing
     desc: Fork us on GitHub
     share: false
+
+donations:
+  bitcoin:
+    url: /
+  paypal:
+    url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2QHNM78H9YC9L&source=url
