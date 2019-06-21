@@ -141,14 +141,33 @@ The company behind Safing is _Safing ICS Technologies GmbH_, a private company r
   </div>
 </div>
 
-## Influences &nbsp;&nbsp;&nbsp; <small class="text-lighter">updated May 2019</small>
+## Influences &nbsp;&nbsp;&nbsp; <small class="text-lighter">updated June 2019</small>
 
 This section shall inform about what influence the company is exposed to. This includes received funding, partnerships, supporters, trainings and other things.
 
-Besides the received funding listed below, we also started to invest our personal time and money to further push the project and company. Starting in 2017 and drastically increasing over the next year we personally invested over 200.000€ in value.
-
 <div class="margin-top-80"></div>
 <div class="ui two stackable cards" id="influences">
+  <!-- Personal Investment card -->
+  <div class="ui card">
+    <div class="image">
+      <img src="{{ site.assets_url }}img/logo_v3_name_dark.svg">
+    </div>
+    <div class="content">
+      <div class="header">Personal Investment</div>
+      <div class="meta">
+        <span class="date">Starting from 2017</span>
+      </div>
+      <div class="description">
+        We invest our personal time and money to further push the project and company. Starting from 2017, and drastically increasing over the next years, we personally invested over 200.000€ in value.
+      </div>
+    </div>
+    <div class="extra content">
+      <i class="green money icon"></i>invested over <b>200.000€</b> in value
+      <div class="margin-top-10"></div>
+      <i class="blue clock icon"></i>You can support us by <a href="/donate/" style="color: #0078ff;"><b>donating.</b></a>
+    </div>
+  </div>
+
   <!-- Netidee card -->
   <div class="ui card">
     <div class="image">
@@ -157,7 +176,7 @@ Besides the received funding listed below, we also started to invest our persona
     <div class="content">
       <a class="header" href="https://www.netidee.at/">Netidee</a>
       <div class="meta">
-        <span class="date">2017-2018</span>
+        <span class="date">2017-2019</span>
       </div>
       <div class="description">
         <a href="https://www.netidee.at/">Netidee</a> funding from 2017 helped us to kickstart all this. In late 2018, they granted a follow-up funding for the year 2019 🎉
