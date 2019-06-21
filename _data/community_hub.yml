@@ -39,13 +39,13 @@ communities:
       alt: twitter
       class: twitter
     url: https://twitter.com/SafingIO
-  - text: >
-      ### Twitch
-
-      One of our lead developers gives you a look inside his coding shell. Disclaimer: currently very irregular
+#   - text: >
+#       ### Twitch
 #
-    image:
-      icon: huge twitch icon
-      alt: twitch
-      class: twitch
-    url: https://twitch.tv/davegson
+#       One of our lead developers gives you a look inside his coding shell. Disclaimer: currently very irregular
+# #
+#     image:
+#       icon: huge twitch icon
+#       alt: twitch
+#       class: twitch
+#     url: https://twitch.tv/davegson
