@@ -21,7 +21,7 @@ container_class: 'text'
     <div class="middle aligned row">
       <div class="column">
         <div class="ui second header">
-          <a href="{{ site.donations.paypal.url }}" class="ui safing-primary button">
+          <a href="{{ site.donations.paypal.url }}" class="ui safing-primary button" target="blank">
             <i class="paypal icon"></i>
             Donate via Paypal
           </a>
@@ -32,7 +32,7 @@ container_class: 'text'
     <div class="middle aligned row">
       <div class="column">
         <div class="ui second header">
-          <a href="{{ site.donations.bitcoin.url }}" class="ui safing-primary button">
+          <a href="{{ site.donations.bitcoin.url }}" class="ui safing-primary button" target="blank">
             <i class="bitcoin icon"></i>
             Donate via Bitcoin
           </a>
