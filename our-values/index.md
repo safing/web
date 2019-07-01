@@ -164,7 +164,7 @@ This section shall inform about what influence the company is exposed to. This i
     <div class="extra content">
       <i class="green money icon"></i>invested over <b>200.000€</b> in value
       <div class="margin-top-10"></div>
-      <i class="blue clock icon"></i>You can support us by <a href="/support/" style="color: #0078ff;"><b>donating.</b></a>
+      <i class="blue clock icon"></i>You can support us by <a href="/donate/" style="color: #0078ff;"><b>donating.</b></a>
     </div>
   </div>
 
