@@ -28,7 +28,6 @@ container_class: 'text'
         </div>
       </div>
     </div>
-    <!-- deactivate until bitcoin address is ready
     <div class="ui horizontal divider">OR</div>
     <div class="middle aligned row">
       <div class="column">
@@ -40,7 +39,6 @@ container_class: 'text'
         </div>
       </div>
     </div>
-    -->
   </div>
 </div>
 <div class="ui center aligned basic segment">
