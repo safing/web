@@ -1,7 +1,8 @@
 communities:
   - text: >
-      ### Safing Community
+      ### Safing Community - CURRENTLY DOWN
 
+      Will return asap.
       Let's talk - Join our community. Get to know us and our products!
 #
     image:
@@ -9,6 +10,7 @@ communities:
       alt: safing community
 
     url: 'https://discourse.safing.community/'
+    disabled: true
   - text: >
       ### Github
 
