@@ -35,6 +35,7 @@ download_url: "/download/"
 community_hub_url: "/community-hub/"
 contact_url: "/contact/"
 blog_url: "/blog/"
+whitepaper_url: "/files/whitepaper/"
 
 defaults:
   -
