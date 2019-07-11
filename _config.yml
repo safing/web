@@ -81,6 +81,6 @@ communities:
 
 donations:
   bitcoin:
-    url: /
+    url: https://www.blockchain.com/btc/address/1AosdDyzd8PVUFTUEXoaJHTyPVHuKQxdmq?filter=2
   paypal:
     url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2QHNM78H9YC9L&source=url

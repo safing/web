@@ -38,7 +38,7 @@ exclude_community_snippet: true
 <div class="community-hub">
   {% for pitch in site.data.community_hub.communities %}
 
-    <a class="ui button"{% unless pitch.pending %} href="{{ pitch.url }}"{% unless pitch.internal %} target="_blank"{% endunless %}{% endunless %}>
+    <a class="ui button{% if pitch.disabled %} disabled{% endif %}"{% unless pitch.pending %}{% unless pitch.disabled %} href="{{ pitch.url }}"{% endunless %}{% unless pitch.internal %} target="_blank"{% endunless %}{% endunless %}>
         {% comment %}0 = even (right text), 1 = odd (left text){% endcomment %}
         {% assign modulo = forloop.index | modulo: 2 %}
         {% include pitch.html %}
