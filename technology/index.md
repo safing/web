@@ -22,7 +22,7 @@ They can be either created by users themselves or - most of the times - obtained
 <h2>
   Gate17
 
-  <a href="/files/whitepaper/Gate17.pdf" target="_blank">
+  <a href="{{ site.whitepaper_url }}Gate17.pdf" target="_blank">
     <button class='ui safing-secondary right floated button'>
       Whitepaper
     </button>
