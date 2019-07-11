@@ -19,7 +19,15 @@ Application profiles describe an application's behavior in the sense of how it i
 Profiles represent an application as experienced by the user, not as defined by technology - making them easy to understand and superior to other common application classification approaches.
 They can be either created by users themselves or - most of the times - obtained through Stamp <span class="text-lighter">(explained later)</span>.
 
-## Gate17
+<h2>
+  Gate17
+
+  <a href="/files/whitepaper/Gate17.pdf" target="_blank">
+    <button class='ui safing-secondary right floated button'>
+      Whitepaper
+    </button>
+  </a>
+</h2>
 
 Gate17 brings together several state of the art network technologies and gives them a new spicy twist️.  
 Its goal is to protect connection data as well as metadata from [surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism).
