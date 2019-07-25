@@ -143,12 +143,12 @@ Here is a detailed list of all companies that in any way handle (parts) of our c
 This is the “long tail” of your trust in us. If you feel that any of these are in conflict with our values or have shown to not value user privacy, please get in contact.
 
 - [Hetzner Online GmbH](https://www.hetzner.com/), Germany
-- [Mailchimp (The Rocket Science Group, LLC)](https://mailchimp.com/), GA, USA
+- [rapidmail GmbH](https://rapidmail.de), Germany
 - [World4You Internet Services GmbH](https://www.world4you.com/), Austria
 - [GitHub, Inc.](https://github.com/), CA, USA
 
 ## Publication date and updates
 
-This is document has the version 1.0 and has been published on 25.10.2018 and will go into effect on 25.10.2018.
+This is document has the version 1.1 and has been published on 25.07.2019 and will go into effect on 25.07.2019.
 
 As our privacy policy is very detailed, we will update it quite often. Please check back regularly. Major changes, especially if negative for our customers, will be broadly communicated.
