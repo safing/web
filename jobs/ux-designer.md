@@ -13,7 +13,7 @@ Hey there! We're looking for a UX designer to join us at Safing, maybe that's yo
   </p>
 </div>
 
-We aren't striving to become a unicorn 🦄 which we can then sell off for a huge profits. Rather, we strive to being a sustainable business and having a meaningful impact in todays Internet landscape. We take our mission seriously, so we are not only [open sourcing our products]({{ site.communities.github.url }}), but are also open about [our fundings]({{ site.our_values_url }}#ethical-funding), [influences]({{ site.our_values_url }}#ownership) and [business model]({{ site.our_values_url }}#clear-business-model).
+We are not striving to create a unicorn, which we can sell for a huge profit. Rather, we strive to be a sustainable business and have a meaningful impact in today's Internet landscape. As we take our mission seriously, we are not only [open sourcing our products]({{ site.communities.github.url }}), but are also open about [our funding]({{ site.our_values_url }}#ethical-funding), [influences]({{ site.our_values_url }}#ownership) and [business model]({{ site.our_values_url }}#clear-business-model).
 
 Safing develops [three tools]({{ site.technology_url }}), which in unison equip everyday online citizens to withstand surveillance capitalism. We're not solving every privacy problem out there, but we believe our approach tackles some root problems and will have a massive impact on peoples lives!
 
@@ -22,16 +22,16 @@ As we're beginning to hire our first employees, we are looking for people who co
 ## What we're looking for
 ----------------
 
-This is a broad role which primarily involves improving - and maybe completely revamping - our user interfaces at Stamp, Portmaster, Gate17 as well as our homepage. Both our developing founders come from the backend and somehow muddled together our current UX. We're certain we can learn a lot from you!
+This is a broad role, which primarily involves improving - and maybe completely revamping - the user interfaces of Stamp, Portmaster and Gate17, as well as our homepage. Our current developers (both are founders) feel at home with backend code and somehow hacked together the current UI. We're certain we can learn a lot from you!
 
-You'll take responsibility over this field, hence you will have a great impact in our UX and our online presence from day one. We will help you and guide you into this role until you can take over yourself.
+You'll take responsibility over this field, hence you will have a great impact on our user experience and our online presence from day one. We will help you and guide you into this role until you can take over yourself.
 
-We do have [partners](https://infound.at) who created our website layout and theme-world assets. You might also collaborate with them from time to time.
+We do have [a partner](https://infound.at) who created our website layout and theme-world assets. You might also collaborate with them from time to time.
 
-Since we are a small team with lots of responsibilities, it will help if you are flexible and willing to adapt into related areas _which you like_. This might include frontend design (HTML/CSS), asset design, frontend development (Vue.js) etc...
-This will happen naturally, and only after you feel comfortable in your current role, but we felt the need to point that out beforehand - we still are in the startup phase.
+Because we are a small team with lots of responsibilities, it will be helpful if you are flexible and willing to adapt into related areas _you feel comfortable with_. This might include frontend design (HTML/CSS), asset design, frontend development (js frameworks), etc...
+This will happen naturally, and only after you feel confident in your current role, but we felt the need to point that out beforehand. Afterall, we are still in the startup phase.
 
-Also, be prepared to collaborate with additional team members in the next year(s). We do have plans on expanding the team further, but again, all should flow naturally.
+Also, be prepared to collaborate with additional team members soon. We do have plans on expanding the team further, but again, all should grow naturally.
 
 #### What this role involves:
 
@@ -43,10 +43,10 @@ Also, be prepared to collaborate with additional team members in the next year(s
 
 #### We're looking for someone who is
 
-- **burning for our mission**
-- **independent:** we are a small team requiring a lot of independent work - this does not mean you will not receive help & guidance, but we cannot constantly watch you over your shoulder and tell you how things need to be done
-- **a good communicator:** we are on the verge of becoming a remote team, one of our founders will soon start working remotely, so expressing yourself in writing is a must
-- **creative:** we love people who can think out of the box and think of different ways of solving problems
+- **passionate about our mission**
+- **independent:** we are a small team requiring a lot of independent work - this does not mean you will not receive help & guidance, but we cannot hold your hand and constantly tell you how things need to be done
+- **a good communicator:** we are on the verge of becoming a remote team - one of our founders will soon start working remotely - so expressing yourself in writing is a must
+- **creative:** we love people who can think out of the box and find new and different ways of solving problems
 - **opinionated & humble:** we value people standing up for their ideas, yet are also happy to discard their former opinions when a better way of doing things presents itself
 - **happy to talk with our users:** we are here to serve the people, hence it is crucial that you are interested in what they have to say
 
