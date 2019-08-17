@@ -65,11 +65,11 @@ Also, be prepared to collaborate with additional team members soon. We do have p
 ## How to apply
 ----------------
 
-All jobs at Safing start with your application via email, where you can tell us a little bit about yourself. After that, we'll have 1-2 short interviews and you'll hear from us within a week. If it's a good fit for both of us you can immediately start out with a paid trial (spanning 3 months), leading into full employment thereafter.
+All jobs at Safing start with your application via email, where you can tell us a little bit about yourself. After that, we'll have 1-2 short interviews and stay in touch after that. If it's a good fit for both of us you can immediately start out with a paid trial (spanning 3 months), leading into full employment thereafter.
 
 <div class="ui centered row">
   <div class="ui basic segment">
-    <a class="ui safing-primary button" href="mailto:mail@safing.io">
+    <a class="ui safing-primary button" href="mailto:hello@safing.io">
       Apply now
     </a>
   </div>
