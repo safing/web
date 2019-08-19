@@ -60,7 +60,7 @@ Also, be prepared to collaborate with additional team members soon. We do have p
 - 🔍 transparency: as one of [our core values]({{ site.our_values_url }}#open-source), this is both true internally and externally
 - ⚡️ modern technology
 - 🌎 remote work (optional)
-- 🏢 an office located in [Baden, Lower Austria](https://osm.org/go/0JqQPzY?node=34103911) (optional)
+- 🏢 an office located at [Wassergasse 16, Baden, Lower Austria](https://osm.org/go/0JqQnpnl-?m=), 4 minutes from the train station (optional)
 
 ## How to apply
 ----------------
