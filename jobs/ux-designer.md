@@ -29,7 +29,7 @@ You'll take responsibility over this field, hence you will have a great impact o
 We do have [a partner](https://infound.at) who created our website layout and theme-world assets. You might also collaborate with them from time to time.
 
 Because we are a small team with lots of responsibilities, it will be helpful if you are flexible and willing to adapt into related areas _you feel comfortable with_. This might include frontend design (HTML/CSS), asset design, frontend development (js frameworks), etc...
-This will happen naturally, and only after you feel confident in your current role, but we felt the need to point that out beforehand. Afterall, we are still in the startup phase.
+This will happen naturally, and only after you feel confident in your current role, but we felt the need to point that out beforehand. After all, we are still in the startup phase.
 
 Also, be prepared to collaborate with additional team members soon. We do have plans on expanding the team further, but again, all should grow naturally.
 
