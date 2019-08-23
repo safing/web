@@ -1,11 +1,13 @@
 ---
 layout: page_markdown
-title: UX Designer
-heading: UX Designer
+title: Golang Developer
+heading: Golang Developer
 container_class: 'text'
 ---
 
-Hey there! We're looking for a UX designer to join us at Safing, maybe that's you?
+Hey there! We're looking for a Golang developer to join us at Safing, maybe that's you?
+
+<i>Golang is not a hard requirement! If you have experience in C or C++ we're sure you'll quickly pick up Golang.</i>
 
 <div class="ui stacked segment">
   <p>
@@ -17,36 +19,35 @@ We are not striving to create a unicorn, which we can sell for a huge profit. Ra
 
 Safing develops [three tools]({{ site.technology_url }}), which in unison equip everyday online citizens to withstand surveillance capitalism. We're not solving every privacy problem out there, but we believe our approach tackles some root problems and will have a massive impact on peoples lives!
 
-As we're beginning to hire our first employees, we are looking for people who complement our team, filling in areas where we have our greatest needs & weaknesses: UX Design.
+As we're beginning to hire our first employees, we are looking for people who complement our team, helping out in areas where we have our greatest bottleneck: Golang Development.
 
 ## What we're looking for
 ----------------
 
-This is a broad role, which primarily involves improving - and maybe completely revamping - the user interfaces of Stamp, Portmaster and Gate17, as well as our homepage. Our current developers (both are founders) feel at home with backend code and somehow hacked together the current UI. We're certain we can learn a lot from you!
+This role involves lots of hands on, low level programming. As mentioned before, Golang is not a hard requirement, experience in C or C++ will suffice for you to quickly pick up Golang. Together with Daniel, our lead developer, you will work on further progressing our main products: [Portmaster]({{ site.technology_url }}) an [Gate17]({{ site.technology_url }}#gate-17). Daniel will guide you into the products, the code and the workflow: conceptualizing, coding, testing and reviewing all features.
 
-You'll take responsibility over this field, hence you will have a great impact on our user experience and our online presence from day one. We will help you and guide you into this role until you can take over yourself.
+After you feel comfortable enough, you'll quickly be able to take over responsibility over bigger features, hence you will have a great influence on the performance and impact of our products.
 
-We do have [a partner](https://infound.at) who created our website layout and theme-world assets. You might also collaborate with them from time to time.
-
-Because we are a small team with lots of responsibilities, it will be helpful if you are flexible and willing to adapt into related areas _you feel comfortable with_. This might include frontend design (HTML/CSS), asset design, frontend development (js frameworks), etc...
+Because we are a small team with lots of responsibilities, it will be helpful if you are flexible and willing to adapt into related areas _you feel comfortable with_. This might include Linux server maintenance, decentralized network infrastructure and performance optimization.
 This will happen naturally, and only after you feel confident in your current role, but we felt the need to point that out beforehand. After all, we are still in the startup phase.
 
 Also, be prepared to collaborate with additional team members soon. We do have plans on expanding the team further, but again, all should grow naturally.
 
 #### What this role involves:
 
-- 🎨 Creating user interfaces for all our products
-- 🗣 Communicating with both the community as well as the developers to improve your art of creating beautiful user interfaces
-- 👩‍💻 Lots of freedom to take control of your process, iterating and learning what works (and what doesn't)
+- 🛠 Progressing two of our main products: Gate17 and Portmaster
+- 🗣 Communicating with both the community as well as the developers to further improve and iterate our output
+- 👩‍💻 Lots of freedom to take over responsibility of sub areas, or even evolving into the lead developer of a whole product
 - 🚀 Growing into the team and growing with the team as our products evolve into giants
-- 🌟 Having a real impact on products used by people around the world to protect their privacy and enjoy [#cyberfreedom]({{ site.cyberfreedom_url }})
+- 🌟 Having a real impact on software used by people around the world to protect their privacy and enjoy [#cyberfreedom]({{ site.cyberfreedom_url }})
 
 #### We're looking for someone who is
 
 - **passionate about our mission**
 - **independent:** we are a small team requiring a lot of independent work - this does not mean you will not receive help & guidance, but we cannot hold your hand and constantly tell you how things need to be done
+- **tech savvy:** we admire people who submerge into code and really fix and improve the root cause of issues
+- **creative:** likewise, we love people who can think out of the box and find new and different ways of solving problems
 - **a good communicator:** we are on the verge of becoming a remote team - one of our founders will soon start working remotely - so expressing yourself in writing is a must
-- **creative:** we love people who can think out of the box and find new and different ways of solving problems
 - **opinionated & humble:** we value people standing up for their ideas, yet are also happy to discard their former opinions when a better way of doing things presents itself
 - **happy to talk with our users:** we are here to serve the people, hence it is crucial that you are interested in what they have to say
 
@@ -54,7 +55,7 @@ Also, be prepared to collaborate with additional team members soon. We do have p
 ----------------
 
 - 🔥 making an impact
-- 💵 28.000€ - 38.000€ annual salary
+- 💵 35.000€ - 42.000€ annual salary
 - 💻 a fully paid setup
 - ⚖️ work-life balance: it has importance since we're in this for the long run, this is a marathon
 - 🔍 transparency: as one of [our core values]({{ site.our_values_url }}#open-source), this is both true internally and externally
