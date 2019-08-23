@@ -54,7 +54,7 @@ Also, be prepared to collaborate with additional team members soon. We do have p
 ----------------
 
 - 🔥 making an impact
-- 💵 28.000€ - 42.000€ annual salary
+- 💵 28.000€ - 38.000€ annual salary
 - 💻 a fully paid setup
 - ⚖️ work-life balance: it has importance since we're in this for the long run, this is a marathon
 - 🔍 transparency: as one of [our core values]({{ site.our_values_url }}#open-source), this is both true internally and externally
