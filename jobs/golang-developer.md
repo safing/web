@@ -1,7 +1,7 @@
 ---
 layout: page_markdown
-title: Golang Developer
-heading: Golang Developer
+title: Golang (or C/C++) Developer
+heading: Golang (or C/C++) Developer
 container_class: 'text'
 ---
 
@@ -24,11 +24,15 @@ As we're beginning to hire our first employees, we are looking for people who co
 ## What we're looking for
 ----------------
 
-This role involves lots of hands on, low level programming. As mentioned before, Golang is not a hard requirement, experience in C or C++ will suffice for you to quickly pick up Golang. Together with Daniel, our lead developer, you will work on further progressing our main products: [Portmaster]({{ site.technology_url }}) an [Gate17]({{ site.technology_url }}#gate-17). Daniel will guide you into the products, the code and the workflow: conceptualizing, coding, testing and reviewing all features.
+This role involves lots of hands on, low level programming. As mentioned before, Golang is not a hard requirement, experience in C or C++ will suffice for you to quickly pick up Golang. Together with Daniel, our lead developer, you will work on further progressing our main products: [Portmaster]({{ site.technology_url }}) and [Gate17]({{ site.technology_url }}#gate-17). Daniel will guide you into the products, their architecture, the code and the workflow: conceptualizing, coding and testing.
+
+Because Portmaster and Gate17 are both deeply rooted in the realm of network security, any experience in this realm is a big bonus. You should definitely know your way around protocols (TCP, UDP, DNS, HTTP, ...) and firewalls (no brands, just how they work), as well as being intimate with how the Internet works on a network level.
+
+Additionally, if you have ever worked with operating system internals, such as process handling or the network stack, you will have an easier time getting into our technology.
 
 After you feel comfortable enough, you'll quickly be able to take over responsibility over bigger features, hence you will have a great influence on the performance and impact of our products.
 
-Because we are a small team with lots of responsibilities, it will be helpful if you are flexible and willing to adapt into related areas _you feel comfortable with_. This might include Linux server maintenance, decentralized network infrastructure and performance optimization.
+Because we are a small team with lots of responsibilities, it will be helpful if you are flexible and willing to adapt into related areas _you feel comfortable with_. This might include CI/CD Pipelines, Linux server maintenance, decentralized network infrastructure and performance optimization.
 This will happen naturally, and only after you feel confident in your current role, but we felt the need to point that out beforehand. After all, we are still in the startup phase.
 
 Also, be prepared to collaborate with additional team members soon. We do have plans on expanding the team further, but again, all should grow naturally.
@@ -57,7 +61,7 @@ Also, be prepared to collaborate with additional team members soon. We do have p
 - 🔥 making an impact
 - 💵 35.000€ - 42.000€ annual salary
 - 💻 a fully paid setup
-- ⚖️ work-life balance: it has importance since we're in this for the long run, this is a marathon
+- ⚖️ work-life balance: a healthy balance between work and recreation is essential - we also know that family is more important than work
 - 🔍 transparency: as one of [our core values]({{ site.our_values_url }}#open-source), this is both true internally and externally
 - ⚡️ modern technology
 - 🌎 remote work (optional)
