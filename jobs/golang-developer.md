@@ -11,13 +11,13 @@ Hey there! We're looking for a Golang developer to join us at Safing, maybe that
 
 <div class="ui stacked segment">
   <p>
-    We're on a mission to enable online citizens to withstand todays surveillance capitalism, so everybody can reclaim their privacy and enjoy <a href="{{ site.cyberfreedom_url }}">#cyberfreedom</a>.
+    We're on a mission to enable online citizens to withstand todays mass surveillance, so everybody can reclaim their privacy and enjoy <a href="{{ site.cyberfreedom_url }}">#cyberfreedom</a>.
   </p>
 </div>
 
 We are not striving to create a unicorn, which we can sell for a huge profit. Rather, we strive to be a sustainable business and have a meaningful impact in today's Internet landscape. As we take our mission seriously, we are not only [open sourcing our products]({{ site.communities.github.url }}), but are also open about [our funding]({{ site.our_values_url }}#ethical-funding), [influences]({{ site.our_values_url }}#ownership) and [business model]({{ site.our_values_url }}#clear-business-model).
 
-Safing develops [three tools]({{ site.technology_url }}), which in unison equip everyday online citizens to withstand surveillance capitalism. We're not solving every privacy problem out there, but we believe our approach tackles some root problems and will have a massive impact on peoples lives!
+Safing develops [three tools]({{ site.technology_url }}), which in unison equip everyday online citizens to withstand mass surveillance. We're not solving every privacy problem out there, but we believe our approach tackles some root problems and will have a massive impact on peoples lives!
 
 As we're beginning to hire our first employees, we are looking for people who complement our team, helping out in areas where we have our greatest bottleneck: Golang Development.
 
