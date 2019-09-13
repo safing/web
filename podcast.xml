@@ -56,7 +56,7 @@ layout: null
     {% for category in ep.tags %}
         <category><![CDATA[{{ category | cdata_escape }}]]></category>
     {% endfor %}
-        <guid isPermaLink="{% if ep.podcast_guid %}false{% else %}true{% endif %}">{{ site.url }}{% if ep.podcast_guid %}/{{ ep.podcast_guid }}{% else %}{{ ep.url }}{% endif %}</guid>
+        <guid isPermaLink="true">{{ site.url }}{{ ep.podcast_link }}</guid>
         <description>
           <![CDATA[{{ ep.excerpt | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]>
         </description>
