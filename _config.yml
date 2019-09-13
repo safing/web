@@ -28,7 +28,6 @@ technology_url: "/technology/"
 download_url: "/download/"
 community_hub_url: "/community-hub/"
 contact_url: "/contact/"
-blog_url: "/blog/"
 whitepaper_url: "/files/whitepaper/"
 cyberfreedom_url: https://twitter.com/davegson/status/1110216714871029761
 
@@ -39,7 +38,7 @@ defaults:
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: "post"
-      permalink: "blog/post/:year/:month/:title/"
+      permalink: /:year/:month/:day/:title/
       type: "post"
 
 # Social icons and sharing options
@@ -80,3 +79,18 @@ donations:
     url: https://www.blockchain.com/btc/address/1AosdDyzd8PVUFTUEXoaJHTyPVHuKQxdmq?filter=2
   paypal:
     url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2QHNM78H9YC9L&source=url
+
+### Podcast
+
+podcast_album_art: /assets/img/podcast/cover.png
+podcast_owner: 'Safing'
+podcast_email: 'hello@safing.io'
+podcast_category: Business
+podcast_subcategory_one: Entrepreneurship
+podcast_subcategory_two: Management
+podcast_explicit: "no"
+podcast_author: safing.io
+podcast_title: The Safing Podcast
+podcast_subtitle: "The venture of a privacy company working hard to forge #cyberfreedom"
+podcast_description: "Join the founders on their mission to help online citizens reclaim their privacy and enjoy #cyberfreedom. Have a look behind the scenes, understand their decision processes and help shaping the future by contributing to the community!"
+podcast_summary: "Join the founders on their mission to help online citizens reclaim their privacy and enjoy #cyberfreedom. Have a look behind the scenes, understand their decision processes and help shaping the future by contributing to the community!"
