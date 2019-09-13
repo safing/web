@@ -5,7 +5,7 @@
   }
 
   .tags {
-    > a {
+    > a, > div {
       display: inline-block;
       background-color: $color_gallery_approx;
       border-radius: 3px;

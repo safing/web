@@ -30,26 +30,35 @@
   padding: 0 !important;
 }
 
-.community-hub .ui.button{
-    width: 100%;
-    border-radius: 92px;
-    margin: 1rem 0;
+.community-hub .ui.button {
+  width: 100%;
+  border-radius: 92px;
+  margin: 1rem 0;
 
   .twitch.icon {
     color: #4b367c;
   }
+
   .twitter.icon {
     color: #1da1f2;
   }
+
   .github.icon {
     color: black;
   }
+
+  .reddit.icon {
+    color: #ff4301;
+  }
+
   .discourse.icon {
     color: green;
   }
+
   .rss.icon {
     color: #a0a5ae;
   }
+
   .envelope.icon {
     color: #c16f6f;
   }
