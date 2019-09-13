@@ -1,14 +1,14 @@
 communities:
   - text: >
-      ### Safing Community
+      ### r/safing
 
       Let's talk - Join our community. Get to know us and our products!
 #
     image:
-      path: /img/icons/community_logo.svg
+      icon: huge reddit icon
       alt: safing community
 
-    url: 'https://discourse.safing.community/'
+    url: 'https://old.reddit.com/r/safing'
     disabled:
   - text: >
       ### Github
