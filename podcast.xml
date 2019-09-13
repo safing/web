@@ -17,6 +17,7 @@ layout: null
     <link>{{ site.url }}</link>
     <description>{{ site.podcast_description }}</description>
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+    <copyright>© {{ site.time | date: "%Y" }} {{ site.podcast_title }}</copyright>
     <language>en-US</language>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
@@ -55,9 +56,9 @@ layout: null
     {% for category in ep.tags %}
         <category><![CDATA[{{ category | cdata_escape }}]]></category>
     {% endfor %}
-        <guid isPermaLink="{% if ep.podcast_guid %}false{% else %}true{% endif %}">{{ site.url }}{% if ep.podcast_guid %}/{{ ep.podcast_guid }}{% else %}{{ ep.url }}{% endif %}</guid>
+        <guid isPermaLink="true">{{ site.url }}{{ ep.podcast_link }}</guid>
         <description>
-          <![CDATA[{{ ep.excerpt | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]>
+          <![CDATA[{{ ep.summary | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]>
         </description>
         <enclosure url="{{ site.url }}{{ ep.podcast_link }}" length="{{ ep.podcast_length }}" type="audio/mpeg" />
         <itunes:subtitle><![CDATA[{{ ep.excerpt | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]></itunes:subtitle>
