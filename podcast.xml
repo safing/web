@@ -58,7 +58,7 @@ layout: null
     {% endfor %}
         <guid isPermaLink="true">{{ site.url }}{{ ep.podcast_link }}</guid>
         <description>
-          <![CDATA[{{ ep.excerpt | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]>
+          <![CDATA[{{ ep.summary | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]>
         </description>
         <enclosure url="{{ site.url }}{{ ep.podcast_link }}" length="{{ ep.podcast_length }}" type="audio/mpeg" />
         <itunes:subtitle><![CDATA[{{ ep.excerpt | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]></itunes:subtitle>
