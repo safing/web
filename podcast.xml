@@ -61,6 +61,7 @@ layout: null
           <![CDATA[{{ ep.summary | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]>
         </description>
         <enclosure url="{{ site.url }}{{ ep.podcast_link }}" length="{{ ep.podcast_length }}" type="audio/mpeg" />
+        <itunes:subtitle><![CDATA[{{ ep.summary | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]></itunes:subtitle>
         <itunes:summary><![CDATA[{{ ep.summary | expand_urls: site.url | cdata_escape }}]]></itunes:summary>
         <itunes:author>{{ site.podcast_author }}</itunes:author>
         <itunes:image href="{{ site.url }}{{ site.podcast_album_art }}" />
