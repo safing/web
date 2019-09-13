@@ -17,6 +17,7 @@ layout: null
     <link>{{ site.url }}</link>
     <description>{{ site.podcast_description }}</description>
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+    <copyright>© {{ site.time | date: "%Y" }} {{ site.podcast_title }}</copyright>
     <language>en-US</language>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
