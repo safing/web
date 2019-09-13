@@ -47,6 +47,7 @@ layout: null
     {% for ep in site.posts %}
       <item>
         <title>{{ ep.title }}</title>
+        <link>{{ site.url }}{{ ep.url }}</link>
         <pubDate>{{ ep.date | date: "%a, %d %b %Y %T %z" }}</pubDate>
         <dc:creator><![CDATA[{{ site.podcast_author | cdata_escape }}]]></dc:creator>
     {% for category in ep.categories %}
@@ -60,7 +61,6 @@ layout: null
           <![CDATA[{{ ep.summary | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]>
         </description>
         <enclosure url="{{ site.url }}{{ ep.podcast_link }}" length="{{ ep.podcast_length }}" type="audio/mpeg" />
-        <itunes:subtitle><![CDATA[{{ ep.excerpt | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]></itunes:subtitle>
         <itunes:summary><![CDATA[{{ ep.summary | expand_urls: site.url | cdata_escape }}]]></itunes:summary>
         <itunes:author>{{ site.podcast_author }}</itunes:author>
         <itunes:image href="{{ site.url }}{{ site.podcast_album_art }}" />
