@@ -44,29 +44,29 @@ layout: null
       <itunes:category text="{{ site.podcast_subcategory_two }}" />
     </itunes:category>
 
-    {% for ep in site.posts %}
+    {% for episode in site.podcasts %}
       <item>
-        <title>{{ ep.title }}</title>
-        <link>{{ site.url }}{{ ep.url }}</link>
-        <pubDate>{{ ep.date | date: "%a, %d %b %Y %T %z" }}</pubDate>
+        <title>{{ episode.title }}</title>
+        <link>{{ site.url }}{{ episode.url }}</link>
+        <pubDate>{{ episode.date | date: "%a, %d %b %Y %T %z" }}</pubDate>
         <dc:creator><![CDATA[{{ site.podcast_author | cdata_escape }}]]></dc:creator>
-    {% for category in ep.categories %}
+    {% for category in episode.categories %}
         <category><![CDATA[{{ category | cdata_escape }}]]></category>
     {% endfor %}
-    {% for category in ep.tags %}
+    {% for category in episode.tags %}
         <category><![CDATA[{{ category | cdata_escape }}]]></category>
     {% endfor %}
-        <guid isPermaLink="true">{{ site.url }}{{ ep.podcast_link }}</guid>
+        <guid isPermaLink="true">{{ site.url }}{{ episode.podcast_link }}</guid>
         <description>
-          <![CDATA[{{ ep.summary | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]>
+          <![CDATA[{{ episode.summary | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]>
         </description>
-        <enclosure url="{{ site.url }}{{ ep.podcast_link }}" length="{{ ep.podcast_length }}" type="audio/mpeg" />
-        <itunes:subtitle><![CDATA[{{ ep.summary | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]></itunes:subtitle>
-        <itunes:summary><![CDATA[{{ ep.summary | expand_urls: site.url | cdata_escape }}]]></itunes:summary>
+        <enclosure url="{{ site.url }}{{ episode.podcast_link }}" length="{{ episode.podcast_length }}" type="audio/mpeg" />
+        <itunes:subtitle><![CDATA[{{ episode.summary | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]></itunes:subtitle>
+        <itunes:summary><![CDATA[{{ episode.summary | expand_urls: site.url | cdata_escape }}]]></itunes:summary>
         <itunes:author>{{ site.podcast_author }}</itunes:author>
         <itunes:image href="{{ site.url }}{{ site.podcast_album_art }}" />
         <itunes:explicit>{{ site.podcast_explicit }}</itunes:explicit>
-        <itunes:duration>{{ ep.podcast_duration }}</itunes:duration>
+        <itunes:duration>{{ episode.podcast_duration }}</itunes:duration>
       </item>
     {% endfor %}
   </channel>

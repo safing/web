@@ -1,0 +1,15 @@
+---
+title: The Safing Podcast
+layout: podcast
+---
+
+
+<div class="ui divided items">
+  {% for episode in site.podcasts %}
+    <div class="item">
+      <div class="middle aligned content">
+        <a href="{{ episode.url }}">{{ episode.title }}</a>
+      </div>
+    </div>
+  {% endfor %}
+</div>

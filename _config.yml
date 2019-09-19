@@ -31,15 +31,25 @@ contact_url: "/contact/"
 whitepaper_url: "/files/whitepaper/"
 cyberfreedom_url: https://twitter.com/davegson/status/1110216714871029761
 
+collections:
+  podcasts:
+    output: true
+
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: "post"
-      permalink: /:year/:month/:day/:title/
+      permalink: /blog/:year/:month/:day/:title/
       type: "post"
+  - scope:
+      path: ""
+      type: "podcasts"
+    values:
+      layout: "podcast"
+      permalink: /podcast/:year/:month/:day/:title/
+      type: "podcast"
 
 # Social icons and sharing options
 #

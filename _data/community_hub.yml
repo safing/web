@@ -11,6 +11,15 @@ communities:
     url: 'https://old.reddit.com/r/safing'
     disabled:
   - text: >
+      ### Podcast
+
+      Join our venture - have a look behind the scenes and understand our decision processes!
+#
+    image:
+      icon: huge alternate microphone icon
+      alt: podcast
+    url: /podcast/
+  - text: >
       ### Github
 
       Don’t like our personalities? Check out our code. Where we try to be our best selves.
@@ -19,6 +28,7 @@ communities:
       icon: huge github icon
       alt: github
     url: https://github.com/Safing
+
   - text: >
       ### Email Newsletter
 
