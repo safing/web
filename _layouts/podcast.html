@@ -1,0 +1,17 @@
+---
+layout: page_column
+title: "The Safing Podcast"
+heading: "The Safing Podcast"
+---
+
+<div class="post">
+  <div class="tags">
+    {% for tag in page.tags %}
+      <div class="stealth-href"><i class="fa fa-tag fa-flip-horizontal"></i> {{ tag }}</div>
+    {% endfor %}
+  </div>
+
+  <div class="content">
+    {{ content | replace: '<!--break-->', '<a class="anchor" id="continue"></a>' }}
+  </div>
+</div>
