@@ -13,5 +13,11 @@ heading: "The Safing Podcast"
 
   <div class="content">
     {{ content | replace: '<!--break-->', '<a class="anchor" id="continue"></a>' }}
+
+    {% if page.date %}
+      <h3>Description</h3>
+
+      {{ page.summary }}
+    {% endif %}
   </div>
 </div>
