@@ -12,7 +12,7 @@ podcast_duration: "34:42"
 # actually byte size
 podcast_length: 33317116
 summary: "
-In this first episode, we introduce the podcast, talk about how start ups are funded in general and have a look at how governmental grants work. We also talk about our experience with grants and we drop news regarding the most recent one we applied for.
+<p>In this first episode, we introduce the podcast, talk about how start ups are funded in general and have a look at how governmental grants work. We also talk about our experience with grants and we drop news regarding the most recent one we applied for.</p>
 
 <h4>Links</h4>
 

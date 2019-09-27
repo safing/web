@@ -12,7 +12,7 @@ podcast_duration: "28:54"
 # actually byte size
 podcast_length: 27753244
 summary: "
-In the second episode we talk about a rather peculiar situation we were in for most of our journey and the challenges it brought along. We then go on to discuss how we came to a decision which shifted our company as a whole and how it will impact our future.
+<p>In the second episode we talk about a rather peculiar situation we were in for most of our journey and the challenges it brought along. We then go on to discuss how we came to a decision which shifted our company as a whole and how it will impact our future.</p>
 
 <h4>Links</h4>
 
