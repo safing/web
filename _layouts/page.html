@@ -37,9 +37,10 @@
       {{ content }}
     </div>
 
-    {% unless page.exclude_community_snippet %}
+    <footer>
       {% include community_snippet.html %}
-    {% endunless %}
-    {% include footer.html %}
+      {% include footer.html %}
+    </footer>
+    
   </body>
 </html>
