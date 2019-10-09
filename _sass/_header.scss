@@ -8,6 +8,21 @@
   margin: 0;
   border-radius: 0;
   z-index: 10;
+
+  &-computer{
+    a {
+      text-transform: uppercase;
+      span{
+        margin-right: 8px;
+      }
+    }
+  }
+}
+
+#sidebar {
+  .item {
+    text-transform: uppercase;
+  }
 }
 
 #menubar.home {
