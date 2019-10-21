@@ -64,7 +64,7 @@ Also, be prepared to collaborate with additional team members soon. We do have p
 - ⚖️ work-life balance: a healthy balance between work and recreation is essential - we also know that family is more important than work
 - 🔍 transparency: as one of [our core values]({{ site.our_values_url }}#open-source), this is both true internally and externally
 - ⚡️ modern technology
-- 🌎 remote work (optional)
+- 🌎 remote work (because of funding restrictions, only in Austria 🇦🇹 this time)
 - 🏢 an office located in Baden, Lower Austria (optional). It's only a 4 minute walk from the S-Bahn and Badner Bahn station.
 
 ## How to apply
