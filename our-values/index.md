@@ -2,7 +2,6 @@
 layout: page_markdown
 title: our-values
 heading: Our Values
-community_snippet_intro: 'Share our values?'
 container_class: 'text'
 ---
 
