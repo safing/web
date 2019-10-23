@@ -24,9 +24,13 @@ excerpt_separator: "<!--break-->"
 inter_post_navigation: false
 
 our_values_url: "/our-values/"
+jobs_url: "/jobs/"
+podcast_url: "/podcast/"
 technology_url: "/technology/"
 community_hub_url: "/community-hub/"
 contact_url: "/contact/"
+terms_url: "/terms/"
+privacy_url: "/privacy/"
 whitepaper_url: "/files/whitepaper/"
 cyberfreedom_url: https://twitter.com/davegson/status/1110216714871029761
 
@@ -66,21 +70,30 @@ defaults:
 #     desc: Follow us Twitter               # Description to display as link title, etc
 #     share: true                           # Include in the "Share" section of posts (social_sharing must be true for this)
 
+github_url: https://github.com/Safing
+
 social_sharing: false
 communities:
-  twitter:
-    name: Twitter
-    icon: twitter
-    username: SafingIO
-    url: https://twitter.com/SafingIO
-    desc: Follow me on Twitter
+  - reddit:
+    name: Reddit
+    icon: reddit
+    username: r/safing
+    url: https://reddit.com/r/safing
+    desc: Join our Reddit
     share: false
-  github:
+  - github:
     name: GitHub
     icon: github
     username: Safing
     url: https://github.com/Safing
     desc: Fork us on GitHub
+    share: false
+  - twitter:
+    name: Twitter
+    icon: twitter
+    username: SafingIO
+    url: https://twitter.com/SafingIO
+    desc: Follow me on Twitter
     share: false
 
 donations:

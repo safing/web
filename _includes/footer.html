@@ -1,2 +1,40 @@
+<footer>
+  <div class="newsletter-list">
+    <ul>
+      <h3>Company</h3>
+      <li><a href="{{ site.community_hub_url }}">Community Hub</a></li>
+      <li><a href="{{ site.jobs_url }}">Jobs</a></li>
+    </ul>
+    <ul>
+      <h3>Podcast</h3>
+      <li><a href="{{ site.podcast_url }}">Overview</a></li>
+      <li><a href="{{ site.podcast_feed_url }}">RSS</a></li>
+    </ul>
+    <ul>
+      <h3>Resources</h3>
+      <li><a href="{{ site.technology_url }}">Technology</a></li>
+      <li><a href="{{ site.contact_url }}">Contact Us</a></li>
+    </ul>
+    <ul>
+      <h3>Social</h3>
+      {% for community in site.communities %}
+        <li>
+          <a href="{{ community.url }}">
+            <i class="{{ community.icon }} icon"></i>
+            {{ community.name}}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
   </div>
+  <div class="legal">
+    <ul class="legal-list">
+      <li><a href="{{ site.terms_url }}">Terms</a></li>
+      <li><a href="{{ site.privacy_url }}">Privacy</a></li>
+      <li><a href="{{ site.contact_url }}">Contact & Legal</a></li>
+      <li>Safing NOC © 2019</li>
+    </ul>
+  </div>
+</footer>
+<div class="footer-bg">
 </div>

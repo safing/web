@@ -23,7 +23,7 @@ Our mission at Safing is to make sure everyone can protect their digital selves 
 
 ## Open Source
 
-To ensure maximum privacy for our users and to build trust we need to be transparent in every aspect. That's why we [publish all of our hard work]({{ site.communities.github.url }}) as open source. This way you can have a look at our source code and inspect if we truly stay to our word.
+To ensure maximum privacy for our users and to build trust we need to be transparent in every aspect. That's why we [publish all of our hard work]({{ site.github_url }}) as open source. This way you can have a look at our source code and inspect if we truly stay to our word.
 
 ## Ethical Funding
 
