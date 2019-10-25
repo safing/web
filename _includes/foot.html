@@ -26,9 +26,9 @@
     }
   }
 
-  function scrollToPM(event){
+  function scrollToContent(event){
     event.preventDefault()
-    document.getElementById("portmaster").scrollIntoView({
+    document.getElementById("gate-17").scrollIntoView({
       behavior: 'smooth'
     })
   }
@@ -37,7 +37,7 @@
     window.addEventListener("resize", bannerResizer);
     bannerResize()
 
-    document.getElementById("learnmore-button").addEventListener("click", scrollToPM)
-    document.getElementById("learnmore-icon").addEventListener("click", scrollToPM)
+    document.getElementById("learnmore-button").addEventListener("click", scrollToContent)
+    document.getElementById("learnmore-icon").addEventListener("click", scrollToContent)
   })
 </script>

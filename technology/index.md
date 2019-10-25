@@ -10,6 +10,8 @@ Here is short and very technical overview of the three components that make Safi
 
 ## Portmaster
 
+**Important**: [currently in development freeze](/podcast/2019/09/19/decisions-that-shift-a-company/)
+
 Portmaster is an application firewall that enforces application profiles on processes.
 
 Being an application firewall means tightly integrating with the kernel of the underlying OS <span class="text-lighter">(via network filter APIs or kernel modules)</span> to gain needed information <span class="text-lighter">(associate network packets to processes)</span> and control <span class="text-lighter">(block or deny network connections)</span>.
@@ -61,6 +63,8 @@ Its goal is to protect connection data as well as metadata from [surveillance ca
 <span class="note-light"> A final note: You may have noted that Gate17 is, in some aspects, similar to the [Tor Project](https://www.torproject.org/). The key difference is, that Gate17 focuses on speed and usability, but does not claim to match Tor's level of security. We will provide a in-depth comparison in the future.</span>
 
 ## Stamp
+
+**Important**: [currently in development freeze](/podcast/2019/09/19/decisions-that-shift-a-company/)
 
 [Stamp](https://stamp.community) is an online community where participants _"stamp"_ <span class="text-lighter">(ie. tag, categorize)</span> domains and applications <span class="text-lighter">(used by Portmaster for application profiles)</span> to serve as a data source for any kind of network filter. Contributions are rewarded with reputation that gives them more influence on the platform. This reputation system will be blockchain-based in the future. Stamp is a separate project that is backed by Safing.
 

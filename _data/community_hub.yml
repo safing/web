@@ -19,6 +19,7 @@ communities:
       icon: huge alternate microphone icon
       alt: podcast
     url: /podcast/
+    internal: true
   - text: >
       ### Github
 
