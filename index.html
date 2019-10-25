@@ -9,12 +9,12 @@ home: true
 </head>
 <body>
   {% include header.html home=true %}
-  {% include floating_button.html heightref="portmaster" download=true %}
+  {% include floating_button.html heightref="gate-17" %}
   <div class='content' style=''>
     <div style='position: absolute; top: 0; width: 100%;'>
       <div id="banner-background" style='width: 100%; background-image: url("/assets/img/landscape.png"); background-size: cover; background-repeat: no-repeat; background-position: center bottom; height: 100vh;'>
           <!-- learnmore icon -->
-          <a id="learnmore-icon" class="ui bottom mobile-hidden" href="#portmaster" style='position: absolute; bottom: 50%; right: 2%; z-index:100;'>
+          <a id="learnmore-icon" class="ui bottom mobile-hidden" href="#gate-17" style='position: absolute; bottom: 50%; right: 2%; z-index:100;'>
             <i class='angle double down icon' style='color: #f39200; font-size: 3rem;'></i>
           </a>
             <!-- <div class="ui grid  mobile-hidden" style='position: absolute; bottom: 50%; left: 0%;'>
@@ -50,7 +50,7 @@ home: true
             Get Involved
           </button>
         </a>
-        <a href="#portmaster">
+        <a href="#gate-17">
           <button id="learnmore-button" class='ui safing-secondary large button' style="margin: 5px 0px 5px 10px;">
             Learn more
           </button>
@@ -78,35 +78,7 @@ home: true
       </div>
     </div>
       <div class='ui container'>
-        <div class='ui basic segment' id="portmaster">
-          <div class='ui middle aligned centered grid'>
-            <div class='mobile tablet only column' style='width: 9rem;'>
-              <img class='ui fluid medium right floated image' src='{{ site.assets_url }}img/portmasterhandy.png'>
-            </div>
-            <div class='ten wide computer sixteen wide mobile column'>
-              <h2>
-                Portmaster - Application Firewall
-              </h2>
-              <p>
-                The Portmaster enables you to protect your data on your device. You are back in charge of your outgoing connections: you choose what data you share and what data stays private.
-              </p>
-              <a href="/technology">
-                <button class='ui safing-secondary button'>
-                  Technical Details
-                </button>
-              </a>
-              <a href='/download'>
-                <button class='ui safing-primary button'>
-                  Download
-                </button>
-              </a>
-            </div>
-            <div class='computer only six wide column' style='width: 15rem;'>
-              <img class='ui fluid medium right floated image' src='{{ site.assets_url }}img/portmasterbig.png'>
-            </div>
-          </div>
-        </div>
-        <div class='ui basic segment'>
+        <div class='ui basic segment' id='gate-17'>
           <div class='ui middle aligned centered grid'>
             <div class='computer only six wide column' style='width: 15rem;'>
               <img class='ui fluid medium image' src='{{ site.assets_url }}img/gate17.png'>
