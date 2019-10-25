@@ -21,7 +21,7 @@ Application profiles describe an application's behavior in the sense of how it i
 Profiles represent an application as experienced by the user, not as defined by technology - making them easy to understand and superior to other common application classification approaches.
 They can be either created by users themselves or - most of the times - obtained through Stamp <span class="text-lighter">(explained later)</span>.
 
-<h2 id='gate-17'>
+<h2 id='gate17'>
   Gate17
 
   <a href="{{ site.whitepaper_url }}Gate17.pdf" target="_blank">

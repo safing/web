@@ -24,7 +24,7 @@ As we're beginning to hire our first employees, we are looking for people who co
 ## What we're looking for
 ----------------
 
-This role involves lots of hands on, low level programming. As mentioned before, Golang is not a hard requirement, experience in C or C++ will suffice for you to quickly pick up Golang. Together with Daniel, our lead developer, you will work on further progressing our main products: [Portmaster]({{ site.technology_url }}) and [Gate17]({{ site.technology_url }}#gate-17). Daniel will guide you into the products, their architecture, the code and the workflow: conceptualizing, coding and testing.
+This role involves lots of hands on, low level programming. As mentioned before, Golang is not a hard requirement, experience in C or C++ will suffice for you to quickly pick up Golang. Together with Daniel, our lead developer, you will work on further progressing our main products: [Portmaster]({{ site.technology_url }}) and [Gate17]({{ site.technology_url }}#gate17). Daniel will guide you into the products, their architecture, the code and the workflow: conceptualizing, coding and testing.
 
 Because Portmaster and Gate17 are both deeply rooted in the realm of network security, any experience in this realm is a big bonus. You should definitely know your way around protocols (TCP, UDP, DNS, HTTP, ...) and firewalls (no brands, just how they work), as well as being intimate with how the Internet works on a network level.
 
