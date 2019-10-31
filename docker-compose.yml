@@ -2,8 +2,9 @@
 # docker-compose up
 jekyll:
   image: jekyll/jekyll
-  command: jekyll serve --watch --incremental
+  command: jekyll serve --watch --incremental --livereload
   ports:
     - 4000:4000
+    - 35729:35729
   volumes:
     - .:/srv/jekyll
