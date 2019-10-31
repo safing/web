@@ -56,7 +56,7 @@ The company behind Safing is _Safing ICS Technologies GmbH_, a private company r
   <div class="ui three fluid cards middle lowered">
     <div class="card">
     <div class="image">
-    <img src="{{ site.assets_url }}img/profiles/dhaavi.png">
+    <img src="{{ site.assets_url }}img/profiles/dhaavi.jpg">
     </div>
     <div class="content">
     <div class="ui small header">
