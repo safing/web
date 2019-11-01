@@ -1,7 +1,7 @@
 ---
 title: "#008 - The Golang Meetup and the yellow T-Shirt"
 keywords: privacy business golang
-date: 2019-11-02
+date: 2019-11-01
 tags:
 - privacy
 - business
