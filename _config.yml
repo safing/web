@@ -11,6 +11,8 @@ description: > # this means to ignore newlines until "base_url:"
   Safing is a software that protects your privacy online. It's so easy, anyone can use it.
 base_url: "/" # the subpath of your site, e.g. /blog
 assets_url: "/assets/"
+img_url: "/assets/img/"
+icons_url: "/assets/icons/"
 vendor_url: "/vendor/"
 url: "https://safing.io" # the base hostname & protocol for your site
 cover: "img/cover.jpg"
