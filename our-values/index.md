@@ -170,7 +170,7 @@ This section shall inform about what influence the company is exposed to. This i
   <!-- Netidee card -->
   <div class="ui card">
     <div class="image">
-      <img src="{{ site.assets_url }}img/netidee.png">
+      <img src="{{ site.img_url }}external-logos/netidee.png">
     </div>
     <div class="content">
       <a class="header" href="https://www.netidee.at/">Netidee</a>
@@ -193,7 +193,7 @@ This section shall inform about what influence the company is exposed to. This i
   <!-- ESA-BIC card -->
   <div class="ui card">
     <div class="image" style="padding: 20px; background-color: white;">
-      <img src="{{ site.assets_url }}img/esa-bic_austria.svg">
+      <img src="{{ site.img_url }}external-logos/esa-bic_austria.svg">
     </div>
     <div class="content">
       <a class="header" href="/esa-bic/">ESA-BIC Austria</a>
