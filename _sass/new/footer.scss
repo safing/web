@@ -9,6 +9,10 @@ footer{
     align-items: center;
 }
 
+footer .vhidden {
+  visibility: hidden;
+}
+
 .f-bg{
     grid-row: 0;
     grid-column: span 5;
@@ -33,7 +37,7 @@ footer a:hover{
 
 
 footer div{
-  
+
 }
 
 footer .list{
@@ -75,16 +79,16 @@ footer .legal{
     justify-self: end;
     padding-bottom: 3rem;
     padding-right: 5rem;
-} 
+}
 
 footer .legal ul{
     display: flex;
-} 
+}
 
 footer .legal ul li{
     padding-left: 2rem;
     list-style-type: none;
-} 
+}
 
 @media (max-width: 1318px) {
 
@@ -101,7 +105,7 @@ footer .legal ul li{
 
     footer .legal{
         padding-top: 3rem;
-    } 
+    }
 
     footer .list ul{
         padding-left: 0rem;

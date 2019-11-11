@@ -58,6 +58,8 @@ defaults:
 
 github_url: https://github.com/Safing
 reddit_url: https://reddit.com/r/safing
+twitter_url: https://twitter.com/SafingIO
+newsletter_url: "/newsletter/"
 
 communities:
   - reddit:
