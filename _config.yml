@@ -72,6 +72,7 @@ defaults:
 #     desc: Follow us Twitter               # Description to display as link title, etc
 
 github_url: https://github.com/Safing
+reddit_url: https://reddit.com/r/safing
 
 communities:
   - reddit:
