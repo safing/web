@@ -453,10 +453,6 @@ body {
   height: 100%;
 }
 
-html {
-  font-size: 14px;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -464,8 +460,6 @@ body {
   min-width: 320px;
   background: #FFFFFF;
   font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 1.4285em;
   color: rgba(0, 0, 0, 0.87);
   font-smoothing: antialiased;
 }
