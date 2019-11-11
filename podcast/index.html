@@ -5,7 +5,8 @@ layout: podcast
 
 
 <div class="ui divided items">
-  {% for episode in site.podcasts reversed %}
+  {% assign sorted_podcasts = site.podcasts | reverse %}
+  {% for episode in sorted_podcasts %}
     <div class="item">
       <div class="middle aligned content">
         <a href="{{ episode.url }}">{{ episode.title }}</a>

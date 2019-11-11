@@ -1,0 +1,35 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 0vh;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 5vh 1fr 1fr 5vh;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+content{
+    height: auto;
+    display: grid;
+    grid-auto-columns: auto;
+    grid-template-columns: 1fr;
+    grid-row: auto;
+    grid-column: span 5;
+    background-color: white;
+}
+
+::selection {
+    background-color: #396bf5;
+}
+
+@media (max-width: 1318px) {
+    body{   
+        grid-template-columns: 1fr;
+    }
+}

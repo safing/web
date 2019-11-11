@@ -1,45 +1,15 @@
 <!DOCTYPE html>
-<html lang={{ site.lang }} >
+<html lang={{ site.lang }}>
   <head>
+    {% if layout.legacy_layout %}
+      <link rel="stylesheet" href="{{ site.vendor_url }}semantic/semantic.css" type="text/css">
+      <link rel="stylesheet" href="{{ site.assets_url }}css/legacy.css" type="text/css">
+    {% endif %}
     {% include head.html %}
   </head>
   <body>
-    {% include header.html %}
-    {% include floating_button.html %}
-    <div class="content" style="padding: 1rem 0 0 0;">
-      <div class="ui basic center aligned very padded segment" style="margin: 0;"  >
-
-              <h1 class="">
-              {% if page.heading %}
-                {{ page.heading }}
-              {% elsif page.title %}
-                {{ page.title }}
-              {% elsif layout.heading %}
-                {{ layout.heading }}
-              {% endif %}
-            </h1>
-            {% if page.subheading %}
-              <h3 class="">
-                {% if page.subheading %}
-                  {{ page.subheading }}
-                {% elsif page.title %}
-                {% elsif layout.subheading %}
-                  {{ layout.subheading }}
-                {% endif %}
-              </h3>
-            {% endif %}
-
-        {% if page.include_divider %}
-          {% include page_divider.html %}
-        {% endif %}
-      </div>
-
-      {{ content }}
-    </div>
-
-    {% unless page.exclude_community_snippet %}
-      {% include community_snippet.html %}
-    {% endunless %}
-    {% include footer.html %}
+    {% include new/nav.html %}
+    {{ content }}
+    {% include new/footer.html %}
   </body>
 </html>

@@ -1,0 +1,266 @@
+header{
+    color: white;
+    height: 90vh;
+    display: grid;
+    grid-auto-columns: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 2;
+    grid-column: 2/4;
+    align-items: center;
+}
+
+.h-bg{
+    grid-row: 2;
+    grid-column: span 5;
+    background-color: black;
+    background-image: url(/assets/img/h-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+header .h-l{
+    width: 90%;
+    grid-column: 1/2;
+    justify-self: end;
+}
+
+header .h-l-i{
+
+}
+
+header .h-l-i img{
+    width: 100%;
+    height: auto;
+}
+
+header .h-l-v{
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+header .h-l-v button{
+    width: 100px;
+    height: 100px;
+    color: white;
+	background-color: #05ce78;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .3s ease-in-out;
+}
+
+header .h-l-v button:hover{
+    box-shadow: 2px 2px 30px #05ce77af;
+}
+
+header .h-l-v button img {
+	width: 40%;
+    height: auto;
+    padding-top: 0.1rem;
+	padding-left: 0.4rem;
+}
+
+header .h-l-v video{
+    width: 95%;
+    height: auto;
+	border: 0;
+	border-radius: 10px 10px 10px;
+	font-variant-caps: all-petite-caps;
+	cursor: pointer;
+}
+
+header .h-l div{
+    padding-top: 1rem;
+}
+
+header .h-l span{
+    font-size: 1.1rem;
+    opacity: 0.5;
+}
+
+header .h-l ul{
+    display: flex;
+    list-style-type: none;
+    padding-top: 2rem;
+    padding-right: 5.5rem;
+}
+
+header .h-l ul li{
+    padding-right: 4vh;
+}
+
+header .h-l ul li img{
+    width: 90%;
+    height: auto;
+}
+
+header .h-r{
+    grid-column: 2/3;
+    align-items: center;
+    padding-bottom: 8vh;
+    padding-left: 10rem;
+}
+
+header .h-r span{
+    opacity: 0.5;
+    font-size: 1.4rem;
+}
+
+header .h-r h1{
+    max-width: 10px;
+    font-size: 8rem;
+    line-height: 1;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+header .h-r p{
+    max-width: 470px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    opacity: 0.5;
+    padding-bottom: 2.5rem;
+}
+
+header .h-r ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+header .h-r ul li{
+    text-align: center;
+    padding-right: 2rem;
+}
+
+header .h-r ul li span{
+    font-size: 2rem;
+    font-weight: 500;
+    opacity: 1;
+}
+
+header .h-r ul li p{
+    opacity: 0.5;
+}
+
+header .h-r div{
+    display: flex;
+    padding-top: 1rem;
+}
+
+header .h-r div button{
+	color: white;
+	background-color: #FF5700;
+	display: flex;
+	border: 0;
+	padding: 10px 25px;
+	border-radius: 0 10px 10px;
+	font-variant-caps: all-petite-caps;
+	cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+header .h-r div button:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 30px #FF5700;
+}
+
+header .h-r div button img{
+    width: 20px;
+    height: auto;
+}
+
+header .h-r div button span{
+    font-size: 1rem;
+    padding-left: 1rem;
+    opacity: 1;
+}
+
+header .h-r div span{
+    font-size: 1rem;
+    align-self: center;
+    padding-left: 1rem;
+}
+
+header .h-r div span a{
+    color: white;
+    padding-left: 1rem;
+    opacity: 0.8;
+    transition: .5s;
+}
+
+header .h-r div a:hover{
+    opacity: 1;
+}
+
+@media (max-width: 1318px){
+
+    header{
+        height: 170vh;
+        grid-template-columns: 1fr;
+    }
+
+    header .h-l{
+        width: 90%;
+        grid-column: 1/2;
+        justify-self: center;
+    }
+
+    header .h-l{
+        width: 90%;
+        grid-column: 1/2;
+        grid-row: 2;
+        justify-self: end;
+    }
+
+    header .h-r{
+        grid-column: 1/2;
+        grid-row: 1;
+        align-items: center;
+        padding-bottom: 8vh;
+        padding-left: 0rem;
+        text-align: center;
+    }
+
+    header .h-r span{
+        opacity: 0.5;
+        font-size: 1.4rem;
+    }
+
+    header .h-r h1{
+        max-width: 100%;
+        font-size: 4rem;
+        line-height: 1;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    header .h-r p{
+        max-width: 100%;
+        font-size: 1.2rem;
+        font-weight: 300;
+        opacity: 0.5;
+        padding-bottom: 2.5rem;
+    }
+
+    header .h-r div button{
+        margin-bottom: 1.5rem;
+    }
+
+    header .h-r div {
+        display: inline-block;
+    }
+
+    header .h-l ul li img{
+        width: 150%;
+        height: auto;
+    }
+
+    header .h-r div span{
+        margin-right: 1.4rem;
+    }
+}

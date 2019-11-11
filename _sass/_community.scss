@@ -1,35 +1,3 @@
-.community-snippet {
-  p{
-    margin: 0;
-  }
-  h2{
-    margin: 0;
-  }
-  a {
-  color: $white !important;
-  }
-}
-
-.community-snippet .ui.mobile.only{
-  p{
-    padding: 2px 0;
-  }
-  h2{
-    padding: 5px 0 25px 0;
-  }
-}
-
-.community-snippet .ui.divider {
-  color: $primary;
-  margin: 0 14%;
-  border-top: solid !important;
-}
-
-.community-snippet .ui.basic.segment {
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
 .community-hub .ui.button {
   width: 100%;
   border-radius: 92px;

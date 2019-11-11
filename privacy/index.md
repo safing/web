@@ -2,7 +2,6 @@
 layout: page_markdown
 title: Privacy Policy
 heading: Privacy Policy
-exclude_community_snippet: true
 ---
 
 As a [Privacy First]( https://safing.io/our-values/#privacy-first) company we aim to have privacy policy that is as clear and easy to read as possible.

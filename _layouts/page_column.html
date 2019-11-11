@@ -1,8 +1,38 @@
 ---
 layout: page
+legacy_layout: true
 ---
-<div class="ui {{ page.container_class }} container">
-  <div class=" ui basic segment">
-    {{ content }}
+<content>
+  <div class="ui {{ page.container_class }} container">
+    <div class="ui basic center aligned very padded segment" style="margin: 0;">
+      <h1 class="">
+        {% if page.heading %}
+          {{ page.heading }}
+        {% elsif page.title %}
+          {{ page.title }}
+        {% elsif layout.heading %}
+          {{ layout.heading }}
+        {% endif %}
+      </h1>
+
+      {% if page.subheading %}
+        <h3 class="">
+          {% if page.subheading %}
+            {{ page.subheading }}
+          {% elsif page.title %}
+          {% elsif layout.subheading %}
+            {{ layout.subheading }}
+          {% endif %}
+        </h3>
+      {% endif %}
+
+      {% if page.include_divider %}
+        {% include page_divider.html %}
+      {% endif %}
+    </div>
+
+    <div class=" ui basic segment" style="font-size: 1.3rem;">
+      {{ content }}
+    </div>
   </div>
-</div>
+</content>

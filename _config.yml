@@ -11,6 +11,8 @@ description: > # this means to ignore newlines until "base_url:"
   Safing is a software that protects your privacy online. It's so easy, anyone can use it.
 base_url: "/" # the subpath of your site, e.g. /blog
 assets_url: "/assets/"
+img_url: "/assets/img/"
+icons_url: "/assets/icons/"
 vendor_url: "/vendor/"
 url: "https://safing.io" # the base hostname & protocol for your site
 cover: "img/cover.jpg"
@@ -24,9 +26,13 @@ excerpt_separator: "<!--break-->"
 inter_post_navigation: false
 
 our_values_url: "/our-values/"
+jobs_url: "/jobs/"
+podcast_url: "/podcast/"
 technology_url: "/technology/"
 community_hub_url: "/community-hub/"
 contact_url: "/contact/"
+terms_url: "/terms/"
+privacy_url: "/privacy/"
 whitepaper_url: "/files/whitepaper/"
 cyberfreedom_url: https://twitter.com/davegson/status/1110216714871029761
 
@@ -37,7 +43,7 @@ collections:
 defaults:
   - scope:
       path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
+      type: "posts"
     values:
       layout: "post"
       permalink: /blog/:year/:month/:day/:title/
@@ -50,38 +56,30 @@ defaults:
       permalink: /podcast/:year/:month/:day/:title/
       type: "podcast"
 
-# Social icons and sharing options
-#
-# Social settings are used in two places:
-# * In the footer, as links to your personal profiles
-# * After each blog post for sharing widgets
-#
-# Example:
-#
-# social:
-#   - name: Twitter                         # Name of the service
-#     icon: twitter                         # Font Awesome icon to use (minus fa- prefix)
-#     username: "@SafingIO"                 # (User) Name to display in the footer link
-#     url: https://twitter.com/SafingIO     # URL of your profile (leave blank to not display in footer)
-#     desc: Follow us Twitter               # Description to display as link title, etc
-#     share: true                           # Include in the "Share" section of posts (social_sharing must be true for this)
+github_url: https://github.com/Safing
+reddit_url: https://reddit.com/r/safing
+twitter_url: https://twitter.com/SafingIO
+newsletter_url: "/newsletter/"
 
-social_sharing: false
 communities:
-  twitter:
-    name: Twitter
-    icon: twitter
-    username: SafingIO
-    url: https://twitter.com/SafingIO
-    desc: Follow me on Twitter
-    share: false
-  github:
+  - reddit:
+    name: Reddit
+    icon: reddit
+    username: r/safing
+    url: https://reddit.com/r/safing
+    desc: Join our Reddit
+  - github:
     name: GitHub
     icon: github
     username: Safing
     url: https://github.com/Safing
     desc: Fork us on GitHub
-    share: false
+  - twitter:
+    name: Twitter
+    icon: twitter
+    username: SafingIO
+    url: https://twitter.com/SafingIO
+    desc: Follow me on Twitter
 
 donations:
   bitcoin:

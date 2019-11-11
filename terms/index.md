@@ -2,7 +2,6 @@
 layout: page_markdown
 title: Terms of Service
 heading: Terms of Service
-exclude_community_snippet: true
 ---
 
 ## Our Services

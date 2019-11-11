@@ -1,7 +1,7 @@
 <!-- meta -->
 <meta charset={{ site.encoding }}>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="{{ site.description }}">
 <meta name="author" content="{{ site.author }}">
 <title>{% if page.type == "podcast" %}The Safing Podcast {{ page.title }}{% elsif page.type == "post" %}Safing Blog: {{ page.title }}{% elsif page.title == "Safing" %}{{ page.title }}{% else %}Safing {{ page.title }}{% endif %}</title>
@@ -25,10 +25,8 @@
 <meta name="msapplication-TileImage" content="{{ site.assets_url }}icons/ms-icon-144x144.png">
 <meta name="theme-color" content="#f7f7f7">
 
-<link rel="stylesheet" href="{{ site.vendor_url }}semantic/semantic.min.css" type="text/css">
 <link rel="stylesheet" href="{{ site.vendor_url }}css/fonts-roboto.css" type="text/css">
 <link rel="stylesheet" href="{{ site.assets_url }}css/main.css" type="text/css">
 
 <script src="{{ site.vendor_url }}js/jquery-3.3.1.slim.min.js"></script>
 <script src="{{ site.vendor_url }}semantic/semantic.min.js"></script>
-<script src="{{ site.assets_url }}js/main.js"></script>

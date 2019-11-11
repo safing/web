@@ -1,0 +1,22 @@
+<content>
+  <div class="cast">
+    <div class="c-l">
+      {% assign sorted_podcasts = site.podcasts | reverse %}
+      {% for episode in sorted_podcasts limit: 4 %}
+        <a href="{{ episode.url }}">
+          <img src="{{ site.img_url }}podcast.png" alt="">
+          <div>
+            <span>{{ episode.title | grab_title_only }}</span>
+            <p>{{ episode.title | grab_episode_number }}</p>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+    <div class="c-r">
+      <h1>Stay up to date</h1>
+      <p>
+        Listen into our podcast where we give insight into our company. Ranging from the current development progress to our latest challenges, and our thought processes behind making important decisions.
+      </p>
+    </div>
+  </div>
+</content>

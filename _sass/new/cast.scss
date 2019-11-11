@@ -1,0 +1,118 @@
+content .cast{
+    color: black;
+    height: 105vh;
+    display: grid;
+    grid-auto-columns: auto;
+    grid-template-columns:1fr 1fr;
+    grid-row: 0;
+    grid-column: 1/4;
+    align-items: center;
+    justify-self: center;
+    margin-top: -100px;
+}
+
+content .cast .c-l{
+    padding-right: 5rem;
+    align-items: center;
+    justify-self: end;
+}
+
+content .cast .c-l a{
+    background-color: white;
+    border-radius: 3px;
+    padding: 1rem;
+    padding-right: 5rem;
+    box-shadow: 0 4px 80px 0 rgba(0, 0, 0, 0.0), 0 6px 20px 0 rgba(0, 0, 0, 0.00);
+    display: flex;
+    position: relative;
+    z-index: 2;
+    margin-top: 0.5rem;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+    color: black;
+    transform: scale(0.9);
+    z-index: 1;
+}
+
+content .cast .c-l a:hover{
+    transform: scale(1.0);
+    box-shadow: 0 4px 80px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+
+content .cast .c-l a div{
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+}
+
+content .cast .c-l a img{
+    width: 100px;
+    height: 100px;
+}
+
+content .cast .c-l a div p{
+    padding-top: 0.5rem;
+    opacity: 0.5;
+}
+
+content .cast .c-l img{
+
+
+}
+
+content .cast .c-r{
+    padding-left: 5rem;
+}
+
+content .cast .c-r h1{
+    font-size: 3rem;
+    width: 450px;
+    padding-bottom: 2rem;
+}
+
+content .cast .c-r p{
+    font-size: 1.1rem;
+    padding-top: 1rem;
+    width: 350px;
+    opacity: 0.5;
+}
+
+@media (max-width: 1318px) {
+    content .cast{
+        grid-template-columns:1fr;
+        margin-top: -100px;
+        height: 155vh;
+    }
+
+    content .cast .c-l{
+        grid-row: 2;
+        padding-right: 0rem;
+        align-items: center;
+        justify-self: center;
+    }
+
+    content .cast .c-l a div{
+        padding-top: 0rem;
+    }
+
+    content .cast .c-r{
+        padding-left: 0rem;
+        align-items: center;
+        justify-self: center;
+        text-align: center;
+    }
+
+    content .cast .c-r h1{
+        font-size: 3rem;
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+    
+    content .cast .c-r p{
+        font-size: 1.1rem;
+        padding-top: 1rem;
+        width: 100%;
+        opacity: 0.5;
+        
+    }
+}
