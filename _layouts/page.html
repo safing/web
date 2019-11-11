@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang={{ site.lang }}>
   <head>
+    {% if layout.legacy_layout %}
+      <link rel="stylesheet" href="{{ site.vendor_url }}semantic/semantic.css" type="text/css">
+      <link rel="stylesheet" href="{{ site.assets_url }}css/legacy.css" type="text/css">
+    {% endif %}
     {% include head.html %}
   </head>
   <body>
