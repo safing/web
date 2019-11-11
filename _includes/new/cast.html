@@ -1,34 +1,16 @@
 <content>
   <div class="cast">
     <div class="c-l">
-      <a href="">
-        <img src="{{ site.img_url }}podcast.png" alt="">
-        <div>
-          <span>How to evaluate and trust a business?</span>
-          <p>#004</p>
-        </div>
-      </a>
-      <a href="">
-        <img src="{{ site.img_url }}podcast.png" alt="">
-        <div>
-          <span>How to evaluate and trust a business?</span>
-          <p>#004</p>
-        </div>
-      </a>
-      <a href="">
-        <img src="{{ site.img_url }}podcast.png" alt="">
-        <div>
-          <span>How to evaluate and trust a business?</span>
-          <p>#004</p>
-        </div>
-      </a>
-      <a href="">
-        <img src="{{ site.img_url }}podcast.png" alt="">
-        <div>
-          <span>How to evaluate and trust a business?</span>
-          <p>#004</p>
-        </div>
-      </a>
+      {% assign sorted_podcasts = site.podcasts | reverse %}
+      {% for episode in sorted_podcasts limit: 4 %}
+        <a href="{{ episode.url }}">
+          <img src="{{ site.img_url }}podcast.png" alt="">
+          <div>
+            <span>{{ episode.title | grab_title_only }}</span>
+            <p>{{ episode.title | grab_episode_number }}</p>
+          </div>
+        </a>
+      {% endfor %}
     </div>
     <div class="c-r">
       <h1>Stay up to date</h1>
