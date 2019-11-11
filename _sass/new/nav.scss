@@ -59,7 +59,11 @@ nav ul li a:hover{
     text-decoration: none;
 }
 
-@media (max-width: 575.98px){
+@media (max-width: 1318px){
+
+    nav{
+        grid-column: 1/4;   
+    }
 
     nav a{
      padding-right: 1vh;
