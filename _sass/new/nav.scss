@@ -5,7 +5,7 @@ nav{
     grid-auto-columns: auto;
     grid-template-columns: 1fr 1fr;
     grid-row: 1;
-    grid-column: 2/4;   
+    grid-column: 2/4;
     padding-top: 5.5vh;
     padding-bottom: 5.5vh;
     align-self: center;
@@ -31,6 +31,7 @@ nav a div{
 nav div img{
     width: 2.5rem;
     padding-right: 1rem;
+    margin-top: -3px;
 }
 
 nav div p span{
@@ -62,7 +63,7 @@ nav ul li a:hover{
 @media (max-width: 1318px){
 
     nav{
-        grid-column: 1/4;   
+        grid-column: 1/4;
     }
 
     nav a{
