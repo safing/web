@@ -6,8 +6,9 @@
         <a href="{{ episode.url }}">
           <img src="{{ site.img_url }}podcast.png" alt="">
           <div>
-            <span>{{ episode.title | grab_title_only }}</span>
-            <p>{{ episode.title | grab_episode_number }}</p>
+            {% assign title_length = episode.title | size %}
+            <span>{{ episode.title | slice: 7, title_length }}</span>
+            <p>{{ episode.title | slice: 0, 4 }}</p>
           </div>
         </a>
       {% endfor %}
