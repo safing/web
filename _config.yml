@@ -70,11 +70,9 @@ defaults:
 #     username: "@SafingIO"                 # (User) Name to display in the footer link
 #     url: https://twitter.com/SafingIO     # URL of your profile (leave blank to not display in footer)
 #     desc: Follow us Twitter               # Description to display as link title, etc
-#     share: true                           # Include in the "Share" section of posts (social_sharing must be true for this)
 
 github_url: https://github.com/Safing
 
-social_sharing: false
 communities:
   - reddit:
     name: Reddit
@@ -82,21 +80,18 @@ communities:
     username: r/safing
     url: https://reddit.com/r/safing
     desc: Join our Reddit
-    share: false
   - github:
     name: GitHub
     icon: github
     username: Safing
     url: https://github.com/Safing
     desc: Fork us on GitHub
-    share: false
   - twitter:
     name: Twitter
     icon: twitter
     username: SafingIO
     url: https://twitter.com/SafingIO
     desc: Follow me on Twitter
-    share: false
 
 donations:
   bitcoin:
