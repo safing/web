@@ -43,7 +43,7 @@ collections:
 defaults:
   - scope:
       path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
+      type: "posts"
     values:
       layout: "post"
       permalink: /blog/:year/:month/:day/:title/
@@ -55,21 +55,6 @@ defaults:
       layout: "podcast"
       permalink: /podcast/:year/:month/:day/:title/
       type: "podcast"
-
-# Social icons and sharing options
-#
-# Social settings are used in two places:
-# * In the footer, as links to your personal profiles
-# * After each blog post for sharing widgets
-#
-# Example:
-#
-# social:
-#   - name: Twitter                         # Name of the service
-#     icon: twitter                         # Font Awesome icon to use (minus fa- prefix)
-#     username: "@SafingIO"                 # (User) Name to display in the footer link
-#     url: https://twitter.com/SafingIO     # URL of your profile (leave blank to not display in footer)
-#     desc: Follow us Twitter               # Description to display as link title, etc
 
 github_url: https://github.com/Safing
 reddit_url: https://reddit.com/r/safing
