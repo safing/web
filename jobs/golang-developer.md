@@ -11,7 +11,8 @@ Hey there! We're looking for a Golang developer to join us at Safing, maybe that
 
 <div class="ui stacked segment">
   <p>
-    We're on a mission to enable online citizens to withstand todays mass surveillance, so everybody can reclaim their privacy and enjoy <a href="{{ site.cyberfreedom_url }}">#cyberfreedom</a>.
+    <b>Forging powerful privacy tools.</b><br/>
+    We're on a mission to help everyone withstand today's mass surveillance so they can reclaim their privacy.
   </p>
 </div>
 
