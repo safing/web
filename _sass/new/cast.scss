@@ -77,17 +77,17 @@ content .cast .c-r p{
     opacity: 0.5;
 }
 
-@media (max-width: 1318px) {
+@media only screen and (max-width: 1090px) {
     content .cast{
+        height: 100vh;
         grid-template-columns:1fr;
-        margin-top: -100px;
-        height: 155vh;
+        margin-top: 0px;
     }
 
     content .cast .c-l{
         grid-row: 2;
         padding-right: 0rem;
-        align-items: center;
+        align-items: start;
         justify-self: center;
     }
 
@@ -97,7 +97,7 @@ content .cast .c-r p{
 
     content .cast .c-r{
         padding-left: 0rem;
-        align-items: center;
+        align-items: end;
         justify-self: center;
         text-align: center;
     }
@@ -111,8 +111,9 @@ content .cast .c-r p{
     content .cast .c-r p{
         font-size: 1.1rem;
         padding-top: 1rem;
-        width: 100%;
+        max-width: 100%;
         opacity: 0.5;
-        
+        margin-left: auto;
+        margin-right: auto;
     }
 }

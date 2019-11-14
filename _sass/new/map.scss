@@ -1,4 +1,4 @@
-content > .map{
+content .map{
     color: black;
     height: 55vh;
     display: grid;
@@ -37,10 +37,10 @@ content .map .m-r p{
     padding-bottom: 2rem;
 }
 
-@media (max-width: 1318px){
+@media only screen and (max-width: 1090px){
 
     content .map{
-        height: 125vh;
+        height: 90vh;
         grid-template-columns:1fr;
     }
 
@@ -65,7 +65,9 @@ content .map .m-r p{
     }
 
     content .map .m-r p{
-        width: 100%;
+        max-width: 100%;
         text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

@@ -24,19 +24,20 @@ content .about-short p{
     width: 500px;
 }
 
-@media (max-width: 1318px){
+@media only screen and (max-width: 1090px) {
     
     content .about-short{
-        height: 95vh;
+        height: 39vh;
         grid-template-columns: 1fr;
+        grid-column: 1/4;
         text-align: center;
+        
     }
 
     content .about-short h1{
         padding-right: 0rem;
         justify-self: center;
         width: 100%;
-        
     }
 
     content .about-short p{
@@ -45,7 +46,7 @@ content .about-short p{
         font-size: 1.1rem;
         opacity: 0.5;
         padding-left: 0rem;
-        width: 100%;
+        max-width: 70%;
         margin-top: -19rem;
     }
 }

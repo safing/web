@@ -60,7 +60,7 @@ nav ul li a:hover{
     text-decoration: none;
 }
 
-@media (max-width: 1318px){
+@media only screen and (max-width: 1090px){
 
     nav{
         grid-column: 1/4;
@@ -76,4 +76,12 @@ nav ul li a:hover{
         padding-left: 0;
         padding-right: 0.5vh;
     }
+
+    nav div img{
+        width: 40px;
+        height: 25px;
+        padding-right: 1rem;
+        margin-top: -3px;
+    }
+
 }

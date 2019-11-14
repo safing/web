@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body{
@@ -28,8 +29,9 @@ content{
     background-color: #396bf5;
 }
 
-@media (max-width: 1318px) {
+@media only screen and (max-width: 1090px) {
     body{   
         grid-template-columns: 1fr;
     }
+    
 }

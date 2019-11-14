@@ -108,12 +108,12 @@ header .h-r{
 
 header .h-r span{
     opacity: 0.5;
-    font-size: 1.4rem;
+    font-size: max(1.5vh);
 }
 
 header .h-r h1{
     max-width: 10px;
-    font-size: 8rem;
+    font-size: max(9vh);
     line-height: 1;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -197,10 +197,10 @@ header .h-r div a:hover{
     opacity: 1;
 }
 
-@media (max-width: 1318px){
+@media only screen and (max-width: 1090px){
 
     header{
-        height: 170vh;
+        height: 100vh;
         grid-template-columns: 1fr;
     }
 
@@ -215,6 +215,11 @@ header .h-r div a:hover{
         grid-column: 1/2;
         grid-row: 2;
         justify-self: end;
+    }
+
+    header .h-l ul li img{
+        width: 100%;
+        height: auto;
     }
 
     header .h-r{
@@ -240,27 +245,35 @@ header .h-r div a:hover{
     }
 
     header .h-r p{
-        max-width: 100%;
-        font-size: 1.2rem;
+        max-width: 45%;
+        font-size: 1rem;
         font-weight: 300;
-        opacity: 0.5;
+        opacity: 0.8;
         padding-bottom: 2.5rem;
-    }
-
-    header .h-r div button{
-        margin-bottom: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     header .h-r div {
         display: inline-block;
+        padding-left: 0rem;
     }
 
-    header .h-l ul li img{
-        width: 150%;
-        height: auto;
+    header .h-r div a{
+        display: flex;
+        justify-content: center;
+    }
+
+    header .h-r div button{
+        margin-bottom: 0.5rem;
     }
 
     header .h-r div span{
-        margin-right: 1.4rem;
+        padding-left: 0rem;
     }
+
+    header .h-r div span a {
+        padding-left: 0rem;
+    }
+
 }
