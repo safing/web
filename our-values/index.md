@@ -158,7 +158,7 @@ For us, ethical funding also means we want to make sure that our users know who 
 
 As a result we openly share how we are funded. All our funding (and partnerships) will remain public!
 
-<h2 id="influences">Influences <small class="text-lighter">updated June 2019</small></h2>
+<h2 id="influences">Influences <small class="text-lighter">updated November 2019</small></h2>
 
 <p>This section shows what influences the company is exposed to. This includes received funding, partnerships, supporters, trainings and other things.</p>
 
@@ -184,6 +184,32 @@ As a result we openly share how we are funded. All our funding (and partnerships
     </div>
   </div>
 
+  <!-- FFG card -->
+  <div class="ui card">
+    <div class="image">
+      <img src="{{ site.img_url }}external-logos/ffg_color.png">
+    </div>
+    <div class="content">
+      <a class="header" href="https://www.ffg.at/">FFG</a>
+      <div class="meta">
+        <span class="date">2019-2020</span>
+      </div>
+      <div class="description">
+        The FFG is the national funding institution for Research & Development of Austria. Their goal is to strengthen innovation within Austria, advancing their international competitiveness and its economy.<br/><br/>
+        We got accepted into <a href="https://www.ffg.at/programm/basisprogramm">the FFG Basisprogramm</a> in September 2019. The included funding and loan enables us to hire our first employees and further progress our products.
+      </div>
+    </div>
+    <div class="extra content">
+        <i class="green money icon"></i> received <b>82.800€</b> funding (2019)
+        <div class="margin-top-10"></div>
+        <i class="green money icon"></i> received <b>78.200€ loan</b> (2019)
+        <div class="margin-top-10"></div>
+        <i class="blue clock icon"></i>82.800€ funding held out in prospect (2020)
+        <div class="margin-top-10"></div>
+        <i class="blue clock icon"></i>78.200€ <b>loan</b> held out in prospect (2020)
+    </div>
+  </div>
+
   <!-- Netidee card -->
   <div class="ui card">
     <div class="image">
@@ -203,7 +229,7 @@ As a result we openly share how we are funded. All our funding (and partnerships
         <div class="margin-top-10"></div>
         <i class="green money icon"></i> received <b>30.048€</b> funding (2019)
         <div class="margin-top-10"></div>
-        <i class="blue clock icon"></i> another 7.512€ held out in prospect (2019)
+        <i class="blue clock icon"></i>7.512€ held out in prospect (2019)
     </div>
   </div>
 
@@ -227,7 +253,7 @@ As a result we openly share how we are funded. All our funding (and partnerships
         <div class="margin-top-10"></div>
         <i class="green money icon"></i> received <b>30.000€</b> in funding
         <div class="margin-top-10"></div>
-        <i class="blue clock icon"></i> another 20.000€ held out in prospect
+        <i class="blue clock icon"></i>20.000€ held out in prospect
     </div>
   </div>
 
