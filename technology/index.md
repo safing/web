@@ -8,9 +8,9 @@ container_class: 'text'
 
 Here is short and very technical overview of the three components that make Safing awesome.
 
-## Portmaster
+<h2>Application Firewall <small>(Codename: Portmaster)</small></h2>
 
-**Important**: [currently in development freeze](/podcast/2019/09/19/decisions-that-shift-a-company/)
+**⚠️ Important**: [currently in development freeze ❄️](/podcast/2019/09/19/decisions-that-shift-a-company/)
 
 Portmaster is an application firewall that enforces application profiles on processes.
 
@@ -22,7 +22,8 @@ Profiles represent an application as experienced by the user, not as defined by 
 They can be either created by users themselves or - most of the times - obtained through Stamp <span class="text-lighter">(explained later)</span>.
 
 <h2 id='gate17'>
-  Gate17
+  Safing Privacy Network
+  <small>(SPN, Codename: Gate17)</small>
 
   <a href="{{ site.whitepaper_url }}Gate17.pdf" target="_blank">
     <button class='ui safing-secondary right floated button'>
@@ -31,7 +32,7 @@ They can be either created by users themselves or - most of the times - obtained
   </a>
 </h2>
 
-Gate17 brings together several state of the art network technologies and gives them a new spicy twist️.  
+SPN brings together several state of the art network technologies and gives them a new spicy twist️.  
 Its goal is to protect connection data as well as metadata from [surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism).
 
 #### Adapted core concepts
@@ -64,7 +65,7 @@ Its goal is to protect connection data as well as metadata from [surveillance ca
 
 ## Stamp
 
-**Important**: [currently in development freeze](/podcast/2019/09/19/decisions-that-shift-a-company/)
+**⚠️ Important**: [currently in development freeze ❄️](/podcast/2019/09/19/decisions-that-shift-a-company/)
 
 [Stamp](https://stamp.community) is an online community where participants _"stamp"_ <span class="text-lighter">(ie. tag, categorize)</span> domains and applications <span class="text-lighter">(used by Portmaster for application profiles)</span> to serve as a data source for any kind of network filter. Contributions are rewarded with reputation that gives them more influence on the platform. This reputation system will be blockchain-based in the future. Stamp is a separate project that is backed by Safing.
 
