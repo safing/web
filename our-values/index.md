@@ -95,7 +95,7 @@ container_class: 'text'
       </div>
       <div class="content">
         <div class="ui small header">
-          Raphty
+          Raphael
         </div>
         <div class="ui small list">
           <a href="{{ site.company_agreement_url }}" target="\_blank">
