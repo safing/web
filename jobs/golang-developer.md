@@ -44,7 +44,7 @@ Also, be prepared to collaborate with additional team members soon. We do have p
 - 🗣 Communicating with both the community as well as the developers to further improve and iterate our output
 - 👩‍💻 Lots of freedom to take over responsibility of sub areas, or even evolving into the lead developer of a whole product
 - 🚀 Growing into the team and growing with the team as our products evolve into giants
-- 🌟 Having a real impact on software used by people around the world to protect their privacy and enjoy [#cyberfreedom]({{ site.cyberfreedom_url }})
+- 🌟 Having a real impact on software used by people around the world to protect their privacy
 
 #### We're looking for someone who is
 
