@@ -90,7 +90,7 @@ donations:
 ### Podcast
 
 podcast_feed_url: /podcast.xml
-podcast_album_art: /assets/podcast/img/cover.png
+podcast_album_art: /assets/podcast/img/cover.jpg
 podcast_owner: 'Safing'
 podcast_email: 'hello@safing.io'
 podcast_category: Business
