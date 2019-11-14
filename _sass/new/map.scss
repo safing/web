@@ -37,7 +37,45 @@ content .map .m-r p{
     padding-bottom: 2rem;
 }
 
-@media only screen and (max-width: 1090px){
+@media (max-width: 768px){
+
+    content .map{
+        height: 90vh;
+        grid-template-columns:1fr;
+    }
+
+    content .map .m-l{
+        align-items: center;
+        justify-self: center;
+     }
+
+    content .map .m-l img{
+        width: 100%;
+        height: auto;
+    }
+
+    content .map .m-r{
+        grid-row: 2;
+        padding-left: 0rem;
+    }
+
+    content .map .m-r h1{
+        width: 90%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    content .map .m-r p{
+        max-width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px){
 
     content .map{
         height: 90vh;
@@ -71,3 +109,4 @@ content .map .m-r p{
         margin-right: auto;
     }
 }
+

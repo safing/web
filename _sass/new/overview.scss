@@ -70,7 +70,7 @@ content .overview .o-r div div p{
     opacity: 0.5;
 }
 
-@media (max-width: 1318px) {
+@media (max-width: 768px){
 
     content .overview{
         height: 100vh;
@@ -87,14 +87,16 @@ content .overview .o-r div div p{
     }
 
     content .overview .o-l h1{
-        font-size: 2.5rem;
-        max-width: 100%;
-        padding-bottom: 2rem; 
+        font-size: 2.2rem;
+        max-width: 80%;
+        padding-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto; 
     }
     
     content .overview .o-l p{
         font-size: 1.1rem;
-        max-width: 100%;
+        max-width: 70%;
         opacity: 0.5;
         padding-bottom: 2rem; 
         margin-left: auto;
@@ -130,7 +132,5 @@ content .overview .o-r div div p{
     content .overview .o-r .right div{
         width: 100%;
     }
-    
+
 }
-
-
