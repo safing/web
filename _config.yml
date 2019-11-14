@@ -34,6 +34,7 @@ contact_url: "/contact/"
 terms_url: "/terms/"
 privacy_url: "/privacy/"
 whitepaper_url: "/files/whitepaper/"
+company_agreement_url: https://www.firmenmonitor.at/Secure/CompanyDetail.aspx?CID=761761
 
 collections:
   podcasts:

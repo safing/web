@@ -7,37 +7,49 @@ container_class: 'text'
 
 ## Ownership
 
-The company behind Safing is _Safing ICS Technologies GmbH_, a private company registered in Austria. The company is fully owned by its three founders:
+<p>
+  The company behind Safing is <em>Safing ICS Technologies GmbH</em>, a private company registered in Austria. The company is <a href="{{ site.company_agreement_url }}" target="\_blank">fully owned</a> by its three founders:
+</p>
 
 <div class="nine wide column">
   <div class="ui three fluid cards middle lowered">
     <div class="card">
-    <div class="image">
-    <img src="{{ site.assets_url }}img/profiles/dhaavi.jpg">
-    </div>
-    <div class="content">
-    <div class="ui small header">
-    Daniel (40%)
-    </div>
-    <div class="ui list">
-    <a href="https://twitter.com/dehaavi" target="\_blank">
-    <div class="item">
-    <div class="content">
-    <i class="twitter icon"></i>
-    @dehaavi
-    </div>
-    </div>
-    </a>
-    <a href="https://github.com/dhaavi" target="\_blank">
-    <div class="item">
-    <div class="content">
-    <i class="github black icon"></i>
-    dhaavi
-    </div>
-    </div>
-    </a>
-    </div>
-    </div>
+      <div class="image">
+        <img src="{{ site.assets_url }}img/profiles/dhaavi.jpg">
+      </div>
+      <div class="content">
+        <div class="ui small header">
+          Daniel
+        </div>
+        <div class="ui small list">
+          <a href="{{ site.company_agreement_url }}" target="\_blank">
+            <div class="item">
+              <div class="content">
+                <i class="file contract icon"></i>
+                owns 40%
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="ui list">
+          <a href="https://twitter.com/dehaavi" target="\_blank">
+            <div class="item">
+              <div class="content">
+                <i class="twitter icon"></i>
+                @dehaavi
+              </div>
+            </div>
+          </a>
+          <a href="https://github.com/dhaavi" target="\_blank">
+            <div class="item">
+              <div class="content">
+                <i class="github black icon"></i>
+                dhaavi
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
     <div class="card">
       <div class="image">
@@ -45,7 +57,17 @@ The company behind Safing is _Safing ICS Technologies GmbH_, a private company r
       </div>
       <div class="content">
         <div class="ui small header">
-        David (30%)
+          David
+        </div>
+        <div class="ui small list">
+          <a href="{{ site.company_agreement_url }}" target="\_blank">
+            <div class="item">
+              <div class="content">
+                <i class="file contract icon"></i>
+                owns 30%
+              </div>
+            </div>
+          </a>
         </div>
         <div class="ui list">
           <a href="https://twitter.com/davegson" target="\_blank">
@@ -73,7 +95,17 @@ The company behind Safing is _Safing ICS Technologies GmbH_, a private company r
       </div>
       <div class="content">
         <div class="ui small header">
-        Raphty (30%)
+          Raphty
+        </div>
+        <div class="ui small list">
+          <a href="{{ site.company_agreement_url }}" target="\_blank">
+            <div class="item">
+              <div class="content">
+                <i class="file contract icon"></i>
+                owns 30%
+              </div>
+            </div>
+          </a>
         </div>
         <div class="ui list">
           <a href="https://twitter.com/Raphty101" target="\_blank">
