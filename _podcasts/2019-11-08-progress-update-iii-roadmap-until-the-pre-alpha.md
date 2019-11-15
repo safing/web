@@ -1,7 +1,7 @@
 ---
 # ⚠️ ALWAYS follow this format: "#001 - Some sweet title"
 # when displaying only the episode number or the title this has to be constant
-# -> view _plugins/podcast_helper.rb
+# -> view cast.html
 title: "#009 - Progress Update III - Roadmap until the pre-alpha"
 keywords: privacy business progress
 date: 2019-11-08
