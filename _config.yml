@@ -12,6 +12,7 @@ description: > # this means to ignore newlines until "base_url:"
 base_url: "/" # the subpath of your site, e.g. /blog
 assets_url: "/assets/"
 img_url: "/assets/img/"
+video_url: "/assets/video/"
 icons_url: "/assets/icons/"
 vendor_url: "/vendor/"
 url: "https://safing.io" # the base hostname & protocol for your site

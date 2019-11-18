@@ -43,7 +43,7 @@ header .h-l-v button{
     width: 100px;
     height: 100px;
     color: white;
-	background-color: #05ce78;
+	background-color: #ff5700;
     border: 0;
     border-radius: 50%;
     cursor: pointer;
@@ -55,7 +55,7 @@ header .h-l-v button{
 }
 
 header .h-l-v button:hover{
-    box-shadow: 2px 2px 30px #05ce77af;
+    box-shadow: 2px 2px 30px #ff5500b9;
 }
 
 header .h-l-v button img {
@@ -66,7 +66,7 @@ header .h-l-v button img {
 }
 
 header .h-l-v video{
-    width: 95%;
+    width: 100%;
     height: auto;
 	border: 0;
 	border-radius: 10px 10px 10px;
