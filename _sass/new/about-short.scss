@@ -24,9 +24,11 @@ content .about-short p{
     width: 500px;
 }
 
-@media (max-width: 768px){
+
+@media (min-width: 460px) and (max-width: 1376px) {
+    
     content .about-short{
-        height: 60vh;
+        height: 50vh;
         grid-template-columns: 1fr;
         grid-column: 1/2;
         text-align: center;
@@ -54,58 +56,3 @@ content .about-short p{
     }
 }
 
-@media (min-width: 768px) {
-    
-    content .about-short{
-        height: 39vh;
-        grid-template-columns: 1fr;
-        grid-column: 1/4;
-        text-align: center;
-        
-    }
-
-    content .about-short h1{
-        padding-right: 0rem;
-        justify-self: center;
-        width: 100%;
-    }
-
-    content .about-short p{
-        grid-row: 2;
-        justify-self: center;
-        font-size: 1.1rem;
-        opacity: 0.5;
-        padding-left: 0rem;
-        max-width: 70%;
-        margin-top: -19rem;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-    
-    content .about-short{
-        color: black;
-        height: 25vh;
-        display: grid;
-        grid-auto-columns: auto;
-        grid-template-columns:1fr 1fr;
-        grid-row: 0;
-        grid-column: 1/4;
-        align-items: center;
-    }
-    
-    content .about-short h1{
-        justify-self: end;
-        font-size: 2.5rem;
-        padding-right: 9rem;
-        width: 500px;
-    }
-    
-    content .about-short p{
-        justify-self: start;
-        font-size: 1.1rem;
-        opacity: 0.5;
-        padding-left: 5rem;
-        width: 500px;
-    }
-}
