@@ -20,7 +20,7 @@ content .mission{
 
 content .mission{
     padding-right: 6rem;
-    justify-self: center;   
+    justify-self: center;
 }
 
 content .mission h1{
@@ -29,7 +29,6 @@ content .mission h1{
     font-size: 3.8rem;
     font-weight: bold;
     width: max(60%);
-    padding-bottom: 3rem;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -41,29 +40,30 @@ content .mission p{
     font-size: 1.4rem;
     font-weight: 200;
     width: max(50%);
-    opacity: 0.6;
-    padding-top: 17rem;
+    opacity: 0.75;
+    margin-top: 17rem;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgba(0,0,0,0.35)
 }
 
 @media (min-width: 200px) and (max-width: 460px){
 
     content .mission{
         padding-right: 0rem;
-        justify-self: center;   
+        justify-self: center;
     }
 
     content .mission h1{
         font-size: 2rem;
         width: max(80%);
     }
-    
+
     content .mission p{
-        font-size: 1rem;  
+        font-size: 1rem;
         width: max(80%);
-        padding-top: 13rem;
+        margin-top: 13rem;
     }
 }
 
@@ -72,14 +72,14 @@ content .mission p{
 
     content .mission{
         padding-right: 0rem;
-        justify-self: center;   
+        justify-self: center;
     }
 
     content .mission h1{
         font-size: 2.8rem;
     }
-    
+
     content .mission p{
-        font-size: 1.1rem;  
+        font-size: 1.1rem;
     }
 }
