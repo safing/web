@@ -31,7 +31,7 @@ content .mission h1{
     grid-column: 1/2;
     font-size: 3.8rem;
     font-weight: bold;
-    width: max(60%);
+    width: calc(60%);
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -42,7 +42,7 @@ content .mission p{
     grid-column: 1/2;
     font-size: 1.4rem;
     font-weight: 200;
-    width: max(50%);
+    width: calc(50%);
     opacity: 0.75;
     margin-top: 17rem;
     text-align: center;
@@ -60,12 +60,12 @@ content .mission p{
 
     content .mission h1{
         font-size: 2rem;
-        width: max(80%);
+        width: calc(80%);
     }
 
     content .mission p{
         font-size: 1rem;
-        width: max(80%);
+        width: calc(80%);
         margin-top: 13rem;
     }
 }
