@@ -281,10 +281,11 @@ header .h-r div a:hover{
 @media (min-width: 768px) and (max-width: 992px){
 
     header{
-        height: 400vh;
+        height: 150vh;
         grid-template-columns: 1fr;
     }
 
+ 
     header .h-l{
         width: 90%;
         grid-column: 1/2;

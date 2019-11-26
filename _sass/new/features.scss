@@ -37,6 +37,8 @@ content .features div div p{
 @media only screen and (max-width: 1090px){
 
     content .features{
+        margin-top: 10rem;
+        margin-bottom: 10rem;
         height: 80vh;
         grid-template-columns: 1fr;
         grid-column: 1/3;

@@ -28,7 +28,7 @@ content .about-short p{
 @media (min-width: 460px) and (max-width: 1376px) {
     
     content .about-short{
-        height: 50vh;
+        height: 35vh;
         grid-template-columns: 1fr;
         grid-column: 1/2;
         text-align: center;
@@ -37,19 +37,23 @@ content .about-short p{
 
     content .about-short h1{
         padding-right: 0rem;
-        justify-self: center;
+        justify-self: none;
+        align-self: end;
         width: 100%;
-        padding-top: 8rem;
+        padding-top: 0rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     content .about-short p{
         grid-row: 2;
         justify-self: start;
+        align-self: start;
         font-size: 1.1rem;
         opacity: 0.5;
         padding-left: 0rem;
         max-width: 70%;
-        margin-top: 0rem;
+        margin-top: 3rem;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
