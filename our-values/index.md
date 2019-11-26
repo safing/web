@@ -1,8 +1,7 @@
 ---
 layout: page_markdown
-title: our-values
-heading: Our Values
 container_class: 'text'
+include_mission: true
 ---
 
 ## Ownership

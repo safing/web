@@ -9,6 +9,9 @@
   </head>
   <body>
     {% include new/nav.html %}
+    {% if page.include_mission %}
+      {% include new/mission.html %}
+    {% endif %}
     {{ content }}
     {% include new/footer.html %}
   </body>

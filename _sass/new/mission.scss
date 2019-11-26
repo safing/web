@@ -1,0 +1,88 @@
+content .mission{
+    color: white;
+    height: 60vh;
+    display: grid;
+    grid-auto-columns: auto;
+    grid-template-columns: 1fr;
+    grid-row: 1;
+    grid-column: 1/2;
+    align-items: center;
+    justify-self: center;
+}
+
+.o-bg{
+    background-color: black;
+    // https://pixabay.com/photos/rough-horn-alpine-2146181/
+    // Free for commercial use
+    // No attribution required
+    background-image: url(/assets/img/o-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+content .mission{
+    padding-right: 6rem;
+    justify-self: center;
+}
+
+content .mission h1{
+    grid-row: 1;
+    grid-column: 1/2;
+    font-size: 3.8rem;
+    font-weight: bold;
+    width: max(60%);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+content .mission p{
+    grid-row: 1;
+    grid-column: 1/2;
+    font-size: 1.4rem;
+    font-weight: 200;
+    width: max(50%);
+    opacity: 0.75;
+    margin-top: 17rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,0.35)
+}
+
+@media (min-width: 200px) and (max-width: 460px){
+
+    content .mission{
+        padding-right: 0rem;
+        justify-self: center;
+    }
+
+    content .mission h1{
+        font-size: 2rem;
+        width: max(80%);
+    }
+
+    content .mission p{
+        font-size: 1rem;
+        width: max(80%);
+        margin-top: 13rem;
+    }
+}
+
+
+@media (min-width: 460px) and (max-width: 1376px){
+
+    content .mission{
+        padding-right: 0rem;
+        justify-self: center;
+    }
+
+    content .mission h1{
+        font-size: 2.8rem;
+    }
+
+    content .mission p{
+        font-size: 1.1rem;
+    }
+}
