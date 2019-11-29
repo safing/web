@@ -4,7 +4,7 @@ container_class: 'text'
 include_mission: true
 ---
 
-## Ownership
+<h2 id="ownership">Ownership</h2>
 
 <p>
   The company behind Safing is <em>Safing ICS Technologies GmbH</em>, a private company registered in Austria. The company is <a href="{{ site.company_agreement_url }}" target="\_blank">fully owned</a> by its three founders:
