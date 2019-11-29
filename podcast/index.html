@@ -1,15 +1,28 @@
 ---
 title: The Safing Podcast
-layout: podcast
+layout: page_column
 ---
-
 
 <div class="ui divided items">
   {% assign sorted_podcasts = site.podcasts | reverse %}
   {% for episode in sorted_podcasts %}
     <div class="item">
+      <a class="ui image" href="{{ episode.url }}">
+        <span class="ui large text">
+          #{{ episode.title | slice: 2, 2 }}
+        </span>
+      </a>
       <div class="middle aligned content">
-        <a href="{{ episode.url }}">{{ episode.title }}</a>
+        {% assign title_length = episode.title | size %}
+        <a class="description" href="{{ episode.url }}">{{ episode.title | slice: 7, title_length }}</a>
+        <div class="meta">
+          <span class="ui small text">
+            <i class="calendar alternate icon"></i>{{ episode.date | date: "%-d. %b %Y" }},
+            {% for host in episode.hosts %}
+              <i class="user icon"></i>{{ host }}
+            {% endfor %}
+          </span>
+        </div>
       </div>
     </div>
   {% endfor %}
