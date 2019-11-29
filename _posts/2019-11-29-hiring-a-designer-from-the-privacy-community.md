@@ -4,7 +4,7 @@ date: 2019-11-29
 author: davegson
 ---
 
-_Sidenote: shoutout to [The Hated One]((https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q/)), this would not have happened without him!_
+_Sidenote: shoutout to [The Hated One](https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q/), this would not have happened without him!_
 
 ## The Grant
 
@@ -64,6 +64,6 @@ _Sidenote: [Luke talks all about his side of the story in the podcast]({{ site.p
 
 ## Wrap up
 
-Again, this would not have been possible without [The Hated One]((https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q/))! It was a pleasure talking to him and if you don't know him already, check out his videos. They're a great resource for privacy and related topics.
+Again, this would not have been possible without [The Hated One](https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q/)! It was a pleasure talking to him and if you don't know him already, check out his videos. They're a great resource for privacy and related topics.
 
 Also, if you like what we do, please consider following and supporting us [whichever way works for you]({{ site.community_hub_url }}). We are _really_ excited about the months ahead of us!
