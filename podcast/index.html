@@ -17,6 +17,7 @@ layout: podcast
         <a class="description" href="{{ episode.url }}">{{ episode.title | slice: 7, title_length }}</a>
         <div class="meta">
           <span class="ui small text">
+            <i class="calendar alternate icon"></i>{{ episode.date | date: "%-d. %b %Y" }},
             {% for host in episode.hosts %}
               <i class="user icon"></i>{{ host }}
             {% endfor %}

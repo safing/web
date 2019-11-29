@@ -8,7 +8,7 @@
           <div>
             {% assign title_length = episode.title | size %}
             <span>{{ episode.title | slice: 7, title_length }}</span>
-            <p>{{ episode.title | slice: 0, 4 }}</p>
+            <p>{{ episode.title | slice: 0, 4 }} - {{ episode.date | date: "%-d. %b %Y" }}</p>
           </div>
         </a>
       {% endfor %}
