@@ -21,6 +21,16 @@ communities:
     url: /podcast/
     internal: true
   - text: >
+      ### Blog
+
+      Now you can also read about what is and has been going on at Safing!
+#
+    image:
+      icon: huge alternate feather icon
+      alt: blog
+    url: /blog/
+    internal: true
+  - text: >
       ### Github
 
       Don’t like our personalities? Check out our code. Where we try to be our best selves.

@@ -29,6 +29,7 @@ inter_post_navigation: false
 our_values_url: "/our-values/"
 jobs_url: "/jobs/"
 podcast_url: "/podcast/"
+blog_url: "/blog/"
 technology_url: "/technology/"
 community_hub_url: "/community-hub/"
 contact_url: "/contact/"

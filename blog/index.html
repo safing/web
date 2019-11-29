@@ -1,0 +1,20 @@
+---
+title: The Safing Blog
+layout: page_column
+---
+
+<div class="ui divided items">
+  {% for post in site.posts %}
+    <div class="item">
+      <div class="middle aligned content">
+        <a class="header" href="{{ post.url }}">{{ post.title }}</a>
+        <div class="meta">
+          <span class="ui small text">
+            <i class="calendar alternate icon"></i>{{ post.date | date: "%-d. %b %Y" }}
+            <i class="user icon"></i>{{ post.author }}
+          </span>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
