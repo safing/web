@@ -42,7 +42,7 @@ We booked the flight the day before we received the result about the grant, whic
 
 ## His weekend in Austria
 
-The weekend was very fun! For me at least - I know Luke rather very nervous in the beginning. He arrived Friday evening, and all of us met on Saturday for lunch at a pizza place. Luke accidentally ordered a pizza, which turned out to be rather  complicated to eat, which made him stress out even more. Imagine his situation: You're going to an interview for a job you're excited about. You know you and another candidate are the only ones left. And then all three founders and you go grab some pizza. All eyes on you - and then you make a mess while eating.
+The weekend was very fun! For me at least - I know Luke rather very nervous in the beginning. He arrived Friday evening, and all of us met on Saturday for lunch at a pizza place. Luke accidentally ordered a pizza, which turned out to be rather complicated to eat, which made him stress out even more. Imagine his situation: You're going to an interview for a job you're excited about. You know you and another candidate are the only ones left. And then all three founders and you go grab some lunch. All eyes on you - and then you're having troubles eating your pizza.
 
 Well, it surely was no easy situation for him, but as time went by everything loosened up a bit so things got more relaxed. We had some live designing, had some lengthy chats and then went to eat dinner to round tings off. Of course we covered all costs.
 

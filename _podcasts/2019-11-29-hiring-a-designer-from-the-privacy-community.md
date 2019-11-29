@@ -15,7 +15,7 @@ podcast_duration: "1:03:17"
 # actual byte size
 podcast_length: 60755720
 summary: "
-<p>This week is especially exciting as we welcome our designer Luke to the podcast. This is the story about how Luke got this position: starting from how he found out about the job via The Hated One, our first video call all the way to the vital last interview day where Luke accidentally messed up eating his pizza. It's a great story, and even greater to have him on the team! He has already re-shaped our designs from the ground up. Enjoy the listen!</p>
+<p>This week is especially exciting as we welcome our designer Luke to the podcast. This is the story about how Luke got this position: starting from how he found out about the job via The Hated One, our first video call all the way to the vital last interview day where it was only between him and another candidate (and about pizza). It's a great story, and even greater to have him on the team! He has already re-shaped our designs from the ground up. Enjoy the listen!</p>
 
 <h4>Accompanying Blog Post</h4>
 
