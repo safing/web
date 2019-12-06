@@ -116,3 +116,23 @@
     }
   }
 }
+
+.pod-links{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -3rem;
+  margin-bottom: 8rem;
+}
+.pod-links ul{
+  display: inline-flex;
+}
+
+.pod-links li{
+  list-style-type: none;
+}
+
+.pod-links ul br{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

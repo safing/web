@@ -91,6 +91,7 @@ donations:
 
 ### Podcast
 
+podcast_itunes_url: https://podcasts.apple.com/podcast/id1480027286
 podcast_feed_url: /podcast.xml
 podcast_album_art: /assets/podcast/img/cover.jpg
 podcast_owner: 'Safing'
