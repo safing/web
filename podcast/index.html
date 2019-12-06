@@ -2,6 +2,13 @@
 title: The Safing Podcast
 layout: page_column
 ---
+<div class="pod-links">
+  <ul>
+    <li><a href="{{ site.podcast_itunes_url }}">iTunes</a></li>
+    <br>
+    <li><a href="{{ site.podcast_feed_url }}">RSS</a></li>
+  </ul>
+</div>
 
 <div class="ui divided items">
   {% assign sorted_podcasts = site.podcasts | reverse %}
