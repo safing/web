@@ -90,7 +90,7 @@ include_mission: true
     </div>
     <div class="card">
       <div class="image">
-        <img src="{{ site.assets_url }}img/profiles/raphty.png">
+        <img src="{{ site.assets_url }}img/profiles/raphty.jpg">
       </div>
       <div class="content">
         <div class="ui small header">
