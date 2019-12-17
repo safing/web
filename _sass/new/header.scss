@@ -197,6 +197,14 @@ header .h-r div a:hover{
     opacity: 1;
 }
 
+header #kickstarter-banner {
+  background-color: #05ce78;
+  text-align: center;
+  margin: 0.5em 0;
+  padding: 0.6em 0;
+  border-radius: 5px;
+}
+
 @media (max-width: 1318px){
 
     header{
