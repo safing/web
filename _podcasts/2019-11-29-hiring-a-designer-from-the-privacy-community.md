@@ -50,7 +50,7 @@ summary: "
 "
 hosts:
 - davegson
-- daniel
+- luke
 ---
 
 {% include audio.html %}
