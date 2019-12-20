@@ -4,6 +4,8 @@ date: 2019-12-20
 author: davegson
 ---
 
+## Intro
+
 **We are very pleased to announce that we have become a sponsor of [PrivacyTools.io](https://privacytools.io)**
 
 We are delighted to be in a position where we are able to share our resources, and equally enthusiastic that we can start this off by supporting the amazing team behind the PrivacyTools venture.
