@@ -4,13 +4,13 @@ date: 2019-12-20
 author: davegson
 ---
 
-**We are very pleased to announce that we have become a sponsor of [PrivacyTools.io](https://privacytools.io)**
+**We are very pleased to announce that we have become a sponsor of [PrivacyTools.io](https://opencollective.com/privacytoolsio)**
 
 We are delighted to be in a position where we are able to share our resources, and equally enthusiastic that we can start this off by supporting the amazing team behind the PrivacyTools venture.
 
 ## What is PrivacyTools?
 
-PrivacyTools is an endeavor which strives to inform, educate and empower privacy-minded people to withstand today's mass surveillance. Their thriving community members do not only help each other out, but also equip and aid all newcomers into the field. The team's openness in all their decision making, criteria and finances continues to validate their gained trust across the privacy scene. If you are able [to spare time](https://www.privacytools.io/index.html#participate) or [money](https://www.privacytools.io/donate/), we encourage you to support them too!
+[PrivacyTools](https://privacytools.io) is an endeavor which strives to inform, educate and empower privacy-minded people to withstand today's mass surveillance. Their thriving community members do not only help each other out, but also equip and aid all newcomers into the field. The team's openness in all their decision making, criteria and finances continues to validate their gained trust across the privacy scene. If you are able [to spare time](https://www.privacytools.io/index.html#participate) or [money](https://www.privacytools.io/donate/), we encourage you to support them too!
 
 
 ## First, we received
@@ -19,7 +19,7 @@ Before our whole venture happened, before we came to this point, the work of Pri
 
 ## Sharing is caring
 
-Being into the Safing venture for more than two years, it's amazing having a look back and realizing how far we have come. But at the same time it's also humbling to see how much of it cannot be credited to us, but insteaf to others. Fellow travelers, founders or privacy advocates - all generously shared their time and input to help us grow. They pushed us to rethink our strategies, gave valuable input on our designs or even gave us a platform where our voices were heard.
+Being into the Safing venture for more than two years, it's amazing having a look back and realizing how far we have come. But at the same time it's also humbling to see how much of it cannot be credited to us, but instead to others. Fellow travelers, founders or privacy advocates - all generously shared their time and input to help us grow. They pushed us to rethink our strategies, gave valuable input on our designs or even gave us a platform where our voices were heard.
 
 Shorty after receiving a big grant from the Austrian Institution for Research, PrivacyTools presented their sponsorship program via Github. Excitedly, I knew the time had come for us to start sharing our received resources with fellow privacy advocates. We decided this while fully being aware that this might fuel our venture too, or it might not - that's for every reader of this announcement to decide. But to us, that is not a dealbreaker. In either case we are happily supporting a genuine and caring team!
 
