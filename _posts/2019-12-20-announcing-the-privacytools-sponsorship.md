@@ -29,6 +29,6 @@ After reaching out to the team, we were invited to a team chat to discuss everyt
 
 ## Wrap up
 
-Just as mentioned in the accompanying podcast (wait two hours for the upload ;), I really feel the privacy space is maturing. We are not only growing in numbers, but we are also growing tighter together. It is a great community, where one thing is allowed to fuel the other, all here to support one another. We are really hopeful that the 20s will be the decade where we take back our right to privacy. And you can count on Safing to play its part, not only with some kickass software, but also by supporting more and more projects which strive for the same utopia as all of us.
+Just as mentioned in [the accompanying podcast](https://safing.io/podcast/2019/12/20/becoming-privacytools-first-sponsor/), I really feel the privacy space is maturing. We are not only growing in numbers, but we are also growing tighter together. It is a great community, where one thing is allowed to fuel the other, all here to support one another. We are really hopeful that the 20s will be the decade where we take back our right to privacy. And you can count on Safing to play its part, not only with some kickass software, but also by supporting more and more projects which strive for the same utopia as all of us.
 
 **To the PrivacyTools team: Thank you so much for what you do!**
