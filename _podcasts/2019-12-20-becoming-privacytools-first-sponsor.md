@@ -43,7 +43,7 @@ summary: "
 "
 hosts:
 - davegson
-- daniel
+- raphty
 ---
 
 {% include audio.html %}
