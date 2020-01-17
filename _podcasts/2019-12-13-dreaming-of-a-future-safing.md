@@ -42,7 +42,7 @@ summary: "
 "
 hosts:
 - davegson
-- raphty
+- daniel
 ---
 
 {% include audio.html %}
