@@ -75,4 +75,4 @@ While the open source SPN app sits at the kernel, it can do all sorts of amazing
 Both the SPN and Tor are FOSS. But Tor is free to use while you have to subscribe to the SPN in order to use it. Be aware you are not only paying for the SPN, but also supporting us to develop the free application firewall and enabling us to continue fighting for a brighter future.
 
 ## Conclusion
-Tor is a great project which has pioneered privacy technology and is a firm player in the space while the SPN has fresh, innovative solutions which tackle uncharted ground and focuses on ease of use before all. Depending on your threat model, the SPN may be an alternative to Tor. Or it might not. Ask Marvin.
+Tor is a great project which has pioneered privacy technology and is a firm player in the space while the SPN has fresh, innovative solutions which tackle uncharted ground and focuses on ease of use before all. Depending on your threat model, the SPN may be an alternative to Tor. Or it might not.
