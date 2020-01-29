@@ -37,6 +37,7 @@ terms_url: "/terms/"
 privacy_url: "/privacy/"
 whitepaper_url: "/files/whitepaper/"
 company_agreement_url: https://www.firmenmonitor.at/Secure/CompanyDetail.aspx?CID=761761
+kickstarter_url: "https://www.kickstarter.com/projects/safingio/spn" # add the kickstarter url when ready
 
 collections:
   podcasts:

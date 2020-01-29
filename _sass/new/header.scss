@@ -65,42 +65,13 @@ header .h-l-v button img {
 	padding-left: 0.4rem;
 }
 
-header .h-l-v video{
-    width: 100%;
+header .h-l-v img{
+    width: 95%;
     height: auto;
 	border: 0;
-	border-radius: 10px 10px 0px 0px;
+	border-radius: 10px 10px 10px 10px;
 	font-variant-caps: all-petite-caps;
 	cursor: pointer;
-}
-
-.kickstarter{
-  color: white;
-	background-color: #05ce78;
-	display: flex;
-	border: 0;
-	padding: 10px 25px;
-  border-radius: 0px 0px 10px 10px;
-  margin-top: -0.25rem;
-
-  a {
-    color: white;
-  }
-}
-
-.kickstarter div{
-  height: auto;
-  margin: 0 auto;
-  display: flex;
-}
-
-.kickstarter img{
-    width: 20px;
-    height: auto;
-}
-
-.kickstarter span{
-    padding-left: 1rem;
 }
 
 header .h-l span{
@@ -175,10 +146,13 @@ header .h-r div{
     display: flex;
     padding-top: 1rem;
 }
+header .h-r div a{
+    text-decoration: none;
+}
 
 header .h-r div button{
 	color: white;
-	background-color: #FF5700;
+	background-color: #05ce78;
 	display: flex;
 	border: 0;
 	padding: 10px 25px;
@@ -190,7 +164,7 @@ header .h-r div button{
 
 header .h-r div button:hover{
     transform: scale(1.1);
-    box-shadow: 2px 2px 30px #FF5700;
+    box-shadow: 2px 2px 30px #05ce77af;
 }
 
 header .h-r div button img{
