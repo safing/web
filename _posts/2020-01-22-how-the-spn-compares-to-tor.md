@@ -33,13 +33,13 @@ We mean *everyone*. We want my mom and your mom to be able to conveniently withs
 
 ## Maturity
 
-Tor was released in 2002, while the SPN will launch in April 2020. It goes without saying that Tor is the far maturer project of the two. The SPN is still in its early days.
+Tor was released in 2002, while the SPN will launch in June 2020. It goes without saying that Tor is the far maturer project of the two. The SPN is still in its early days.
 
 ## Scope of Protection
 
 The Tor browser has great coverage, supporting all major operating systems. It protects the browser habits of its users and is a breeze to set up. When one additionally wants to safeguard the whole computer via the Tor network one has to use the [operating system tails](https://tails.boum.org/install/index.en.html), which is great at what it does, but hard and technical to set up and use.
 
-This is one key difference to the SPN. With it, it's a simple plug and play. You download the open source app and then it takes care of all your connections, not only those of the browser. When launching in April, we will support Windows, with Linux following shortly after. We are planning on supporting Mac and Mobile in the future too, so everybody can enjoy easy privacy with their preferred operating system.
+This is one key difference to the SPN. With it, it's a simple plug and play. You download the open source app and then it takes care of all your connections, not only those of the browser. When launching in June, we will support Windows, with Linux following shortly after. We are planning on supporting Mac and Mobile in the future too, so everybody can enjoy easy privacy with their preferred operating system.
 
 Another detail is that Tor does not transport everything, notably UDP traffic. The SPN will support TCP and UDP (+ variants) from the get go and we will see if we will need and implement anything else.
 
