@@ -33,7 +33,7 @@ The SPN however decouples the person from the destination, resulting in true pri
 
 The VPN technology is widespread and almost every computer and mobile phone supports connecting to a VPN natively.
 
-When launching in April, the SPN will support Windows, with Linux following shortly after. We are planning on supporting Mac and Mobile in the future too, so everybody can enjoy easy privacy with their preferred operating system.
+When launching in June, the SPN will support Windows, with Linux following shortly after. We are planning on supporting Mac and Mobile in the future too, so everybody can enjoy easy privacy with their preferred operating system.
 
 The VPN and SPN both tunnel connections from your whole computer, not only from your browser.
 
