@@ -4,8 +4,6 @@ date: 2020-01-22
 author: davegson
 ---
 
-# How the SPN compares to VPNs
-
 ## Introduction into VPN Technology
 
 ### What is a VPN here for?
