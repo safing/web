@@ -4,8 +4,6 @@ date: 2020-01-22
 author: davegson
 ---
 
-# How the SPN compares to Tor
-
 ## Different Missions
 
 **Tor project's mission**
