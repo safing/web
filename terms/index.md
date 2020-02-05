@@ -4,6 +4,10 @@ title: Terms of Service
 heading: Terms of Service
 ---
 
+## Terms of Service and Privacy Policy Statement
+
+The Terms of Service and Privacy Policy are currently under development, a version that will cover all services offered by Safing ICS Technologies GmbH, will be on the service in its entirety before the official release date of June 2020. we reserve the right to amend and update such policies at any time.
+
 ## Our Services
 
 Please find the Terms for each of our services here:
