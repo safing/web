@@ -1,3 +1,29 @@
+content.kickstarter-plug {
+  width: 100%;
+
+  a {
+    width: 100%;
+    background-color: rgba(5, 206, 120, 0.99);
+    text-decoration: none;
+    color: black;
+
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 3.5em;
+
+      h3 {
+        text-decoration: underline;
+        font-weight: normal;
+        font-size: 1.5em;
+        margin-bottom: 0.4em;
+      }
+    }
+  }
+}
+
 footer{
     color: white;
     height: 45vh;
@@ -90,11 +116,10 @@ footer .legal ul li{
 }
 
 @media (max-width: 1318px) {
-
     footer{
         height: 45vh;
         border-top-style: solid;
-        border-top-width: 8rem;
+        // border-top-width: 8rem; removed because of KS plug banner
     }
 
     footer .list ul{
