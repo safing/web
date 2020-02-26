@@ -1,18 +1,20 @@
 content .overview{
     color: black;
-    height: 70vh;
     display: grid;
     grid-auto-columns: auto;
     grid-template-columns:1fr 1fr;
-    grid-row: 0;
     grid-column: 1/4;
     align-items: center;
     justify-self: center;
+    // height: 70vh;
+    // grid-row: 0;
+    width: 80%;
+    padding: 2.5rem 0 1.75rem 0;
 }
 
 content .overview .o-l{
-    padding-right: 6rem;
-    justify-self: end;
+    // padding-right: 6rem;
+    // justify-self: end;
 }
 
 content .overview .o-l h1{
@@ -30,10 +32,12 @@ content .overview .o-l p{
 
 content .overview .o-r{
     color: black;
-    height: 55vh;
+    // height: 55vh;
+    min-height: 55vh;
     display: grid;
     grid-auto-columns: auto;
-    grid-template-columns: 1fr 1fr;
+    // grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-row: 0;
     grid-column: 2/4;
     align-items: center;
@@ -51,7 +55,9 @@ content .overview .o-r .right div{
 }
 
 content .overview .o-r div img{
-    width: 2rem;
+    // width: 2rem;
+    width: 1.5rem;
+    margin-right: 1rem;
 }
 
 content .overview .o-r div div{
@@ -65,7 +71,8 @@ content .overview .o-r div div span{
 
 content .overview .o-r div div p{
     font-size: 1.1rem;
-    padding-top: 1rem;
+    // padding-top: 1rem;
+    padding-top: .5rem;
     width: 350px;
     opacity: 0.5;
 }
@@ -89,7 +96,7 @@ content .overview .o-r div div p{
         width: 100%;
         padding-bottom: 2rem;
     }
-    
+
     content .overview .o-l p{
         font-size: 1.1rem;
         width: 100%;
@@ -118,10 +125,10 @@ content .overview .o-r div div p{
     content .overview .o-r .left div{
         width: 100%;
     }
-    
+
     content .overview .o-r .right div{
         width: 100%;
-        
+
     }
-    
+
 }
