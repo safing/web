@@ -6,7 +6,7 @@ header{
     grid-template-columns: 1fr 1fr;
     grid-row: 2;
     grid-column: 2/4;
-    align-items: center;
+    // align-items: center;
 }
 
 .h-bg{
@@ -20,9 +20,10 @@ header{
 }
 
 header .h-l{
-    width: 90%;
-    grid-column: 1/2;
-    justify-self: end;
+    // width: 90%;
+    // grid-column: 1/2;
+    // justify-self: end;
+    transform: translate(5rem, -1rem);
 }
 
 header .h-l-i{
@@ -35,8 +36,8 @@ header .h-l-i img{
 }
 
 header .h-l-v{
-    position: relative;
-    padding-bottom: 2rem;
+    // position: relative;
+    // padding-bottom: 2rem;
 }
 
 header .h-l-v button{
@@ -81,7 +82,8 @@ header .h-l span{
 header .h-l ul{
     display: flex;
     list-style-type: none;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
+    padding-top: .5rem;
     padding-right: 5.5rem;
 }
 
@@ -98,11 +100,12 @@ header .h-r{
     grid-column: 2/3;
     align-items: center;
     padding-bottom: 8vh;
-    padding-left: 10rem;
+    // padding-left: 10rem;
+    padding-left: 7rem;
 }
 
 header .h-r span{
-    opacity: 0.5;
+    // opacity: 0.5;
     font-size: 1.4rem;
 }
 
@@ -110,16 +113,19 @@ header .h-r h1{
     max-width: 10px;
     font-size: 8rem;
     line-height: 1;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    /* padding-top: 2rem; */
+    /* padding-bottom: 2rem; */
+    padding-bottom: 1rem;
 }
 
 header .h-r p{
     max-width: 470px;
     font-size: 1.2rem;
     font-weight: 300;
-    opacity: 0.5;
-    padding-bottom: 2.5rem;
+    /* opacity: 0.5; */
+    /* padding-bottom: 2.5rem; */
+    padding: 1rem 0;
+    color: #ddd;
 }
 
 header .h-r ul{
@@ -144,7 +150,8 @@ header .h-r ul li p{
 
 header .h-r div{
     display: flex;
-    padding-top: 1rem;
+    // padding-top: 1rem;
+    padding-top: 2rem;
 }
 header .h-r div a{
     text-decoration: none;
@@ -185,14 +192,17 @@ header .h-r div span{
 }
 
 header .h-r div span a{
-    color: white;
-    padding-left: 1rem;
-    opacity: 0.8;
+    // color: white;
+    // opacity: 0.8;
+    color: #ddd;
+    text-transform: capitalize;
     transition: .5s;
+    padding-left: 1rem;
 }
 
 header .h-r div a:hover{
-    opacity: 1;
+    // opacity: 1;
+    text-decoration: underline;
 }
 
 @media (max-width: 1318px){
