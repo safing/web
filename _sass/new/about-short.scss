@@ -1,5 +1,6 @@
 content .about-short{
-    color: black;
+    // color: black;
+    color: #eee;
     height: 25vh;
     display: grid;
     grid-auto-columns: auto;
@@ -7,6 +8,7 @@ content .about-short{
     grid-row: 0;
     grid-column: 1/4;
     align-items: center;
+    background-image: linear-gradient(to right bottom, slateblue, royalblue 260%);
 }
 
 content .about-short h1{
@@ -19,9 +21,19 @@ content .about-short h1{
 content .about-short p{
     justify-self: start;
     font-size: 1.1rem;
-    opacity: 0.5;
+    // opacity: 0.5;
     padding-left: 5rem;
     width: 500px;
+}
+
+// Sorry for the selectors they come straight from FF inspector, it's targeting the contribute link.
+.about-short > p:nth-child(2) > a:nth-child(2) {
+ color: deepskyblue;
+ font-weight: 600;
+}
+
+.about-short > p:nth-child(2) {
+  color: #eee;
 }
 
 @media (max-width: 1318px){
