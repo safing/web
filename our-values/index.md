@@ -4,50 +4,74 @@ container_class: 'text'
 include_mission: true
 ---
 
-<h2 id="ownership">Ownership</h2>
+<h2 id="ownership">Ownership & Team</h2>
 
 <p>
-  The company behind Safing is <em>Safing ICS Technologies GmbH</em>, a private company registered in Austria. The company is <a href="{{ site.company_agreement_url }}" target="\_blank">fully owned</a> by its three founders:
+  The company behind Safing is <em>Safing ICS Technologies GmbH</em>, a private company registered in Austria. The company is <a href="{{ site.company_agreement_url }}" target="\_blank">fully owned</a> by its three founders.
 </p>
 
 <div class="nine wide column">
-  <div class="ui three fluid cards middle lowered">
+  <div class="ui horizontal cards">
+    <div class="card">
+      <div class="image">
+        <img src="{{ site.assets_url }}img/profiles/raphty.jpg">
+      </div>
+      <div class="content">
+        <div class="header">
+          Raphael <span class="ui small text">- CEO</span>
+        </div>
+        <div class="meta">
+          <a href="{{ site.company_agreement_url }}" target="\_blank">
+            <i class="file contract icon"></i>
+            owns 30%
+          </a>
+          , joined December 2017
+        </div>
+        <div class="description">
+          Raphael noticed that online - everywhere he went - he was treated like a 1st class citizen. He soon realized: when he received benefits he did not earn, someone else had to pay to cover the costs. His responsibility is developing and managing our business. He also takes care of networking, company culture and accounting.
+        </div>
+      </div>
+      <div class="extra content">
+        <a href="https://twitter.com/Raphty101" target="\_blank">
+          <i class="twitter black icon"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/raphael-fiedler-808a7441" target="\_blank">
+          <i class="linkedin black icon"></i>
+        </a>
+        <a href="https://reddit.com/user/Raphty101" target="\_blank">
+          <i class="reddit black icon"></i>
+        </a>
+      </div>
+    </div>
     <div class="card">
       <div class="image">
         <img src="{{ site.assets_url }}img/profiles/dhaavi.jpg">
       </div>
       <div class="content">
-        <div class="ui small header">
-          Daniel
+        <div class="header">
+          Daniel <span class="ui small text">- CTO</span>
         </div>
-        <div class="ui small list">
+        <div class="meta">
           <a href="{{ site.company_agreement_url }}" target="\_blank">
-            <div class="item">
-              <div class="content">
-                <i class="file contract icon"></i>
-                owns 40%
-              </div>
-            </div>
+            <i class="file contract icon"></i>
+            owns 40%
           </a>
+          , joined January 2017
         </div>
-        <div class="ui list">
-          <a href="https://twitter.com/dehaavi" target="\_blank">
-            <div class="item">
-              <div class="content">
-                <i class="twitter icon"></i>
-                @dehaavi
-              </div>
-            </div>
-          </a>
-          <a href="https://github.com/dhaavi" target="\_blank">
-            <div class="item">
-              <div class="content">
-                <i class="github black icon"></i>
-                dhaavi
-              </div>
-            </div>
-          </a>
+        <div class="description">
+          Daniel studied IT-Security. At his first job, his skills led him to become the system architect of the first Austrian cyber attack simulation platform. Ever since the Snowden revelations he invested most of his free time to conceptualize privacy solutions. He is the brain behind the Safing Privacy Network and its lead developer.
         </div>
+      </div>
+      <div class="extra content">
+        <a href="https://twitter.com/dehaavi" target="\_blank">
+          <i class="twitter black icon"></i>
+        </a>
+        <a href="https://github.com/dhaavi" target="\_blank">
+          <i class="github black icon"></i>
+        </a>
+        <a href="https://reddit.com/user/dhaavi" target="\_blank">
+          <i class="reddit black icon"></i>
+        </a>
       </div>
     </div>
     <div class="card">
@@ -55,75 +79,102 @@ include_mission: true
         <img src="{{ site.assets_url }}img/profiles/davegson.jpeg">
       </div>
       <div class="content">
-        <div class="ui small header">
-          David
+        <div class="header">
+          David <span class="ui small text">- Dev & Community Manager</span>
         </div>
-        <div class="ui small list">
+        <div class="meta">
           <a href="{{ site.company_agreement_url }}" target="\_blank">
-            <div class="item">
-              <div class="content">
-                <i class="file contract icon"></i>
-                owns 30%
-              </div>
-            </div>
+            <i class="file contract icon"></i>
+            owns 30%
           </a>
+          , joined January 2017
         </div>
-        <div class="ui list">
-          <a href="https://twitter.com/davegson" target="\_blank">
-            <div class="item">
-              <div class="content">
-                <i class="twitter icon"></i>
-                @davegson
-              </div>
-            </div>
-          </a>
-          <a href="https://github.com/davegson" target="\_blank">
-            <div class="item">
-              <div class="content">
-                <i class="github black icon"></i>
-                davegson
-              </div>
-            </div>
-          </a>
+        <div class="description">
+          Previously, David worked on large scale gaming applications with millions of users. Seeing first hand how the industry gathers and processes intimate user data, he became more and more aware of the importance of privacy. His responsibilities at Safing are development, community management as well as writing and podcasting.
         </div>
+      </div>
+      <div class="extra content">
+        <a href="https://twitter.com/davegson" target="\_blank">
+          <i class="twitter black icon"></i>
+        </a>
+        <a href="https://github.com/davegson" target="\_blank">
+          <i class="github black icon"></i>
+        </a>
+        <a href="https://reddit.com/user/davegson" target="\_blank">
+          <i class="reddit black icon"></i>
+        </a>
       </div>
     </div>
     <div class="card">
       <div class="image">
-        <img src="{{ site.assets_url }}img/profiles/raphty.jpg">
+        <img src="{{ site.assets_url }}img/profiles/martin.jpg">
       </div>
       <div class="content">
-        <div class="ui small header">
-          Raphael
+        <div class="header">
+          Martin <span class="ui small text">- Company Advisor</span>
         </div>
-        <div class="ui small list">
-          <a href="{{ site.company_agreement_url }}" target="\_blank">
-            <div class="item">
-              <div class="content">
-                <i class="file contract icon"></i>
-                owns 30%
-              </div>
-            </div>
-          </a>
+        <div class="meta">
+          joined July 2019
         </div>
-        <div class="ui list">
-          <a href="https://twitter.com/Raphty101" target="\_blank">
-            <div class="item">
-              <div class="content">
-                <i class="twitter icon" style="margin: 0;"></i>
-                @Raphty101
-              </div>
-            </div>
-          </a>
-          <a href="https://www.linkedin.com/in/raphael-fiedler-808a7441" target="\_blank">
-            <div class="item">
-              <div class="content">
-                <i class="linkedin black icon"></i>
-                Raphael
-              </div>
-            </div>
-          </a>
+        <div class="description">
+          Martin's track record in international management and sales is invaluable to our team. As our consultant and coach he comes by one day a week to help us think through and reflect over past steps, empowering us to make better decisions in all key areas.
         </div>
+      </div>
+      <div class="extra content">
+      </div>
+    </div>
+    <div class="card">
+      <div class="image">
+        <img src="{{ site.assets_url }}img/profiles/alex.jpg">
+      </div>
+      <div class="content">
+        <div class="header">
+          Alex <span class="ui small text">- Developer</span>
+        </div>
+        <div class="meta">
+          joined September 2019
+        </div>
+        <div class="description">
+          Alex is involved in building the backends of the major web platforms of Safing, including the SPN user platform and payment system. As the first employee he also helped shaping the company.
+        </div>
+      </div>
+      <div class="extra content">
+      </div>
+    </div>
+    <div class="card">
+      <div class="image">
+        <img src="{{ site.assets_url }}img/profiles/luke.jpg">
+      </div>
+      <div class="content">
+        <div class="header">
+          Luke <span class="ui small text">- Designer</span>
+        </div>
+        <div class="meta">
+          joined October 2019
+        </div>
+        <div class="description">
+          Luke's uncompromising passion for privacy led us to hire him directly from within the community. With his pragmatism and determination towards easy design he already made a big impact.
+        </div>
+      </div>
+      <div class="extra content">
+      </div>
+    </div>
+    <div class="card">
+      <div class="image">
+        <img src="{{ site.assets_url }}img/profiles/tabitha.jpg">
+      </div>
+      <div class="content">
+        <div class="header">
+          Tabitha <span class="ui small text">- Backoffice</span>
+        </div>
+        <div class="meta">
+          joined January 2020
+        </div>
+        <div class="description">
+          Tabitha is supporting us to tackle all emerging bottle-necks in the office. May it be accounting, reporting, writing or editing podcasts - she is always eagerly helping out.
+        </div>
+      </div>
+      <div class="extra content">
       </div>
     </div>
   </div>
