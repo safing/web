@@ -177,6 +177,24 @@ include_mission: true
       <div class="extra content">
       </div>
     </div>
+    <div class="card">
+      <div class="image">
+        <img src="{{ site.assets_url }}img/profiles/patrick.jpg">
+      </div>
+      <div class="content">
+        <div class="header">
+          Patrick <span class="ui small text">- Senior Dev & Server Admin</span>
+        </div>
+        <div class="meta">
+          joined March 2020
+        </div>
+        <div class="description">
+          With his wide experience, ranging from IT-security and pen-testing to driver development to server management, Patrick rapidly became an invaluable part of the team. With his passion for Go-lang he is primarily advancing the SPN.
+        </div>
+      </div>
+      <div class="extra content">
+      </div>
+    </div>
   </div>
 </div>
 
