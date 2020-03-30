@@ -1,11 +1,14 @@
-<content class="kickstarter-plug">
-  <a href="{{ site.kickstarter_url }}">
-    <div>
-      <h3>Raised 11.755€ on Kickstarter - Thank You!</h3>
-      <p>Have a look at all the details and watch video updates from the team 🎬</p>
-    </div>
-  </a>
-</content>
+
+{% unless page.exclude_kickstarter_plug == true %}
+  <content class="kickstarter-plug">
+    <a href="{{ site.kickstarter_url }}">
+      <div>
+        <h3>Raised 11.755€ on Kickstarter - Thank You!</h3>
+        <p>Have a look at all the details and watch video updates from the team 🎬</p>
+      </div>
+    </a>
+  </content>
+{% endunless %}
 
 <footer class="f-bg">
   <div class="list">
