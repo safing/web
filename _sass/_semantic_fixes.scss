@@ -123,3 +123,11 @@
 .ui.placeholder.segment {
   min-height: 0rem;
 }
+
+// a 'normal' .ui.vertical.divider has text in between, this adds the option to have the line fully go through it
+// essentially a margin... 
+.ui.full.vertical.divider {
+  &::before, &::after {
+    height: 100%;
+  }
+}
