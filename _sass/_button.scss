@@ -32,3 +32,25 @@ i.icon.safing-primary {
     color: $white;
   }
 }
+
+.ui.windows.button {
+  background-color: #0072C6;
+  color: #fff;
+
+  &:hover {
+    background-color: darken(#0072C6, 5%);
+  }
+}
+
+.ui.ubuntu.button {
+  background-color: #E95420;
+  color: #fff;
+
+  &:hover {
+    background-color: darken(#E95420, 5%);
+  }
+}
+
+.ui.apple.disabled.button {
+  opacity: 1 !important;
+}
