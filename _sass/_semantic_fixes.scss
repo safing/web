@@ -116,3 +116,10 @@
     display: none !important;
   }
 }
+
+// no reason to have a min height for segments
+// normal segments do not have min-height, why should the placeholder one have it?
+// if extra height is needed, just add it to the segment manually
+.ui.placeholder.segment {
+  min-height: 0rem;
+}
