@@ -39,6 +39,9 @@ whitepaper_url: "/files/whitepaper/"
 company_agreement_url: https://www.firmenmonitor.at/Secure/CompanyDetail.aspx?CID=761761
 kickstarter_url: "https://www.kickstarter.com/projects/safingio/spn" # add the kickstarter url when ready
 
+github_windows_wiki: "https://github.com/safing/portmaster/wiki"
+github_linux_wiki: "https://github.com/safing/portmaster/wiki"
+
 collections:
   podcasts:
     output: true
