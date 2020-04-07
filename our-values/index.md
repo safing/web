@@ -193,6 +193,9 @@ include_mission: true
         </div>
       </div>
       <div class="extra content">
+        <a href="https://github.com/ppacher" target="\_blank">
+          <i class="github black icon"></i>
+        </a>
       </div>
     </div>
   </div>
