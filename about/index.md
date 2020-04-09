@@ -2,6 +2,8 @@
 layout: page_markdown
 container_class: 'text'
 include_mission: true
+redirect_from:
+  - /our-values/
 ---
 
 <h2 id="ownership">Ownership & Team</h2>
