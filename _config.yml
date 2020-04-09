@@ -1,6 +1,11 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+plugins:
+  - jekyll-minifier
+  - jekyll-paginate
+  - jekyll-redirect-from
+
 # Site settings
 title: Safing
 encoding: "utf-8"
