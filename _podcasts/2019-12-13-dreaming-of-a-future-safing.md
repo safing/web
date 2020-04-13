@@ -24,7 +24,7 @@ summary: "
 
 <h4>Participate</h4>
 
-<p>If you do like what we do, consider supporting us by participating in our reddit:</p>
+<p>What could we do better? Let us know how we can improve our podcast on reddit:</p>
 
 - r/safing: <a href='https://old.reddit.com/r/safing'>https://old.reddit.com/r/safing</a><br/>
 

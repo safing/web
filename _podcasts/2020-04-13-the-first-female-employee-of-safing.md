@@ -23,7 +23,7 @@ summary: "
 
 <h4>Participate</h4>
 
-<p>Still being new to the podcast game, let us know what we can improve on reddit:</p>
+<p>What could we do better? Let us know how we can improve our podcast on reddit:</p>
 
 - r/safing: <a href='https://reddit.com/r/safing'>https://reddit.com/r/safing</a><br/>
 "
