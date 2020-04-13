@@ -28,18 +28,18 @@ summary: "
 
 <p>What could we do better? Let us know how we can improve our podcast on reddit:</p>
 
-- r/safing: <a href='https://old.reddit.com/r/safing'>https://old.reddit.com/r/safing</a><br/>
+- r/safing: <a href='https://reddit.com/r/safing'>https://reddit.com/r/safing</a><br/>
 
 <h4>Raphtys Handles</h4>
 
 - <a href='https://twitter.com/Raphty101/'>https://twitter.com/Raphty101/</a><br/>
-- <a href='https://old.reddit.com/u/Raphty101'>https://old.reddit.com/u/Raphty101</a><br/>
+- <a href='https://reddit.com/u/Raphty101'>https://reddit.com/u/Raphty101</a><br/>
 
 <h4>Davids Handles</h4>
 
 - <a href='https://twitter.com/davegson/'>https://twitter.com/davegson/</a><br/>
 - <a href='https://github.com/davegson/'>https://github.com/davegson/</a><br/>
-- <a href='https://old.reddit.com/u/davegson/'>https://old.reddit.com/u/davegson/</a><br/>
+- <a href='https://reddit.com/u/davegson/'>https://reddit.com/u/davegson/</a><br/>
 "
 hosts:
 - davegson

@@ -27,18 +27,18 @@ summary: "
 
 <p>What could we do better? Let us know how we can improve our podcast on reddit:</p>
 
-- r/safing: <a href='https://old.reddit.com/r/safing'>https://old.reddit.com/r/safing</a><br/>
+- r/safing: <a href='https://reddit.com/r/safing'>https://reddit.com/r/safing</a><br/>
 
 <h4>Daniels Handles</h4>
 
 - <a href='https://twitter.com/dehaavi/'>https://twitter.com/dehaavi/</a><br/>
 - <a href='https://github.com/dhaavi/'>https://github.com/dhaavi/</a><br/>
-- <a href='https://old.reddit.com/user/dhaavi'>https://old.reddit.com/user/dhaavi</a><br/>
+- <a href='https://reddit.com/user/dhaavi'>https://reddit.com/user/dhaavi</a><br/>
 
 <h4>Raphtys Handles</h4>
 
 - <a href='https://twitter.com/Raphty101/'>https://twitter.com/Raphty101/</a><br/>
-- <a href='https://old.reddit.com/u/Raphty101'>https://old.reddit.com/u/Raphty101</a><br/>
+- <a href='https://reddit.com/u/Raphty101'>https://reddit.com/u/Raphty101</a><br/>
 "
 hosts:
 - raphty
