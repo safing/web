@@ -10,10 +10,10 @@ tags:
 - onboarding
 - backoffice
 podcast_link: /assets/podcast/019-the-first-female-empolyee-of-safing.mp3
-podcast_file_size: 29.4 MB
-podcast_duration: "30:26"
+podcast_file_size: 31.5 MB
+podcast_duration: "32:21"
 # actual byte size
-podcast_length: 29223624
+podcast_length: 31066406
 summary: "
 <p>This weeks I had the chance to have a chat with Tabitha who joined our team in January 2020. Working in the backoffice she is involved in a wide range of fields. From accounting, to writing reports to audio editing and helping out in content production.</p>
 
