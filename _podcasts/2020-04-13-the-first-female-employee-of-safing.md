@@ -9,7 +9,7 @@ tags:
 - privacy
 - onboarding
 - backoffice
-podcast_link: /assets/podcast/019-the-first-female-empolyee-of-safing.mp3
+podcast_link: /assets/podcast/019-the-first-female-employee-of-safing.mp3
 podcast_file_size: 31.5 MB
 podcast_duration: "32:21"
 # actual byte size
