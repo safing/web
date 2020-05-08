@@ -16,7 +16,7 @@ Hey there! We're looking for a Golang developer to join us at Safing, maybe that
   </p>
 </div>
 
-We are not striving to create a unicorn, which we can sell for a huge profit. Rather, we strive to be a sustainable business and have a meaningful impact in today's Internet landscape. As we take our mission seriously, we are not only [open sourcing our products]({{ site.github_url }}), but are also open about [our funding]({{ site.our_values_url }}#ethical-funding), [influences]({{ site.our_values_url }}#ownership) and [business model]({{ site.our_values_url }}#clear-business-model).
+We are not striving to create a unicorn, which we can sell for a huge profit. Rather, we strive to be a sustainable business and have a meaningful impact in today's Internet landscape. As we take our mission seriously, we are not only [open sourcing our products]({{ site.github_url }}), but are also open about [our funding, influences and business model]({{ site.about_url }}).
 
 Safing develops [three tools]({{ site.technology_url }}), which in unison equip everyday online citizens to withstand mass surveillance. We're not solving every privacy problem out there, but we believe our approach tackles some root problems and will have a massive impact on peoples lives!
 
@@ -63,7 +63,7 @@ Also, be prepared to collaborate with additional team members soon. We do have p
 - 💵 35.000€ - 42.000€ annual salary
 - 💻 a fully paid setup
 - ⚖️ work-life balance: a healthy balance between work and recreation is essential - we also know that family is more important than work
-- 🔍 transparency: as one of [our core values]({{ site.our_values_url }}#open-source), this is both true internally and externally
+- 🔍 transparency: as one of our core values, this is both true internally and externally
 - ⚡️ modern technology
 - 🌎 remote work (because of funding restrictions, only in Austria 🇦🇹 this time)
 - 🏢 an office located in Baden, Lower Austria (optional). It's only a 4 minute walk from the S-Bahn and Badner Bahn station.
