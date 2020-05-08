@@ -22,7 +22,7 @@ about_url: /about/
 blog_url: /blog/
 community_hub_url: /community-hub/
 contact_url: /contact/
-help_url: /help/
+help_url: /support/
 newsletter_url: /newsletter/
 ownership_url: /ownership/
 podcast_url: /podcast/
@@ -45,6 +45,7 @@ github_url: https://github.com/Safing
 kickstarter_url: https://www.kickstarter.com/projects/safingio/spn
 reddit_url: https://reddit.com/r/safing
 twitter_url: https://twitter.com/SafingIO
+invidious_channel_url: https://invidio.us/channel/UC_6TW053IlS4M22g7CxnukA
 
 ### donations
 donations:
