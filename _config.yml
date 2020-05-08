@@ -1,35 +1,23 @@
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
+# Plugins are rather limited in Github Pages, though a lot of useful ones are supported, check out:
+# https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#plugins
 plugins:
   - jekyll-minifier
   - jekyll-paginate
   - jekyll-redirect-from
 
-# Site settings
-title: Safing
-encoding: "utf-8"
-lang: "en"
-email: hello@safing.io
-emailobfuscated: "=b!isfg>#nbjmup;ifmmpAtbgjoh/jp#?ifmmpAtbgjoh/jp=0b?"
-description: > # this means to ignore newlines until "base_url:"
-  Safing is a software that protects your privacy online. It's so easy, anyone can use it.
+####################
+###### routes ######
+####################
+
+url: "https://safing.io"
 base_url: "/" # the subpath of your site, e.g. /blog
 assets_url: "/assets/"
-img_url: "/assets/img/"
+img_url: "/assets/img/tailwind-img/"
 video_url: "/assets/video/"
 icons_url: "/assets/icons/"
 vendor_url: "/vendor/"
-url: "https://safing.io" # the base hostname & protocol for your site
 cover: "img/cover.jpg"
 logo: "img/logo_name_70h_reduced.png"
-twitter_username: SafingIO
-github_username: Safing
-markdown: kramdown
-highlightjs_theme: "monokai_sublime"
-
-excerpt_separator: "<!--break-->"
-inter_post_navigation: false
 
 our_values_url: "/our-values/"
 jobs_url: "/jobs/"
@@ -50,30 +38,37 @@ download_linux_url: "https://updates.safing.io/latest/linux_amd64/packages/portm
 github_windows_wiki: "https://github.com/safing/portmaster/wiki/Windows"
 github_linux_wiki: "https://github.com/safing/portmaster/wiki/Linux"
 
-collections:
-  podcasts:
-    output: true
-
-defaults:
-  - scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
-    values:
-      layout: "post"
-      permalink: /blog/:year/:month/:day/:title/
-      type: "post"
-  - scope:
-      path: ""
-      type: "podcasts"
-    values:
-      layout: "podcast"
-      permalink: /podcast/:year/:month/:day/:title/
-      type: "podcast"
-
 github_url: https://github.com/Safing
 reddit_url: https://reddit.com/r/safing
 twitter_url: https://twitter.com/SafingIO
 newsletter_url: "/newsletter/"
+
+donations:
+  bitcoin:
+    url: https://www.blockchain.com/btc/address/1AosdDyzd8PVUFTUEXoaJHTyPVHuKQxdmq?filter=2
+  paypal:
+    url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2QHNM78H9YC9L&source=url
+
+###########################
+###### site settings ######
+###########################
+
+title: Safing
+encoding: "utf-8"
+lang: "en"
+description: > # this means to ignore newlines until "base_url:"
+  Safing is a software that protects your privacy online. It's so easy, anyone can use it.
+
+markdown: kramdown
+highlightjs_theme: "monokai_sublime"
+
+excerpt_separator: "<!--break-->"
+inter_post_navigation: false
+
+email: hello@safing.io
+emailobfuscated: "=b!isfg>#nbjmup;ifmmpAtbgjoh/jp#?ifmmpAtbgjoh/jp=0b?"
+twitter_username: SafingIO
+github_username: Safing
 
 communities:
   - reddit:
@@ -95,13 +90,33 @@ communities:
     url: https://twitter.com/SafingIO
     desc: Follow me on Twitter
 
-donations:
-  bitcoin:
-    url: https://www.blockchain.com/btc/address/1AosdDyzd8PVUFTUEXoaJHTyPVHuKQxdmq?filter=2
-  paypal:
-    url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2QHNM78H9YC9L&source=url
+###################################
+###### media/content options ######
+###################################
 
-### Podcast
+collections:
+  podcasts:
+    output: true
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /blog/:year/:month/:day/:title/
+      type: "post"
+  - scope:
+      path: ""
+      type: "podcasts"
+    values:
+      layout: "podcast"
+      permalink: /podcast/:year/:month/:day/:title/
+      type: "podcast"
+
+##############################
+###### Podcast settings ######
+##############################
 
 podcast_itunes_url: https://podcasts.apple.com/podcast/id1480027286
 podcast_feed_url: /podcast.xml
