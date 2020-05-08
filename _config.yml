@@ -12,15 +12,10 @@ plugins:
 url: "https://safing.io"
 base_url: "/" # the subpath of your site, e.g. /blog
 assets_url: "/assets/"
-img_url: "/assets/img/tailwind-img/"
-video_url: "/assets/video/"
-icons_url: "/assets/icons/"
+img_url: "/assets/img/"
 vendor_url: "/vendor/"
-cover: "img/cover.jpg"
-logo: "img/logo_name_70h_reduced.png"
 
 our_values_url: "/our-values/"
-jobs_url: "/jobs/"
 podcast_url: "/podcast/"
 blog_url: "/blog/"
 technology_url: "/technology/"
@@ -60,15 +55,12 @@ description: > # this means to ignore newlines until "base_url:"
   Safing is a software that protects your privacy online. It's so easy, anyone can use it.
 
 markdown: kramdown
-highlightjs_theme: "monokai_sublime"
 
 excerpt_separator: "<!--break-->"
 inter_post_navigation: false
 
 email: hello@safing.io
 emailobfuscated: "=b!isfg>#nbjmup;ifmmpAtbgjoh/jp#?ifmmpAtbgjoh/jp=0b?"
-twitter_username: SafingIO
-github_username: Safing
 
 communities:
   - reddit:
