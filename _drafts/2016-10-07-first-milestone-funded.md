@@ -7,4 +7,4 @@ This gives us the opportunity to kick-start Safing, batteries (hardware and serv
 
 We are looking forward to next year and the great time we will have implementing Safing.
 
-![Netidee Logo](/assets/img/external-logos/netidee.png){: .blog-image }
+![Netidee Logo](/assets/img/external/logos/netidee.png){: .blog-image }

@@ -260,7 +260,7 @@ As a result we openly share how we are funded. All our funding (and partnerships
   <!-- FFG card -->
   <div class="ui card">
     <div class="image">
-      <img src="{{ site.img_url }}external-logos/ffg_color.png">
+      <img src="{{ site.img_url }}external/logos/ffg_color.png">
     </div>
     <div class="content">
       <a class="header" href="https://www.ffg.at/">FFG</a>
@@ -286,7 +286,7 @@ As a result we openly share how we are funded. All our funding (and partnerships
   <!-- Netidee card -->
   <div class="ui card">
     <div class="image">
-      <img src="{{ site.img_url }}external-logos/netidee.png">
+      <img src="{{ site.img_url }}external/logos/netidee.png">
     </div>
     <div class="content">
       <a class="header" href="https://www.netidee.at/">Netidee</a>
@@ -309,7 +309,7 @@ As a result we openly share how we are funded. All our funding (and partnerships
   <!-- ESA-BIC card -->
   <div class="ui card">
     <div class="image" style="padding: 20px; background-color: white;">
-      <img src="{{ site.img_url }}external-logos/esa-bic_austria.svg">
+      <img src="{{ site.img_url }}external/logos/esa-bic_austria.svg">
     </div>
     <div class="content">
       <a class="header" href="/esa-bic/">ESA-BIC Austria</a>

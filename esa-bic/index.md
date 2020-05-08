@@ -16,14 +16,14 @@ The ESA-BIC is a cooperation between the Science Park Graz, located in Styria, a
     <a class="card" href="http://www.accent.at/home.html" target="blank">
       <div class="content">
         <div class="ui middle aligned image">
-          <img src="{{ site.assets_url }}img/external-logos/accent.png">
+          <img src="{{ site.assets_url }}img/external/logos/accent.png">
         </div>
       </div>
     </a>
     <a class="card" href="https://www.efre.gv.at/" target="blank">
       <div class="content">
         <div class="ui middle aligned image">
-          <img src="{{ site.assets_url }}img/external-logos/efre.png">
+          <img src="{{ site.assets_url }}img/external/logos/efre.png">
         </div>
       </div>
     </a>
@@ -37,7 +37,7 @@ The ESA-BIC is a cooperation between the Science Park Graz, located in Styria, a
     <a class="card" href="http://sciencepark.at/" target="blank">
       <div class="content">
         <div class="ui middle aligned image">
-          <img src="{{ site.assets_url }}img/external-logos/sciencepark.png">
+          <img src="{{ site.assets_url }}img/external/logos/sciencepark.png">
         </div>
       </div>
     </a>

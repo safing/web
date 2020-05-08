@@ -58,7 +58,7 @@ It is rather obvious by now that we decided to hire Luke. But both candidates we
 
 It took Luke a few weeks to pack up his things and move to Austria, but soon enough, at the beginning of October he became our lead designer. We are very grateful for his work so far and see him as a perfect fit for the job.
 
-He made us reconsider [our old designs]({{ site.img_url }}/designs/homepage_v2.png) and revamped everything to [look more professional]({{ site.img_url }}/designs/homepage_current.png), while still being approachable.
+He made us reconsider [our old designs]({{ site.img_url }}/archive/previous_designs/homepage_v2.png) and revamped everything to [look more professional]({{ site.img_url }}/archive/previous_designs/homepage_v3.png), while still being approachable.
 
 _Sidenote: [Luke talks all about his side of the story in the podcast]({{ site.podcast_url }}2019/11/29/hiring-a-designer-from-the-privacy-community/). Also, you can [follow him on Twitter.](https://twitter.com/LukeSeers/)_
 

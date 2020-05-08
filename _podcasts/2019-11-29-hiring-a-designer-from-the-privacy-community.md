@@ -23,8 +23,8 @@ summary: "
 
 <h4>Old and new designs</h4>
 
-- Old: <a href='https://safing.io/assets/img/designs/homepage_v2.png'>https://safing.io/assets/img/designs/homepage_v2.png</a><br/>
-- New: <a href='https://safing.io/assets/img/designs/homepage_current.png'>https://safing.io/assets/img/designs/homepage_current.png</a><br/>
+- Old: <a href='https://safing.io/assets/img/archive/previous_designs/homepage_v2.png'>https://safing.io/assets/img/archive/previous_designs/homepage_v2.png</a><br/>
+- New: <a href='https://safing.io/assets/img/archive/previous_designs/homepage_v3.png'>https://safing.io/assets/img/archive/previous_designs/homepage_v3.png</a><br/>
 
 <h4>Shoutout to The Hated One!</h4>
 

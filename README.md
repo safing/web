@@ -14,6 +14,6 @@ docker-compose up
 
 ## Supporters
 
-[![Browserstack](/assets/img/external-logos/browserstack.svg)](http://www.browserstack.com/)
+[![Browserstack](/assets/img/external/logos/browserstack.svg)](http://www.browserstack.com/)
 
 Browserstack enables us to test our designs on a multitude of devices. This helps us designing our homepage in a truly responsive way.
