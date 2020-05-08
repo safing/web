@@ -9,35 +9,40 @@ plugins:
 ###### routes ######
 ####################
 
-url: "https://safing.io"
+url: https://safing.io
 base_url: "/" # the subpath of your site, e.g. /blog
-assets_url: "/assets/"
-img_url: "/assets/img/"
-vendor_url: "/vendor/"
 
-our_values_url: "/our-values/"
-podcast_url: "/podcast/"
-blog_url: "/blog/"
-technology_url: "/technology/"
-community_hub_url: "/community-hub/"
-contact_url: "/contact/"
-terms_url: "/terms/"
-privacy_url: "/privacy/"
-whitepaper_url: "/files/whitepaper/"
+### assets
+assets_url: /assets/
+img_url: /assets/img/
+vendor_url: /vendor/
+
+### pages
+blog_url: /blog/
+community_hub_url: /community-hub/
+contact_url: /contact/
+newsletter_url: /newsletter/
+our_values_url: /our-values/
+podcast_url: /podcast/
+privacy_url: /privacy/
+technology_url: /technology/
+terms_url: /terms/
+whitepaper_url: /files/whitepaper/
+
+### external
+download_windows_url: https://updates.safing.io/latest/windows_amd64/packages/portmaster-installer.exe
+download_linux_url: https://updates.safing.io/latest/linux_amd64/packages/portmaster-installer.deb
+
+github_windows_wiki: https://github.com/safing/portmaster/wiki/Windows
+github_linux_wiki: https://github.com/safing/portmaster/wiki/Linux
+
 company_agreement_url: https://www.firmenmonitor.at/Secure/CompanyDetail.aspx?CID=761761
-kickstarter_url: "https://www.kickstarter.com/projects/safingio/spn" # add the kickstarter url when ready
-
-download_windows_url: "https://updates.safing.io/latest/windows_amd64/packages/portmaster-installer.exe"
-download_linux_url: "https://updates.safing.io/latest/linux_amd64/packages/portmaster-installer.deb"
-
-github_windows_wiki: "https://github.com/safing/portmaster/wiki/Windows"
-github_linux_wiki: "https://github.com/safing/portmaster/wiki/Linux"
-
 github_url: https://github.com/Safing
+kickstarter_url: https://www.kickstarter.com/projects/safingio/spn
 reddit_url: https://reddit.com/r/safing
 twitter_url: https://twitter.com/SafingIO
-newsletter_url: "/newsletter/"
 
+### donations
 donations:
   bitcoin:
     url: https://www.blockchain.com/btc/address/1AosdDyzd8PVUFTUEXoaJHTyPVHuKQxdmq?filter=2
