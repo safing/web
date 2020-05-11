@@ -1,0 +1,141 @@
+<style>
+  * {
+    font-family: "Roboto";
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .not-allowed {
+    cursor: not-allowed;
+  }
+
+  .spn-shadow {
+    box-shadow: 0 0px 90px 0 rgba(59, 93, 199, 0.1), 0 0px 5px 0 rgba(0, 0, 0, 0);
+  }
+
+  .hover:hover {
+    box-shadow: 0 0px 90px 0 rgba(59, 93, 199, 0.1), 0 0px 5px 0 rgba(0, 0, 0, 0);
+  }
+
+  .shake-horizontal {
+    -webkit-animation: shake-horizontal .8s cubic-bezier(.455, .03, .515, .955) both;
+    animation: shake-horizontal .8s cubic-bezier(.455, .03, .515, .955) both
+  }
+
+  @-webkit-keyframes shake-horizontal {
+    0%, 100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0)
+    }
+
+    10%, 30%, 50%, 70% {
+      -webkit-transform: translateX(-10px);
+      transform: translateX(-10px)
+    }
+
+    20%, 40%, 60% {
+      -webkit-transform: translateX(10px);
+      transform: translateX(10px)
+    }
+
+    80% {
+      -webkit-transform: translateX(8px);
+      transform: translateX(8px)
+    }
+
+    90% {
+      -webkit-transform: translateX(-8px);
+      transform: translateX(-8px)
+    }
+  }
+
+  @keyframes shake-horizontal {
+    0%, 100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0)
+    }
+
+    10%, 30%, 50%, 70% {
+      -webkit-transform: translateX(-10px);
+      transform: translateX(-10px)
+    }
+
+    20%, 40%, 60% {
+      -webkit-transform: translateX(10px);
+      transform: translateX(10px)
+    }
+
+    80% {
+      -webkit-transform: translateX(8px);
+      transform: translateX(8px)
+    }
+
+    90% {
+      -webkit-transform: translateX(-8px);
+      transform: translateX(-8px)
+    }
+  }
+
+  .spin {
+    animation-name: spin;
+    animation-duration: 21000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .heart {
+    animation: .8s infinite beatHeart;
+  }
+
+  @keyframes beatHeart {
+    0% {
+      transform: scale(1);
+    }
+
+    25% {
+      transform: scale(1.1);
+    }
+
+    40% {
+      transform: scale(1);
+    }
+
+    60% {
+      transform: scale(1.1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  #menu-toggle:checked+#menu {
+    display: block;
+  }
+
+  .wiggle {
+    animation: wiggle .2s infinite alternate;
+  }
+
+  @keyframes wiggle {
+    0% {
+      transform: rotate(4deg);
+    }
+
+    100% {
+      transform: rotate(10deg);
+    }
+  }
+</style>
