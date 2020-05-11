@@ -3,45 +3,8 @@ layout: page
 title: Safing
 ---
 
-<header class="h-screen bg-local bg-no-repeat bg-cover bg-center" style="background-image: url({{ site.img_url }}header.png)">
-  <div class="flex items-center h-full">
-    <div class="container mx-auto px-8 sm:px-0">
-      <div class="text-center">
-        <h2 class="text-5xl tracking-tight font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl md:mx-auto md:w-2/3">
-          We <span style="color: #6188ff;">fight surveillance</span> because we <span style="color: #6188ff;">love freedom</span>.
-        </h2>
-        <p class="pt-10 sm:pt-5 text-base text-black opacity-50 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-8 md:text-xl">
-          it's the foundation we build our products on. We make sacrifices on
-          all other fronts to protect your privacy and push the limits of
-          technology to do so.
-        </p>
-        <div class="pt-12 sm:mt-8 sm:flex sm:justify-center sm:pt-5">
-          <div class="shake-horizontal">
-            <a href="#tools" class="transform hover:scale-95 w-full flex justify-center px-8 py-4 border border-transparent leading-5 rounded-full text-white bg-black transition duration-150 ease-in-out md:text-sm md:px-10 uppercase">
-              discover our tools
-            </a>
-          </div>
-        </div>
-        <div class="justify-end pt-16 max-w-3xl mx-auto">
-          <span class="opacity-25">Supported by</span>
-          <div class="flex grid grid-flow-col justify-between my-3 opacity-75 items-center">
-            <a href="">
-              <img class="scale-75 md:scale-100 transform hover:scale-95 hover:opacity-50 transition duration-150 ease-in-out" src="{{ site.img_url }}external/logos/esa_dark.png" alt="">
-            </a>
-            <a href="">
-              <img class="scale-75 md:scale-100 transform hover:scale-95 hover:opacity-50 transition duration-150 ease-in-out" src="{{ site.img_url }}external/logos/excellence_dark.png" alt="">
-            </a>
-            <a href="">
-              <img class="scale-75 md:scale-100 transform hover:scale-95 hover:opacity-50 transition duration-150 ease-in-out" src="{{ site.img_url }}external/logos/ffg_dark.png" alt="">
-            </a>
-            <a href="">
-              <img class="scale-75 md:scale-100 transform hover:scale-95 hover:opacity-50 transition duration-150 ease-in-out" src="{{ site.img_url }}external/logos/netidee_small_dark.png" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-</header>
+{% include header.html %}
+
 <section style="margin-top: 4rem;" id="tools">
   <div class="flex items-center h-full">
     <div class="container mx-auto px-8 sm:px-0 flex">
@@ -294,123 +257,103 @@ title: Safing
 </section>
 
 <style>
-  .shake-horizontal {
-    -webkit-animation: shake-horizontal .8s cubic-bezier(.455, .03, .515, .955) both;
-    animation: shake-horizontal .8s cubic-bezier(.455, .03, .515, .955) both
+  *{
+      font-family: "Roboto";
   }
 
-  @-webkit-keyframes shake-horizontal {
-
-    0%,
-    100% {
-      -webkit-transform: translateX(0);
-      transform: translateX(0)
-    }
-
-    10%,
-    30%,
-    50%,
-    70% {
-      -webkit-transform: translateX(-10px);
-      transform: translateX(-10px)
-    }
-
-    20%,
-    40%,
-    60% {
-      -webkit-transform: translateX(10px);
-      transform: translateX(10px)
-    }
-
-    80% {
-      -webkit-transform: translateX(8px);
-      transform: translateX(8px)
-    }
-
-    90% {
-      -webkit-transform: translateX(-8px);
-      transform: translateX(-8px)
-    }
+  body{
+      overflow-x: hidden;
   }
 
-  @keyframes shake-horizontal {
+  .shake-horizontal{
+      -webkit-animation:shake-horizontal .8s cubic-bezier(.455,.03,.515,.955) both;
+      animation:shake-horizontal .8s cubic-bezier(.455,.03,.515,.955) both
+  }
 
-    0%,
-    100% {
-      -webkit-transform: translateX(0);
-      transform: translateX(0)
-    }
+  @-webkit-keyframes shake-horizontal{
+      0%,100%{
+          -webkit-transform:translateX(0);
+          transform:translateX(0)
+      }
+      10%,30%,50%,70%{
+          -webkit-transform:translateX(-10px);
+          transform:translateX(-10px)
+      }
+      20%,40%,60%{
+          -webkit-transform:translateX(10px);
+           transform:translateX(10px)}80%
+      {
+          -webkit-transform:translateX(8px);
+          transform:translateX(8px)
+      }
+      90%{
+          -webkit-transform:translateX(-8px);
+          transform:translateX(-8px)
+      }
+  }
 
-    10%,
-    30%,
-    50%,
-    70% {
-      -webkit-transform: translateX(-10px);
-      transform: translateX(-10px)
-    }
-
-    20%,
-    40%,
-    60% {
-      -webkit-transform: translateX(10px);
-      transform: translateX(10px)
-    }
-
-    80% {
-      -webkit-transform: translateX(8px);
-      transform: translateX(8px)
-    }
-
-    90% {
-      -webkit-transform: translateX(-8px);
-      transform: translateX(-8px)
-    }
+  @keyframes shake-horizontal{
+      0%,100%{
+          -webkit-transform:translateX(0);
+          transform:translateX(0)
+      }
+      10%,30%,50%,70%{
+          -webkit-transform:translateX(-10px);
+          transform:translateX(-10px)
+      }
+      20%,40%,60%{
+          -webkit-transform:translateX(10px);
+          transform:translateX(10px)
+      }
+      80%{
+          -webkit-transform:translateX(8px);
+          transform:translateX(8px)
+      }
+      90%{
+          -webkit-transform:translateX(-8px);
+          transform:translateX(-8px)
+      }
   }
 
   .spin {
-    animation-name: spin;
-    animation-duration: 5000ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+  animation-name: spin;
+  animation-duration: 21000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
   }
 
   @keyframes spin {
-    from {
-      transform: rotate(0deg);
-    }
-
-    to {
-      transform: rotate(360deg);
-    }
+      from {
+          transform:rotate(0deg);
+      }
+      to {
+          transform:rotate(360deg);
+      }
   }
 
   .heart {
-    animation: 1.8s infinite beatHeart;
+  animation: .8s infinite beatHeart;
   }
 
   @keyframes beatHeart {
-    0% {
+  0% {
       transform: scale(1);
-    }
-
-    25% {
+  }
+  25% {
       transform: scale(1.1);
-    }
-
-    40% {
+  }
+  40% {
       transform: scale(1);
-    }
-
-    60% {
+  }
+  60% {
       transform: scale(1.1);
-    }
-
-    100% {
+  }
+  100% {
       transform: scale(1);
-    }
+  }
   }
 
-  #menu-toggle:checked+#menu {
+  #menu-toggle:checked + #menu {
     display: block;
   }
 </style>
