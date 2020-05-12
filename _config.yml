@@ -41,6 +41,7 @@ download_linux_url: https://updates.safing.io/latest/linux_amd64/packages/portma
 github_windows_wiki: https://github.com/safing/portmaster/wiki/Windows
 github_linux_wiki: https://github.com/safing/portmaster/wiki/Linux
 
+account_server_url: https://account.safing.io/
 company_agreement_url: https://www.firmenmonitor.at/Secure/CompanyDetail.aspx?CID=761761
 github_url: https://github.com/Safing
 kickstarter_url: https://www.kickstarter.com/projects/safingio/spn

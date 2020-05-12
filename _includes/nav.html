@@ -50,14 +50,18 @@
         <li>
           <div class="block p-5 lg:flex lg:p-0 items-center">
             <span class="hidden sm:block ml-3 mr-2 rounded-md">
-              <button type="button" class="hidden lg:block px-4 py-2 border border-black text-lg lg:text-xs leading-5 font-semibold rounded-md text-white opacity-50 bg-black hover:opacity-100 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out">
-                Sign In
-              </button>
+              <a href="{{ site.account_server_url }}account/sign_in">
+                <button type="button" class="hidden lg:block px-4 py-2 border border-black text-lg lg:text-xs leading-5 font-semibold rounded-md text-white opacity-50 bg-black hover:opacity-100 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out">
+                  Sign In
+                </button>
+              </a>
             </span>
             <span class="sl-3 rounded-md ml-auto mr-auto">
-              <button type="button" style="background-color: #6188ff;" class="w-full transform hover:scale-105 lg:inline-flex px-10 py-2 border border-transparent text-lg lg:text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-                Sign Up
-              </button>
+              <a href="{{ site.account_server_url }}account/sign_up">
+                <button type="button" style="background-color: #6188ff;" class="w-full transform hover:scale-105 lg:inline-flex px-10 py-2 border border-transparent text-lg lg:text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
+                  Sign Up
+                </button>
+              </a>
             </span>
             <span class="ml-3 rounded-md">
               <button type="button" class="mr-auto ml-auto block lg:hidden px-4 py-2 border border-black text-lg lg:text-xs leading-5 font-semibold rounded-md text-white opacity-50 bg-black hover:opacity-100 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 active:text-gray-800 active:bg-gray-50 active:text-gray-800 transition duration-150 ease-in-out">
