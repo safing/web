@@ -1,5 +1,5 @@
 ---
-layout: page_markdown
+layout: page
 title: Golang (or C/C++) Developer
 heading: Golang (or C/C++) Developer
 container_class: 'text'

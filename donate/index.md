@@ -1,5 +1,5 @@
 ---
-layout: page_markdown
+layout: page
 title: Support Us
 heading: Support Us
 container_class: 'text'

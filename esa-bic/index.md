@@ -1,5 +1,5 @@
 ---
-layout: page_markdown
+layout: page
 title: ESA Business Incubation
 heading: ESA Business Incubation
 container_class: 'text'
