@@ -1,0 +1,45 @@
+#legal-page content {  
+  p {
+    padding-top: 1.8rem;
+    color: #898989;
+  }
+
+  strong {
+    color: black;
+  }
+
+  a:hover {
+    opacity: .5;
+    transition-duration: 150ms;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+  }
+
+  a {
+    --text-opacity: 1;
+    color: #667eea;
+    color: rgba(102, 126, 234, var(--text-opacity));
+    text-decoration: inherit;
+    background-color: transparent;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  }
+
+  a strong {
+    --text-opacity: 1;
+    color: #667eea;
+    color: rgba(102, 126, 234, var(--text-opacity));
+  }
+
+  h2 {
+    padding-top: 4rem;
+    font-weight: 800;
+    font-size: 1.875rem;
+  }
+
+  ul {
+    padding-top: 2rem;
+  }
+
+  ul li {
+    padding-top: 0.4rem;
+  }
+}

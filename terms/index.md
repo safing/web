@@ -1,5 +1,5 @@
 ---
-layout: page_markdown
+layout: legal_page
 title: Terms of Service
 heading: Terms of Service
 ---
