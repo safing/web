@@ -1,6 +1,6 @@
 ---
 title: The Safing Podcast
-layout: page_column
+layout: page
 ---
 <div class="pod-links">
   <ul>
@@ -10,27 +10,45 @@ layout: page_column
   </ul>
 </div>
 
-<div class="ui divided items">
-  {% assign sorted_podcasts = site.podcasts | reverse %}
-  {% for episode in sorted_podcasts %}
-    <div class="item">
-      <a class="ui image" href="{{ episode.url }}">
-        <span class="ui large text">
-          #{{ episode.title | slice: 2, 2 }}
-        </span>
-      </a>
-      <div class="middle aligned content">
-        {% assign title_length = episode.title | size %}
-        <a class="description" href="{{ episode.url }}">{{ episode.title | slice: 7, title_length }}</a>
-        <div class="meta">
-          <span class="ui small text">
-            <i class="calendar alternate icon"></i>{{ episode.date | date: "%-d. %b %Y" }},
-            {% for host in episode.hosts %}
-              <i class="user icon"></i>{{ host }}
-            {% endfor %}
-          </span>
+<section style="padding-top: 16rem;">
+  <div class="items-center h-full">
+    <div class="container mx-auto px-8 sm:px-0 flex">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:flex">
+        <div class="py-12 bg-white">
+          <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+              <span style="font-size: 12rem; font-weight: 800; margin-top: -9rem; opacity: 0.05;" class="z-0 ml-0 w-full left-0 text-center absolute bg-top">Follow Us</span>
+              <h2 class="text-5xl tracking-tight font-extrabold leading-none py-10 text-center">Podcast</h2>
+            </div>
+            <div class="mt-32">
+              <ul class="md:grid md:grid-cols-2 lg:grid-cols-3 md:col-gap-8 md:row-gap-10">
+                {% assign sorted_podcasts = site.podcasts | reverse %}
+                {% for episode in sorted_podcasts %}
+                <li class="mt-10 md:mt-0">
+                  <div class="block transform hover:scale-95 duration-150 ease-in-out">
+                    <a href="{{ episode.url }}">
+                      <img src="{{ site.img_url }}shapes/podcast_blank.png" alt="">
+                      <span style="font-size: 12rem; font-weight: 800; margin-top: -13.8rem; margin-left: -0.8rem;" class=" z-0 absolute bg-top">
+                        <button type="button" style="background-color: #6188ff;" class="inline-flex items-center px-4 py-4 rounded-md border border-transparent text-xs leading-5 font-extrabold  text-white">
+                          <svg class="h-8 w-auto lg:h-5 fill-current text-white" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.41 11">
+                            <path d="M8.43 4.62l-6.34-4A1 1 0 00.5 1.5v8a1 1 0 001.59.88l6.34-4a1 1 0 000-1.76z" stroke-miterlimit="10" /></svg>
+                        </button>
+                      </span>
+                      <div class="pt-6">
+                        <span class="opacity-25">{{ episode.date | date: "%-d. %b %Y" }}</span>
+                        {% assign title_length = episode.title | size %}
+                        <p>{{ episode.title | slice: 7, title_length }} - #{{ episode.title | slice: 2, 2 }}</p>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                {% endfor %}
+              </ul>
+              <br class="mb-12">
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  {% endfor %}
-</div>
+  </div>
+</section>
