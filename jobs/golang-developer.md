@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_container
 title: Golang (or C/C++) Developer
 heading: Golang (or C/C++) Developer
 ---
