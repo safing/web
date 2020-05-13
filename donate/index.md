@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_container
 title: Support Us
 heading: Support Us
 ---
