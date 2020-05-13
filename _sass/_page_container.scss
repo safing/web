@@ -48,4 +48,47 @@
   ul li {
     padding-top: 0.4rem;
   }
+
+  .content {
+    max-width: 750px;
+    margin: auto;
+    margin-top: 3rem;
+
+    ul {
+      padding-top: 0.1rem;
+      list-style-type: decimal;
+      padding-left: 1rem;
+      color: #898989;
+    }
+
+    blockquote p {
+      font-weight: bold;
+      padding-left: 2rem;
+      color: black;
+      opacity: 0.6;
+    }
+
+    p {
+      padding-top: 1rem;
+    }
+
+    p img {
+      --transform-translate-x: 0;
+      --transform-translate-y: 0;
+      --transform-rotate: 0;
+      --transform-skew-x: 0;
+      --transform-skew-y: 0;
+      --transform-scale-x: 1.1;
+      --transform-scale-y: 1.1;
+      transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+      box-shadow: 0 0px 90px 0 rgba(59, 93, 199, 0.1), 0 0px 5px 0 rgba(0, 0, 0, 0);
+      margin-top: 5rem;
+      max-width: 100%;
+      height: auto;
+      border-radius: .375rem;
+      display: block;
+      margin-bottom: 4rem;
+      margin-top: 5rem;
+    }
+  }
 }
