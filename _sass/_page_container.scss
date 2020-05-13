@@ -1,3 +1,12 @@
+#page-container {
+  padding: 10rem 0;
+
+  &.podcast {
+    padding-top: 16rem;
+    padding-bottom: 6rem;
+  }
+}
+
 #page-container content {
   p {
     padding-top: 1.8rem;
@@ -41,6 +50,12 @@
     font-weight: 800;
   }
 
+  h4 {
+    font-size: 1.1rem;
+    padding: 0.5rem 0;
+    font-weight: 500;
+  }
+
   ul {
     padding-top: 2rem;
   }
@@ -69,7 +84,7 @@
     }
 
     p {
-      padding-top: 1rem;
+      padding: 0.5rem 0;
     }
 
     p img {
@@ -89,6 +104,17 @@
       display: block;
       margin-bottom: 4rem;
       margin-top: 5rem;
+    }
+
+    .podcast h2 {
+      padding-top: 1rem;
+      font-weight: 500;
+      font-size: 1rem;
+      padding-bottom: 0.5rem;
+    }
+
+    audio {
+      padding-bottom: 1.5rem;
     }
   }
 }
