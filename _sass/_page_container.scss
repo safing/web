@@ -1,4 +1,4 @@
-#legal-page content {  
+#page-container content {
   p {
     padding-top: 1.8rem;
     color: #898989;
@@ -30,9 +30,15 @@
   }
 
   h2 {
+    font-size: 1.875rem;
     padding-top: 4rem;
     font-weight: 800;
-    font-size: 1.875rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    font-weight: 800;
   }
 
   ul {
