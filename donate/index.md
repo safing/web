@@ -2,7 +2,6 @@
 layout: page
 title: Support Us
 heading: Support Us
-container_class: 'text'
 ---
 
 <div class="ui basic segment">

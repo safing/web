@@ -2,7 +2,6 @@
 layout: page_container
 title: ESA Business Incubation
 heading: ESA Business Incubation
-container_class: 'text'
 ---
 
 Safing ICS Technologies GmbH is participating in the ESA Business Incubation Centre Austria. The goal is to advance our technology as well as our business. Additionally, we have access to advanced ESA technology which will help us with anomaly detection.

@@ -2,7 +2,6 @@
 layout: page
 title: Golang (or C/C++) Developer
 heading: Golang (or C/C++) Developer
-container_class: 'text'
 ---
 
 Hey there! We're looking for a Golang developer to join us at Safing, maybe that's you?
