@@ -32,17 +32,15 @@ offered by Safing ICS Technologies GmbH as a whole or **[2]**, send us an email,
 Safing ICS Technologies GmbH welcomes your feedback, please send all
 feedback to: <feedback@safing.io>
 
----------------------------------------
+---
 
 **It is our goal to ensure that all people using our service are able to enjoy privacy whilst online through high-tech tools that are easy to
 use, built for privacy with security in mind.**
 
----------------------------------------
+---
 
-Contents
---------
+## Contents
 
-- [Terms of Service](#terms-of-service)
 - [Agreement](#agreement)
 - [Article 1. Definition's and Interpretations](#article-1-definitions-and-interpretations)
 - [Article 2. (applicable to) Entire Agreement](#article-2-applicable-to-entire-agreement)
@@ -71,10 +69,9 @@ Contents
 - [Article 25. Contact us @](#article-25-contact-us-)
 - [Article 26. Final note](#article-26-final-note)
 
----------------------------------------
+---
 
-**Agreement**
--------------
+## Agreement
 
 The legal entity of which you are entering into a contract with is:
 
@@ -86,8 +83,7 @@ clearly stating your request, to:
 
 <office@safing.io>
 
-**Article 1. Definition's and Interpretations**
-----------------------------------------------
+## Article 1. Definition's and Interpretations
 
 The following words, highlighted in bold text, shall have the following
 Definitions and Interpretations (meanings) in these Terms of Service:
@@ -126,8 +122,7 @@ service, to (subscribers/members), for a valid subscription.
 These are messages used by us to inform members/subscribers about
 changes etc. to their accounts.
 
-**Article 2. (applicable to) Entire Agreement**
------------------------------------------------
+## Article 2. (applicable to) Entire Agreement
 
 This Agreement and the pages of the SPN, website, and forums to which
 these terms refer including the "AUP", constitute a contract that
@@ -154,8 +149,7 @@ Party of any provisions of these Terms of service or "AUP", shall not be
 interpreted as constituting a waiver by said first Party of the right to
 take action in the future, in respect of such a breach.
 
-**Article 3. Personal privacy and protection**
-----------------------------------------------
+## Article 3. Personal privacy and protection
 
 We uphold the strictest of standards with respect to protection of
 privacy, and of personal information supplied by our
@@ -167,16 +161,13 @@ We do not share your PII with third parties, Cookies used on our
 service, are on service only, we do not use third party cookies, or
 transmit information collected, any information collected by our cookies
 are used on our site only for the purpose of administering your account,
-please read **[Article 12](#article-13-aup-acceptable-use-policy).
-"**Use of the Service information".
+please read [**Article 12**](#article-12-use-of-the-service-information), **"Use of the Service information"**.
 
 The cookies used by our service are clearly listed with the explanation
-of how we use them, and the information collected, in our [**Privacy
-Policy Article 14**]({{ config.base_url }}/privacy/#article-14-cookies), please read this policy to see how we protect your
+of how we use them, and the information collected, in our [**Privacy Policy Article 14**]({{ config.base_url }}/privacy/#article-14-cookies), please read this policy to see how we protect your
 data.
 
-**Article 4. Service level agreement (SLA)**
---------------------------------------------
+## Article 4. Service level agreement (SLA)
 
 Safing ICS Technologies GmbH endeavours to supply, all its subscribers a
 useable, working service, however, down time of our SPN, is not always
@@ -198,8 +189,7 @@ time to time, in all cases of system maintenance, subscribers will be
 given ample notification, via the website or forums, of due system
 maintenance including date and time if possible.
 
-**Article 5. Functioning of the website and Services**
-------------------------------------------------------
+## Article 5. Functioning of the website and Services
 
 To use our Services, the Member must have the necessary hardware
 equipment, software and the necessary parameters required to properly
@@ -240,19 +230,16 @@ website, forums may be interrupted at any time for the purposes of
 maintenance, updates or technical improvements, or to develop its
 content and/or presentation. Whenever possible, subscribers/members will
 be given notification via the website or forums prior to maintenance
-work or updates. Please read **[Article
-23](#article-23-warranties-and-disclaimers).** "Warranties and
+work or updates. Please read [**Article 23**](#article-23-warranties-and-disclaimers). "Warranties and
 Disclaimers".
 
-**Article 6. Subscription**
----------------------------
+## Article 6. Subscription
 
 Any and all subscriptions to the SPN are none transferable in any way
 shape or form, passwords to accounts are solely for the use by the
 account holder and should be kept private at all times, giving out your
 password will result in the loss of your account, in this particular
-case, it is advised that you read **[Article
-13](#article-13-aup-acceptable-use-policy). AUP** (acceptable use
+case, it is advised that you read [**Article 13, AUP**](#article-13-aup-acceptable-use-policy) (acceptable use
 policy) for more information.
 
 We currently offer two (2) levels of subscription, these are:
@@ -283,8 +270,7 @@ From time to time we may post special offers on our homepage, these are
 only designated and available during the time periods stated and may
 also apply to the lengths of subscriptions offered.
 
-**Article 7. Payments**
------------------------
+## Article 7. Payments
 
 The activation of a subscription on a member\'s account occurs as soon
 as, or a few moments after a valid transaction has been completed, a
@@ -297,8 +283,7 @@ of linking payments to account members, please read the [**Privacy Policy**]({{ 
 
 When payments are made to our services using a wire transfer, we receive
 transaction identifications, these are used for the sole purpose of
-linking payments to account members, please read the [**Privacy Policy
-Article 3.**]({{ config.base_url }}/privacy/#article-3-how-we-store-and-protect-your-pii--data) to see how we protect your data.
+linking payments to account members, please read the [**Privacy Policy Article 3.**]({{ config.base_url }}/privacy/#article-3-how-we-store-and-protect-your-pii--data) to see how we protect your data.
 
 Cash payments received through the post, do require the user/member to
 supply a valid payment token etc. this will be added to your account
@@ -333,8 +318,7 @@ plan to keep your account suspended for an extended period of time and
 you have an active subscription, you should first make sure that
 automatic renewal is cancelled.
 
-**Article 8. Customer Hub**
----------------------------
+## Article 8. Customer Hub
 
 The customer hub is used to collect required data for the purposes of
 administering your account, to see what information is gathered and how
@@ -344,18 +328,16 @@ sub heading [**Customer Hub**](https://account.safing.io/).
 Our customer hub can be reached by using the following link:
 [https://account.safing.io/](https://account.safing.io/)
 
-**Article 9. License**
-----------------------
+## Article 9. License
 
 Subject to your compliance with these Terms of service, Safing ICS
 Technologies GmbH grants to you a nonexclusive and limited license to
 download and use the Software. Modifying, distributing to unauthorized
 parties, reverse engineering, or otherwise using the Software in any way
 not expressly authorized by Safing ICS Technologies GmbH is strictly
-prohibited and will be considered a breach of [**Article 13**](#article-13-aup-acceptable-use-policy). **AUP**.
+prohibited and will be considered a breach of [**Article 13, AUP**](#article-13-aup-acceptable-use-policy).
 
-**Article 10. Your right to cancel**
-------------------------------------
+## Article 10. Your right to cancel
 
 Under The Consumer Contracts Regulations 2013, and the 2015 amendments,
 you have the right to cancel a service made at a distance, for instance,
@@ -374,14 +356,13 @@ provide you with the Services immediately and within the fourteen (14)
 day statutory cancellation period. In the event of cancellation, services
 used during this period will be charged and deducted from any refund
 due, along with a 15% account administration fee, please refer to
-**[Article 6](#article-6-subscription).** Subscription.
+[**Article 6**](#article-6-subscription). Subscription.
 
 Emails regarding cancellation should be sent, with full explanation to:
 
 <cancellations@safing.io>
 
-**Article 11. Refunds**
------------------------
+## Article 11. Refunds
 
 All refunds due to cancellation, under this article, shall be made to you
 within fourteen (14) days of the cancellation process date, and will
@@ -398,8 +379,7 @@ via email address or by other means supplied by you.
 Refunds applied for, due to termination of your account by us, are not
 excepted, in any way shape or form, breaking the terms of this agreement
 is not an acceptable reason for gaining a refund in any way shape or
-form, please read **[Article
-13](#article-13-aup-acceptable-use-policy). AUP** for more information.
+form, please read [**Article 13, AUP**](#article-13-aup-acceptable-use-policy) for more information.
 
 For the avoidance of all doubt, the 15% account administration fees are
 none refundable in any and all cases.
@@ -416,8 +396,7 @@ request to:
 
 <support@safing.io>
 
-**Article 12.** **Use of the Service information**
---------------------------------------------------
+## Article 12. Use of the Service information
 
 We highly value the security of our subscribed members information,
 Passwords and any other information used to identify a subscriber/member
@@ -428,8 +407,7 @@ We may collect email addresses, transaction id, upon subscription to our
 services, in all cases these are held behind high level encryptions and
 are only accessible by a trained employee, please read the [**Privacy Policy**]({{ config.base_url }}/privacy/) to see how we protect your data.
 
-**Article 13. AUP (acceptable use policy)**
--------------------------------------------
+## Article 13. AUP (acceptable use policy)
 
 The following is the Safing ICS Technologies GmbH Acceptable Use Policy
 (AUP). By using any of our services, including and not limited to the
@@ -470,8 +448,6 @@ party's use and enjoyment of any of our Services.
 -   You may not obtain or attempt to obtain any materials or information
     through any means not intentionally made available through our
     Services.
-
-<!-- -->
 
 -   You may not use the Service in connection with unlawful contests,
     lotteries, or gambling, pyramid schemes, chain letters, junk email,
@@ -540,8 +516,7 @@ party's use and enjoyment of any of our Services.
     attorney's fees), threatened or incurred as a result of your
     activities or breach of this AUP.
 
-**Article 14. Terminations**
-----------------------------
+## Article 14. Terminations
 
 Subscribed members may at any time, up to 72 hours prior to end of
 subscription, and without the need to provide any reason, end his/her
@@ -562,13 +537,12 @@ subscription expiration date in order to terminate the subscription,
 otherwise it may automatically renew.
 
 This Article does not apply to reimbursement when cancelling an initial
-order under **[Article 10](#article-10-your-right-to-cancel).** Your
+order under [**Article 10**](#article-10-your-right-to-cancel). Your
 right to cancel under The Consumer Contracts Regulations 2013/2015.
 
 As per the [**Privacy Policy, Article 16**]({{ config.base_url }}/privacy/#article-16-data-request). Any and all requests for us
 to stop processing, or using, your data will cause a termination of your
-account, this in no way automatically triggers a refund under **[Article
-10](#article-10-your-right-to-cancel) or [11](#article-11-refunds)**
+account, this in no way automatically triggers a refund under [**Article 10**](#article-10-your-right-to-cancel) or [**11**](#article-11-refunds)
 of these terms of service.
 
 Without prejudice to the other provisions hereof, where a member commits
@@ -588,15 +562,13 @@ suffered as a result of such breaches.
 The member will be informed by email of the termination, or the
 confirmation of the termination, of his/her account.
 
-Breach of any part of [**Article
-13**](#article-13-aup-acceptable-use-policy). the Acceptable use policy
+Breach of any part of [**Article 13.**](#article-13-aup-acceptable-use-policy), the Acceptable use policy
 (AUP), will ultimately result in a members account being terminated, in
 this case there is no recourse for refunds of any description, breach of
 the AUP may also be interpreted as an act of fraud or deception and will
 be reported to the proper authorities.
 
-**Article 15. Third party websites**
-------------------------------------
+## Article 15. Third party websites
 
 Our service may provide you with content belonging to third parties or
 links leading to third party websites, for purpose of example only,
@@ -623,14 +595,13 @@ we have no control on how the Reddit service collects, stores, shares,
 handles, or uses data, and you are advised to read any and all privacy
 policies of the sites you intend to use.
 
-**Article 16.** **Intellectual Property**
------------------------------------------
+## Article 16. Intellectual Property
 
 The trademark, SPN, logos, graphics and texts featured on any and all of
 our services are the intellectual property of Safing ICS Technologies
 GmbH and may not be reproduced, used or represented without the explicit
 permission, in writing via email to <office@safing.io> under threat of
-legal action, please read **[Article 13.](#terms-of-service) AUP**.
+legal action, please read [**Article 13., AUP**](#article-13-aup-acceptable-use-policy).
 
 The rights of use granted by ourselves to our subscribers are strictly
 limited to accessing, downloading, printing and reproduction on all
@@ -638,7 +609,7 @@ media types, the use of these documents for private and personal
 purposes in the scope of and for the duration of the member\'s
 subscription only. Any other use by the subscriber/member is prohibited
 without the express authorisation in writing from Safing ICS
-Technologies GmbH. Please read **[Article 13.](#terms-of-service) AUP**.
+Technologies GmbH. Please read [**Article 13., AUP**](#article-13-aup-acceptable-use-policy).
 
 In particular, members are prohibited from modifying, copying,
 reproducing, disseminating, transmitting, exploiting whether for
@@ -646,8 +617,7 @@ commercial gain or not, and/or distributing in any way shape or form
 whatsoever the Intellectual Property, from any and all services offered
 by us.
 
-**Article 17. Geographical access**
------------------------------------
+## Article 17. Geographical access
 
 The Services provided by Safing ICS Technologies GmbH, are not
 geographically limited, however, we make no representations or
@@ -664,8 +634,7 @@ of the SPN Services or any portion thereof, to any person, entity,
 geographic area, or jurisdiction, at any time. Other exclusions to the
 service, may also include and are not limited to war zones.
 
-**Article 18. No logs policy**
-------------------------------
+## Article 18. No logs policy
 
 We do not log or store any records on user activity using our SPN
 Service: however, you are required to create a user account,
@@ -680,8 +649,7 @@ subscribed user information, listed above, we cannot supply this
 information as the data does not exist, and is therefore not in our
 possession.
 
-**Article 19. Do not track**
-----------------------------
+## Article 19. Do not track
 
 As our services work on a globalised internet, (barring any geographical
 exclusions) in conjunction with CalOPPA, and our no logs policy, our SPN
@@ -689,8 +657,7 @@ service uses a do not track policy, please read our [**Privacy Policy Article 11
 [**Article 23.**](#article-23-warranties-and-disclaimers) Warranties
 and disclaimers
 
-**Article 20. Children's Online Privacy Protection Act (COPPA)**
-----------------------------------------------------------------
+## Article 20. Children's Online Privacy Protection Act (COPPA)
 
 The services offered by Safing ICS Technologies GmbH are primarily aimed
 at members of the public that are over the age of eighteen (18) years,
@@ -698,8 +665,7 @@ you are responsibility for your child's online presence, we do not, and
 will not, knowingly supply any child with our services, please read our
 [**Privacy Policy Article 10.**]({{ config.base_url }}/privacy/#article-10-childrens-online-privacy-protection-act-coppa). For clarification.
 
-**Article 21. Indemnification**
--------------------------------
+## Article 21. Indemnification
 
 You agree to indemnify, defend, and hold harmless Safing ICS
 Technologies GmbH, its officers, directors, employees, members,
@@ -712,8 +678,7 @@ of any matter subject to indemnification by you, the assumption of such
 defence or control by us, however, shall not excuse any of your
 indemnity obligations.
 
-**Article 22. Amendments**
---------------------------
+## Article 22. Amendments
 
 These terms of service are classed as living documents, and as such will
 evolve, or change along with the evolution of our services and company,
@@ -733,15 +698,12 @@ shall be immediately applied, as new subscribers will have expressly
 accepted them when they open a new account, or by purchasing a
 subscription.
 
-**Article 23. Warranties and Disclaimers**
-------------------------------------------
+## Article 23. Warranties and Disclaimers
 
 **General Reference**. Safing ICS Technologies GmbH, cannot and will not
 be held responsible for the actions of its subscribed members whilst
 using any of our services including and not limited to the SPN, website
-and forums, such actions that are in breach of **[Article
-13.](#article-13-aup-acceptable-use-policy) AUP**, will result in a
-termination of service, without refund or compensation of any kind, in
+and forums, such actions that are in breach of [**Article 13., AUP**](#article-13-aup-acceptable-use-policy), will result in a termination of service, without refund or compensation of any kind, in
 such an event, Safing ICS Technologies GmbH may seek legal costs,
 damages, and fees from the subscriber or his/her beneficiaries through
 the Austrian court system.
@@ -757,8 +719,7 @@ riots, war, novelty of product manufacture, or any other unanticipated
 product development problems, and acts of civil and military
 authorities.
 
-**Reference** [**Article
-5**.](#article-5-functioning-of-the-website-and-services) Functioning
+**Reference** [**Article 5**.](#article-5-functioning-of-the-website-and-services) Functioning
 of the website and Services. For the avoidance of all doubt, Safing ICS
 Technologies GmbH, is in no way shape or form responsible for your
 internet providers service including and not limited to its ping, speed,
@@ -795,7 +756,7 @@ prompt and timely manner.
 Should Safing ICS Technologies GmbH, go into liquidation and cease to
 trade, all subscriptions will close on the cessation of the company.
 
-**Reference [Article 15.](#article-15-third-party-websites)** Third
+**Reference** [**Article 15.**](#article-15-third-party-websites) Third
 party websites. If a third party causes any issues that affects our
 service to you the member which is beyond our control, Safing ICS
 Technologies GmbH, are not responsible for any such service-related
@@ -807,7 +768,7 @@ GmbH, is not responsible for such service-related issues.
 If a third party gains ultimate control over the service that we provide
 to you, Safing ICS Technologies GmbH, are not responsible for any
 service-related issues, but may terminate your service based upon breach
-of [**Article 13.**](#article-13-aup-acceptable-use-policy) **AUP**.
+of [**Article 13., AUP**](#article-13-aup-acceptable-use-policy).
 
 If any service-related issues do occur of which the issue is directly
 caused by third party interaction, you are not entitled to a refund in
@@ -815,9 +776,7 @@ any such way, Safing ICS Technologies GmbH, cannot and will not be held
 responsible or liable for member's actions on third party sites or
 companies.
 
-**Reference [Article 17.](#article-17-geographical-access)**
-Geographical access. Safing ICS Technologies GmbH, cannot and will not
-be held liable for the lack of access, or restrictions to any of our
+**Reference** [**Article 17.**](#article-17-geographical-access) Geographical access. Safing ICS Technologies GmbH, cannot and will not be held liable for the lack of access, or restrictions to any of our
 services due to the actions taken by your local governments' laws and
 regulations, privacy based or not, it is your responsibility to check
 whether or not you can use our service in your geographic area, or
@@ -828,7 +787,7 @@ description under [**Article 10.**](#article-10-your-right-to-cancel)
 Your right to cancel, and could be considered a breach of these terms of
 service.
 
-**Reference [Article 19.](#article-19-do-not-track)** Do not track. as
+**Reference** [**Article 19.**](#article-19-do-not-track) Do not track. as
 we employ a do not track policy on our SPN service, we may not respond
 to a do not track request from you, however, in all cases, Safing ICS
 Technologies GmbH cannot and will not be held responsible for your
@@ -837,16 +796,14 @@ including and not limited to the payment gateways we use to collect
 subscription payments, i.e. PayPal, Stripe, or any credit card company
 or bank you may use.
 
-**Article 24. Jurisdiction and Applicable Law**
------------------------------------------------
+## Article 24. Jurisdiction and Applicable Law
 
 As Safing ICS Technologies GmbH is registered in Austria, this contract,
 between you and Safing ICS Technologies GmbH shall be governed by
 Austrian law, as such, any and all disputes will be decided only through
 the Austrian court system.
 
-**Article 25. Contact us @**
-----------------------------
+## Article 25. Contact us @
 
 Contact information for all departments dealing with your accounts and
 services are as follows:
@@ -865,8 +822,7 @@ Account cancellations: <cancellations@safing.io>
 We welcome your input, any feedback is helpful to aid the development of
 our services: <feedback@safing.io>
 
-**Article 26. Final note**
---------------------------
+## Article 26. Final note
 
 For the avoidance of all doubt, and as a final note, you the subscriber,
 must read and agree to these terms of service, and also read our

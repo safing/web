@@ -22,18 +22,16 @@ Please read this privacy policy carefully to get a clear understanding
 of how we collect, use, protect or otherwise handle your Personally
 Identifiable Information in accordance with our services.
 
----------------------------------------
+---
 
 We have been open and transparent on the ways we collect, hold, use, and
 protect your PII/data, should you have any concerns arising from this
-privacy policy, please [use the contact email address in **Article
-19.**](#article-19-contact) to contact us, we are always happy to hear
+privacy policy, please [use the contact email address in **Article 19.**](#article-19-contact) to contact us, we are always happy to hear
 your comments and suggestions.
 
----------------------------------------
+---
 
-Contents
---------
+## Contents
 
 - [Article 1. Where we collect Data/PII from](#article-1-where-we-collect-datapii-from)
 - [Article 2. Personal Identifiable Information & Data we collect](#article-2-personal-identifiable-information--data-we-collect)
@@ -55,10 +53,9 @@ Contents
 - [Article 18. Amendments to the Privacy Policy](#article-18-amendments-to-the-privacy-policy)
 - [Article 19. Contact](#article-19-contact)
 
----------------------------------------
+---
 
-**Article 1. Where we collect Data/PII from**
----------------------------------------------
+## Article 1. Where we collect Data/PII from
 
 At present, Safing ICS Technologies GmbH runs four (4) services, these are as follows, Website, Forum, SPN, and Portmaster update server: these
 services collect different levels of data, however we aim to collect as
@@ -66,8 +63,7 @@ little as possible, and all data received by us is treated with the
 strictest of confidence with privacy always in mind, all data is held
 securely.
 
-**Article 2. Personal Identifiable Information & Data we collect**
-------------------------------------------------------------------
+## Article 2. Personal Identifiable Information & Data we collect
 
 Although the information collected is basic and may not be classed as
 PII, we treat all data with the same respect and as such have listed all
@@ -145,8 +141,7 @@ As with any third parties, we take no responsibility for your actions
 when using said services, it is within your best interests to read all
 policies on the third party sites you use or visit.
 
-**Article 3.** **How we store and protect your PII & Data**
------------------------------------------------------------
+## Article 3. How we store and protect your PII & Data
 
 **Data Storage:**
 
@@ -189,8 +184,7 @@ data integrity between two communicating computer applications.
 At rest: Hot data (in use) is protected on our server, cold data
 (backups) are encrypted.
 
-**Article 4. How we use your PII & Data**
------------------------------------------
+## Article 4. How we use your PII & Data
 
 The information collected whilst subscribing to the SPN or using the
 website is basic in nature and only used for the specific reasons of
@@ -214,8 +208,7 @@ software development and the administration of your account.
 -   Referrer. How did you find the site? Used for software development
     purposes.
 
-**Article 5. Third party websites and links**
----------------------------------------------
+## Article 5. Third party websites and links
 
 -   Hetzner. Hosting Provider.
 
@@ -227,8 +220,7 @@ software development and the administration of your account.
 
 -   Sparkasse Baden: Bank. Payments, wire transfer.
 
-**Article 6. Third Party Disclosure**
--------------------------------------
+## Article 6. Third Party Disclosure
 
 We do not sell, trade, or otherwise transfer to outside parties, your
 personally identifiable information. This does not include website
@@ -246,8 +238,7 @@ We may release your information when we believe release is appropriate
 to comply with the law, enforce our site policies, or protect ours or
 others' rights, property, privacy, or safety.
 
-**Article 7. General Data Protection Regulation (GDPR) explained**
-------------------------------------------------------------------
+## Article 7. General Data Protection Regulation (GDPR) explained
 
 The General Data Protection Regulation (GDPR) is the toughest privacy
 and security law in the world. Though it was drafted and passed by the
@@ -255,8 +246,7 @@ European Union (EU), it is now implemented in many countries worldwide,
 it imposes obligations onto organizations anywhere, so long as they
 target or collect data related to people in the EU. The regulation was
 put into effect on May 25, 2018, and grants users' certain rights under
-the GDPR policy, these are set out below and clarified in [**Article
-16.**](#article-16-data-request), alternatively, to read more about
+the GDPR policy, these are set out below and clarified in [**Article 16.**](#article-16-data-request), alternatively, to read more about
 GDPR please visit the following link:
 
 <https://gdpr-info.eu/>
@@ -288,8 +278,7 @@ information by contacting us at:
 
 <support@safing.io>
 
-**Article 8. California Online Privacy Protection Act, (CalOPPA) explained**
-----------------------------------------------------------------------------
+## Article 8. California Online Privacy Protection Act, (CalOPPA) explained
 
 CalOPPA is the first state law in the United States of America to
 require commercial websites and online services to post a privacy
@@ -312,12 +301,10 @@ service, to use said service. Users will be notified of any privacy
 policy changes as and when they happen and can keep up to date by
 clicking the link named, (Privacy Policy) at the bottom of our home
 page. To see what data, we collect from subscribers please refer to:
-[**Article
-2**.](#article-2-personal-identifiable-information-data-we-collect)
+[**Article 2**.](#article-2-personal-identifiable-information-data-we-collect)
 Personal Identifiable Information & Data we collect.
 
-**Article 9. Fair Information Practices, explained**
-----------------------------------------------------
+## Article 9. Fair Information Practices, explained
 
 The Fair Information Practices Principles, form the backbone of privacy
 law in the United States and the concepts they include have played a
@@ -347,8 +334,7 @@ can be read by following the link below:
 
 <https://www.legislation.gov.uk/ukpga/1998/29/data.pdf>
 
-**Article 10. Children's Online Privacy Protection Act (COPPA)**
-----------------------------------------------------------------
+## Article 10. Children's Online Privacy Protection Act (COPPA)
 
 The SPN provided by Safing ICS Technologies GmbH is in no way targeted
 for use in any way shape or form towards minors/children under the age
@@ -359,31 +345,25 @@ data collected by us is treated in the same manner, protected behind
 numerous layers of encryption, used to provide the service to you, and
 not shared with any third parties.
 
-**Article 11. Do not track**
-----------------------------
+## Article 11. Do not track
 
 In conjunction with CalOPPA and the 2013 amendments, we do not track
 users of our SPN (Safing Privacy Network), in this case we do not
 respond to, do not track signals or requests from you, on the
 understanding that, our service does not track users' actions or usage
-whilst on the SPN service. Please read [**Article
-13.**](#article-13-no-logs-policy) No logs policy.
+whilst on the SPN service. Please read [**Article 13.**](#article-13-no-logs-policy) No logs policy.
 
-**Article 12. Mobile devices**
-------------------------------
+## Article 12. Mobile devices
 
 At present we do not provide any mobile applications for our services,
 however as it is possible to connect to our SPN service using your
 mobile devices internet browser, the following applies: We do not track,
 or collect any data from your mobile devices other than information
-provided by you to subscribe to our service, please refer to: [**Article
-2.**](#article-2-personal-identifiable-information-data-we-collect)
-Personal Identifiable Information (PII/Data), we collect, and [**Article
-3.**](#article-3-how-we-store-and-protect-your-pii-data) How we store
+provided by you to subscribe to our service, please refer to: [**Article 2.**](#article-2-personal-identifiable-information-data-we-collect)
+Personal Identifiable Information (PII/Data), we collect, and [**Article 3.**](#article-3-how-we-store-and-protect-your-pii-data) How we store
 and protect your PII/Data.
 
-**Article 13. No logs policy**
-------------------------------
+## Article 13. No logs policy
 
 We do not log or store records on user activity using our SPN Service,
 we are committed to your privacy and DO NOT collect or log browsing
@@ -396,8 +376,7 @@ subscribed user information, listed above, we cannot supply this
 information as the data does not exist, and is therefore not in our
 possession.
 
-**Article 14. Cookies**
------------------------
+## Article 14. Cookies
 
 Our service uses cookies required to operate, by way of example and not
 limited to, when logging in, below you will find an explanation on our
@@ -470,8 +449,7 @@ refer to the instructions for your internet browser from the list below.
 -   Internet Explorer
     <https://windows.microsoft.com/en-US/internet-explorer/delete-manage-cookies#ie=ie-11>
 
-**Article 15. Third party behavioural tracking**
-------------------------------------------------
+## Article 15. Third party behavioural tracking
 
 Our SPN service DOES NOT use third-party tracking in any form, however,
 sites we may direct you to during subscription, by way of example only,
@@ -480,8 +458,7 @@ such tracking on their services, for the avoidance of all doubt, it is
 your responsibility to check any third party sites you visit and read
 their privacy policy.
 
-**Article 16. Data request**
-----------------------------
+## Article 16. Data request
 
 In compliance with the GDPR, you can request a list of the information
 we hold on your account, however at this time it is best to remember
@@ -496,9 +473,7 @@ As the data we collect is solely used to run and administer your
 account, you can ask at any time for us to stop processing, or to erase
 the data held on your account, however in these aforementioned cases,
 this will result in the removal of your account from our services, this
-course of action does not automatically trigger a refund under **Terms
-of Service. Article 10** your right to cancel, and **Article 11**
-refunds. For cases of this type please contact us with your request at:
+course of action does not automatically trigger a refund under **Terms of Service. Article 10** your right to cancel, and **Article 11** refunds. For cases of this type please contact us with your request at:
 
 <cancellations@safing.io> or <support@safing.io>
 
@@ -518,8 +493,7 @@ and reason, with a current court order covering the correct jurisdiction
 attached, Safing ICS Technologies GmbH will comply with the law, applied
 by the Austrian court's jurisdiction under European law.
 
-**Article 17. Jurisdiction and Applicable Law**
------------------------------------------------
+## Article 17. Jurisdiction and Applicable Law
 
 As Safing ICS Technologies GmbH is registered in Austria, any and all
 disputes will be decided only through the Austrian court system
@@ -528,8 +502,7 @@ SPN provided by Safing ICS Technologies GmbH does not collect any IP
 addresses, browsing history, traffic data, or DNS queries that could be
 used to identify any specific user.
 
-**A****rticle 18. Amendments to the Privacy Policy**
-----------------------------------------------------
+## Article 18. Amendments to the Privacy Policy**
 
 This privacy policy is classed as a living document, and will change
 from time to time due to changes in laws concerning privacy around the
@@ -542,8 +515,7 @@ acceptance of our Privacy Policy, we recommend that subscribers check
 for updates and reads said content of any amended policies we might make
 in the future.
 
-**Article 19. Contact**
------------------------
+## Article 19. Contact
 
 If you have any questions regarding our Privacy Policy and how we handle
 your information, please feel free to contact Safing ICS Technologies
