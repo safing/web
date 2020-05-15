@@ -5,6 +5,16 @@
     padding-top: 16rem;
     padding-bottom: 6rem;
   }
+
+  &.imprint {
+    h4 {
+      padding-top: 2rem;
+    }
+
+    p {
+      padding: .5rem 0;
+    }
+  }
 }
 
 #page-container content {
