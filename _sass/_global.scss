@@ -172,3 +172,14 @@ footer {
   transition-duration: 150ms;
   transition-timing-function: cubic-bezier(.4, 0, .2, 1);
 }
+
+.grayscale {
+  filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(0); /* Webkit Nightlies & Chrome Canary */
+}
+
+.grayscale:hover {
+  filter: none;
+  -webkit-filter: grayscale(1);
+}
