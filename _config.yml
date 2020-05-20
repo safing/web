@@ -32,6 +32,7 @@ privacy_url: /privacy/
 spn_url: /spn/
 team_url: /team/
 terms_url: /terms/
+video_url: /video/
 whitepaper_url: /files/whitepaper/Gate17.pdf
 
 ### external
@@ -81,6 +82,8 @@ emailobfuscated: "=b!isfg>#nbjmup;ifmmpAtbgjoh/jp#?ifmmpAtbgjoh/jp=0b?"
 collections:
   podcasts:
     output: true
+  videos:
+    output: true
 
 defaults:
   - scope:
@@ -97,6 +100,13 @@ defaults:
       layout: "podcast"
       permalink: /podcast/:year/:month/:day/:title/
       type: "podcast"
+  - scope:
+      path: ""
+      type: "videos"
+    values:
+      layout: "video"
+      permalink: /video/:year/:month/:day/:title/
+      type: "video"
 
 ##############################
 ###### Podcast settings ######
