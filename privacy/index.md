@@ -22,14 +22,10 @@ Please read this privacy policy carefully to get a clear understanding
 of how we collect, use, protect or otherwise handle your Personally
 Identifiable Information in accordance with our services.
 
----
-
 We have been open and transparent on the ways we collect, hold, use, and
 protect your PII/data, should you have any concerns arising from this
 privacy policy, please [use the contact email address in **Article 19.**](#article-19-contact) to contact us, we are always happy to hear
 your comments and suggestions.
-
----
 
 ## Contents
 
@@ -52,8 +48,6 @@ your comments and suggestions.
 - [Article 17. Jurisdiction and Applicable Law](#article-17-jurisdiction-and-applicable-law)
 - [Article 18. Amendments to the Privacy Policy](#article-18-amendments-to-the-privacy-policy)
 - [Article 19. Contact](#article-19-contact)
-
----
 
 ## Article 1. Where we collect Data/PII from
 

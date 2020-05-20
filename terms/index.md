@@ -32,12 +32,8 @@ offered by Safing ICS Technologies GmbH as a whole or **[2]**, send us an email,
 Safing ICS Technologies GmbH welcomes your feedback, please send all
 feedback to: <feedback@safing.io>
 
----
-
 **It is our goal to ensure that all people using our service are able to enjoy privacy whilst online through high-tech tools that are easy to
 use, built for privacy with security in mind.**
-
----
 
 ## Contents
 
@@ -68,8 +64,6 @@ use, built for privacy with security in mind.**
 - [Article 24. Jurisdiction and Applicable Law](#article-24-jurisdiction-and-applicable-law)
 - [Article 25. Contact us @](#article-25-contact-us-)
 - [Article 26. Final note](#article-26-final-note)
-
----
 
 ## Agreement
 
