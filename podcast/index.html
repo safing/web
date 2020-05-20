@@ -28,7 +28,11 @@ layout: page
                 <li class="mt-10 md:mt-0">
                   <div class="block transform hover:scale-95 duration-150 ease-in-out">
                     <a href="{{ episode.url }}">
-                      <img src="{{ site.img_url }}shapes/podcast_blank.png" alt="">
+                      {% if episode.custom_thumbnail_name == null %}
+                        <img src="{{ site.img_url }}thumbnails/podcast/placeholder.png">
+                      {% else %}
+                        <img src="{{ site.img_url }}thumbnails/podcast/{{ episode.custom_thumbnail_name }}.png">
+                      {% endif %}
                       <span style="font-size: 12rem; font-weight: 800; margin-top: -13.8rem; margin-left: -0.8rem;" class=" z-0 absolute bg-top">
                         <button type="button" style="background-color: #6188ff;" class="inline-flex items-center px-4 py-4 rounded-md border border-transparent text-xs leading-5 font-extrabold  text-white">
                           <svg class="h-8 w-auto lg:h-5 fill-current text-white" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.41 11">
