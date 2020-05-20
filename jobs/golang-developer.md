@@ -1,8 +1,7 @@
 ---
-layout: page_markdown
+layout: page_container
 title: Golang (or C/C++) Developer
 heading: Golang (or C/C++) Developer
-container_class: 'text'
 ---
 
 Hey there! We're looking for a Golang developer to join us at Safing, maybe that's you?
@@ -16,16 +15,16 @@ Hey there! We're looking for a Golang developer to join us at Safing, maybe that
   </p>
 </div>
 
-We are not striving to create a unicorn, which we can sell for a huge profit. Rather, we strive to be a sustainable business and have a meaningful impact in today's Internet landscape. As we take our mission seriously, we are not only [open sourcing our products]({{ site.github_url }}), but are also open about [our funding]({{ site.our_values_url }}#ethical-funding), [influences]({{ site.our_values_url }}#ownership) and [business model]({{ site.our_values_url }}#clear-business-model).
+We are not striving to create a unicorn, which we can sell for a huge profit. Rather, we strive to be a sustainable business and have a meaningful impact in today's Internet landscape. As we take our mission seriously, we are not only [open sourcing our products]({{ site.github_url }}), but are also open about [our funding, influences and business model]({{ site.about_url }}).
 
-Safing develops [three tools]({{ site.technology_url }}), which in unison equip everyday online citizens to withstand mass surveillance. We're not solving every privacy problem out there, but we believe our approach tackles some root problems and will have a massive impact on peoples lives!
+Safing develops [three tools]({{ site.portmaster_url }}), which in unison equip everyday online citizens to withstand mass surveillance. We're not solving every privacy problem out there, but we believe our approach tackles some root problems and will have a massive impact on peoples lives!
 
 As we're beginning to hire our first employees, we are looking for people who complement our team, helping out in areas where we have our greatest bottleneck: Golang Development.
 
 ## What we're looking for
 ----------------
 
-This role involves lots of hands on, low level programming. As mentioned before, Golang is not a hard requirement, experience in C or C++ will suffice for you to quickly pick up Golang. Together with Daniel, our lead developer, you will work on further progressing our main products: [Portmaster]({{ site.technology_url }}) and [Gate17]({{ site.technology_url }}#gate17). Daniel will guide you into the products, their architecture, the code and the workflow: conceptualizing, coding and testing.
+This role involves lots of hands on, low level programming. As mentioned before, Golang is not a hard requirement, experience in C or C++ will suffice for you to quickly pick up Golang. Together with Daniel, our lead developer, you will work on further progressing our main products: [Portmaster]({{ site.portmaster_url }}) and [the SPN]({{ site.spn_url }}). Daniel will guide you into the products, their architecture, the code and the workflow: conceptualizing, coding and testing.
 
 Because Portmaster and Gate17 are both deeply rooted in the realm of network security, any experience in this realm is a big bonus. You should definitely know your way around protocols (TCP, UDP, DNS, HTTP, ...) and firewalls (no brands, just how they work), as well as being intimate with how the Internet works on a network level.
 
@@ -63,7 +62,7 @@ Also, be prepared to collaborate with additional team members soon. We do have p
 - 💵 35.000€ - 42.000€ annual salary
 - 💻 a fully paid setup
 - ⚖️ work-life balance: a healthy balance between work and recreation is essential - we also know that family is more important than work
-- 🔍 transparency: as one of [our core values]({{ site.our_values_url }}#open-source), this is both true internally and externally
+- 🔍 transparency: as one of our core values, this is both true internally and externally
 - ⚡️ modern technology
 - 🌎 remote work (because of funding restrictions, only in Austria 🇦🇹 this time)
 - 🏢 an office located in Baden, Lower Austria (optional). It's only a 4 minute walk from the S-Bahn and Badner Bahn station.

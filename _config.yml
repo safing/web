@@ -1,57 +1,89 @@
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
+# Plugins are rather limited in Github Pages, though a lot of useful ones are supported, check out:
+# https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#plugins
 plugins:
   - jekyll-minifier
   - jekyll-paginate
   - jekyll-redirect-from
 
-# Site settings
+####################
+###### routes ######
+####################
+
+url: https://safing.io
+base_url: "/" # the subpath of your site, e.g. /blog
+
+### assets
+assets_url: /assets/
+img_url: /assets/img/
+vendor_url: /vendor/
+
+### pages
+about_url: /about/
+blog_url: /blog/
+community_hub_url: /community-hub/
+contact_url: /contact/
+esa_bic_url: /esa-bic/
+help_url: /support/
+newsletter_url: /newsletter/
+ownership_url: /ownership/
+podcast_url: /podcast/
+portmaster_url: /portmaster/
+privacy_url: /privacy/
+spn_url: /spn/
+team_url: /team/
+terms_url: /terms/
+video_url: /video/
+whitepaper_url: /files/whitepaper/Gate17.pdf
+
+### external
+
+account_server_url: https://account.safing.io/
+assets_server_url: https://assets.safing.io/
+company_agreement_url: https://www.firmenmonitor.at/Secure/CompanyDetail.aspx?CID=761761
+download_linux_url: https://updates.safing.io/latest/linux_amd64/packages/portmaster-installer.deb
+download_windows_url: https://updates.safing.io/latest/windows_amd64/packages/portmaster-installer.exe
+github_url: https://github.com/Safing
+github_linux_wiki_url: https://github.com/safing/portmaster/wiki/Linux
+github_windows_wiki_url: https://github.com/safing/portmaster/wiki/Windows
+invidious_channel_url: https://invidio.us/channel/UC_6TW053IlS4M22g7CxnukA
+kickstarter_url: https://www.kickstarter.com/projects/safingio/spn
+reddit_url: https://reddit.com/r/safing
+twitter_url: https://twitter.com/SafingIO
+youtube_channel_url: https://www.youtube.com/channel/UC_6TW053IlS4M22g7CxnukA
+
+### donations
+donations:
+  bitcoin:
+    url: https://www.blockchain.com/btc/address/1AosdDyzd8PVUFTUEXoaJHTyPVHuKQxdmq?filter=2
+  paypal:
+    url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2QHNM78H9YC9L&source=url
+
+###########################
+###### site settings ######
+###########################
+
 title: Safing
 encoding: "utf-8"
 lang: "en"
-email: hello@safing.io
-emailobfuscated: "=b!isfg>#nbjmup;ifmmpAtbgjoh/jp#?ifmmpAtbgjoh/jp=0b?"
 description: > # this means to ignore newlines until "base_url:"
   Safing is a software that protects your privacy online. It's so easy, anyone can use it.
-base_url: "/" # the subpath of your site, e.g. /blog
-assets_url: "/assets/"
-img_url: "/assets/img/"
-video_url: "/assets/video/"
-icons_url: "/assets/icons/"
-vendor_url: "/vendor/"
-url: "https://safing.io" # the base hostname & protocol for your site
-cover: "img/cover.jpg"
-logo: "img/logo_name_70h_reduced.png"
-twitter_username: SafingIO
-github_username: Safing
+
 markdown: kramdown
-highlightjs_theme: "monokai_sublime"
 
 excerpt_separator: "<!--break-->"
 inter_post_navigation: false
 
-our_values_url: "/our-values/"
-jobs_url: "/jobs/"
-podcast_url: "/podcast/"
-blog_url: "/blog/"
-technology_url: "/technology/"
-community_hub_url: "/community-hub/"
-contact_url: "/contact/"
-terms_url: "/terms/"
-privacy_url: "/privacy/"
-whitepaper_url: "/files/whitepaper/"
-company_agreement_url: https://www.firmenmonitor.at/Secure/CompanyDetail.aspx?CID=761761
-kickstarter_url: "https://www.kickstarter.com/projects/safingio/spn" # add the kickstarter url when ready
+email: hello@safing.io
+emailobfuscated: "=b!isfg>#nbjmup;ifmmpAtbgjoh/jp#?ifmmpAtbgjoh/jp=0b?"
 
-download_windows_url: "https://updates.safing.io/latest/windows_amd64/packages/portmaster-installer.exe"
-download_linux_url: "https://updates.safing.io/latest/linux_amd64/packages/portmaster-installer.deb"
-
-github_windows_wiki: "https://github.com/safing/portmaster/wiki/Windows"
-github_linux_wiki: "https://github.com/safing/portmaster/wiki/Linux"
+###################################
+###### media/content options ######
+###################################
 
 collections:
   podcasts:
+    output: true
+  videos:
     output: true
 
 defaults:
@@ -69,39 +101,17 @@ defaults:
       layout: "podcast"
       permalink: /podcast/:year/:month/:day/:title/
       type: "podcast"
+  - scope:
+      path: ""
+      type: "videos"
+    values:
+      layout: "video"
+      permalink: /video/:year/:month/:day/:title/
+      type: "video"
 
-github_url: https://github.com/Safing
-reddit_url: https://reddit.com/r/safing
-twitter_url: https://twitter.com/SafingIO
-newsletter_url: "/newsletter/"
-
-communities:
-  - reddit:
-    name: Reddit
-    icon: reddit
-    username: r/safing
-    url: https://reddit.com/r/safing
-    desc: Join our Reddit
-  - github:
-    name: GitHub
-    icon: github
-    username: Safing
-    url: https://github.com/Safing
-    desc: Fork us on GitHub
-  - twitter:
-    name: Twitter
-    icon: twitter
-    username: SafingIO
-    url: https://twitter.com/SafingIO
-    desc: Follow me on Twitter
-
-donations:
-  bitcoin:
-    url: https://www.blockchain.com/btc/address/1AosdDyzd8PVUFTUEXoaJHTyPVHuKQxdmq?filter=2
-  paypal:
-    url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2QHNM78H9YC9L&source=url
-
-### Podcast
+##############################
+###### Podcast settings ######
+##############################
 
 podcast_itunes_url: https://podcasts.apple.com/podcast/id1480027286
 podcast_feed_url: /podcast.xml

@@ -1,10 +1,22 @@
 <!-- meta -->
 <meta charset={{ site.encoding }}>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 <meta name="description" content="{{ site.description }}">
 <meta name="author" content="{{ site.author }}">
-<title>{% if page.type == "podcast" %}The Safing Podcast {{ page.title }}{% elsif page.type == "post" %}Safing Blog: {{ page.title }}{% elsif page.title == "Safing" %}{{ page.title }}{% else %}Safing {{ page.title }}{% endif %}</title>
+<title>
+  {% if page.type == "podcast" %}
+    {% assign title_length = page.title | size %}
+    {{ page.title | slice: 7, title_length }} - The Safing Podcast #{{ page.title | slice: 2, 2 }}
+  {% elsif page.type == "video" %}
+    {% assign title_length = page.title | size %}
+    {{ page.title | slice: 7, title_length }} - Safing Update #{{ page.title | slice: 2, 2 }}
+  {% elsif page.type == "post" %}
+    {{ page.title }} - Safing Blog
+  {% else %}
+    {{ page.title }}
+  {% endif %}
+</title>
 
 <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
 <link rel="apple-touch-icon" sizes="57x57" href="{{ site.assets_url }}icons/apple-icon-57x57.png">
@@ -21,12 +33,11 @@
 <link rel="icon" type="image/png" sizes="96x96" href="{{ site.assets_url }}icons/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ site.assets_url }}icons/favicon-16x16.png">
 <link rel="manifest" href="{{ site.assets_url }}icons/manifest.json">
+
 <meta name="msapplication-TileColor" content="#f7f7f7">
 <meta name="msapplication-TileImage" content="{{ site.assets_url }}icons/ms-icon-144x144.png">
 <meta name="theme-color" content="#f7f7f7">
 
 <link rel="stylesheet" href="{{ site.vendor_url }}css/fonts-roboto.css" type="text/css">
+<link rel="stylesheet" href="{{ site.vendor_url }}css/tailwind.min.css" type="text/css">
 <link rel="stylesheet" href="{{ site.assets_url }}css/main.css" type="text/css">
-
-<script src="{{ site.vendor_url }}js/jquery-3.3.1.slim.min.js"></script>
-<script src="{{ site.vendor_url }}semantic/semantic.min.js"></script>

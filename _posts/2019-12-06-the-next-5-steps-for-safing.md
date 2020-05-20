@@ -12,7 +12,7 @@ With our Kickstarter around the corner - launching on the 2nd of January 2020 - 
 
 First and foremost, our first step is going to be launching the SPN in June. It is a feature packed privacy network which protects your web connections from meta-data extraction as they travel through the Internet. With the SPN your ISP and the Wi-Fi operator of your local coffee shop cannot collect and sell your browsing habits. It protects the connections of your whole computer, not only you those of the browser. It also enforces DNS over TLS. We're looking forward to completing this first step, but it's just the beginning.
 
-_For more information, you can read [more about our tech]({{ site.technology_url }}#gate17) or [the SPN whitepaper]({{ site.whitepaper_url }})._
+_For more information, you can read [more about our tech]({{ site.portmaster_url }}) or [the SPN whitepaper]({{ site.whitepaper_url }})._
 
 ## 2. Community Nodes
 

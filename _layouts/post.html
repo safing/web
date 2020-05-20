@@ -1,23 +1,27 @@
 ---
-layout: page_column
+layout: page_container
 title: "Blog"
 heading: "Blog"
 subheading: "Announcements and things we'd like to share"
 ---
 
-<div class="post">
-  <div class="date">
-    <a href="{{ site.base_url }}blog/all/#{{ page.date | date: "%Y" }}" class="stealth-href">{{ page.date | date: "%-d %b %Y" }}</a>
-  </div>
-  <div class="tags">
-    {% for tag in page.tags %}
-      <div class="stealth-href"><i class="fa fa-tag fa-flip-horizontal"></i> {{ tag }}</div>
-    {% endfor %}
-  </div>
-
-  <div class="content">
-    {{ content | replace: '<!--break-->', '<a class="anchor" id="continue"></a>' }}
-  </div>
+<div class="text-center">
+    <h1 class="text-5xl tracking-tight font-extrabold leading-none pb-5 pt-10 text-center">{{ page.title }}</h1>
+    <p>{{ page.date | date: "%B %-d, %Y" }}</p>
+    <div class="flex mx-auto justify-center pt-5">
+      <a href="{{ site.twitter_url }}" class="opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
+        <img style="height: 1.1rem; width: auto;" src="{{ site.img_url }}icons/twitter.svg">
+      </a>
+      <a href="{{ site.github_url }}" class="pl-4 pr-4  opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
+        <img style="height: 1.19rem; width: auto;" src="{{ site.img_url }}icons/github.svg">
+      </a>
+      <a href="{{ site.reddit_url }}" class="opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
+        <img style="height: 1.18rem; width: auto;" src="{{ site.img_url }}icons/reddit.svg">
+      </a>
+    </div>
+</div>
+<div class="content">
+  {{ content | replace: '<!--break-->', '<a class="anchor" id="continue"></a>' }}
 </div>
 
 {% if site.inter_post_navigation == true %}

@@ -1,23 +1,29 @@
 ---
-layout: page_column
+layout: page_container
 title: "The Safing Podcast"
 heading: "The Safing Podcast"
+container_class: "podcast"
 ---
 
-<div class="post">
-  <div class="tags">
-    {% for tag in page.tags %}
-      <div class="stealth-href"><i class="fa fa-tag fa-flip-horizontal"></i> {{ tag }}</div>
-    {% endfor %}
+<div class="text-center">
+  {% assign title_length = page.title | size %}
+  <span style="font-size: 12rem; font-weight: 800; margin-top: -9rem; opacity: 0.05;" class="z-0 ml-0 w-full left-0 text-center absolute bg-top">#{{ page.title | slice: 2, 2 }}</span>
+  <h2 class="text-5xl tracking-tight font-extrabold leading-none py-10 text-center">{{ page.title | slice: 7, title_length }}</h2>
+  <p class="opacity-55">{{ page.date | date: "%B %-d, %Y" }}</p>
+  <div class="flex mx-auto justify-center pt-5">
+    <a href="{{ site.twitter_url }}" class="opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
+      <img style="height: 1.1rem; width: auto;" src="{{ site.img_url }}icons/twitter.svg">
+    </a>
+    <a href="{{ site.github_url }}" class="pl-4 pr-4  opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
+      <img style="height: 1.19rem; width: auto;" src="{{ site.img_url }}icons/github.svg">
+    </a>
+    <a href="{{ site.reddit_url }}" class="opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
+      <img style="height: 1.18rem; width: auto;" src="{{ site.img_url }}icons/reddit.svg">
+    </a>
   </div>
-
-  <div class="content">
-    {{ content | replace: '<!--break-->', '<a class="anchor" id="continue"></a>' }}
-
-    {% if page.date %}
-      <h3>Description</h3>
-
-      {{ page.summary }}
-    {% endif %}
-  </div>
+</div>
+<div class="content">
+  {{ content | replace: '<!--break-->', '<a class="anchor" id="continue"></a>' }}
+  <h3>Description</h3>
+  {{ page.summary }}
 </div>

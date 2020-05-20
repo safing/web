@@ -21,7 +21,7 @@ summary: "
 
 <h4>Links</h4>
 
-- First day at the office in 2018: <a href='https://safing.io/assets/img/team/first_day_in_first_office.jpg'>https://safing.io/assets/img/team/first_day_in_first_office.jpg</a><br/>
+- First day at the office in 2018: <a href='https://safing.io/assets/img/archive/first_day_in_first_office.jpg'>https://safing.io/assets/img/archive/first_day_in_first_office.jpg</a><br/>
 - Celebration post from the new office: <a href='https://www.kickstarter.com/projects/safingio/spn/posts/2768665'>https://www.kickstarter.com/projects/safingio/spn/posts/2768665</a><br/>
 - Video & COVID-19 Update: <a href='https://www.kickstarter.com/projects/safingio/spn/posts/2786638/'>https://www.kickstarter.com/projects/safingio/spn/posts/2786638/</a>
 

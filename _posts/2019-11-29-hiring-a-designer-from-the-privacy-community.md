@@ -20,7 +20,7 @@ Then August came around. We were invited to an official review of our applicatio
 
 ## Hiring rounds
 
-The next days I worked on our job description. A big shoutout to ghost.org - [their style and structure](https://careers.ghost.org/visual-designer/en) was great inspiration! After we distributed it through a few channels we for a responses. [Raphael]({{ site.our_values_url }}) pre-filtered many of the applications and with a few we set up a video call. The grant was restricted to Austria 🇦🇹, so even though we are open for remote workers, this position needed to be filled anywhere in Austria.
+The next days I worked on our job description. A big shoutout to ghost.org - [their style and structure](https://careers.ghost.org/visual-designer/en) was great inspiration! After we distributed it through a few channels we for a responses. [Raphael]({{ site.team_url }}) pre-filtered many of the applications and with a few we set up a video call. The grant was restricted to Austria 🇦🇹, so even though we are open for remote workers, this position needed to be filled anywhere in Austria.
 
 It was fun getting to dive into this area from an employers perspective. So far we've only sat on the other side of the table. One thing I learned was that you really get much more interested if an application sticks out from standard, generic descriptions. And then in our situation you _really_ stick out if you are already into privacy and burning for our mission. We had two applicants who restricted their work to _only_ privacy projects. One of them could not move to Austria, which was a dealbreaker, and the other one was Luke.
 
@@ -28,7 +28,7 @@ It was fun getting to dive into this area from an employers perspective. So far 
 
 _Sidenote: [Luke talks all about his side of the story in the podcast]({{ site.podcast_url }}2019/11/29/hiring-a-designer-from-the-privacy-community/)_
 
-From the very first email we received from Luke we learnt two things: he burns for privacy and he is outspoken. This was even more affirmed after [Raphael]({{ site.our_values_url }}) and I got to know him via a video call (Luke's from the United Kingdom).
+From the very first email we received from Luke we learnt two things: he burns for privacy and he is outspoken. This was even more affirmed after [Raphael]({{ site.team_url }}) and I got to know him via a video call (Luke's from the United Kingdom).
 
 The even crazier thing about this was, Luke found out about us and the job via The Hated One. I appeared on [his channel twice](https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q/), but would never have thought that this would end up helping us hiring our designer. HUGE shoutout to THO!!!
 
@@ -38,7 +38,7 @@ After plenty of interviews and rounds we had the two most promising candidates r
 
 Since it's easy to pull off a show for a few hours online, we really wanted to get to know Luke in person before making our decision. We offered him to fly in over the weekend, which he accepted after some suspicion.
 
-We booked the flight the day before we received the result about the grant, which increased the gamble, but hey: [the next day we got it]({{ site.our_values_url }}#influences) 🎉
+We booked the flight the day before we received the result about the grant, which increased the gamble, but hey: [the next day we got it]({{ site.ownership_url }}#influences) 🎉
 
 ## His weekend in Austria
 
@@ -58,7 +58,7 @@ It is rather obvious by now that we decided to hire Luke. But both candidates we
 
 It took Luke a few weeks to pack up his things and move to Austria, but soon enough, at the beginning of October he became our lead designer. We are very grateful for his work so far and see him as a perfect fit for the job.
 
-He made us reconsider [our old designs]({{ site.img_url }}/designs/homepage_v2.png) and revamped everything to [look more professional]({{ site.img_url }}/designs/homepage_current.png), while still being approachable.
+He made us reconsider [our old designs]({{ site.img_url }}/archive/previous_designs/homepage_v2.png) and revamped everything to [look more professional]({{ site.img_url }}/archive/previous_designs/homepage_v3.png), while still being approachable.
 
 _Sidenote: [Luke talks all about his side of the story in the podcast]({{ site.podcast_url }}2019/11/29/hiring-a-designer-from-the-privacy-community/). Also, you can [follow him on Twitter.](https://twitter.com/LukeSeers/)_
 

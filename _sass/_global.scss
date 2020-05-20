@@ -1,132 +1,182 @@
-body, .ui.header, h1, h2, h3, h4, h5, h6, p {
-  font-family: 'Roboto', 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+* {
+  font-family: "Roboto";
 }
 
-.pusher {
-  background-color: $background_bar !important;
+body {
+  overflow-x: hidden;
 }
 
-a {
-  color: $anchor;
+footer {
+  background-image: url('/assets/img/footer.png');
 }
 
-p a:hover {
-  color: $anchor_hover;
-  text-decoration: underline;
+.not-allowed {
+  cursor: not-allowed;
 }
 
-.color-primary {
-  color: $primary;
+.spn-shadow {
+  box-shadow: 0 0px 90px 0 rgba(59, 93, 199, 0.1), 0 0px 5px 0 rgba(0, 0, 0, 0);
+}
 
-  &:hover {
-    color: darken($primary, 10%)
+.hover:hover {
+  box-shadow: 0 0px 90px 0 rgba(59, 93, 199, 0.1), 0 0px 5px 0 rgba(0, 0, 0, 0);
+}
+
+.shake-horizontal {
+  -webkit-animation: shake-horizontal .8s cubic-bezier(.455, .03, .515, .955) both;
+  animation: shake-horizontal .8s cubic-bezier(.455, .03, .515, .955) both
+}
+
+@-webkit-keyframes shake-horizontal {
+  0%, 100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0)
+  }
+
+  10%, 30%, 50%, 70% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px)
+  }
+
+  20%, 40%, 60% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px)
+  }
+
+  80% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px)
+  }
+
+  90% {
+    -webkit-transform: translateX(-8px);
+    transform: translateX(-8px)
   }
 }
 
-.color-primary-important {
-  color: $primary !important;
+@keyframes shake-horizontal {
+  0%, 100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0)
+  }
+
+  10%, 30%, 50%, 70% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px)
+  }
+
+  20%, 40%, 60% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px)
+  }
+
+  80% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px)
+  }
+
+  90% {
+    -webkit-transform: translateX(-8px);
+    transform: translateX(-8px)
+  }
 }
 
-.vertical-align {
-  display: flex;
-  align-items: center;
+.spin {
+  animation-name: spin;
+  animation-duration: 21000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
-.ui.text.container {
-  max-width: 850px !important;
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-.max-width-100 {
-  max-width: 100%;
+.heart {
+  // animation: .8s infinite beatHeart;
 }
 
-body > .content, .pusher > .content {
-  background-color: $background_main;
+@keyframes beatHeart {
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(1.1);
+  }
+
+  40% {
+    transform: scale(1);
+  }
+
+  60% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
-.padding-top-10 { padding-top: 10px; }
-.padding-top-20 { padding-top: 20px; }
-.padding-top-40 { padding-top: 40px; }
-.padding-top-60 { padding-top: 60px; }
-.padding-top-80 { padding-top: 80px; }
-.padding-top-100 { padding-top: 100px; }
-.padding-right-10 { padding-right: 10px; }
-.padding-right-20 { padding-right: 20px; }
-.padding-right-40 { padding-right: 40px; }
-.padding-right-60 { padding-right: 60px; }
-.padding-right-80 { padding-right: 80px; }
-.padding-right-100 { padding-right: 100px; }
-.padding-bottom-10 { padding-bottom: 10px; }
-.padding-bottom-20 { padding-bottom: 20px; }
-.padding-bottom-40 { padding-bottom: 40px; }
-.padding-bottom-60 { padding-bottom: 60px; }
-.padding-bottom-80 { padding-bottom: 80px; }
-.padding-bottom-100 { padding-bottom: 100px; }
-.padding-left-10 { padding-left: 10px; }
-.padding-left-20 { padding-left: 20px; }
-.padding-left-40 { padding-left: 40px; }
-.padding-left-60 { padding-left: 60px; }
-.padding-left-80 { padding-left: 80px; }
-.padding-left-100 { padding-left: 100px; }
-
-.margin-top-10 { margin-top: 10px; }
-.margin-top-20 { margin-top: 20px; }
-.margin-top-40 { margin-top: 40px; }
-.margin-top-60 { margin-top: 60px; }
-.margin-top-80 { margin-top: 80px; }
-.margin-top-100 { margin-top: 100px; }
-.margin-right-10 { margin-right: 10px; }
-.margin-right-20 { margin-right: 20px; }
-.margin-right-40 { margin-right: 40px; }
-.margin-right-60 { margin-right: 60px; }
-.margin-right-80 { margin-right: 80px; }
-.margin-right-100 { margin-right: 100px; }
-.margin-bottom-10 { margin-bottom: 10px; }
-.margin-bottom-20 { margin-bottom: 20px; }
-.margin-bottom-40 { margin-bottom: 40px; }
-.margin-bottom-60 { margin-bottom: 60px; }
-.margin-bottom-80 { margin-bottom: 80px; }
-.margin-bottom-100 { margin-bottom: 100px; }
-.margin-left-10 { margin-left: 10px; }
-.margin-left-20 { margin-left: 20px; }
-.margin-left-40 { margin-left: 40px; }
-.margin-left-60 { margin-left: 60px; }
-.margin-left-80 { margin-left: 80px; }
-.margin-left-100 { margin-left: 100px; }
-
-.opacity-85 {
-  opacity: 0.85;
+#menu-toggle:checked+#menu {
+  display: block;
 }
 
-.text-light {
-  opacity: $opacity-light;
+.wiggle {
+  animation: wiggle .6s infinite alternate;
 }
 
-.text-lighter {
-  opacity: $opacity-lighter;
+@keyframes wiggle {
+  0% {
+    transform: rotate(4deg);
+  }
+
+  100% {
+    transform: rotate(10deg);
+  }
 }
 
-.note-light {
-  font-style: italic;
-  opacity: $opacity-light;
+.line {
+  width:100%;
+  text-align:center;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  line-height:0.1em;
+  margin:10px 0 20px;
+}
+.line span {
+  background:#fff;
+  padding:0 25px;
 }
 
-.margin-0-auto {
-  margin: 0 auto;
+.support p{
+  color: #7d7d7d;
 }
 
-blockquote {
-  background: #f9f9f9;
-  border-left: 5px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
+a.link {
+  --text-opacity: 1;
+  color: #667eea;
+  color: rgba(102, 126, 234, var(--text-opacity));
+  text-decoration: inherit;
+  background-color: transparent;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+
+  &:hover{
+    opacity: .5;
+    transition-duration: 150ms;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+  }
 }
 
-blockquote p {
-  display: inline;
+.opacity-55 {
+  opacity: 0.55;
 }
 
-i.white.icon {
-  color: #FFFFFF;
+.hover\:opacity-55:hover {
+  opacity: 0.55;
 }
