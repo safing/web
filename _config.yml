@@ -32,6 +32,7 @@ privacy_url: /privacy/
 spn_url: /spn/
 team_url: /team/
 terms_url: /terms/
+video_url: /video/
 whitepaper_url: /files/whitepaper/Gate17.pdf
 
 ### external
@@ -44,10 +45,11 @@ download_windows_url: https://updates.safing.io/latest/windows_amd64/packages/po
 github_url: https://github.com/Safing
 github_linux_wiki_url: https://github.com/safing/portmaster/wiki/Linux
 github_windows_wiki_url: https://github.com/safing/portmaster/wiki/Windows
+invidious_channel_url: https://invidio.us/channel/UC_6TW053IlS4M22g7CxnukA
 kickstarter_url: https://www.kickstarter.com/projects/safingio/spn
 reddit_url: https://reddit.com/r/safing
 twitter_url: https://twitter.com/SafingIO
-invidious_channel_url: https://invidio.us/channel/UC_6TW053IlS4M22g7CxnukA
+youtube_channel_url: https://www.youtube.com/channel/UC_6TW053IlS4M22g7CxnukA
 
 ### donations
 donations:
@@ -74,32 +76,14 @@ inter_post_navigation: false
 email: hello@safing.io
 emailobfuscated: "=b!isfg>#nbjmup;ifmmpAtbgjoh/jp#?ifmmpAtbgjoh/jp=0b?"
 
-communities:
-  - reddit:
-    name: Reddit
-    icon: reddit
-    username: r/safing
-    url: https://reddit.com/r/safing
-    desc: Join our Reddit
-  - github:
-    name: GitHub
-    icon: github
-    username: Safing
-    url: https://github.com/Safing
-    desc: Fork us on GitHub
-  - twitter:
-    name: Twitter
-    icon: twitter
-    username: SafingIO
-    url: https://twitter.com/SafingIO
-    desc: Follow me on Twitter
-
 ###################################
 ###### media/content options ######
 ###################################
 
 collections:
   podcasts:
+    output: true
+  videos:
     output: true
 
 defaults:
@@ -117,6 +101,13 @@ defaults:
       layout: "podcast"
       permalink: /podcast/:year/:month/:day/:title/
       type: "podcast"
+  - scope:
+      path: ""
+      type: "videos"
+    values:
+      layout: "video"
+      permalink: /video/:year/:month/:day/:title/
+      type: "video"
 
 ##############################
 ###### Podcast settings ######

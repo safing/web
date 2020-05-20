@@ -2,13 +2,6 @@
 title: The Safing Podcast
 layout: page
 ---
-<div class="pod-links">
-  <ul>
-    <li><a href="{{ site.podcast_itunes_url }}">iTunes</a></li>
-    <br>
-    <li><a href="{{ site.podcast_feed_url }}">RSS</a></li>
-  </ul>
-</div>
 
 <section style="padding-top: 16rem;">
   <div class="items-center h-full">
@@ -19,6 +12,14 @@ layout: page
             <div class="lg:text-center">
               <span style="font-size: 12rem; font-weight: 800; margin-top: -9rem; opacity: 0.05;" class="z-0 ml-0 w-full left-0 text-center absolute bg-top">Follow Us</span>
               <h2 class="text-5xl tracking-tight font-extrabold leading-none py-10 text-center">Podcast</h2>
+              <div class="flex mx-auto justify-center pt-5">
+                <a href="{{ site.podcast_itunes_url }}" class="opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
+                  <img style="height: 1.3rem; width: auto;" src="{{ site.img_url }}icons/podcast.svg">
+                </a>
+                <a href="{{ site.podcast_feed_url }}" class="pl-4 pr-4  opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
+                  <img style="height: 1.3rem; width: auto;" src="{{ site.img_url }}icons/rss.svg">
+                </a>
+              </div>
             </div>
             <div class="mt-32">
               <ul class="md:grid md:grid-cols-2 lg:grid-cols-3 md:col-gap-8 md:row-gap-10">
@@ -27,11 +28,23 @@ layout: page
                 <li class="mt-10 md:mt-0">
                   <div class="block transform hover:scale-95 duration-150 ease-in-out">
                     <a href="{{ episode.url }}">
-                      <img src="{{ site.img_url }}shapes/podcast_blank.png" alt="">
+                      <div class="relative" style="max-width: 365px;">
+                        {% if episode.custom_thumbnail_name == null %}
+                        <img src="{{ site.img_url }}thumbnails/podcast/placeholder.png">
+                      {% else %}
+                        <img src="{{ site.img_url }}thumbnails/podcast/{{ episode.custom_thumbnail_name }}.png">
+                      {% endif %}
+                        <span class="absolute text-white right-0 bottom-0 pr-3 pb-3" style="font-size: 3.1rem; font-weight: 800;" >#{{ episode.title | slice: 2, 2 }}</span>
+                      </div>
                       <span style="font-size: 12rem; font-weight: 800; margin-top: -13.8rem; margin-left: -0.8rem;" class=" z-0 absolute bg-top">
-                        <button type="button" style="background-color: #6188ff;" class="inline-flex items-center px-4 py-4 rounded-md border border-transparent text-xs leading-5 font-extrabold  text-white">
-                          <svg class="h-8 w-auto lg:h-5 fill-current text-white" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.41 11">
-                            <path d="M8.43 4.62l-6.34-4A1 1 0 00.5 1.5v8a1 1 0 001.59.88l6.34-4a1 1 0 000-1.76z" stroke-miterlimit="10" /></svg>
+                        <button type="button" style="background-color: #6188ff;" class="inline-flex items-center px-3 py-3 rounded-md border border-transparent text-xs leading-5 font-extrabold  text-white">
+                          <svg class="h-8 w-auto lg:h-7" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <g fill="none">
+                              <path d="M0 0h24v24H0z"/>
+                              <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 15v0c-1.657 0-3-1.343-3-3V6c0-1.657 1.343-3 3-3v0c1.657 0 3 1.343 3 3v6c0 1.657-1.343 3-3 3z"/>
+                              <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M18 10v2c0 3.314-2.686 6-6 6v0c-3.314 0-6-2.686-6-6v-2M12 18v3M7.82 21h8.36"/>
+                            </g>
+                          </svg>
                         </button>
                       </span>
                       <div class="pt-6">

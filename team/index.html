@@ -1,5 +1,5 @@
 ---
-title: The Safing Podcast
+title: Team Overview
 layout: page
 ---
 
@@ -28,7 +28,7 @@ layout: page
                       </span>
                       <div class="flex mx-auto justify-center pt-5">
                         {% for handle in member.handles %}
-                          <a href="{{ handle.external_url }}" target="_blank" class="opacity-50 hover:opacity-100 ease-in-out duration-150 mr-4">
+                          <a href="{{ handle.external_url }}" target="_blank" class="opacity-55 hover:opacity-100 ease-in-out duration-150 mr-4">
                             <img style="height: 1.1rem; width: auto;" src="{{ site.img_url }}icons/{{ handle.icon }}.svg" />
                           </a>
                         {% endfor %}
@@ -37,8 +37,8 @@ layout: page
                     <div class="lg:pl-16">
                       <span style="color: #6188ff;" class="uppercase text-sm">{{ member.title }}</span>
                       <p class="pt-1 pb-3 font-extrabold text-2xl">{{ member.name }}</p>
-                      <span class="opacity-50">Joined {{ member.joined }}</span>
-                      <p class="pt-3 text-md opacity-50 max-w-2xl">
+                      <span class="opacity-55">Joined {{ member.joined }}</span>
+                      <p class="pt-3 text-md opacity-55 max-w-2xl">
                         {{ member.description }}
                       </p>
                     </div>

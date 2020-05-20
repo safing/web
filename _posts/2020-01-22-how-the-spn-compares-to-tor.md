@@ -2,6 +2,7 @@
 title: How the SPN compares to Tor
 date: 2020-01-22
 author: davegson
+custom_thumbnail_name: spn-tor
 ---
 
 ## Different Missions

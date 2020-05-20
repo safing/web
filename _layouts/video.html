@@ -23,7 +23,5 @@ container_class: "podcast"
   </div>
 </div>
 <div class="content">
-  {{ content | replace: '<!--break-->', '<a class="anchor" id="continue"></a>' }}
-  <h3>Description</h3>
-  {{ page.summary }}
+  {{ content }}
 </div>
