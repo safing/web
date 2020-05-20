@@ -74,26 +74,6 @@ inter_post_navigation: false
 email: hello@safing.io
 emailobfuscated: "=b!isfg>#nbjmup;ifmmpAtbgjoh/jp#?ifmmpAtbgjoh/jp=0b?"
 
-communities:
-  - reddit:
-    name: Reddit
-    icon: reddit
-    username: r/safing
-    url: https://reddit.com/r/safing
-    desc: Join our Reddit
-  - github:
-    name: GitHub
-    icon: github
-    username: Safing
-    url: https://github.com/Safing
-    desc: Fork us on GitHub
-  - twitter:
-    name: Twitter
-    icon: twitter
-    username: SafingIO
-    url: https://twitter.com/SafingIO
-    desc: Follow me on Twitter
-
 ###################################
 ###### media/content options ######
 ###################################
