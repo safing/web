@@ -155,7 +155,7 @@ footer {
 }
 
 .support p{
-  color: #8a8a8a;
+  color: #7d7d7d;
 }
 
 .support a{
@@ -171,4 +171,12 @@ footer {
   opacity: .5;
   transition-duration: 150ms;
   transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+}
+
+.opacity-55 {
+  opacity: 0.55;
+}
+
+.hover\:opacity-55:hover {
+  opacity: 0.55;
 }
