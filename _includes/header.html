@@ -6,7 +6,14 @@
         <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-0 lg:flex">
           <div class="inline-block text-center lg:text-left lg:mr-12 lg:mt-20">
             <h2 class="py-10 text-5xl tracking-tight font-extrabold text-gray-900 sm:text-5xl leading-none md:text-6xl md:mx-auto">
-              <span style="color: #6188ff;">Fight surveillance</span> because you <span style="color: #6188ff;">love&nbsp;Freedom</span>.
+              <!-- the &nbsp; is super nice for bigger screens, but breaks stuff on mobile -->
+              <!-- hence, we only have the header with &nbsp; on md+ devices -->
+              <span class="block md:hidden">
+                <span style="color: #6188ff;">Fight surveillance</span> because you <span style="color: #6188ff;">love Freedom</span>.
+              </span>
+              <span class="hidden md:block">
+                <span style="color: #6188ff;">Fight surveillance</span> because you <span style="color: #6188ff;">love&nbsp;Freedom</span>.
+              </span>
             </h2>
             <p style="max-width: 440px;" class="text-md opacity-55 max-w-4xl mx-auto lg:mx-0">
               Without privacy there is no freedom of press, no freedom of speech,

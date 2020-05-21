@@ -23,7 +23,10 @@ layout: page
           </div>
           <div class="inline-block text-center md:text-left">
             <h2 class="text-6xl tracking-tight font-extrabold leading-none py-10 lg:w-3/4">
-              Safing&nbsp;Privacy Network
+              <!-- the &nbsp; is super nice for bigger screens, but breaks stuff on mobile -->
+              <!-- hence, we only have the header with &nbsp; on md+ devices -->
+              <span class="block md:hidden">Safing Privacy Network</span>
+              <span class="hidden md:block">Safing&nbsp;Privacy Network</span>
             </h2>
             <p class="text-md opacity-55 max-w-4xl">
               With the SPN you protect all your connections from mass surveillance. Prevent all Internet Service Providers from collecting and selling your private activities.
