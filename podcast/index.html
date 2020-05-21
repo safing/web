@@ -10,7 +10,8 @@ layout: page
         <div class="py-12 bg-white">
           <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:text-center">
-              <span style="font-size: 12rem; font-weight: 800; margin-top: -9rem; opacity: 0.05;" class="z-0 ml-0 w-full left-0 text-center absolute bg-top">Follow Us</span>
+              <!-- hide the huge "Follow Us" in mobile & md devices for now, made width problems -->
+              <span style="font-size: 12rem; font-weight: 800; margin-top: -9rem; opacity: 0.05;" class="z-0 ml-0 w-full left-0 text-center absolute bg-top hidden lg:block">Follow Us</span>
               <h2 class="text-5xl tracking-tight font-extrabold leading-none py-10 text-center">Podcast</h2>
               <div class="flex mx-auto justify-center pt-5">
                 <a href="{{ site.podcast_itunes_url }}" class="opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
