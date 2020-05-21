@@ -9,6 +9,12 @@ layout: page
         <div class="py-12 bg-white">
           <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
             <content>
+              {% unless page.heading == null %}
+                <h1 class="text-5xl tracking-tight font-extrabold leading-none">
+                  {{ page.heading }}
+                </h1>
+              {% endunless %}
+
               {{ content }}
             </content>
           </div>
