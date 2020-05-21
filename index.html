@@ -5,7 +5,7 @@ title: Safing - Love Freedom
 
 {% include header.html %}
 
-<section style="margin-top: 4rem;" id="tools">
+<section class="mt-16" id="tools">
   <div class="flex items-center h-full">
     <div class="container mx-auto px-8 sm:px-0 flex">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-0 lg:flex">
@@ -70,15 +70,15 @@ title: Safing - Love Freedom
     </div>
   </div>
 </section>
-<section style="margin-top: 20rem;">
-  <div class="items-center h-full">
+<section>
+  <div class="items-center mt-16 md:mt-32 lg:mt-64">
     <div class="container mx-auto px-8 sm:px-0 flex">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:flex block justify-center m-auto w-auto">
         <div class="pb-48 lg:pb-0 ml-0 lg:ml-32 lg:hidden self-center">
           <img src="{{ site.img_url }}page-specific/spn/network.png" alt="">
         </div>
         <div class="inline-block max-w-lg">
-          <span style="font-size: 12rem; font-weight: 800; margin-top: -9rem; margin-left: -3rem; opacity: 0.05;" class=" z-0 absolute bg-top">01</span>
+          <span style="font-size: 12rem; font-weight: 800; margin-top: -9rem; opacity: 0.05;" class="z-0 absolute bg-top md:-ml-12">01</span>
           <h2 class="text-5xl  tracking-tight font-extrabold leading-none py-10 lg:w-2/3">Powerful VPN Alternative</h2>
           <p class="text-md opacity-55 max-w-lg">
             Free yourself from mass surveillance. Secure all your meta-data by decoupling yourself from your destination, inspired by Tor. Protect your whole computer, not only your browser.
@@ -97,14 +97,14 @@ title: Safing - Love Freedom
       </div>
     </div>
   </div>
-  <div class="items-center h-full mt-64">
+  <div class="items-center h-full mt-8 md:mt-32 lg:mt-64">
     <div class="container mx-auto px-8 sm:px-0 flex">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:flex">
         <div class="pb-48 lg:pb-0 m0-0 lg:mr-32 self-center">
           <img src="{{ site.img_url }}page-specific/portmaster/monitor.png" alt="">
         </div>
         <div class="inline-block max-w-lg">
-          <span style="font-size: 12rem; font-weight: 800; margin-top: -9rem; margin-left: -3rem; opacity: 0.05;" class=" z-0 absolute bg-top">02</span>
+          <span style="font-size: 12rem; font-weight: 800; margin-top: -9rem; opacity: 0.05;" class=" z-0 absolute bg-top md:-ml-12">02</span>
           <h2 class="text-5xl  tracking-tight font-extrabold leading-none py-10 lg:w-2/3">All-Around System Privacy</h2>
           <p class="text-md opacity-55 max-w-lg">
             Enforce DNS-over-TLS and block connections on a system wide level. Protect your whole computer, not only your browser. Free to use.
@@ -122,19 +122,20 @@ title: Safing - Love Freedom
     </div>
   </div>
 </section>
-<section style="margin-top: 20rem; margin-bottom: 10rem;">
-  <div class="items-center h-full">
+<section>
+  <div class="items-center h-full pb-8 lg:pb-24 mt-8 md:mt-32 lg:mt-64">
     <div class="container mx-auto px-8 sm:px-0 flex">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:flex">
         <div class="py-12 bg-white">
           <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:text-center">
-              <span style="font-size: 12rem; font-weight: 800; margin-top: -9rem; opacity: 0.05;" class="z-0 ml-0 w-full left-0 text-center absolute bg-top">Follow Us</span>
-              <h2 class="text-5xl tracking-tight font-extrabold leading-none py-10 text-center" style="position: relative;">
+              <!-- hide the huge "Follow Us" in mobile & md devices for now, made width problems -->
+              <span style="font-size: 12rem; font-weight: 800; margin-top: -9rem; opacity: 0.05;" class="z-0 ml-0 w-full left-0 text-center absolute bg-top hidden lg:block">Follow Us</span>
+              <h2 class="text-5xl tracking-tight font-extrabold leading-none md:py-10 text-center" style="position: relative;">
                 Blog, Podcast & Videos
               </h2>
             </div>
-            <div class="mt-32 ">
+            <div class="mt-8 lg:mt-32">
               <ul class="md:grid md:grid-cols-2 lg:grid-cols-3 md:col-gap-8 md:row-gap-10 max-w-sm mx-auto md:max-w-full">
                 <!-- podcast -->
                 <li class="mt-12 md:mt-0 ">
@@ -187,7 +188,7 @@ title: Safing - Love Freedom
                         </button>
                       </span>
                       <div class="pt-6">
-                        <span class="opacity-25">8. May 2020</span>
+                        <span class="opacity-25">VIDEO - 8. May 2020</span>
                         <p>The Account Server is up and running - #04</p>
                       </div>
                     </a>
@@ -207,7 +208,7 @@ title: Safing - Love Freedom
                   </a>
                 </li>
               </ul>
-              <div class="py-20 flex w-full">
+              <div class="pt-20 flex w-full">
                 <div class="mx-auto grid md:block">
                   <a class="mx-auto" href="{{ site.blog_url }}">
                     <button type="button" style="background-color: #000;" class="scale-110 md:scale-100 transform hover:scale-95 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">

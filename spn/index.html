@@ -3,7 +3,7 @@ title: Safing Privacy Network
 layout: page
 ---
 
-<header class="h-screen pt-32">
+<header class="h-screen pt-64 md:pt-32">
   <img class="-z-0 pt-0 absolute hidden lg:block" style="z-index: -1; margin-top: -3rem;" src="{{ site.img_url }}shapes/corner-tl.png" alt="">
   <div class="flex items-center h-full">
     <div class="container mx-auto sm:px-8 sm:px-0">
@@ -23,7 +23,10 @@ layout: page
           </div>
           <div class="inline-block text-center md:text-left">
             <h2 class="text-6xl tracking-tight font-extrabold leading-none py-10 lg:w-3/4">
-              Safing&nbsp;Privacy Network
+              <!-- the &nbsp; is super nice for bigger screens, but breaks stuff on mobile -->
+              <!-- hence, we only have the header with &nbsp; on md+ devices -->
+              <span class="block md:hidden">Safing Privacy Network</span>
+              <span class="hidden md:block">Safing&nbsp;Privacy Network</span>
             </h2>
             <p class="text-md opacity-55 max-w-4xl">
               With the SPN you protect all your connections from mass surveillance. Prevent all Internet Service Providers from collecting and selling your private activities.
@@ -44,7 +47,7 @@ layout: page
   </div>
 </header>
 <section style="margin-top: 3rem;">
-  <div class="text-center pb-48">
+  <div class="text-center pt-40 lg:pt-0 pb-24 lg:pb-48">
     <h2 class="text-5xl tracking-tight font-extrabold leading-none py-10 mr-auto ml-auto">
       Protect Your Meta&#8209;Data
     </h2>
@@ -55,7 +58,7 @@ layout: page
   <div class="items-center h-full">
     <div class="container mx-auto px-8 sm:px-0 flex">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:flex  items-center">
-        <div class="pb-16 lg:pb-0 m0-0 lg:mr-48 self-center">
+        <div class="lg:pb-0 m0-0 lg:mr-48 self-center">
           <img src="{{ site.img_url }}page-specific/spn/layers.gif" alt="">
         </div>
         <div class="inline-block max-w-lg">
@@ -79,10 +82,10 @@ layout: page
       </div>
     </div>
   </div>
-  <div class="items-center h-full mt-64">
+  <div class="items-center h-full mt-32 lg:mt-64">
     <div class="container mx-auto px-8 sm:px-0 flex">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:flex block justify-center m-auto w-auto">
-        <div class="pb-16 lg:pb-0 ml-0 lg:ml-32 lg:hidden self-center">
+        <div class="ml-0 lg:ml-32 lg:hidden self-center">
           <img src="{{ site.img_url }}page-specific/spn/metadata.gif" alt="">
         </div>
         <div class="inline-block max-w-lg">
@@ -99,10 +102,10 @@ layout: page
       </div>
     </div>
   </div>
-  <div class="items-center h-full mt-64">
+  <div class="items-center h-full mt-32 lg:mt-64">
     <div class="container mx-auto px-8 sm:px-0 flex">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:flex block justify-center m-auto w-auto  items-center">
-        <div class="pb-16 lg:pb-0 ml-0 lg:ml-32 lg:hidden self-center">
+        <div class="ml-0 lg:ml-32 lg:hidden self-center">
           <img src="{{ site.img_url }}page-specific/spn/network.png" alt="">
         </div>
         <div class="inline-block max-w-lg">
@@ -129,10 +132,10 @@ layout: page
       </div>
     </div>
   </div>
-  <div class="items-center h-full mt-64">
+  <div class="items-center h-full mt-32 lg:mt-64">
     <div class="container mx-auto px-8 sm:px-0 flex">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:flex  items-center">
-        <div class="pb-16 lg:pb-0 m0-0 lg:mr-48 self-center">
+        <div class="lg:pb-0 m0-0 lg:mr-48 self-center">
           <img src="{{ site.img_url }}page-specific/spn/switch.gif" alt="">
         </div>
         <div class="inline-block max-w-lg">
@@ -157,7 +160,7 @@ layout: page
     </div>
   </div>
 </section>
-<section style="margin-top: 13rem;">
+<section class="mt-16 lg:mt-48">
   <div class="items-center h-full">
     <div id="Pricing">
       <div class="max-w-full mx-auto px-4 sm:px-6">
@@ -227,7 +230,7 @@ layout: page
     </div>
   </div>
 </section>
-<section style="margin-top: 6rem;" class="pb-48 ">
+<section class="mb-16 lg:pb-32">
   <div class="bg-white">
     <div class="max-w-screen-xl mx-auto pt-12 pb-16 sm:pt-16 sm:pb-20 px-4 sm:px-6 lg:pt-20 lg:pb-28 lg:px-8">
       <div class="text-center pb-12">
