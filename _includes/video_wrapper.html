@@ -1,2 +1,4 @@
 <video style="padding-bottom: 1rem;" src="{{ page.video_source }}" controls></video>
+{% unless page.youtube_hash == null  %}
 <p class="text-center">Watch on <a href="https://youtu.be/{{ page.youtube_hash }}">YouTube</a> or <a href="https://invidio.us/{{ page.youtube_hash }}">Invidious</a></p>
+{% endunless %}
