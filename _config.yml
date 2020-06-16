@@ -42,7 +42,7 @@ assets_server_url: https://assets.safing.io/
 company_agreement_url: https://www.firmenmonitor.at/Secure/CompanyDetail.aspx?CID=761761
 download_linux_url: https://updates.safing.io/latest/linux_amd64/packages/portmaster-installer.deb
 download_windows_url: https://updates.safing.io/latest/windows_amd64/packages/portmaster-installer.exe
-github_url: https://github.com/Safing
+github_url: https://github.com/safing
 github_linux_wiki_url: https://github.com/safing/portmaster/wiki/Linux
 github_windows_wiki_url: https://github.com/safing/portmaster/wiki/Windows
 invidious_channel_url: https://invidio.us/channel/UC_6TW053IlS4M22g7CxnukA
