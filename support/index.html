@@ -3,8 +3,8 @@ title: Get Help
 layout: page
 ---
 
-<header class="h-screen">
-  <div class="flex items-center h-screen">
+<header class="h-full py-40">
+  <div class="flex items-center">
     <div class="container mx-auto px-8 sm:px-0">
       <div class="text-center">
         <h2 class="text-5xl sm:text-6xl tracking-tight font-extrabold leading-none py-10">
@@ -33,7 +33,7 @@ layout: page
   </div>
 </header>
 
-<section style="margin-top: -14rem;" id="portmaster">
+<section class="mb-10 md:mb-20 lg:mb-40" id="portmaster">
   <div class="items-center h-full">
     <div class="max-w-full mx-auto px-4 sm:px-6">
       <div class="py-12 bg-white">
@@ -65,7 +65,7 @@ layout: page
                   issues on your end by yourself.</span>
               </p>
             </div>
-            <div class="py-10 block grid lg:flex lg:grid-cols-3 gap-10 justify-center ">
+            <div class="py-5 block grid lg:flex lg:grid-cols-3 gap-10 justify-center ">
               <a href="{{ site.github_url }}/portmaster/issues" class="flex items-center mx-auto text-center">
                 <button type="button" style="background-color: #000;" class="transform hover:scale-95 hover:opacity-100 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
                   Portmaster Repo
@@ -92,9 +92,53 @@ layout: page
       </div>
     </div>
   </div>
+
+  <div class="bg-white" id="portmaster-faq">
+    <div class="max-w-screen-xl mx-auto md:pt-12 lg:pt-20 pb-16 sm:pb-20 px-4 sm:px-6 lg:pb-28 lg:px-8">
+      <div class="text-center pb-12">
+        <h2 class="text-5xl tracking-tight font-extrabold leading-none py-10 text-center">
+          FAQ
+        </h2>
+        <p class="text-md opacity-55">
+          Have a question? Check out some we already answered below. You can always reach out to us to find out more or just to say hi.
+        </p>
+      </div>
+      <div class="mt-6 pt-10 text-center md:text-left">
+        <dl class="md:grid md:grid-cols-2 md:gap-8">
+          {% for faq in site.data.faq.portmaster %}
+            <div>
+              <h1 class="text-xl pb-4">
+                {{ faq.q }}
+              </h1>
+              <dd class="mt-2">
+                <p class="text-md opacity-55">
+                  {{ faq.a }}
+                </p>
+              </dd>
+              {% if faq.link %}
+                <p class="text-md pt-4" style="color: #727272;">
+                  <a class="link" href="{{ faq.link.url }}">
+                    {{ faq.link.text }}
+                  </a>
+                </p>
+              {% endif %}
+            </div>
+          {% endfor %}
+          <div>
+            <h1 class="text-xl pb-4">Where can I find your source code?</h1>
+            <dd class="mt-2">
+              <p class="text-md" style="color: #727272;">
+                You can find our code on <a href="{{ site.github_url }}" class="link">Github</a>. <a href="{{ site.github_url }}/portmaster/" class="link">The Portmaster</a>, the <a href="{{ site.github_url }}/portmaster-ui/" class="link">Portmaster UI</a> and <a href="{{ site.github_url }}/web/" class="link">this website</a> have their respective repositories. <a href="{{ site.github_url }}/jess/" class="link">Jess</a>, the heart of the SPN, which got audited by Cure53, is also already online. The rest of the SPN will follow suit as we go live.
+              </p>
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section style="margin-top: 3rem;  margin-bottom: 5rem;" id="spn">
+<section class="my-20" id="spn">
   <div class="items-center h-full">
     <div class="max-w-full mx-auto px-4 sm:px-6">
       <div class="py-12 bg-white">
@@ -122,7 +166,7 @@ layout: page
                 Otherwise, feel free to contact us with any matter or request you might have.
               </p>
             </div>
-            <div class="py-10 block grid lg:flex lg:grid-cols-3 gap-10 justify-center">
+            <div class="py-5 block grid lg:flex lg:grid-cols-3 gap-10 justify-center">
               <a href="mailto:support@safing.io" class="flex items-center">
                 <button type="button" style="background-color: #000;" class="transform hover:scale-95 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
                   contact us
@@ -131,6 +175,50 @@ layout: page
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-white" id="spn-faq">
+    <div class="max-w-screen-xl mx-auto md:pt-12 pb-16 sm:pt-16 sm:pb-20 px-4 sm:px-6 lg:pt-20 lg:pb-28 lg:px-8">
+      <div class="text-center pb-12">
+        <h2 class="text-5xl tracking-tight font-extrabold leading-none py-10 text-center">
+          FAQ
+        </h2>
+        <p class="text-md opacity-55">
+          Have a question? Check out some we already answered below. You can always reach out to us to find out more or just to say hi.
+        </p>
+      </div>
+      <div class="mt-6 pt-10 text-center md:text-left">
+        <dl class="md:grid md:grid-cols-2 md:gap-8">
+          {% for faq in site.data.faq.spn %}
+            <div>
+              <h1 class="text-xl pb-4">
+                {{ faq.q }}
+              </h1>
+              <dd class="mt-2">
+                <p class="text-md opacity-55">
+                  {{ faq.a }}
+                </p>
+              </dd>
+              {% if faq.link %}
+                <p class="text-md pt-4" style="color: #727272;">
+                  <a class="link" href="{{ faq.link.url }}">
+                    {{ faq.link.text }}
+                  </a>
+                </p>
+              {% endif %}
+            </div>
+          {% endfor %}
+          <div>
+            <h1 class="text-xl pb-4">Where can I find your source code?</h1>
+            <dd class="mt-2">
+              <p class="text-md" style="color: #727272;">
+                You can find our code on <a href="{{ site.github_url }}" class="link">Github</a>. <a href="{{ site.github_url }}/portmaster/" class="link">The Portmaster</a>, the <a href="{{ site.github_url }}/portmaster-ui/" class="link">Portmaster UI</a> and <a href="{{ site.github_url }}/web/" class="link">this website</a> have their respective repositories. <a href="{{ site.github_url }}/jess/" class="link">Jess</a>, the heart of the SPN, which got audited by Cure53, is also already online. The rest of the SPN will follow suit as we go live.
+              </p>
+            </dd>
+          </div>
+        </dl>
       </div>
     </div>
   </div>

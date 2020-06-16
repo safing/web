@@ -161,7 +161,7 @@ layout: page
 </section>
 <section class="mt-16 lg:mt-48">
   <div class="items-center h-full">
-    <div id="Pricing">
+    <div>
       <div class="max-w-full mx-auto px-4 sm:px-6">
         <div class="py-12 bg-white">
           <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8" id="pricing">
@@ -242,51 +242,32 @@ layout: page
       </div>
       <div class="mt-6 pt-10 text-center md:text-left">
         <dl class="md:grid md:grid-cols-2 md:gap-8">
+          {% for faq in site.data.faq.spn %}
+            <div>
+              <h1 class="text-xl pb-4">
+                {{ faq.q }}
+              </h1>
+              <dd class="mt-2">
+                <p class="text-md opacity-55">
+                  {{ faq.a }}
+                </p>
+              </dd>
+              {% if faq.link %}
+                <p class="text-md pt-4" style="color: #727272;">
+                  <a class="link" href="{{ faq.link.url }}">
+                    {{ faq.link.text }}
+                  </a>
+                </p>
+              {% endif %}
+            </div>
+          {% endfor %}
           <div>
-            <div>
-              <h1 class="text-xl pb-4">How does the SPN compare to Tor?</h1>
-              <dd class="mt-2">
-                <p class="text-md opacity-55">
-                  Tor is a great project which has pioneered privacy technology and is a firm player in the space while the SPN has fresh, innovative solutions which tackle uncharted ground and focuses on ease of use before all. Depending on your threat model, the SPN may be an alternative to Tor. Or it might not.
-                </p>
-                <p class="text-md pt-4" style="color: #727272;">
-                  <a class="link" href="{{ site.blog_url }}2020/01/22/how-the-spn-compares-to-tor/">
-                    Read our blog post to read all about the differences.
-                  </a>
-                </p>
-              </dd>
-            </div>
-            <div class="mt-12">
-              <h1 class="text-xl pb-4">What platforms will you support?</h1>
-              <dd class="mt-2">
-                <p class="text-md opacity-55">
-                  Since the SPN is integrated into the Portmaster, for our the pre-alpha stage we will only support Windows and Linux. Mac and Mobile are planned, but are further down the road.
-                </p>
-              </dd>
-            </div>
-          </div>
-          <div class="mt-12 md:mt-0">
-            <div>
-              <h1 class="text-xl pb-4">How does the SPN compare to VPNs?</h1>
-              <dd class="mt-2">
-                <p class="text-md opacity-55">
-                  The VPN technology was built to securely connect two company locations. However, the SPN was developed from the ground up to protect user privacy. As a result the SPN can easily outperform VPNs in every aspect.
-                </p>
-                <p class="text-md pt-4" style="color: #727272;">
-                  <a class="link" href="{{ site.blog_url }}2020/01/22/how-the-spn-compares-to-vpns/">
-                    Read our blog post to read all about the differences.
-                  </a>
-                </p>
-              </dd>
-            </div>
-            <div class="mt-12">
-              <h1 class="text-xl pb-4">Where can I find your source code?</h1>
-              <dd class="mt-2">
-                <p class="text-md" style="color: #727272;">
-                  You can find our code on <a href="{{ site.github_url }}" class="link">Github</a>. <a href="{{ site.github_url }}/portmaster/" class="link">The Portmaster</a>, the <a href="{{ site.github_url }}/portmaster-ui/" class="link">Portmaster UI</a> and <a href="{{ site.github_url }}/web/" class="link">this website</a> have their respective repositories. <a href="{{ site.github_url }}/jess/" class="link">Jess</a>, the heart of the SPN, which got audited by Cure53, is also already online. The rest of the SPN will follow suit as we go live.
-                </p>
-              </dd>
-            </div>
+            <h1 class="text-xl pb-4">Where can I find your source code?</h1>
+            <dd class="mt-2">
+              <p class="text-md" style="color: #727272;">
+                You can find our code on <a href="{{ site.github_url }}" class="link">Github</a>. <a href="{{ site.github_url }}/portmaster/" class="link">The Portmaster</a>, the <a href="{{ site.github_url }}/portmaster-ui/" class="link">Portmaster UI</a> and <a href="{{ site.github_url }}/web/" class="link">this website</a> have their respective repositories. <a href="{{ site.github_url }}/jess/" class="link">Jess</a>, the heart of the SPN, which got audited by Cure53, is also already online. The rest of the SPN will follow suit as we go live.
+              </p>
+            </dd>
           </div>
         </dl>
       </div>
