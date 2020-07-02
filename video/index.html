@@ -26,28 +26,7 @@ layout: page
               <ul class="md:grid md:grid-cols-2 lg:grid-cols-3 md:col-gap-8 md:row-gap-10">
                 {% assign sorted_videos = site.videos | reverse %}
                 {% for video in sorted_videos %}
-                <li class="mt-10 md:mt-0">
-                  <div class="block transform hover:scale-95 duration-150 ease-in-out">
-                    <a href="{{ video.url }}">
-                      {% if video.custom_thumbnail_name == null %}.
-                        <img src="{{ site.img_url }}thumbnails/video/placeholder.png" alt="">
-                      {% else %}
-                        <img src="{{ site.img_url }}thumbnails/video/{{ video.custom_thumbnail_name }}.png" alt="">
-                      {% endif %}
-                      <span style="font-size: 12rem; font-weight: 800; margin-top: -13.8rem; margin-left: -0.8rem;" class=" z-0 absolute bg-top">
-                        <button type="button" style="background-color: #6188ff;" class="inline-flex items-center px-4 py-4 rounded-md border border-transparent text-xs leading-5 font-extrabold  text-white">
-                          <svg class="h-8 w-auto lg:h-5 fill-current text-white" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.41 11">
-                            <path d="M8.43 4.62l-6.34-4A1 1 0 00.5 1.5v8a1 1 0 001.59.88l6.34-4a1 1 0 000-1.76z" stroke-miterlimit="10" /></svg>
-                        </button>
-                      </span>
-                      <div class="pt-6">
-                        <span class="opacity-25">{{ video.date | date: "%-d. %b %Y" }}</span>
-                        {% assign title_length = video.title | size %}
-                        <p>{{ video.title | slice: 7, title_length }} - #{{ video.title | slice: 2, 2 }}</p>
-                      </div>
-                    </a>
-                  </div>
-                </li>
+                  {% include thumbnail_video.html %}
                 {% endfor %}
               </ul>
               <br class="mb-12">
