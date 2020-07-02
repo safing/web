@@ -2,6 +2,8 @@
 title: How the SPN compares to VPNs
 date: 2020-01-22
 author: davegson
+custom_thumbnail_name: how-the-spn-compares-to-vpns
+cover_image_source: https://pixabay.com/vectors/the-globe-globe-the-internet-free-4790044/
 ---
 
 ## Introduction into VPN Technology

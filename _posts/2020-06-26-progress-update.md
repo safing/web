@@ -2,6 +2,7 @@
 title: "Progress Update - #01"
 date: 2020-06-26
 author: davegson
+custom_thumbnail_name: progress-update
 ---
 
 *Note: not every update needs to be [a podcast]({{ site.podcast_url }}) or [a video]({{ site.video_url }}), thought I'd mix things up with a written update - [let me know]({{ site.reddit_url }}) if you like this.*
