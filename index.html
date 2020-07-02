@@ -139,18 +139,18 @@ title: Safing - Love Freedom
               <ul class="md:grid md:grid-cols-2 lg:grid-cols-3 md:col-gap-8 md:row-gap-10 max-w-sm mx-auto md:max-w-full">
                 <!-- podcast -->
                 {% assign sorted_podcasts = site.podcasts | reverse %}
-                {% for episode in sorted_podcasts, limit: 1 %}
+                {% for episode in sorted_podcasts limit: 1 %}
                   {% include thumbnail_podcast.html pre_header="PODCAST" %}
                 {% endfor %}
 
                 <!-- video -->
                 {% assign sorted_videos = site.videos | reverse %}
-                {% for video in sorted_videos, limit: 1 %}
+                {% for video in sorted_videos limit: 1 %}
                   {% include thumbnail_video.html pre_header="VIDEO" %}
                 {% endfor %}
 
                 <!-- blog -->
-                {% for post in site.posts, limit: 1 %}
+                {% for post in site.posts limit: 1 %}
                   {% include thumbnail_blog.html pre_header="BLOG" %}
                 {% endfor %}
               </ul>
