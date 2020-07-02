@@ -2,6 +2,8 @@
 title: Hiring a Designer from the Privacy Community
 date: 2019-11-29
 author: davegson
+custom_thumbnail_name: hiring-a-designer-from-the-privacy-community
+cover_image_source: https://unsplash.com/photos/66O6CE7QvwI
 ---
 
 _Sidenote: shoutout to [The Hated One](https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q/), this would not have happened without him!_

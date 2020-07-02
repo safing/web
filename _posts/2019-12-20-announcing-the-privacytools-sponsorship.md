@@ -2,6 +2,7 @@
 title: Announcing the PrivacyTools Sponsorship
 date: 2019-12-20
 author: davegson
+custom_thumbnail_name: announcing-the-privacytools-sponsorship
 ---
 
 **We are very pleased to announce that we have become a sponsor of [PrivacyTools.io](https://opencollective.com/privacytoolsio)**
