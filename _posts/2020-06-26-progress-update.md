@@ -1,7 +1,11 @@
 ---
-title: "Progress Update - #01"
+# ⚠️ ALWAYS follow this format: "#001 - Some sweet title"
+# this has to be consistent for displaying only the episode number or only the title
+title: "#001 - Progress Update June"
 date: 2020-06-26
 author: davegson
+custom_thumbnail_name: progress-update
+progress_update: true
 ---
 
 *Note: not every update needs to be [a podcast]({{ site.podcast_url }}) or [a video]({{ site.video_url }}), thought I'd mix things up with a written update - [let me know]({{ site.reddit_url }}) if you like this.*

@@ -17,21 +17,7 @@ layout: page
             <div class="mt-8 md:mt-32">
               <ul class="md:grid md:grid-cols-2 lg:grid-cols-3 md:col-gap-8 md:row-gap-10">
                 {% for post in site.posts %}
-                <li class="mt-10 md:mt-0">
-                  <div class="block transform hover:scale-95 duration-150 ease-in-out">
-                    <a href="{{ post.url }}">
-                      {% if post.custom_thumbnail_name == null %}
-                        <img src="{{ site.img_url }}thumbnails/blog/placeholder.png">
-                      {% else %}
-                        <img src="{{ site.img_url }}thumbnails/blog/{{ post.custom_thumbnail_name }}.png">
-                      {% endif %}
-                      <div class="pt-6">
-                        <span class="opacity-25">{{ post.date | date: "%-d. %b %Y" }}</span>
-                        <p>{{ post.title }}</p>
-                      </div>
-                    </a>
-                  </div>
-                </li>
+                  {% include thumbnail_blog.html %}
                 {% endfor %}
               </ul>
               <br class="mb-12">

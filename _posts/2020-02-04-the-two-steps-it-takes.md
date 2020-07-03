@@ -2,6 +2,8 @@
 title: The Two Steps it Takes
 date: 2020-02-04
 author: davegson
+custom_thumbnail_name: the-two-steps-t-takes
+cover_image_source: https://unsplash.com/photos/7_kRuX1hSXM
 ---
 
 There's no such thing as an overnight success. Successful companies do not suddenly appear, we [just notice them suddenly](https://seths.blog/2014/01/gradually-and-then-suddenly/).
