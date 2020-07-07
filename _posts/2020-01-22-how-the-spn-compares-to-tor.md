@@ -56,9 +56,9 @@ With the SPN however, every connection is calculated individually and leaves the
 
 <br/>
 
-- your connections are spread across the globe
-- visibility in the 'open web' is minimized
-- connections are not slowed down by having to go extra miles
+1. your connections are spread across the globe
+2. visibility in the 'open web' is minimized
+3. connections are not slowed down by having to go extra miles
 
 ![SPN community](https://safing.io/assets/img/spn/spn-community-web.png)
 
