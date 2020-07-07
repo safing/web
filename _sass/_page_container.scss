@@ -74,6 +74,13 @@
 
     ul {
       padding-top: 0.1rem;
+      list-style-type: initial;
+      padding-left: 1rem;
+      color: #898989;
+    }
+
+    ol {
+      padding-top: 0.1rem;
       list-style-type: decimal;
       padding-left: 1rem;
       color: #898989;
