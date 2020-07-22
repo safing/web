@@ -20,6 +20,7 @@ vendor_url: /vendor/
 ### pages
 about_url: /about/
 blog_url: /blog/
+backlog_url: /backlog/
 community_hub_url: /community-hub/
 contact_url: /contact/
 esa_bic_url: /esa-bic/
@@ -29,6 +30,7 @@ ownership_url: /ownership/
 podcast_url: /podcast/
 portmaster_url: /portmaster/
 privacy_url: /privacy/
+roadmap_url: /roadmap/
 spn_url: /spn/
 team_url: /team/
 terms_url: /terms/
