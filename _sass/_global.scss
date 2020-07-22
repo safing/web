@@ -180,3 +180,12 @@ a.link {
 .hover\:opacity-55:hover {
   opacity: 0.55;
 }
+.dot {
+  position: absolute;
+  right: 0;
+  height: 5px;
+  width: 5px;
+  background-color: #6188ff;
+  border-radius: 50%;
+  display: inline-block;
+}
