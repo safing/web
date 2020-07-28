@@ -37,11 +37,11 @@
                 {% if include.state == 'done' %}
                   <img style="min-width: 19px;" src="{{ site.assets_url }}icons/tick.svg" alt="">
                 {% elsif include.state == 'in_progress' %}
-                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/files.svg" alt="">
+                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/cog.svg" alt="">
                 {% elsif include.state == 'discarded' %}
                   <img style="min-width: 19px;" src="{{ site.assets_url }}icons/cross.svg" alt="">
                 {% elsif include.state == 'backlog' %}
-                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/cog.svg" alt="">
+                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/files.svg" alt="">
                 {% endif %}
               </div>
               <h1 class="pl-3 font-bold text-lg">{{ card.title }}</h1>
