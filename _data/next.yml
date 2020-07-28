@@ -8,32 +8,30 @@
 
 # Ordering of team members should lean towards most involved -> least involved. but may also be done randomly
 
+# Description style:
+# - write in the perspective of a manager giving orders. Add this, redesign that, Request X.
+# - when talking about users, customers, readers, ... ALWAYS switch to the "you" perspective.
+#   -> NO: Create a roadmap so users know what is going on.
+#   -> YES: Create a roadmap so you know what is going on.
+
 cards:
   done:
     - title: SPN Pre-Alpha
-      description: Well write write write
+      description:
+        - Deploy the SPN in v0.1. Give access to Marvin and Visionary Kickstarter backers.
+        - Communicate this is only the first step and that it will take a few weeks or months until the network is stable enough to support hundreds/thousands of users.
       projects:
         - SPN
       team:
         - Daniel
         - Patrick
-    - title: Portmaster API
-      description: Well write write write
-      projects:
-        - SPN
-        - Website
-      team:
-        - David
-        - Daniel
-    - title: Roadmap
-      description: Well write write write
-      projects:
-        - Website
-      team:
-        - Luke
-        - David
     - title: Funding Proposals
-      description: Well write write write
+      description:
+        - Still having mountains of research & development ahead of us, request different grants to help us out financially.
+        - Apply follow up fundings both from the Netidee and the FFG.
+      link:
+        text: "More on Transparent Funding..."
+        url: "/ownership/#finances"
       projects:
         - Backoffice
       team:
@@ -41,19 +39,36 @@ cards:
         - Raphael
   in_progress:
     - title: Stabilize the Network
-      description: Well write write write
+      description:
+        - After v0.1, focus on stabilizing the typical issues that arise with early software. Fix bugs, improve performance & stability.
+        - Deliver to more and more pre-orders as the network's matures.
       projects:
         - SPN
       team:
         - Daniel
-    - title: Intelhub
-      description: Well write write write
+    - title: Safing API
+      description:
+        - Enable you to sign in to your Safing account on the Portmaster client via the Safing API. Also respond with details regarding your SPN subscription.
+        - Implement device management so you can sign out of devices from the Safing website.
+      projects:
+        - SPN
+        - Portmaster
+        - Website
+      team:
+        - David
+        - Daniel
+    - title: IntelHub
+      description:
+        - Create a service that aggregates filterlists, updates this intelligence frequently and distributes it to Portmaster clients so they do not have to do this resource heavy work themselves.
+        - Also aggregate and distribute GeoIP data so the SPN module can calculate up-to-date Internet routes for its circuits.
       projects:
         - Portmaster
       team:
         - Patrick
     - title: Portmaster Documentation
-      description: Well write write write
+      description:
+        - You can see our high level concepts & you can inspect our code. But nothing in between.
+        - Fill that gap by providing proper documentation of the Portmaster. What does each component do? With what other components does it interact? Where is its code located?
       projects:
         - Portmaster
         - Website
@@ -62,28 +77,39 @@ cards:
         - Patrick
         - Daniel
     - title: Account Backoffice
-      description: Well write write write
+      description:
+        - Improve the current Safing account management interface. Enable mods to easily accept cash payments, manage refunds or suspend rogue users.
+        - Also provide some basic insights on signups, payments, survey results, etc...
       projects:
         - Website
       team:
         - Alex
-    - title: Our Backlog
-      description: Well write write write
+    - title: Next Page & Backlog
+      description:
+        - Properly communicate what we currently are working on so you know what to expect from us in the nearer future.
+        - Also provide a backlog to acknowledge everything that needs to be done further down the road. Encourage participation so you can easily let us know where we might need to adapt or what we might have missed in the bigger picture.
       projects:
         - Website
+        - Community
       team:
-        - David
         - Luke
+        - David
     - title: Redesign account.safing.io
-      description: Well write write write
+      description:
+        - When visiting https://account.safing.io/ to manage your Safing account, the design clearly breaks from the main website.
+        - Unify these designs so you get a more wholesome web experience.
       projects:
         - Website
       team:
         - Luke
     - title: "Inception: Reaching Out"
       description:
-        - After years of research the SPN is finally here. As a result it is time to spread the word, also by spending money.
-        - We are reaching out to YouTube channels and newsletters in the privacy scene who offer sponsorships. Suggestions very welcome!
+        - As the SPN sees the light of day, the time has come to spread the word, also by spending money.
+        - Reach out to YouTube channels and newsletters in the privacy scene who offer sponsored shout-outs.
+        - You are very welcome to give suggest/advice in this context!
+      link:
+        text: "Share your ideas on reddit"
+        url: "https://reddit.com/r/safing/"
       projects:
         - Marketing
       team:
