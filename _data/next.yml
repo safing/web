@@ -1,0 +1,92 @@
+# Project Priority (for ordering)
+# - Portmaster
+# - SPN
+# - Website (includes the CustomerHub)
+# - Community
+# - Marketing
+# - Backoffice
+
+# Ordering of team members should lean towards most involved -> least involved. but may also be done randomly
+
+cards:
+  done:
+    - title: SPN Pre-Alpha
+      description: Well write write write
+      projects:
+        - SPN
+      team:
+        - Daniel
+        - Patrick
+    - title: Portmaster API
+      description: Well write write write
+      projects:
+        - SPN
+        - Website
+      team:
+        - David
+        - Daniel
+    - title: Roadmap
+      description: Well write write write
+      projects:
+        - Website
+      team:
+        - Luke
+        - David
+    - title: Funding Proposals
+      description: Well write write write
+      projects:
+        - Backoffice
+      team:
+        - Tabitha
+        - Raphael
+  in_progress:
+    - title: Stabilize the Network
+      description: Well write write write
+      projects:
+        - SPN
+      team:
+        - Daniel
+    - title: Intelhub
+      description: Well write write write
+      projects:
+        - Portmaster
+      team:
+        - Patrick
+    - title: Portmaster Documentation
+      description: Well write write write
+      projects:
+        - Portmaster
+        - Website
+      team:
+        - David
+        - Patrick
+        - Daniel
+    - title: Account Backoffice
+      description: Well write write write
+      projects:
+        - Website
+      team:
+        - Alex
+    - title: Our Backlog
+      description: Well write write write
+      projects:
+        - Website
+      team:
+        - David
+        - Luke
+    - title: Redesign account.safing.io
+      description: Well write write write
+      projects:
+        - Website
+      team:
+        - Luke
+    - title: "Inception: Reaching Out"
+      description:
+        - After years of research the SPN is finally here. As a result it is time to spread the word, also by spending money.
+        - We are reaching out to YouTube channels and newsletters in the privacy scene who offer sponsorships. Suggestions very welcome!
+      projects:
+        - Marketing
+      team:
+        - Raphael
+        - Tabitha
+  discarded:
