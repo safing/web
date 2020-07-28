@@ -61,7 +61,9 @@
           <div class="flex relative pb-2 pt-6 -mt-1" style="min-height: 16px;">
             <span style="font-size: 0.8rem;">
               {% if card.link %}
-              #866 opened by <strong>BinaryMuse</strong> to atom/github
+                <a href="{{ card.link.url }}">
+                  {{ card.link.text }}
+                </a>
               {% endif %}
             </span>
             <div class="absolute right-0">
