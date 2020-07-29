@@ -45,7 +45,7 @@ layout: page
           <strong class="pl-2 opacity-75">({{ site.data.next.cards.done.size }})</strong>
         </div>
         {% for card in site.data.next.cards.done %}
-          {% include roadmap_card.html state = 'done' %}
+          {% include project_card.html state = 'done' %}
         {% endfor %}
       </div>
     </div>
@@ -60,7 +60,7 @@ layout: page
         </div>
 
         {% for card in site.data.next.cards.in_progress %}
-          {% include roadmap_card.html state = 'in_progress' %}
+          {% include project_card.html state = 'in_progress' %}
         {% endfor %}
       </div>
     </div>
@@ -75,7 +75,7 @@ layout: page
         </div>
 
         {% for card in site.data.next.cards.discarded %}
-          {% include roadmap_card.html state = 'discarded' %}
+          {% include project_card.html state = 'discarded' %}
         {% endfor %}
       </div>
     </div>
