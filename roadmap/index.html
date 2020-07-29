@@ -1,5 +1,5 @@
 ---
-title: Safing Ownership
+title: What's Next At Safing
 layout: page
 ---
 
@@ -8,13 +8,15 @@ layout: page
     <div class="relative max-w-screen-sm lg:max-w-screen-xl mx-auto px-4 sm:px-6  xl:px-0 lg:flex">
       <div class="pt-8">
         <div class="text-center lg:text-left">
-          <span class="text-sm opacity-55 tracking-normal">20.04.2020</span>
+          <span class="text-sm opacity-55 tracking-normal">01.08.2020</span>
           <h2 id="influences" class="text-5xl tracking-tight font-extrabold leading-none pb-10 pt-2">
-            Monthly Progress
+            Next Up
           </h2>
           <p class="text-md opacity-55 max-w-lg mx-auto">
-            We find it very hard to say what the ufutre will be. So we have
-            created our own roadmap to show what we plan doing what we are working.
+            Predicting the future is hard, that is why you will not find any deadlines here. Instead, get insight into what we are working on at the moment.
+          </p>
+          <p class="text-md opacity-55 max-w-lg mx-auto">
+            This page shows bigger projects only. Bug fixes, Quality of Life improvements, support, planning, etc..., they all get lost in this big picture overview.
           </p>
         </div>
       </div>
@@ -59,6 +61,10 @@ layout: page
           <strong class="pl-2 opacity-75">({{ site.data.next.cards.in_progress.size }})</strong>
         </div>
 
+        <div class="flex absolute pl-8 ">
+          <span class="opacity-50">Being in progress does not imply the project will be completed soon. Some may take a while and others might even get discarded. Read the monthly blog updates to follow the progress and conclusion of every project.</span>
+        </div>
+
         {% for card in site.data.next.cards.in_progress %}
           {% include project_card.html state = 'in_progress' %}
         {% endfor %}
@@ -90,19 +96,22 @@ layout: page
       </div>
       <div class="inline-block max-w-lg">
         <h2 class="text-5xl tracking-tight font-extrabold leading-none py-10 lg:w-auto">
-          A list of stuff that we
-          plan to work on
+          There is More. <br/> A Lot More.
         </h2>
         <p class="text-md opacity-55 max-w-lg">
-          Taking money always means opening up to influences. Therefore, we see it as our duty to not only be open about our ownership, but also about how we are financing this venture.
+          We have plans and ideas for years to come. We will never be "done" but always evolve and progress. I'm sure you have cool ideas for us too!
+          Take a look what we already plan on doing in the longer run.
         </p>
-        <div class="py-10 flex">
+        <p class="text-md opacity-55 max-w-lg">
+          As disclosed above we're still working on the backlog. Coming SoonTM.
+        </p>
+        <!-- <div class="py-10 flex">
           <a href="{{ site.backlog_url }}">
             <button type="button" style="background-color: #000;" class="transform hover:scale-95 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-              Backlog
+              Explore the Backlog
             </button>
           </a>
-        </div>
+        </div> -->
       </div>
       <div class="hidden pt-16 lg:pt-0 ml-0 lg:ml-32 lg:block self-center">
         <img src="{{ site.img_url }}page-specific/roadmap/files.png" alt="">
