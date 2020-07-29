@@ -76,9 +76,9 @@ cards:
         - David
         - Patrick
         - Daniel
-    - title: Account Backoffice
+    - title: Administration Interface
       description:
-        - Improve the current Safing account management interface. Enable mods to easily accept cash payments, manage refunds or suspend rogue users.
+        - Enable admins to easily accept cash payments, manage refunds or suspend rogue users.
         - Also provide some basic insights on signups, payments, survey results, etc...
       projects:
         - Website
