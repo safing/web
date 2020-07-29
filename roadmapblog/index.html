@@ -26,36 +26,47 @@ layout: page
                 </div>
               </div>
               <div class="pt-24">
-                <div class="pt-12">
-                  <div style="max-width: 750px; margin-top: 3rem; margin: auto;">
-                    <h3 >Completed</h3>
-                    <p>This is a list of the tasks we have completed in this month time frame. If you wish to find more about each task, click them have a read.</p>
+                {% if site.data.next.cards.done.size > 0 %}
+                  <div class="pt-12">
+                    <div style="max-width: 750px; margin-top: 3rem; margin: auto;">
+                      <h3 >Completed</h3>
+                      <p>This is a list of the tasks we have completed in this month time frame. If you wish to find more about each task, click them have a read.</p>
+                    </div>
+                    <div class="pt-10 gridwrapper">
+                      {% for card in site.data.next.cards.done %}
+                        {% include project_tablecard.html state = 'done' %}
+                      {% endfor %}
+                    </div>
                   </div>
-                  <div class="pt-10 gridwrapper">
-                    {% include project_tablecard.html %}
-                    {% include project_tablecard.html %}
-                    {% include project_tablecard.html %}
-                  </div>
-                </div>
-                <div class="pt-12">
-                  <div style="max-width: 750px; margin-top: 3rem; margin: auto;">
-                    <h3 >In Progress</h3>
-                    <p>This is a list of the tasks we have completed in this month time frame. If you wish to find more about each task, click them have a read.</p>
-                  </div>
-                  <div class="pt-10">
-                    {% include project_tablecard.html %}
-                  </div>
-                </div>
-                <div class="pt-12">
-                  <div style="max-width: 750px; margin-top: 3rem; margin: auto;">
-                    <h3 >Abandoned</h3>
-                    <p>This is a list of the tasks we have completed in this month time frame. If you wish to find more about each task, click them have a read.</p>
-                  </div>
-                  <div class="pt-10">
-                    {% include project_tablecard.html %}
-                  </div>
-                </div>
+                {% endif %}
 
+                {% if site.data.next.cards.in_progress.size > 0 %}
+                  <div class="pt-12">
+                    <div style="max-width: 750px; margin-top: 3rem; margin: auto;">
+                      <h3 >In Progress</h3>
+                      <p>This is a list of the tasks we have completed in this month time frame. If you wish to find more about each task, click them have a read.</p>
+                    </div>
+                    <div class="pt-10">
+                      {% for card in site.data.next.cards.in_progress %}
+                        {% include project_tablecard.html state = 'in_progress' %}
+                      {% endfor %}
+                    </div>
+                  </div>
+                {% endif %}
+
+                {% if site.data.next.cards.discarded.size > 0 %}
+                  <div class="pt-12">
+                    <div style="max-width: 750px; margin-top: 3rem; margin: auto;">
+                      <h3 >Discarded</h3>
+                      <p>This is a list of the tasks we have completed in this month time frame. If you wish to find more about each task, click them have a read.</p>
+                    </div>
+                    <div class="pt-10">
+                      {% for card in site.data.next.cards.discarded %}
+                        {% include project_tablecard.html state = 'discarded' %}
+                      {% endfor %}
+                    </div>
+                  </div>
+                {% endif %}
               </div>
             </content>
           </div>
