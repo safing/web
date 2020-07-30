@@ -45,12 +45,21 @@
             </div>
           </div>
           <div style="padding-left: 0;" class="tab-content  opacity-50 text-md">
+            <p>The Assignment:</p>
+            <br/>
             {% for paragraph in card.description %}
               <p>{{ paragraph }}</p>
               {% unless forloop.last %}
                 <br/>
               {% endunless %}
             {% endfor %}
+
+            {% if card.link %}
+              <br/>
+              <a href="{{ card.link.url }}">
+                {{ card.link.text }}
+              </a>
+            {% endif %}
           </div>
         </div>
         <div class="pt-3">

@@ -19,7 +19,7 @@ cards:
     - title: SPN Pre-Alpha
       description:
         - Deploy the SPN in v0.1. Give access to Marvin and Visionary Kickstarter backers.
-        - Communicate this is only the first step and that it will take a few weeks or months until the network is stable enough to support hundreds/thousands of users.
+        - Communicate that this is only the first step and that it will take a few weeks or months until the network is stable enough to support hundreds/thousands of users.
       projects:
         - SPN
       team:
@@ -27,7 +27,7 @@ cards:
         - Patrick
     - title: Funding Proposals
       description:
-        - Still having mountains of research & development ahead of us, request different grants to help us out financially.
+        - Request different grants to help us out financially with all the research & development still ahead of us.
         - Apply follow up fundings both from the Netidee and the FFG.
       link:
         text: "More on Transparent Funding..."
@@ -104,9 +104,9 @@ cards:
         - Luke
     - title: "Inception: Reaching Out"
       description:
-        - As the SPN sees the light of day, the time has come to spread the word, also by spending money.
+        - As the SPN will soon see the light of day, the time has come to spread the word, also by spending money.
         - Reach out to YouTube channels and newsletters in the privacy scene who offer sponsored shout-outs.
-        - You are very welcome to give suggest/advice in this context!
+        - You are very welcome to give us suggestions in this context.
       link:
         text: "Share your ideas on reddit"
         url: "https://reddit.com/r/safing/"
