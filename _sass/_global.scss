@@ -188,8 +188,6 @@ a.link {
   z-index: -1;
 }
 
-
-/* Accordion styles */
 .tabs {
   border-radius: 8px;
   overflow: hidden;
@@ -206,7 +204,6 @@ a.link {
     background: transparent;
     font-weight: bold;
     cursor: pointer;
-    /* Icon */
     &:hover {
       background: transparent;
     }
@@ -246,15 +243,12 @@ a.link {
 #icon {
   width: 35px;
   position: fixed;
-  
 }
 
 #icontwo {
   width: 35px;
-  
 }
 
-// :checked
 input:checked {
 
   + label #icon {
