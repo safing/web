@@ -277,8 +277,8 @@ a.link {
     padding: 0 1em;
     color: black;
     background: transparent;
-    transition: all .2s;
-    transition-timing-function: ease;
+    transition: all .3s;
+    transition-timing-function: ease-in-out;
 
   }
   &-close {
