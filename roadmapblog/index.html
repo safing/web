@@ -32,7 +32,7 @@ layout: page
                       <h3 >Completed</h3>
                       <p>This is a list of the tasks we have completed in this month time frame. If you wish to find more about each task, click them have a read.</p>
                     </div>
-                    <div class="pt-10 gridwrapper">
+                    <div class="pt-10 blogwrapper">
                       {% for card in site.data.next.cards.done %}
                         {% include project_tablecard.html state = 'done' %}
                       {% endfor %}
