@@ -13,10 +13,7 @@ layout: page
             Next Up
           </h2>
           <p class="text-md opacity-55 max-w-lg mx-auto">
-            Predicting the future is hard, that is why you will not find any deadlines here. Instead, get insight into what we are working on at the moment.
-          </p>
-          <p class="text-md opacity-55 max-w-lg mx-auto">
-            This page shows bigger projects only. Bug fixes, Quality of Life improvements, support, planning, etc..., they all get lost in this big picture overview.
+            Find out what the Safing team is currently working on. This is a compact overview of bigger tasks grouped by projects.
           </p>
         </div>
       </div>
@@ -40,9 +37,9 @@ layout: page
   </div>
   {% if site.data.next.cards.done.size > 0 %}
     <div class="pt-48">
-      <div class="gridwrapper">
+      <div class="nextwrapper">
         <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
-          <span class="opacity-50">Recently Done</span>
+          <span class="opacity-50">Completed</span>
           <strong class="pl-2 opacity-75">({{ site.data.next.cards.done.size }})</strong>
         </div>
         {% for card in site.data.next.cards.done %}
@@ -52,15 +49,19 @@ layout: page
     </div>
   {% endif %}
   {% if site.data.next.cards.in_progress.size > 0 %}
-    <div class="pt-48">
-      <div class="gridwrapper">
-        <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
-          <span class="opacity-50">In Progress</span>
-          <strong class="pl-2 opacity-75">({{ site.data.next.cards.in_progress.size }})</strong>
-        </div>
-
-        <div class="flex absolute pl-8 ">
-          <span class="opacity-50">Being in progress does not imply the project will be completed soon. Plenty will take a while and a few might even get discarded. Read the monthly blog updates to follow the progress and conclusion of every project.</span>
+    <div class="pt-64">
+      <div class="nextwrapper">
+        <div style="margin-top: -8rem;" class="absolute pl-8 ">
+          <div >
+            <span class="opacity-50">In Progress</span>
+            <strong class="pl-2 opacity-75">({{ site.data.next.cards.in_progress.size }})</strong>
+          </div>
+          <p class="opacity-50 pt-5 max-w-4xl">
+            Being in progress does not imply the project will be 
+            completed soon. Plenty will take a while and a few 
+            might even get discarded. Read the monthly blog updates 
+            to follow the progress and conclusion of every project.
+          </p>
         </div>
         {% for card in site.data.next.cards.in_progress %}
           {% include project_card.html state = 'in_progress' %}
@@ -70,7 +71,7 @@ layout: page
   {% endif %}
   {% if site.data.next.cards.discarded.size > 0 %}
     <div class="pt-48">
-      <div class="gridwrapper">
+      <div class="nextwrapper">
         <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
           <span class="opacity-50">Discarded</span>
           <strong class="pl-2 opacity-75">({{ site.data.next.cards.discarded.size }})</strong>
