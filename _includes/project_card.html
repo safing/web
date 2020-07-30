@@ -1,9 +1,9 @@
 <div class="card text-left transform scale-95">
     <div class="block shadowthing p-8 rounded-lg">
       <div class="tabs">
-        <div class="tab ">
+        <div class="tab">
           <input class="dropinput" type="checkbox" id="card-{{ include.state }}-{{ forloop.index }}">
-          <label style="min-width: 90%; min-height: 150px; display: block;" class=" absolute" for="card-{{ include.state }}-{{ forloop.index }}">
+          <label style="min-width: 90%; min-height: 150px; display: block;" class="absolute cursor-pointer" for="card-{{ include.state }}-{{ forloop.index }}">
             <img class="absolute right-0" style="margin-right: 1rem;" id="icon" src="{{ site.assets_url }}/icons/arrow.svg" alt="">
           </label>
           <div>
@@ -54,22 +54,14 @@
           </div>
         </div>
         <div class="pt-3">
-          <hr>
-          <div class="flex relative pb-2 pt-6 -mt-1" style="min-height: 16px;">
-            <span style="font-size: 0.8rem;">
-              {% if card.link %}
-                <a href="{{ card.link.url }}">
-                  {{ card.link.text }}
-                </a>
-              {% endif %}
-            </span>
-            <div class="absolute right-0">
-              <div class="flex-shrink-0 mt-0">
-                <div class="flex overflow-hidden">
-                  {% for member in card.team %}
+          <div class="absolute top-0 right-0 mr-6 pt-1 overflow-visible mt-20 sm:mt-16 sm:mr-16">
+            <div class="flex-shrink-0 mt-0">
+              <div class="flex ">
+                {% for member in card.team %}
+                  <span class="transform hover:scale-110 duration-150 ease-in-out" tooltip="{{ member | capitalize }}"  >
                     <img class="inline-block h-6 w-6 rounded-full text-white shadow-solid border-2 border-white" src="{{ site.img_url }}profiles/{{ member | downcase }}.png" alt="{{ member }}">
-                  {% endfor %}
-                </div>
+                  </span>
+                {% endfor %}
               </div>
             </div>
           </div>
