@@ -1,5 +1,16 @@
-<div class="card text-left transform scale-95">
-    <div class="block shadowthing px-8 py-6 rounded-lg">
+<div class="card shadowthing text-left transform scale-95">
+  <div class="block  px-8 py-6 rounded-lg">
+      <div class="absolute top-0 right-0 overflow-visible mr-16 mt-12 z-20">
+        <div class="flex-shrink-0 mt-0">
+          <div class="flex ">
+            {% for member in card.team %}
+              <span class="transform hover:scale-110 duration-150 ease-in-out" tooltip="Raphael"  >
+                <img class="inline-block h-6 w-6 rounded-full text-white shadow-solid border-2 border-white" src="{{ site.img_url }}profiles/{{ member | downcase }}.png" alt="{{ member }}">
+              </span>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
       <div class="tabs">
         <div class="tab relative">
           <input class="dropinput" type="checkbox" id="tablecard-{{ include.state }}-{{ forloop.index }}">
@@ -7,17 +18,6 @@
             <img class="absolute right-0" style="margin-right: 1rem; margin-top: 1.2rem;" id="icon" src="{{ site.assets_url }}/icons/arrow.svg" alt="">
           </label>
           <div class="flex relative ">
-            <div class="self-center -mt-5 hidden md:block">
-              <div class="absolute right-0 mr-12 transform scale-110">
-                  <div class="flex-shrink-0 mt-0">
-                    <div class="flex overflow-hidden">
-                      {% for member in card.team %}
-                        <img class="inline-block h-6 w-6 rounded-full text-white shadow-solid border-2 border-white" src="{{ site.img_url }}profiles/{{ member | downcase }}.png" alt="{{ member }}">
-                      {% endfor %}
-                    </div>
-                  </div>
-                </div>
-            </div>
             <div>
               <div class="flex">
                 {% for tag in card.projects %}
@@ -37,7 +37,6 @@
                   {% elsif tag == 'Marketing' %}
                     {% assign tag_color = 'orange' %}
                   {% endif %}
-
                   <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium leading-5 bg-{{ tag_color }}-{{ tag_bg_strength }} text-{{ tag_color }}-800 mr-2">
                     {{ tag }}
                   </span>
@@ -64,7 +63,7 @@
               <hr>
             <div class="tab relative" id="tabtwo">
               <input class="dropinput" type="checkbox" id="tablecard-description-{{ include.state }}-{{ forloop.index }}">
-              <label style="min-width: 100%; min-height: 115px; display: block;" class="z-10 absolute" for="tablecard-description-{{ include.state }}-{{ forloop.index }}">
+              <label style="min-width: 100%; min-height: 115px; display: block;" class="z-10 absolute cursor-pointer" for="tablecard-description-{{ include.state }}-{{ forloop.index }}">
                 <img class="absolute right-0" style="margin-right: 1rem; margin-top: 0.5rem;" id="icontwo" src="{{ site.assets_url }}/icons/arrow.svg" alt="">
               </label>
               <div class="flex relative">
@@ -106,13 +105,14 @@
           <div class="pt-5">
             <h3 class="opacity-75">What is Missing is The Client Side</h3>
             <p class="">
-              The only puzzle piece missing is the frontend implementation, meaning the Portmaster UI actually showing the designs and making the API calls. This project is nearing its completion, so stay tuned!
+              The only puzzle piece missing is the frontend implementation, <a href="">Here</a> meaning the Portmaster UI actually showing the designs and making the API calls. This project is nearing its completion, so stay tuned!
             </p>
           </div>
           <div class="pt-12">
             <hr>
             <div class="flex relative pb-2 pt-6 -mt-1">
-              <span style="font-size: 0.8rem;">#866 opened by <strong>BinaryMuse</strong> to atom/github</span>
+              <!-- <span style="font-size: 0.8rem;">#866 opened by <strong>BinaryMuse</strong> to atom/github</span> -->
+              <span style="font-size: 0.8rem;" class="absolute right-0"><strong>01/6/2020</strong> <span class="opacity-50">~</span> <strong>036/6/2020</strong></span>
             </div>
           </div>
         </div>
