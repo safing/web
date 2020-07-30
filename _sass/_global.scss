@@ -181,6 +181,60 @@ a.link {
   opacity: 0.55;
 }
 
+.card{
+  max-width: auto;
+}
+
+.shadowthing{
+  box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0), 0 0px 90px 0 rgba(59, 93, 199, 0.1);
+}
+
+.blogwrapper{
+  display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: auto;
+    grid-row-gap: 3px;
+    grid-auto-flow: row;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1350px;
+}
+
+@media (min-width: 640px) {
+  .blogwrapper{
+    grid-template-columns: repeat(1, auto);
+  }
+
+  #icon{
+    margin-top: 2rem;
+  }
+}
+
+.nextwrapper{
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-template-rows: auto;
+  grid-row-gap: 10px;
+  grid-auto-flow: row;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1350px;  
+}
+
+@media (min-width: 640px) {
+  .nextwrapper{
+    grid-template-columns: repeat(1, auto);
+  }
+}
+
+@media (min-width: 1024px) {
+  .nextwrapper{
+    grid-template-columns: repeat(3, minmax(auto, 445px));
+    .card{
+      max-width: 445px;
+    }
+  }
+}
 
 .dropinput {
   position: absolute;
