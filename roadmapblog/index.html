@@ -39,7 +39,6 @@ layout: page
                     </div>
                   </div>
                 {% endif %}
-
                 {% if site.data.next.cards.in_progress.size > 0 %}
                   <div class="pt-12">
                     <div style="max-width: 750px; margin-top: 3rem; margin: auto;">
@@ -75,49 +74,3 @@ layout: page
     </div>
   </div>
 </section>
-
-<!--
-  this is only for the roadmap blog.
-  Luke will clean this at a later date.
--->
-<style>
-
-  .gridwrapper{
-    display: grid;
-    grid-template-columns: repeat(1, auto);
-    grid-template-rows: auto;
-    grid-row-gap: 10px;
-    grid-auto-flow: row;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1350px;
-  }
-
-  .card{
-    max-width: auto;
-  }
-
-  .shadowthing{
-    box-shadow: 0 0px 90px 0 rgba(59, 93, 199, 0.1), 0 0px 5px 0 rgba(0, 0, 0, 0);
-  }
-
-  @media (min-width: 768px) {
-
-   }
-
-  @media (min-width: 640px) {
-    .gridwrapper{
-      grid-template-columns: repeat(1, auto);
-    }
-
-    #icon{
-      margin-top: 2rem;
-    }
-  }
-
-  @media (min-width: 1024px) {
-
-
-  }
-
-</style>
