@@ -64,7 +64,7 @@ cards:
         - type: 'h3'
           text: Code Audit By Cure53
         - type: p
-          text: "Back in January we paid some of the best in the field to audit our cryptographic library. Their insight and expertise challenged us, in a very good way. The foundation was solid, but it was clear we improve things here and there. During these months, we could progress our cryptography library into what it is now. This module is complete, but also added workload to the timeline."
+          text: "Back in January we paid some of the best in the field to audit our cryptographic library. Their insight and expertise challenged us, in a very good way. The foundation was solid, but it was clear we could improve things here and there. During these months, we could progress our cryptography library into what it is now. This module is complete, but also added workload to the timeline."
         - type: a
           text: View Cure53's audit report
         - type: br
@@ -73,9 +73,9 @@ cards:
         - type: 'h3'
           text: Refactoring The Gossiping
         - type: p
-          text: "Instead of sending all data from servers to clients, we decided to split the messages into a \"big message\" and a \"small message\". The big message is sent on setup and contains the servers public key and lots of meta-data. The small message contains the servers active links to other nodes and its most current ephemeral keys (for 0-RTT perfect forward & backward secrecy connections). The small message will communicate with clients regularly while the big message will be sent less frequent to prevent unnecessary communication. Naturally, this provided a big refactor and a delay in timeline."
+          text: "Instead of sending all data from servers to clients, we decided to split the messages into a \"big message\" and a \"small message\". The big message is sent on setup and contains the servers public key and lots of meta-data. The small message contains the servers active links to other nodes and its most current ephemeral keys (for 0-RTT perfect forward & backward secrecy connections). The small message will communicate with clients regularly while the big message will be sent less frequent to prevent unnecessary communication. Naturally, this resulted in a big refactor and a delay in timeline."
         - type: p
-          text: This module is nearly done as well, just a few polishes here and there as well as some more integrations are needed to wrap this up.
+          text: This module is nearly done as well, just a few polishes here and there as well as some more integration tests are needed to wrap this up.
         - type: a
           text: View the Pull Request of this refactor
         - type: 'h3'
