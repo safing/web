@@ -20,6 +20,38 @@ progress_update: true
 # snapshot as of 2020/07/31
 cards:
   done:
+    - title: Improve Installation Process
+      description:
+        - Instead of downloading individual components on first start-up, download them during the installation process.
+      projects:
+        - Portmaster
+      team:
+        - Patrick
+      progress:
+        - type: 'h3'
+          text: Smoother Installation Is Here
+        - type: p
+          text: "It was slightly confusing to install a software which did the \"proper\" installation at its first start up. Next to correctly moving this process into the real installation, while at it, Patrick decided to refactor a lot of related code to further smoothen. We're happy with the results."
+    - title: CI & Arch Installer
+      description:
+        - Package the Portmaster for Arch Linux.
+        - While at it implement Continuous Integration via Github Actions to automatically test all future installs on Windows, Debian & Arch.
+      projects:
+        - Portmaster
+      team:
+        - Patrick
+      progress:
+        - type: 'h3'
+          text: All Is Well
+        - type: p
+          text: Through this project Patrick got to tinker around with Github Actions for the first time, which he really enjoyed. Having completed this task not only helps distributing to Arch users, but will also help the stability of all future Portmaster builds.
+        - type: 'h3'
+          text: More Security As A Side Effect
+        - type: p
+          text: While tackling the installer for the second Linux distribution Arch, Patrick pointed out the opt-in security of their service files. Without defining restrictions, an app like the Portmaster gets root access, so when a malicious actor takes over the Portmaster it would give him the tools to take over the whole system. As a result we defined strict rules so the Portmaster only gets read access for most of the system.
+        - type: a
+          href: https://github.com/safing/portmaster-packaging/blob/master/linux/debian/portmaster.service
+          text: Look at the service config
     - title: Funding Proposals
       description:
         - Request different grants to help us out financially with all the research & development still ahead of us.
@@ -127,6 +159,22 @@ cards:
           text: Polishing Things Up
         - type: p
           text: All in all, Patrick is making great progress and this project is nearing its completion. It just needs a few improvements here and there to then be fully deployed. Expect this to be out soon.
+    - title: Portscan Detection
+      description: Detect and block malicious actors trying to expose vulnerabilities by scanning through all networking ports on your device. Research thoroughly to prevent false positives.
+      projects:
+        - Portmaster
+      team:
+        - Daniel
+        - Thomas (Intern)
+      progress:
+        - type: 'h3'
+          text: Lots of Research Went Into This
+        - type: p
+          text: Although this is a cool feature, it could potentially lead to unwanted side effects. Investigating the impact of this module in a vastness of potential edge cases was the first part we tackled before writing a single line of code.
+        - type: 'h3'
+          text: Related Bugs Were Found While Implementing
+        - type: p
+          text: When starting to implement the Portscan, we found several related bugs in the Portmaster. Even though these delayed progress in this work package, it was super helpful to further mature the Portmaster overall.
     - title: Portmaster Documentation
       description:
         - You can see our high level concepts & you can inspect our code. But nothing in between.

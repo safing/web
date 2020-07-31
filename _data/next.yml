@@ -16,6 +16,21 @@
 
 cards:
   done:
+    - title: Improve Installation Process
+      description:
+        - Instead of downloading individual components on first start-up, download them during the installation process.
+      projects:
+        - Portmaster
+      team:
+        - Patrick
+    - title: CI & Arch Installer
+      description:
+        - Package the Portmaster for Arch Linux.
+        - While at it implement Continuous Integration via Github Actions to automatically test all future installs on Windows, Debian & Arch.
+      projects:
+        - Portmaster
+      team:
+        - Patrick
     - title: Funding Proposals
       description:
         - Request different grants to help us out financially with all the research & development still ahead of us.
@@ -57,6 +72,13 @@ cards:
         - Portmaster
       team:
         - Patrick
+    - title: Portscan Detection
+      description: Detect and block malicious actors trying to expose vulnerabilities by scanning through all networking ports on your device. Research thoroughly to prevent false positives.
+      projects:
+        - Portmaster
+      team:
+        - Daniel
+        - Thomas (Intern)
     - title: Portmaster Documentation
       description:
         - You can see our high level concepts & you can inspect our code. But nothing in between.
