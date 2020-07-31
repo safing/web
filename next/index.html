@@ -18,8 +18,8 @@ layout: page
         </div>
       </div>
       <div class="relative mt-24 lg:mt-0 lg:absolute lg:right-0 lg:mr-10">
-        <!-- blog -->
-        {% for post in site.posts limit: 1 %}
+        {% assign progress_posts = site.posts | where: "progress_update", "true" %}
+        {% for post in progress_posts limit: 1 %}
           {% include thumbnail_blog.html pre_header="BLOG" %}
         {% endfor %}
       </div>
