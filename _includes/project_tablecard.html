@@ -1,4 +1,4 @@
-<div class="card shadowthing text-left transform scale-95">
+<div class="tablecard shadowthing text-left transform scale-95">
   <div class="block  px-8 py-6 rounded-lg">
     <div class="absolute top-0 right-0 overflow-visible mr-16 mt-12 z-20">
       <div class="flex-shrink-0 mt-0">
@@ -90,7 +90,7 @@
             </div>
             <hr>
           </div>
-          <div class="pt-5">
+          <div>
             {% for tag in card.progress %}
               {% if tag.type == 'a' %}
                 <{{ tag.type }} href='{{ tag.href }}'>{{ tag.text }}</{{tag.type}}>

@@ -185,6 +185,32 @@ a.link {
   max-width: auto;
 }
 
+.tablecard{
+  max-width: auto;
+
+  h3{
+    padding-top: 2.5rem !important;
+  }
+
+  ul, 
+  ol{
+    padding: 1rem;
+    list-style-type: decimal;
+    li{
+      padding-top: 0.7rem;
+      color: #898989;
+    }
+  }
+
+  a{
+    display: inline-table;
+    position: none;
+    padding-top: 1rem;
+  }
+
+}
+
+
 .shadowthing{
   box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0), 0 0px 90px 0 rgba(59, 93, 199, 0.1);
 }
