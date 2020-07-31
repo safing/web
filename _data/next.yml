@@ -16,15 +16,6 @@
 
 cards:
   done:
-    - title: SPN Pre-Alpha
-      description:
-        - Deploy the SPN in v0.1. Give access to Marvin and Visionary Kickstarter backers.
-        - Communicate that this is only the first step and that it will take a few weeks or months until the network is stable enough to support hundreds/thousands of users.
-      projects:
-        - SPN
-      team:
-        - Daniel
-        - Patrick
     - title: Funding Proposals
       description:
         - Request different grants to help us out financially with all the research & development still ahead of us.
@@ -38,6 +29,15 @@ cards:
         - Tabitha
         - Raphael
   in_progress:
+    - title: SPN Pre-Alpha
+      description:
+        - Deploy the SPN in v0.1. Give access to Marvin and Visionary Kickstarter backers.
+        - Communicate that this is only the first step and that it will take a few weeks or months until the network is stable enough to support hundreds/thousands of users.
+      projects:
+        - SPN
+      team:
+        - Daniel
+        - Patrick
     - title: Safing API
       description:
         - Enable you to sign in to your Safing account on the Portmaster client via the Safing API. Also respond with details regarding your SPN subscription.
