@@ -1,0 +1,76 @@
+---
+title: Safing Ownership
+layout: page
+---
+
+<section id="page-container" class="pb-8 lg:pb-24 pt-16 lg:pt-40  ">
+  <div class="items-center h-full">
+    <div class="container mx-auto px-0 sm:px-0 flex">
+      <div class="max-w-screen-lg mx-auto px-0 sm:px-6 lg:flex">
+        <div class="py-12 bg-white">
+          <div class="max-w-screen-xl mx-auto px-2 sm:px-6 lg:px-8">
+            <content>
+              <div class="text-center">
+                <h1 class="text-5xl tracking-tight font-extrabold leading-none pb-5 pt-10 text-center">Community Progress Update</h1>
+                <p>July 7, 2020</p>
+                <div class="flex mx-auto justify-center pt-5">
+                  <a href="https://twitter.com/SafingIO" class="opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
+                    <img style="height: 1.1rem; width: auto;" src="/assets/img/icons/twitter.svg">
+                  </a>
+                  <a href="https://github.com/safing" class="pl-4 pr-4  opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
+                    <img style="height: 1.19rem; width: auto;" src="/assets/img/icons/github.svg">
+                  </a>
+                  <a href="https://reddit.com/r/safing" class="opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
+                    <img style="height: 1.18rem; width: auto;" src="/assets/img/icons/reddit.svg">
+                  </a>
+                </div>
+              </div>
+              <div class="pt-24">
+                {% if site.data.next.cards.done.size > 0 %}
+                  <div class="pt-12">
+                    <div style="max-width: 750px; margin-top: 3rem; margin: auto;">
+                      <h3 >Completed</h3>
+                      <p>This is a list of the tasks we have completed in this month time frame. If you wish to find more about each task, click them have a read.</p>
+                    </div>
+                    <div class="pt-10 blogwrapper">
+                      {% for card in site.data.next.cards.done %}
+                        {% include project_tablecard.html state = 'done' %}
+                      {% endfor %}
+                    </div>
+                  </div>
+                {% endif %}
+                {% if site.data.next.cards.in_progress.size > 0 %}
+                  <div class="pt-12">
+                    <div style="max-width: 750px; margin-top: 3rem; margin: auto;">
+                      <h3 >In Progress</h3>
+                      <p>This is a list of the tasks we have completed in this month time frame. If you wish to find more about each task, click them have a read.</p>
+                    </div>
+                    <div class="pt-10">
+                      {% for card in site.data.next.cards.in_progress %}
+                        {% include project_tablecard.html state = 'in_progress' %}
+                      {% endfor %}
+                    </div>
+                  </div>
+                {% endif %}
+
+                {% if site.data.next.cards.discarded.size > 0 %}
+                  <div class="pt-12">
+                    <div style="max-width: 750px; margin-top: 3rem; margin: auto;">
+                      <h3 >Discarded</h3>
+                      <p>This is a list of the tasks we have completed in this month time frame. If you wish to find more about each task, click them have a read.</p>
+                    </div>
+                    <div class="pt-10">
+                      {% for card in site.data.next.cards.discarded %}
+                        {% include project_tablecard.html state = 'discarded' %}
+                      {% endfor %}
+                    </div>
+                  </div>
+                {% endif %}
+              </div>
+            </content>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

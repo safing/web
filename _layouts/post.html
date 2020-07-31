@@ -17,7 +17,12 @@ layout: page_container
       </a>
     </div>
 </div>
+
+{% if page.progress_update %}
+<div>
+{% else %}
 <div class="content">
+{% endif %}
   {{ content | replace: '<!--break-->', '<a class="anchor" id="continue"></a>' }}
 </div>
 

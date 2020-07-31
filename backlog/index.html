@@ -1,0 +1,142 @@
+---
+title: Safing Ownership
+layout: page
+---
+
+<section style="margin-top: 12rem; margin-bottom: 8rem;" class="mb-40">
+  <div class="items-center h-full">
+    <div>
+      <div>
+          <div class="relative max-w-screen-sm lg:max-w-screen-xl mx-auto px-4 sm:px-6  xl:px-0 lg:flex">
+            <div class=" pt-8">
+              <div class="text-center lg:text-left">
+                <span class="text-sm opacity-55 tracking-normal">20.04.2020</span>
+                <h2 id="influences" class="text-5xl tracking-tight font-extrabold leading-none pb-10 pt-2">
+                  Backlog
+                </h2>
+                <p class="text-md opacity-55 max-w-lg mx-auto">
+                  We find it very hard to say what the ufutre will be. So we have
+                  created our own roadmap to show what we plan doing what we are working.
+                </p>
+              </div>
+              <!-- <div class="pt-10 flex transform scale-110 ml-5 mx-auto justify-center lg:justify-start">
+                <div class="flex">
+                  <div class="flex-1 pr-2">
+                    <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium leading-5 bg-blue-100 text-blue-800">
+                      Portmaster
+                    </span>
+                  </div>
+                  <div class="flex-1 pr-2">
+                    <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium leading-5 bg-green-100 text-green-800">
+                      Spn
+                    </span>
+                  </div>
+                  <div class="flex-1 pr-2">
+                    <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium leading-5 bg-red-100 text-red-800">
+                      Organization
+                    </span>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+            <div class="relative mt-24 lg:mt-0 lg:absolute lg:right-0 lg:mr-10">
+              <div class="mx-auto max-w-xs transform hover:scale-95 duration-150 ease-in-out">
+                <a href="/roadmapblog/">
+                  <div class="relative" style="max-width: 365px;">
+                      <img src="/assets/img/thumbnails/blog/progress-update.png">
+                    <span class="absolute text-white right-0 bottom-0 pr-3 pb-3" style="font-size: 3.1rem; font-weight: 800;">#01</span>
+                  </div>
+                  <div class="pt-6 max-w-xs">
+                    <span class="opacity-25">
+                    26. Jun 2020
+                    </span>
+                    <p>Progress Update June - #01</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            </div>
+          </div>
+        <div class="pt-48">
+          <div class="gridwrapper">
+            <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
+              <span class="opacity-50">Portmaster</span>
+              <strong class="pl-2 opacity-75">(3)</strong>
+            </div>
+              {% include project_card.html %}
+              {% include project_card.html %}
+              {% include project_card.html %}
+              {% include project_card.html %}
+            </div>
+          </div>
+        </div>
+        <div class="pt-48">
+          <div class="gridwrapper">
+            <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
+              <span class="opacity-50">SPN</span>
+              <strong class="pl-2 opacity-75">(3)</strong>
+            </div>
+              {% include project_card.html %}
+              {% include project_card.html %}
+              {% include project_card.html %}
+          </div>
+        </div>
+        <div class="pt-48">
+          <div class="gridwrapper">
+            <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
+              <span class="opacity-50">BackOffice</span>
+              <strong class="pl-2 opacity-75">(3)</strong>
+            </div>
+              {% include project_card.html %}
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!--
+  this is only for the roadmap backlog.
+  Luke will clean this at a later date.
+-->
+<style>
+  .gridwrapper{
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: auto;
+    grid-row-gap: 10px;
+    grid-auto-flow: row;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1350px;
+  }
+
+  .card{
+    max-width: auto;
+  }
+
+  .shadowthing{
+    box-shadow: 0 0px 90px 0 rgba(59, 93, 199, 0.1), 0 0px 5px 0 rgba(0, 0, 0, 0);
+  }
+
+  @media (min-width: 768px) {
+
+   }
+
+  @media (min-width: 640px) {
+    .gridwrapper{
+      grid-template-columns: repeat(1, auto);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .gridwrapper{
+      grid-template-columns: repeat(3, minmax(auto, 445px));
+    }
+
+    .card{
+      max-width: 445px;
+    }
+  }
+
+</style>
