@@ -94,6 +94,14 @@
             {% for tag in card.progress %}
               {% if tag.type == 'a' %}
                 <{{ tag.type }} href='{{ tag.href }}'>{{ tag.text }}</{{tag.type}}>
+              {% elsif tag.type == 'br' %}
+                <br/>
+              {% elsif tag.type == 'ol' %}
+                <ol>
+                  {% for li in tag.lis %}
+                    <li>{{ li }}</li>
+                  {% endfor %}
+                </ol>
               {% else %}
                 <{{ tag.type }}>{{ tag.text }}</{{tag.type}}>
               {% endif %}
