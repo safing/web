@@ -18,20 +18,10 @@ layout: page
         </div>
       </div>
       <div class="relative mt-24 lg:mt-0 lg:absolute lg:right-0 lg:mr-10">
-        <div class="mx-auto max-w-xs transform hover:scale-95 duration-150 ease-in-out">
-          <a href="/roadmapblog/">
-            <div class="relative" style="max-width: 365px;">
-                <img src="/assets/img/thumbnails/blog/progress-update.png">
-              <span class="absolute text-white right-0 bottom-0 pr-3 pb-3" style="font-size: 3.1rem; font-weight: 800;">#01</span>
-            </div>
-            <div class="pt-6 max-w-xs">
-              <span class="opacity-25">
-              26. Jun 2020
-              </span>
-              <p>Progress Update June - #01</p>
-            </div>
-          </a>
-        </div>
+        <!-- blog -->
+        {% for post in site.posts limit: 1 %}
+          {% include thumbnail_blog.html pre_header="BLOG" %}
+        {% endfor %}
       </div>
     </div>
   </div>
