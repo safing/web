@@ -1,0 +1,9 @@
+cards:
+  - title: Stabilize the Network
+    description:
+      - After v0.1, focus on stabilizing the typical issues that arise with early software. Fix bugs, improve performance & stability.
+      - Deliver to more and more pre-orders as the network's matures.
+    projects:
+      - SPN
+    team:
+      - Daniel
