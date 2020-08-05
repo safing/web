@@ -72,6 +72,26 @@
     padding-top: 0.4rem;
   }
 
+  blockquote {
+    border-left: 2px solid #ccc;
+    margin: 3rem 10px;
+    padding: 0.5em 25px;
+  }
+  blockquote:before {
+    color: #ccc;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote p {
+    display: inline;
+    font-weight: 500;
+    font-style: italic;
+    padding-left: 0;
+    color: black;
+  }
+
   .content {
     max-width: 750px;
     margin: auto;
