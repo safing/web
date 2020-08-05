@@ -23,8 +23,8 @@ Changes of _their order_ will happen from time to time and only be communicated 
 
 At release of this post the default DNS providers is set to:
 
-- 1. Quad9
-- 2. Cloudflare
+1. Quad9
+2. Cloudflare
 
 This means the primary resolver is Quad9 (1). Only when issues arise with Quad9, will the Portmaster fall back to Cloudflare (2). The same applies when a third, fourth, etc., provider is configured.
 
