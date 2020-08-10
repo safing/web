@@ -509,6 +509,16 @@ acceptance of our Privacy Policy, we recommend that subscribers check
 for updates and reads said content of any amended policies we might make
 in the future.
 
+**Amendment 0.1. 05/08/2020**
+
+Due to the Court of Justice of the European Union ruling on data transfers, 
+invalidating the Privacy Shield and GDPR compliance of such a ruling.
+It is here by stated that Safing ICS Technologies GmbH, does not hold or 
+transfer any data to any servers held in the United States of America, 
+however, due to the operating nature of the SPN, we cannot and will not 
+be held responsible for any private nodes held within the United States 
+of America that you choose to use.  
+
 ## Article 19. Contact
 
 If you have any questions regarding our Privacy Policy and how we handle
