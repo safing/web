@@ -62,3 +62,4 @@ Thumbs.db
 .bundle
 vendor/bundle
 *.plist
+.jekyll-cache/
