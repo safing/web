@@ -13,11 +13,7 @@ Future provider changes will always be communicated widely & with a heads-up.
 
 Changes of _their order_ will happen from time to time and only be communicated in our Github update logs. We need this flexibility to adapt to ever-changing environments, both in organizational and technical terms.
 
-<br/>
-
 ---
-
-<br/>
 
 ### How the Portmaster Uses DNS Servers
 
