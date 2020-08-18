@@ -22,7 +22,7 @@ Then August came around. We were invited to an official review of our applicatio
 
 ## Hiring rounds
 
-The next days I worked on our job description. A big shoutout to ghost.org - [their style and structure](https://careers.ghost.org/visual-designer/en) was great inspiration! After we distributed it through a few channels we for a responses. [Raphael]({{ site.team_url }}) pre-filtered many of the applications and with a few we set up a video call. The grant was restricted to Austria 🇦🇹, so even though we are open for remote workers, this position needed to be filled anywhere in Austria.
+The next days I worked on our job description. A big shoutout to ghost.org - [their style and structure](https://careers.ghost.org/visual-designer/en) was great inspiration! After we distributed it through a few channels we for a responses. Raphael pre-filtered many of the applications and with a few we set up a video call. The grant was restricted to Austria 🇦🇹, so even though we are open for remote workers, this position needed to be filled anywhere in Austria.
 
 It was fun getting to dive into this area from an employers perspective. So far we've only sat on the other side of the table. One thing I learned was that you really get much more interested if an application sticks out from standard, generic descriptions. And then in our situation you _really_ stick out if you are already into privacy and burning for our mission. We had two applicants who restricted their work to _only_ privacy projects. One of them could not move to Austria, which was a dealbreaker, and the other one was Luke.
 
@@ -30,7 +30,7 @@ It was fun getting to dive into this area from an employers perspective. So far 
 
 _Sidenote: [Luke talks all about his side of the story in the podcast]({{ site.podcast_url }}2019/11/29/hiring-a-designer-from-the-privacy-community/)_
 
-From the very first email we received from Luke we learnt two things: he burns for privacy and he is outspoken. This was even more affirmed after [Raphael]({{ site.team_url }}) and I got to know him via a video call (Luke's from the United Kingdom).
+From the very first email we received from Luke we learnt two things: he burns for privacy and he is outspoken. This was even more affirmed after Raphael and I got to know him via a video call (Luke's from the United Kingdom).
 
 The even crazier thing about this was, Luke found out about us and the job via The Hated One. I appeared on [his channel twice](https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q/), but would never have thought that this would end up helping us hiring our designer. HUGE shoutout to THO!!!
 
