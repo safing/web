@@ -54,14 +54,9 @@
     font-weight: 500;
   }
 
-  ul {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
-  ol {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+  ul, ol {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   ul li {
@@ -74,7 +69,7 @@
 
   blockquote {
     border-left: 2px solid #ccc;
-    margin: 3rem 10px;
+    margin: 1rem 10px;
     padding: 0.5em 25px;
   }
   blockquote:before {
