@@ -7,40 +7,25 @@ custom_thumbnail_name: spn-tor
 
 ## Tor's Mission is Broad, Safing Focuses on Easy of Use
 
-**Tor project's mission**
-
-from [https://www.torproject.org/](https://www.torproject.org/) - in the footer
+Tor's mission statement (from [https://www.torproject.org/](https://www.torproject.org/) - in the footer), declares:
 
 > To advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, supporting their unrestricted availability and use, and furthering their scientific and popular understanding.
 
-**Safing's mission**
+We wholeheartedly agree and appreciate Tor's work and outlined broader mission, but our focus is on a specific sub-area of theirs:
 
-from [https://safing.io/our-values/](https://safing.io/our-values/)
-
-> Enabling you to reclaim your privacy
-> We're building tools to help everyone withstand today's mass surveillance
-
-**A comparison**
-
-How would you differentiate them?
-
-My take is that Tor's mission is broader than ours. They do overlap, in the sense that one can interpret their mission to include ours. We wholeheartedly agree and appreciate Tor's work and outlined broader mission, but our focus is on a specific sub-area of theirs:
-
-> Building tools to help everyone withstand today's mass surveillance.
-
-We mean *everyone*. We want my mom and your mom to be able to conveniently withstand mass surveillance without having to venture deep into tech. This is our focus. This is what drives us. It's the reason we get out of bed.
-
-## Maturity
-
-Tor was released in 2002, while the SPN will launch in June 2020. It goes without saying that Tor is the far maturer project of the two. The SPN is still in its early days.
+We believe that freedom can only flourish if privacy is the default. And privacy will only be broadly adopted if it is easy to use. So "Easy to use" is our focus: we want my mom and your mom to be able to conveniently withstand mass surveillance without having to venture deep into tech. This is what drives us. This is our mission.
 
 ## The SPN Protects Your Whole Computer
 
 The Tor browser has great coverage, supporting all major operating systems. It protects the browser habits of its users and is a breeze to set up. When one additionally wants to safeguard the whole computer via the Tor network one has to use the [operating system tails](https://tails.boum.org/install/index.en.html), which is great at what it does, but hard and technical to set up and use.
 
-This is one key difference to the SPN. With it, it's a simple plug and play. You download the open source app and then it takes care of all your connections, not only those of the browser. When launching in June, we will support Windows, with Linux following shortly after. We are planning on supporting Mac and Mobile in the future too, so everybody can enjoy easy privacy with their preferred operating system.
+This is one key difference to the SPN. With it, it's a simple plug and play. You download the open source app and then it takes care of all your connections, not only those of the browser. Currently, we support Windows and Linux. We are planning on supporting Mac and Mobile in the future too, so everybody can enjoy easy privacy with their preferred operating system.
 
 Another detail is that Tor does not transport everything, notably UDP traffic. The SPN will support TCP and UDP (+ variants) from the get go and we will see if we will need and implement anything else.
+
+## Tor Is Maturer
+
+Tor was released in 2002, while the SPN launched in August 2020. It goes without saying that Tor is the far maturer project of the two. The SPN is still in its early days.
 
 ## The SPN Minimizes Travel through the Open Web
 
@@ -54,7 +39,7 @@ When the connection arrives at the last server of the circuit it still has to tr
 
 With the SPN however, every connection is calculated individually and leaves the network as near to the destination as possible. This means:
 
-1. your connections are spread across the globe
+1. your connections are spread across the globe, creating vast amounts of identities
 2. visibility in the 'open web' is minimized
 3. connections are not slowed down by having to go extra miles
 
@@ -62,11 +47,11 @@ With the SPN however, every connection is calculated individually and leaves the
 
 ## Minor comments
 
-Tor's mission for anonymity also enables people to host content anonymously through onion domains. This is a non goal for Safing.
 **The Dark Web Is a Non-Goal for Safing**  
+Tor's mission for anonymity also enables people to host content anonymously through onion domains. This is a non-goal for Safing.
 
-While the open source SPN app sits at the kernel, it can do all sorts of amazing stuff. It will enforce all your DNS queries to use DNS over TLS (DoT), which also prevents your router from snooping on you. Later, it will also block malicious connections via an integrated Application Firewall.
 **SPN Enforces DoT and Blocks Ads/Trackers**  
+As the [open source Portmaster app]({{ site.github_url }}/portmaster/), which hosts the SPN, sits at the kernel, it can add all sorts of amazing privacy features. Current modules (free & optional) include a DNS Resolver which enforces all your DNS queries to use DNS over TLS (DoT) and a Privacy Filter which blocks malicious or unwanted connections.
 
 **The SPN Costs Money**  
 Both the SPN and Tor are FOSS. But Tor is free to use while you have to subscribe to the SPN in order to use it. Be aware you are not only paying for the SPN, but also supporting us to develop the free application firewall and enabling us to continue fighting for a brighter future.

@@ -11,15 +11,15 @@ cover_image_source: https://pixabay.com/vectors/the-globe-globe-the-internet-fre
 ### VPNs Were Built for Security, NOT for Privacy
 The VPN technology was developed to allow remote workers to securely connect to a corporate network to virtually check into the office and access internal resources. It does this by establishing a secure tunnel between the worker and the company. The VPN shields the whole route from the worker to the office, never entering the "open Internet".
 
-Naturally, they do something very similar. As an example, let's say you want to connect to "google.com" via a VPN. The VPN client first creates a safe tunnel to the VPN server, which then calls upon "google.com". So a VPN safeguards your connections up until the VPN server, then unpacks their protection and routes it back into the open Internet.
 ### Commercial VPNs Are just Proxy Servers
+A commercial VPNs does something rather mundane. As an example, let's say you want to connect to "google.com" via a VPN. The VPN client first creates a safe tunnel to the VPN server, which then calls upon "google.com". So a VPN safeguards your connections up until the VPN server, then unpacks their protection and routes it back into the open Internet.
 
 ### VPNs do NOT Protect Your Privacy
 There are many legitimate use cases for a VPN, like securely connecting to your corporate network or "beaming" into another country to enjoy different content or cheaper prices. But VPNs do *not* protect your privacy.
 
 ## The SPN Truly Protects Your Meta Data
 
-A VPN does protect you from your Internet Service Provider (ISP) to collect and process you browsing activities. But this just delegates the problem: now the VPN that can collect and sell all your data, which many of them do.
+Before diving into the SPN, let's recap: A VPN does protect you from your Internet Service Provider (ISP) to collect and process you browsing activities. But in the end this just delegates the problem: now the VPN that can collect and sell all your data, which many of them do.
 
 ![VPNs](https://safing.io/assets/img/spn/vpn-web.png)
 
@@ -40,7 +40,7 @@ The VPN and SPN both tunnel connections from your whole computer, not only from 
 ## SPN ♥ Open Source - Everybody Can Inspect
 Many commercial VPN providers use bold and misleading marketing claims without any evidence to back it up. The code on their servers and mostly on their clients cannot be investigated. They demand your trust but give little to no proof in return.
 
-The SPN however is open source / FOSS. We do not believe users should simply 'trust' companies when it comes to their privacy. Instead they should be able to inspect vendors and hold them accountable publicly. So feel free to check out [our Github](https://github.com/Safing/).
+The [SPN however is open source / FOSS]({{ site.github_url }}/spn/). We do not believe users should simply 'trust' companies when it comes to their privacy. Instead they should be able to inspect vendors and hold them accountable publicly. Feel free to [check out all of our Github](https://github.com/Safing/).
 
 ## The SPN Minimizes Travel through the Open Web
 
@@ -48,7 +48,7 @@ After a connection arrives at the VPN server it still has to travel to the desir
 
 With the SPN however, every connection is calculated individually and leaves the network as near to the destination as possible. This means:
 
-1. your connections are spread across the globe
+1. your connections are spread across the globe, creating vast amounts of identities
 2. visibility in the 'open web' is minimized
 3. connections are not slowed down by having to go extra miles
 
@@ -56,8 +56,8 @@ With the SPN however, every connection is calculated individually and leaves the
 
 ## Minor comments
 
-While the open source SPN app sits at the kernel, it can do all sorts of amazing stuff. It will enforce all your DNS queries to use DNS over TLS (DoT), which also prevents your router from snooping on you. Later, it will also block malicious connections via an integrated Application Firewall.
 **SPN Enforces DoT and Blocks Ads/Trackers**  
+As the [open source Portmaster app]({{ site.github_url }}/portmaster/), which hosts the SPN, sits at the kernel, it can add all sorts of amazing privacy features. Current modules (free & optional) include a DNS Resolver which enforces all your DNS queries to use DNS over TLS (DoT) and a Privacy Filter which blocks malicious or unwanted connections.
 
 **VPN - a Very Precarious Narrative**  
 There is [a great write up by Dennis Schubert](https://schub.wtf/blog/2019/04/08/very-precarious-narrative.html) showcasing the problem of todays commercial VPNs, both from a privacy and security perspective. Feel free to check it out, it also shows the valid use cases of VPNs.
