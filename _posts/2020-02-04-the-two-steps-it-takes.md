@@ -14,7 +14,7 @@ This is that story. And the story of shortcuts.
 
 ## Step 1: Creating a Product
 
-### Grinding it out with R & D
+### Grind it out with R & D
 
 There's one question that every company answers before starting out: "What problem are you trying to solve?"
 
@@ -22,7 +22,7 @@ Then you go to the drafting board, you research deep into the issue, you think t
 
 This process is called Research & Development. Nothing novel out there 'just happened', instead, an idea was cultivated and progressed through plenty of trials and errors until it matured into a workable solution.
 
-### The Shortcut
+### The Shortcut: Just Copy Work
 
 But what if you do not have the time for all that? It's rather easy actually, you just copy a current solution. Or you only slightly add functionality to an existing product. The devil's advocate would call this stealing, the marketer would simply describe it as rebranding.
 
@@ -34,7 +34,7 @@ With a novel or rebranded product, you're ready to move ahead. But nothing is ga
 
 ## Step 2: Marketing and Growth
 
-### Putting in the honest work
+### Listen and Put in Honest Work
 
 If you have the perfect solution to a problem but nobody knows about it, was the problem really solved? Was your solution really any good? Honestly, no. This is the reason why marketing is *necessary*.
 
@@ -44,7 +44,7 @@ But talking to your market has become difficult. In today's information overflow
 
 For generic growth, there is no way around listening to your audience, being honest and open, and ultimately building a relationship with your customers. Only time, genuine effort and persistence will get you there.
 
-### The Shortcut
+### The Shortcut: Just Buy Attention
 
 Oh yeah, there is a way around this too. Instead of putting in the work, just buy yourself into the game: With todays ad industry, you can simply spend hundreds of thousands of dollars to buy people's attention and hopefully convert enough of them into customers.
 
@@ -54,7 +54,7 @@ The catch with this however is that you normally have to turn to venture capital
 
 Marketing is the act of talking and promoting your product to the market. As a result, growth is *only* possible through good marketing. The ethics behind it all is another story, but I assume you can guess my stance on that topic ;)
 
-## Convergence
+## Failing One Step Results in Overall Failure
 
 Think about different companies and their approach in both these steps. What about those who chose to copy old technology but market it in an honest way? What about those that took the shortcut in both cases? What about the geniuses who researched a break-through solution but failed to present and market it to the world?
 

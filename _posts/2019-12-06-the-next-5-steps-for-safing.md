@@ -1,12 +1,12 @@
 ---
-title: The next 5 steps for Safing
+title: The next 5 Steps for Safing
 date: 2019-12-06
 author: davegson
 custom_thumbnail_name: the-next-5-steps-for-safing
 cover_image_source: https://pixabay.com/photos/architecture-stone-blocks-block-3481302/
 ---
 
-## Intro
+## A Rough Estimate of What Might Happen in 2020
 
 With our Kickstarter around the corner - launching on the 2nd of January 2020 - we thought this might be a good time to communicate what our next steps are going to be. These are no far fetched, crazy dreams, but instead executable plans. In 2020, we will surely finish several of these steps. And if the campaign goes well enough, we could gain sufficient resources to hire additional talent, helping us complete them all!
 
@@ -38,7 +38,7 @@ As we already intercept your connections, why not enable you to block the faulty
 
 And the best it will be totally free to use. We totally get that not everyone will be able to pay for the SPN and its servers - but why not enable them to get stealthy privacy too? There is no reason not to!
 
-## Stage 1. completed & future plans
+## Our Dream for Stage 1. and further Plans
 
 That will complete the first stage of our plans. At this point we can finally give away an open source, powerful application firewall. Free for anyone to use, supporting all desktop operating systems. And those who like what we do and can afford it, can then pay for the SPN to support us. We truly cannot wait!
 
