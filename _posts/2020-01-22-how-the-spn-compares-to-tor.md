@@ -13,7 +13,7 @@ Tor's mission statement (from [https://www.torproject.org/](https://www.torproje
 
 We wholeheartedly agree and appreciate Tor's work and outlined broader mission, but our focus is on a specific sub-area of theirs:
 
-We believe that freedom can only flourish if privacy is the default. And privacy will only be broadly adopted if it is easy to use. So "Easy to use" is our focus: we want my mom and your mom to be able to conveniently withstand mass surveillance without having to venture deep into tech. This is what drives us. This is our mission.
+We believe that freedom can only flourish when privacy is the default. And privacy will only be broadly adopted if it is easy to use. So "Easy to use" is our focus: we want my mom and your mom to be able to conveniently withstand mass surveillance without having to venture deep into tech. This is what drives us. This is our mission.
 
 ## The SPN Protects Your Whole Computer
 
