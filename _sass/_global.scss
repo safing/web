@@ -2,6 +2,10 @@
   font-family: "Roboto";
 }
 
+a{
+  word-break: break-all;
+}
+
 body {
   overflow-x: hidden;
 }
@@ -211,7 +215,7 @@ a.link {
 }
 
 
-.shadowthing{
+.cardshadow{
   box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0), 0 0px 90px 0 rgba(59, 93, 199, 0.1);
 }
 
@@ -219,7 +223,7 @@ a.link {
   display: grid;
     grid-template-columns: repeat(1, auto);
     grid-template-rows: auto;
-    grid-row-gap: 3px;
+    grid-row-gap: 15px;
     grid-auto-flow: row;
     margin-left: auto;
     margin-right: auto;
