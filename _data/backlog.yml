@@ -12,8 +12,8 @@ cards:
       - Portmaster
   - title: Network Trust System
     description:
-      - Remember which networks you trust and what security level should be used within them.
-      - Breathe some life into the Autopilot system so a switch in networks automatically changes the security level.
+      - Remember which networks you trust and activate additional defenses in untrusted networks, like the Wi-Fi of your favorite coffee shop.
+      - Breathe some life into the Autopilot system and automatically switch to a heightened security level in untrusted networks.
     projects:
       - Portmaster
   - title: Adaptive Protection System
@@ -103,7 +103,9 @@ cards:
       - Portmaster
       - SPN
   - title: SPN Transports
-    description: Create new transport types to allow you to connect to the SPN even in restricted networks.
+    description:
+      - Create new transport types (how you connect to the SPN) to allow you to connect to the SPN even in restricted networks.
+      - These transports will be able to circumvent network level detection and are the stepping stone to the Nebula Network.
     projects:
       - SPN
   - title: Nebula Network
