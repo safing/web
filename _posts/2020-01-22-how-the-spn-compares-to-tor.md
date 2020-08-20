@@ -5,7 +5,7 @@ author: davegson
 custom_thumbnail_name: spn-tor
 ---
 
-## Tor's Mission is Broad, Safing Focuses on Easy of Use
+## Tor's Mission is Broad, Safing Focuses on Ease of Use
 
 Tor's mission statement (from [https://www.torproject.org/](https://www.torproject.org/) - in the footer), declares:
 
