@@ -3,140 +3,154 @@ title: Safing Ownership
 layout: page
 ---
 
+<!-- Project Priority according to next.yml -->
+
+{% assign all_cards = site.data.backlog.cards %}
+{% assign portmaster_cards = all_cards | where_exp: "card", "card.projects contains 'Portmaster'" %}
+{% assign spn_cards = all_cards | where_exp: "card", "card.projects contains 'SPN'" %}
+{% assign website_cards = all_cards | where_exp: "card", "card.projects contains 'Website'" %}
+{% assign community_cards = all_cards | where_exp: "card", "card.projects contains 'Community'" %}
+{% assign marketing_cards = all_cards | where_exp: "card", "card.projects contains 'Marketing'" %}
+{% assign backoffice_cards = all_cards | where_exp: "card", "card.projects contains 'Back Office'" %}
+
 <section style="margin-top: 12rem; margin-bottom: 8rem;" class="mb-40">
   <div class="items-center h-full">
-    <div>
-      <div>
-          <div class="relative max-w-screen-sm lg:max-w-screen-xl mx-auto px-4 sm:px-6  xl:px-0 lg:flex">
-            <div class=" pt-8">
-              <div class="text-center lg:text-left">
-                <span class="text-sm opacity-55 tracking-normal">20.04.2020</span>
-                <h2 id="influences" class="text-5xl tracking-tight font-extrabold leading-none pb-10 pt-2">
-                  Backlog
-                </h2>
-                <p class="text-md opacity-55 max-w-lg mx-auto">
-                  We find it very hard to say what the ufutre will be. So we have
-                  created our own roadmap to show what we plan doing what we are working.
-                </p>
-              </div>
-              <!-- <div class="pt-10 flex transform scale-110 ml-5 mx-auto justify-center lg:justify-start">
-                <div class="flex">
-                  <div class="flex-1 pr-2">
-                    <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium leading-5 bg-blue-100 text-blue-800">
-                      Portmaster
-                    </span>
-                  </div>
-                  <div class="flex-1 pr-2">
-                    <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium leading-5 bg-green-100 text-green-800">
-                      Spn
-                    </span>
-                  </div>
-                  <div class="flex-1 pr-2">
-                    <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium leading-5 bg-red-100 text-red-800">
-                      Organization
-                    </span>
-                  </div>
-                </div>
-              </div> -->
-            </div>
-            <div class="relative mt-24 lg:mt-0 lg:absolute lg:right-0 lg:mr-10">
-              <div class="mx-auto max-w-xs transform hover:scale-95 duration-150 ease-in-out">
-                <a href="/roadmapblog/">
-                  <div class="relative" style="max-width: 365px;">
-                      <img src="/assets/img/thumbnails/blog/progress-update.png">
-                    <span class="absolute text-white right-0 bottom-0 pr-3 pb-3" style="font-size: 3.1rem; font-weight: 800;">#01</span>
-                  </div>
-                  <div class="pt-6 max-w-xs">
-                    <span class="opacity-25">
-                    26. Jun 2020
-                    </span>
-                    <p>Progress Update June - #01</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-            </div>
-          </div>
-        <div class="pt-48">
-          <div class="gridwrapper">
-            <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
-              <span class="opacity-50">Portmaster</span>
-              <strong class="pl-2 opacity-75">(3)</strong>
-            </div>
-              {% include project_card.html %}
-              {% include project_card.html %}
-              {% include project_card.html %}
-              {% include project_card.html %}
-            </div>
+    <div class="relative max-w-screen-sm lg:max-w-screen-xl mx-auto px-4 sm:px-6 xl:px-0 lg:flex">
+      <div class=" pt-8">
+        <div class="text-center lg:text-left">
+          <span class="text-sm opacity-55 tracking-normal">20.04.2020</span>
+          <h2 id="influences" class="text-5xl tracking-tight font-extrabold leading-none pb-5 pt-2">
+            Backlog
+          </h2>
+          <p class="text-md opacity-55 max-w-lg mx-auto">
+            A big picture overview of our current mid- and long-term plans.
+          </p>
+        </div>
+        <div class="pt-10 flex transform mx-auto justify-center lg:justify-start">
+          <span class="text-sm opacity-55 mr-4">
+            Jump to:
+          </span>
+          <div class="flex">
+            {% if portmaster_cards.size > 0 %}
+              <a href="#portmaster" class="flex-1 pr-2" style="word-break: normal;">
+                {% include tag.html tag='Portmaster' %}
+              </a>
+            {% endif %}
+            {% if spn_cards.size > 0 %}
+              <a href="#spn" class="flex-1 pr-2" style="word-break: normal;">
+                {% include tag.html tag='SPN' %}
+              </a>
+            {% endif %}
+            {% if website_cards.size > 0 %}
+              <a href="#website" class="flex-1 pr-2" style="word-break: normal;">
+                {% include tag.html tag='Website' %}
+              </a>
+            {% endif %}
+            {% if community_cards.size > 0 %}
+              <a href="#community" class="flex-1 pr-2" style="word-break: normal;">
+                {% include tag.html tag='Community' %}
+              </a>
+            {% endif %}
+            {% if marketing_cards.size > 0 %}
+              <a href="#marketing" class="flex-1 pr-2" style="word-break: normal;">
+                {% include tag.html tag='Marketing' %}
+              </a>
+            {% endif %}
+            {% if backoffice_cards.size > 0 %}
+              <a href="#backoffice" class="flex-1 pr-2" style="word-break: normal;">
+                {% include tag.html tag='Back Office' %}
+              </a>
+            {% endif %}
           </div>
         </div>
-        <div class="pt-48">
-          <div class="gridwrapper">
-            <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
-              <span class="opacity-50">SPN</span>
-              <strong class="pl-2 opacity-75">(3)</strong>
-            </div>
-              {% include project_card.html %}
-              {% include project_card.html %}
-              {% include project_card.html %}
-          </div>
-        </div>
-        <div class="pt-48">
-          <div class="gridwrapper">
-            <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
-              <span class="opacity-50">BackOffice</span>
-              <strong class="pl-2 opacity-75">(3)</strong>
-            </div>
-              {% include project_card.html %}
-            </div>
-          </div>
-        </div>
+        <p class="text-xs opacity-55 max-w-lg mx-auto pt-4">
+          Disclaimer: Order of listing is only a rough indication of priority. And even if we'd love to accomplish everything listed below, some projects may turn out to be unfeasible.
+        </p>
+      </div>
+      <div class="relative mt-24 lg:mt-0 lg:absolute lg:right-0 lg:mr-10">
+        {% assign progress_posts = site.posts | where: "progress_update", "true" %}
+        {% for post in progress_posts limit: 1 %}
+          {% include thumbnail_blog.html pre_header="BLOG" %}
+        {% endfor %}
+      </div>
     </div>
   </div>
+  {% if portmaster_cards.size > 0 %}
+    <div class="pt-32">
+      <div class="nextwrapper">
+        <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
+          <span class="opacity-50" id="portmaster">Portmaster</span>
+          <strong class="pl-2 opacity-75">({{ portmaster_cards.size }})</strong>
+        </div>
+        {% for card in portmaster_cards %}
+          {% include project_card.html state='backlog' project='portmaster' %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+  {% if spn_cards.size > 0 %}
+    <div class="pt-32">
+      <div class="nextwrapper">
+        <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
+          <span class="opacity-50" id="spn">Safing Privacy Network</span>
+          <strong class="pl-2 opacity-75">({{ spn_cards.size }})</strong>
+        </div>
+        {% for card in spn_cards %}
+          {% include project_card.html state='backlog' project='spn' %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+  {% if website_cards.size > 0 %}
+    <div class="pt-32">
+      <div class="nextwrapper">
+        <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
+          <span class="opacity-50" id="website">Website</span>
+          <strong class="pl-2 opacity-75">({{ website_cards.size }})</strong>
+        </div>
+        {% for card in website_cards %}
+          {% include project_card.html state='backlog' project='website' %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+  {% if community_cards.size > 0 %}
+    <div class="pt-32">
+      <div class="nextwrapper">
+        <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
+          <span class="opacity-50" id="community">Community</span>
+          <strong class="pl-2 opacity-75">({{ community_cards.size }})</strong>
+        </div>
+        {% for card in community_cards %}
+          {% include project_card.html state='backlog' project='community' %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+  {% if marketing_cards.size > 0 %}
+    <div class="pt-32">
+      <div class="nextwrapper">
+        <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
+          <span class="opacity-50" id="marketing">Marketing</span>
+          <strong class="pl-2 opacity-75">({{ marketing_cards.size }})</strong>
+        </div>
+        {% for card in marketing_cards %}
+          {% include project_card.html state='backlog' project='marketing' %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+  {% if backoffice_cards.size > 0 %}
+    <div class="pt-32">
+      <div class="nextwrapper">
+        <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
+          <span class="opacity-50" id="backoffice">Back Office</span>
+          <strong class="pl-2 opacity-75">({{ backoffice_cards.size }})</strong>
+        </div>
+        {% for card in backoffice_cards %}
+          {% include project_card.html state='backlog' project='backoffice' %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
 </section>
-
-<!--
-  this is only for the roadmap backlog.
-  Luke will clean this at a later date.
--->
-<style>
-  .gridwrapper{
-    display: grid;
-    grid-template-columns: repeat(1, auto);
-    grid-template-rows: auto;
-    grid-row-gap: 10px;
-    grid-auto-flow: row;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1350px;
-  }
-
-  .card{
-    max-width: auto;
-  }
-
-  .shadowthing{
-    box-shadow: 0 0px 90px 0 rgba(59, 93, 199, 0.1), 0 0px 5px 0 rgba(0, 0, 0, 0);
-  }
-
-  @media (min-width: 768px) {
-
-   }
-
-  @media (min-width: 640px) {
-    .gridwrapper{
-      grid-template-columns: repeat(1, auto);
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .gridwrapper{
-      grid-template-columns: repeat(3, minmax(auto, 445px));
-    }
-
-    .card{
-      max-width: 445px;
-    }
-  }
-
-</style>
