@@ -2,31 +2,14 @@
     <div class="block cardshadow p-8 rounded-lg">
       <div class="tabs">
         <div class="tab">
-          <input class="dropinput" type="checkbox" id="card-{{ include.state }}-{{ forloop.index }}">
-          <label style="min-width: 90%; min-height: 150px; display: block;" class="absolute cursor-pointer" for="card-{{ include.state }}-{{ forloop.index }}">
+          <input class="dropinput" type="checkbox" id="card{{ include.state | prepend: '-' }}{{ include.project | prepend: '-' }}-{{ forloop.index }}">
+          <label style="min-width: 90%; min-height: 150px; display: block;" class="absolute cursor-pointer" for="card{{ include.state | prepend: '-' }}{{ include.project | prepend: '-' }}-{{ forloop.index }}">
             <img class="absolute right-0" style="margin-right: 1rem;" id="icon" src="{{ site.assets_url }}/icons/arrow.svg" alt="">
           </label>
           <div>
             <div class="flex">
               {% for tag in card.projects %}
-                {% assign tag_bg_strength = 100 %}
-                {% if tag == 'Portmaster' %}
-                  {% assign tag_color = 'blue' %}
-                {% elsif tag == 'SPN' %}
-                  {% assign tag_color = 'green' %}
-                {% elsif tag == 'Website' %}
-                  {% assign tag_color = 'pink' %}
-                {% elsif tag == 'Backoffice' %}
-                  {% assign tag_color = 'gray' %}
-                  {% assign tag_bg_strength = 200 %}
-                {% elsif tag == 'Community' %}
-                  {% assign tag_color = 'purple' %}
-                {% elsif tag == 'Marketing' %}
-                  {% assign tag_color = 'orange' %}
-                {% endif %}
-                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium leading-5 bg-{{ tag_color }}-{{ tag_bg_strength }} text-{{ tag_color }}-800 mr-2">
-                  {{ tag }}
-                </span>
+                {% include tag.html tag=tag %}
               {% endfor %}
             </div>
             <div class="flex pt-6 items-center">

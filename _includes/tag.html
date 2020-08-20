@@ -1,0 +1,18 @@
+{% assign tag_bg_strength = 100 %}
+{% if include.tag == 'Portmaster' %}
+  {% assign tag_color = 'blue' %}
+{% elsif include.tag == 'SPN' %}
+  {% assign tag_color = 'green' %}
+{% elsif include.tag == 'Website' %}
+  {% assign tag_color = 'pink' %}
+{% elsif include.tag == 'Back Office' %}
+  {% assign tag_color = 'gray' %}
+  {% assign tag_bg_strength = 200 %}
+{% elsif include.tag == 'Community' %}
+  {% assign tag_color = 'purple' %}
+{% elsif include.tag == 'Marketing' %}
+  {% assign tag_color = 'orange' %}
+{% endif %}
+<span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium leading-5 bg-{{ tag_color }}-{{ tag_bg_strength }} text-{{ tag_color }}-800 mr-2">
+  {{ include.tag }}
+</span>

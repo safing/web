@@ -4,7 +4,7 @@
 # - Website (includes the CustomerHub)
 # - Community
 # - Marketing
-# - Backoffice
+# - Back Office
 
 # Ordering of team members should lean towards most involved -> least involved. but may also be done randomly
 
@@ -39,7 +39,7 @@ cards:
         text: "More on Transparent Funding..."
         url: "/ownership/#finances"
       projects:
-        - Backoffice
+        - Back Office
       team:
         - Tabitha
         - Raphael
