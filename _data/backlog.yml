@@ -1,9 +1,138 @@
 cards:
+  - title: Connection Prompting
+    description:
+      - Reintroduce the "Prompt Mode" which asks for your input whether or not to allow a connection. Naturally, make it possible to lock in a decision for the future.
+    projects:
+      - Portmaster
+  - title: Full UI Redesign
+    description:
+      - Completely overhaul the Portmaster user interface to simplify all aspects of it.
+      - Easily block connections from the Monitor, easily block all connection of an app, etc...
+    projects:
+      - Portmaster
+  - title: Network Trust System
+    description:
+      - Remember which networks you trust and what security level should be used within them.
+      - Breathe some life into the Autopilot system so a switch in networks automatically changes the security level.
+    projects:
+      - Portmaster
+  - title: Adaptive Protection System
+    description:
+      - Lookout for portscans against your device and block the offender. Research thoroughly to prevent false positives.
+    projects:
+      - Portmaster
+  - title: Local Connection History
+    projects:
+      - Portmaster
+    description:
+      - Instead of only viewing what is currently going on, save a local history to be able to inspect what apps did in the past. Naturally, this is local only.
+      - Also, provide a simple opt-out.
+  - title: TLS Inspection
+    description:
+      - The TLS protocol not only has many problems by itself, but is also often used fatally wrong by software developers.
+      - Inspect TLS traffic to ensure that the used encryption is good and check all certificates both for validity and for a potential nullification.
+      - Enable you to set or cut down on the amount of trusted Root Certification Authorities.
+    projects:
+      - Portmaster
   - title: Stabilize the Network
     description:
       - After v0.1, focus on stabilizing the typical issues that arise with early software. Fix bugs, improve performance & stability.
       - Deliver to more and more pre-orders as the network's matures.
     projects:
       - SPN
-    team:
-      - Daniel
+  - title: Community Nodes
+    description:
+      - Fully support community nodes to join the network. Make it easy for contributors to get started by creating good documentation.
+      - "Disclaimer: this does not yet include compensation, which is tackled in its own project"
+    projects:
+      - SPN
+  - title: Routing Optimization
+    description: TODO
+    projects:
+      - SPN
+  - title: Connection Resiliance & Stability
+    description:
+      - Insert more resilience into SPN connections, so that even when your Internet goes down for a bit or a used node fails, the Portmaster will still be able to revive and continue your connection as if nothing happened.
+    projects:
+      - SPN
+  - title: Multi-Path Connections
+    description:
+      - Enable connections to go over multiple paths simultaneously, which will increase the maximum possible bandwidth within the network.
+      - Utilize this functionality to route all your SPN traffic through multiple Internet uplinks at the same time.
+    projects:
+      - SPN
+  - title: Routing Profiles
+    description:
+      - Make it possible to prioritize either speed, privacy or latency when using the SPN. Permit configuration per app/security level.
+    projects:
+      - SPN
+  - title: IP Leak Protection
+    description:
+      - Block known services that want to snoop your IP address.
+      - Also actively inspect SSDP, UPnP, Bonjour/Zeroconf and TURN in order to stop them from leaking your IP address.
+    projects:
+      - SPN
+  - title: CLI Client
+    description:
+      - Create a command line tool which provides the same features as the graphical user interface.
+    projects:
+      - Portmaster
+      - SPN
+  - title: Crowd-Sourced App Settings
+    description:
+      - Improve the structure of the app settings and make it easy for you to share selected parts of your configuration with the community.
+      - Make it just as simple to import community-vetted, privacy-enforcing app settings.
+    projects:
+      - Portmaster
+  - title: Mac OS Support
+    description: Integrate the Portmaster/SPN into the Mac operating system.
+    projects:
+      - Portmaster
+      - SPN
+  - title: Compensate Community Nodes
+    description:
+      - Implement a system to fairly compensate our awesome community nodes, which enable us to become a decentralized network.
+      - We do have concepts ready, but will refine them and further outline them as the project starts.
+    projects:
+      - SPN
+  - title: iOS Support
+    description: Develop iOS support for both the Portmaster and the SPN.
+    projects:
+      - Portmaster
+      - SPN
+  - title: Android Support
+    description: Support both the Portmaster and the SPN on Android.
+    projects:
+      - Portmaster
+      - SPN
+  - title: SPN Transports
+    description: Create new transport types to allow you to connect to the SPN even in restricted networks.
+    projects:
+      - SPN
+  - title: Nebula Network
+    description: Allow you to access the SPN from within restricted countries or areas.
+    projects:
+      - SPN
+  - title: Cryptocurrency Payments
+    description: Enable you to pay for the SPN with cryptocurrencies such as Bitcoin, Ethereum, Zcash and Monero
+    projects:
+      - Website
+  - title: Credit Card Payments
+    description: Enable you to pay for the SPN with credit cards.
+    projects:
+      - Website
+  - title: "Video: Portmaster in Action"
+    description:
+      - Produce the trailer video showing what the Portmaster is all about as promised on the /portmaster page.
+    projects:
+      - Website
+  - title: "Video: SPN in Action"
+    description:
+      - Produce the trailer video showing what the SPN is all about as promised on the /spn page.
+    projects:
+      - Website
+  - title: 'Revamp "About" Section'
+    description:
+      - Retext & update the team page. Revisit the interview videos. Add a section that shows our values more clearly.
+    projects:
+      - Website
