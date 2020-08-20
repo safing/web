@@ -37,6 +37,7 @@ cards:
   - title: Stabilize the Network
     description:
       - After v0.1, focus on stabilizing the typical issues that arise with early software. Fix bugs, improve performance & stability.
+      - Detect failures in the network and react accordingly.
       - Deliver to more and more pre-orders as the network's matures.
     projects:
       - SPN
@@ -44,10 +45,6 @@ cards:
     description:
       - Fully support community nodes to join the network. Make it easy for contributors to get started by creating good documentation.
       - "Disclaimer: this does not yet include compensation, which is tackled in its own project"
-    projects:
-      - SPN
-  - title: Routing Optimization
-    description: TODO
     projects:
       - SPN
   - title: Connection Resiliance & Stability
@@ -71,7 +68,7 @@ cards:
       - Block known services that want to snoop your IP address.
       - Also actively inspect SSDP, UPnP, Bonjour/Zeroconf and TURN in order to stop them from leaking your IP address.
     projects:
-      - SPN
+      - Portmaster
   - title: CLI Client
     description:
       - Create a command line tool which provides the same features as the graphical user interface.
