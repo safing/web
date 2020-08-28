@@ -4,12 +4,6 @@ cards:
       - Reintroduce the "Prompt Mode" which asks for your input whether or not to allow a connection. Naturally, make it possible to lock in a decision for the future.
     projects:
       - Portmaster
-  - title: Full UI Redesign
-    description:
-      - Completely overhaul the Portmaster user interface to simplify all aspects of it.
-      - Easily block connections from the Monitor, easily block all connection of an app, etc...
-    projects:
-      - Portmaster
   - title: Network Trust System
     description:
       - Remember which networks you trust and activate additional defenses in untrusted networks, like the Wi-Fi of your favorite coffee shop.
@@ -34,13 +28,6 @@ cards:
       - Enable you to set or cut down on the amount of trusted Root Certification Authorities.
     projects:
       - Portmaster
-  - title: Stabilize the Network
-    description:
-      - After v0.1, focus on stabilizing the typical issues that arise with early software. Fix bugs, improve performance & stability.
-      - Detect failures in the network and react accordingly.
-      - Deliver to more and more pre-orders as the network's matures.
-    projects:
-      - SPN
   - title: Community Nodes
     description:
       - Fully support community nodes to join the network. Make it easy for contributors to get started by creating good documentation.
@@ -114,10 +101,6 @@ cards:
       - SPN
   - title: Cryptocurrency Payments
     description: Enable you to pay for the SPN with cryptocurrencies such as Bitcoin, Ethereum, Zcash and Monero
-    projects:
-      - Website
-  - title: Credit Card Payments
-    description: Enable you to pay for the SPN with credit cards.
     projects:
       - Website
   - title: "Video: Portmaster in Action"

@@ -16,34 +16,6 @@
 
 cards:
   done:
-    - title: Improve Installation Process
-      description:
-        - Instead of downloading individual components on first start-up, download them during the installation process.
-      projects:
-        - Portmaster
-      team:
-        - Patrick
-    - title: CI & Arch Installer
-      description:
-        - Package the Portmaster for Arch Linux.
-        - While at it implement Continuous Integration via Github Actions to automatically test all future installs on Windows, Debian & Arch.
-      projects:
-        - Portmaster
-      team:
-        - Patrick
-    - title: Funding Proposals
-      description:
-        - Request different grants to help us out financially with all the research & development still ahead of us.
-        - Apply follow up fundings both from the Netidee and the FFG.
-      link:
-        text: "More on Transparent Funding..."
-        url: "/ownership/#finances"
-      projects:
-        - Back Office
-      team:
-        - Tabitha
-        - Raphael
-  in_progress:
     - title: SPN Pre-Alpha
       description:
         - Deploy the SPN in v0.1. Give access to Marvin and Visionary Kickstarter backers.
@@ -53,6 +25,43 @@ cards:
       team:
         - Daniel
         - Patrick
+    - title: IntelHub
+      description:
+        - Create a service that aggregates filterlists, updates this intelligence frequently and distributes it to Portmaster clients so they do not have to do this resource heavy work themselves.
+        - Also aggregate and distribute GeoIP data so the SPN module can calculate up-to-date Internet routes for its circuits.
+      projects:
+        - Portmaster
+      team:
+        - Patrick
+    - title: Next Page & Backlog
+      description:
+        - Properly communicate what we currently are working on so you know what to expect from us in the nearer future.
+        - Also provide a backlog to acknowledge everything that needs to be done further down the road. Encourage participation so you can easily let us know where we might need to adapt or what we might have missed in the bigger picture.
+      projects:
+        - Website
+        - Community
+      team:
+        - Luke
+        - David
+  in_progress:
+    - title: Stabilize the Network
+      description:
+        - After v0.1, focus on stabilizing the typical issues that arise with early software. Fix bugs, improve performance & stability.
+        - Detect failures in the network and react accordingly.
+        - Deliver to more and more pre-orders as the network's matures.
+      projects:
+        - SPN
+      team:
+        - Daniel
+    - title: Full UI Redesign
+      description:
+        - Completely overhaul the Portmaster user interface to simplify all aspects of it.
+        - Easily block connections from the Monitor, easily block all connection of an app, etc...
+      projects:
+        - Portmaster
+      team:
+        - Patrick
+        - Luke
     - title: Safing API
       description:
         - Enable you to sign in to your Safing account on the Portmaster client via the Safing API. Also respond with details regarding your SPN subscription.
@@ -64,21 +73,12 @@ cards:
       team:
         - David
         - Daniel
-    - title: IntelHub
-      description:
-        - Create a service that aggregates filterlists, updates this intelligence frequently and distributes it to Portmaster clients so they do not have to do this resource heavy work themselves.
-        - Also aggregate and distribute GeoIP data so the SPN module can calculate up-to-date Internet routes for its circuits.
-      projects:
-        - Portmaster
-      team:
-        - Patrick
     - title: Portscan Detection
       description: Detect and block malicious actors trying to expose vulnerabilities by scanning through all networking ports on your device. Research thoroughly to prevent false positives.
       projects:
         - Portmaster
       team:
         - Daniel
-        - Thomas (Intern)
     - title: Portmaster Documentation
       description:
         - You can see our high level concepts & you can inspect our code. But nothing in between.
@@ -98,17 +98,6 @@ cards:
         - Website
       team:
         - Alex
-        - Raphael (Intern)
-    - title: Next Page & Backlog
-      description:
-        - Properly communicate what we currently are working on so you know what to expect from us in the nearer future.
-        - Also provide a backlog to acknowledge everything that needs to be done further down the road. Encourage participation so you can easily let us know where we might need to adapt or what we might have missed in the bigger picture.
-      projects:
-        - Website
-        - Community
-      team:
-        - Luke
-        - David
     - title: Redesign account.safing.io
       description:
         - When visiting https://account.safing.io/ to manage your Safing account, the design clearly breaks from the main website.
@@ -117,9 +106,24 @@ cards:
         - Website
       team:
         - Luke
+        - David
+    - title: Credit Card Payments
+      description: Enable you to pay for the SPN with credit cards.
+      projects:
+        - Website
+      team:
+        - Alex
+    - title: AMA on r/privacytoolsio
+      description:
+        - Reach out to the PTIO team. Together, schedule and host an IAMA event so people can ask us anything.
+      projects:
+        - Community
+      team:
+        - David
+        - Raphael
     - title: "Inception: Reaching Out"
       description:
-        - As the SPN will soon see the light of day, the time has come to spread the word, also by spending money.
+        - As the SPN will saw the light of day, the time has come to spread the word, also by spending money.
         - Reach out to YouTube channels and newsletters in the privacy scene who offer sponsored shout-outs.
         - You are very welcome to give us suggestions in this context.
       link:
@@ -130,4 +134,12 @@ cards:
       team:
         - Raphael
         - Tabitha
+    - title: Conclude FFG Funding 19/20
+      description:
+        - Co-operate with the FFG to wrap up the funding of the past year. Prepare and fine tune our documents so we can promptly respond to any requests as they make spot checks.
+      projects:
+        - Back Office
+      team:
+        - Tabitha
+        - Raphael
   discarded:
