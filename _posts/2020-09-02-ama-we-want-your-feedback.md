@@ -5,30 +5,19 @@ author: Raphael
 custom_thumbnail_name: ama-we-want-your-feedback
 ---
 
-# AMA - We want your feedback
+## We're Doing an AMA
 
-As a company we believe in listening to our users, creating products that actually give you the tools you need to protect you and your family.
+As a company we believe in listening to our users and engaging with them frequently. We want to create products that actually give you the tools you need to reclaim your privacy online.
+This is why we asked the folks over at [r/PrivacytoolsIO](https://www.reddit.com/r/privacytoolsIO/) if we could do an AMA (Ask Me Anything) to get your feedback and give you more insights into what we are up to and why we do what we do in the first place.
 
-Therefore, we asked the folks over at r/PrivacytoolsIO if we could do an AMA to get your feedback and give you more insights into what we are up to and why we do what we do.
+## Friday, September 18 at 14:00 UTC
 
-## What
+is when we will be kicking this off __on the [r/PrivacytoolsIO](https://www.reddit.com/r/privacytoolsIO/) Subreddit__. Don't be disappointed if you won't be able to make it to the start, as __it will run for a whole week__ through September 25.
 
-Ask us anything! We are a transparent company. We want to listen to what you want and tell you what you ask for
+Come and __literally ask us anything__. We are a transparent company and want to live up to that! We want to listen to what you have to say and discuss ways we can better help you reclaim your online privacy.
 
-## When
-
-Starting Friday *September 18* at 14:00 UTC till September 25
-v
-## Where
-
-On the [r/privacytoolsIO/](https://www.reddit.com/r/privacytoolsIO/) subreddit
-
-## What to do
-
-If you want a reminder, you can subscribe to our [newsletter](#newsletter), our [Twitter](https://twitter.com/SafingIO) and our [Subreddit](https://www.reddit.com/r/safing/)
-
+If you want a __reminder__, you can subscribe to our [newsletter](#newsletter), or follow us on [Twitter](https://twitter.com/SafingIO), or join [our Subreddit](https://www.reddit.com/r/safing/).  
 We will send out reminders when it launches.
 
-If you can’t wait, or read this too late, we are eager to hear from you, just write us an email 
-
-[hello@safing.io](mailto:hello@safing.io)
+If you're late to the party, don't fret.  
+We always love to read an email from you, just send it to [hello@safing.io](mailto:hello@safing.io).
