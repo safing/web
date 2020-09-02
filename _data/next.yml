@@ -28,7 +28,7 @@ cards:
     - title: IntelHub
       description:
         - Create a service that aggregates filterlists, updates this intelligence frequently and distributes it to Portmaster clients so they do not have to do this resource heavy work themselves.
-        - Also aggregate and distribute GeoIP data so the SPN module can calculate up-to-date Internet routes for its circuits.
+        - Also aggregate and distribute IP address meta-data like ownership and location (GeoIP) so the SPN module can calculate optimal routes through the SPN.
       projects:
         - Portmaster
       team:
@@ -48,7 +48,7 @@ cards:
       description:
         - After v0.1, focus on stabilizing the typical issues that arise with early software. Fix bugs, improve performance & stability.
         - Detect failures in the network and react accordingly.
-        - Deliver to more and more pre-orders as the network's matures.
+        - Deliver to more and more pre-orders as the network matures.
       projects:
         - SPN
       team:
