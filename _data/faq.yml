@@ -26,7 +26,7 @@ spn:
   - q: Does the SPN route connections on a per app basis?
     a: No, it routes every connection individually. So as an example, when you open several websites in different tabs in your browser, every connection will be calculated individually.
   - q: Am I totally safe from tracking with the SPN? What do service providers see when connecting through the SPN?
-    a: No. This is just one piece of the puzzle. The SPN only protects your IP-address from exposure, but there are still many other ways services can track and identify you. These include fingerprinting (mostly in browsers), authentication (when logged in to a service), mouse movements (malicious javascripts), etc...
+    a: No. This is just one piece of the puzzle. The SPN primarily protects your IP-address from exposure, but there are still many other ways services can track and identify you. These include fingerprinting (mostly in browsers), authentication (when logged in to a service), mouse movements (malicious javascripts), etc...
   - q: Can services still identify me through other methods?
     a: Yes, this is just one piece of the puzzle. There are multiple ways services track you, like browser fingerprinting, malicious javascripts, etc... And if you log into services, such as your Google account, they will mostly still know it is you, even though you protect your IP address.
   - q: Does the SPN only protect my browser?
