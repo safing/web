@@ -11,7 +11,7 @@ _Update: [the AMA concluded](https://www.reddit.com/r/privacytoolsIO/comments/iv
 
 ## We're Doing an AMA
 
-What good is privacy company if it is hiding certain aspects of its business? As we see it, not much really. A (privacy) chain breaks at its weakest link.
+What good is a privacy company if it is hiding certain aspects of its business? As we see it, not much really. A (privacy) chain breaks at its weakest link.
 
 That is why you can **Ask Us Anything** in the upcoming AMA event! Ask us things you would not dare to ask other companies and see how we manage various delicate matters. Or drop by to give us your input and suggestions - so we can learn and discuss how to best create privacy products that provide actual value. Props to the folks over at [r/PrivacytoolsIO](https://www.reddit.com/r/privacytoolsIO/) for hosting the event!
 
