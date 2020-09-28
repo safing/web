@@ -1,22 +1,29 @@
 ---
-title: AMA - We want your feedback
+title: AMA - Ask Us Anything
 date: 2020-09-02
 author: Raphael
-custom_thumbnail_name: ama-we-want-your-feedback
+custom_thumbnail_name: ama-ask-us-anything
+---
+
+_Update: [the AMA concluded](https://www.reddit.com/r/privacytoolsIO/comments/iv6mca/we_are_safing_a_forprivacy_counterculture_company/). Thanks to everyone who joined, thanks to [PrivacyTools](https://privacytools.io) for hosting and thanks for all your amazing questions! In case you missed it, be sure to [check it out](https://www.reddit.com/r/privacytoolsIO/comments/iv6mca/we_are_safing_a_forprivacy_counterculture_company/) and as always, if you have any questions, just drop us a mail via [hello@safing.io](mailto:hello@safing.io)._
+
 ---
 
 ## We're Doing an AMA
 
-As a company we believe in listening to our users and engaging with them frequently. We want to create products that actually give you the tools you need to reclaim your privacy online.
-This is why we asked the folks over at [r/PrivacytoolsIO](https://www.reddit.com/r/privacytoolsIO/) if we could do an AMA (Ask Me Anything) to get your feedback and give you more insights into what we are up to and why we do what we do in the first place.
+What good is privacy company if it is hiding certain aspects of its business? As we see it, not much really. A (privacy) chain breaks at its weakest link.
+
+That is why you can **Ask Us Anything** in the upcoming AMA event! Ask us things you would not dare to ask other companies and see how we manage various delicate matters. Or drop by to give us your input and suggestions - so we can learn and discuss how to best create privacy products that provide actual value. Props to the folks over at [r/PrivacytoolsIO](https://www.reddit.com/r/privacytoolsIO/) for hosting the event!
+
+Learn more about why we do what we do in the first place, what we are up to and what problems we have to face being a privacy first company.
+
+[>>>> Visit the AMA <<<<](https://www.reddit.com/r/privacytoolsIO/comments/iv6mca/we_are_safing_a_forprivacy_counterculture_company/)
 
 ## Friday, September 18 at 14:00 UTC
 
-is when we will be kicking this off __on the [r/PrivacytoolsIO](https://www.reddit.com/r/privacytoolsIO/) Subreddit__. Don't be disappointed if you won't be able to make it to the start, as __it will run for a whole week__ through September 25.
+is when we will be kicking this off on the [r/PrivacytoolsIO](https://www.reddit.com/r/privacytoolsIO/) Subreddit. Don't be disappointed if you won't be able to make it to the start, as it will run for a whole week through September 25.
 
-Come and __literally ask us anything__. We are a transparent company and want to live up to that! We want to listen to what you have to say and discuss ways we can better help you reclaim your online privacy.
-
-If you want a __reminder__, you can subscribe to our [newsletter](#newsletter), or follow us on [Twitter](https://twitter.com/SafingIO), or join [our Subreddit](https://www.reddit.com/r/safing/).  
+If you want a __reminder__, you can [subscribe to our newsletter](#newsletter), [follow us on Twitter](https://twitter.com/SafingIO), or [join our Subreddit](https://www.reddit.com/r/safing/).  
 We will send out reminders when it launches.
 
 If you're late to the party, don't fret.  
