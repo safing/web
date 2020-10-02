@@ -99,8 +99,8 @@ cards:
     description: Allow you to access the SPN from within restricted countries or areas.
     projects:
       - SPN
-  - title: Cryptocurrency Payments
-    description: Enable you to pay for the SPN with cryptocurrencies such as Bitcoin, Ethereum, Zcash and Monero
+  - title: Credit Card Payments
+    description: Enable you to pay for the SPN with credit cards.
     projects:
       - Website
   - title: "Video: Portmaster in Action"
