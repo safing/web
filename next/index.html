@@ -8,7 +8,7 @@ layout: page
     <div class="relative max-w-screen-sm lg:max-w-screen-xl mx-auto px-4 sm:px-6  xl:px-0 lg:flex">
       <div class="pt-8">
         <div class="text-center lg:text-left">
-          <span class="text-sm opacity-55 tracking-normal">31.08.2020</span>
+          <span class="text-sm opacity-55 tracking-normal">02.10.2020</span>
           <h2 id="influences" class="text-5xl tracking-tight font-extrabold leading-none pb-10 pt-2">
             Progress Overview
           </h2>
@@ -69,6 +69,20 @@ layout: page
 
         {% for card in site.data.next.cards.discarded %}
           {% include project_card.html state = 'discarded' %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+  {% if site.data.next.cards.postponed.size > 0 %}
+    <div class="pt-48">
+      <div class="nextwrapper">
+        <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
+          <span class="opacity-50">Postponed</span>
+          <strong class="pl-2 opacity-75">({{ site.data.next.cards.postponed.size }})</strong>
+        </div>
+
+        {% for card in site.data.next.cards.postponed %}
+          {% include project_card.html state = 'postponed' %}
         {% endfor %}
       </div>
     </div>

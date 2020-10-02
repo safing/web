@@ -16,32 +16,37 @@
 
 cards:
   done:
-    - title: SPN Pre-Alpha
+    - title: AMA on r/privacytoolsio
       description:
-        - Deploy the SPN in v0.1. Give access to Marvin and Visionary Kickstarter backers.
-        - Communicate that this is only the first step and that it will take a few weeks or months until the network is stable enough to support hundreds/thousands of users.
+        - Reach out to the PTIO team. Together, schedule and host an IAMA event so people can ask us anything.
       projects:
-        - SPN
+        - Community
       team:
-        - Daniel
-        - Patrick
-    - title: IntelHub
-      description:
-        - Create a service that aggregates filterlists, updates this intelligence frequently and distributes it to Portmaster clients so they do not have to do this resource heavy work themselves.
-        - Also aggregate and distribute IP address meta-data like ownership and location (GeoIP) so the SPN module can calculate optimal routes through the SPN.
+        - David
+        - Raphael
+    - title: Portscan Detection
+      description: Detect and block malicious actors trying to expose vulnerabilities by scanning through all networking ports on your device. Research thoroughly to prevent false positives.
       projects:
         - Portmaster
       team:
-        - Patrick
-    - title: Next Page & Backlog
+        - Daniel
+    - title: Administration Interface
       description:
-        - Properly communicate what we currently are working on so you know what to expect from us in the nearer future.
-        - Also provide a backlog to acknowledge everything that needs to be done further down the road. Encourage participation so you can easily let us know where we might need to adapt or what we might have missed in the bigger picture.
+        - Enable admins to easily accept cash payments, manage refunds or suspend rogue users.
+        - Also provide some basic insights on signups, payments, survey results, etc...
       projects:
         - Website
-        - Community
+      team:
+        - Alex
+    - title: Redesign account.safing.io
+      description:
+        - When visiting https://account.safing.io/ to manage your Safing account, the design clearly breaks from the main website.
+        - Unify these designs so you get a more wholesome web experience.
+      projects:
+        - Website
       team:
         - Luke
+        - Alex
         - David
   in_progress:
     - title: Stabilize the Network
@@ -73,12 +78,6 @@ cards:
       team:
         - David
         - Daniel
-    - title: Portscan Detection
-      description: Detect and block malicious actors trying to expose vulnerabilities by scanning through all networking ports on your device. Research thoroughly to prevent false positives.
-      projects:
-        - Portmaster
-      team:
-        - Daniel
     - title: Portmaster Documentation
       description:
         - You can see our high level concepts & you can inspect our code. But nothing in between.
@@ -90,37 +89,12 @@ cards:
         - David
         - Patrick
         - Daniel
-    - title: Administration Interface
-      description:
-        - Enable admins to easily accept cash payments, manage refunds or suspend rogue users.
-        - Also provide some basic insights on signups, payments, survey results, etc...
+    - title: Cryptocurrency Payments
+      description: Enable you to pay for the SPN with cryptocurrencies such as Bitcoin, Ethereum, Zcash and Monero
       projects:
         - Website
       team:
         - Alex
-    - title: Redesign account.safing.io
-      description:
-        - When visiting https://account.safing.io/ to manage your Safing account, the design clearly breaks from the main website.
-        - Unify these designs so you get a more wholesome web experience.
-      projects:
-        - Website
-      team:
-        - Luke
-        - David
-    - title: Credit Card Payments
-      description: Enable you to pay for the SPN with credit cards.
-      projects:
-        - Website
-      team:
-        - Alex
-    - title: AMA on r/privacytoolsio
-      description:
-        - Reach out to the PTIO team. Together, schedule and host an IAMA event so people can ask us anything.
-      projects:
-        - Community
-      team:
-        - David
-        - Raphael
     - title: "Inception: Reaching Out"
       description:
         - As the SPN will saw the light of day, the time has come to spread the word, also by spending money.
@@ -142,4 +116,11 @@ cards:
       team:
         - Tabitha
         - Raphael
+  postponed:
+    - title: Credit Card Payments
+      description: Enable you to pay for the SPN with credit cards.
+      projects:
+        - Website
+      team:
+        - Alex
   discarded:
