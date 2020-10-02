@@ -73,6 +73,20 @@ layout: page
       </div>
     </div>
   {% endif %}
+  {% if site.data.next.cards.postponed.size > 0 %}
+    <div class="pt-48">
+      <div class="nextwrapper">
+        <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
+          <span class="opacity-50">Postponed</span>
+          <strong class="pl-2 opacity-75">({{ site.data.next.cards.postponed.size }})</strong>
+        </div>
+
+        {% for card in site.data.next.cards.postponed %}
+          {% include project_card.html state = 'postponed' %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
 </section>
 <section class="mt-20 lg:mt-40 mb-16 lg:mb-48">
 <div class="items-center h-full">

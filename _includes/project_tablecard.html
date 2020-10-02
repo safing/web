@@ -50,6 +50,8 @@
                   <img style="min-width: 19px;" src="{{ site.assets_url }}icons/cog.svg" alt="">
                 {% elsif include.state == 'discarded' %}
                   <img style="min-width: 19px;" src="{{ site.assets_url }}icons/cross.svg" alt="">
+                {% elsif include.state == 'postponed' %}
+                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/files.svg" alt="">
                 {% elsif include.state == 'backlog' %}
                   <img style="min-width: 19px;" src="{{ site.assets_url }}icons/files.svg" alt="">
                 {% endif %}
