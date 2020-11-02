@@ -71,6 +71,8 @@ cards:
         - Reintroduce the "Prompt Mode" which asks for your input whether or not to allow a connection. Naturally, make it possible to lock in a decision for the future.
       projects:
         - Portmaster
+      team:
+        - Daniel
     - title: Portmaster Documentation
       description:
         - You can see our high level concepts & you can inspect our code. But nothing in between.
