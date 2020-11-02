@@ -1,9 +1,4 @@
 cards:
-  - title: Connection Prompting
-    description:
-      - Reintroduce the "Prompt Mode" which asks for your input whether or not to allow a connection. Naturally, make it possible to lock in a decision for the future.
-    projects:
-      - Portmaster
   - title: Network Trust System
     description:
       - Remember which networks you trust and activate additional defenses in untrusted networks, like the Wi-Fi of your favorite coffee shop.
@@ -21,6 +16,12 @@ cards:
     description:
       - Instead of only viewing what is currently going on, save a local history to be able to inspect what apps did in the past. Naturally, this is local only.
       - Also, provide a simple opt-out.
+  - title: On-App Account Login
+    description:
+      - Enable you to sign in to your Safing account on the Portmaster client via the finished Safing API. Respond with details regarding your SPN subscription.
+    projects:
+      - Portmaster
+      - SPN
   - title: TLS Inspection
     description:
       - The TLS protocol not only has many problems by itself, but is also often used fatally wrong by software developers.
@@ -113,8 +114,8 @@ cards:
       - Produce the trailer video showing what the SPN is all about as promised on the /spn page.
     projects:
       - Website
-  - title: 'Revamp "About" Section'
+  - title: 'Revamp RSS Feeds & Content'
     description:
-      - Retext & update the team page. Revisit the interview videos. Add a section that shows our values more clearly.
+      - Create useful and working RSS feeds for the blog, podcast and maybe even the newsletter. Rethink navigation between update blogs, add OPG tags for better content sharing, add authors as images and a thousand other potential tweaks. We'll see.
     projects:
       - Website

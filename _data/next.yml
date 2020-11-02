@@ -16,38 +16,37 @@
 
 cards:
   done:
-    - title: AMA on r/privacytoolsio
+    - title: Safing API Backend
       description:
-        - Reach out to the PTIO team. Together, schedule and host an IAMA event so people can ask us anything.
+        - Enable you to sign in to your Safing account on the Portmaster client via the Safing API. Also respond with details regarding your SPN subscription.
+        - Implement device management so you can sign out of devices from the Safing website.
       projects:
-        - Community
-      team:
-        - David
-        - Raphael
-    - title: Portscan Detection
-      description: Detect and block malicious actors trying to expose vulnerabilities by scanning through all networking ports on your device. Research thoroughly to prevent false positives.
-      projects:
+        - SPN
         - Portmaster
-      team:
-        - Daniel
-    - title: Administration Interface
-      description:
-        - Enable admins to easily accept cash payments, manage refunds or suspend rogue users.
-        - Also provide some basic insights on signups, payments, survey results, etc...
-      projects:
         - Website
       team:
-        - Alex
-    - title: Redesign account.safing.io
-      description:
-        - When visiting https://account.safing.io/ to manage your Safing account, the design clearly breaks from the main website.
-        - Unify these designs so you get a more wholesome web experience.
-      projects:
-        - Website
-      team:
-        - Luke
-        - Alex
         - David
+    - title: "Inception: Reaching Out"
+      description:
+        - As the SPN saw the light of day, the time has come to spread the word via word of mouth and paid marketing.
+        - Reach out to YouTube channels and newsletters in the privacy scene who offer sponsored shout-outs.
+        - You are very welcome to give us suggestions in this context.
+      link:
+        text: "Share your ideas on reddit"
+        url: "https://reddit.com/r/safing/"
+      projects:
+        - Marketing
+      team:
+        - Raphael
+        - Tabitha
+    - title: Conclude FFG Funding 19/20
+      description:
+        - Co-operate with the FFG to wrap up the funding of the past year. Prepare and fine tune our documents so we can promptly respond to any requests as they make spot checks.
+      projects:
+        - Back Office
+      team:
+        - Tabitha
+        - Raphael
   in_progress:
     - title: Stabilize the Network
       description:
@@ -67,16 +66,12 @@ cards:
       team:
         - Patrick
         - Luke
-    - title: Safing API
+    - title: Connection Prompting
       description:
-        - Enable you to sign in to your Safing account on the Portmaster client via the Safing API. Also respond with details regarding your SPN subscription.
-        - Implement device management so you can sign out of devices from the Safing website.
+        - Reintroduce the "Prompt Mode" which asks for your input whether or not to allow a connection. Naturally, make it possible to lock in a decision for the future.
       projects:
-        - SPN
         - Portmaster
-        - Website
       team:
-        - David
         - Daniel
     - title: Portmaster Documentation
       description:
@@ -90,37 +85,10 @@ cards:
         - Patrick
         - Daniel
     - title: Cryptocurrency Payments
-      description: Enable you to pay for the SPN with cryptocurrencies such as Bitcoin, Ethereum, Zcash and Monero
+      description: Enable you to pay for the SPN with cryptocurrencies such as Bitcoin, Ethereum and Monero
       projects:
         - Website
       team:
         - Alex
-    - title: "Inception: Reaching Out"
-      description:
-        - As the SPN will saw the light of day, the time has come to spread the word, also by spending money.
-        - Reach out to YouTube channels and newsletters in the privacy scene who offer sponsored shout-outs.
-        - You are very welcome to give us suggestions in this context.
-      link:
-        text: "Share your ideas on reddit"
-        url: "https://reddit.com/r/safing/"
-      projects:
-        - Marketing
-      team:
-        - Raphael
-        - Tabitha
-    - title: Conclude FFG Funding 19/20
-      description:
-        - Co-operate with the FFG to wrap up the funding of the past year. Prepare and fine tune our documents so we can promptly respond to any requests as they make spot checks.
-      projects:
-        - Back Office
-      team:
-        - Tabitha
-        - Raphael
   postponed:
-    - title: Credit Card Payments
-      description: Enable you to pay for the SPN with credit cards.
-      projects:
-        - Website
-      team:
-        - Alex
   discarded:
