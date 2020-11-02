@@ -16,58 +16,7 @@
 
 cards:
   done:
-    - title: AMA on r/privacytoolsio
-      description:
-        - Reach out to the PTIO team. Together, schedule and host an IAMA event so people can ask us anything.
-      projects:
-        - Community
-      team:
-        - David
-        - Raphael
-    - title: Portscan Detection
-      description: Detect and block malicious actors trying to expose vulnerabilities by scanning through all networking ports on your device. Research thoroughly to prevent false positives.
-      projects:
-        - Portmaster
-      team:
-        - Daniel
-    - title: Administration Interface
-      description:
-        - Enable admins to easily accept cash payments, manage refunds or suspend rogue users.
-        - Also provide some basic insights on signups, payments, survey results, etc...
-      projects:
-        - Website
-      team:
-        - Alex
-    - title: Redesign account.safing.io
-      description:
-        - When visiting https://account.safing.io/ to manage your Safing account, the design clearly breaks from the main website.
-        - Unify these designs so you get a more wholesome web experience.
-      projects:
-        - Website
-      team:
-        - Luke
-        - Alex
-        - David
-  in_progress:
-    - title: Stabilize the Network
-      description:
-        - After v0.1, focus on stabilizing the typical issues that arise with early software. Fix bugs, improve performance & stability.
-        - Detect failures in the network and react accordingly.
-        - Deliver to more and more pre-orders as the network matures.
-      projects:
-        - SPN
-      team:
-        - Daniel
-    - title: Full UI Redesign
-      description:
-        - Completely overhaul the Portmaster user interface to simplify all aspects of it.
-        - Easily block connections from the Monitor, easily block all connection of an app, etc...
-      projects:
-        - Portmaster
-      team:
-        - Patrick
-        - Luke
-    - title: Safing API
+    - title: Safing API Backend
       description:
         - Enable you to sign in to your Safing account on the Portmaster client via the Safing API. Also respond with details regarding your SPN subscription.
         - Implement device management so you can sign out of devices from the Safing website.
@@ -77,24 +26,6 @@ cards:
         - Website
       team:
         - David
-        - Daniel
-    - title: Portmaster Documentation
-      description:
-        - You can see our high level concepts & you can inspect our code. But nothing in between.
-        - Fill that gap by providing proper documentation of the Portmaster. What does each component do? With what other components does it interact? Where is its code located?
-      projects:
-        - Portmaster
-        - Website
-      team:
-        - David
-        - Patrick
-        - Daniel
-    - title: Cryptocurrency Payments
-      description: Enable you to pay for the SPN with cryptocurrencies such as Bitcoin, Ethereum, Zcash and Monero
-      projects:
-        - Website
-      team:
-        - Alex
     - title: "Inception: Reaching Out"
       description:
         - As the SPN will saw the light of day, the time has come to spread the word, also by spending money.
@@ -116,11 +47,46 @@ cards:
       team:
         - Tabitha
         - Raphael
-  postponed:
-    - title: Credit Card Payments
-      description: Enable you to pay for the SPN with credit cards.
+  in_progress:
+    - title: Stabilize the Network
+      description:
+        - After v0.1, focus on stabilizing the typical issues that arise with early software. Fix bugs, improve performance & stability.
+        - Detect failures in the network and react accordingly.
+        - Deliver to more and more pre-orders as the network matures.
+      projects:
+        - SPN
+      team:
+        - Daniel
+    - title: Full UI Redesign
+      description:
+        - Completely overhaul the Portmaster user interface to simplify all aspects of it.
+        - Easily block connections from the Monitor, easily block all connection of an app, etc...
+      projects:
+        - Portmaster
+      team:
+        - Patrick
+        - Luke
+    - title: Connection Prompting
+      description:
+        - Reintroduce the "Prompt Mode" which asks for your input whether or not to allow a connection. Naturally, make it possible to lock in a decision for the future.
+      projects:
+        - Portmaster
+    - title: Portmaster Documentation
+      description:
+        - You can see our high level concepts & you can inspect our code. But nothing in between.
+        - Fill that gap by providing proper documentation of the Portmaster. What does each component do? With what other components does it interact? Where is its code located?
+      projects:
+        - Portmaster
+        - Website
+      team:
+        - David
+        - Patrick
+        - Daniel
+    - title: Cryptocurrency Payments
+      description: Enable you to pay for the SPN with cryptocurrencies such as Bitcoin, Ethereum, Zcash and Monero
       projects:
         - Website
       team:
         - Alex
+  postponed:
   discarded:
