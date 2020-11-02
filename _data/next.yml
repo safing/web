@@ -85,7 +85,7 @@ cards:
         - Patrick
         - Daniel
     - title: Cryptocurrency Payments
-      description: Enable you to pay for the SPN with cryptocurrencies such as Bitcoin, Ethereum, Zcash and Monero
+      description: Enable you to pay for the SPN with cryptocurrencies such as Bitcoin, Ethereum and Monero
       projects:
         - Website
       team:
