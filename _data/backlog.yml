@@ -114,8 +114,8 @@ cards:
       - Produce the trailer video showing what the SPN is all about as promised on the /spn page.
     projects:
       - Website
-  - title: 'Revamp "About" Section'
+  - title: 'Revamp RSS Feeds & Content'
     description:
-      - Retext & update the team page. Revisit the interview videos. Add a section that shows our values more clearly.
+      - Create useful and working RSS feeds for the blog, podcast and maybe even the newsletter. Rethink navigation between update blogs, add OPG tags for better content sharing, add authors as images and a thousand other potential tweaks. We'll see.
     projects:
       - Website
