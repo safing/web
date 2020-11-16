@@ -442,3 +442,24 @@ input:checked {
 [tooltip][flow^="up"]:hover::after {
   animation: tooltips-vert 300ms ease-out forwards;
 }
+
+
+// This is a hacky way to solve this problem. 
+// I could not find away in tailwind to set a max of cols and to allow 
+// each tag to have their own width.
+
+.tag-grid{
+  grid-template-columns: repeat(3, minmax(max-content, 1fr))
+}
+
+@media (min-width: 640px) { 
+  .tag-grid{
+    grid-template-columns: repeat(4, minmax(max-content, 1fr))
+  }
+}
+
+@media (min-width: 768px) { 
+  .tag-grid{
+    grid-template-columns: repeat(7, minmax(max-content, 1fr))
+  }
+}
