@@ -3,7 +3,7 @@
 # this has to be consistent for displaying only the episode number or only the title
 title: "#000 - Progress Update June"
 date: 2020-06-26
-author: davegson
+author: David
 custom_thumbnail_name: progress-update
 progress_update: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: Hiring a Designer from the Privacy Community
 date: 2019-11-29
-author: davegson
+author: David
 custom_thumbnail_name: hiring-a-designer-from-the-privacy-community
 cover_image_source: https://unsplash.com/photos/66O6CE7QvwI
 ---
