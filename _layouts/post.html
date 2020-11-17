@@ -52,13 +52,18 @@ layout: page_container
     </span>
   </section>
 {% endif %}
+
 <div class="flex pt-24 justify-center grid grid-cols-2 col-gap-16 max-w-3xl mx-auto">
-  <div class="text-left">
-    <div class="pb-4 text-md opacity-55">Next Post</div>
-    <a href="" class="text-3xl tracking-tight font-extrabold leading-none break-normal">Hiring a Designer from the Privacy Community</a>
-  </div>
-  <div class="text-right">
-    <div class="pb-4 text-md opacity-55">Previous post</div>
-    <a href="" class="text-3xl tracking-tight font-extrabold leading-none break-normal">#002 - Progress Update October</a>
-  </div>
+  {% if page.next.url %}
+    <div class="text-left">
+      <div class="pb-4 text-md opacity-55">Next Post</div>
+      <a href="{{page.next.url }}" class="text-3xl tracking-tight font-extrabold leading-none break-normal">{{page.next.title}}</a>
+    </div>
+  {% endif %}
+  {% if page.previous.url %}
+    <div class="text-right">
+      <div class="pb-4 text-md opacity-55">Previous Post</div>
+      <a href="{{page.previous.url }}" class="text-3xl tracking-tight font-extrabold leading-none break-normal">{{page.previous.title}}</a>
+    </div>
+  {% endif %}
 </div>
