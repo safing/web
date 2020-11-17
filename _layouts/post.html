@@ -24,22 +24,6 @@ layout: page_container
 <div class="content" id="blog">
 {% endif %}
   {{ content | replace: '<!--break-->', '<a class="anchor" id="continue"></a>' }}
-
-  <div class="justify-center grid pt-16 gap-4 grid-flow-row tag-grid">
-    <span class="text-center px-3 py-1 rounded-full text-sm font-medium  leading-5 bg-gray-300 text-gray-600">
-      AMA
-    </span>
-    <span class="text-center px-3 py-1 rounded-full text-sm font-medium leading-5  bg-gray-300 text-gray-600">
-      Privacy
-    </span>
-    <span class="text-center px-3 py-1 rounded-full text-sm font-medium leading-5  bg-gray-300 text-gray-600">
-      Feedback
-    </span>
-    <span class="text-center px-3 py-1 rounded-full text-sm font-medium leading-5  bg-gray-300 text-gray-600">
-      Community
-    </span>
-  </div>
-
 </div>
 
 {% if site.inter_post_navigation == true %}
@@ -68,7 +52,6 @@ layout: page_container
     </span>
   </section>
 {% endif %}
-</style>
 <div class="flex pt-24 justify-center grid grid-cols-2 col-gap-16 max-w-3xl mx-auto">
   <div class="text-left">
     <div class="pb-4 text-md opacity-55">Next Post</div>
