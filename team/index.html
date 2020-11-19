@@ -16,8 +16,9 @@ layout: page
             </div>
             <div class="mt-32">
               <ul class="grid grid-cols-1">
+
                 {% for member in site.data.team.members %}
-                <li class="pb-40 lg:pb-24">
+                <li class="pb-40 lg:pb-24" id="{{ member.name | slugify }}">
                   <div class="text-center lg:text-left lg:flex items-center">
                     <div class="pb-8 lg:-mb-10">
                       <img class="mx-auto" src="{{ site.img_url }}profiles/{{ member.name | slugify }}.png" alt="{{ member.name }}">
@@ -45,6 +46,7 @@ layout: page
                     </div>
                   </div>
                 </li>
+
                 {% endfor %}
               </ul>
             </div>
