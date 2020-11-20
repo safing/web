@@ -1,10 +1,15 @@
-<header class="h-full bg-local bg-no-repeat bg-cover bg-center lg:pb-40 md:pt-32" style="background-image: url({{ site.img_url }}header.png">
-  <img class="-z-0 pt-16 absolute hidden md:block" style="z-index: -1;" src="" alt="">
+<header class="relative h-full bg-local bg-no-repeat bg-cover bg-center lg:pb-40 md:pt-32">
+  <span class="bottom-0 left-0 absolute hidden lg:block">
+    <img src="{{ site.img_url }}/shapes/corner-bl.png" alt="">
+  </span>
   <div class="flex items-center md:h-full">
     <div class="container mx-auto sm:px-8 sm:px-0">
       <div class="container mx-auto px-8 pt-16 md:pt-0 sm:px-0 flex">
         <div class="max-w-screen-xl px-4 sm:px-6 lg:px-0 lg:flex">
           <div class="inline-block text-center lg:text-left lg:mr-12 lg:mt-20">
+            <span style="margin-top: -8rem; margin-left: 14rem; z-index: -1;" class="absolute">
+              <img src="{{ site.img_url }}/shapes/circle-md-2.png" alt="">
+            </span>
             <h2 class="py-10 text-5xl tracking-tight font-extrabold text-gray-900 sm:text-5xl leading-none md:text-6xl md:mx-auto">
               <!-- the &nbsp; is super nice for bigger screens, but breaks stuff on mobile -->
               <!-- hence, we only have the header with &nbsp; on md+ devices -->
