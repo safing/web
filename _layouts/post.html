@@ -4,7 +4,7 @@ layout: page_container
 
 <div class="text-center">
     <h1 class="text-5xl tracking-tight font-extrabold leading-none pb-2 pt-8 text-center">{{ page.title }}</h1>
-    <p>{{ page.date | date: "%B %-d, %Y" }} • Written by <a href="">David</a></p>
+    <p>{{ page.date | date: "%B %-d, %Y" }} • Written by <a href="{{ site.team_url }}#{{ page.author | slugify }}">{{ page.author | capitalize }}</a></p>
     <div class="flex mx-auto justify-center pt-5">
       <a href="{{ site.twitter_url }}" class="opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
         <img style="height: 1.1rem; width: auto;" src="{{ site.img_url }}icons/twitter.svg">
