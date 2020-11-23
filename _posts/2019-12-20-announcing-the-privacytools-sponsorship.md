@@ -1,7 +1,7 @@
 ---
 title: Announcing the PrivacyTools Sponsorship
 date: 2019-12-20
-author: davegson
+author: David
 custom_thumbnail_name: announcing-the-privacytools-sponsorship
 ---
 

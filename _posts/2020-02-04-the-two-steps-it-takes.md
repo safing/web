@@ -1,7 +1,7 @@
 ---
 title: The Two Steps it Takes
 date: 2020-02-04
-author: davegson
+author: David
 custom_thumbnail_name: the-two-steps-t-takes
 cover_image_source: https://unsplash.com/photos/7_kRuX1hSXM
 ---

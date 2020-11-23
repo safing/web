@@ -1,7 +1,7 @@
 ---
 title: The next 5 Steps for Safing
 date: 2019-12-06
-author: davegson
+author: David
 custom_thumbnail_name: the-next-5-steps-for-safing
 cover_image_source: https://pixabay.com/photos/architecture-stone-blocks-block-3481302/
 ---
