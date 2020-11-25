@@ -1,5 +1,5 @@
-<footer class="bg-black p-8 bg-local bg-no-repeat bg-cover bg-bottom" id="footer">
-  <div class="p-12 mx-auto self-center max-w-3xl text-center lg:text-left" id="newsletter">
+<footer class="bg-black p-8">
+  <div class="pt-12 pb-12 md:p-12 mx-auto self-center max-w-3xl text-center lg:text-left" id="newsletter">
     <span class="text-white text-xl font-bold">Stay Connected via Newsletter</span>
     <form action="https://t80607841.emailsys1a.net/184/1387/c70759e794/subscribe/form.html" method="post">
       <div class="block lg:flex items-center py-5">
@@ -8,7 +8,7 @@
           <input type="submit" value="Subscribe" style="background-color: #6188ff;" class="cursor-pointer transform hover:scale-95 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase" />
         </div>
       </div>
-      <div class="max-w-md flex">
+      <div class="mx-auto lg:mx-0 max-w-lg lg:max-w-md lg:flex">
         <input type="checkbox" id="consent_text" name="consent_text" value="yes" required />
         <div class="ml-3">
           <label class="consent opacity-55 text-white" for='consent_text'>
@@ -22,92 +22,138 @@
       </div>
     </form>
   </div>
-  <div class="text-center lg:text-left container mx-auto px-8">
-    <div class="w-full flex flex-col md:flex-row py-6 ">
-      <div class="flex-1">
-        <p class="text-white text-xl md:mb-6">Company</p>
-        <ul class="list-reset mb-6">
-          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+  <div class="grid mx-auto grid-rows-4 grid-cols-1 sm:grid-rows-2 sm:grid-cols-2 row-gap-16 lg:row-gap-0 lg:grid-cols-none lg:grid-rows-none grid-flow-col-dense  grid-flow-row-dense justify-center md:justify-around max-w-screen-sm lg:max-w-screen-xl pt-10">
+    <div class="flex" style="width: max-content;">
+      <div>
+        <p class="text-white text-xl mb-6">Company</p>
+        <ul class="list-reset">
+          <li class="block mr-0">
             <a href="{{ site.about_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">About Us</a>
           </li>
-          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-            <a href="{{ site.team_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Team</a>
-          </li>
-          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+          <li class="mt-3 block mr-0">
             <a href="{{ site.ownership_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Ownership</a>
           </li>
-          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+          <li class="mt-3 block mr-0">
+            <a href="{{ site.next_page_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out"> What's Next?</a>
+          </li>
+          <li class="mt-3 block mr-0">
             <a href="{{ site.help_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Get Help</a>
           </li>
         </ul>
       </div>
-      <div class="flex-1">
-        <p class="text-white text-xl md:mb-6">Technology</p>
+    </div>
+    <div class="hidden lg:block ml-8 mr-8 border-r-2 border-white w-0 h-full" style="opacity: .1;"></div>
+    <div class="flex relative">
+      <div>
+        <p class="text-white text-xl mb-6">Community</p>
+        <div class="flex" style="width: max-content;">
+          <ul class="list-reset">
+            <li class="block mr-0">
+              <a href="{{ site.video_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Videos</a>
+            </li>
+            <li class="mt-3 block mr-0">
+              <a href="{{ site.podcast_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Podcast</a>
+            </li>
+            <li class="mt-3 block mr-0">
+              <a href="{{ site.blog_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Blogs</a>
+            </li>
+          </ul>
+          <ul class="list-reset pl-12">
+            <li class="block mr-0">
+              <a href="{{ site.about_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Reddit</a>
+            </li>
+            <li class="mt-3 block mr-0">
+              <a href="{{ site.ownership_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">GitHub</a>
+            </li>
+            <li class="mt-3 block mr-0">
+              <a href="{{ site.help_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Twitter</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="hidden lg:block ml-8 mr-8 border-r-2 border-white w-0 h-full" style="opacity: .1;"></div>
+    <div class="flex-1">
+      <div class="flex items-center">
+        <p class="text-white text-xl mb-6 pr-10">Portmaster</p>
+        <div class="border-t-2 border-white w-full" style="opacity: .1; height: 20px;"></div>
+      </div>
+      <div class="flex">
         <ul class="list-reset mb-6">
-          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-            <a href="{{ site.portmaster_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Portmaster</a>
+          <li class="block mr-0">
+            <a href="{{ site.video_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Download</a>
           </li>
-          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-            <a href="{{ site.spn_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">SPN</a>
+          <li class="mt-3 block mr-0">
+            <a href="{{ site.podcast_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Source Code</a>
           </li>
-          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-            <a href="{{ site.whitepaper_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Whitepaper</a>
+          <li class="mt-3 block mr-0">
+            <a href="{{ site.blog_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Backlog</a>
+          </li>
+        </ul>
+        <ul class="list-reset mb-6 pl-12">
+          <li class=" block mr-0">
+            <a href="{{ site.reddit_url }}" class="no-underline hover:opacity-100 opacity-25 text-white transition duration-150 ease-in-out">vs PiHole</a>
+          </li>
+          <li class="mt-3 block mr-0">
+            <a href="{{ site.github_url }}" class="no-underline hover:opacity-100 opacity-25 text-white transition duration-150 ease-in-out">vs Little Snitch</a>
+          </li>
+          <li class="mt-3 block mr-0">
+            <a href="{{ site.twitter_url }}" class="no-underline hover:opacity-100 opacity-25 text-white transition duration-150 ease-in-out">vs GlassWire</a>
           </li>
         </ul>
       </div>
-      <div class="flex-1">
-        <p class="text-white text-xl md:mb-6">Follow Us</p>
+    </div>
+    <div class="hidden lg:block ml-0 mr-0 w-0 h-full"></div>
+    <div class="flex-1">
+      <div class="flex items-center">
+        <p class="text-white text-xl mb-6 pr-10">SPN</p>
+        <div class="border-t-2 border-white w-full" style="opacity: .1; height: 20px;"></div>
+      </div>
+      <div class="flex">
         <ul class="list-reset mb-6">
-          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-            <a href="{{ site.video_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Video Updates</a>
+          <li class="block mr-0">
+            <a href="{{ site.video_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Pricing</a>
           </li>
-          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-            <a href="{{ site.podcast_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Podcast</a>
+          <li class="mt-3 block mr-0">
+            <a href="{{ site.podcast_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Source Code</a>
           </li>
-          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-            <a href="{{ site.blog_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Blog</a>
-          </li>
-          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-            <a href="{{ site.next_page_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out"> What's Next?</a>
+          <li class="mt-3 block mr-0">
+            <a href="{{ site.blog_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Backlog</a>
           </li>
         </ul>
-      </div>
-      <div class="flex-1">
-        <p class="text-white text-xl md:mb-6">Social</p>
-        <ul class="list-reset mb-6">
-          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-            <a href="{{ site.reddit_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Reddit</a>
+        <ul class="list-reset mb-6 pl-12">
+          <li class="block mr-0">
+            <a href="{{ site.reddit_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">vs Tor</a>
           </li>
-          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-            <a href="{{ site.github_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Github</a>
+          <li class="mt-3 block mr-0">
+            <a href="{{ site.github_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">vs VPNs</a>
           </li>
-          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-            <a href="{{ site.kickstarter_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Kickstarter</a>
-          </li>
-          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-            <a href="{{ site.twitter_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Twitter</a>
-          </li>
-        </ul>
-      </div>
-      <div class="flex-1">
-        <p class="text-white text-xl md:mb-6">Legal</p>
-        <ul class="list-reset mb-6">
-          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-            <a href="{{ site.contact_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Contact & Notice</a>
-          </li>
-          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-            <a href="{{ site.terms_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Terms of Service</a>
-          </li>
-          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-            <a href="{{ site.privacy_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Privacy Policy</a>
+          <li class="mt-3 block mr-0">
+            <a href="{{ site.twitter_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Whitepapper</a>
           </li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="text-xs">
-    <p class="text-center leading-6 text-white opacity-55">
-      &copy; 2020 Safing ICS Technologies GmbH
-    </p>
+  <div class="text-sm pt-20">
+    <div class="lg:flex md:mx-auto" style="width: max-content;">
+      <p class="md:text-center leading-6 text-white opacity-25">
+        &copy; 2020 Safing ICS Technologies GmbH
+      </p>
+      <ul class=" pt-5 lg:pt-0 md:flex">
+        <li class="lg:pl-16">
+          <a href="{{ site.terms_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Terms of service</a>
+        </li>
+        <li class="pt-4 md:py-0 md:pl-10">
+          <a href="{{ site.privacy_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Privacy Policy</a>
+        </li>
+        <li class="pt-4 md:py-0 md:pl-10">
+          <a href="{{ site.privacy_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Contact & Notice</a>
+        </li>
+        <li class="pt-4 md:py-0 md:pl-10">
+          <a href="{{ site.sitemap_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Sitemap</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </footer>
