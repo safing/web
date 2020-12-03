@@ -16,47 +16,6 @@
 
 cards:
   done:
-    - title: Safing API Backend
-      description:
-        - Enable you to sign in to your Safing account on the Portmaster client via the Safing API. Also respond with details regarding your SPN subscription.
-        - Implement device management so you can sign out of devices from the Safing website.
-      projects:
-        - SPN
-        - Portmaster
-        - Website
-      team:
-        - David
-    - title: "Inception: Reaching Out"
-      description:
-        - As the SPN saw the light of day, the time has come to spread the word via word of mouth and paid marketing.
-        - Reach out to YouTube channels and newsletters in the privacy scene who offer sponsored shout-outs.
-        - You are very welcome to give us suggestions in this context.
-      link:
-        text: "Share your ideas on reddit"
-        url: "https://reddit.com/r/safing/"
-      projects:
-        - Marketing
-      team:
-        - Raphael
-        - Tabitha
-    - title: Conclude FFG Funding 19/20
-      description:
-        - Co-operate with the FFG to wrap up the funding of the past year. Prepare and fine tune our documents so we can promptly respond to any requests as they make spot checks.
-      projects:
-        - Back Office
-      team:
-        - Tabitha
-        - Raphael
-  in_progress:
-    - title: Stabilize the Network
-      description:
-        - After v0.1, focus on stabilizing the typical issues that arise with early software. Fix bugs, improve performance & stability.
-        - Detect failures in the network and react accordingly.
-        - Deliver to more and more pre-orders as the network matures.
-      projects:
-        - SPN
-      team:
-        - Daniel
     - title: Full UI Redesign
       description:
         - Completely overhaul the Portmaster user interface to simplify all aspects of it.
@@ -71,6 +30,32 @@ cards:
         - Reintroduce the "Prompt Mode" which asks for your input whether or not to allow a connection. Naturally, make it possible to lock in a decision for the future.
       projects:
         - Portmaster
+      team:
+        - Daniel
+    - title: Get Follow-Up Fundings
+      description:
+        - Apply for follow-up fundings from Netidee & FFG to ensure our financial stability and increase our run-way.
+      projects:
+        - Back Office
+      team:
+        - Raphael
+        - Tabitha
+    - title: Project Management Cleanup
+      description:
+        - "With over 200+ tasks in the Backlog it has become infeasible to prioritize effectively. As an example: choosing from 20 urgent tasks is rather absurd. Restructure our project management so everyone can work efficiently."
+      projects:
+        - Back Office
+      team:
+        - David
+        - Raphael
+  in_progress:
+    - title: Stabilize the Network
+      description:
+        - After v0.1, focus on stabilizing the typical issues that arise with early software. Fix bugs, improve performance & stability.
+        - Detect failures in the network and react accordingly.
+        - Deliver to more and more pre-orders as the network matures.
+      projects:
+        - SPN
       team:
         - Daniel
     - title: Portmaster Documentation
@@ -90,5 +75,13 @@ cards:
         - Website
       team:
         - Alex
+    - title: Podcast Revamp
+      description:
+        - Spice up the podcast with proper structure. Create an introduction and outro with underlined music and improve the overall storytelling.
+      projects:
+        - Community
+      team:
+        - Tabitha
+        - David
   postponed:
   discarded:
