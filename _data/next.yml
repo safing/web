@@ -16,37 +16,12 @@
 
 cards:
   done:
-    - title: Full UI Redesign
+    - title: Wrap Up 2020
       description:
-        - Completely overhaul the Portmaster user interface to simplify all aspects of it.
-        - Easily block connections from the Monitor, easily block all connection of an app, etc...
-      projects:
-        - Portmaster
-      team:
-        - Patrick
-        - Luke
-    - title: Connection Prompting
-      description:
-        - Reintroduce the "Prompt Mode" which asks for your input whether or not to allow a connection. Naturally, make it possible to lock in a decision for the future.
-      projects:
-        - Portmaster
-      team:
-        - Daniel
-    - title: Get Follow-Up Fundings
-      description:
-        - Apply for follow-up fundings from Netidee & FFG to ensure our financial stability and increase our run-way.
+        - "As 2020 comes to an end, wrap up the year, plan ahead for what is to come in 2021 and most importantly, let everyone recharge their batteries."
       projects:
         - Back Office
       team:
-        - Raphael
-        - Tabitha
-    - title: Project Management Cleanup
-      description:
-        - "With over 200+ tasks in the Backlog it has become infeasible to prioritize effectively. As an example: choosing from 20 urgent tasks is rather absurd. Restructure our project management so everyone can work efficiently."
-      projects:
-        - Back Office
-      team:
-        - David
         - Raphael
   in_progress:
     - title: Stabilize the Network
@@ -83,5 +58,13 @@ cards:
       team:
         - Tabitha
         - David
+    - title: Rethink Website Communication
+      description:
+        - New people visiting our website still have a hard time figuring out what we do at a glance. Instead of explaining everything at once, simplify our entry-level communication and move more complex stuff into according sub pages.
+      projects:
+        - Marketing
+      team:
+        - David
+        - Luke
   postponed:
   discarded:
