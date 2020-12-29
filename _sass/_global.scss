@@ -188,14 +188,21 @@ a.link {
     padding-top: 2.5rem !important;
   }
 
-  ul,
-  ol{
+  ul, ol{
     padding: 1rem;
-    list-style-type: decimal;
+
     li{
       padding-top: 0.7rem;
       color: #898989;
     }
+  }
+
+  ul {
+    list-style-type: circle;
+  }
+
+  ol {
+    list-style-type: decimal;
   }
 
   a{
