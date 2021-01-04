@@ -104,6 +104,12 @@
                     <li>{{ li }}</li>
                   {% endfor %}
                 </ol>
+              {% elsif tag.type == 'ul' %}
+                <ul>
+                  {% for li in tag.lis %}
+                    <li>{{ li }}</li>
+                  {% endfor %}
+                </ul>
               {% else %}
                 <{{ tag.type }}>{{ tag.text }}</{{tag.type}}>
               {% endif %}
