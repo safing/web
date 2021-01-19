@@ -443,7 +443,6 @@ input:checked {
 }
 
 .notification {
-  z-index: -1;
   position: absolute;
   top: -100px;
   animation: notification 0.5s forwards ease-in-out;
