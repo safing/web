@@ -27,6 +27,7 @@ esa_bic_url: /esa-bic/
 help_url: /support/
 newsletter_url: /newsletter/
 ownership_url: /ownership/
+business_model_url: /business-model/
 podcast_url: /podcast/
 portmaster_url: /portmaster/
 privacy_url: /privacy/
@@ -36,12 +37,10 @@ team_url: /team/
 terms_url: /terms/
 video_url: /video/
 whitepaper_url: /files/whitepaper/Gate17.pdf
-
 vpn_comparison_url: /blog/2020/01/22/how-the-spn-compares-to-vpns/
 tor_comparison_url: /blog/2020/01/22/how-the-spn-compares-to-tor/
 
 ### external
-
 account_server_url: https://account.safing.io/
 assets_server_url: https://assets.safing.io/
 company_agreement_url: https://www.firmenmonitor.at/Secure/CompanyDetail.aspx?CID=761761
@@ -55,6 +54,7 @@ kickstarter_url: https://www.kickstarter.com/projects/safingio/spn
 reddit_url: https://reddit.com/r/safing
 twitter_url: https://twitter.com/SafingIO
 youtube_channel_url: https://www.youtube.com/channel/UC_6TW053IlS4M22g7CxnukA
+docs_url: https://docs.safing.io/
 
 ### donations
 donations:
