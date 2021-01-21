@@ -442,6 +442,18 @@ input:checked {
   animation: tooltips-vert 300ms ease-out forwards;
 }
 
+.notification {
+  position: relative;
+  opacity: 0;
+  animation: notification 0.5s forwards ease-in;
+  animation-delay: 0.1s;
+}
+
+@keyframes notification {
+  100% { 
+    opacity: 1;
+  }
+}
 
 // This is a hacky way to solve this problem.
 // I could not find away in tailwind to set a max of cols and to allow
