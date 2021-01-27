@@ -26,16 +26,14 @@ redirect_from:
           <div class="py-10 sm:py-10 block mx-auto">
             <a href="#downloads">
               <button type="button" style="background-color: #000;" class="mb-5 transform hover:scale-95 inline-flex items-center px-5 px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-                download the alpha
+                download for free
               </button>
             </a>
-            <a class="inline-flex pl-8 transition duration-150 ease-in-out hover:opacity-100 self-center  uppercase opacity-55 text-xs font-bold" href="{{ site.github_url }}/portmaster/">Source Code</a>
           </div>
         </div>
       </div>
-      <div class="pt-6 lg:pt-0 ">
-        <!-- <video style="box-shadow: 0 0px 90px 0 rgba(59, 93, 199, 0.3), 0 0px 5px 0 rgba(0, 0, 0, 0.05);" class="z-30 rounded-md lg:max-w-5xl mx-auto transform scale-70 lg:scale-75" preload="auto" src="{{ site.assets_url }}video/interim.mp4" controls muted></video> -->
-        <img style="box-shadow: 0 0px 90px 0 rgba(59, 93, 199, 0.3), 0 0px 5px 0 rgba(0, 0, 0, 0.05);" class="z-30 rounded-md lg:max-w-5xl mx-auto transform scale-70 lg:scale-75 max-w-sm" height="1220" width="1220" src="{{ site.img_url }}/placeholder.png" alt="">
+      <div class="pt-6">
+        <img src="{{ site.img_url }}page-specific/portmaster/full-interface.png" class="z-30 rounded-md  mx-auto transform " style="box-shadow: 0 0px 90px 0 rgba(59, 93, 199, 0.3), 0 0px 5px 0 rgba(0, 0, 0, 0.05);" alt="">
       </div>
       <span style="margin-top: -45rem; margin-left: -8rem; z-index: -1;" class="absolute transform scale-50 lg:scale-105 xl:scale-150 bg-cover opacity-75 hidden lg:block">
         <img src="{{ site.img_url }}page-specific/portmaster/wave.png" alt="">
@@ -43,8 +41,7 @@ redirect_from:
     </div>
   </div>
 </header>
-
-<section class="my-20 md:my-40">
+<section id="features" class="my-32 md:mt-16 md:mb-40">
   <div class="text-center py-24 lg:pt-0 lg:pb-48">
     <h2 class="text-5xl tracking-tight font-extrabold leading-none py-10 mr-auto ml-auto">
       A Bundle of Privacy Features
@@ -53,105 +50,158 @@ redirect_from:
        At its core, the Portmaster sits on your kernel and simply intercepts all your network connections. You decide which privacy features you want to enable or disable as you desire.
     </p>
   </div>
-  <div class="items-center h-full mt-8 md:mt-16 lg:mt-12">
-    <div class="container mx-auto px-8 sm:px-0 flex">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:flex block justify-center m-auto w-auto">
-        <div class="ml-0 lg:ml-32 lg:hidden self-center">
-          <img src="{{ site.img_url }}page-specific/portmaster/monitor.gif" alt="">
+  <div class="mx-auto lg:pl-16 grid grid-rows-auto grid-cols-1 grid-row-col lg:grid-cols-2 lg:grid-flow-col" style="max-width: 2000px;">
+    <div class="mx-auto lg:mr-0 lg:ml-auto mt-16 md:my-auto px-4 md:px-0">
+      <div class="inline-block max-w-lg lg:mr-32">
+        <div class="pt-1 pb-1 pr-4 pl-2 rounded-full text-white text-xs flex break-words" style="background-color: #5c85ff; width: fit-content;">
+          <img src="{{ site.img_url }}icons/info.svg" class="h-4 w-4 self-center mr-2">
+          Alpha Software: Portmaster is in active development
         </div>
-        <div class="inline-block max-w-lg">
-          <h2 style="max-width: 400px; line-height: 60px;" class="text-5xl tracking-tight font-extrabold leading-none py-10 lg:w-auto">
-            Block Trackers System&#8209;Wide
-          </h2>
-          <p class="text-md opacity-55 max-w-lg">
-            Since the Portmaster sits on your kernel, you can finally protect your whole computer, not just your browser. Do you want to block Ads and Analytics for your whole operating system? Or whole countries? The Portmaster has you covered.
-          </p>
-          <p class="text-sm opacity-55 max-w-lg pt-4">
-            Your kernel is a cricital part of your computer, so be encouraged to validate our claims.
-          </p>
-          <div class="py-10 flex">
-            <a href="{{ site.github_url }}/portmaster/">
-              <button type="button" style="background-color: #000;" class="transform hover:scale-95 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-                Inspect Source Code
-              </button>
-            </a>
-          </div>
-        </div>
-        <div class="hidden pt-16 lg:pt-0 ml-0 lg:ml-32 lg:block self-center">
-          <img src="{{ site.img_url }}page-specific/portmaster/monitor.gif" alt="">
-        </div>
+        <h2 style="max-width: 400px; line-height: 60px;" class="text-5xl tracking-tight font-extrabold leading-none pt-8 pb-10 lg:w-auto">
+          Monitor All Network Activity
+        </h2>
+        <p class="text-md opacity-55 max-w-lg">
+          Discover everything that is happening on your computer. Expose every connection your applications make and detect evil ones. Finally get the power to act accordingly.
+        </p>
       </div>
     </div>
-  </div>
-  <div class="items-center h-full mt-32 lg:mt-64">
-    <div class="container mx-auto px-8 sm:px-0 flex">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:flex  items-center">
-        <div class="m0-0 lg:mr-40 self-center">
-          <img src="{{ site.img_url }}page-specific/portmaster/control.png" alt="">
-        </div>
-        <div class="inline-block max-w-lg">
-          <h2 style="max-width: 400px; line-height: 60px;" class="text-5xl tracking-tight font-extrabold leading-none py-10">
-            Set Global &amp; per&#8209;App Configuration
-          </h2>
-          <p class="text-md opacity-55 max-w-lg">
-            Cut off apps from the Internet entirely, block system processes or limit applications to specific domains only.
-          </p>
-          <p class="text-md opacity-55 max-w-lg pt-4">
-            With the Portmaster, your power becomes limitless.
-          </p>
-        </div>
-      </div>
+    <div class="lg:-mr-20 ml-auto row-start-1 self-end md:self-start ">
+      <img class="" src="{{ site.img_url }}page-specific/portmaster/monitor-network-activity.png" alt="">
     </div>
   </div>
-  <div class="items-center h-full mt-32 lg:mt-64">
-    <div class="container mx-auto px-8 sm:px-0 flex">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:flex block justify-center m-auto w-auto  items-center">
-        <div class="pb-8 lg:pb-0 ml-0 lg:ml-32 lg:hidden self-center">
-          <img src="{{ site.img_url }}page-specific/portmaster/tls.png" alt="">
+  <div class="mx-auto lg:pr-16 grid grid-rows-auto grid-cols-1 grid-row-col lg:grid-cols-2 lg:grid-flow-col mt-32 lg:mt-64" style="max-width: 1700px;">
+    <div class="row-start-2 lg:row-start-1 lg:col-start-2 mx-auto lg:ml-0 lg:mr-auto mt-16 md:my-auto px-4 md:px-0">
+      <div class="inline-block max-w-lg lg:ml-32">
+        <div class="pt-1 pb-1 pr-4 pl-2 rounded-full text-white text-xs flex break-words" style="background-color: #5c85ff; width: fit-content;">
+          <img src="{{ site.img_url }}icons/info.svg" class="h-4 w-4 self-center mr-2">
+          Alpha Software: Portmaster is in active development
         </div>
-        <div class="inline-block max-w-lg">
-          <h2 style="line-height: 60px;" class="text-5xl  tracking-tight font-extrabold leading-none py-10 lg:w-2/3">
-            Enforce DNS&#8209;over&#8209;TLS
-          </h2>
-          <p class="text-md opacity-55 max-w-lg">
-            Even with invasive connections gone, you might not want to share your dns requests out in the open. With the Portmaster, you can easily re-route all your dns queries to a DNS-over-TLS provider of your choice.
-          </p>
-        </div>
-        <div class="hidden pt-16 lg:pt-0 ml-0 lg:ml-32 lg:block self-center">
-          <img src="{{ site.img_url }}page-specific/portmaster/tls.png" alt="">
-        </div>
+        <h2 style="max-width: 400px; line-height: 60px;" class="text-5xl tracking-tight font-extrabold leading-none pt-8 pb-10">
+          Manually Allow or Block Connections
+        </h2>
+        <p class="text-md opacity-55 max-w-lg" style="max-width: 471px;">
+          Add your own rules to additionally block all domains you dislike. Enable Prompt Mode and decide the fate of every new connection. Block or Allow.
+        </p>
       </div>
     </div>
+    <div class="mx-auto md:ml-auto row-start-1 self-end md:self-center">
+      <img class="" src="{{ site.img_url }}page-specific/portmaster/manually-allow-ord-block-connections.png" alt="">
+    </div>
   </div>
-  <div class="items-center h-full mt-32 lg:mt-64">
-    <div class="container mx-auto px-8 sm:px-0 flex">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:flex  items-center">
-        <div class="m0-0 lg:mr-48 self-center">
-          <img src="{{ site.img_url }}page-specific/portmaster/modular.png" alt="">
+  <div class="mx-auto lg:pl-16 grid grid-rows-auto grid-cols-1 grid-row-col lg:grid-cols-2 lg:grid-flow-col mt-32 lg:mt-64" style="max-width: 1700px;">
+    <div class="mx-auto lg:mr-0 lg:ml-auto mt-16 md:my-auto px-4 md:px-0">
+      <div class="inline-block max-w-lg lg:mr-32">
+        <div class="pt-1 pb-1 pr-4 pl-2 rounded-full text-white text-xs flex break-words" style="background-color: #5c85ff; width: fit-content;">
+          <img src="{{ site.img_url }}icons/info.svg" class="h-4 w-4 self-center mr-2">
+          Alpha Software: Portmaster is in active development
         </div>
-        <div class="inline-block max-w-lg">
-          <h2 style="max-width: 470px; line-height: 60px;" class="text-5xl tracking-tight font-extrabold leading-none py-10 ">
-            Modular Design to Fit Your Needs
-          </h2>
-          <p class="text-md opacity-55 max-w-lg">
-            One shoe does not fit all. That is why you can enable or disable privacy features at your will. And the best thing? Everything is FOSS, free and open-source software.
-          </p>
-          <p class="text-md opacity-55 max-w-lg pt-4">
-            You can use all local features free of charge as well, only the coolest one, the SPN, requires a subscription to unlock.
-          </p>
-          <div class="py-10 flex">
-            <a href="{{ site.spn_url }}">
-              <button type="button" style="background-color: #000;" class="transform hover:scale-95 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-                Discover the SPN
-              </button>
-            </a>
-          </div>
-        </div>
+        <h2 style="max-width: 400px; line-height: 60px;" class="text-5xl tracking-tight font-extrabold leading-none pt-8 pb-10 lg:w-auto">
+          Auto-Block via Selected Filter Lists
+        </h2>
+        <p class="text-md opacity-55 max-w-lg">
+          Block ads, trackers, malware and NSFW sites via trusted domain-lists, which are also used by Ad-Blockers, etc. Easily change the defaults to fit your needs.
+        </p>
       </div>
+      <!-- <div class="py-10 sm:py-10 text-center sm:flex">
+        <a href="{{ site.docs_url }}">
+          <button type="button" style="background-color: #000;" class="transform hover:scale-95 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
+            Checkout our Docs
+          </button>
+        </a>
+      </div> -->
+    </div>
+    <div class="mx-auto md:ml-auto row-start-1 self-end md:self-center">
+      <img class="" src="{{ site.img_url }}page-specific/portmaster/block-trackers-system-wide.png" alt="">
+    </div>
+  </div>
+  <div class="mx-auto lg:pr-16 grid grid-rows-auto grid-cols-1 grid-row-col lg:grid-cols-2 lg:grid-flow-col mt-32 lg:mt-64" style="max-width: 1700px;">
+    <div class="row-start-2 lg:row-start-1 lg:col-start-2 mx-auto lg:ml-0 lg:mr-auto mt-16 md:my-auto px-4 md:px-0">
+      <div class="inline-block max-w-lg lg:ml-32">
+        <div class="pt-1 pb-1 pr-4 pl-2 rounded-full text-white text-xs flex break-words" style="background-color: #5c85ff; width: fit-content;">
+          <img src="{{ site.img_url }}icons/info.svg" class="h-4 w-4 self-center mr-2">
+          Alpha Software: Portmaster is in active development
+        </div>
+        <h2 style="max-width: 400px; line-height: 60px;" class="text-5xl tracking-tight font-extrabold leading-none pt-8 pb-10">
+          Enforce DNS-over-TLS
+        </h2>
+        <p class="text-md opacity-55 max-w-lg" style="max-width: 471px;">
+          Even with invasive connections gone, you do not want to share your dns requests out in the open. With the Portmaster, you can easily re-route all your dns queries to a DNS-over-TLS provider of your choice.
+        </p>
+      </div>
+    </div>
+    <div class="mx-auto md:ml-auto row-start-1 self-end md:self-center">
+      <img class="" src="{{ site.img_url }}page-specific/portmaster/enforce-dns-over-tls.png" alt="">
+    </div>
+  </div>
+  <div class="mx-auto lg:pl-16 grid grid-rows-auto grid-cols-1 grid-row-col lg:grid-cols-2 lg:grid-flow-col mt-32 lg:mt-64" style="max-width: 1700px;">
+    <div class="mx-auto lg:mr-0 lg:ml-auto mt-16 md:my-auto px-4 md:px-0">
+      <div class="inline-block max-w-lg lg:mr-32">
+        <div class="pt-1 pb-1 pr-4 pl-2 rounded-full text-white text-xs flex break-words" style="background-color: #5c85ff; width: fit-content;">
+          <img src="{{ site.img_url }}icons/info.svg" class="h-4 w-4 self-center mr-2">
+          Alpha Software: Portmaster is in active development
+        </div>
+        <h2 style="max-width: 400px; line-height: 60px;" class="text-5xl tracking-tight font-extrabold leading-none pt-8 pb-10 lg:w-auto">
+          Explore the Docs and Source Code
+        </h2>
+        <p class="text-md opacity-55 max-w-lg">
+          In the age of Mass Surveillance, what good is a service when you cannot see what it is really doing? We believe in open source. We also document everything as good as we can.
+        </p>
+      </div>
+      <div class="py-10 sm:py-10 text-center sm:flex">
+        <a href="{{ site.portmaster_url }}">
+          <button type="button" style="background-color: #000;" class="transform hover:scale-95 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
+            Source Code
+          </button>
+        </a>
+        <br>
+        <a href="{{ site.portmaster_url }}#downloads" class="sm:pl-8 transition duration-150 ease-in-out hover:opacity-100 self-center uppercase opacity-55 text-xs font-bold">
+          Checkout our Docs
+        </a>
+      </div>
+    </div>
+    <div class="mx-auto md:ml-auto row-start-1 self-end md:self-center">
+      <img class="" src="{{ site.img_url }}page-specific/portmaster/explore-the-docs-and-source-code.png" alt="">
+    </div>
+  </div>
+  <div class="mx-auto lg:pr-16 grid grid-rows-auto grid-cols-1 grid-row-col lg:grid-cols-2 lg:grid-flow-col mt-32 lg:mt-64" style="max-width: 1700px;">
+    <div class="row-start-2 lg:row-start-1 lg:col-start-2 mx-auto lg:ml-0 lg:mr-auto mt-16 md:my-auto px-4 md:px-0">
+      <div class="inline-block max-w-lg lg:ml-32">
+        <div class="pt-1 pb-1 pr-4 pl-2 rounded-full text-white text-xs flex break-words" style="background-color: #5c85ff; width: fit-content;">
+          <img src="{{ site.img_url }}icons/info.svg" class="h-4 w-4 self-center mr-2">
+          Alpha Software: Portmaster is in active development
+        </div>
+        <h2 style="max-width: 400px; line-height: 60px;" class="text-5xl tracking-tight font-extrabold leading-none pt-8 pb-10">
+          Configure Settings for Different Networks
+        </h2>
+        <p class="text-md opacity-55 max-w-lg" style="max-width: 471px;">
+          The Wi-Fi in your local coffee shop is riskier than yours at home. Set up your settings for different networks and then simply press a button when changing location. All settings will adjust immediately.
+        </p>
+      </div>
+    </div>
+    <div class="mx-auto md:ml-auto row-start-1 self-end md:self-center">
+      <img class="" src="{{ site.img_url }}page-specific/portmaster/configure-settings-for-different-networks.png" alt="">
+    </div>
+  </div>
+  <div class="mx-auto lg:pl-16 grid grid-rows-auto grid-cols-1 grid-row-col lg:grid-cols-2 lg:grid-flow-col mt-32 lg:mt-64" style="max-width: 1700px;">
+    <div class="mx-auto lg:mr-0 lg:ml-auto mt-16 md:my-auto px-4 md:px-0">
+      <div class="inline-block max-w-lg lg:mr-32">
+        <div class="pt-1 pb-1 pr-4 pl-2 rounded-full text-white text-xs flex break-words" style="background-color: #5c85ff; width: fit-content;">
+          <img src="{{ site.img_url }}icons/info.svg" class="h-4 w-4 self-center mr-2">
+          Alpha Software: Portmaster is in active development
+        </div>
+        <h2 style="max-width: 400px; line-height: 60px;" class="text-5xl tracking-tight font-extrabold leading-none pt-8 pb-10 lg:w-auto">
+          Set Global &amp; per&#8209;App Settings
+        </h2>
+        <p class="text-md opacity-55 max-w-lg">
+          Make your own rules. Completely cut off applications from the Internet. Or block all p2p connections except for certain apps. Or never connect to specific countries. The Portmaster has you covered.
+        </p>
+      </div>
+    </div>
+    <div class="mx-auto md:ml-auto row-start-1 self-end md:self-center">
+      <img class="" src="{{ site.img_url }}page-specific/portmaster/Set-global-and-per-app-configureation.png" alt="">
     </div>
   </div>
 </section>
-
 <section class="mt-16 lg:mt-48 pb-20 lg:pb-40">
   <div class="items-center h-full">
     <div class="">
@@ -209,7 +259,6 @@ redirect_from:
                   </button>
                 </a>
               </div>
-
               <div class="support" class="max-w-screen-lg mx-auto" style="margin-bottom: 6rem; margin-top: 6rem;">
                 <h2 class="line text-md opacity-55 text-xl"><span>Support</span></h2>
                 <p style="color: #727272;" class="pt-12 max-w-lg mx-auto text-center font-medium">
@@ -221,7 +270,6 @@ redirect_from:
                   <a class="link" href="/support/#portmaster-faq">Check out the FAQ</a> or ask us <a class="link" href="/support/">any question</a> we did not answer yet.
                 </p>
               </div>
-
               <div>
                 <div class="max-w-screen-lg mx-auto">
                   <h2 class="line text-md opacity-55 text-xl"><span>Limited Support</span></h2>
