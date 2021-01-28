@@ -38,8 +38,14 @@ spn:
   - q: Is there a free trial version for people interested in the SPN?
     a: No. Providing the network costs us money, so we charge accordingly. However, the privacy filter and DNS Resolver, which add a great value to your privacy, are and will remain free to use.
 portmaster:
+  - q: How do you make money? What is the catch?
+    a: Our business model is Freemium. First, provide local privacy for free, forever. Second, let happy users support us by paying for a powerful VPN alternative. Third, reinvest earnings into making all our products better.
+    link:
+      text: Find out more about the VPN alternative.
+      url: https://safing.io/spn/
   - q: Since the Portmaster can block ads and trackers, do I still need an ad-blocker for my browser?
     a: Yes, we highly recommend to continue using adblockers, such as uBlock Origin, uMatrix, or similar. They give you more fine grained control over domains. iE you can allow certain domains to allow css files & images while blocking cookies & javascripts. The Portmaster cannot make this distinction.
   - q: What platforms do you support?
     a: Currently we support Windows and Linux. Mac and Mobile are planned, but are further down the road.
+
 # ## The Portmaster can block ads and trackers. Do I still need a ad-blocking web extension?
