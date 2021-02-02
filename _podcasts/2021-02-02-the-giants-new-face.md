@@ -2,7 +2,7 @@
 # ⚠️ ALWAYS follow this format: "#001 - Some sweet title"
 # when displaying only the episode number or the title this has to be constant
 # -> view cast.html
-title: "#027 - The Giant's New Makeup"
+title: "#027 - The Giant's New Face"
 keywords: privacy portmaster design
 date: 2021-02-02
 tags:
@@ -10,7 +10,7 @@ tags:
 - portmaster
 - design
 asset_server: true
-podcast_link: /podcast/027-the-giants-new-makeup.mp3
+podcast_link: /podcast/027-the-giants-new-face.mp3
 custom_thumbnail_name: placeholder_S02
 podcast_file_size: 38.8 MB
 podcast_duration: "39:47"
@@ -19,7 +19,7 @@ podcast_length: 38197208
 summary: "
 <p>The Portmaster privacy app is one giant of a machine. But up until recently, most of its powers were not really usable. The features were either invisible or hidden behind a clunky old User Interface.</p>
 
-<p>That is where Patrick comes along, who took charge of completely modernizing the Portmaster's User Interface. There is a lot to unravel here as Patrick gives us a good look at how it was when joining Safing, how he felt when receiving this monumental task and how it was to work with Luke, the designer.</p>
+<p>That is where Patrick comes along, who took charge of completely modernizing the Portmaster's User Interface. There is a lot to unravel here as Patrick gives us a good look at how it was to join Safing, how he felt when receiving this monumental task and how it was to work alongside Luke, the designer.</p>
 
 <h4>Show Notes</h4>
 
@@ -31,8 +31,8 @@ summary: "
 
 <h4>Support</h4>
 
-- Use the Portmaster for free, forever: <a  href='https://safing.io/portmaster/'>https://safing.io/portmaster/</a><br/>
-- Give us a Star on GitHub: <a  href='https://github.com/safing/portmaster/'>https://github.com/safing/portmaster/</a><br/>
+- Use the Portmaster for Free, Forever: <a  href='https://safing.io/portmaster/'>https://safing.io/portmaster/</a><br/>
+- Give Us a Star on GitHub: <a  href='https://github.com/safing/portmaster/'>https://github.com/safing/portmaster/</a><br/>
 - Tell Two Friends about Safing
 
 <h4>Patrick's Socials</h4>
@@ -46,7 +46,7 @@ summary: "
 
 <h4>Music Credit</h4>
 
-All music composed by the talented <a href='https://www.philter.no/'>Philter</a>. Intro Song: \"Sunrise\". Outro Song: \"Sunset\"
+All music composed by <a href='https://www.philter.no/'>Philter</a>. Intro Song: \"Sunrise\". Outro Song: \"Sunset\"
 "
 
 
