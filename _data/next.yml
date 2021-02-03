@@ -16,23 +16,6 @@
 
 cards:
   done:
-    - title: Wrap Up 2020
-      description:
-        - "As 2020 comes to an end, wrap up the year, plan ahead for what is to come in 2021 and most importantly, let everyone recharge their batteries."
-      projects:
-        - Back Office
-      team:
-        - Raphael
-  in_progress:
-    - title: Stabilize the Network
-      description:
-        - After v0.1, focus on stabilizing the typical issues that arise with early software. Fix bugs, improve performance & stability.
-        - Detect failures in the network and react accordingly.
-        - Deliver to more and more pre-orders as the network matures.
-      projects:
-        - SPN
-      team:
-        - Daniel
     - title: Portmaster Documentation
       description:
         - You can see our high level concepts & you can inspect our code. But nothing in between.
@@ -41,15 +24,9 @@ cards:
         - Portmaster
         - Website
       team:
+        - Daniel
         - David
         - Patrick
-        - Daniel
-    - title: Cryptocurrency Payments
-      description: Enable you to pay for the SPN with cryptocurrencies such as Bitcoin, Ethereum and Monero
-      projects:
-        - Website
-      team:
-        - Alex
     - title: Podcast Revamp
       description:
         - Spice up the podcast with proper structure. Create an introduction and outro with underlined music and improve the overall storytelling.
