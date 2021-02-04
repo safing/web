@@ -16,6 +16,11 @@ cards:
     description:
       - Instead of only viewing what is currently going on, save a local history to be able to inspect what apps did in the past. Naturally, this is local only.
       - Also, provide a simple opt-out.
+  - title: Cryptographically Sign Updates
+    description:
+      - Add an additional layer of protection to the update framework by cryptographically signing all resources it distributes.
+    projects:
+      - Portmaster
   - title: On-App Account Login
     description:
       - Enable you to sign in to your Safing account on the Portmaster client via the finished Safing API. Respond with details regarding your SPN subscription.
@@ -100,18 +105,28 @@ cards:
     description: Allow you to access the SPN from within restricted countries or areas.
     projects:
       - SPN
+  - title: "Docs: Modernize the Design"
+    description: Embed the documentation into our overall design by giving it a fresh new look.
+    projects:
+      - Website
+  - title: "Docs: Filter Lists Architecture"
+    description: Describe in detail how the IntelHub collects and distributes filter lists. What lists are selected? How often are lists distributed? And why?
+    projects:
+      - Website
+  - title: "Docs: SPN Architecture"
+    description: Describe the Safing Privacy Network in similar detail as the current Portmaster Docs. The more mature the SPN gets the more important this task becomes.
+    projects:
+      - Website
+  - title: "Docs: Portmaster User Interface"
+    description: Describe the architecture and technology behind the Portmaster User Interface.
+    projects:
+      - Website
+  - title: "Docs: Portmaster Update System"
+    description: Describe how the Portmaster updates itself in more detail. What is the purpose of each resource? What insights do we gain through this and how do we protect your privacy in the process?
+    projects:
+      - Website
   - title: Credit Card Payments
     description: Enable you to pay for the SPN with credit cards.
-    projects:
-      - Website
-  - title: "Video: Portmaster in Action"
-    description:
-      - Produce the trailer video showing what the Portmaster is all about as promised on the /portmaster page.
-    projects:
-      - Website
-  - title: "Video: SPN in Action"
-    description:
-      - Produce the trailer video showing what the SPN is all about as promised on the /spn page.
     projects:
       - Website
   - title: 'Revamp RSS Feeds & Content'

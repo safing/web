@@ -16,23 +16,6 @@
 
 cards:
   done:
-    - title: Wrap Up 2020
-      description:
-        - "As 2020 comes to an end, wrap up the year, plan ahead for what is to come in 2021 and most importantly, let everyone recharge their batteries."
-      projects:
-        - Back Office
-      team:
-        - Raphael
-  in_progress:
-    - title: Stabilize the Network
-      description:
-        - After v0.1, focus on stabilizing the typical issues that arise with early software. Fix bugs, improve performance & stability.
-        - Detect failures in the network and react accordingly.
-        - Deliver to more and more pre-orders as the network matures.
-      projects:
-        - SPN
-      team:
-        - Daniel
     - title: Portmaster Documentation
       description:
         - You can see our high level concepts & you can inspect our code. But nothing in between.
@@ -41,15 +24,9 @@ cards:
         - Portmaster
         - Website
       team:
+        - Daniel
         - David
         - Patrick
-        - Daniel
-    - title: Cryptocurrency Payments
-      description: Enable you to pay for the SPN with cryptocurrencies such as Bitcoin, Ethereum and Monero
-      projects:
-        - Website
-      team:
-        - Alex
     - title: Podcast Revamp
       description:
         - Spice up the podcast with proper structure. Create an introduction and outro with underlined music and improve the overall storytelling.
@@ -63,8 +40,55 @@ cards:
         - New people visiting our website still have a hard time figuring out what we do at a glance. Instead of explaining everything at once, simplify our entry-level communication and move more complex stuff into according sub pages.
       projects:
         - Marketing
+        - Website
       team:
         - David
         - Luke
+  in_progress:
+    - title: Stabilize the Network
+      description:
+        - After v0.1, focus on stabilizing the typical issues that arise with early software. Fix bugs, improve performance & stability.
+        - Detect failures in the network and react accordingly.
+        - Deliver to more and more pre-orders as the network matures.
+      projects:
+        - SPN
+      team:
+        - Daniel
+    - title: Polish UI Design
+      description: From a design perspective, the new User Interface was simply the minimal viable product. Go through each page and element in order to bring it up to speed with the concept design.
+      team:
+        - Luke
+        - Patrick
+      projects:
+        - Portmaster
+    - title: "Define Next Steps"
+      description: Since two vital requirements were completed, (1) re-shifting communication towards the Portmaster and (2) its documentation, now focus on spreading the word again. Define the next steps and keep everyone in the loop.
+      team:
+        - Raphael
+        - David
+      projects:
+        - Marketing
+    - title: "Docs: Add Fundamental Guides"
+      description:
+        - "Describe some basics such as (un)installation, operating system compatibility, troubleshooting, how to contribute, etc..."
+        - Deprecate the GitHub Wiki. Flesh out the scope and details as you go.
+      team:
+        - Daniel
+        - David
+      projects:
+        - Website
+    - title: "Docs: Add Compatibility Lists"
+      description: Make it convenient for people to see which operating systems we support, which linux distros are compatible and which VPNs work or do not work. Make it easy for people to share their experiences with others.
+      team:
+        - Daniel
+        - David
+      projects:
+        - Website
+    - title: Cryptocurrency Payments
+      description: Enable you to pay for the SPN with cryptocurrencies such as Bitcoin, Ethereum and Monero
+      projects:
+        - Website
+      team:
+        - Alex
   postponed:
   discarded:
