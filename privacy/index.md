@@ -2,6 +2,7 @@
 layout: page_container
 title: Privacy Policy
 heading: Privacy Policy
+date: 22/01/21
 ---
 
 **Introduction**
@@ -64,15 +65,13 @@ PII, we treat all data with the same respect and as such have listed all
 the data, we collect from the services we provide.
 
 **Website:**
-
 The data we collect from Website Visitors:
 
-Includes Domains: <https://safing.io>, [https://docs.safing.io](https://docs.safing.io/)
+**Includes Domains:** <https://safing.io>, [https://docs.safing.io](https://docs.safing.io/)
 
-No tracking, analytics, are currently used. Should this change, we will update this privacy policy in compliance with [Article 18.](#article-18-amendments-to-the-privacy-policy).
+**No tracking, analytics, are currently used. Should this change, we will update this privacy policy in compliance with [Article 18.](#article-18-amendments-to-the-privacy-policy).
 
 **Forum:**
-
 At present the forum is run on a third party service, however, with
 respect to being open and transparent, our forum when running, is
 usually on the Reddit platform, we have no control on how their service
@@ -81,7 +80,6 @@ advised to read any and all privacy policies of the sites you intend to
 use.
 
 **Portmaster:**
-
 Software running on customers\' PC -- AGPLv3 License. Please read
 [**Article 9.**]({{ config.base_url }}/terms/#article-9-fair-information-practices-explained) of
 the Terms of Service. This does not collect, handle, or store any
@@ -94,26 +92,30 @@ We intend that in the future, opt-in and privacy preserving telemetry
 functions will be offered to our subscribers.
 
 **SPN:**
-
 The customer hub holds all data relevant to the administration of our
 SPN subscription and service to you, and although it is not all classed
 as PII, the information gathered and stored is as follows and includes
 the domain: <https://account.safing.io>
 
--   Transaction identifier from payment gateway.
--   IP address, this is masked and only held for technical reasons for
-    the period of 24 hours, and then deleted.
--   User name, supplied by you, not your real name.
--   Email address, required for some payment methods, our contact with
-    you for account related information.
--   Country, and country calling code, required for Austrian taxation
-    law.
--   Password, always stored in an encrypted (hashed) form.
--   Survey answers, development purposes for site and service
-    enhancement.
+**Transaction identifier from payment gateway.**
+
+**IP address**,  this is masked and only held for technical reasons for
+the period of 24 hours, and then deleted.
+
+**User name**, supplied by you, not your real name.
+
+**Email address**, required for some payment methods, our contact with
+you for account related information.
+
+**Country**, and country calling code, required for Austrian taxation
+law.
+
+**Password**, always stored in an encrypted (hashed) form.
+
+**Survey answers**, development purposes for site and service
+enhancement.
 
 **Surveys:**
-
 Safing ICS Technologies GmbH run surveys both continuous and in limited
 time scope in order to best know and understand the needs of our
 customers, these are used for development and enhancement of our
@@ -121,8 +123,21 @@ services, data supplied by users is kept until a user deletes it, these
 surveys only collect basic information and not PII, by way of example
 and not limited to, \"Which Operating Systems do you use?\".
 
-**Newsletter:**
 
+**Customer Support:**
+Safing ICS Technologies GmbH run customer support services for its users, customer support covers all aspects of
+the services provided, including and not limited to: accounts, Portmaster, SPN, General enquiries, and questions
+about our policies etc. the information received, gathered, collected and held whilst running this service is as
+follows:
+
+**Email address**, required for customer service replies etc. our contact with you for account related
+information.
+
+**Emails**, received by Safing ICS Technologies GmbH, to aid enquiries and for future reference.
+
+**Email content**, held for the purposes of site and service enhancement.
+
+**Newsletter:**
 Safing ICS Technologies GmbH periodically sends out a newsletter, when
 signing up to this service, you agree that Rapidmail will store your
 email address, and that we have access to said email address. Rapidmail
@@ -137,25 +152,25 @@ policies on the third party sites you use or visit.
 
 ## Article 3. How we store and protect your PII & Data
 
-**Data Storage:**
+All data, including and not limited to data listed in Article 2, Personal Identifiable Information & Data we collect: is
+stored in a protected database on a specially guarded server. The server is operated by us and hosted by Hetzner.
 
+**Data Storage:**
 Data is stored in a protected database on a specially guarded server.
 The server is operated by us and hosted by Hetzner.
 
 **Data Linking:**
-
 Information/data used for the purpose of linking payments to a specific
 user to enable services are as follows:
 
--   Valid email address, if or when required.
+**Valid email address**, if or when required.
 
--   User name, not your real name.
+**User name**, not your real name.
 
--   Payment identifiers, transaction code sent to us via the payment
+**Payment identifiers**, transaction code sent to us via the payment
     gateway used.
 
 **Data Retention:**
-
 we are required by law to keep payment records for a period of 7 years,
 for taxation purposes, even in the event that the account is deleted, we
 are required to keep the transaction identifiers for this period.
@@ -168,7 +183,6 @@ Payments of up to 400€ (incl. Taxes) do not require customer
 information, i.e. your invoices will be anonymous.
 
 **Data Protection:**
-
 In Transit: All traffic between the Customer and Safing ICS Technologies
 GmbH is encrypted using modern Transport Layer Security (TLS). TLS is a
 cryptographic protocol designed to provide communications security over
@@ -184,35 +198,37 @@ The information collected whilst subscribing to the SPN or using the
 website is basic in nature and only used for the specific reasons of
 software development and the administration of your account.
 
--   Valid email address. If or when required, Used for the
-    administration of your account.
+**Valid email address.** If or when required, Used for the
+administration of your account.
 
--   Transaction identifier, sent by payment gateway. Used for the
-    administration of your account.
+**Transaction identifier, sent by payment gateway.** Used for the
+administration of your account.
 
--   The internet browser and operating system you are using. Used for
-    software development purposes.
+**The internet browser and operating system you are using.** Used for
+software development purposes.
 
--   The language set by the browser. Used for software development
-    purposes.
+**The language set by the browser.** Used for software development
+purposes.
 
--   The part of the IP address that designates country. Used for
-    software development and administration purposes.
+**The part of the IP address that designates country.** Used for
+software development and administration purposes.
 
--   Referrer. How did you find the site? Used for software development
-    purposes.
+**Referrer.** How did you find the site? Used for software development
+purposes.
 
 ## Article 5. Third party websites and links
 
--   Hetzner. Hosting Provider.
+-   **Hetzner.** Hosting Provider.
 
--   GitHub. Hosting Provider.
+-   **GitHub.** Hosting Provider.
 
--   PayPal. Payment gateway.
+-   **PayPal.** Payment gateway.
 
--   Stripe. Payment gateway.
+-   **Stripe.** Payment gateway.
 
--   Sparkasse Baden: Bank. Payments, wire transfer.
+-   **Sparkasse Baden: Bank.** Payments, wire transfer.
+
+-   **Mailbox.org.** Email provider.
 
 ## Article 6. Third Party Disclosure
 
@@ -249,22 +265,20 @@ In line with the GDPR, we collect and process the data outlined in this
 Privacy Policy on the following grounds, for the purposes of fulfilling
 our contractual obligations to users, including:
 
--   Providing users with the Services they have requested.
+**Providing users with the Services they have requested.**
 
--   Managing user subscriptions and processing payments.
+**Managing user subscriptions and processing payments.**
 
--   Providing customer support.
+**Providing customer support.**
 
 For a legitimate interest associated with the operation and development
 of our services and business, including:
 
--   Enhancing the quality, reliability, and effectiveness of our website
-    and Services.
+**Enhancing the quality, reliability, and effectiveness of our website and Services.**
 
--   Communicating with customers to provide information and feedback
-    related to our Services and website.
+**Communicating with customers to provide information and feedback related to our Services and website.**
 
--   With the consent of users, which users can withdraw at any time.
+**With the consent of users, which users can withdraw at any time.**
 
 You can exercise your rights under the GDPR to access, transfer,
 correct, delete, or object to the processing of your personal
@@ -445,7 +459,7 @@ refer to the instructions for your internet browser from the list below.
 
 ## Article 15. Third party behavioural tracking
 
-Our SPN service DOES NOT use third-party tracking in any form, however,
+Our SPN service **DOES NOT** use third-party tracking in any form, however,
 sites we may direct you to during subscription, by way of example only,
 the payment gateways we use, Stripe, PayPal, or wire transfer, may use
 such tracking on their services, for the avoidance of all doubt, it is
@@ -496,7 +510,7 @@ SPN provided by Safing ICS Technologies GmbH does not collect any IP
 addresses, browsing history, traffic data, or DNS queries that could be
 used to identify any specific user.
 
-## Article 18. Amendments to the Privacy Policy**
+## Article 18. Amendments to the Privacy Policy
 
 This privacy policy is classed as a living document, and will change
 from time to time due to changes in laws concerning privacy around the
@@ -508,6 +522,39 @@ As your continued use of the website or Services constitutes your
 acceptance of our Privacy Policy, we recommend that subscribers check
 for updates and reads said content of any amended policies we might make
 in the future.
+
+<br>
+
+# Amendment 0.1. 05/08/2020
+
+Due to the Court of Justice of the European Union ruling on data transfers, invalidating the Privacy Shield and GDPR compliance of such a ruling. 
+
+it is here by stated that Safing ICS Technologies GmbH, does not hold or transfer any data to any servers held in the United States of America, however, due to the operating nature of the SPN, we cannot and will not be held responsible for any private nodes held within the United States of America that you choose to use.
+
+<br>
+
+# Amendment 0.2. 18/08/2020
+
+As per update to CalOPPA/CCPA (California Consumer Privacy Act) 14/08/2020, this amendment applies to Privacy Policy Articles [8](#article-8-california-online-privacy-protection-act-caloppa-explained),[11](#article-11-do-not-track),[13](#article-13-no-logs-policy) & [16](#article-16-data-request).
+
+
+
+**Authorized Agents:** When a consumer uses an authorized agent to submit a request to know, or a request to delete data of any kind, Safing ICS Technologies GmbH may require that the consumer do the following:
+Provide the authorized agent, signed permission to access any form of data/information.
+
+**In the case of anonymous users:**  users must verify their own identity directly with Safing ICS Technologies GmbH.
+Users must directly confirm with Safing ICS Technologies GmbH that they have provided the authorized agent permission to submit any such request.
+
+Authorized agents must also provide a current, verifiable identification and all necessary documentation to access any information or data, users and agents are however reminded that: Safing ICS Technologies GmbH, does not collect or log browsing history, traffic destination, data content, IP addresses, or DNS queries from users/subscribers connected to our SPN, we cannot provide information or data we do not hold.
+
+<br>
+
+# Amendment 0.3. 22/01/21
+
+[Addition to Article 2](#article-2-personal-identifiable-information--data-we-collect), Personal Identifiable Information & Data we collect: the addition of customer support, data
+received, gathered, collected and held.
+
+[Alteration to Article 3](#article-3-how-we-store-and-protect-your-pii--data), How we store and protect your PII & Data: alteration to main body text 1st paragraph.
 
 ## Article 19. Contact
 
