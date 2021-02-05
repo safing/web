@@ -527,5 +527,5 @@ Thank you for taking the time to read our policies on how we operate our
 service and collect, use and protect all of your data.
 
 © Safing ICS Technologies GmbH  
-2020  
+2020/21 
 All rights reserved.
