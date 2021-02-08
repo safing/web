@@ -59,9 +59,7 @@ securely.
 
 ## Article 2. Personal Identifiable Information & Data we collect
 
-Although the information collected is basic and may not be classed as
-PII, we treat all data with the same respect and as such have listed all
-the data, we collect from the services we provide.
+Although the information collected is basic and may not be classed as PII, we treat all data with the same respect and as such have listed all the data we collect from the services we provide.
 
 **Website:**
 
@@ -124,8 +122,8 @@ and not limited to, \"Which Operating Systems do you use?\".
 
 **Customer Support:**
 Safing ICS Technologies GmbH run customer support services for its users, customer support covers all aspects of
-the services provided, including and not limited to: accounts, Portmaster, SPN, General enquiries, and questions
-about our policies etc. the information received, gathered, collected and held whilst running this service is as
+the services provided, including and not limited to: accounts, Portmaster, SPN, general enquiries and questions
+about our policies etc. The information received, gathered, collected and held whilst running this service is as
 follows:
 
 - **Emails**, received by Safing ICS Technologies GmbH, to aid enquiries and for future reference.
