@@ -59,9 +59,7 @@ securely.
 
 ## Article 2. Personal Identifiable Information & Data we collect
 
-Although the information collected is basic and may not be classed as
-PII, we treat all data with the same respect and as such have listed all
-the data, we collect from the services we provide.
+Although the information collected is basic and may not be classed as PII, we treat all data with the same respect and as such have listed all the data we collect from the services we provide.
 
 **Website:**
 
@@ -121,6 +119,17 @@ services, data supplied by users is kept until a user deletes it, these
 surveys only collect basic information and not PII, by way of example
 and not limited to, \"Which Operating Systems do you use?\".
 
+
+**Customer Support:**
+Safing ICS Technologies GmbH run customer support services for its users, customer support covers all aspects of
+the services provided, including and not limited to: accounts, Portmaster, SPN, general enquiries and questions
+about our policies etc. The information received, gathered, collected and held whilst running this service is as
+follows:
+
+- **Emails**, received by Safing ICS Technologies GmbH, to aid enquiries and for future reference.
+- **Email address**, required for customer service replies etc. our contact with you for account related information.
+- **Email content**, held for the purposes of site and service enhancement.
+
 **Newsletter:**
 
 Safing ICS Technologies GmbH periodically sends out a newsletter, when
@@ -139,8 +148,7 @@ policies on the third party sites you use or visit.
 
 **Data Storage:**
 
-Data is stored in a protected database on a specially guarded server.
-The server is operated by us and hosted by Hetzner.
+All data, including and not limited to data listed in [Article 2. Personal Identifiable Information & Data we collect](#article-2-personal-identifiable-information--data-we-collect) is stored in a protected database on a specially guarded server. The server is operated by us and hosted by Hetzner.
 
 **Data Linking:**
 
@@ -204,15 +212,17 @@ software development and the administration of your account.
 
 ## Article 5. Third party websites and links
 
--   Hetzner. Hosting Provider.
+-   **Hetzner.** Hosting Provider.
 
--   GitHub. Hosting Provider.
+-   **GitHub.** Hosting Provider.
 
--   PayPal. Payment gateway.
+-   **PayPal.** Payment gateway.
 
--   Stripe. Payment gateway.
+-   **Stripe.** Payment gateway.
 
--   Sparkasse Baden: Bank. Payments, wire transfer.
+-   **Sparkasse Baden: Bank.** Payments, wire transfer.
+
+-   **Mailbox.org.** Email provider.
 
 ## Article 6. Third Party Disclosure
 
@@ -509,6 +519,39 @@ acceptance of our Privacy Policy, we recommend that subscribers check
 for updates and reads said content of any amended policies we might make
 in the future.
 
+<br>
+
+# Amendment 0.1. 05/08/2020
+
+Due to the Court of Justice of the European Union ruling on data transfers, invalidating the Privacy Shield and GDPR compliance of such a ruling. 
+
+it is here by stated that Safing ICS Technologies GmbH, does not hold or transfer any data to any servers held in the United States of America, however, due to the operating nature of the SPN, we cannot and will not be held responsible for any private nodes held within the United States of America that you choose to use.
+
+<br>
+
+# Amendment 0.2. 18/08/2020
+
+As per update to CalOPPA/CCPA (California Consumer Privacy Act) 14/08/2020, this amendment applies to Privacy Policy Articles [8](#article-8-california-online-privacy-protection-act-caloppa-explained),[11](#article-11-do-not-track),[13](#article-13-no-logs-policy) & [16](#article-16-data-request).
+
+
+
+**Authorized Agents:** When a consumer uses an authorized agent to submit a request to know, or a request to delete data of any kind, Safing ICS Technologies GmbH may require that the consumer do the following:
+Provide the authorized agent, signed permission to access any form of data/information.
+
+**In the case of anonymous users:**  users must verify their own identity directly with Safing ICS Technologies GmbH.
+Users must directly confirm with Safing ICS Technologies GmbH that they have provided the authorized agent permission to submit any such request.
+
+Authorized agents must also provide a current, verifiable identification and all necessary documentation to access any information or data, users and agents are however reminded that: Safing ICS Technologies GmbH, does not collect or log browsing history, traffic destination, data content, IP addresses, or DNS queries from users/subscribers connected to our SPN, we cannot provide information or data we do not hold.
+
+<br>
+
+# Amendment 0.3. 22/01/21
+
+[Addition to Article 2](#article-2-personal-identifiable-information--data-we-collect), Personal Identifiable Information & Data we collect: the addition of customer support, data
+received, gathered, collected and held.
+
+[Alteration to Article 3](#article-3-how-we-store-and-protect-your-pii--data), How we store and protect your PII & Data: alteration to main body text 1st paragraph.
+
 ## Article 19. Contact
 
 If you have any questions regarding our Privacy Policy and how we handle
@@ -527,5 +570,5 @@ Thank you for taking the time to read our policies on how we operate our
 service and collect, use and protect all of your data.
 
 © Safing ICS Technologies GmbH  
-2020  
+2020/21 
 All rights reserved.
