@@ -151,13 +151,9 @@ policies on the third party sites you use or visit.
 
 ## Article 3. How we store and protect your PII & Data
 
-All data, including and not limited to data listed in Article 2, Personal Identifiable Information & Data we collect: is
-stored in a protected database on a specially guarded server. The server is operated by us and hosted by Hetzner.
-
 **Data Storage:**
 
-Data is stored in a protected database on a specially guarded server.
-The server is operated by us and hosted by Hetzner.
+All data, including and not limited to data listed in [Article 2. Personal Identifiable Information & Data we collect](#article-2-personal-identifiable-information--data-we-collect) is stored in a protected database on a specially guarded server. The server is operated by us and hosted by Hetzner.
 
 **Data Linking:**
 
