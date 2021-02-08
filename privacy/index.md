@@ -464,7 +464,7 @@ refer to the instructions for your internet browser from the list below.
 
 ## Article 15. Third party behavioural tracking
 
-Our SPN service **DOES NOT** use third-party tracking in any form, however,
+Our SPN service DOES NOT use third-party tracking in any form, however,
 sites we may direct you to during subscription, by way of example only,
 the payment gateways we use, Stripe, PayPal, or wire transfer, may use
 such tracking on their services, for the avoidance of all doubt, it is
