@@ -128,12 +128,9 @@ the services provided, including and not limited to: accounts, Portmaster, SPN, 
 about our policies etc. the information received, gathered, collected and held whilst running this service is as
 follows:
 
-**Email address**, required for customer service replies etc. our contact with you for account related
-information.
-
-**Emails**, received by Safing ICS Technologies GmbH, to aid enquiries and for future reference.
-
-**Email content**, held for the purposes of site and service enhancement.
+- **Emails**, received by Safing ICS Technologies GmbH, to aid enquiries and for future reference.
+- **Email address**, required for customer service replies etc. our contact with you for account related information.
+- **Email content**, held for the purposes of site and service enhancement.
 
 **Newsletter:**
 
