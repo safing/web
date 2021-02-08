@@ -10,14 +10,9 @@ layout: page
           <div class="max-w-screen-xl mx-auto px-2 sm:px-6 lg:px-8">
             <content>
               {% unless page.heading == null %}
-                <div class="flex">
-                  <h1 class="text-5xl tracking-tight font-extrabold leading-none">
-                    {{ page.heading }}
-                  </h1>
-                  <span class="text-md opacity-55 tracking-normal ml-5 self-center" style="height: fit-content;">
-                    {{ page.date }}
-                  </span>
-                </div>
+                <h1 class="text-5xl tracking-tight font-extrabold leading-none">
+                  {{ page.heading }}
+                </h1>
               {% endunless %}
 
               {{ content }}
