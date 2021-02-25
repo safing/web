@@ -15,13 +15,13 @@ We are delighted to be in a position where we are able to share our resources, a
 
 ## Their Work Impacted Us Personally
 
-Before the Safing venture started, the work of PrivacyTools already impacted all three of us founders. Their website helped us in numerous ways. Whether to deepen our understanding of the importance of privacy or about arguments we can make for it. And most importantly, their software recommendations and instructions armed us to better fight today's mass surveillance. I fondly remember the first time I proudly configured my `about:config` of Firefox, enthusiastically heading to the next section to install additional privacy enhancing extensions.
+Before the Safing journey started, the work of PrivacyTools already impacted all three of us founders. Their website helped us in numerous ways. Whether to deepen our understanding of the importance of privacy or about arguments we can make for it. And most importantly, their software recommendations and instructions armed us to better fight today's mass surveillance. I fondly remember the first time I proudly configured my `about:config` of Firefox, enthusiastically heading to the next section to install additional privacy enhancing extensions.
 
 ## Sharing is Caring
 
-Being into our venture for more than two years, it is amazing having a look back and realizing how far we have come. But at the same time it's also humbling to see how much of it cannot be credited to us, but instead to others. Fellow travelers, founders or privacy advocates - all generously shared their time and input to help us grow. They pushed us to rethink our strategies, gave valuable input on our designs or even gave us a platform where our voices were heard.
+Being into our journey for more than two years, it is amazing having a look back and realizing how far we have come. But at the same time it's also humbling to see how much of it cannot be credited to us, but instead to others. Fellow travelers, founders or privacy advocates - all generously shared their time and input to help us grow. They pushed us to rethink our strategies, gave valuable input on our designs or even gave us a platform where our voices were heard.
 
-Shorty after receiving a big grant from the Austrian Institution for Research, PrivacyTools presented their sponsorship program via Github. Excitedly, I knew the time had come for us to start sharing our received resources with fellow privacy advocates. We decided this while fully being aware that this might fuel our venture too, or it might not - that's for every reader of this announcement to decide. But to us, that is not a dealbreaker. In either case we are happily supporting a genuine and caring team!
+Shorty after receiving a big grant from the Austrian Institution for Research, PrivacyTools presented their sponsorship program via Github. Excitedly, I knew the time had come for us to start sharing our received resources with fellow privacy advocates. We decided this while fully being aware that this might fuel our journey too, or it might not - that's for every reader of this announcement to decide. But to us, that is not a dealbreaker. In either case we are happily supporting a genuine and caring team!
 
 ## We Got Vetted via Chat
 
