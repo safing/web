@@ -105,10 +105,6 @@ cards:
     description: Allow you to access the SPN from within restricted countries or areas.
     projects:
       - SPN
-  - title: "Docs: Modernize the Design"
-    description: Embed the documentation into our overall design by giving it a fresh new look.
-    projects:
-      - Website
   - title: "Docs: Filter Lists Architecture"
     description: Describe in detail how the IntelHub collects and distributes filter lists. What lists are selected? How often are lists distributed? And why?
     projects:

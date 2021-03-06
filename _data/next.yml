@@ -16,34 +16,13 @@
 
 cards:
   done:
-    - title: Portmaster Documentation
-      description:
-        - You can see our high level concepts & you can inspect our code. But nothing in between.
-        - Fill that gap by providing proper documentation of the Portmaster. What does each component do? With what other components does it interact? Where is its code located?
-      projects:
-        - Portmaster
-        - Website
-      team:
-        - Daniel
-        - David
-        - Patrick
-    - title: Podcast Revamp
-      description:
-        - Spice up the podcast with proper structure. Create an introduction and outro with underlined music and improve the overall storytelling.
-      projects:
-        - Community
-      team:
-        - Tabitha
-        - David
-    - title: Rethink Website Communication
-      description:
-        - New people visiting our website still have a hard time figuring out what we do at a glance. Instead of explaining everything at once, simplify our entry-level communication and move more complex stuff into according sub pages.
-      projects:
-        - Marketing
-        - Website
+    - title: "Create Business Model Page"
+      description: Make it easy to understand how we make money. Clarify all details on a dedicated sub-page, which should be accessible both from the About page and the footer.
       team:
         - David
         - Luke
+      projects:
+        - Website
   in_progress:
     - title: Stabilize the Network
       description:
@@ -61,7 +40,7 @@ cards:
         - Patrick
       projects:
         - Portmaster
-    - title: "Define Next Steps"
+    - title: "Define Next Marketing Steps"
       description: Since two vital requirements were completed, (1) re-shifting communication towards the Portmaster and (2) its documentation, now focus on spreading the word again. Define the next steps and keep everyone in the loop.
       team:
         - Raphael
@@ -82,6 +61,12 @@ cards:
       team:
         - Daniel
         - David
+      projects:
+        - Website
+    - title: "Docs: Modernize the Design"
+      description: Embed the documentation into our overall design by giving it a fresh new look.
+      team:
+        - Luke
       projects:
         - Website
     - title: Cryptocurrency Payments
