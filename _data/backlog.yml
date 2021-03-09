@@ -85,13 +85,13 @@ cards:
       - We do have concepts ready, but will refine them and further outline them as the project starts.
     projects:
       - SPN
-  - title: iOS Support
-    description: Develop iOS support for both the Portmaster and the SPN.
+  - title: Ditch Electron
+    description: Re-build our User Interface without Electron, which among other things is very resource heavy.
     projects:
       - Portmaster
       - SPN
-  - title: Ditch Electron
-    description: Re-build our User Interface without Electron, which among other things is very resource heavy.
+  - title: iOS Support
+    description: Develop iOS support for both the Portmaster and the SPN.
     projects:
       - Portmaster
       - SPN
