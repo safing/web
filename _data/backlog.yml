@@ -90,6 +90,11 @@ cards:
     projects:
       - Portmaster
       - SPN
+  - title: Ditch Electron
+    description: Re-build our User Interface without Electron, which among other things is very resource heavy.
+    projects:
+      - Portmaster
+      - SPN
   - title: Android Support
     description: Support both the Portmaster and the SPN on Android.
     projects:
