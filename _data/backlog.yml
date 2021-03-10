@@ -89,7 +89,6 @@ cards:
     description: Re-build our User Interface without Electron, which among other things is very resource heavy.
     projects:
       - Portmaster
-      - SPN
   - title: iOS Support
     description: Develop iOS support for both the Portmaster and the SPN.
     projects:
