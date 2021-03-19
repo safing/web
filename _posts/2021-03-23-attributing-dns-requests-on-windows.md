@@ -16,13 +16,11 @@ These requests are not sent using common DNS packets on the wire, but use a RPC 
 
 This means that we could not attribute DNS requests to processes out of the box.
 
-### The Quick and Dirty Solution
+### Disabling the DNS Client Turned Out to Be the Quick But Dirty Solution
 
 While researching this issue we found that disabling the DNS-Client seemed to be a rather much requested action and quite common for Windows users.
 Most often, Windows users asked for this in order to work around bugs or to improve some aspect of their network performance.
 
-
-### The Bummer
 So we decided to take the easy route and just disable the DNS-Client upon installation, because it is only a caching stub resolver with no other functionality, right? Right?
 
 No.
