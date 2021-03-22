@@ -2,7 +2,7 @@
 title: "Attributing DNS Requests on Windows"
 date: 2021-03-23
 author: daniel
-custom_thumbnail_name:
+custom_thumbnail_name: devlog
 category: "Dev Log"
 ---
 
