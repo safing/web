@@ -4,6 +4,7 @@ date: 2021-03-23
 author: daniel
 custom_thumbnail_name: devlog
 category: "Dev Log"
+cover_image_source: https://pixabay.com/photos/code-coding-web-development-944499/
 ---
 
 For an application firewall it is crucial to know which processes query which domains.
