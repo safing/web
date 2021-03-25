@@ -1,4 +1,5 @@
 ---
+category: blog # possible values: blog video podcast
 title: "Attributing DNS Requests on Windows"
 date: 2021-03-23
 author: daniel

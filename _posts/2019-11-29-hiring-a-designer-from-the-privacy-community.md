@@ -1,4 +1,5 @@
 ---
+category: blog # possible values: blog video podcast
 title: Hiring a Designer from the Privacy Community
 date: 2019-11-29
 author: David

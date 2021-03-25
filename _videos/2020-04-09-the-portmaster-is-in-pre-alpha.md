@@ -1,4 +1,5 @@
 ---
+category: video # possible values: blog video podcast
 # ⚠️ ALWAYS follow this format: "#001 - Some sweet title"
 # this has to be consistent for displaying only the episode number or only the title
 title: "#002 - The Portmaster is Almost Ready"

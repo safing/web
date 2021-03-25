@@ -1,4 +1,5 @@
 ---
+category: blog # possible values: blog video podcast
 title: How the SPN compares to Tor
 date: 2020-01-22
 author: David

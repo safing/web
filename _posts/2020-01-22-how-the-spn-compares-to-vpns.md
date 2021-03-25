@@ -1,4 +1,5 @@
 ---
+category: blog # possible values: blog video podcast
 title: How the SPN Compares to VPNs
 date: 2020-01-22
 author: David

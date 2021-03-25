@@ -1,4 +1,5 @@
 ---
+category: podcast # possible values: blog video podcast
 title: "#007 - Progress Update II - Company Culture"
 keywords: privacy business culture
 date: 2019-10-25

@@ -96,23 +96,35 @@ defaults:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
-      layout: "post"
       permalink: /blog/:year/:month/:day/:title/
       type: "post"
   - scope:
       path: ""
       type: "podcasts"
     values:
-      layout: "podcast"
       permalink: /podcast/:year/:month/:day/:title/
       type: "podcast"
   - scope:
       path: ""
       type: "videos"
     values:
-      layout: "video"
       permalink: /video/:year/:month/:day/:title/
       type: "video"
+  - scope: 
+      path: ""
+      category: "blog"
+    values:
+      layout: "blog"
+  - scope: 
+      path: ""
+      category: "podcast"
+    values:
+      layout: "podcast"
+  - scope: 
+      path: ""
+      category: "video"
+    values:
+      layout: "video"
 
 ##############################
 ###### Podcast settings ######

@@ -1,4 +1,5 @@
 ---
+category: blog # possible values: blog video podcast
 title: The Two Steps it Takes
 date: 2020-02-04
 author: David

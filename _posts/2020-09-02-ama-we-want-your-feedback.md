@@ -1,4 +1,5 @@
 ---
+category: blog # possible values: blog video podcast
 title: AMA - Ask Us Anything
 date: 2020-09-02
 author: Raphael

@@ -1,4 +1,5 @@
 ---
+category: blog # possible values: blog video podcast
 title: The next 5 Steps for Safing
 date: 2019-12-06
 author: David

@@ -1,4 +1,5 @@
 ---
+category: podcast # possible values: blog video podcast
 title: "#003 - Privacy Journey: The Story of Raphty"
 keywords: privacy journey startup
 date: 2019-09-27

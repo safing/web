@@ -1,4 +1,5 @@
 ---
+category: blog # possible values: blog video podcast
 title: "Broad SPN Access Postponed to Q3 - Here Is Why"
 date: 2021-03-24
 author: david

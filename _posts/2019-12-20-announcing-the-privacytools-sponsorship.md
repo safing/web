@@ -1,4 +1,5 @@
 ---
+category: blog # possible values: blog video podcast
 title: Announcing the PrivacyTools Sponsorship
 date: 2019-12-20
 author: David

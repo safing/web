@@ -1,4 +1,5 @@
 ---
+category: blog # possible values: blog video podcast
 title: "We Are Updating Portmaster's Default DNS Servers"
 date: 2020-07-07
 author: daniel

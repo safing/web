@@ -1,4 +1,5 @@
 ---
+category: podcast # possible values: blog video podcast
 title: "#006 - Progress Update I - Privacy Network"
 keywords: privacy business progress
 date: 2019-10-18
