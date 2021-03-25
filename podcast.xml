@@ -50,9 +50,6 @@ layout: null
         <link>{{ site.url }}{{ episode.url }}</link>
         <pubDate>{{ episode.date | date: "%a, %d %b %Y %T %z" }}</pubDate>
         <dc:creator><![CDATA[{{ site.podcast_author | cdata_escape }}]]></dc:creator>
-    {% for category in episode.categories %}
-        <category><![CDATA[{{ category | cdata_escape }}]]></category>
-    {% endfor %}
     {% for category in episode.tags %}
         <category><![CDATA[{{ category | cdata_escape }}]]></category>
     {% endfor %}
