@@ -16,7 +16,8 @@ layout: page
             </div>
             <div class="mt-8 md:mt-32">
               <ul class="md:grid md:grid-cols-2 lg:grid-cols-3 md:col-gap-8 md:row-gap-10">
-                {% for post in site.posts %}
+                {% assign sorted_blogs = site.medias | reverse | where:"category","blog" %}
+                {% for post in sorted_blogs %}
                   {% include thumbnail_blog.html %}
                 {% endfor %}
               </ul>

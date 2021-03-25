@@ -3,10 +3,12 @@
 category: blog
 layout:   blog
 title: Hiring a Designer from the Privacy Community
-date: 2019-11-29
+date: 2019-11-30
 author: David
 custom_thumbnail_name: hiring-a-designer-from-the-privacy-community
 cover_image_source: https://unsplash.com/photos/66O6CE7QvwI
+redirect_from:
+  - /blog/2019/11/29/hiring-a-designer-from-the-privacy-community/
 ---
 
 _Sidenote: shoutout to [The Hated One](https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q/), this would not have happened without him!_

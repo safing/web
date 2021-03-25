@@ -116,7 +116,8 @@ title: Safing - Love Freedom
                 {% endfor %}
 
                 <!-- blog -->
-                {% for post in site.posts limit: 1 %}
+                {% assign sorted_blogs = site.medias | reverse | where:"category","blog" %}
+                {% for post in sorted_blogs limit: 1 %}
                   {% include thumbnail_blog.html pre_header="BLOG" %}
                 {% endfor %}
               </ul>
