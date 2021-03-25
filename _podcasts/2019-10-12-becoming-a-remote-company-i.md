@@ -1,5 +1,7 @@
 ---
-category: podcast # possible values: blog video podcast
+# possible values: blog video podcast
+category: podcast
+layout:   podcast
 title: "#005 - Becoming a Remote Company - I"
 keywords: remote privacy business
 date: 2019-10-12

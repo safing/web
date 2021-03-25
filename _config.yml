@@ -112,16 +112,6 @@ defaults:
       type: "video"
   - scope: 
       path: ""
-      category: "blog"
-    values:
-      layout: "blog"
-  - scope: 
-      path: ""
-      category: "podcast"
-    values:
-      layout: "podcast"
-  - scope: 
-      path: ""
       category: "video"
     values:
       layout: "video"

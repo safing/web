@@ -1,5 +1,7 @@
 ---
-category: podcast # possible values: blog video podcast
+# possible values: blog video podcast
+category: podcast
+layout:   podcast
 title: "#001 - How to fund a privacy oriented start up"
 keywords: funding privacy startup
 date: 2019-09-13

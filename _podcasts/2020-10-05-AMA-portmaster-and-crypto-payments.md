@@ -1,5 +1,7 @@
 ---
-category: podcast # possible values: blog video podcast
+# possible values: blog video podcast
+category: podcast
+layout:   podcast
 # ⚠️ ALWAYS follow this format: "#001 - Some sweet title"
 # when displaying only the episode number or the title this has to be constant
 # -> view cast.html

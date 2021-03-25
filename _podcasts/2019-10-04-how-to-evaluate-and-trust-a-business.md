@@ -1,5 +1,7 @@
 ---
-category: podcast # possible values: blog video podcast
+# possible values: blog video podcast
+category: podcast
+layout:   podcast
 title: "#004 - How to evaluate and trust a Business?"
 keywords: privacy business trust
 date: 2019-10-04

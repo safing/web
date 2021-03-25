@@ -1,5 +1,7 @@
 ---
-category: blog # possible values: blog video podcast
+# possible values: blog video podcast
+category: blog
+layout:   blog
 title: "How Safing Selects its Default DNS Providers"
 date: 2020-07-07
 author: daniel

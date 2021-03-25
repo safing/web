@@ -1,5 +1,7 @@
 ---
-category: podcast # possible values: blog video podcast
+# possible values: blog video podcast
+category: podcast
+layout:   podcast
 title: "#002 - Decisions that shift a company"
 keywords: decisions privacy startup
 date: 2019-09-19
