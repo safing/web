@@ -110,7 +110,7 @@ title: Safing - Love Freedom
                 {% endfor %}
 
                 <!-- video -->
-                {% assign sorted_videos = site.videos | reverse %}
+                {% assign sorted_videos = site.medias | reverse | where:"category","video" %}
                 {% for video in sorted_videos limit: 1 %}
                   {% include thumbnail_video.html pre_header="VIDEO" %}
                 {% endfor %}
