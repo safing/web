@@ -11,7 +11,7 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% assign sorted_blogs = site.medias | reverse | where:"category","blog" %}
+    {% assign sorted_blogs = site.publications | reverse | where:"category","blog" %}
     {% for post in sorted_blogs %}
       <item>
         <title>{{ post.title | xml_escape }}</title>

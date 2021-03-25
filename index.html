@@ -103,7 +103,7 @@ title: Safing - Love Freedom
             </div>
             <div class="mt-8 lg:mt-32">
               <ul class="md:grid md:grid-cols-2 lg:grid-cols-3 md:col-gap-8 md:row-gap-10 max-w-sm mx-auto md:max-w-full">
-                {% assign all_publications = site.medias | sort: "date" | reverse %}
+                {% assign all_publications = site.publications | sort: "date" | reverse %}
 
                 {% for publication in all_publications limit: 6 %}
                   {% if publication.category == "blog" %}

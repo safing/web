@@ -44,7 +44,7 @@ layout: null
       <itunes:category text="{{ site.podcast_subcategory_two }}" />
     </itunes:category>
 
-    {% for episode in site.medias | where:"category","podcast" %}
+    {% for episode in site.publications | where:"category","podcast" %}
       <item>
         <title>{{ episode.title | xml_escape }}</title>
         <link>{{ site.url }}{{ episode.url }}</link>

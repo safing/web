@@ -86,16 +86,16 @@ emailobfuscated: "=b!isfg>#nbjmup;ifmmpAtbgjoh/jp#?ifmmpAtbgjoh/jp=0b?"
 ###################################
 
 collections:
-  medias:
+  publications:
     output: true
 
 defaults:
   - scope:
       path: ""
-      type: "medias"
+      type: "publications"
     values:
       permalink: /:categories/:year/:month/:day/:title/
-      type: "media"
+      type: "publication"
 
 ##############################
 ###### Podcast settings ######
