@@ -86,35 +86,16 @@ emailobfuscated: "=b!isfg>#nbjmup;ifmmpAtbgjoh/jp#?ifmmpAtbgjoh/jp=0b?"
 ###################################
 
 collections:
-  podcasts:
-    output: true
-  videos:
+  medias:
     output: true
 
 defaults:
   - scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
-    values:
-      permalink: /blog/:year/:month/:day/:title/
-      type: "post"
-  - scope:
       path: ""
-      type: "podcasts"
+      type: "medias"
     values:
-      permalink: /podcast/:year/:month/:day/:title/
-      type: "podcast"
-  - scope:
-      path: ""
-      type: "videos"
-    values:
-      permalink: /video/:year/:month/:day/:title/
-      type: "video"
-  - scope: 
-      path: ""
-      category: "video"
-    values:
-      layout: "video"
+      permalink: /:categories/:year/:month/:day/:title/
+      type: "media"
 
 ##############################
 ###### Podcast settings ######
