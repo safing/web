@@ -1,6 +1,6 @@
 ---
 title: "Broad SPN Access Postponed to Q3 - Here Is Why"
-date: 2021-03-24
+date: 2021-03-25
 author: david
 custom_thumbnail_name: broad-spn-access-postponed-to-q3-here-is-why
 ---
