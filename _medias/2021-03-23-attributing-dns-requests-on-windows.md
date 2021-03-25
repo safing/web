@@ -6,7 +6,7 @@ title: "Attributing DNS Requests on Windows"
 date: 2021-03-23
 author: daniel
 custom_thumbnail_name: devlog
-category: "Dev Log"
+tag: devlog
 cover_image_source: https://pixabay.com/photos/code-coding-web-development-944499/
 ---
 
