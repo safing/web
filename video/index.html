@@ -24,7 +24,7 @@ layout: page
             </div>
             <div class="mt-8 md:mt-16 lg:mt-32">
               <ul class="md:grid md:grid-cols-2 lg:grid-cols-3 md:col-gap-8 md:row-gap-10">
-                {% assign sorted_videos = site.videos | reverse %}
+                {% assign sorted_videos = site.publications | reverse | where:"category","video" %}
                 {% for video in sorted_videos %}
                   {% include thumbnail_video.html %}
                 {% endfor %}

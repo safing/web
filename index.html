@@ -103,21 +103,19 @@ title: Safing - Love Freedom
             </div>
             <div class="mt-8 lg:mt-32">
               <ul class="md:grid md:grid-cols-2 lg:grid-cols-3 md:col-gap-8 md:row-gap-10 max-w-sm mx-auto md:max-w-full">
-                <!-- podcast -->
-                {% assign sorted_podcasts = site.podcasts | reverse %}
-                {% for episode in sorted_podcasts limit: 1 %}
-                  {% include thumbnail_podcast.html pre_header="PODCAST" %}
-                {% endfor %}
+                {% assign all_publications = site.publications | sort: "date" | reverse %}
 
-                <!-- video -->
-                {% assign sorted_videos = site.videos | reverse %}
-                {% for video in sorted_videos limit: 1 %}
-                  {% include thumbnail_video.html pre_header="VIDEO" %}
-                {% endfor %}
-
-                <!-- blog -->
-                {% for post in site.posts limit: 1 %}
-                  {% include thumbnail_blog.html pre_header="BLOG" %}
+                {% for publication in all_publications limit: 6 %}
+                  {% if publication.category == "blog" %}
+                    {% assign post = publication %}
+                    {% include thumbnail_blog.html pre_header="BLOG" %}
+                  {% elsif publication.category == "video" %}
+                    {% assign video = publication %}
+                    {% include thumbnail_video.html pre_header="VIDEO" %}
+                  {% elsif publication.category == "podcast" %}
+                    {% assign episode = publication %}
+                    {% include thumbnail_podcast.html pre_header="PODCAST" %}
+                  {% endif %}
                 {% endfor %}
               </ul>
               <div class="pt-20 flex w-full">

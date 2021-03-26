@@ -44,15 +44,12 @@ layout: null
       <itunes:category text="{{ site.podcast_subcategory_two }}" />
     </itunes:category>
 
-    {% for episode in site.podcasts %}
+    {% for episode in site.publications | where:"category","podcast" %}
       <item>
         <title>{{ episode.title | xml_escape }}</title>
         <link>{{ site.url }}{{ episode.url }}</link>
         <pubDate>{{ episode.date | date: "%a, %d %b %Y %T %z" }}</pubDate>
         <dc:creator><![CDATA[{{ site.podcast_author | cdata_escape }}]]></dc:creator>
-    {% for category in episode.categories %}
-        <category><![CDATA[{{ category | cdata_escape }}]]></category>
-    {% endfor %}
     {% for category in episode.tags %}
         <category><![CDATA[{{ category | cdata_escape }}]]></category>
     {% endfor %}
