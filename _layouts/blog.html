@@ -26,44 +26,4 @@ layout: page_container
   {{ content | replace: '<!--break-->', '<a class="anchor" id="continue"></a>' }}
 </div>
 
-{% if site.inter_post_navigation == true %}
-  <section class="post-navigation">
-    <span class="prev-post">
-      {% if page.previous.url %}
-        <a href="{{page.previous.url | prepend: site.base_url}}">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x"></i>
-            <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
-          </span>
-          <span class="page-number">{{page.previous.title}}</span>
-        </a>
-      {% endif %}
-    </span>
-    <span class="next-post">
-      {% if page.next.url %}
-        <a href="{{page.next.url | prepend: site.base_url}}">
-          <span class="page-number">{{page.next.title}}</span>
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x"></i>
-            <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-      {% endif %}
-    </span>
-  </section>
-{% endif %}
-
-<div class="flex pt-24 justify-center grid grid-rows-2 grid-cols-2 row-gap-12 md:grid-rows-1 md:row-gap-0 md:col-gap-16 max-w-3xl mx-auto">
-  {% if page.next.url %}
-    <div class="text-left row-start-1 row-end-2 col-start-1 col-end-3 md:row-auto md:col-auto">
-      <div class="pb-4 text-md opacity-55">Next Post</div>
-      <a href="{{page.next.url }}" class="text-3xl tracking-tight font-extrabold leading-none break-normal">{{page.next.title}}</a>
-    </div>
-  {% endif %}
-  {% if page.previous.url %}
-    <div class="text-right row-start-2 row-end-3 col-start-1 md:col-start-2 col-end-3 md:row-auto">
-      <div class="pb-4 text-md opacity-55">Previous Post</div>
-      <a href="{{page.previous.url }}" class="text-3xl tracking-tight font-extrabold leading-none break-normal">{{page.previous.title}}</a>
-    </div>
-  {% endif %}
-</div>
+{% include next_previous_item.html %}
