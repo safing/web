@@ -68,7 +68,7 @@ layout: page
         </p>
       </div>
       <div class="relative mt-24 lg:mt-0 lg:absolute lg:right-0 lg:mr-10">
-        {% assign progress_posts = site.posts | where: "progress_update", "true" %}
+        {% assign progress_posts = site.publications | reverse | where: "progress_update", "true" %}
         {% for post in progress_posts limit: 1 %}
           {% include thumbnail_blog.html pre_header="BLOG" %}
         {% endfor %}
