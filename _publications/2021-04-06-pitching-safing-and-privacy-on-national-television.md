@@ -56,6 +56,6 @@ It came to no surprise that they declined our initial offer, but it did not end 
 
 ### In the End It Was A Fun Experience
 
-Looking back at the shoot in October and watching it now, we did enjoy the experience. We were encouraged to see the film crew having genuine interest in what we do and what we stood for. They were all ears as Raphael was on-set in the waiting area and talked about Safing. Another fun thing to experience was how TV shows are run. Product placement is a thing and even some censorship was part of the mix: we were not allowed to mention that the Portmaster blocks ads or talk about ad blocking in general.
+Looking back at the shoot in October and watching it now, we did enjoy the experience. We were encouraged to see the film crew having genuine interest in what we do and what we stand for. They were all ears as Raphael was on-set in the waiting area and talked about Safing. Another fun thing to experience was how TV shows are run. Product placement is a thing and even some censorship was part of the mix: we were not allowed to mention that the Portmaster blocks ads or talk about ad blocking in general.
 
 Anyway, we hope to have raised a bit of awareness and know we learned stuff along the way. Now back to what matters: developing great privacy tools for the masses with no-one coming in between!
