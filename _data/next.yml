@@ -16,13 +16,39 @@
 
 cards:
   done:
-    - title: "Create Business Model Page"
-      description: Make it easy to understand how we make money. Clarify all details on a dedicated sub-page, which should be accessible both from the About page and the footer.
+    - title: "New DNS Attribution on Windows"
+      description: After plenty of reports it became evident that deactivating the Windows DNS-Client caused a lot of issues. Find and implement a solution to attribute DNS requests to processes without deactivating the DNS-Client
       team:
-        - David
+        - Daniel
+      projects:
+        - Portmaster
+    - title: "Docs: Modernize the Design"
+      description: Embed the documentation into our overall design by giving it a fresh new look.
+      team:
         - Luke
       projects:
         - Website
+    - title: "Docs: Add Compatibility Lists"
+      description: Make it convenient for people to see which operating systems we support, which linux distros are compatible and which VPNs work or do not work. Make it easy for people to share their experiences with others.
+      team:
+        - Daniel
+        - David
+      projects:
+        - Website
+    - title: "Define Next Marketing Steps"
+      description: Since two vital requirements were completed, (1) re-shifting communication towards the Portmaster and (2) its documentation, now focus on spreading the word again. Define the next steps and keep everyone in the loop.
+      team:
+        - Raphael
+        - David
+      projects:
+        - Marketing
+    - title: "Conclude ESA Business Incubation"
+      description: With the ESA-BIC coming to its end, wrap it up with the book-keeping, final reports, etc.
+      team:
+        - Raphael
+        - Tabitha
+      projects:
+        - Back Office
   in_progress:
     - title: Stabilize the Network
       description:
@@ -40,13 +66,6 @@ cards:
         - Patrick
       projects:
         - Portmaster
-    - title: "Define Next Marketing Steps"
-      description: Since two vital requirements were completed, (1) re-shifting communication towards the Portmaster and (2) its documentation, now focus on spreading the word again. Define the next steps and keep everyone in the loop.
-      team:
-        - Raphael
-        - David
-      projects:
-        - Marketing
     - title: "Docs: Add Fundamental Guides"
       description:
         - "Describe some basics such as (un)installation, operating system compatibility, troubleshooting, how to contribute, etc..."
@@ -54,19 +73,6 @@ cards:
       team:
         - Daniel
         - David
-      projects:
-        - Website
-    - title: "Docs: Add Compatibility Lists"
-      description: Make it convenient for people to see which operating systems we support, which linux distros are compatible and which VPNs work or do not work. Make it easy for people to share their experiences with others.
-      team:
-        - Daniel
-        - David
-      projects:
-        - Website
-    - title: "Docs: Modernize the Design"
-      description: Embed the documentation into our overall design by giving it a fresh new look.
-      team:
-        - Luke
       projects:
         - Website
     - title: Cryptocurrency Payments
