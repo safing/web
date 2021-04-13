@@ -38,7 +38,7 @@ This is achieved by routing connections through a circuit. This splits the full 
 
 ![SPN core](https://safing.io/assets/img/spn/spn-core-web.png)
 
-When the connection arrives at the last server of the circuit it still has to travel to the desired website. With Tor, this may lead to a slower Internet experience. As an example, a person located in Europe loading a European website may receive a circuit exiting in the US. This means the connection has to cross the Atlantic twice (EU -> US -> EU). After a circuit with Tor is established all your other connection will use the same route. A circuit change normally occurs every 10 minutes.
+When the connection arrives at the last server of the circuit it still has to travel to the desired website. With Tor, this may lead to a slower Internet experience. As an example, a person located in Europe loading a European website may receive a circuit exiting in the US. This means the connection has to cross the Atlantic twice (EU -> US -> EU). After a circuit with plain Tor is established all your other connection will use the same route. A circuit change normally occurs every 10 minutes.
 
 With the SPN however, every connection is calculated individually and leaves the network as near to the destination as possible. This means:
 
