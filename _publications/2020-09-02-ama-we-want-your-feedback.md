@@ -6,7 +6,6 @@ title: AMA - Ask Us Anything
 date: 2020-09-02
 author: Raphael
 custom_thumbnail_name: ama-we-want-your-feedback
-portmaster_plug: true
 ---
 
 _Update: [the AMA concluded](https://www.reddit.com/r/privacytoolsIO/comments/iv6mca/we_are_safing_a_forprivacy_counterculture_company/). Thanks to everyone who joined, thanks to [PrivacyTools](https://privacytools.io) for hosting and thanks for all your amazing questions! In case you missed it, be sure to [check it out](https://www.reddit.com/r/privacytoolsIO/comments/iv6mca/we_are_safing_a_forprivacy_counterculture_company/) and as always, if you have any questions, just drop us a mail via [hello@safing.io](mailto:hello@safing.io)._

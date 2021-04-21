@@ -6,6 +6,7 @@ title: "Pitching Safing and Privacy on National Television"
 date: 2021-04-06
 author: david
 custom_thumbnail_name: pitching-safing-and-privacy-on-national-television
+portmaster_plug: true
 ---
 
 ### It Started With An Invitation From the Austrian Version of Shark Tank
