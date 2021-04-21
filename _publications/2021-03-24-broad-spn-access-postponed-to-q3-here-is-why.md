@@ -6,15 +6,9 @@ title: "Broad SPN Access Postponed to Q3 - Here Is Why"
 date: 2021-03-24
 author: david
 custom_thumbnail_name: broad-spn-access-postponed-to-q3-here-is-why
+summary: "Different factors made us prioritize Portmaster before SPN development in the second half of 2020. Since the start of 2021 we are focusing on SPN development again - by Summer a lot will have happened and you will notice all of the impact. We are sorry for this delay."
 ---
 
-**TLDR: Different factors made us prioritize Portmaster before SPN development in the second half of 2020. Since the start of 2021 we are focusing on SPN development again - by Summer a lot will have happened and you will notice all of the impact. We are sorry for this delay.**
-
-<br/>
-
----
-
-<br/>
 
 #### In August 2020 We Decided to Shift Our Attention to the Portmaster
 
