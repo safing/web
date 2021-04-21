@@ -26,6 +26,15 @@ Learn more about why we do what we do in the first place, what we are up to and 
 
 is when we will be kicking this off on the [r/PrivacytoolsIO](https://www.reddit.com/r/privacytoolsIO/) Subreddit. Don't be disappointed if you won't be able to make it to the start, as it will run for a whole week through September 25.
 
+
+<div class="notification-podcast">
+    <img src="{{ site.img_url }}icons/mic.svg">
+    <p>
+      Please note that the Portmaster updates itself and that the provided packages are only meant for an initial.
+    </p>
+</div>
+
+
 If you want a __reminder__, you can [subscribe to our newsletter](#newsletter), [follow us on Twitter](https://twitter.com/SafingIO), or [join our Subreddit](https://www.reddit.com/r/safing/).  
 We will send out reminders when it launches.
 
