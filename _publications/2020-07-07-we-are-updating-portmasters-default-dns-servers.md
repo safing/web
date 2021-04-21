@@ -8,7 +8,7 @@ author: daniel
 custom_thumbnail_name: we-are-updating-portmasters-default-dns-servers
 ---
 
-## TLDR
+### TLDR
 
 On Monday, the 13th of July 2020, we will be changing the default DNS resolvers of the Portmaster to AdGuard, Applied Privacy, Cloudflare and Quad9 (sorted alphabetically). This will **affect all users who have NOT configured their own DNS servers**. If you have set your own preference the Portmaster will never use something else until you make changes again.
 
@@ -27,11 +27,11 @@ At release of this post the default DNS providers is set to:
 
 This means the primary resolver is Quad9 (1). Only when issues arise with Quad9, will the Portmaster fall back to Cloudflare (2). The same applies when a third, fourth, etc., provider is configured.
 
-## You Can Set Your Own Preference
+### You Can Set Your Own Preference
 
 A lot of information is shared with DNS providers, which is why trust and empowerment are so important. We know one shoe does not fit all, which is why you can set your own DNS providers of choice, overruling all current and future Portmaster defaults in the process. So the Portmaster will never use anything else until you make changes again (for global DNS queries). We set up a [guide to help you in this process](https://github.com/safing/portmaster/wiki/DNS-Server-Settings).
 
-## The Current Default Impacts Performance
+### The Current Default Impacts Performance
 
 Quad9's performance is in a good range for normal DNS queries, but there are performance problems with our DNS-over-TLS client and their DNS-over-TLS server implementation. We are in contact with Quad9 to troubleshoot and resolve this problem. Unfortunately, this process is taking longer than expected, and we do not want to sacrifice DNS query encryption by falling back to plain old DNS. But because these issues frequently have a serious impact on the functionality of the Portmaster, we will need to do something about it. So we went on to explore more alternatives, and may eventually switch back to Quad9 as our primary (1) default resolver.
 
@@ -68,11 +68,11 @@ The new working set of DNS providers will go into production with a Portmaster C
 
 ### Future Improvements
 
-__Near-term__  
+###### Near-term
 Right now, selecting a custom dns provider is a bit cumbersome, as it requires understand a little syntax and/or copying seemingly obscure and long strings into your settings. We will provide a one-click interface to switch between multiple options near-term. We will also show the currently used DNS on the Portmaster dashboard, so you know at a glance who is resolving your DNS queries.
 
-__Mid-term__  
+###### Mid-term
 We want all our users to know where their data flows to. We make no assumptions that all Portmaster users will read this blog post. Instead, we will invest in informing our users about important default settings and updates directly in the Portmaster App mid-term.
 
-__Long-term__  
+###### Long-term
 No matter what DNS provider we choose as a default, there will always be the possibility of a provider abusing this trust. There just is no way for a provider to technically guarantee their promises. The only way around this is to mask our users from the provider. We are evaluating options to provide a free [SPN]({{ site.spn_url }}) tier that will provide free access to the SPN for DNS queries only in the long-term. Again, this is _not_ certain and _if_ it comes, will take at least two or three years to arrive.
