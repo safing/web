@@ -161,6 +161,14 @@
     }
   }
 
+  blockquote {
+    padding-left: 1rem;
+    margin-top  : 1.55rem;
+    color       : black;
+    opacity     : 1;
+    border-left : 4px solid #ddd;
+}
+
   .content {
     max-width : 750px;
     margin    : auto;
