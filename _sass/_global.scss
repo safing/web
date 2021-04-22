@@ -475,6 +475,11 @@ input:checked {
   }
 }
 
+#portmaster-plug:hover button {
+  --transform-scale-x: 1.04;
+  --transform-scale-y: 1.04;
+}
+
 /*
   Grabs External Links only:
 
