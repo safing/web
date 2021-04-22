@@ -29,6 +29,7 @@ layout: page_container
 <div class="content" id="blog">
 {% endif %}
   {{ content | replace: '<!--break-->', '<a class="anchor" id="continue"></a>' }}
+  <p>{{ page.date | date: "%B %-d, %Y" }} • Written by <a href="{{ site.team_url }}#{{ page.author | slugify }}">{{ page.author | capitalize }}</a></p>
 </div>
 
 <hr>
