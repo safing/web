@@ -6,7 +6,7 @@ container_class: "podcast pt-40 lg:pt-40"
 <div class="text-center">
   {% assign title_length = page.title | size %}
   <span style="font-size: 12rem; font-weight: 800; margin-top: -9rem; opacity: 0.05;" class="z-0 ml-0 w-full left-0 text-center absolute bg-top">#{{ page.title | slice: 2, 2 }}</span>
-  <h2 class="tracking-tight font-extrabold leading-none text-center" style="max-width: 632px; margin: auto; font-size: 3rem;">{{ page.title | slice: 7, title_length }}</h2>
+  <h1 class="tracking-tight font-extrabold leading-none text-center" style="max-width: 632px; margin: auto; font-size: 3rem;">{{ page.title | slice: 7, title_length }}</h1>
   <p>{{ page.date | date: "%B %-d, %Y" }}</p>
   <div class="flex mx-auto justify-center pt-5">
     <a href="{{ site.twitter_url }}" class="opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
