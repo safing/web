@@ -10,6 +10,19 @@
   }
 }
 
+#page-container content .progress-update {
+  h4{
+      font-size: 1.125rem;
+      margin: 0;
+      padding-left: .75rem;
+      font-weight: 700;
+    }
+  hr{
+    margin: 0;
+    border-top-width: 1px;
+  }
+}
+
 #page-container content {
   p {
     margin-top: 1rem;
