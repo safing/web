@@ -33,7 +33,14 @@ It was fun getting to dive into this area from an employers perspective. So far 
 
 ### Then Luke Appeared on the Scene
 
-_Sidenote: [Luke talks all about his side of the story in the podcast]({{ site.podcast_url }}2019/11/29/hiring-a-designer-from-the-privacy-community/)_
+<div class="notification-podcast">
+  <img src="{{ site.img_url }}icons/mic.svg">
+  <a href="/podcast/2019/11/29/hiring-a-designer-from-the-privacy-community/">
+    <p>
+      Listen to the accompanying podcast where Luke talks about his side of the story
+    </p>
+  </a>
+</div>
 
 From the very first email we received from Luke we learnt two things: he burns for privacy and he is outspoken. This was even more affirmed after Raphael and I got to know him via a video call (Luke's from the United Kingdom).
 
