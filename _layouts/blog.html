@@ -24,12 +24,14 @@ layout: page_container
 </div>
 
 {% if page.progress_update %}
-<div>
+<div class="progress-update">
 {% else %}
 <div class="content" id="blog">
 {% endif %}
   {{ content | replace: '<!--break-->', '<a class="anchor" id="continue"></a>' }}
-  <p>{{ page.date | date: "%B %-d, %Y" }} • Written by <a href="{{ site.team_url }}#{{ page.author | slugify }}">{{ page.author | capitalize }}</a></p>
+  {% if page.progress_update == null %}
+    <p>{{ page.date | date: "%B %-d, %Y" }} • Written by <a href="{{ site.team_url }}#{{ page.author | slugify }}">{{ page.author | capitalize }}</a></p>
+  {% endif %}
 </div>
 
 <hr>
