@@ -31,7 +31,7 @@ cards:
       projects:
         - Portmaster
       progress:
-        - type: 'h3'
+        - type: 'h5'
           text: "We Revamped DNS Attribution On Windows"
         - type: p
           text: "Ever since the release of the Portmaster, we deactivated the Windows DNS-Client since it had no documented negative impacts. But as numerous reports came about side-effects, we looked for ways how to approach this differently. Happy to have released this in March and there is a long blog post on the full journey."
@@ -45,11 +45,11 @@ cards:
       projects:
         - Website
       progress:
-        - type: 'h3'
+        - type: 'h5'
           text: "Wrapped Up The Final Blocks In A Focused Week"
         - type: p
           text: "During March Luke already spent a good deal on bringing the design up to speed with the rest of the website. In March's last week David and Daniel also focused on Documentation. That was the time where we could ping-pong the last adjustments of this project to then push everything out. We are happy finally having a unified design for every part of the website."
-        - type: 'h3'
+        - type: 'h5'
           text: "All Our Sites Now Support NoJS"
         - type: p
           text: "Oh, another cool thing happened in this regard. Finally the day arrived where no JavaScript is required to use any of our websites. It might add a few small features here and there - if you choose to enable it anyway - but everything is fully functional without it. CSS and HTML do the job just fine."
@@ -64,11 +64,11 @@ cards:
       projects:
         - Website
       progress:
-        - type: 'h3'
+        - type: 'h5'
           text: "VPN Compatibility Table Arrived"
         - type: p
           text: "David and Daniel's final week in March was dedicated to documentation. Next to the redesign, the Settings Handbook and the DNS Configuration Guide, we also added a table for VPN Compatibility. It is not too full yet, but with your help more reports will follow."
-        - type: 'h3'
+        - type: 'h5'
           text: "It Is Now Easier Than Ever To Contribute"
         - type: p
           text: "Thanks for all your reports and ideas so far! As our project spans over multiple projects we knew it was not very convenient to know where to report what. That is why we completely revamped the Contribution Guide with easy overviews and links where and how to participate."
@@ -83,11 +83,11 @@ cards:
       projects:
         - Marketing
       progress:
-        - type: 'h3'
+        - type: 'h5'
           text: "We Will Focus On Value Content"
         - type: p
           text: "David spent a good amount on our concept for the next marketing steps. With a few different available approaches, we want to decide our main energy towards \"Value Content\". Meaning we will produce blogs which do not mainly talk about us, but about a relevant privacy or technology topic. Going in-depth and providing value to the reader we will then share the article on different platforms and only have a small plug for Safing - probably at the end of the post."
-        - type: 'h3'
+        - type: 'h5'
           text: "Sponsorships, Pitches & Events Will Happen From Time to Time Too"
         - type: p
           text: "Last month we sponsored another video of The Linux Experiment, big shout-out to all the lovely people joining from there. Events in this fashion, or smaller out-reaches online where we pitch our software in a more direct fashion will happen from time to time too. But the main focus will be to create some juicy, relevant content. On that note we also plan to cooperate with other creators - stay tuned!"
@@ -102,7 +102,7 @@ cards:
       projects:
         - Back Office
       progress:
-        - type: 'h3'
+        - type: 'h5'
           text: "Final Meeting Held In March"
         - type: p
           text: "The past two and a half years flew past rather quick. In such moments it is always encouraging to look back and see how far we have come since. Anyway, in March we ultimately concluded the ESA Business Incubation, handing in our end-report and having our final meeting."
@@ -120,7 +120,7 @@ cards:
       team:
         - Daniel
       progress:
-        - type: 'h3'
+        - type: 'h5'
           text: "Broad SPN Access Postponed to Q3 - Here Is Why"
         - type: p
           text: "A short Update on the SPN: Different factors made us prioritize Portmaster before SPN development in the second half of 2020. Since the start of 2021 we are focusing on SPN development again - by Summer a lot will have happened and you will notice all of the impact. We are sorry for this delay."
@@ -135,11 +135,11 @@ cards:
       projects:
         - Portmaster
       progress:
-        - type: 'h3'
+        - type: 'h5'
           text: "Cleaner Buttons & New Monitor Page"
         - type: p
           text: "Patrick and Luke finished the new monitor page - now you can see all connection individually, ordered by most recent. You can also filter to only show blocked connections. We also repositioned a few buttons to make the navigation clearer."
-        - type: 'h3'
+        - type: 'h5'
           text: "Turning Off Animations Increased Performance"
         - type: p
           text: "And a strange one: the big green shield animation as well as other smaller ones was the cause for a big performance hit. Even though this is purely done with CSS, this weighed in on the CPU. Oh Electron... Nevertheless, we are happy we could speed up the UI now."
@@ -153,13 +153,13 @@ cards:
       projects:
         - Website
       progress:
-        - type: 'h3'
+        - type: 'h5'
           text: "Contribution Guide & Settings Handbook"
         - type: p
           text: "David and Daniel's final week in March was dedicated to documentation. Next to the redesign, the Settings Handbook and the DNS Configuration Guide, we also added a table for VPN Compatibility and revamped our Contribution Guide."
         - type: p
           text: "Thanks for all your reports and ideas so far! As our project spans over multiple projects we knew it was not very convenient to know where to report what. That is why we completely revamped the Contribution Guide with easy overviews and links where and how to participate."
-        - type: 'h3'
+        - type: 'h5'
           text: "Next Steps: Software Compatibility and Mac Status Page"
         - type: p
           text: "There are still a few smaller tasks we need to tackle, such as the Mac Status page and fully deprecating the GitHub Wiki. But step by step, we are getting there."
@@ -173,7 +173,7 @@ cards:
       team:
         - Alex
       progress:
-        - type: 'h3'
+        - type: 'h5'
           text: "Technical Backend Feature Complete"
         - type: p
           text: "This month saw great progress. Alex and David went through the first crypto module and from a technical perspective everything is in place now. The remaining part is to polish the front end of the website so the user experience becomes smooth when paying with crypto. Not too lang to go until you all can pay with crypto currencies too."
