@@ -450,7 +450,7 @@ input:checked {
 }
 
 @keyframes notification {
-  100% { 
+  100% {
     opacity: 1;
   }
 }
@@ -473,4 +473,47 @@ input:checked {
   .tag-grid{
     grid-template-columns: repeat(7, minmax(max-content, 1fr))
   }
+}
+
+#portmaster-plug:hover button {
+  --transform-scale-x: 1.04;
+  --transform-scale-y: 1.04;
+}
+
+/*
+  Grabs External Links only:
+
+  1. make sure it is NOT an internal link like: href="/guides/" by filtering it starts with http
+  2. exclude all links that contain "safing.io" which is super unlikely to hit external links
+  3. also exclude "localhost", which basically is 2. for local development
+  4. exclude social icons on top of content, which is currently grabbed with :not opacity-55, kinda dirty
+*/
+#page-container content a[href^="http"]:not([href*="safing.io"]):not([href*="localhost"]):not([class*="opacity-55"]):after {
+    background-image     : url("/assets/img/icons/external.svg");
+    display              : inline-block;
+    height               : 10px;
+    width                : 17px;
+    content              : "";
+    background-repeat    : no-repeat;
+    background-position-y: 0px;
+    background-position-x: 4px;
+    background-size      : 10px;
+}
+
+/*
+  Grab Internal Setting links to add a cog
+
+  1., 2. from other docs pages, the href will include some form of /settings-reference(/)#
+*/
+#page-container content a[href*="portmaster/settings#"]:before,
+#page-container content a[href*="portmaster/settings/#"]:before {
+    background-image     : url("/assets/img/icons/cog.svg");
+    display              : inline-block;
+    height               : 20px;
+    width                : 20px;
+    content              : "";
+    background-repeat    : no-repeat;
+    background-position-y: 5px;
+    background-position-x: 1px;
+    background-size      : 17px;
 }

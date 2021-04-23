@@ -3,7 +3,12 @@ layout: page_container
 ---
 
 <div class="text-center">
-    <h1 class="text-5xl tracking-tight font-extrabold leading-none pb-2 pt-8 text-center">{{ page.title }}</h1>
+    <h1 >{{ page.title }}</h1>
+    {% if page.summary %}
+      <p class="text-left max-w-2xl mx-auto">
+        {{ page.summary | markdownify }}
+      </p>
+    {% endif %}
     <p>{{ page.date | date: "%B %-d, %Y" }} • Written by <a href="{{ site.team_url }}#{{ page.author | slugify }}">{{ page.author | capitalize }}</a></p>
     <div class="flex mx-auto justify-center pt-5">
       <a href="{{ site.twitter_url }}" class="opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
@@ -19,11 +24,20 @@ layout: page_container
 </div>
 
 {% if page.progress_update %}
-<div>
+<div class="progress-update">
 {% else %}
 <div class="content" id="blog">
 {% endif %}
   {{ content | replace: '<!--break-->', '<a class="anchor" id="continue"></a>' }}
+  {% if page.progress_update == null %}
+    <p>{{ page.date | date: "%B %-d, %Y" }} • Written by <a href="{{ site.team_url }}#{{ page.author | slugify }}">{{ page.author | capitalize }}</a></p>
+  {% endif %}
 </div>
+
+<hr>
+
+{% if page.portmaster_plug == true %}
+  {% include portmaster_plug.html %}
+{% endif %}
 
 {% include next_previous_item.html %}
