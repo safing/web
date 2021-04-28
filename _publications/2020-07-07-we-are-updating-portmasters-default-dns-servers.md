@@ -29,7 +29,7 @@ This means the primary resolver is Quad9 (1). Only when issues arise with Quad9,
 
 ### You Can Set Your Own Preference
 
-A lot of information is shared with DNS providers, which is why trust and empowerment are so important. We know one shoe does not fit all, which is why you can set your own DNS providers of choice, overruling all current and future Portmaster defaults in the process. So the Portmaster will never use anything else until you make changes again (for global DNS queries). We set up a [guide to help you in this process](https://github.com/safing/portmaster/wiki/DNS-Server-Settings).
+A lot of information is shared with DNS providers, which is why trust and empowerment are so important. We know one shoe does not fit all, which is why you can set your own DNS providers of choice, overruling all current and future Portmaster defaults in the process. So the Portmaster will never use anything else until you make changes again (for global DNS queries). We set up a [guide to help you in this process](https://docs.safing.io/portmaster/guides/dns-configuration).
 
 ### The Current Default Impacts Performance
 
@@ -52,7 +52,7 @@ All of these each excel in a different combinations of wanted attributes. [Read 
 
 For the moment, we will be using Cloudflare as our primary default (1), because - quite frankly - its unrivaled speed makes up for some performance issues we have in the Portmaster. Addressing these issues is on our roadmap, but will require lots of time and resources, which we currently lack.
 
-We would highly appreciate any feedback you have on this selection of providers. If you want to set the DNS provider yourself, [here is how you do it](https://github.com/safing/portmaster/wiki/DNS-Server-Settings). If you do this, the Portmaster will never use anything else until you make changes again (for global DNS queries).
+We would highly appreciate any feedback you have on this selection of providers. If you want to set the DNS provider yourself, [here is how you do it](https://docs.safing.io/portmaster/guides/dns-configuration). If you do this, the Portmaster will never use anything else until you make changes again (for global DNS queries).
 
 ### We Thoroughly Communicate New Resolvers
 
