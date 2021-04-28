@@ -1,0 +1,18 @@
+blank_issues_enabled: true
+contact_links:
+
+- name: "📑 Create Issue for the Docs"
+  url: https://github.com/safing/docs/issues/new/choose
+  about: "Create issue for everything related to Documentation"
+
+# - name: "🏔 Create Issue for the Website"
+#   url: https://github.com/safing/website/issues/new/choose
+#   about: "Create issue for everything related to Safing's main website"
+
+- name: "Contribution Guideline"
+  url: https://docs.safing.io/portmaster/guides/contribute
+  about: Learn how to best contribute and make sure your work is aligned with Safing’s current goals and focus
+
+- name: "Code of Conduct"
+  url: https://docs.safing.io/community/code-of-conduct
+  about: Be nice to other community members
