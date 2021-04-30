@@ -41,7 +41,8 @@ If it is a good fit for both of us, we will schedule when and how to kick things
 ## What We Are Looking For
 
 ### Most Wanted - Current Bottlenecks:
-- `Golang` Developer (or `C/C++` dev willing to switch)
+- Golang Developer with some background in IP networks (or Java, C, C++, other static OO language dev willing to switch)
+
 
 ### Character Traits
 - **passionate about our mission**
