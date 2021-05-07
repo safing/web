@@ -20,7 +20,7 @@ Some might even think of additional areas such as `Server Costs` or `Customer Su
 
 But being a co-founder myself, I want to share a short overview of areas which are just as big of a rabbit-hole as development: `Marketing`, `Accessibility`, `Public Relations`, `Project Management`, `People Management`, `Accounting`, `Legal` and `Funding`.
 
-My point with this is: Software costs money. A lot of it. You gotta pay lawyers, pay accountants, pay employees, pay for marketing (hopefully ethical), etc, etc, etc...
+My point with this is: Software costs money. A lot of it. You gotta pay lawyers, pay accountants, pay employees, pay for marketing (hopefully ethical), etc, etc, etc... We ourselves [pumped ~750.000€](/ownership/#influences) into our company and all we can show for is an alpha product.
 
 ### Always Ask "Who Pays?"
 
