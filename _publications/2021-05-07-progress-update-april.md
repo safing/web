@@ -91,7 +91,7 @@ cards:
         - type: 'h5'
           text: "Improving the Network Algorithm For Pre-Calculated Paths"
         - type: p
-          text: "A rough overview of how the SPN works is that the network first calculates a set of paths (server-side) to provide a good set of optimized, different options. These are then served to the clients who select which pre-calculated network path suits which connection best. This approach offloads heavy client-side calculations and also reduces the amount of available paths for better privacy. This month Daniel focused on optimizing the network side algorithm of the route calculations."
+          text: "The SPN provides an adapting set of fixed connections between nodes, which clients know about and use to calculate the best route through the network. Both of these components require lots of optimization: On the one hand the network itself has to figure out which connections are most valuable to clients and the clients need to quickly find the best route within the given privacy and security parameters. This month Daniel focused on optimizing these two algorithms and made them ready for the first version."
     - title: Polish UI Design
       description: From a design perspective, the new User Interface was simply the minimal viable product. Go through each page and element in order to bring it up to speed with the concept design.
       team:
