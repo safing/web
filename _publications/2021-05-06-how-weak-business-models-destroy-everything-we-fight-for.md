@@ -143,7 +143,7 @@ Take [GrapheneOS](https://grapheneos.org/) or another OS as an example, the only
 
 #### Does Their Business Model Scale Accordingly?
 
-So after identifying the crucial cost points now comes the most important question: Is the business model set up to scale financially too? A business model that charges users scales very naturally. But a business model built solely on grants, donations or your own funds, does work in some cases like GrapheneOS, but not so well for others like Signal.
+So after identifying the crucial cost points now comes the most important question: Is the business model set up to scale financially too? A business model that charges users scales very naturally. A business model built solely on grants, donations or your own funds, does work in some cases like GrapheneOS, but not so well for others like Signal.
 
 ## Case Study: Signal
 
@@ -215,7 +215,7 @@ However, the financial longevity of Signal is highly unclear. We are not doomed 
 
 ## Continue Evaluating Privacy Services In All Aspects
 
-The privacy and tech community has immense power. We are the early adopters, we are the one who ask the hard questions and we are the ones who accelerate a service by recommending it to our friends and family.
+The privacy and tech community has immense power. We are the early adopters, we are the ones who ask the hard questions and we are the ones who accelerate a service by recommending it to our friends and family.
 
 ### We Already Hold Companies Accountable
 
