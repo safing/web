@@ -10,6 +10,8 @@ portmaster_plug: true
 summary: "In 2020, Zoom acqui-hired the privacy company Keybase and put their service on development freeze. Why? Because Keybase had no business model. Mozilla and Tor both had to layoff personnel due to underfunding and even everybody's darling Signal deserves serious questioning where their financial path is heading. We, the privacy and tech community, need to talk more about money."
 ---
 
+> For a TLDR read titles only
+
 ## Software Is Bloody Expensive - Someone Has to Pay
 
 ### Software != Only Development
