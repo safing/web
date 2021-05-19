@@ -15,15 +15,15 @@ layout: page
             What do you need help with?
           </p>
           <div class="py-10 sm:py-16 block ">
-            <a href="#spn">
-              <button type="button" style="background-color: #000;" class="mb-5 transform hover:scale-95 inline-flex items-center px-16 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-                Spn
-              </button>
-            </a>
-            <br>
             <a href="#portmaster">
               <button type="button" style="background-color: #000;" class=" mb-5 transform hover:scale-95 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
                 Portmaster
+              </button>
+            </a>
+            <br>
+            <a href="#spn">
+              <button type="button" style="background-color: #000;" class="mb-5 transform hover:scale-95 inline-flex items-center px-16 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
+                Spn
               </button>
             </a>
           </div>
@@ -43,42 +43,28 @@ layout: page
               Portmaster
             </h2>
             <p class="text-md opacity-55 max-w-screen-sm mx-auto">
-              Please report technical issues on the portmaster
-              repository, problems with the user interface on the portmaster-ui
-              repo and ask for help on Reddit
+              For common problems check out our documentation with extensive guides on installation, DNS Configuration and the Settings Handbook, describing every Portmaster setting in detail. Report issues and bugs on GitHub while you can always ask for more help on our subreddit or via mail.
             </p>
           </div>
           <div>
-            <div class="text-center lg:text-left lg:inline-flex items-center mt-16 mb-16 spn-shadow p-10 rounded-lg">
-              <div class="flex items-center justify-center pl-2 md:pl-0 h-12 md:w-12 w-auto mr-auto ml-auto">
-                <svg class="h-8 w-8" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <g fill="none">
-                    <path d="M0 0h24v24H0z" />
-                    <path stroke="#ddae7b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 21v0c-4.971 0-9-4.029-9-9v0c0-4.971 4.029-9 9-9v0c4.971 0 9 4.029 9 9v0c0 4.971-4.029 9-9 9z" />
-                    <path stroke="#ddae7b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 17v-5h-1M11.749 8c-.138 0-.25.112-.249.25 0 .138.112.25.25.25s.25-.112.25-.25-.112-.25-.251-.25" />
-                  </g>
-                </svg>
-              </div>
-              <p class="pt-5 lg:pt-0 md:pl-10 md:pr-10 text-sm opacity-75">
-                Please note that the Portmaster is still in an <span class="font-extrabold">early development stage.</span> It is functional, but has not yet been
-                tested widely. Thus, we currently expect you to have the technical knowledge to troubleshoot and <span class="font-extrabold">fix
-                  issues on your end by yourself.</span>
-              </p>
+            <div class="mx-auto p-5 pl-5 rounded-md text-white flex break-words items-center mt-16 mb-16" style="font-size: .85rem; background-color: #5c85ff; width: fit-content; width: -moz-fit-content;">
+              <img src="{{ site.img_url }}icons/info.svg" class="h-4 w-4 self-center mr-2">
+              Portmaster is Alpha Software, thanks for being an Early Adopter. Bug reports are appreciated.
             </div>
             <div class="py-5 block grid lg:flex lg:grid-cols-3 gap-10 justify-center ">
-              <a href="{{ site.github_url }}/portmaster/issues" class="flex items-center mx-auto text-center">
+              <a href="{{ site.docs_url }}" class="flex items-center mx-auto text-center">
                 <button type="button" style="background-color: #000;" class="transform hover:scale-95 hover:opacity-100 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-                  Portmaster Repo
+                  View Documentation
                 </button>
               </a>
-              <a href="{{ site.github_url }}/portmaster-ui/issues" class="flex items-center mx-auto text-center">
+              <a href="{{ site.docs_url }}portmaster/guides/contribute#report-bugs-suggest-features-and-improvements" class="flex items-center mx-auto text-center">
                 <button type="button" style="background-color: #000;" class="transform hover:scale-95 hover:opacity-100 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-                  Portmaster UI Repo
+                  Report Issue
                 </button>
               </a>
               <a href="{{ site.reddit_url }}" class="flex items-center mx-auto text-center">
                 <button type="button" style="background-color: #000;" class="lg:ml-3 lg:mr-3 transform hover:scale-95 hover:opacity-100 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-                  reddit
+                  Ask On Reddit
                 </button>
               </a>
               <a href="mailto:support@safing.io" class="flex items-center mx-auto text-center">
@@ -167,9 +153,19 @@ layout: page
               </p>
             </div>
             <div class="py-5 block grid lg:flex lg:grid-cols-3 gap-10 justify-center">
-              <a href="mailto:support@safing.io" class="flex items-center">
-                <button type="button" style="background-color: #000;" class="transform hover:scale-95 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-                  contact us
+              <a href="{{ site.github_url }}/spn" class="flex items-center mx-auto text-center">
+                <button type="button" style="background-color: #000;" class="transform hover:scale-95 hover:opacity-100 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
+                  View SPN Repository
+                </button>
+              </a>
+              <a href="{{ site.reddit_url }}" class="flex items-center mx-auto text-center">
+                <button type="button" style="background-color: #000;" class="lg:ml-3 lg:mr-3 transform hover:scale-95 hover:opacity-100 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
+                  Ask on Reddit
+                </button>
+              </a>
+              <a href="mailto:support@safing.io" class="flex items-center mx-auto text-center">
+                <button type="button" style="background-color: #000;" class="lg:ml-3 lg:mr-3 transform hover:scale-95 hover:opacity-100 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
+                  Contact us
                 </button>
               </a>
             </div>
