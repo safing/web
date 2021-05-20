@@ -12,7 +12,7 @@ tags:
 - privacy
 - design
 - website
-podcast_link: /assets/podcast/022-deadlines-tailwind-designing-safing.mp3
+podcast_link: podcast/022-deadlines-tailwind-designing-safing.mp3
 podcast_file_size: 39.2 MB
 podcast_duration: "40:50"
 # actual byte size

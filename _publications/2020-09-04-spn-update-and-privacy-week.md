@@ -12,7 +12,7 @@ tags:
 - spn
 - privacyweek
 - conference
-podcast_link: /assets/podcast/024-spn-update-and-privacy-week.mp3
+podcast_link: podcast/024-spn-update-and-privacy-week.mp3
 podcast_file_size: 28.2 MB
 podcast_duration: "29:27"
 # actual byte size

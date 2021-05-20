@@ -12,7 +12,7 @@ tags:
 - privacy
 - community
 - hiring
-podcast_link: /assets/podcast/011-hiring-a-designer-from-the-privacy-community.mp3
+podcast_link: podcast/011-hiring-a-designer-from-the-privacy-community.mp3
 podcast_file_size: 60.9 MB
 podcast_duration: "1:03:17"
 # actual byte size

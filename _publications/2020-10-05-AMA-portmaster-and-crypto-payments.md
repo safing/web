@@ -12,7 +12,7 @@ tags:
 - community
 - spn
 - portmaster
-podcast_link: /assets/podcast/025-ama-portmaster-and-crypto-payments.mp3
+podcast_link: podcast/025-ama-portmaster-and-crypto-payments.mp3
 podcast_file_size: 24.2 MB
 podcast_duration: "24:39"
 # actual byte size

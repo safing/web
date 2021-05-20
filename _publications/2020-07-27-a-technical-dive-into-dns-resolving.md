@@ -12,7 +12,7 @@ tags:
 - privacy
 - dns
 - resolvers
-podcast_link: /assets/podcast/023-a-technical-dive-into-dns-resolving.mp3
+podcast_link: podcast/023-a-technical-dive-into-dns-resolving.mp3
 podcast_file_size: 47.2 MB
 podcast_duration: "48:58"
 # actual byte size

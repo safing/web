@@ -12,7 +12,7 @@ tags:
 - privacy
 - business
 - progress
-podcast_link: /assets/podcast/009-progress-update-iii-roadmap-until-the-pre-alpha.mp3
+podcast_link: podcast/009-progress-update-iii-roadmap-until-the-pre-alpha.mp3
 podcast_file_size: 43 MB
 podcast_duration: "44:10"
 # actual byte size

@@ -9,7 +9,7 @@ tags:
 - privacy
 - business
 - culture
-podcast_link: /assets/podcast/007-progress-update-ii-company-culture.mp3
+podcast_link: podcast/007-progress-update-ii-company-culture.mp3
 podcast_file_size: 33.4 MB
 podcast_duration: "34:47"
 # actually byte size

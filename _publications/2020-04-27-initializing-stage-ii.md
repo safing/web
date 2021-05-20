@@ -12,7 +12,7 @@ tags:
 - privacy
 - product
 - launch
-podcast_link: /assets/podcast/020-initializing-stage-ii.mp3
+podcast_link: podcast/020-initializing-stage-ii.mp3
 podcast_file_size: 32.6 MB
 podcast_duration: "33:13"
 # actual byte size

@@ -9,7 +9,7 @@ tags:
 - privacy
 - business
 - trust
-podcast_link: /assets/podcast/004-how-to-evaluate-and-trust-a-business.mp3
+podcast_link: podcast/004-how-to-evaluate-and-trust-a-business.mp3
 podcast_file_size: 58.2 MB
 podcast_duration: "1:00:39"
 # actually byte size

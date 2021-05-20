@@ -9,7 +9,7 @@ tags:
 - startup
 - privacy
 - journey
-podcast_link: /assets/podcast/003-privacy-journey-with-raphty.mp3
+podcast_link: podcast/003-privacy-journey-with-raphty.mp3
 podcast_file_size: 42.8 MB
 podcast_duration: "44:35"
 # actually byte size
