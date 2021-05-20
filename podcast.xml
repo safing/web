@@ -58,11 +58,7 @@ layout: null
         <description>
           <![CDATA[{{ episode.summary | expand_urls: site.url | cdata_escape }}]]>
         </description>
-        {% if episode.asset_server %}
-          <enclosure url="{{ site.assets_server_url }}{{ episode.podcast_link }}" length="{{ episode.podcast_length }}" type="audio/mpeg" />
-        {% else %}
-          <enclosure url="{{ site.url }}{{ episode.podcast_link }}" length="{{ episode.podcast_length }}" type="audio/mpeg" />
-        {% endif %}
+        <enclosure url="{{ site.assets_server_url }}{{ episode.podcast_link }}" length="{{ episode.podcast_length }}" type="audio/mpeg" />
         <itunes:subtitle><![CDATA[{{ episode.summary | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]></itunes:subtitle>
         <itunes:summary><![CDATA[{{ episode.summary | expand_urls: site.url | cdata_escape }}]]></itunes:summary>
         <itunes:author>{{ site.podcast_author }}</itunes:author>
