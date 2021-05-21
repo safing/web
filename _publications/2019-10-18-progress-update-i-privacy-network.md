@@ -9,7 +9,7 @@ tags:
 - privacy
 - business
 - progress
-podcast_link: /assets/podcast/006-progress-update-i-privacy-network.mp3
+podcast_link: podcast/006-progress-update-i-privacy-network.mp3
 podcast_file_size: 27.3 MB
 podcast_duration: "27:43"
 # actually byte size

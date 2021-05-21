@@ -12,8 +12,7 @@ tags:
 - privacy
 - payments
 - spn
-asset_server: true
-podcast_link: /podcast/026-the-crux-with-payment-methods.mp3
+podcast_link: podcast/026-the-crux-with-payment-methods.mp3
 podcast_file_size: 40.3 MB
 podcast_duration: "42:00"
 # actual byte size

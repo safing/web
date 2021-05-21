@@ -9,7 +9,7 @@ tags:
 - startup
 - decisions
 - privacy
-podcast_link: /assets/podcast/002-decisions-that-shift-a-company.mp3
+podcast_link: podcast/002-decisions-that-shift-a-company.mp3
 podcast_file_size: 27.8 MB
 podcast_duration: "28:54"
 # actually byte size

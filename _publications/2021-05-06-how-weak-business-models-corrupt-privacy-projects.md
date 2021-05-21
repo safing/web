@@ -11,8 +11,7 @@ date: 2021-05-06
 tags:
 - privacy
 - business models
-asset_server: true
-podcast_link: /podcast/029-how-weak-business-models-corrupt-privacy-projects.mp3
+podcast_link: podcast/029-how-weak-business-models-corrupt-privacy-projects.mp3
 custom_thumbnail_name: placeholder_S02
 podcast_file_size: 95.9 MB
 podcast_duration: "1:39:53"

@@ -9,7 +9,7 @@ tags:
 - startup
 - funding
 - privacy
-podcast_link: /assets/podcast/001-how-to-fund-a-privacy-oriented-start-up.mp3
+podcast_link: podcast/001-how-to-fund-a-privacy-oriented-start-up.mp3
 podcast_file_size: 33.3 MB
 podcast_duration: "34:42"
 # actually byte size

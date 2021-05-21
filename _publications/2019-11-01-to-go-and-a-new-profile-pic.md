@@ -9,7 +9,7 @@ tags:
 - privacy
 - business
 - golang
-podcast_link: /assets/podcast/008-the-golang-meetup-and-the-yellow-t-shirt.mp3
+podcast_link: podcast/008-the-golang-meetup-and-the-yellow-t-shirt.mp3
 podcast_file_size: 36.8 MB
 podcast_duration: "37:15"
 # actually byte size

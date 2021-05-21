@@ -12,7 +12,7 @@ tags:
 - privacy
 - business
 - sponsorship
-podcast_link: /assets/podcast/013-becoming-privacytools-first-sponsor.mp3
+podcast_link: podcast/013-becoming-privacytools-first-sponsor.mp3
 podcast_file_size: 29.4 MB
 podcast_duration: "29:39"
 # actual byte size

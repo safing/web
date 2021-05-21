@@ -12,7 +12,7 @@ tags:
 - privacy
 - business
 - consulting
-podcast_link: /assets/podcast/018-why-hire-an-advisor.mp3
+podcast_link: podcast/018-why-hire-an-advisor.mp3
 podcast_file_size: 29.4 MB
 podcast_duration: "30:26"
 # actual byte size

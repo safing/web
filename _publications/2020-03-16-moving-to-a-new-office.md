@@ -12,7 +12,7 @@ tags:
 - privacy
 - business
 - office
-podcast_link: /assets/podcast/017-moving-to-a-new-office.mp3
+podcast_link: podcast/017-moving-to-a-new-office.mp3
 podcast_file_size: 29.4 MB
 podcast_duration: "29:52"
 # actual byte size

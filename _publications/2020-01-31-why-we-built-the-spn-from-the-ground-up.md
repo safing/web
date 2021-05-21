@@ -12,7 +12,7 @@ tags:
 - privacy
 - technology
 - spn
-podcast_link: /assets/podcast/016-why-we-built-the-spn-from-the-ground-up.mp3
+podcast_link: podcast/016-why-we-built-the-spn-from-the-ground-up.mp3
 podcast_file_size: 37.8 MB
 podcast_duration: "38:17"
 # actual byte size

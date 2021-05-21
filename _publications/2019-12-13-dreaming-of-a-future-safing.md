@@ -12,7 +12,7 @@ tags:
 - privacy
 - business
 - future
-podcast_link: /assets/podcast/012-dreaming-of-a-future-safing.mp3
+podcast_link: podcast/012-dreaming-of-a-future-safing.mp3
 podcast_file_size: 56.7 MB
 podcast_duration: "58:19"
 # actual byte size

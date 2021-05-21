@@ -12,7 +12,7 @@ tags:
 - privacy
 - code
 - audit
-podcast_link: /assets/podcast/015-code-audit-by-cure53.mp3
+podcast_link: podcast/015-code-audit-by-cure53.mp3
 podcast_file_size: 33.6 MB
 podcast_duration: "33:53"
 # actual byte size

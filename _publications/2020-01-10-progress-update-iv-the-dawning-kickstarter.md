@@ -12,7 +12,7 @@ tags:
 - privacy
 - business
 - progress
-podcast_link: /assets/podcast/014-progress-update-iv-the-dawning-kickstarter.mp3
+podcast_link: podcast/014-progress-update-iv-the-dawning-kickstarter.mp3
 podcast_file_size: 35.7 MB
 podcast_duration: "36:05"
 # actual byte size

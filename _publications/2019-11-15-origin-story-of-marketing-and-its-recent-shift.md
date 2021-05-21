@@ -12,7 +12,7 @@ tags:
 - privacy
 - business
 - marketing
-podcast_link: /assets/podcast/010-origin-story-of-marketing-and-its-recent-shift.mp3
+podcast_link: podcast/010-origin-story-of-marketing-and-its-recent-shift.mp3
 podcast_file_size: 28.4 MB
 podcast_duration: "39:02"
 # actual byte size

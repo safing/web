@@ -12,8 +12,7 @@ tags:
 - privacy
 - portmaster
 - design
-asset_server: true
-podcast_link: /podcast/027-the-giants-new-face.mp3
+podcast_link: podcast/027-the-giants-new-face.mp3
 custom_thumbnail_name: placeholder_S02
 podcast_file_size: 38.8 MB
 podcast_duration: "39:47"

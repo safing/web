@@ -9,7 +9,7 @@ tags:
 - remote
 - privacy
 - business
-podcast_link: /assets/podcast/005-becoming-a-remote-company-i.mp3
+podcast_link: podcast/005-becoming-a-remote-company-i.mp3
 podcast_file_size: 34.7 MB
 podcast_duration: "36:10"
 # actually byte size

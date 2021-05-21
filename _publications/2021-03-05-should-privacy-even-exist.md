@@ -12,8 +12,7 @@ tags:
 - privacy
 - debate
 - freedom
-asset_server: true
-podcast_link: /podcast/028-should-privacy-even-exist.mp3
+podcast_link: podcast/028-should-privacy-even-exist.mp3
 custom_thumbnail_name: placeholder_S02
 podcast_file_size: 66.1 MB
 podcast_duration: "1:07:54"
