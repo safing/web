@@ -81,15 +81,12 @@ use.
 **Portmaster:**
 
 Software running on customers\' PC -- AGPLv3 License. Please read
-[**Article 9.**]({{ config.base_url }}/terms/#article-9-fair-information-practices-explained) of
-the Terms of Service. This does not collect, handle, or store any
+[**Article 9.**](#article-9-fair-information-practices-explained) of
+the Privacy Policy. This does not collect, handle, or store any
 personal identifiable information, except for a per-device API-Token if
 logged into the SPN, during the SPN login the user/pass is sent to our
 Customer Hub to retrieve the API-Token, this is never stored, by default
 no data is collected or processed.
-
-We intend that in the future, opt-in and privacy preserving telemetry
-functions will be offered to our subscribers.
 
 **SPN:**
 
@@ -551,6 +548,12 @@ Authorized agents must also provide a current, verifiable identification and all
 received, gathered, collected and held.
 
 [Alteration to Article 3](#article-3-how-we-store-and-protect-your-pii--data), How we store and protect your PII & Data: alteration to main body text 1st paragraph.
+
+# Amendment 0.4. 25/05/2021
+
+[Removal from Article 2](#article-2-personal-identifiable-information--data-we-collect), Personal Identifiable Information & Data we collect. Removal of a sentence about future potential Portmaster telemetry.
+
+This sentence was originally added for legal flexibility, intended to cover such a potential feature. We honestly forgot that it was there. But to make things clear: No official Portmaster release will ever have telemetry functions implemented. Hence the removal.
 
 ## Article 19. Contact
 
