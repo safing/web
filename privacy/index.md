@@ -81,8 +81,8 @@ use.
 **Portmaster:**
 
 Software running on customers\' PC -- AGPLv3 License. Please read
-[**Article 9.**]({{ config.base_url }}/terms/#article-9-fair-information-practices-explained) of
-the Terms of Service. This does not collect, handle, or store any
+[**Article 9.**](#article-9-fair-information-practices-explained) of
+the Privacy Policy. This does not collect, handle, or store any
 personal identifiable information, except for a per-device API-Token if
 logged into the SPN, during the SPN login the user/pass is sent to our
 Customer Hub to retrieve the API-Token, this is never stored, by default
