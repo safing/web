@@ -19,6 +19,7 @@ vendor_url: /vendor/
 
 ### pages
 about_url: /about/
+blog_feed_url: /blog.xml
 blog_url: /blog/
 backlog_url: /backlog/
 community_hub_url: /community-hub/

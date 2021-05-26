@@ -2,12 +2,12 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="'http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}{{ site.base_url }}</link>
-    <atom:link href="{{ site.url }}{{ site.base_url }}feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="{{ site.url }}{{ site.base_url }}{{ site.blog_feed_url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
@@ -15,13 +15,26 @@ layout: null
     {% for post in sorted_blogs %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
+        {% if post.progress_update %}
+          <description>Progress Updates Are Only Compatible in Webview (due to CSS tricks for NoJS support)</description>
+          <content:encoded>
+            {{ post.content | markdownify | xml_escape }}
+          </content:encoded>
+        {% elsif post.summary %}
+          <description>{{ post.summary | markdownify | xml_escape }}</description>
+          <content:encoded>
+            {{ post.content | markdownify | xml_escape }}
+          </content:encoded>
+        {% else %}
+          <description>{{ post.content | xml_escape }}</description>
+        {% endif %}
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ site.url }}{{ site.base_url }}{{ post.url | replace_first: '/', '' }}</link>
         <guid isPermaLink="true">{{ site.url }}{{ site.base_url }}{{ post.url | replace_first: '/', '' }}</guid>
         {% for tag in post.tags %}
         <category>{{ tag | xml_escape }}</category>
         {% endfor %}
+        <dc:creator>{{ post.author | xml_escape }}</dc:creator>
       </item>
     {% endfor %}
   </channel>
