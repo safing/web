@@ -1,0 +1,23 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.base_url }}</link>
+    <atom:link href="{{ site.url }}{{ site.base_url }}feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+
+    <item>
+      <title>Feed MOVED to https://safing.io/blog.xml</title>
+
+      <description>The RSS Feed moved to https://safing.io/blog.xml for easier logic. The RSS Feed was hidden until now anyway so it is assumed that not many have discovered the deprecated feed.xml. If you see this, you are a true OG follower.</description>
+      <pubDate>Wed, 26 May 2021 08:22:38 -0500</pubDate>
+      <link>https://safing.io/feed.xml</link>
+    </item>
+  </channel>
+</rss>
