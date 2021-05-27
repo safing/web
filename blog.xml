@@ -21,7 +21,7 @@ layout: null
             {{ post.content | markdownify | xml_escape }}
           </content:encoded>
         {% elsif post.summary %}
-          <description>{{ post.summary | markdownify | xml_escape }}</description>
+          <description>{{ post.summary | xml_escape }}</description>
           <content:encoded>
             {{ post.content | markdownify | xml_escape }}
           </content:encoded>
