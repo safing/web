@@ -25,7 +25,7 @@ summary: "
 
 <h4>Links</h4>
 
-- <a href='https://invidio.us/watch?v=WyG2mXGj1yo'>Video of Daniels Presentation</a><br/>
+- <a href='https://invidious.snopyta.org/watch?v=WyG2mXGj1yo'>Video of Daniels Presentation</a><br/>
 - <a href='https://twitter.com/viennagouser/status/1189244481700335616/photo/1'>Picture of him in the Yellow T-Shirt ;)</a><br/>
 - <a href='https://safing.io/'>Safing Homepage</a><br/>
 

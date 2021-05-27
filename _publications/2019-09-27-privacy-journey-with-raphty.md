@@ -27,7 +27,7 @@ summary: "
 
 - <a href='https://old.reddit.com/r/safing'>Participate in our community: r/safing</a><br/>
 - <a href='https://safing.io/our-values/#ownership'>Ownership & Influences of Safing</a><br/>
-- <a href='https://invidio.us/watch?v=loG5_UhgqK4'>David's Talk with The Hated One about hidden data practices in his former industry</a><br/>
+- <a href='https://invidious.snopyta.org/watch?v=loG5_UhgqK4'>David's Talk with The Hated One about hidden data practices in his former industry</a><br/>
 - <a href='https://duckduckgo.com/bang'>DuckDuckGo bangs</a><br/>
 "
 hosts:
