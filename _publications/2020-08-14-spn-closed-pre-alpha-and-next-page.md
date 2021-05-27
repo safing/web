@@ -6,6 +6,7 @@ layout:   video
 # this has to be consistent for displaying only the episode number or only the title
 title: "#007 - SPN And \"Next Page\" Roll Out"
 date: 2020-08-14
+progress_update: true
 video_source: https://assets.safing.io/video/progress_updates/7.mp4
 youtube_hash: 45K5UjblT6k
 custom_thumbnail_name: 007-spn-and-next-page

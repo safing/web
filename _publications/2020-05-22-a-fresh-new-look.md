@@ -6,6 +6,7 @@ layout:   video
 # this has to be consistent for displaying only the episode number or only the title
 title: "#005 - A Fresh New Look"
 date: 2020-05-22
+progress_update: true
 video_source: https://assets.safing.io/video/progress_updates/5.mp4
 youtube_hash: 9UZ4VARUSio
 custom_thumbnail_name: 005-website-redesign
