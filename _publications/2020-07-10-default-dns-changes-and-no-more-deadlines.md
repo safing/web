@@ -6,6 +6,7 @@ layout:   video
 # this has to be consistent for displaying only the episode number or only the title
 title: "#006 - Default DNS Changes & NO MORE Deadlines"
 date: 2020-07-10
+progress_update: true
 video_source: https://assets.safing.io/video/progress_updates/6.mp4
 youtube_hash: F7mbWnRU2qk
 custom_thumbnail_name: 006-into-the-back-office

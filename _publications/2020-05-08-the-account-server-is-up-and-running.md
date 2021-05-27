@@ -6,6 +6,7 @@ layout:   video
 # this has to be consistent for displaying only the episode number or only the title
 title: "#004 - The Account Server is up and running"
 date: 2020-05-08
+progress_update: true
 video_source: https://assets.safing.io/video/progress_updates/4.mp4
 youtube_hash: vZSZUipikh8
 custom_thumbnail_name: 004-account-server-is-running

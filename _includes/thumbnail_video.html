@@ -19,8 +19,12 @@
           {% endif %}
           {{ video.date | date: "%-d. %b %Y" }}
         </span>
-        {% assign title_length = video.title | size %}
-        <p>{{ video.title | slice: 7, title_length }} - #{{ video.title | slice: 2, 2 }}</p>
+        {% if video.progress_update %}
+          {% assign title_length = video.title | size %}
+          <p>{{ video.title | slice: 7, title_length }} - #{{ video.title | slice: 2, 2 }}</p>
+        {% else %}
+          <p>{{ video.title }}</p>
+        {% endif %}
       </div>
     </a>
   </div>

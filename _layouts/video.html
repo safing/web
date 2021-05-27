@@ -4,9 +4,13 @@ container_class: "podcast pt-40 lg:pt-64"
 ---
 
 <div class="text-center">
-  {% assign title_length = page.title | size %}
-  <span style="font-size: 12rem; font-weight: 800; margin-top: -9rem; opacity: 0.05;" class="z-0 ml-0 w-full left-0 text-center absolute bg-top">#{{ page.title | slice: 2, 2 }}</span>
-  <h1 style="padding-top: 1.5em;"">{{ page.title | slice: 7, title_length }}</h1>
+  {% if page.progress_update %}
+    {% assign title_length = page.title | size %}
+    <span style="font-size: 12rem; font-weight: 800; margin-top: -9rem; opacity: 0.05;" class="z-0 ml-0 w-full left-0 text-center absolute bg-top">#{{ page.title | slice: 2, 2 }}</span>
+    <h1 style="padding-top: 1.5em;">{{ page.title | slice: 7, title_length }}</h1>
+  {% else %}
+    <h1>{{ page.title }}</h1>
+  {% endif %}
   <p class="opacity-55">{{ page.date | date: "%B %-d, %Y" }}</p>
   <div class="flex mx-auto justify-center pt-5">
     <a href="{{ site.twitter_url }}" class="opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">

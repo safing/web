@@ -6,6 +6,7 @@ layout:   video
 # this has to be consistent for displaying only the episode number or only the title
 title: "#001 - An Update from Home"
 date: 2020-03-27
+progress_update: true
 video_source: https://assets.safing.io/video/progress_updates/1.mp4
 custom_thumbnail_name: 001-an-update-from-home
 ---

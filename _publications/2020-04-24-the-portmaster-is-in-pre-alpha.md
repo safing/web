@@ -6,6 +6,7 @@ layout:   video
 # this has to be consistent for displaying only the episode number or only the title
 title: "#003 - The Portmaster is Out in Pre-Alpha!"
 date: 2020-04-24
+progress_update: true
 video_source: https://assets.safing.io/video/progress_updates/3.mp4
 youtube_hash: d0RF6zUxCWw
 custom_thumbnail_name: 003-portmaster-is-in-pre-alpha
