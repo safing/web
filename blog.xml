@@ -16,7 +16,7 @@ layout: null
       <item>
         <title>{{ post.title | xml_escape }}</title>
         {% if post.progress_update %}
-          <description>Progress Updates Are Only Compatible in Webview (due to CSS tricks for NoJS support)</description>
+          <description>Progress Updates Are Only Compatible in Webview (due to CSS tricks for NoJS support). View in your Readers Webview or visit {{ site.url }}{{ post.url }}</description>
           <content:encoded>
             {{ post.content | markdownify | xml_escape }}
           </content:encoded>
