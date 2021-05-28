@@ -19,7 +19,6 @@ vendor_url: /vendor/
 
 ### pages
 about_url: /about/
-blog_feed_url: /blog.xml
 blog_url: /blog/
 backlog_url: /backlog/
 community_hub_url: /community-hub/
@@ -117,3 +116,10 @@ podcast_title: "Coding Freedom - The Safing Podcast"
 podcast_subtitle: "Join ordinary people who fight Mass Surveillance because they Love Freedom."
 podcast_description: "Discontent with the global state of mass surveillance and its negative impact on our lives, the Safing team decided it was time to do something about it. Take part of the journey and explore the behind-the-scenes: How do you fund a privacy company? Why are deadlines always unrealistic? And ultimately, what is the solution to the privacy dilemma?"
 podcast_summary: "Discontent with the global state of mass surveillance and its negative impact on our lives, the Safing team decided it was time to do something about it. Take part of the journey and explore the behind-the-scenes: How do you fund a privacy company? Why are deadlines always unrealistic? And ultimately, what is the solution to the privacy dilemma?"
+
+##############################
+###### Blog settings ######
+##############################
+
+blog_feed_url: /blog.xml
+
