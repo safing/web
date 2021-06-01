@@ -109,7 +109,7 @@ cards:
         - type: 'h5'
           text: "Network Flow Management Improvements"
         - type: p
-          text: "As the SPN tunnels connections on OSI layer 5, it has to take care of network flow and congestion management itself. Taking this further, as the SPN allows the creating of multi-hop tunnels that split mid-way in a tree like fashion, the network flow management has to keep tabs on all these buffers in order to guarantee smooth passage through the network at all times. Daniel found some flaws in an earlier design and started improving this vital aspect of the SPN this month."
+          text: "As the SPN tunnels connections on OSI layer 5, it has to take care of network flow and congestion management itself. Taking this further, as the SPN allows the creation of multi-hop tunnels that split mid-way in a tree like fashion, the network flow management has to keep tabs on all these buffers in order to guarantee smooth passage through the network at all times. Daniel found some flaws in an earlier design and started improving this vital aspect of the SPN this month."
     - title: "Create \"Get Help\" Page"
       description: "Design and implement a \"Get Help\" section within the Portmaster so users can easily get help with issues or even smoothly report issues directly within the app."
       team:
