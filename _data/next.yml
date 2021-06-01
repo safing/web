@@ -16,26 +16,27 @@
 
 cards:
   done:
-    - title: "Docs: Add Fundamental Guides"
+    - title: 'Create RSS Feeds'
       description:
-        - "Describe some basics such as (un)installation, operating system compatibility, troubleshooting, how to contribute, etc..."
-        - Deprecate the GitHub Wiki. Flesh out the scope and details as you go.
+        - Revisit the RSS feeds for the blog, the podcast and maybe even the newsletter. We'll see. Make them work.
       team:
-        - Daniel
         - David
       projects:
         - Website
-    - title: "Pitch Safing on National Television"
-      description:
-        - With our appearance on Puls4 Television airing at the beginning of April, create a blog post explaining our intention with this gig.
-        - Handle press requests from journalists reporting on the occasion.
+    - title: "Techlore Review"
+      description: Reach out to Techlore and take up the offer for a Portmaster/Safing review. Prepare everything as best as we can so the experience is smooth to increase the chances of a positive verdict.
       team:
-        - Raphael
         - David
       projects:
         - Marketing
-    - title: "Finish FFG Midterm Report"
-      description: With the current FFG grant reaching its half time mark we need to hand in the midterm report in order to keep them updated as well as to unlock the next funding batch.
+    - title: "Try Content Marketing"
+      description: Draft and create content which provides lots of value to the readers. Co-op with others from the scene, participate in the discussion and through that, indirectly spread the awareness of Safing.
+      team:
+        - David
+      projects:
+        - Marketing
+    - title: Netidee Midterm Report
+      description: Update the Netidee of our current progress and status. Also write blog posts for the netidee platform.
       team:
         - Tabitha
         - Raphael
@@ -51,6 +52,13 @@ cards:
         - SPN
       team:
         - Daniel
+    - title: "Create \"Get Help\" Page"
+      description: "Design and implement a \"Get Help\" section within the Portmaster so users can easily get help with issues or even smoothly report issues directly within the app."
+      team:
+        - Luke
+        - Patrick
+      projects:
+        - Portmaster
     - title: Polish UI Design
       description: From a design perspective, the new User Interface was simply the minimal viable product. Go through each page and element in order to bring it up to speed with the concept design.
       team:
@@ -58,17 +66,18 @@ cards:
         - Patrick
       projects:
         - Portmaster
-    - title: "Try Content Marketing"
-      description: Draft and create content which provides lots of value to the readers. Co-op with others from the scene, participate in the discussion and through that, indirectly spread the awareness of Safing.
-      team:
-        - David
-      projects:
-        - Marketing
     - title: Cryptocurrency Payments
       description: Enable you to pay for the SPN with cryptocurrencies such as Bitcoin, Ethereum and Monero
       projects:
         - Website
       team:
         - Alex
+    - title: Apply for COVID Grant
+      description: Lower Austria currently has an open grant which provides funds to companies who are making positive efforts within the COVID pandemic. With so much of our lives moving online, online privacy is becoming more important than ever. Apply for this grant.
+      team:
+        - Tabitha
+        - Raphael
+      projects:
+        - Back Office
   postponed:
   discarded:
