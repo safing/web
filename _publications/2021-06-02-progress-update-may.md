@@ -38,7 +38,7 @@ cards:
           text: "This has been a request for over a year. And to be honest, the reason we never added this was kinda silly: Since progress update posts (like the one you are reading now) heavily rely on CSS tricks in order to support noJS, a RSS reader cannot properly format the progress update. Instead it displays a rather broken blog post. With no easy solution in sight, the RSS feed just got postponed indefinitely. But after finally revisiting this topic we came up with a simple solution. Just add a disclaimer to progress update posts that they are only viewable in the web-view. Problem solved. Proper communication, and finally a RSS feed everyone can subscribe to."
         - type: a
           text: Subscribe to the RSS blog feed
-          href: "https://safing.io/blog.xml/"
+          href: "https://safing.io/blog.xml"
     - title: "Techlore Review"
       description: Reach out to Techlore and take up the offer for a Portmaster/Safing review. Prepare everything as best as we can so the experience is smooth to increase the chances of a positive verdict.
       team:
