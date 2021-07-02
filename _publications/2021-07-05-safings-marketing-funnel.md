@@ -7,7 +7,7 @@ layout:   podcast
 # -> view cast.html
 title: "#030 - Safing's Marketing Funnel"
 keywords: privacy marketing
-date: 2021-07-02
+date: 2021-07-05
 tags:
 - privacy
 - marketing
