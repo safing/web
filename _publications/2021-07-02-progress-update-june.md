@@ -4,7 +4,7 @@ category: blog
 layout:   blog
 # ⚠️ ALWAYS follow this format: "#001 - Some sweet title"
 # this has to be consistent for displaying only the episode number or only the title
-title: "#011 - Progress Update June"
+title: "#012 - Progress Update June"
 date: 2021-07-02
 author: David
 custom_thumbnail_name: progress-update
