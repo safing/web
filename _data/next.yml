@@ -16,27 +16,8 @@
 
 cards:
   done:
-    - title: 'Create RSS Feeds'
-      description:
-        - Revisit the RSS feeds for the blog, the podcast and maybe even the newsletter. We'll see. Make them work.
-      team:
-        - David
-      projects:
-        - Website
-    - title: "Techlore Review"
-      description: Reach out to Techlore and take up the offer for a Portmaster/Safing review. Prepare everything as best as we can so the experience is smooth to increase the chances of a positive verdict.
-      team:
-        - David
-      projects:
-        - Marketing
-    - title: "Try Content Marketing"
-      description: Draft and create content which provides lots of value to the readers. Co-op with others from the scene, participate in the discussion and through that, indirectly spread the awareness of Safing.
-      team:
-        - David
-      projects:
-        - Marketing
-    - title: Netidee Midterm Report
-      description: Update the Netidee of our current progress and status. Also write blog posts for the netidee platform.
+    - title: Apply for COVID Grant
+      description: Lower Austria currently has an open grant which provides funds to companies who are making positive efforts within the COVID pandemic. With so much of our lives moving online, online privacy is becoming more important than ever. Apply for this grant.
       team:
         - Tabitha
         - Raphael
@@ -59,6 +40,26 @@ cards:
         - Patrick
       projects:
         - Portmaster
+    - title: Cryptocurrency Payments
+      description: Enable you to pay for the SPN with cryptocurrencies such as Bitcoin, Ethereum and Monero
+      projects:
+        - Website
+      team:
+        - Alex
+    - title: "Tailwind Components"
+      description: "A lot of duplication happens in the HTML of our different web projects. Extract the most common components into CSS component classes, such as `btn-primary`, to remove duplication and unify the HTML."
+      projects:
+        - Website
+      team:
+        - Luke
+    - title: "Docs: Portmaster Update System"
+      description: Describe how the Portmaster updates itself in more detail. What is the purpose of each resource? What insights do we gain through this and how do we protect your privacy in the process?
+      projects:
+        - Website
+      team:
+        - David
+        - Daniel
+  postponed:
     - title: Polish UI Design
       description: From a design perspective, the new User Interface was simply the minimal viable product. Go through each page and element in order to bring it up to speed with the concept design.
       team:
@@ -66,18 +67,4 @@ cards:
         - Patrick
       projects:
         - Portmaster
-    - title: Cryptocurrency Payments
-      description: Enable you to pay for the SPN with cryptocurrencies such as Bitcoin, Ethereum and Monero
-      projects:
-        - Website
-      team:
-        - Alex
-    - title: Apply for COVID Grant
-      description: Lower Austria currently has an open grant which provides funds to companies who are making positive efforts within the COVID pandemic. With so much of our lives moving online, online privacy is becoming more important than ever. Apply for this grant.
-      team:
-        - Tabitha
-        - Raphael
-      projects:
-        - Back Office
-  postponed:
   discarded:
