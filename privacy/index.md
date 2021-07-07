@@ -61,63 +61,72 @@ securely.
 
 Although the information collected is basic and may not be classed as PII, we treat all data with the same respect and as such have listed all the data we collect from the services we provide.
 
-**Website:**
+### Websites and other Web Services
 
-The data we collect from Website Visitors:
+Safing operates these websites, hosted and managed by GitHub ([Pages](https://pages.github.com/)):
 
-Includes Domains: <https://safing.io>, [https://docs.safing.io](https://docs.safing.io/)
+- Website: https://safing.io
+- Documentation: https://docs.safing.io
 
-No tracking, analytics, are currently used. Should this change, we will update this privacy policy in compliance with [Article 18.](#article-18-amendments-to-the-privacy-policy).
+You can [read GitHub's privacy policy](https://docs.github.com/en/github/site-policy/github-privacy-statement) to see how they handle your data.
 
-**Forum:**
+<br>
 
-At present the forum is run on a third party service, however, with
-respect to being open and transparent, our forum when running, is
-usually on the Reddit platform, we have no control on how their service
-collects, stores, shares, handles, or uses data, and as such, you are
-advised to read any and all privacy policies of the sites you intend to
-use.
+Safing additionally operates and manages the following websites:
+- Account Service: https://account.safing.io
+- Account API Service: https://api.account.safing.io
+- Asset Server: https://assets.safing.io
+- Update Server: https://updates.safing.io
+- Support Server: https://support.safing.io
 
-**Portmaster:**
+The following personal identifiable information (PII) is held for technical reasons and is deleted after 72 hours:
+- IP Address
+- User Agent
 
-Software running on customers\' PC -- AGPLv3 License. Please read
-[**Article 9.**](#article-9-fair-information-practices-explained) of
-the Privacy Policy. This does not collect, handle, or store any
-personal identifiable information, except for a per-device API-Token if
-logged into the SPN, during the SPN login the user/pass is sent to our
-Customer Hub to retrieve the API-Token, this is never stored, by default
-no data is collected or processed.
+This is how the 72 hours are broken up:
+- Up to 24 hours until the raw logs are processed.
+- Another 24 hours for processing in technical and operational systems.
+- Another 24 hours for guaranteed full deletion.
 
-**SPN:**
+While 72 hours is the maximum holding time period we guarantee, the time to deletion is usually a lot shorter.
 
-The customer hub holds all data relevant to the administration of our
-SPN subscription and service to you, and although it is not all classed
-as PII, the information gathered and stored is as follows and includes
-the domain: <https://account.safing.io>
+<br>
 
--   Transaction identifier from payment gateway.
--   IP address, this is masked and only held for technical reasons for
-    the period of 24 hours, and then deleted.
--   User name, supplied by you, not your real name.
--   Email address, required for some payment methods, our contact with
-    you for account related information.
--   Country, and country calling code, required for Austrian taxation
-    law.
--   Password, always stored in an encrypted (hashed) form.
--   Survey answers, development purposes for site and service
-    enhancement.
+Independently from this process, we always reduce PII as early as possible to reduce the time it is held and also reduce the number of systems the information is exposed to in the first place.
+In some cases we even manage to delete IP addresses within an hour.
 
-**Surveys:**
+### Your Account
 
-Safing ICS Technologies GmbH run surveys both continuous and in limited
-time scope in order to best know and understand the needs of our
-customers, these are used for development and enhancement of our
-services, data supplied by users is kept until a user deletes it, these
-surveys only collect basic information and not PII, by way of example
-and not limited to, \"Which Operating Systems do you use?\".
+If you register for and use an account on https://account.safing.io, we additionally collect this information:
+- User name, supplied by you, not your real name.
+- Email address, required for some payment methods, our contact with you for account related information.
+- Country, and country calling code, required for Austrian taxation law.
+- Transaction identifiers necessary for processing, supplied to us by third party payment providers.
+- Password, always stored in an encrypted (hashed) form.
 
+This service also includes the domain https://api.account.safing.io, which hosts the API that the Portmaster interacts with.
 
-**Customer Support:**
+### The Portmaster Software
+
+The Portmaster software runs locally on your device and monitors your network traffic in order to block unwanted connections.
+While it handles a lot of PII internally, at no point does the Portmaster software share any PII with us or anyone else, with the exception of the following cases:
+
+The Portmaster interacts with the following **Web Services by Safing**: https://updates.safing.io, https://support.safing.io, https://account.safing.io, https://api.account.safing.io  
+Please refer to the previous sections to learn about these services.
+
+If you choose to report an issue or give feedback via the **support system** within the Portmaster software, it sends your request with all its attached data to https://support.safing.io, which then forwards it to your chosen support channel.
+
+If you use the **Safing Privacy Network (SPN)** module of the Portmaster, it supplies the username and password you enter to https://api.account.safing.io in order to log in.
+These credentials are not provided to any server in the SPN, but an authorization token is used instead.
+In the network itself, only the initial server knows and handles your IP address, which is never logged.
+
+Please note that not all servers in the SPN are operated by Safing. If the Portmaster makes use of **servers that are operated by the community** (ie. a third party), we cannot guarantee how your information is handled by these operators. While we need to make you aware of this policy-wise, there is no privacy risk associated with this, as the SPN is built to protect your privacy in exactly this case and every server only receives minimal and only parts of the connection data, so that no server can both identify you and identify what you do online.
+
+As the Portmaster is also a **DNS Client**, it sends DNS queries to the configured DNS Providers.  
+When you start using or configuring the Portmaster, please read the privacy policy of the configured DNS Providers.
+
+### Customer Support
+
 Safing ICS Technologies GmbH run customer support services for its users, customer support covers all aspects of
 the services provided, including and not limited to: accounts, Portmaster, SPN, general enquiries and questions
 about our policies etc. The information received, gathered, collected and held whilst running this service is as
@@ -127,7 +136,25 @@ follows:
 - **Email address**, required for customer service replies etc. our contact with you for account related information.
 - **Email content**, held for the purposes of site and service enhancement.
 
-**Newsletter:**
+### Forum
+
+At present the forum is run on a third party service, however, with
+respect to being open and transparent, our forum when running, is
+usually on the Reddit platform, we have no control on how their service
+collects, stores, shares, handles, or uses data, and as such, you are
+advised to read any and all privacy policies of the sites you intend to
+use.
+
+### Surveys
+
+Safing ICS Technologies GmbH run surveys both continuous and in limited
+time scope in order to best know and understand the needs of our
+customers, these are used for development and enhancement of our
+services, data supplied by users is kept until a user deletes it, these
+surveys only collect basic information and not PII, by way of example
+and not limited to, \"Which Operating Systems do you use?\".
+
+### Newsletter
 
 Safing ICS Technologies GmbH periodically sends out a newsletter, when
 signing up to this service, you agree that Rapidmail will store your
@@ -189,37 +216,35 @@ The information collected whilst subscribing to the SPN or using the
 website is basic in nature and only used for the specific reasons of
 software development and the administration of your account.
 
--   Valid email address. If or when required, Used for the
+-   Valid email address: If or when required, Used for the
     administration of your account.
 
--   Transaction identifier, sent by payment gateway. Used for the
+-   Transaction identifier, sent by payment gateway: Used for the
     administration of your account.
 
--   The internet browser and operating system you are using. Used for
+-   The internet browser and operating system you are using: Used for
     software development purposes.
 
--   The language set by the browser. Used for software development
+-   The language set by the browser: Used for software development
     purposes.
 
--   The part of the IP address that designates country. Used for
+-   The part of the IP address that designates country: Used for
     software development and administration purposes.
 
--   Referrer. How did you find the site? Used for software development
+-   Referrer: How did you find the site? Used for software development
     purposes.
 
 ## Article 5. Third party websites and links
 
--   **Hetzner.** Hosting Provider.
+-   **Hetzner:** Hosting Provider.
 
--   **GitHub.** Hosting Provider.
+-   **GitHub:** Hosting Provider.
 
--   **PayPal.** Payment gateway.
+-   **PayPal:** Payment gateway.
 
--   **Stripe.** Payment gateway.
+-   **Sparkasse Baden: Bank:** Payments, wire transfer.
 
--   **Sparkasse Baden: Bank.** Payments, wire transfer.
-
--   **Mailbox.org.** Email provider.
+-   **Mailbox.org:** Email provider.
 
 ## Article 6. Third Party Disclosure
 
@@ -503,7 +528,7 @@ SPN provided by Safing ICS Technologies GmbH does not collect any IP
 addresses, browsing history, traffic data, or DNS queries that could be
 used to identify any specific user.
 
-## Article 18. Amendments to the Privacy Policy**
+## Article 18. Amendments to the Privacy Policy
 
 This privacy policy is classed as a living document, and will change
 from time to time due to changes in laws concerning privacy around the
@@ -530,8 +555,6 @@ it is here by stated that Safing ICS Technologies GmbH, does not hold or transfe
 
 As per update to CalOPPA/CCPA (California Consumer Privacy Act) 14/08/2020, this amendment applies to Privacy Policy Articles [8](#article-8-california-online-privacy-protection-act-caloppa-explained),[11](#article-11-do-not-track),[13](#article-13-no-logs-policy) & [16](#article-16-data-request).
 
-
-
 **Authorized Agents:** When a consumer uses an authorized agent to submit a request to know, or a request to delete data of any kind, Safing ICS Technologies GmbH may require that the consumer do the following:
 Provide the authorized agent, signed permission to access any form of data/information.
 
@@ -549,11 +572,24 @@ received, gathered, collected and held.
 
 [Alteration to Article 3](#article-3-how-we-store-and-protect-your-pii--data), How we store and protect your PII & Data: alteration to main body text 1st paragraph.
 
+<br>
+
 # Amendment 0.4. 25/05/2021
 
 [Removal from Article 2](#article-2-personal-identifiable-information--data-we-collect), Personal Identifiable Information & Data we collect. Removal of a sentence about future potential Portmaster telemetry.
 
 This sentence was originally added for legal flexibility, intended to cover such a potential feature. We honestly forgot that it was there. But to make things clear: No official Portmaster release will ever have telemetry functions implemented. Hence the removal.
+
+<br>
+
+# Amendment 0.5. 07/07/2021
+
+[Revision of Article 2](#article-2-personal-identifiable-information--data-we-collect) according to current developments:
+- Revised and unified Web Services, Account and Portmaster Software sections.
+- Refer to Github's Privacy Policy for Github Pages content, instead of making statements from our perspective.
+- Added support service.
+
+[Removal from Article 5](#article-5-third-party-websites-and-links): The third party service "Stripe" was removed, as integration was aborted a while ago.
 
 ## Article 19. Contact
 
