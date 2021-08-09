@@ -54,9 +54,6 @@ cards:
           text: "Next Version Almost Achieved"
         - type: p
           text: "The network flow management improvements are finished and tested. As this also changed the session management on the SPN nodes, Daniel is now working on integrating the improved system with the rest of the SPN components. When this is finished, we will finally have removed the identified weaknesses and instabilities of the v0.2 test phase."
-        - type: a
-          text: "View All of Safing's Influences and Fundings"
-          href: "https://safing.io/ownership#influences"
     - title: "Create \"Get Help\" Page"
       description: "Design and implement a \"Get Help\" section within the Portmaster so users can easily get help with issues or even smoothly report issues directly within the app."
       team:
@@ -88,9 +85,6 @@ cards:
           text: "Transfer Module Implemented, Export Module In the Works"
         - type: p
           text: "As Alex started with the implementation of this feature, it can be further split into two modules: Transferring the crypto currencies from A to B, with a clear track for accounting. And second, the export function, also something used for accounting. The first has had great progress this month, so now the implementation of the latter sub-module could be started."
-        - type: a
-          text: "View All of Safing's Influences and Fundings"
-          href: "https://safing.io/ownership#influences"
     - title: "Tailwind Components"
       description: "A lot of duplication happens in the HTML of our different web projects. Extract the most common components into CSS component classes, such as `btn-primary`, to remove duplication and unify the HTML."
       projects:
@@ -104,9 +98,6 @@ cards:
           text: "If you know a few things about web development you might have heard of Tailwind CSS, with which we create all our web sites. But if you have a look at the HTML, you might find a lot of duplication. Additionally, for us the HTML code has not always been the easiest to maintain. Adapt one button here, and then copy past the changes to all other buttons. This is why Luke has been working on Tailwind Components. It basically is an additional wrapper where we can kind of create our 'own Bootstrap', with classes such as `btn-primary` where we can adapt the CSS once, and everywhere the button will adapt. Much easier than hunting down all the tailwind classes in the HTML."
         - type: p
           text: "Luke already made great progress and has completed basic components. Further details and components are in the pipeline, we will keep you posted."
-        - type: a
-          text: "View All of Safing's Influences and Fundings"
-          href: "https://safing.io/ownership#influences"
     - title: "Docs: Portmaster Update System"
       description: Describe how the Portmaster updates itself in more detail. What is the purpose of each resource? What insights do we gain through this and how do we protect your privacy in the process?
       projects:
@@ -119,9 +110,6 @@ cards:
           text: "First Iteration Written, But Not Done Yet"
         - type: p
           text: "Daniel and David regularly get together to write docs. This months focus was explaining the Portmaster Update System in detail. How does it work in detail? What assets are updated? What are the different index files? We already came pretty far with this, but are not done yet, so this will sadly have to wait for the next documentation week - scheduled to happen in August."
-        - type: a
-          text: "View All of Safing's Influences and Fundings"
-          href: "https://safing.io/ownership#influences"
   postponed:
     - title: Polish UI Design
       description: From a design perspective, the new User Interface was simply the minimal viable product. Go through each page and element in order to bring it up to speed with the concept design.
@@ -135,9 +123,6 @@ cards:
           text: "Scope of Project No Longer Helpful"
         - type: p
           text: "As we are still adding plenty of features to the Portmaster, the job of \"polishing\" the User Interface would constantly be reset to zero. As new elements join, everything would have to be re-inspected and potentially changed. This is why we are postponing this card for now. After the basic set of features are out, we will re-tackle the User Interface with a more wholesome approach."
-        - type: a
-          text: "View All of Safing's Influences and Fundings"
-          href: "https://safing.io/ownership#influences"
   discarded:
 ---
 
