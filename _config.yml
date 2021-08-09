@@ -87,6 +87,9 @@ emailobfuscated: "=b!isfg>#nbjmup;ifmmpAtbgjoh/jp#?ifmmpAtbgjoh/jp=0b?"
 ###### media/content options ######
 ###################################
 
+last_progress_update_on: "09.08.2021"
+last_finances_update_on: "May 2021"
+
 collections:
   publications:
     output: true
@@ -122,4 +125,3 @@ podcast_summary: "Discontent with the global state of mass surveillance and its 
 ##############################
 
 blog_feed_url: /blog.xml
-
