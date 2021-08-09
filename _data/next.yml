@@ -16,13 +16,6 @@
 
 cards:
   done:
-    - title: Apply for COVID Grant
-      description: Lower Austria currently has an open grant which provides funds to companies who are making positive efforts within the COVID pandemic. With so much of our lives moving online, online privacy is becoming more important than ever. Apply for this grant.
-      team:
-        - Tabitha
-        - Raphael
-      projects:
-        - Back Office
   in_progress:
     - title: Stabilize the Network
       description:
@@ -59,12 +52,13 @@ cards:
       team:
         - David
         - Daniel
-  postponed:
-    - title: Polish UI Design
-      description: From a design perspective, the new User Interface was simply the minimal viable product. Go through each page and element in order to bring it up to speed with the concept design.
+    - title: Write End Reports
+      description: 
+        Conclude the current FFG and Netidee grants by submitting the required end reports.
       team:
-        - Luke
-        - Patrick
+        - Tabitha
+        - Raphael
       projects:
-        - Portmaster
+        - Back Office
+  postponed:
   discarded:
