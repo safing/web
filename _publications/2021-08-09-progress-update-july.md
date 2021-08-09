@@ -34,9 +34,9 @@ cards:
         - SPN
       progress:
         - type: 'h5'
-          text: "Climbed Over Another Unexpected Obstacle"
+          text: "Climbed Over An Unexpected Obstacle"
         - type: p
-          text: "As we were about to complete the improved internal networking stack of the SPN - including the new session management - the tests of the full stack showed another flow control requirement. While this was a setback, the work on this update has been completed and makes the SPN network stack even more stable than before. The new flow control requirement will ensure that an upload via the SPN will not clog the channels and slow down other connections sharing some of the same path through the network. We cannot wait to ship it and have you test it!"
+          text: "As we were about to complete the improved internal networking stack of the SPN - including the new session management - the tests of the full stack showed another flow control requirement. While this was a setback, the work on this update has been completed and makes the SPN network stack even more stable than before. The new flow control requirement will ensure that uploads via the SPN will not clog the channels and slow down other connections sharing some of the same path through the network. We cannot wait to ship it and have you test it!"
       team:
         - Daniel
     - title: "Create \"Get Help\" Page"
@@ -70,7 +70,7 @@ cards:
         - type: 'h5'
           text: "Components Are Built, Review Process Starts"
         - type: p
-          text: "Luke did an amazing job at building these slick tailwind components with which we can completely swap our site HTML. Even as this comes out, which might still take a while, you will not notice a difference: the website(s) will still look exactly the same. But adding new sections and pages will be so much easier, as the HTML will just be slick and easy to work with. Anyway, the next step is reviewing everything, fine-tuning naming of components and classes and then making a plan how to best implement the new system throughout our three different web projects: website, docs and account site."
+          text: "Luke did an amazing job at building these slick tailwind components with which we can completely swap our site HTML. Even as this comes out, which might still take a while, you will not notice a difference: the website(s) will still look exactly the same. But adding new sections and pages will be so much easier, as the HTML will just be elegant and easy to work with. Anyway, the next step is reviewing everything, fine-tuning naming of components and classes and then making a plan how to best implement the new system throughout our three different web projects: website, docs and account site."
       team:
         - Luke
     - title: "Docs: Portmaster Update System"
@@ -97,7 +97,7 @@ cards:
         - type: 'h5'
           text: "End Reports in the Works and Proposals for Further Grants"
         - type: p
-          text: "There are two end reports that need to be submitted within the next month, for the FFG and Netidee. It does not end there however - we already are neck-deep in writing proposals for two more grants. As always, you can check our influences to find out more about our finances."
+          text: "There are two end reports that need to be submitted within the next month, for the FFG and Netidee. However, it does not end there - we already are neck-deep in writing proposals for two more grants. As always, you can check our influences to find out more about our finances."
         - type: a
           text: "View All of Safing's Influences and Fundings"
           href: "https://safing.io/ownership#influences"
