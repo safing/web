@@ -16,6 +16,13 @@
 
 cards:
   done:
+    - title: "Create \"Get Help\" Page"
+      description: "Design and implement a \"Get Help\" section within the Portmaster so users can easily get help with issues or even smoothly report issues directly within the app."
+      team:
+        - Luke
+        - Patrick
+      projects:
+        - Portmaster
   in_progress:
     - title: Stabilize the Network
       description:
@@ -26,25 +33,19 @@ cards:
         - SPN
       team:
         - Daniel
-    - title: "Create \"Get Help\" Page"
-      description: "Design and implement a \"Get Help\" section within the Portmaster so users can easily get help with issues or even smoothly report issues directly within the app."
+    - title: Remix the Network Monitor
+      description: People report confusion around the network monitor. The dots feel like buttons but actually are not clickable. Rethink this section to make it more user friendly.
+      projects:
+        - Portmaster
       team:
         - Luke
         - Patrick
-      projects:
-        - Portmaster
     - title: Cryptocurrency Payments
       description: Enable you to pay for the SPN with cryptocurrencies such as Bitcoin, Ethereum and Monero
       projects:
         - Website
       team:
         - Alex
-    - title: "Tailwind Components"
-      description: "A lot of duplication happens in the HTML of our different web projects. Extract the most common components into CSS component classes, such as `btn-primary`, to remove duplication and unify the HTML."
-      projects:
-        - Website
-      team:
-        - Luke
     - title: "Docs: Portmaster Update System"
       description: Describe how the Portmaster updates itself in more detail. What is the purpose of each resource? What insights do we gain through this and how do we protect your privacy in the process?
       projects:
@@ -61,4 +62,10 @@ cards:
       projects:
         - Back Office
   postponed:
+    - title: "Tailwind Components"
+      description: "A lot of duplication happens in the HTML of our different web projects. Extract the most common components into CSS component classes, such as `btn-primary`, to remove duplication and unify the HTML."
+      projects:
+        - Website
+      team:
+        - Luke
   discarded:
