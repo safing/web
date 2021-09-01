@@ -69,9 +69,9 @@ cards:
         - Patrick
       progress:
         - type: 'h5'
-          text: "Concept Is Done: Introducing \"Pills\""
+          text: "Concept Is Done - Implementation Starts"
         - type: p
-          text: "Luke gave this section some really hard thought: What was the expectation a user had when viewing all the different apps? What information do we actually want in this overview? After several different approaches he finally landed at the design with the so called \"connection pills\". Seems strange? Well for now you will have to wait until you see it - but then it will definitely just click. Stay tuned!"
+          text: "Luke gave this section some really hard thought: What was the expectation a user had when viewing all the different apps? What information do we actually want in this overview? After several different approaches he finally landed at a design he is confident with. For now you will have to wait until you see it - but having seen how much better it feels, it will definitely be worth the wait. Stay tuned!"
     - title: Cryptocurrency Payments
       description: Enable you to pay for the SPN with cryptocurrencies such as Bitcoin, Ethereum and Monero
       projects:
@@ -82,7 +82,7 @@ cards:
         - type: p
           text: "David and Alex started with the review last month. The bookkeeping requirements are fulfilled and now we are in the process of fine-tuning the code and its tests."
         - type: p
-          text: "The end of this monster task seems near - but one can never be 100% sure with such an essential feature. Payments are just too crucial. Anyway, we will keep you posted as always - we cannot wait until people can finally with cryptos!"
+          text: "The end of this monster task seems near - but one can never be 100% sure with such an essential feature. Payments are just too crucial. Anyway, we will keep you posted as always - we cannot wait until people can finally pay with cryptos!"
       team:
         - Alex
     - title: "Docs: Portmaster Update System"
@@ -107,12 +107,9 @@ cards:
         - Back Office
       progress:
         - type: 'h5'
-          text: "End Reports in the Works and Proposals for Further Grants"
+          text: "Wrapping Up End Reports and New Proposals for Further Grants"
         - type: p
-          text: "There are two end reports that need to be submitted within the next month, for the FFG and Netidee. However, it does not end there - we already are neck-deep in writing proposals for two more grants. As always, you can check our influences to find out more about our finances."
-        - type: a
-          text: "View All of Safing's Influences and Fundings"
-          href: "https://safing.io/ownership#influences"
+          text: "August saw plenty of progress in the back office. Both the end reports for the FFG and Netidee are nearing completion, which will likely unlock the final payments. Additionally, applications for further grants have also progressed far, needing only a few final touches before being on their way."
   postponed:
     - title: "Tailwind Components"
       description: "A lot of duplication happens in the HTML of our different web projects. Extract the most common components into CSS component classes, such as `btn-primary`, to remove duplication and unify the HTML."
