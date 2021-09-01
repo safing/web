@@ -39,12 +39,6 @@ cards:
         - Website
       team:
         - Alex
-    - title: "Tailwind Components"
-      description: "A lot of duplication happens in the HTML of our different web projects. Extract the most common components into CSS component classes, such as `btn-primary`, to remove duplication and unify the HTML."
-      projects:
-        - Website
-      team:
-        - Luke
     - title: "Docs: Portmaster Update System"
       description: Describe how the Portmaster updates itself in more detail. What is the purpose of each resource? What insights do we gain through this and how do we protect your privacy in the process?
       projects:
@@ -61,4 +55,10 @@ cards:
       projects:
         - Back Office
   postponed:
+    - title: "Tailwind Components"
+      description: "A lot of duplication happens in the HTML of our different web projects. Extract the most common components into CSS component classes, such as `btn-primary`, to remove duplication and unify the HTML."
+      projects:
+        - Website
+      team:
+        - Luke
   discarded:
