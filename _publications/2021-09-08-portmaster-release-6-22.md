@@ -5,6 +5,7 @@ layout:   blog
 title: "Portmaster 0.6.22 Available Now"
 date: 2021-09-08
 author: david
+custom_thumbnail_name: portmaster-0.6.22-available-now
 portmaster_plug: true
 ---
 
