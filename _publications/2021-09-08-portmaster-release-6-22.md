@@ -36,6 +36,6 @@ Maybe you are experiencing issues others have had problems with too. While typin
 
 ![when reporting a bug, the portmaster searches through public issues locally and displays related issues](/assets/img/blog/local-search.png)
 
-Portmaster can do this because it downloads all public issues from our update server when it also updates the malware/trackers/etc filter lists. This way Portmaster never pings GitHub servers while still being able to show related issues locally, which you then can open to read into the reports and discussions.
+Portmaster receives public GitHub issues from the Safing update server, which acts as a proxy. The update server regularly bundles all public issues and then distributes it to Portmaster clients together with intelligence data, such as the newest malware/trackers/etc filter lists. This way, Portmaster never pings GitHub servers while still being able to show related issues locally, which you then can open to read into the reports and discussions.
 
 For the curious, extended docs on how the update system works is planned - you can always [follow the next page]({{ site.next_page_url }}) to keep up to date with our work.
