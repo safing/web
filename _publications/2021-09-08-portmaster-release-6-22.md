@@ -7,6 +7,7 @@ date: 2021-09-08
 author: david
 custom_thumbnail_name: portmaster-0.6.22-available-now
 portmaster_plug: true
+portmaster_update: true
 ---
 
 ### Exploring Portmaster Just Got Easier
