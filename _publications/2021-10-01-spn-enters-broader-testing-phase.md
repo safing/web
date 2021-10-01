@@ -55,7 +55,7 @@ We are super glad the SPN finally achieved this milestone and are hard at work p
 
 ## SPN "Broader Testing" Goals
 
-As we are heavily iterating and improving the SPN, all goals, issues and next steps will change over the next weeks. [Visit the SPN Status Page in our docs](http://docs.safing.io/spn/broader-testing/status) for an up-to-date version.
+As we are heavily iterating and improving the SPN, all goals, issues and next steps will change over the next weeks. [Visit the SPN Status Page in our docs](https://docs.safing.io/spn/broader-testing/status) for an up-to-date version.
 
 ### Snapshot as of October 1st
 
