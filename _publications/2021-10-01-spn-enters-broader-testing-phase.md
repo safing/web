@@ -53,27 +53,44 @@ Yes. If you pre-ordered the SPN before September 30th, 2021 you can add an email
 
 We are super glad the SPN finally achieved this milestone and are hard at work pushing it forward into "Alpha" and beyond. Thank you for your support, your patience and your trust.
 
-## SPN "Broader Testing" Goals
+## SPN "Broader Testing" Status and Goals
 
 As we are heavily iterating and improving the SPN, all goals, issues and next steps will change over the next weeks. [Visit the SPN Status Page in our docs](https://docs.safing.io/spn/broader-testing/status) for an up-to-date version.
 
-### Snapshot as of October 1st
+### Snapshot as of October 11th
 
-#### 1. Normally Works Well
+#### 0.1 How Can I Activate the SPN "Broader Testing" Phase?
+
+- [read the blog post](https://safing.io/blog/2021/10/01/spn-enters-broader-testing-phase/) to see if you are eligible
+- [log in](https://account.safing.io) to your Safing account to receive your access code
+- in the Portmaster App
+  - switch to the "Beta" [Release Channel](https://docs.safing.io/portmaster/settings#core/releaseChannel)
+    - Restart the Portmaster and Reload the UI
+    - You should now see a yellow "BETA" in the global settings
+  - [Enable](https://docs.safing.io/portmaster/settings#spn/enable) the SPN
+  - enter your [Special Access Code](https://docs.safing.io/portmaster/settings#spn/specialAccessCode)
+  - configure the [Use SPN](https://docs.safing.io/portmaster/settings#spn/useSPN) setting globally and for different apps, depending on your needs
+
+#### 0.2 How Can I Test that the SPN Is Running?
+
+- Go to <https://duckduckgo.com/?q=what+is+my+ip> to see your current IP address before activating the SPN
+- Enable the SPN
+- [Reload DuckDuckGo](https://duckduckgo.com/?q=what+is+my+ip) and check if the IP address has changed
+- Bonus Step: Visit some of the "what is my IP" websites, your IP address should change frequently (based on the destination server location)
+
+#### 1. Normally Works Well - Report if Broken [](https://github.com/safing/spn/issues)
+
 - Portmaster Client successfully connects to the SPN
 - Normal browsing of websites
-
-#### 2. Under Investigation
-
-##### 2.1 Linux Works Better Than Windows
-
-We know that Windows is less stable than Linux. Reasons for this likely come from the Windows Kernel Extension. Investigations have already started and upgrades are scheduled.
-
-##### 2.2 Other
-
 - Big file downloads
 - Video streaming
+- Low Bandwidth: up to 5MBit/s
+
+#### 2. Under Investigation - Please Test and Report [](https://github.com/safing/spn/issues)
+
+- Video Conferencing
 - UDP based applications
+- Medium Bandwidth: targeting 30MBit/s as next step
 
 #### 3. Under Construction
 
