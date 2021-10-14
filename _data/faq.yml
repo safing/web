@@ -1,11 +1,14 @@
 spn:
   - q: Is the SPN out yet?
-    a: "The SPN is currently in a closed pre-alpha with our earliest Kickstarter backers (MARVIN & VISIONARY)."
+    a: "On the 12th of October 2021, the SPN has migrated to the \"Broader Testing\" phase."
     link:
       text: Find out more about the SPN's current goals and status
-      url: https://github.com/safing/spn/wiki/Pre-Alpha-Goals-and-Status/
+      url: https://docs.safing.io/spn/broader-testing/status
   - q: When can I use the SPN?
-    a: "There are two key factors. The most important metric is development: the faster we progress the faster you get access. From our recent experience with the Portmaster, we know it will take weeks or months until it matures enough to progress into the \"alpha\" stage. The second key factor is your place in the waitlist. Everyone who pre-ordered got enqueued and we will gradually let more people into the network. Feel free to pre-order too or wait until we open the network for instant access."
+    a: "Everyone who pre-ordered before September 30th, 2021 can join the \"Broader Testing\" phase free of charge. We are doing our best to push the SPN further so everybody will be able to enjoy their SPN subscription."
+    link:
+      text: "Find out more about the \"Broader Testing\" phase"
+      url: https://safing.io/blog/2021/10/01/spn-enters-broader-testing-phase/
   - q: Is the SPN like Tor?
     a: The SPN is heavily inspired by Tor, but the mission is different. Next to tightly integrating with other privacy modules, the main focus of the SPN is easy protection for your whole computer, not just your browser. Additionally it spreads your connections across the globe instead of routing everything through the same circuit.
     link:
@@ -17,7 +20,7 @@ spn:
       text: Read our blog post to read all about the differences.
       url: /blog/2020/01/22/how-the-spn-compares-to-vpns/
   - q: Are all connections routed through the SPN?
-    a: Yes, when enabled the Portmaster routes all Internet connections through the Safing Privacy Network.
+    a: Yes, when enabled the Portmaster routes all Internet connections through the Safing Privacy Network. You can easily create exceptions for apps or processes if you so desire.
   - q: Does the SPN route all connections individually? So every connection exits on a different node?
     a: Yes. Every connection is routed separately, giving you a vast amount of identities (IP addresses).
     link:
@@ -34,7 +37,7 @@ spn:
   - q: Can I safely log in to sites via the SPN? Like my bank account etc?
     a: Yes. All serious websites use secure https connections, which encrypts the content of your connection (like login credentials) before the Portmaster wraps them in onion encryption. So no ISP architecture or SPN exit node will be able to manipulate that data. It is protected by https all the way to the destination server.
   - q: What platforms will you support?
-    a: Since the SPN is integrated into the Portmaster, for our the pre-alpha stage we will only support Windows and Linux. Mac and Mobile are planned, but are further down the road.
+    a: Since the SPN is integrated into the Portmaster, we support the same platforms as the Portmaster software. Currently these are Windows and Linux. Mac and Mobile are planned, but are further down the road.
   - q: Is there a free trial version for people interested in the SPN?
     a: No. Providing the network costs us money, so we charge accordingly. However, the privacy filter and DNS Resolver, which add a great value to your privacy, are and will remain free to use.
 portmaster:

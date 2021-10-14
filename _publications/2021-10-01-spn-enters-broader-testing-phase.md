@@ -9,15 +9,15 @@ custom_thumbnail_name: spn-enters-broader-testing-phase
 portmaster_plug: true
 ---
 
-## On October 12th, the "Broader Testing" Phase Starts
+## On October 12th, the SPN reached the "Broader Testing"
 
-### What Will It Cost?
+### What Does It Cost?
 
 Reaching the "Broader Testing" phase is an important milestone for the SPN. Exciting weeks and months are ahead of us.
 
 However, not all aspects and features of the SPN have been thoroughly tested, confirmed or implemented. As such, access to the SPN during **the "Broader Testing" phase is free of charge**, no credit will be charged from your accounts.
 
-### Who Will Get Access?
+### Who Gets Access?
 
 Everybody who fulfills **both** these requirements is eligible for the "Broader Testing" phase:
 
