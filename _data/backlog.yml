@@ -125,6 +125,14 @@ cards:
     description: Describe the architecture and technology behind the Portmaster User Interface.
     projects:
       - Website
+    postponed:
+  - title: "Docs: Portmaster Update System"
+    description: Describe how the Portmaster updates itself in more detail. What is the purpose of each resource? How do we protect your privacy in the process?
+    projects:
+      - Website
+    team:
+      - David
+      - Daniel
   - title: Credit Card Payments
     description: Enable you to pay for the SPN with credit cards.
     projects:
