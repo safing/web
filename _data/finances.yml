@@ -5,11 +5,19 @@ source:
       - year: 2021
         items:
           - type: funding
-            amount: "81.800"
+            amount: "32.720"
             status: open
           - type: loan
-            amount: "77.300"
+            amount: "30.920"
             status: open
+      - year: 2021
+        items:
+          - type: funding
+            amount: "49.080"
+            status: completed
+          - type: loan
+            amount: "46.380"
+            status: completed
       - year: 2020
         items:
           - type: funding
@@ -32,12 +40,12 @@ source:
       - year: 2021
         items:
           - type: funding
-            amount: "12.500"
+            amount: "5.000"
             status: open
       - year: 2021
         items:
           - type: funding
-            amount: "12.500"
+            amount: "20.000"
             status: completed
       - year: 2020
         items:
