@@ -1,0 +1,103 @@
+source:
+  ffg:
+    timespan: "2019-2021"
+    # FFG Total:
+    #   - Received Funding:    278.421€
+    #   - Received Loans:      263.025€
+    #   - Funding In Prospect:  32.720€
+    #   - Loans In Prospect:    30.920€
+    years:
+      - year: 2021
+        items:
+          - type: funding
+            amount: "32.720"
+            status: open
+          - type: loan
+            amount: "30.920"
+            status: open
+      - year: 2021
+        items:
+          - type: funding
+            amount: "49.080"
+            status: completed
+          - type: loan
+            amount: "46.380"
+            status: completed
+      - year: 2020
+        items:
+          - type: funding
+            amount: "146.541"
+            status: completed
+          - type: loan
+            amount: "138.445"
+            status: completed
+      - year: 2019
+        items:
+          - type: funding
+            amount: "82.800"
+            status: completed
+          - type: loan
+            amount: "78.200"
+            status: completed
+  # Netidee Total:
+  #   - Received Funding:      117.839€
+  #   - Funding In Prospect:     5.000€
+  netidee:
+    timespan: "2017-2021"
+    years:
+      - year: 2021
+        items:
+          - type: funding
+            amount: "5.000"
+            status: open
+      - year: 2021
+        items:
+          - type: funding
+            amount: "20.000"
+            status: completed
+      - year: 2020
+        items:
+          - type: funding
+            amount: "20.012"
+            status: completed
+      - year: 2019
+        items:
+          - type: funding
+            amount: "30.048"
+            status: completed
+      - year: 2017
+        items:
+          - type: funding
+            amount: "47.779"
+            status: completed
+  # Kickstarter is not counted towards the grants chart
+  # since backers receive(d) SPN access in return
+  kickstarter:
+    timespan: "February 2020"
+    years:
+      - year: 2020
+        items:
+          - type: funding
+            amount: "11.755"
+            status: completed
+  # ESA Total:
+  #   - Received Funding: 40.000€
+  esa:
+    timespan: "2018-2020"
+    years:
+      - year: 2019
+        items:
+          - type: funding
+            amount: "40.000"
+            status: completed
+
+# Total Numbers of Grants/Loans Image
+#
+#             RECEIVED + In Prospect  => Total
+#
+# Grants:     436.260€ + 37.720€    => 473.980€
+# Loans:      263.025€ + 30.920€    => 293.945€
+# Investors:                  0€    =>       0€
+
+# the previous image had a higher count since
+# it also counted the Grants/Loans held out in prospect
