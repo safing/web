@@ -45,7 +45,8 @@ tor_comparison_url: /blog/2020/01/22/how-the-spn-compares-to-tor/
 account_server_url: https://account.safing.io/
 assets_server_url: https://assets.safing.io/
 company_agreement_url: https://www.firmenmonitor.at/Secure/CompanyDetail.aspx?CID=761761
-download_linux_url: https://updates.safing.io/latest/linux_amd64/packages/portmaster-installer.deb
+download_linux_deb_url: https://updates.safing.io/latest/linux_amd64/packages/portmaster-installer.deb
+download_linux_rpm_url: https://updates.safing.io/latest/linux_amd64/packages/portmaster-installer.rpm
 download_windows_url: https://updates.safing.io/latest/windows_amd64/packages/portmaster-installer.exe
 github_url: https://github.com/safing
 docs_install_linux_url: https://docs.safing.io/portmaster/install/linux
