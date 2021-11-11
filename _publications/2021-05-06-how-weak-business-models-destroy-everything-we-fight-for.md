@@ -65,7 +65,7 @@ Venture Capital. "Angel" Investors. Enabling the "next big thing". You get money
 
 Investors care about multiplying their money. They do not care about your product, your users or their privacy. And they certainly do not care about your business model.
 
-I love [Jonas Downey's words](https://world.hey.com/jonas/how-money-dictates-design-decisions-5e866cd9) on the topic:  
+I love [Jonas Downey's words](https://web.archive.org/web/20210506161707/https://world.hey.com/jonas/how-money-dictates-design-decisions-5e866cd9) on the topic:  
 > Any company that "doesn't have a business model yet" actually has a business model — they just haven't said it out loud. They're gambling that they can give away a service for free, grow it to absurd usage numbers, and then turn on the money faucet later, through ads, acquisitions, or some other approach.  
 > It's the same story every time. Facebook did this. Twitter did it. Medium did it. And we all keep falling for it.
 
