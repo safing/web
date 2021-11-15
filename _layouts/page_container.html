@@ -10,10 +10,97 @@ layout: page
           <div class="max-w-screen-xl mx-auto px-2 sm:px-6 lg:px-8">
             <content>
               {% unless page.heading == null %}
-                <h1 class="text-5xl tracking-tight font-extrabold leading-none">
-                  {{ page.heading }}
-                </h1>
+              <h1 class="text-5xl tracking-tight font-extrabold leading-none">
+                {{ page.heading }}
+              </h1>
               {% endunless %}
+
+              <!-- table example -->
+              <div class="table">
+                <table>
+                  <colgroup>
+                    <col>
+                    <col class="highlight">
+                    <col>
+                  </colgroup>
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>Portmaster</th>
+                      <th>Pi-Hole</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Open Source</td>
+                      <td class="link">
+                        <a href="#">
+                          <div>
+                            <img src="{{ site.img_url }}icons/tick.svg">
+                          </div>
+                          <img src="{{ site.img_url }}icons/external-black.svg">
+                        </a>
+                      </td>
+                      <td class="link">
+                        <a href="#">
+                          <div>
+                            <img src="{{ site.img_url }}icons/tick.svg">
+                          </div>
+                          <img src="{{ site.img_url }}icons/external-black.svg">
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Setup</td>
+                      <td><strong>Easy</strong></td>
+                      <td><strong>Advanced</strong></td>
+                    </tr>
+                    <tr>
+                      <td>Protection Type</td>
+                      <td><strong>Device</strong></td>
+                      <td><strong>Network</strong></td>
+                    </tr>
+                    <tr>
+                      <td>Availabilty</td>
+                      <td class="link">
+                        <a href="#">
+                          <div>
+                            <img src="{{ site.img_url }}icons/windows.svg">
+                            <img src="{{ site.img_url }}icons/linux.svg">
+                          </div>
+                          <img src="{{ site.img_url }}icons/external-black.svg">
+                        </a>
+                      </td>
+                      <td class="link">
+                        <a href="#">
+                          <div>
+                            <img src="{{ site.img_url }}icons/linux.svg">
+                            <img src="{{ site.img_url }}icons/docker.svg">
+                          </div>
+                          <img src="{{ site.img_url }}icons/external-black.svg">
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Secure (DNS DoH/DoT)</td>
+                      <td><img src="{{ site.img_url }}icons/tick.svg"></td>
+                      <td><img src="{{ site.img_url }}icons/tick.svg"></td>
+                    </tr>
+                    <tr>
+                      <td>Individual Apps Settings</td>
+                      <td><img src="{{ site.img_url }}icons/tick.svg"></td>
+                      <td><img src="{{ site.img_url }}icons/cross.svg"></td>
+                    </tr>
+                    <tr>
+                      <td>Adaptive Threat Model</td>
+                      <td><img src="{{ site.img_url }}icons/tick.svg"></td>
+                      <td><img src="{{ site.img_url }}icons/cross.svg"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!-- table example -->
+
 
               {{ content }}
             </content>
