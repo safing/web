@@ -11,6 +11,92 @@ portmaster_plug: true
 
 ## On October 12th, the SPN reached the "Broader Testing"
 
+### Overview Chart
+
+<div class="table">
+  <table>
+    <colgroup>
+      <col>
+      <col class="highlight">
+      <col>
+    </colgroup>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Portmaster</th>
+        <th>Pi-hole</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Open Source</td>
+        <td class="link">
+          <a href="{{ site.github_url }}/portmaster" class="exclude-external-icon">
+            <div>
+              <img src="{{ site.img_url }}icons/tick.svg">
+            </div>
+            <img src="{{ site.img_url }}icons/external-black.svg">
+          </a>
+        </td>
+        <td class="link">
+          <a href="https://github.com/pi-hole/pi-hole/" class="exclude-external-icon">
+            <div>
+              <img src="{{ site.img_url }}icons/tick.svg">
+            </div>
+            <img src="{{ site.img_url }}icons/external-black.svg">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>Setup</td>
+        <td><strong>Easy</strong></td>
+        <td><strong>Advanced</strong></td>
+      </tr>
+      <tr>
+        <td>Protection Type</td>
+        <td><strong>Device</strong></td>
+        <td><strong>Network</strong></td>
+      </tr>
+      <tr>
+        <td>Availabilty</td>
+        <td class="link">
+          <a href="{{ site.portmaster_url }}#downloads">
+            <div>
+              <img src="{{ site.img_url }}icons/windows.svg">
+              <img src="{{ site.img_url }}icons/linux.svg">
+            </div>
+            <img src="{{ site.img_url }}icons/external-black.svg">
+          </a>
+        </td>
+        <td class="link">
+          <a href="https://docs.pi-hole.net/main/prerequisites/#supported-operating-systems" class="exclude-external-icon">
+            <div>
+              <img src="{{ site.img_url }}icons/linux.svg">
+              <img src="{{ site.img_url }}icons/docker.svg">
+            </div>
+            <img src="{{ site.img_url }}icons/external-black.svg">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>Secure (DNS DoH/DoT)</td>
+        <td><img src="{{ site.img_url }}icons/tick.svg"></td>
+        <td><img src="{{ site.img_url }}icons/tick.svg"></td>
+      </tr>
+      <tr>
+        <td>Individual Apps Settings</td>
+        <td><img src="{{ site.img_url }}icons/tick.svg"></td>
+        <td><img src="{{ site.img_url }}icons/cross.svg"></td>
+      </tr>
+      <tr>
+        <td>Adaptive Threat Model</td>
+        <td><img src="{{ site.img_url }}icons/tick.svg"></td>
+        <td><img src="{{ site.img_url }}icons/cross.svg"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 ### What Does It Cost?
 
 Reaching the "Broader Testing" phase is an important milestone for the SPN. Exciting weeks and months are ahead of us.
