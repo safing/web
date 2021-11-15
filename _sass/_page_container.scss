@@ -198,8 +198,8 @@
           }
         }
 
-        tr:last-child td {
-          padding-bottom: 2rem;
+        tr:last-child {
+          border-bottom: 0px;
         }
 
         tr td:first-child {
@@ -399,3 +399,4 @@
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
+}
