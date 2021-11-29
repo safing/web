@@ -595,7 +595,7 @@ This sentence was originally added for legal flexibility, intended to cover such
 
 # Amendment 0.6. 29/11/2021
 
-[Removal from Article 5](#article-5-third-party-websites-and-links): The third party service "Stripe" was added after reevaluating the payment service.
+[Revision from Article 5](#article-5-third-party-websites-and-links): The third party service "Stripe" was added after reevaluating the payment service.
 
 ## Article 19. Contact
 
