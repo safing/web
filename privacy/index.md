@@ -242,6 +242,8 @@ software development and the administration of your account.
 
 -   **PayPal:** Payment gateway.
 
+-   **Stripe:** Payment gateway.
+
 -   **Sparkasse Baden: Bank:** Payments, wire transfer.
 
 -   **Mailbox.org:** Email provider.
@@ -545,7 +547,7 @@ in the future.
 
 # Amendment 0.1. 05/08/2020
 
-Due to the Court of Justice of the European Union ruling on data transfers, invalidating the Privacy Shield and GDPR compliance of such a ruling. 
+Due to the Court of Justice of the European Union ruling on data transfers, invalidating the Privacy Shield and GDPR compliance of such a ruling.
 
 it is here by stated that Safing ICS Technologies GmbH, does not hold or transfer any data to any servers held in the United States of America, however, due to the operating nature of the SPN, we cannot and will not be held responsible for any private nodes held within the United States of America that you choose to use.
 
@@ -591,6 +593,10 @@ This sentence was originally added for legal flexibility, intended to cover such
 
 [Removal from Article 5](#article-5-third-party-websites-and-links): The third party service "Stripe" was removed, as integration was aborted a while ago.
 
+# Amendment 0.6. 29/11/2021
+
+[Removal from Article 5](#article-5-third-party-websites-and-links): The third party service "Stripe" was added after reevaluating the payment service.
+
 ## Article 19. Contact
 
 If you have any questions regarding our Privacy Policy and how we handle
@@ -609,5 +615,5 @@ Thank you for taking the time to read our policies on how we operate our
 service and collect, use and protect all of your data.
 
 © Safing ICS Technologies GmbH  
-2020/21 
+2020/21
 All rights reserved.
