@@ -9,6 +9,9 @@ custom_thumbnail_name: spn-enters-broader-testing-phase
 portmaster_plug: true
 ---
 
+> **Note December 2nd 2021:**  
+> This blog post is outdated. [Check out the SPNs latest status.](https://docs.safing.io/spn/alpha/status)
+
 ## On October 12th, the SPN reached the "Broader Testing"
 
 ### What Does It Cost?
@@ -55,7 +58,7 @@ We are super glad the SPN finally achieved this milestone and are hard at work p
 
 ## SPN "Broader Testing" Status and Goals
 
-As we are heavily iterating and improving the SPN, all goals, issues and next steps will change over the next weeks. [Visit the SPN Status Page in our docs](https://docs.safing.io/spn/broader-testing/status) for an up-to-date version.
+As we are heavily iterating and improving the SPN, all goals, issues and next steps will change over the next weeks. [Visit the SPN Status Page in our docs](https://docs.safing.io/spn/alpha/status) for an up-to-date version.
 
 ### Snapshot as of October 11th
 
