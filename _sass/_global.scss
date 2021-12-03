@@ -475,6 +475,10 @@ input:checked {
   }
 }
 
+#blog.content {
+  padding-bottom: 2em;
+}
+
 #portmaster-plug:hover button {
   --transform-scale-x: 1.04;
   --transform-scale-y: 1.04;
