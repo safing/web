@@ -8,11 +8,11 @@ author: david
 custom_thumbnail_name: spn-reaches-alpha
 ---
 
-In October 2020 one of our supporters joked around and said he would gift us a video game if he got access to the SPN before Christmas. I am happy to announce we technically made it.
+In October 2020 one of our supporters joked around and said he would gift us a video game if he got access to the [SPN]({{ site.spn_url }}) before Christmas. I am happy to announce we technically made it.
 
 ### All Customers Now Get SPN Access 🎉
 
-Yes, as of today, all customers get access to the SPN. Whether you pre-ordered the SPN a while ago or are going to purchase it today. You are in!
+Yes, as of today, all customers get access to the [SPN]({{ site.spn_url }}). Whether you pre-ordered the SPN a while ago or are going to purchase it today. You are in!
 
 ### To Celebrate, All Customers Can Use the SPN For Free in December
 
