@@ -7,8 +7,8 @@ spn:
   - q: "What does \"Alpha\" mean for the SPN?"
     a: "It means the SPN is available to everyone. But as the SPN is in an early stage, you should still expect bugs here and there, even as a paying customer. We are working hard on making things better!"
     link:
+      text: "Check out the current status and capabilities of the SPN"
       url: https://docs.safing.io/spn/alpha/status
-      text: "Check out at the current status and capabilities of the SPN"
   - q: Is the SPN like Tor?
     a: The SPN is heavily inspired by Tor, but the mission is different. Next to tightly integrating with other privacy modules, the main focus of the SPN is easy protection for your whole computer, not just your browser. Additionally it spreads your connections across the globe instead of routing everything through the same circuit.
     link:
