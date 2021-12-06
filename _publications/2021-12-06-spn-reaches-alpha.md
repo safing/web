@@ -8,7 +8,7 @@ author: david
 custom_thumbnail_name: spn-reaches-alpha
 ---
 
-In October 2020 one of our supporters joked around and said he would purchase us a video game if he got access to the SPN before Christmas. I am happy to announce we technically made it.
+In October 2020 one of our supporters joked around and said he would gift us a video game if he got access to the SPN before Christmas. I am happy to announce we technically made it.
 
 ### All Customers Now Get SPN Access 🎉
 
@@ -26,7 +26,7 @@ Since the SPN is in "Alpha", we highly recommend you [check out the current stat
 
 #### Switch Your Release Channel to Get the Newest Updates
 
-Both the Portmaster and the SPN receive stable updates every few weeks. But in reality, improvements and fixes are pushed even faster. You can switch your [Release Channel](https://docs.safing.io/portmaster/settings#core/releaseChannel) in the Portmaster settings to get access to all improvements sooner.
+Both the Portmaster and the SPN receive stable updates every few weeks. But in reality, improvements and fixes are pushed even faster. You can switch your [Release Channel](https://docs.safing.io/portmaster/settings#core/releaseChannel) to "Beta" in the Portmaster settings to get access to all improvements sooner.
 
 #### How To Report Bugs
 
