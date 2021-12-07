@@ -30,9 +30,9 @@ layout: page
                       </span>
                       <div class="flex mx-auto justify-center pt-5">
                         {% for handle in member.handles %}
-                          <a href="{{ handle.external_url }}" target="_blank" class="opacity-55 hover:opacity-100 ease-in-out duration-150 mr-4">
-                            <img style="height: 1.1rem; width: auto;" src="{{ site.img_url }}icons/{{ handle.icon }}.svg" />
-                          </a>
+                        <a href="{{ handle.external_url }}" target="_blank" class="opacity-55 hover:opacity-100 ease-in-out duration-150 mr-4">
+                          <img style="height: 1.1rem; width: auto;" src="{{ site.img_url }}icons/{{ handle.icon }}.svg" />
+                        </a>
                         {% endfor %}
                       </div>
                     </div>
@@ -47,6 +47,39 @@ layout: page
                   </div>
                 </li>
 
+                {% endfor %}
+
+                <li class="mb-40 lg:mb-24 bg-black opacity-25" style="height: 2px;"></li>
+
+                {% for external in site.data.team.externals %}
+                <li class="pb-40 lg:pb-24" id="{{ external.name | slugify }}">
+                  <div class="text-center lg:text-left lg:flex items-center">
+                    <div class="pb-8 lg:-mb-10">
+                      <img class="mx-auto" src="{{ site.img_url }}profiles/{{ external.name | slugify }}.png" alt="{{ external.name }}">
+                      <span style="font-size: 12rem; font-weight: 800; margin-top: -9.5rem; margin-left: 6rem; z-index: -1;" class="hidden lg:block absolute transform scale-50 lg:scale-125">
+                        <img src="{{ site.img_url }}shapes/square.png" alt="">
+                      </span>
+                      <span style="font-size: 12rem; font-weight: 800; margin-top: -9.8rem; margin-left: 2.5rem; z-index: -1;" class="lg:hidden absolute transform scale-70 lg:scale-125">
+                        <img src="{{ site.img_url }}shapes/square.png" alt="">
+                      </span>
+                      <div class="flex mx-auto justify-center pt-5">
+                        {% for handle in external.handles %}
+                        <a href="{{ handle.external_url }}" target="_blank" class="opacity-55 hover:opacity-100 ease-in-out duration-150 mr-4">
+                          <img style="height: 1.1rem; width: auto;" src="{{ site.img_url }}icons/{{ handle.icon }}.svg" />
+                        </a>
+                        {% endfor %}
+                      </div>
+                    </div>
+                    <div class="lg:pl-16">
+                      <span style="color: #6188ff;" class="uppercase text-sm">{{ external.title }}</span>
+                      <p class="pt-1 pb-3 font-extrabold text-2xl">{{ external.name }}</p>
+                      <span class="opacity-55">Joined {{ external.joined }}</span>
+                      <p class="pt-3 text-md opacity-55 max-w-2xl">
+                        {{ external.description }}
+                      </p>
+                    </div>
+                  </div>
+                </li>
                 {% endfor %}
               </ul>
             </div>
