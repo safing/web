@@ -21,12 +21,6 @@ cards:
       - Add an additional layer of protection to the update framework by cryptographically signing all resources it distributes.
     projects:
       - Portmaster
-  - title: On-App Account Login
-    description:
-      - Enable you to sign in to your Safing account on the Portmaster client via the finished Safing API. Respond with details regarding your SPN subscription.
-    projects:
-      - Portmaster
-      - SPN
   - title: TLS Inspection
     description:
       - The TLS protocol not only has many problems by itself, but is also often used fatally wrong by software developers.
@@ -128,12 +122,5 @@ cards:
     postponed:
   - title: "Docs: Portmaster Update System"
     description: Describe how the Portmaster updates itself in more detail. What is the purpose of each resource? How do we protect your privacy in the process?
-    projects:
-      - Website
-    team:
-      - David
-      - Daniel
-  - title: Credit Card Payments
-    description: Enable you to pay for the SPN with credit cards.
     projects:
       - Website
