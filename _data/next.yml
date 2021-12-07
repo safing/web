@@ -16,42 +16,51 @@
 
 cards:
   done:
-    - title: Migrate into "Broader Testing"
-      description:
-        - After v0.1, focus on stabilizing the typical issues that arise with early software. Fix bugs, improve performance & stability.
-        - Detect failures in the network and react accordingly.
-        - Deliver to more and more pre-orders as the network matures.
-      projects:
-        - SPN
-      team:
-        - Daniel
-    - title: Remix the Network Monitor
-      description: People report confusion around the network monitor. The dots feel like buttons but actually are not clickable. Rethink this section to make it more user friendly.
-      projects:
-        - Portmaster
-      team:
-        - Luke
-        - Patrick
-    - title: Cryptocurrency Payments (Tech)
-      description: Enable you to pay for the SPN with cryptocurrencies such as Bitcoin, Ethereum and Monero
-      projects:
-        - Website
-      team:
-        - Alex
-    - title: Write End Reports
-      description: 
-        Conclude the current FFG and Netidee grants by submitting the required end reports.
-      team:
-        - Tabitha
-        - Raphael
-      projects:
-        - Back Office
-  in_progress:
-    - title: Implement In-App Account Login
+    - title: Alpha + In-App Account Login
       description:
         - Prepare to get rid of SPN pre-orders by implementing the In-App login into the Portmaster.
       projects:
         - SPN
+        - Portmaster
+      team:
+        - Daniel
+        - Patrick
+    - title: Compatibility Assistant
+      description:
+        - Portmaster users regularly run into different compatibility issues, breaking system integration, DNS or specific apps.
+        - Implement self-checks so the Portmaster can notify users about these issues. Improving their understanding of their state might also help in their issue reporting.
+      projects:
+        - Portmaster
+      team:
+        - Daniel
+    - title: Credit Card Payments
+      description: Enable you to pay for the SPN with credit cards.
+      projects:
+        - Website
+      team:
+        - Alex
+    - title: Cryptocurrency Payments
+      description: 
+        Now that the tech is in place, set up the required back office structures in order to activate this feature.
+      team:
+        - Raphael
+      projects:
+        - Back Office
+    - title: Product Feature Videos
+      description: 
+        Show what the Portmaster / the SPN are all about; in video format. Display them on the website where fitting.
+      team:
+        - David
+        - Tabitha
+      projects:
+        - Marketing
+  in_progress:
+    - title: Bug Hunting
+      description:
+        Hunt down bugs that dug up during our feature development focus weeks. Fix as many as you can.
+      projects:
+        - SPN
+        - Portmaster
       team:
         - Daniel
     - title: Rework Installers & PKGBUILD 
@@ -62,14 +71,6 @@ cards:
         - Portmaster
       team:
         - Patrick
-    - title: Compatibility Assistant
-      description:
-        - Portmaster users regularly run into different compatibility issues, breaking system integration, DNS or specific apps.
-        - Implement self-checks so the Portmaster can notify users about these issues. Improving their understanding of their state might also help in their issue reporting.
-      projects:
-        - Portmaster
-      team:
-        - Daniel
     - title: Simplify Portmaster Settings
       description:
         - Current Portmaster settings are complicated. Especially settings connected to the Network Ratings are hard to grasp for new users. Re-imagine and simplify.
@@ -78,19 +79,26 @@ cards:
       team:
         - Luke
         - Patrick
-    - title: Cryptocurrency Payments
-      description: 
-        Now that the tech is in place, set up the required back office structures in order to activate this feature.
-      team:
-        - Raphael
+    - title: Evaluate Custom Filter Lists
+      description: Research how custom filter lists could be integrated into the Portmaster. After the evaluation decide whether to move this forward or not.
       projects:
-        - Back Office
-  postponed:
-    - title: "Docs: Portmaster Update System"
-      description: Describe how the Portmaster updates itself in more detail. What is the purpose of each resource? How do we protect your privacy in the process?
+        - Portmaster
+      team:
+        - Daniel
+    - title: Comparison Blog Posts
+      description: Write blog posts comparing the Portmaster with different alternatives. What does the Portmaster do better? Where are others better? Be honest.
       projects:
         - Website
       team:
         - David
-        - Daniel
+        - Pranav
+    - title: Internal Tailwind Docs
+      description:
+        - Create our own docs page where Safing styled tailwind elements are displayed.
+        - Make it easy to copy paste HTML when creating new sites or elements.
+      projects:
+        - Website
+      team:
+        - Luke
+  postponed:
   discarded:
