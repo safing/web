@@ -41,7 +41,7 @@ cards:
           text: "This is a big milestone with a lot more to celebrate and talk about:"
         - type: a
           text: "Dive Into the Announcement Blog Post + See the SPN in Action"
-          href: "https://account.safing.io/spn-reaches-alpha"
+          href: "https://safing.io/blog/2021/12/06/spn-reaches-alpha/"
       team:
         - Daniel
         - Patrick
