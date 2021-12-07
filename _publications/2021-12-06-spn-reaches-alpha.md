@@ -20,6 +20,12 @@ This is an exciting moment for all of us. To celebrate and to say thanks, all cu
 
 Of course the free SPN access will not charge for your paid subscription. Only after the free period you will decide when to start your paid subscription.
 
+### Watch the SPN in Action
+
+<p>
+	<video style="box-shadow: 0 0px 90px 0 rgba(59, 93, 199, 0.3), 0 0px 5px 0 rgba(0, 0, 0, 0.05);" class="z-30 rounded-md max-w-full max-h-auto transform scale-70" height="1220" width="1220" playsinline="" preload="auto" src="{{ site.assets_server_url }}spn/feature-tour.mp4" poster="{{ site.assets_server_url }}spn/feature-tour-poster.png" controls></video>
+</p>
+
 ### Check Out the SPN's Current Status
 
 Since the SPN is in "Alpha", we highly recommend you [check out the current status and capabilities of the SPN](https://docs.safing.io/spn/alpha/status).
