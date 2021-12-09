@@ -475,6 +475,10 @@ input:checked {
   }
 }
 
+#blog.content {
+  padding-bottom: 2em;
+}
+
 #portmaster-plug:hover button {
   --transform-scale-x: 1.04;
   --transform-scale-y: 1.04;
@@ -488,7 +492,7 @@ input:checked {
   3. also exclude "localhost", which basically is 2. for local development
   4. exclude social icons on top of content, which is currently grabbed with :not opacity-55, kinda dirty
 */
-#page-container content a[href^="http"]:not([href*="safing.io"]):not([href*="localhost"]):not([class*="opacity-55"]):after {
+#page-container content a[href^="http"]:not([href*="safing.io"]):not([href*="localhost"]):not([class*="opacity-55"]):not([class="exclude-external-icon"]):after {
     background-image     : url("/assets/img/icons/external.svg");
     display              : inline-block;
     height               : 10px;
