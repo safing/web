@@ -3,7 +3,7 @@
 category: blog
 layout:   blog
 title: "What Makes Portmaster A Great Alternative to Pi-hole"
-date: 2021-12-03
+date: 2021-12-09
 author: safing
 custom_thumbnail_name: portmaster-pi-hole
 portmaster_plug: true
