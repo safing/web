@@ -68,6 +68,8 @@ externals:
     title: Freelancer
     joined: August 2021
     handles:
+      - icon: earth
+        external_url: https://brainbits.in
       - icon: twitter
         external_url: https://twitter.com/tweetsbypranav
     description: >
