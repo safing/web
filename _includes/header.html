@@ -1,42 +1,23 @@
-<header class="relative h-full bg-local bg-no-repeat bg-cover bg-center lg:pb-40 md:pt-32">
-  <span class="bottom-0 left-0 absolute hidden lg:block">
+<header class="header-one-container">
+  <div class="header-one-left">
+    <span style="margin-top: -8rem; margin-left: 14rem; z-index: -1;" class="absolute">
+      <img src="{{ site.img_url }}/shapes/circle-md-2.png" alt="">
+    </span>
+    <h1 class="header-one-left-title">
+      <span class="text-safing-blue-500">Fight surveillance</span>
+      because you
+      <span class="text-safing-blue-500">love&nbsp;Freedom</span>.
+    </h1>
+    <p class="header-one-left-desc">
+      Without privacy there is no freedom of press, no freedom of speech,
+      not even freedom of thought.
+    </p>
+    <a class="btn-secondary" href="#">Take back your freedom</a>
+  </div>
+  <div class="header-one-right">
+    <img class="max-w-2xl" src="{{ site.img_url }}freedom.gif" alt="">
+  </div>
+  <span style="z-index: -1;" class="-bottom-12 left-0 absolute hidden xl:block">
     <img src="{{ site.img_url }}/shapes/corner-bl.png" alt="">
   </span>
-  <div class="flex items-center md:h-full">
-    <div class="container mx-auto sm:px-8 sm:px-0">
-      <div class="container mx-auto px-8 pt-16 md:pt-0 sm:px-0 flex">
-        <div class="max-w-screen-xl px-4 sm:px-6 lg:px-0 lg:flex">
-          <div class="inline-block text-center lg:text-left lg:mr-12 lg:mt-20">
-            <span style="margin-top: -8rem; margin-left: 14rem; z-index: -1;" class="absolute">
-              <img src="{{ site.img_url }}/shapes/circle-md-2.png" alt="">
-            </span>
-            <h2 class="py-10 text-5xl tracking-tight font-extrabold text-gray-900 sm:text-5xl leading-none md:text-6xl md:mx-auto">
-              <!-- the &nbsp; is super nice for bigger screens, but breaks stuff on mobile -->
-              <!-- hence, we only have the header with &nbsp; on md+ devices -->
-              <span class="block md:hidden">
-                <span style="color: #6188ff;">Fight surveillance</span> because you <span style="color: #6188ff;">love Freedom</span>.
-              </span>
-              <span class="hidden md:block">
-                <span style="color: #6188ff;">Fight surveillance</span> because you <span style="color: #6188ff;">love&nbsp;Freedom</span>.
-              </span>
-            </h2>
-            <p style="max-width: 440px;" class="text-md opacity-55 max-w-4xl mx-auto lg:mx-0">
-              Without privacy there is no freedom of press, no freedom of speech,
-              not even freedom of thought. 
-            </p>
-            <div class="pb-0 pt-10 md:py-10 lg:flex text-center">
-              <a href="{{ site.portmaster_url }}">
-                <button type="button" class="bg-black mb-5 md:mb-0 transform hover:scale-95 inline-flex items-center px-5 px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-                  Take back your freedom
-                </button>
-              </a>
-            </div>
-          </div>
-          <div>
-            <img class="flex mx-auto md:mt-12 transform md:pr-1 md:left-0 md:right-0 lg:relative md:max-w-sm lg:max-w-md lg:scale-150 lg:ml-16" src="{{ site.img_url }}freedom.gif" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </header>
