@@ -1,0 +1,2515 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Safing Tailwind Docs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../docs/css/highlight.min.css">
+    <link rel="stylesheet" href="../docs/css/style.css">
+    <link rel="stylesheet" href="../safingTailwind-1.2.css">
+    <script src="../docs/js/vendor/jquery.min.js" type="text/javascript"></script>
+    <script src="../docs/js/vendor/jquery-resizable.js"></script>
+    <script src="../docs/js/vendor/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+  </head>
+<body class="antialiased font-sans font-medium">
+  <div class="alert-primary rounded-none text-md">
+    <span>There will be some stuff missing in this, and also some bugs. <strong>v1.2</strong></span>
+  </div>
+  <div class="flex">
+    <nav class="overflow-y-auto pb-10 pt-20  ml-20 w-56">
+      <h5 class="mb-3 lg:mb-3 uppercase tracking-wide font-semibold  text-gray-900">Getting started</h5>
+      <div class="space-y-1">
+            <a  class="block text-safing-gray-500 pt-2" href="#components">Components</a>
+              <a  class="pl-3 block text-safing-gray-500" href="#alart">Alart</a>
+              <a  class="pl-3 block text-safing-gray-500" href="#button">Button</a>
+              <a  class="pl-3 block text-safing-gray-500" href="#card">Card</a>
+              <a  class="pl-3 block text-safing-gray-500" href="#font-icon">Font-Icon</a>
+              <a  class="pl-3 block text-safing-gray-500" href="#input">Input</a>
+              <a  class="pl-3 block text-safing-gray-500" href="#link">Link</a>
+              <a  class="pl-3 block text-safing-gray-500" href="#profile">Profile</a>
+              <a  class="pl-3 block text-safing-gray-500" href="#spacer">Spacer</a>
+              <a  class="pl-3 block text-safing-gray-500" href="#tag">Tag</a>
+              <a  class="pl-3 block text-safing-gray-500" href="#tooltip">Tooltip</a>
+            <a  class="block text-safing-gray-500 pt-2" href="#prebuilt">Prebuilt</a>
+              <a  class="pl-3 block text-safing-gray-500" href="#footer">Footer</a>
+              <a  class="pl-3 block text-safing-gray-500" href="#markdown-container">Markdown-Container</a>
+              <a  class="pl-3 block text-safing-gray-500" href="#navbar">Navbar</a>
+      </div>
+    </nav>
+    <section class="w-full pl-28 space-y-20 pt-20">
+          <div class="space-y-2">
+            <h1 class="block text-black text-xl" id="components">Components</h1>
+            <span class="text-safing-gray-500">This is the compoents section</span>
+          </div><section class="w-full space-y-20" style="max-width: 80rem;">
+              <div class="title space-y-3">
+                <h2 id="alart">Alart</h2>
+                <span class="desc block text-safing-gray-500">This is still a wip</span>
+              </div>
+                
+                  <div class="list space-y-2">
+                    <h1 class="mb-4">Class</h1>
+<span class="block text-safing-gray-500">btn</span>
+<span class="block text-safing-gray-500">btn-secondary</span>
+<span class="block text-safing-gray-500">btn-secondary</span>
+                  </div>
+                
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Default</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Default-Alart">preview</a></li>
+                          <li><a href="#html-Default-Alart">html</a></li>
+                          
+                            <li><a href="#scss-Default-Alart">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Default-Alart" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <div class="alert">
+    <i class="icon-mic text-lg"></i>
+    <span>Enjoy Podcasts? Privacy YouTuber "TheHatedOne" and I got together to discuss this topic in-depth.</span>
+</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Default-Alart">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;div class="alert"&gt;
+    &lt;i class="icon-mic text-lg"&gt;&lt;/i&gt;
+    &lt;span&gt;Enjoy Podcasts? Privacy YouTuber "TheHatedOne" and I got together to discuss this topic in-depth.&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Default-Alart">
+                          <pre><code style="min-height: 200px;" class="language-scss">.alert {
+    @apply bg-gray-500;
+    @apply text-white;
+    @apply text-sm;
+    @apply py-5;
+    @apply px-9;
+    @apply rounded-md;
+    @apply flex;
+    @apply break-words;
+    @apply w-full;
+    @apply space-x-4;
+    @apply items-center;
+    @apply justify-center;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Primary</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Primary-Alart">preview</a></li>
+                          <li><a href="#html-Primary-Alart">html</a></li>
+                          
+                            <li><a href="#scss-Primary-Alart">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Primary-Alart" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <div class="alert-primary">
+    <i class="icon-mic text-lg"></i>
+    <span>Enjoy Podcasts? Privacy YouTuber "TheHatedOne" and I got together to discuss this topic in-depth.</span>
+</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Primary-Alart">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;div class="alert-primary"&gt;
+    &lt;i class="icon-mic text-lg"&gt;&lt;/i&gt;
+    &lt;span&gt;Enjoy Podcasts? Privacy YouTuber "TheHatedOne" and I got together to discuss this topic in-depth.&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Primary-Alart">
+                          <pre><code style="min-height: 200px;" class="language-scss">.alert-primary>.link {
+    @apply text-white;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+            </section><section class="w-full space-y-20" style="max-width: 80rem;">
+              <div class="title space-y-3">
+                <h2 id="button">Button</h2>
+                <span class="desc block text-safing-gray-500">This is still a wip</span>
+              </div>
+                
+                  <div class="list space-y-2">
+                    <h1 class="mb-4">Class</h1>
+<span class="block text-safing-gray-500">btn</span>
+<span class="block text-safing-gray-500">btn-secondary</span>
+<span class="block text-safing-gray-500">btn-secondary</span>
+                  </div>
+                
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Default</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Default-Button">preview</a></li>
+                          <li><a href="#html-Default-Button">html</a></li>
+                          
+                            <li><a href="#scss-Default-Button">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Default-Button" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <button class="btn">Take back your freedom</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Default-Button">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;button class="btn"&gt;Take back your freedom&lt;/button&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Default-Button">
+                          <pre><code style="min-height: 200px;" class="language-scss">.btn {
+    @apply px-10;
+    padding-top   : 0.8rem;
+    padding-bottom: 0.8rem;
+    @apply bg-gray-500;
+    @apply rounded-full;
+    @apply uppercase;
+    @apply font-semibold;
+    @apply text-white;
+    @apply text-center;
+    @apply text-xs;
+    @apply inline-flex;
+    @apply items-center;
+    @apply leading-normal;
+    @apply whitespace-normal;
+    @apply cursor-pointer;
+    /* @apply hover-scale-in; */
+}
+
+.btn[disabled],
+.btn[disabled],
+.btn[disabled],
+.btn[disabled] {
+    @apply bg-safing-gray-100;
+    @apply text-safing-gray-400;
+    @apply cursor-not-allowed;
+}
+
+.btn[disabled] i,
+.btn[disabled] i,
+.btn[disabled] i,
+.btn[disabled] i {
+    @apply text-safing-gray-400;
+}
+
+.btn[disabled]:hover,
+.btn[disabled]:hover,
+.btn[disabled]:hover,
+.btn[disabled]:hover {
+    @apply transform;
+    @apply scale-100;
+}
+
+.btn i,
+.btn i,
+.btn i,
+.btn i {
+    @apply align-baseline;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Primary</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Primary-Button">preview</a></li>
+                          <li><a href="#html-Primary-Button">html</a></li>
+                          
+                            <li><a href="#scss-Primary-Button">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Primary-Button" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <button class="btn-primary">Take back your freedom</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Primary-Button">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;button class="btn-primary"&gt;Take back your freedom&lt;/button&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Primary-Button">
+                          <pre><code style="min-height: 200px;" class="language-scss">.btn-primary {
+    @apply btn;
+    @apply bg-safing-blue-500;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Secondary</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Secondary-Button">preview</a></li>
+                          <li><a href="#html-Secondary-Button">html</a></li>
+                          
+                            <li><a href="#scss-Secondary-Button">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Secondary-Button" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <button class="btn-secondary">Take back your freedom</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Secondary-Button">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;button class="btn-secondary"&gt;Take back your freedom&lt;/button&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Secondary-Button">
+                          <pre><code style="min-height: 200px;" class="language-scss">.btn-secondary {
+    @apply btn;
+    @apply bg-black;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+            </section><section class="w-full space-y-20" style="max-width: 80rem;">
+              <div class="title space-y-3">
+                <h2 id="card">Card</h2>
+                <span class="desc block text-safing-gray-500">This is still a wip</span>
+              </div>
+                
+                  <div class="list space-y-2">
+                    <h1 class="mb-4">Class</h1>
+<span class="block text-safing-gray-500">btn</span>
+<span class="block text-safing-gray-500">btn-secondary</span>
+<span class="block text-safing-gray-500">btn-secondary</span>
+                  </div>
+                
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Default</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Default-Card">preview</a></li>
+                          <li><a href="#html-Default-Card">html</a></li>
+                          
+                            <li><a href="#scss-Default-Card">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Default-Card" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <div class="card">
+    <label class="card-label" for="card-toggle-anchor-2">
+        <div class="wrapper-left">
+            <div class="tag-list">
+                <span class="tag-spn">
+                    SPN
+                </span>
+            </div>
+            <div class="card-title">
+                <i class="icon-tick text-green-500"></i>
+                <h1 class="title">Create RSS Feeds</h1>
+            </div>
+        </div>
+        <div class="wrapper-right">
+            <div class="circular-profile" tooltip="David">
+                <img src="https://safing.io/assets/img/profiles/david.png">
+            </div>
+            <i class="icon-arrow"></i>
+        </div>
+    </label>
+    <input class="card-input-toggle" id="card-toggle-anchor-2" type="checkbox">
+    <div class="card-dropdown-toggle">
+        <div class="card-dropdown-content">
+            <p>The Assignment:</p>
+            <br>
+            <p>Revisit the RSS feeds for the blog, the podcast and maybe even the newsletter. We'll see. Make them work.</p>
+        </div>
+    </div>
+</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Default-Card">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;div class="card"&gt;
+    &lt;label class="card-label" for="card-toggle-anchor-2"&gt;
+        &lt;div class="wrapper-left"&gt;
+            &lt;div class="tag-list"&gt;
+                &lt;span class="tag-spn"&gt;
+                    SPN
+                &lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class="card-title"&gt;
+                &lt;i class="icon-tick text-green-500"&gt;&lt;/i&gt;
+                &lt;h1 class="title"&gt;Create RSS Feeds&lt;/h1&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="wrapper-right"&gt;
+            &lt;div class="circular-profile" tooltip="David"&gt;
+                &lt;img src="https://safing.io/assets/img/profiles/david.png"&gt;
+            &lt;/div&gt;
+            &lt;i class="icon-arrow"&gt;&lt;/i&gt;
+        &lt;/div&gt;
+    &lt;/label&gt;
+    &lt;input class="card-input-toggle" id="card-toggle-anchor-2" type="checkbox"&gt;
+    &lt;div class="card-dropdown-toggle"&gt;
+        &lt;div class="card-dropdown-content"&gt;
+            &lt;p&gt;The Assignment:&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p&gt;Revisit the RSS feeds for the blog, the podcast and maybe even the newsletter. We'll see. Make them work.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Default-Card">
+                          <pre><code style="min-height: 200px;" class="language-scss">.card,
+.card-extended {
+    @apply h-max ;
+    @apply max-w-7xl;
+    @apply block;
+
+    @apply text-white ;
+    @apply rounded-lg;
+
+    @apply bg-white ;
+    @apply card-shadow;
+}
+
+.card-extended .card {
+    border-bottom: solid 1px rgba(0, 0, 0, 0.15);
+    border-top: solid 1px rgba(0, 0, 0, 0.15);
+
+    @apply rounded-none;
+
+    margin-bottom: 2.5rem;
+}
+
+
+.card-extended > .card-label,
+.card > .card-label {
+    @apply z-10;
+    @apply flex;
+
+    @apply pl-8;
+    @apply pr-8;
+
+    @apply pt-8;
+    @apply pb-11;
+    @apply cursor-pointer;
+}
+
+.card-extended .card .card-label { 
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+
+}
+
+.card-extended .wrapper-left,
+.card .wrapper-left {
+    @apply w-full;
+}
+
+.card-extended .tag-list,
+.card .tag-list {
+    @apply flex;
+    @apply items-center;
+    @apply m-0;
+    @apply p-0;
+}
+
+.card-extended .card .card-title {
+    @apply pt-0;
+}
+
+.card-extended .card-title,
+.card .card-title {
+    @apply flex;
+    @apply items-center;
+
+    @apply w-full;
+    @apply pt-6;
+}
+
+.card-extended .card-title [class^='icon'],
+.card-extended .card-title [class*=' icon'],
+.card-extended .card-title [class^='icon-'],
+.card-extended .card-title [class*=' icon-'],
+.card .card-title [class^='icon'],
+.card .card-title [class*=' icon'],
+.card .card-title [class^='icon-'],
+.card .card-title [class*=' icon-'] {
+    @apply text-xl;
+}
+
+.card-extended .card-title .title,
+.card .card-title .title {
+    @apply text-black;
+    @apply pl-3;
+    @apply text-lg;
+}
+
+.card-extended .card .title {
+    @apply pl-0;
+    @apply text-md;
+    @apply opacity-50;
+}
+
+.card-extended .wrapper-right,
+.card .wrapper-right {
+    @apply flex;
+    @apply justify-end;
+    @apply w-max;
+    @apply items-center;
+    @apply space-x-4;
+}
+    
+.card-extended .icon-arrow,
+.card .icon-arrow {
+    @apply text-sm;
+    @apply font-normal;
+    @apply text-black;
+
+    @apply transform;
+    @apply rotate-180;
+}
+
+.card-extended .card .card-dropdown-toggle {
+    @apply pb-0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.card-extended .card-dropdown-toggle,
+.card .card-dropdown-toggle {
+    @apply pb-14;
+    @apply pl-8;
+    @apply pr-8;
+    @apply hidden;
+    @apply cursor-auto;
+}
+
+.card-extended .card-dropdown-content > h1 {
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+
+.card-extended .card-dropdown-content > p {
+    color: #545454;
+    margin-top: 1rem;
+}
+
+.card-extended .card p {
+    margin-top: 0;
+}
+
+.card-extended .card-dropdown-content {
+    @apply text-black ;
+    @apply opacity-100;
+    @apply text-md;
+    @apply pl-0;
+    @apply pb-4;
+}
+
+.card-extended .card .card-dropdown-content {
+    color: #545454;
+    opacity: 1;
+}
+
+.card .card-dropdown-content {
+    @apply text-black ;
+    @apply opacity-50;
+    @apply text-md;
+    @apply pl-0;
+}
+
+.card-input-toggle {
+    @apply hidden;
+}
+
+.card-input-toggle:checked+.card-dropdown-toggle {
+    @apply block;
+}
+
+.card-shadow {
+    @apply relative;
+}
+
+.card-shadow::after {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0), 0 0 90px 0 rgba(59, 93, 199, 0.1);
+    content: '';
+    @apply h-full;
+    @apply left-0;
+    @apply absolute;
+    @apply top-0;
+    @apply w-full;
+    z-index: -1;
+}
+</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Extended</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Extended-Card">preview</a></li>
+                          <li><a href="#html-Extended-Card">html</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Extended-Card" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <div class="card-extended">
+    <label class="card-label" for="card-toggle-anchor-10">
+        <div class="wrapper-left">
+            <div class="tag-list">
+                <span class="tag-spn">
+                    SPN
+                </span>
+            </div>
+            <div class="card-title">
+                <i class="icon-tick text-green-500"></i>
+                <h1 class="title">Create RSS Feeds</h1>
+            </div>
+        </div>
+        <div class="wrapper-right">
+            <div class="circular-profile" tooltip="David">
+                <img src="https://safing.io/assets/img/profiles/david.png">
+            </div>
+            <i class="icon-arrow"></i>
+        </div>
+    </label>
+    <input class="card-input-toggle" id="card-toggle-anchor-10" type="checkbox">
+    <div class="card-dropdown-toggle">
+        <div class="card-dropdown-content">
+            <div class="card">
+                <label class="card-label" for="card-toggle-anchor-10-1">
+                    <div class="wrapper-left">
+                        <div class="card-title">
+                            <h1 class="title">Assignment</h1>
+                        </div>
+                    </div>
+                    <div class="wrapper-right">
+                        <i class="icon-arrow"></i>
+                    </div>
+                </label>
+                <input class="card-input-toggle" id="card-toggle-anchor-10-1" type="checkbox">
+                <div class="card-dropdown-toggle">
+                    <div class="card-dropdown-content">
+                        <p>Revisit the RSS feeds for the blog, the podcast and maybe even the newsletter. We'll see. Make them work. </p>
+                    </div>
+                </div>
+            </div>
+            <h1>Safing Blog RSS Finally Arrived</h1>
+            <p>
+                This has been a request for over a year. And to be honest, the reason
+                we never added this was kinda silly: Since progress update posts
+                (like the one you are reading now) heavily rely on CSS tricks in
+                order to support noJS, a RSS reader cannot properly format the
+                progress update. Instead it displays a rather broken blog post. With
+                no easy solution in sight, the RSS feed just got postponed indefinitely.
+                But after finally revisiting this topic we came up with a simple solution.
+                Just add a disclaimer to progress update posts that they are only viewable
+                in the web-view. Problem solved. Proper communication, and finally a RSS
+                feed everyone can subscribe to.
+            </p>
+        </div>
+    </div>
+</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Extended-Card">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;div class="card-extended"&gt;
+    &lt;label class="card-label" for="card-toggle-anchor-10"&gt;
+        &lt;div class="wrapper-left"&gt;
+            &lt;div class="tag-list"&gt;
+                &lt;span class="tag-spn"&gt;
+                    SPN
+                &lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class="card-title"&gt;
+                &lt;i class="icon-tick text-green-500"&gt;&lt;/i&gt;
+                &lt;h1 class="title"&gt;Create RSS Feeds&lt;/h1&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="wrapper-right"&gt;
+            &lt;div class="circular-profile" tooltip="David"&gt;
+                &lt;img src="https://safing.io/assets/img/profiles/david.png"&gt;
+            &lt;/div&gt;
+            &lt;i class="icon-arrow"&gt;&lt;/i&gt;
+        &lt;/div&gt;
+    &lt;/label&gt;
+    &lt;input class="card-input-toggle" id="card-toggle-anchor-10" type="checkbox"&gt;
+    &lt;div class="card-dropdown-toggle"&gt;
+        &lt;div class="card-dropdown-content"&gt;
+            &lt;div class="card"&gt;
+                &lt;label class="card-label" for="card-toggle-anchor-10-1"&gt;
+                    &lt;div class="wrapper-left"&gt;
+                        &lt;div class="card-title"&gt;
+                            &lt;h1 class="title"&gt;Assignment&lt;/h1&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="wrapper-right"&gt;
+                        &lt;i class="icon-arrow"&gt;&lt;/i&gt;
+                    &lt;/div&gt;
+                &lt;/label&gt;
+                &lt;input class="card-input-toggle" id="card-toggle-anchor-10-1" type="checkbox"&gt;
+                &lt;div class="card-dropdown-toggle"&gt;
+                    &lt;div class="card-dropdown-content"&gt;
+                        &lt;p&gt;Revisit the RSS feeds for the blog, the podcast and maybe even the newsletter. We'll see. Make them work. &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;h1&gt;Safing Blog RSS Finally Arrived&lt;/h1&gt;
+            &lt;p&gt;
+                This has been a request for over a year. And to be honest, the reason
+                we never added this was kinda silly: Since progress update posts
+                (like the one you are reading now) heavily rely on CSS tricks in
+                order to support noJS, a RSS reader cannot properly format the
+                progress update. Instead it displays a rather broken blog post. With
+                no easy solution in sight, the RSS feed just got postponed indefinitely.
+                But after finally revisiting this topic we came up with a simple solution.
+                Just add a disclaimer to progress update posts that they are only viewable
+                in the web-view. Problem solved. Proper communication, and finally a RSS
+                feed everyone can subscribe to.
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                      </li>
+                      
+                    </ul>
+                  </div>
+            </section><section class="w-full space-y-20" style="max-width: 80rem;">
+              <div class="title space-y-3">
+                <h2 id="font-icon">Font-Icon</h2>
+                <span class="desc block text-safing-gray-500">This is still a wip</span>
+              </div>
+                
+                  <div class="list space-y-2">
+                    <h1 class="mb-4">Class</h1>
+<span class="block text-safing-gray-500">btn</span>
+<span class="block text-safing-gray-500">btn-secondary</span>
+<span class="block text-safing-gray-500">btn-secondary</span>
+                  </div>
+                
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Icons</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Icons-Font-Icon">preview</a></li>
+                          <li><a href="#html-Icons-Font-Icon">html</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Icons-Font-Icon" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <div class="grid grid-flow-col grid-flow-col-dense grid-rows-3 gap-4 ">
+    <div class="bg-white p-4 w-max m-auto">
+        <i class="icon-arrow text-lg"></i>
+    </div>
+    <div class="bg-white p-4 w-max m-auto">
+        <i class="icon-cog-ring text-lg"></i>
+    </div>
+    <div class="bg-white p-4 w-max m-auto">
+        <i class="icon-cross text-lg"></i>
+    </div>
+    <div class="bg-white p-4 w-max m-auto">
+        <i class="icon-github text-lg"></i>
+    </div>
+    <div class="bg-white p-4 w-max m-auto">
+        <i class="icon-heart text-lg"></i>
+    </div>
+    <div class="bg-white p-4 w-max m-auto">
+        <i class="icon-info text-lg"></i>
+    </div>
+    <div class="bg-white p-4 w-max m-auto">
+        <i class="icon-linkedin text-lg"></i>
+    </div>
+    <div class="bg-white p-4 w-max m-auto">
+        <i class="icon-mic text-lg"></i>
+    </div>
+    <div class="bg-white p-4 w-max m-auto">
+        <i class="icon-play text-lg"></i>
+    </div>
+    <div class="bg-white p-4 w-max m-auto">
+        <i class="icon-podcast text-lg"></i>
+    </div>
+    <div class="bg-white p-4 w-max m-auto">
+        <i class="icon-reddit text-lg"></i>
+    </div>
+    <div class="bg-white p-4 w-max m-auto">
+        <i class="icon-rss text-lg"></i>
+    </div>
+    <div class="bg-white p-4 w-max m-auto">
+        <i class="icon-shield text-lg"></i>
+    </div>
+    <div class="bg-white p-4 w-max m-auto">
+        <i class="icon-tick text-lg"></i>
+    </div>
+    <div class="bg-white p-4 w-max m-auto">
+        <i class="icon-twitter text-lg"></i>
+    </div>
+    <div class="bg-white p-4 w-max m-auto">
+        <i class="icon-up-arrow text-lg"></i>
+    </div>
+    <div class="bg-white p-4 w-max m-auto">
+        <i class="icon-users text-lg"></i>
+    </div>
+    <div class="bg-white p-4 w-max m-auto">
+        <i class="icon-warning text-lg"></i>
+    </div>
+    
+</div>
+
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Icons-Font-Icon">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;div class="grid grid-flow-col grid-flow-col-dense grid-rows-3 gap-4 "&gt;
+    &lt;div class="bg-white p-4 w-max m-auto"&gt;
+        &lt;i class="icon-arrow text-lg"&gt;&lt;/i&gt;
+    &lt;/div&gt;
+    &lt;div class="bg-white p-4 w-max m-auto"&gt;
+        &lt;i class="icon-cog-ring text-lg"&gt;&lt;/i&gt;
+    &lt;/div&gt;
+    &lt;div class="bg-white p-4 w-max m-auto"&gt;
+        &lt;i class="icon-cross text-lg"&gt;&lt;/i&gt;
+    &lt;/div&gt;
+    &lt;div class="bg-white p-4 w-max m-auto"&gt;
+        &lt;i class="icon-github text-lg"&gt;&lt;/i&gt;
+    &lt;/div&gt;
+    &lt;div class="bg-white p-4 w-max m-auto"&gt;
+        &lt;i class="icon-heart text-lg"&gt;&lt;/i&gt;
+    &lt;/div&gt;
+    &lt;div class="bg-white p-4 w-max m-auto"&gt;
+        &lt;i class="icon-info text-lg"&gt;&lt;/i&gt;
+    &lt;/div&gt;
+    &lt;div class="bg-white p-4 w-max m-auto"&gt;
+        &lt;i class="icon-linkedin text-lg"&gt;&lt;/i&gt;
+    &lt;/div&gt;
+    &lt;div class="bg-white p-4 w-max m-auto"&gt;
+        &lt;i class="icon-mic text-lg"&gt;&lt;/i&gt;
+    &lt;/div&gt;
+    &lt;div class="bg-white p-4 w-max m-auto"&gt;
+        &lt;i class="icon-play text-lg"&gt;&lt;/i&gt;
+    &lt;/div&gt;
+    &lt;div class="bg-white p-4 w-max m-auto"&gt;
+        &lt;i class="icon-podcast text-lg"&gt;&lt;/i&gt;
+    &lt;/div&gt;
+    &lt;div class="bg-white p-4 w-max m-auto"&gt;
+        &lt;i class="icon-reddit text-lg"&gt;&lt;/i&gt;
+    &lt;/div&gt;
+    &lt;div class="bg-white p-4 w-max m-auto"&gt;
+        &lt;i class="icon-rss text-lg"&gt;&lt;/i&gt;
+    &lt;/div&gt;
+    &lt;div class="bg-white p-4 w-max m-auto"&gt;
+        &lt;i class="icon-shield text-lg"&gt;&lt;/i&gt;
+    &lt;/div&gt;
+    &lt;div class="bg-white p-4 w-max m-auto"&gt;
+        &lt;i class="icon-tick text-lg"&gt;&lt;/i&gt;
+    &lt;/div&gt;
+    &lt;div class="bg-white p-4 w-max m-auto"&gt;
+        &lt;i class="icon-twitter text-lg"&gt;&lt;/i&gt;
+    &lt;/div&gt;
+    &lt;div class="bg-white p-4 w-max m-auto"&gt;
+        &lt;i class="icon-up-arrow text-lg"&gt;&lt;/i&gt;
+    &lt;/div&gt;
+    &lt;div class="bg-white p-4 w-max m-auto"&gt;
+        &lt;i class="icon-users text-lg"&gt;&lt;/i&gt;
+    &lt;/div&gt;
+    &lt;div class="bg-white p-4 w-max m-auto"&gt;
+        &lt;i class="icon-warning text-lg"&gt;&lt;/i&gt;
+    &lt;/div&gt;
+    
+&lt;/div&gt;
+</code></pre>
+                      </li>
+                      
+                    </ul>
+                  </div>
+            </section><section class="w-full space-y-20" style="max-width: 80rem;">
+              <div class="title space-y-3">
+                <h2 id="input">Input</h2>
+                <span class="desc block text-safing-gray-500">This is still a wip</span>
+              </div>
+                
+                  <div class="list space-y-2">
+                    <h1 class="mb-4">Class</h1>
+<span class="block text-safing-gray-500">btn</span>
+<span class="block text-safing-gray-500">btn-secondary</span>
+<span class="block text-safing-gray-500">btn-secondary</span>
+                  </div>
+                
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Default</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Default-Input">preview</a></li>
+                          <li><a href="#html-Default-Input">html</a></li>
+                          
+                            <li><a href="#scss-Default-Input">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Default-Input" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <input class="input-rounded w-full" type="email" name="email" required="" placeholder="email">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Default-Input">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;input class="input-rounded w-full" type="email" name="email" required="" placeholder="email"&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Default-Input">
+                          <pre><code style="min-height: 200px;" class="language-scss">.input {
+  @apply bg-gray-200;
+
+  @apply appearance-none;
+  @apply text-black;
+  @apply focus:outline-none;
+  @apply placeholder-red-600;
+}
+
+.input-rounded {
+  @apply bg-gray-400;
+  @apply rounded-full;
+  
+  @apply placeholder-gray-200;
+
+  @apply text-white;
+
+  @apply px-6;
+  @apply py-2; 
+}
+
+.input-rounded-primary{
+  @apply input-rounded;
+  
+  @apply bg-safing-gray-800;
+  
+  @apply placeholder-gray-400;
+
+  @apply text-white;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Primary</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Primary-Input">preview</a></li>
+                          <li><a href="#html-Primary-Input">html</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Primary-Input" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <input class="input-rounded-primary w-full" type="email" name="email" required="" placeholder="email">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Primary-Input">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;input class="input-rounded-primary w-full" type="email" name="email" required="" placeholder="email"&gt;</code></pre>
+                      </li>
+                      
+                    </ul>
+                  </div>
+            </section><section class="w-full space-y-20" style="max-width: 80rem;">
+              <div class="title space-y-3">
+                <h2 id="link">Link</h2>
+                <span class="desc block text-safing-gray-500">This is still a wip</span>
+              </div>
+                
+                  <div class="list space-y-2">
+                    <h1 class="mb-4">Class</h1>
+<span class="block text-safing-gray-500">btn</span>
+<span class="block text-safing-gray-500">btn-secondary</span>
+<span class="block text-safing-gray-500">btn-secondary</span>
+                  </div>
+                
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Default</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Default-Link">preview</a></li>
+                          <li><a href="#html-Default-Link">html</a></li>
+                          
+                            <li><a href="#scss-Default-Link">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Default-Link" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <a class="link">Take back your freedom</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Default-Link">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;a class="link"&gt;Take back your freedom&lt;/a&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Default-Link">
+                          <pre><code style="min-height: 200px;" class="language-scss">.link {
+    @apply text-gray-500;
+    @apply text-left;
+    @apply font-medium;
+    white-space    : break-spaces;
+    /* @apply hover: opacity-60; */
+    @apply transition;
+    @apply duration-100;
+    @apply ease-in-out;
+}
+
+.link i {
+    /* tailwind "sub" not supported */
+    vertical-align: sub;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Primary-External</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Primary-External-Link">preview</a></li>
+                          <li><a href="#html-Primary-External-Link">html</a></li>
+                          
+                            <li><a href="#scss-Primary-External-Link">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Primary-External-Link" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <a class="link-primary-external">Take back your freedom</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Primary-External-Link">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;a class="link-primary-external"&gt;Take back your freedom&lt;/a&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Primary-External-Link">
+                          <pre><code style="min-height: 200px;" class="language-scss">.link-primary-external {
+    @apply link-primary;
+}
+
+.link-primary-external::after {
+    @apply icon;
+    @apply inline-block;
+    @apply font-bold;
+
+    content: '\e903';
+    @apply text-base;
+    transform: rotate(30deg) translateY(2px) translateX(1px) scale(0.75);
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Primary</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Primary-Link">preview</a></li>
+                          <li><a href="#html-Primary-Link">html</a></li>
+                          
+                            <li><a href="#scss-Primary-Link">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Primary-Link" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <a class="link-primary">Take back your freedom</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Primary-Link">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;a class="link-primary"&gt;Take back your freedom&lt;/a&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Primary-Link">
+                          <pre><code style="min-height: 200px;" class="language-scss">.link-primary {
+    @apply link;
+    @apply text-safing-blue-500;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Secondary</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Secondary-Link">preview</a></li>
+                          <li><a href="#html-Secondary-Link">html</a></li>
+                          
+                            <li><a href="#scss-Secondary-Link">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Secondary-Link" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <a class="link-secondary">Take back your freedom</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Secondary-Link">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;a class="link-secondary"&gt;Take back your freedom&lt;/a&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Secondary-Link">
+                          <pre><code style="min-height: 200px;" class="language-scss">.link-secondary {
+    @apply link;
+    @apply text-black;
+    /* @apply hover: opacity-60; */
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+            </section><section class="w-full space-y-20" style="max-width: 80rem;">
+              <div class="title space-y-3">
+                <h2 id="profile">Profile</h2>
+                <span class="desc block text-safing-gray-500">This is still a wip</span>
+              </div>
+                
+                  <div class="list space-y-2">
+                    <h1 class="mb-4">Class</h1>
+<span class="block text-safing-gray-500">btn</span>
+<span class="block text-safing-gray-500">btn-secondary</span>
+<span class="block text-safing-gray-500">btn-secondary</span>
+                  </div>
+                
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Default</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Default-Profile">preview</a></li>
+                          <li><a href="#html-Default-Profile">html</a></li>
+                          
+                            <li><a href="#scss-Default-Profile">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Default-Profile" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <div class="circular-profile" tooltip="David">
+    <img src="https://safing.io/assets/img/profiles/david.png">
+</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Default-Profile">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;div class="circular-profile" tooltip="David"&gt;
+    &lt;img src="https://safing.io/assets/img/profiles/david.png"&gt;
+&lt;/div&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Default-Profile">
+                          <pre><code style="min-height: 200px;" class="language-scss">.circular-profile {
+    @apply flex-shrink-0;
+    @apply -mt-1;
+    @apply w-max;
+  }
+
+.circular-profile img {
+    @apply inline-block;
+    @apply h-6;
+    @apply w-6;
+    @apply rounded-full;
+    @apply text-white;
+    @apply border-2;
+    @apply border-white;
+
+}
+
+.circular-profile:hover img {
+    @apply transform;
+    @apply hover:scale-110;
+    @apply transition;
+    @apply duration-150;
+    @apply ease-in-out;
+    @apply shadow-2xl;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+            </section><section class="w-full space-y-20" style="max-width: 80rem;">
+              <div class="title space-y-3">
+                <h2 id="spacer">Spacer</h2>
+                <span class="desc block text-safing-gray-500">This is still a wip</span>
+              </div>
+                
+                  <div class="list space-y-2">
+                    <h1 class="mb-4">Class</h1>
+<span class="block text-safing-gray-500">btn</span>
+<span class="block text-safing-gray-500">btn-secondary</span>
+<span class="block text-safing-gray-500">btn-secondary</span>
+                  </div>
+                
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Horizontal</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Horizontal-Spacer">preview</a></li>
+                          <li><a href="#html-Horizontal-Spacer">html</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Horizontal-Spacer" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <div class="horizontal-line"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Horizontal-Spacer">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;div class="horizontal-line"&gt;&lt;/div&gt;</code></pre>
+                      </li>
+                      
+                    </ul>
+                  </div>
+            </section><section class="w-full space-y-20" style="max-width: 80rem;">
+              <div class="title space-y-3">
+                <h2 id="tag">Tag</h2>
+                <span class="desc block text-safing-gray-500">This is still a wip</span>
+              </div>
+                
+                  <div class="list space-y-2">
+                    <h1 class="mb-4">Class</h1>
+<span class="block text-safing-gray-500">btn</span>
+<span class="block text-safing-gray-500">btn-secondary</span>
+<span class="block text-safing-gray-500">btn-secondary</span>
+                  </div>
+                
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Default</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Default-Tag">preview</a></li>
+                          <li><a href="#html-Default-Tag">html</a></li>
+                          
+                            <li><a href="#scss-Default-Tag">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Default-Tag" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <span class="tag">
+    SPN
+</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Default-Tag">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;span class="tag"&gt;
+    SPN
+&lt;/span&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Default-Tag">
+                          <pre><code style="min-height: 200px;" class="language-scss">.tag {
+    @apply inline-flex;
+    @apply items-center;
+    @apply px-3;
+    @apply py-1;
+    @apply rounded-full;
+    @apply text-sm;
+    @apply font-medium;
+    @apply leading-5;
+    @apply mr-2;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Spn</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Spn-Tag">preview</a></li>
+                          <li><a href="#html-Spn-Tag">html</a></li>
+                          
+                            <li><a href="#scss-Spn-Tag">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Spn-Tag" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <span class="tag-spn">
+    SPN
+</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Spn-Tag">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;span class="tag-spn"&gt;
+    SPN
+&lt;/span&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Spn-Tag">
+                          <pre><code style="min-height: 200px;" class="language-scss">.tag-spn {
+    @apply tag;
+    @apply bg-green-100;
+    @apply text-green-800;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Website</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Website-Tag">preview</a></li>
+                          <li><a href="#html-Website-Tag">html</a></li>
+                          
+                            <li><a href="#scss-Website-Tag">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Website-Tag" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <span class="tag-website">
+    Website
+</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Website-Tag">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;span class="tag-website"&gt;
+    Website
+&lt;/span&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Website-Tag">
+                          <pre><code style="min-height: 200px;" class="language-scss">.tag-website {
+    @apply tag;
+    @apply bg-orange-100;
+    @apply text-orange-800;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+            </section><section class="w-full space-y-20" style="max-width: 80rem;">
+              <div class="title space-y-3">
+                <h2 id="tooltip">Tooltip</h2>
+                <span class="desc block text-safing-gray-500">This is still a wip</span>
+              </div>
+                
+                  <div class="list space-y-2">
+                    <h1 class="mb-4">Class</h1>
+<span class="block text-safing-gray-500">btn</span>
+<span class="block text-safing-gray-500">btn-secondary</span>
+<span class="block text-safing-gray-500">btn-secondary</span>
+                  </div>
+                
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Default</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Default-Tooltip">preview</a></li>
+                          <li><a href="#html-Default-Tooltip">html</a></li>
+                          
+                            <li><a href="#scss-Default-Tooltip">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Default-Tooltip" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <div tooltip="Cool Tooltip!" class="bg-white">
+    hover over me!
+</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Default-Tooltip">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;div tooltip="Cool Tooltip!" class="bg-white"&gt;
+    hover over me!
+&lt;/div&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Default-Tooltip">
+                          <pre><code style="min-height: 200px;" class="language-scss">[tooltip] {
+    @apply relative;
+}
+
+[tooltip]::before,
+[tooltip]::after {
+    @apply hidden;
+    @apply text-sm;
+    @apply left-1/2;
+    @apply opacity-0;
+    @apply pointer-events-none;
+    @apply absolute;
+    @apply normal-case;
+    transform: translate(-50%, -0.5em);
+    @apply select-none;
+}
+
+[tooltip]::before {
+    border: 5px solid transparent;
+    @apply border-b-0;
+    border-top-color: #333;
+    @apply bottom-full;
+    content: '';
+    z-index: 1001;
+}
+
+[tooltip]::after {
+    background: #333;
+    border-radius: 100px;
+    bottom: calc(100% + 5px);
+    box-shadow: 0 1em 2em -0.5em rgba(0, 0, 0, 0.35);
+    @apply text-white;
+    content: attr(tooltip);
+    font-family: Helvetica, sans-serif;
+    max-width: 21em;
+    min-width: 3em;
+    overflow: hidden;
+    padding: 1ch 2ch;
+    @apply text-center;
+    @apply overflow-ellipsis;
+    @apply whitespace-nowrap;
+    z-index: 1000;
+}
+
+[tooltip='']::before,
+[tooltip='']::after {
+    @apply hidden !important;
+}
+
+[tooltip]:hover::before,
+[tooltip]:hover::after {
+    animation: tooltips-vert 300ms ease-out forwards;
+    @apply block;
+}
+
+@keyframes tooltips-vert {
+    to {
+        opacity: 0.9;
+        transform: translate(-50%, 0);
+    }
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+            </section>
+          <div class="space-y-2">
+            <h1 class="block text-black text-xl" id="prebuilt">Prebuilt</h1>
+            <span class="text-safing-gray-500">This is the compoents section</span>
+          </div><section class="w-full space-y-20" style="max-width: 80rem;">
+              <div class="title space-y-3">
+                <h2 id="footer">Footer</h2>
+                <span class="desc block text-safing-gray-500">This is still a wip</span>
+              </div>
+                
+                  <div class="list space-y-2">
+                    
+                  </div>
+                
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Default</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Default-Footer">preview</a></li>
+                          <li><a href="#html-Default-Footer">html</a></li>
+                          
+                            <li><a href="#scss-Default-Footer">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Default-Footer" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <footer class="footer">
+    <div class="footer-form-wrapper">
+        <span class="footer-form-title">Stay Connected via Newsletter</span>
+        <form class="footer-form">
+            <div class="footer-form-subscribe">
+                <input class="input-rounded-primary w-full" type="email" name="email" required="" placeholder="email">
+                <input class="btn-primary" type="submit" value="Subscribe">
+            </div>
+            <div class="footer-form-legal">
+                <input type="checkbox" id="consent_text" name="consent_text" value="yes" required="">
+                <div>
+                    <label class="consent opacity-55 text-safing-gray-500" for="consent_text">
+                        I agree that Safing &amp;
+                        <a class="link-primary-external" href="https://rapidmail.de" target="_blank">rapidmail.de</a>
+                        may process and use the email for newsletter purposes.
+                    </label>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="footer-wrapper">
+        <div class="footer-category">
+            <div class="footer-category-title">
+                <span>Company</span>
+            </div>
+            <div class="footer-links">
+                <div class="footer-links-left">
+                    <a href="#" class="footer-link"> About Us </a>
+                    <a href="#" class="footer-link"> Business Model </a>
+                    <a href="#" class="footer-link"> Ownership </a>
+                    <a href="#" class="footer-link"> We're Hireing </a>
+                    <a href="#" class="footer-link"> Get Help </a>
+                </div>
+            </div>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="footer-category">
+            <div class="footer-category-title">
+                <span>Community</span>
+            </div>
+            <div class="footer-links">
+                <div class="footer-links-left">
+                    <a href="#" class="footer-link"> What's Next? </a>
+                    <a href="#" class="footer-link"> Blog </a>
+                    <a href="#" class="footer-link"> Podcast </a>
+                    <a href="#" class="footer-link"> Videos </a>
+                </div>
+                <div class="footer-links-right">
+                    <a href="#" class="footer-link"> Code of Conduct </a>
+                    <a href="#" class="footer-link"> Github </a>
+                    <a href="#" class="footer-link"> Reddit </a>
+                    <a href="#" class="footer-link"> Twitter </a>
+                </div>
+            </div>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="footer-category">
+            <div class="footer-category-title">
+                <span>Portmaster</span>
+            </div>
+            <div class="footer-links">
+                <div class="footer-links-left">
+                    <a href="#" class="footer-link"> Discover </a>
+                    <a href="#" class="footer-link"> Documentation </a>
+                    <a href="#" class="footer-link"> Source Code </a>
+                    <a href="#" class="footer-link"> Backlog </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-category">
+            <div class="footer-category-title">
+                <span>SPN</span>
+                <div class="horizontal-line"></div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-links-left">
+                    <a href="#" class="footer-link"> Discover </a>
+                    <a href="#" class="footer-link"> Whitepaper </a>
+                    <a href="#" class="footer-link"> Source Code </a>
+                    <a href="#" class="footer-link"> Backlog </a>
+                </div>
+                <div class="footer-links-right">
+                    <a href="#" class="footer-link"> vs Tor </a>
+                    <a href="#" class="footer-link"> vs VPNs </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-legal">
+        <div class="footer-legal-wrapper">
+            <span class="footer-legal-copyright">
+                © 2021 Safing ICS Technologies GmbH
+            </span>
+            <div class="footer-legal-links">
+                <a href="#" class="footer-legal-link"> Terms of Service </a>
+                <a href="#" class="footer-legal-link"> Privacy Policy </a>
+                <a href="#" class="footer-legal-link"> Contact &amp; Notice </a>
+            </div>
+        </div>
+        <span class="footer-legal-extra">
+            Companies mentioned are by way of example and are an opinion only, not based on fact.
+        </span>
+    </div>
+</footer>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Default-Footer">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;footer class="footer"&gt;
+    &lt;div class="footer-form-wrapper"&gt;
+        &lt;span class="footer-form-title"&gt;Stay Connected via Newsletter&lt;/span&gt;
+        &lt;form class="footer-form"&gt;
+            &lt;div class="footer-form-subscribe"&gt;
+                &lt;input class="input-rounded-primary w-full" type="email" name="email" required="" placeholder="email"&gt;
+                &lt;input class="btn-primary" type="submit" value="Subscribe"&gt;
+            &lt;/div&gt;
+            &lt;div class="footer-form-legal"&gt;
+                &lt;input type="checkbox" id="consent_text" name="consent_text" value="yes" required=""&gt;
+                &lt;div&gt;
+                    &lt;label class="consent opacity-55 text-safing-gray-500" for="consent_text"&gt;
+                        I agree that Safing &amp;
+                        &lt;a class="link-primary-external" href="https://rapidmail.de" target="_blank"&gt;rapidmail.de&lt;/a&gt;
+                        may process and use the email for newsletter purposes.
+                    &lt;/label&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/form&gt;
+    &lt;/div&gt;
+    &lt;div class="footer-wrapper"&gt;
+        &lt;div class="footer-category"&gt;
+            &lt;div class="footer-category-title"&gt;
+                &lt;span&gt;Company&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class="footer-links"&gt;
+                &lt;div class="footer-links-left"&gt;
+                    &lt;a href="#" class="footer-link"&gt; About Us &lt;/a&gt;
+                    &lt;a href="#" class="footer-link"&gt; Business Model &lt;/a&gt;
+                    &lt;a href="#" class="footer-link"&gt; Ownership &lt;/a&gt;
+                    &lt;a href="#" class="footer-link"&gt; We're Hireing &lt;/a&gt;
+                    &lt;a href="#" class="footer-link"&gt; Get Help &lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="vertical-line"&gt;&lt;/div&gt;
+        &lt;div class="footer-category"&gt;
+            &lt;div class="footer-category-title"&gt;
+                &lt;span&gt;Community&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class="footer-links"&gt;
+                &lt;div class="footer-links-left"&gt;
+                    &lt;a href="#" class="footer-link"&gt; What's Next? &lt;/a&gt;
+                    &lt;a href="#" class="footer-link"&gt; Blog &lt;/a&gt;
+                    &lt;a href="#" class="footer-link"&gt; Podcast &lt;/a&gt;
+                    &lt;a href="#" class="footer-link"&gt; Videos &lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div class="footer-links-right"&gt;
+                    &lt;a href="#" class="footer-link"&gt; Code of Conduct &lt;/a&gt;
+                    &lt;a href="#" class="footer-link"&gt; Github &lt;/a&gt;
+                    &lt;a href="#" class="footer-link"&gt; Reddit &lt;/a&gt;
+                    &lt;a href="#" class="footer-link"&gt; Twitter &lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="vertical-line"&gt;&lt;/div&gt;
+        &lt;div class="footer-category"&gt;
+            &lt;div class="footer-category-title"&gt;
+                &lt;span&gt;Portmaster&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class="footer-links"&gt;
+                &lt;div class="footer-links-left"&gt;
+                    &lt;a href="#" class="footer-link"&gt; Discover &lt;/a&gt;
+                    &lt;a href="#" class="footer-link"&gt; Documentation &lt;/a&gt;
+                    &lt;a href="#" class="footer-link"&gt; Source Code &lt;/a&gt;
+                    &lt;a href="#" class="footer-link"&gt; Backlog &lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="footer-category"&gt;
+            &lt;div class="footer-category-title"&gt;
+                &lt;span&gt;SPN&lt;/span&gt;
+                &lt;div class="horizontal-line"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="footer-links"&gt;
+                &lt;div class="footer-links-left"&gt;
+                    &lt;a href="#" class="footer-link"&gt; Discover &lt;/a&gt;
+                    &lt;a href="#" class="footer-link"&gt; Whitepaper &lt;/a&gt;
+                    &lt;a href="#" class="footer-link"&gt; Source Code &lt;/a&gt;
+                    &lt;a href="#" class="footer-link"&gt; Backlog &lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div class="footer-links-right"&gt;
+                    &lt;a href="#" class="footer-link"&gt; vs Tor &lt;/a&gt;
+                    &lt;a href="#" class="footer-link"&gt; vs VPNs &lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="footer-legal"&gt;
+        &lt;div class="footer-legal-wrapper"&gt;
+            &lt;span class="footer-legal-copyright"&gt;
+                © 2021 Safing ICS Technologies GmbH
+            &lt;/span&gt;
+            &lt;div class="footer-legal-links"&gt;
+                &lt;a href="#" class="footer-legal-link"&gt; Terms of Service &lt;/a&gt;
+                &lt;a href="#" class="footer-legal-link"&gt; Privacy Policy &lt;/a&gt;
+                &lt;a href="#" class="footer-legal-link"&gt; Contact &amp; Notice &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;span class="footer-legal-extra"&gt;
+            Companies mentioned are by way of example and are an opinion only, not based on fact.
+        &lt;/span&gt;
+    &lt;/div&gt;
+&lt;/footer&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Default-Footer">
+                          <pre><code style="min-height: 200px;" class="language-scss">.footer {
+    @apply bg-black;
+    @apply p-8;
+}
+
+.footer-wrapper {
+    @apply grid;
+    @apply mx-auto;
+    @apply grid-rows-4;
+    @apply grid-cols-1;
+    @apply grid-flow-col-dense;
+    @apply grid-flow-row-dense;
+    @apply justify-center;
+    @apply max-w-screen-sm;
+    @apply gap-y-14;
+
+    @apply sm:grid-rows-2;
+    @apply sm:grid-cols-2;
+
+    @apply md:justify-around;
+
+    @apply lg:grid-cols-6-md;
+    @apply lg:grid-rows-none;
+    @apply lg:max-w-screen-xl;
+    @apply lg:gap-y-0;
+}
+
+.footer-wrapper .footer-links-right,
+.footer-wrapper .footer-links-left {
+    @apply space-y-4;
+    @apply space-x-0;
+}
+
+.footer .footer-link {
+    @apply block;
+    @apply text-white;
+    @apply text-base;
+    @apply hover-opacity-out;
+    @apply w-max;
+
+    @apply lg:text-md;
+}
+
+.footer .footer-links {
+   @apply flex;
+   @apply space-x-12;
+}
+
+.footer .footer-category-title {
+    @apply flex;
+    @apply items-center;
+    @apply mb-2;
+}
+
+.footer .footer-category-title span {
+    @apply block;
+    @apply text-white;
+    @apply text-xl;
+    @apply mb-6;
+    @apply pr-10;
+}
+
+.footer .horizontal-line {
+    @apply border-t-2;
+    @apply border-white;
+    @apply w-full;
+    opacity: 0.25;
+    height: 20px;
+}
+
+.footer .vertical-line {
+    @apply hidden;
+    @apply border-r-2;
+    @apply border-white;
+    opacity: 0.25;
+    height: 200px;
+    width: 2px;
+
+    @apply lg:block;
+}
+
+.footer .footer-legal {
+    @apply text-sm;
+    @apply mt-16;
+    @apply mb-4;
+}
+
+.footer .footer-legal-wrapper {
+    @apply w-full;
+
+    @apply sm:w-max;
+    @apply sm:mx-auto;
+
+    @apply lg:flex;
+}
+
+.footer .footer-legal-copyright {
+    @apply block;
+    @apply leading-6;
+    @apply text-white;
+    @apply opacity-30;
+    @apply mb-4;
+    @apply w-full;
+
+    @apply sm:w-max;
+    @apply sm:mx-auto;
+
+    @apply lg:mb-0;
+    @apply lg:mx-0;
+    @apply lg:text-center;
+}
+
+.footer .footer-legal-links {
+   @apply block;
+   @apply space-y-2;
+   @apply space-x-0;
+   @apply w-full;
+
+   @apply sm:flex;
+   @apply sm:space-y-0;
+   @apply sm:space-x-12;
+   @apply sm:w-max;
+   @apply sm:mx-auto;
+
+   @apply lg:mr-0;
+   @apply lg:ml-12;
+}
+
+.footer .footer-legal-link {
+    @apply block;
+    @apply text-white;
+    @apply text-base;
+    @apply hover-opacity-out;
+    @apply w-max;
+
+    @apply lg:text-sm;
+}
+
+.footer .footer-legal-extra {
+    @apply block;
+    @apply leading-6;
+    @apply text-white;
+    @apply opacity-30;
+    @apply mt-5;
+    @apply w-full;
+
+    @apply sm:w-max;
+    @apply sm:mx-auto;
+    
+    @apply md:text-center;
+}
+
+.footer .footer-form-wrapper {
+    @apply mt-3;
+    @apply mb-8;
+    @apply mx-auto;
+    @apply self-center;
+    @apply max-w-2xl;
+    @apply text-center;
+    @apply space-y-2;
+
+    @apply md:p-12;
+
+    @apply lg:space-y-0;
+    @apply lg:text-left;
+}
+
+.footer .footer-form-title {
+    @apply block;
+    @apply text-white;
+    @apply text-xl;
+    @apply font-bold;
+    @apply w-full;
+    @apply mx-auto;
+
+    @apply sm:w-max;
+
+    @apply lg:mx-0;
+}
+
+.footer .footer-form-subscribe {
+    @apply block;
+    @apply lg:flex;
+    @apply items-center;
+    @apply py-5;
+    @apply space-x-3;
+    @apply space-y-4;
+
+    @apply w-full;
+
+    @apply sm:mx-auto;
+
+    @apply lg:space-y-0;
+    @apply lg:mx-0;
+}
+
+.footer .footer-form-legal {
+    @apply block;
+    @apply space-x-2;
+    @apply max-w-md;
+    @apply mx-auto;
+    @apply space-y-3;
+    @apply space-x-0;
+    @apply select-none;
+
+    @apply lg:space-y-0;
+    @apply lg:space-x-3;
+    @apply lg:flex;
+    @apply lg:mx-0;
+    @apply lg:max-w-xl;
+}
+
+.footer .footer-form-legal .link-primary-external {
+    @apply table-cell;
+    padding-left: 3px;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+            </section><section class="w-full space-y-20" style="max-width: 80rem;">
+              <div class="title space-y-3">
+                <h2 id="markdown-container">Markdown-Container</h2>
+                <span class="desc block text-safing-gray-500">This is still a wip</span>
+              </div>
+                
+                  <div class="list space-y-2">
+                    
+                  </div>
+                
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Default</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Default-Markdown-Container">preview</a></li>
+                          <li><a href="#html-Default-Markdown-Container">html</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Default-Markdown-Container" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <div class="mardown-container">
+    <!-- Markdown Example  -->
+    
+    <blockquote>
+        <p>blockquote</p>
+    </blockquote>
+
+    <h1>h1</h1>
+    <h2>h2</h2>
+    <h3>h3</h3>
+    <h4>h4</h4>
+
+    <p><em>em</em></p>
+
+    <p><strong>strong</strong></p>
+
+    <p><code>code</code></p>
+    
+    <p>But who pays for all of this? That is such a critical question to ask in order to understand where a company stands and where it is heading.</p>
+
+    <p><a href="https://world.hey.com/jonas/how-money-dictates-design-decisions-5e866cd9">External Link</a></p>
+    
+    <p><a href="/ownership/#influences">Internal Link</a></p>
+
+    <p><img src="https://safing.io//assets/img/blog/breaking_chain.png" alt="image displays a chain with many strong links (no meta-data, security, usability) but still breaking at its weak link (business-model))"></p>
+
+    
+    <!-- Markdown Example -->
+</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Default-Markdown-Container">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;div class="mardown-container"&gt;
+    &lt;!-- Markdown Example  --&gt;
+    
+    &lt;blockquote&gt;
+        &lt;p&gt;blockquote&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;h1&gt;h1&lt;/h1&gt;
+    &lt;h2&gt;h2&lt;/h2&gt;
+    &lt;h3&gt;h3&lt;/h3&gt;
+    &lt;h4&gt;h4&lt;/h4&gt;
+
+    &lt;p&gt;&lt;em&gt;em&lt;/em&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;code&gt;code&lt;/code&gt;&lt;/p&gt;
+    
+    &lt;p&gt;But who pays for all of this? That is such a critical question to ask in order to understand where a company stands and where it is heading.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href="https://world.hey.com/jonas/how-money-dictates-design-decisions-5e866cd9"&gt;External Link&lt;/a&gt;&lt;/p&gt;
+    
+    &lt;p&gt;&lt;a href="/ownership/#influences"&gt;Internal Link&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src="https://safing.io//assets/img/blog/breaking_chain.png" alt="image displays a chain with many strong links (no meta-data, security, usability) but still breaking at its weak link (business-model))"&gt;&lt;/p&gt;
+
+    
+    &lt;!-- Markdown Example --&gt;
+&lt;/div&gt;</code></pre>
+                      </li>
+                      
+                    </ul>
+                  </div>
+            </section><section class="w-full space-y-20" style="max-width: 80rem;">
+              <div class="title space-y-3">
+                <h2 id="navbar">Navbar</h2>
+                <span class="desc block text-safing-gray-500">This is still a wip</span>
+              </div>
+                
+                  <div class="list space-y-2">
+                    
+                  </div>
+                
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Default</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Default-Navbar">preview</a></li>
+                          <li><a href="#html-Default-Navbar">html</a></li>
+                          
+                            <li><a href="#scss-Default-Navbar">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Default-Navbar" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <nav class="nav">
+    <div class="nav-left">
+        <a href="" class="nav-logo-wrapper">
+            <!-- turn this into a font icon -->
+            <svg class="h-6 w-auto mr-4" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 128 128">
+                <g data-name="Main" fill-rule="evenodd">
+                    <path fill="#fff" d="M176.11 36.73l-5-8.61a41.53 41.53 0 00-14.73 57.22l8.55-5.12a31.58 31.58 0 0111.19-43.49z" transform="translate(-127.99 .01)" style="isolation:isolate" opacity=".8"></path>
+                    <path fill="#fff" d="M222.36 72.63a31.55 31.55 0 01-45 19.35l-4.62 8.84a41.54 41.54 0 0059.17-25.46z" transform="translate(-127.99 .01)" style="isolation:isolate" opacity=".8"></path>
+                    <path fill="#fff" d="M197 83a19.66 19.66 0 01-19.25-32.57l-4.5-4.27A25.87 25.87 0 00198.59 89z" transform="translate(-127.99 .01)" style="isolation:isolate" opacity=".6"></path>
+                    <path fill="#fff" d="M192 112.64A48.64 48.64 0 11240.64 64 48.64 48.64 0 01192 112.64zM256 64a64 64 0 10-64 64 64 64 0 0064-64z" transform="translate(-127.99 .1)"></path>
+                </g>
+            </svg>
+            <span>Safing<span>.io</span></span>
+        </a>
+    </div>
+    <label class="nav-right-burger" for="nav-toggle-visable">
+        <!-- turn this into a font icon -->
+        <svg class="h-6 w-6 fill-current text-white" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <path class="inline-flex" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            <path class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+    </label>
+    <input class="nav-toggle-burger" id="nav-toggle-visable" type="checkbox">
+    <div class="nav-right">
+        <div class="nav-right-links">
+            <a href="" class="nav-link"> Portmaster </a>
+            <a href="" class="nav-link"> Docs </a>
+            <a href="" class="nav-link"> Source Code </a>
+            <a href="" class="nav-link"> About </a>
+            <a href="" class="nav-link"> What's Next </a>
+            <a href="" class="nav-link"> Get Help </a>
+        </div>
+        <div class="nav-right-actions">
+            <a href="" class="nav-link"> Sign In </a>
+            <a href="" class="btn-primary"> Sign Up </a>
+        </div>
+    </div>
+</nav>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Default-Navbar">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;nav class="nav"&gt;
+    &lt;div class="nav-left"&gt;
+        &lt;a href="" class="nav-logo-wrapper"&gt;
+            &lt;!-- turn this into a font icon --&gt;
+            &lt;svg class="h-6 w-auto mr-4" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 128 128"&gt;
+                &lt;g data-name="Main" fill-rule="evenodd"&gt;
+                    &lt;path fill="#fff" d="M176.11 36.73l-5-8.61a41.53 41.53 0 00-14.73 57.22l8.55-5.12a31.58 31.58 0 0111.19-43.49z" transform="translate(-127.99 .01)" style="isolation:isolate" opacity=".8"&gt;&lt;/path&gt;
+                    &lt;path fill="#fff" d="M222.36 72.63a31.55 31.55 0 01-45 19.35l-4.62 8.84a41.54 41.54 0 0059.17-25.46z" transform="translate(-127.99 .01)" style="isolation:isolate" opacity=".8"&gt;&lt;/path&gt;
+                    &lt;path fill="#fff" d="M197 83a19.66 19.66 0 01-19.25-32.57l-4.5-4.27A25.87 25.87 0 00198.59 89z" transform="translate(-127.99 .01)" style="isolation:isolate" opacity=".6"&gt;&lt;/path&gt;
+                    &lt;path fill="#fff" d="M192 112.64A48.64 48.64 0 11240.64 64 48.64 48.64 0 01192 112.64zM256 64a64 64 0 10-64 64 64 64 0 0064-64z" transform="translate(-127.99 .1)"&gt;&lt;/path&gt;
+                &lt;/g&gt;
+            &lt;/svg&gt;
+            &lt;span&gt;Safing&lt;span&gt;.io&lt;/span&gt;&lt;/span&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;label class="nav-right-burger" for="nav-toggle-visable"&gt;
+        &lt;!-- turn this into a font icon --&gt;
+        &lt;svg class="h-6 w-6 fill-current text-white" stroke="currentColor" fill="none" viewBox="0 0 24 24"&gt;
+            &lt;path class="inline-flex" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"&gt;&lt;/path&gt;
+            &lt;path class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"&gt;&lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/label&gt;
+    &lt;input class="nav-toggle-burger" id="nav-toggle-visable" type="checkbox"&gt;
+    &lt;div class="nav-right"&gt;
+        &lt;div class="nav-right-links"&gt;
+            &lt;a href="" class="nav-link"&gt; Portmaster &lt;/a&gt;
+            &lt;a href="" class="nav-link"&gt; Docs &lt;/a&gt;
+            &lt;a href="" class="nav-link"&gt; Source Code &lt;/a&gt;
+            &lt;a href="" class="nav-link"&gt; About &lt;/a&gt;
+            &lt;a href="" class="nav-link"&gt; What's Next &lt;/a&gt;
+            &lt;a href="" class="nav-link"&gt; Get Help &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav-right-actions"&gt;
+            &lt;a href="" class="nav-link"&gt; Sign In &lt;/a&gt;
+            &lt;a href="" class="btn-primary"&gt; Sign Up &lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/nav&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Default-Navbar">
+                          <pre><code style="min-height: 200px;" class="language-scss">.nav {
+    @apply bg-black;
+    @apply flex;
+    @apply p-6;
+
+    @apply lg:pr-12;
+    @apply lg:pl-12;
+}
+
+.nav > .nav-left {
+    @apply flex;
+    @apply flex-auto;
+    @apply justify-start;
+    @apply w-1/5;
+}
+
+.nav-left > .nav-logo-wrapper {
+    @apply flex;
+    @apply items-center;
+    @apply hover-opacity-in;
+}
+
+.nav-logo-wrapper > span {
+    @apply text-white;
+}
+
+.nav-logo-wrapper > span > span {
+    @apply opacity-50;
+}
+
+.nav > .nav-right-burger {
+    @apply z-20;
+    @apply block;
+
+    @apply lg:hidden;
+}
+
+.nav-right-burger:hover {
+    @apply cursor-pointer;
+}
+
+.nav > .nav-toggle-burger {
+    @apply hidden;
+}
+
+.nav-toggle-burger:checked+.nav-right {
+    @apply grid;
+}
+
+@media (min-width: 1024px) {
+.nav-toggle-burger:checked+.nav-right {
+    @apply flex;
+}
+}
+
+.nav > .nav-right {
+    @apply hidden;
+    @apply bg-black;
+    @apply absolute;
+    @apply content-center;
+    @apply inset-0;
+    @apply h-full;
+    @apply p-10;
+    @apply z-10;
+    @apply w-full;
+
+    @apply lg:flex;
+    @apply lg:flex-auto;
+    @apply lg:relative;
+    @apply lg:justify-end;
+    @apply lg:p-0;
+    @apply lg:h-auto;
+}
+
+.nav-right > .nav-right-links {
+    @apply space-x-0;
+    @apply space-y-11;
+    @apply items-baseline;
+    @apply justify-center;
+    @apply text-center;
+
+    @apply lg:flex;
+    @apply lg:space-y-0;
+    @apply lg:space-x-7;
+    @apply lg:items-center;
+}
+
+.nav .nav-link {
+    @apply block;
+    @apply text-white;
+    @apply font-bold;
+    @apply text-base;
+
+    @apply lg:text-sm;
+}
+
+.nav-right-links > .nav-link {
+    @apply hover-opacity-in;
+}
+
+.nav-right-actions > .nav-link {
+    @apply hover-opacity-out;
+}
+
+.nav-right > .nav-right-actions {
+    @apply space-y-11;
+    @apply items-baseline;
+    @apply ml-0;
+    @apply mt-11;
+    @apply text-center;
+
+    @apply md:items-center;
+
+    @apply lg:mt-0;
+    @apply lg:ml-11;
+    @apply lg:flex;
+    @apply lg:space-y-0;
+    @apply lg:space-x-5;
+}
+
+.nav-right-actions > .btn-primary {
+    @apply w-full;
+    @apply py-3;
+
+    @apply lg:w-auto;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+            </section>
+    </section>
+  </div>
+  <footer class="my-60"></footer>
+</body>
+
+<script src="../docs/js/internal/iframeRefresher.js" type="text/javascript"></script>
+<script src="../docs/js/internal/preview.js" type="text/javascript"></script>
+<script src="../docs/js/internal/tabs.js" type="text/javascript"></script>
