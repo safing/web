@@ -1,185 +1,104 @@
-<footer class="bg-black p-8" id="footer">
-  <div class="pt-12 pb-12 md:p-12 mx-auto self-center max-w-3xl text-center lg:text-left" id="newsletter">
-    <span class="text-white text-xl font-bold">Stay Connected via Newsletter</span>
-    <form action="https://t80607841.emailsys1a.net/184/1387/c70759e794/subscribe/form.html" method="post">
-      <div class="block lg:flex items-center py-5">
-        <input style="background-color: #302e37;" type="email" name="email" class="appearance-none rounded-full w-full max-w-md px-6 py-2 text-white focus:outline-none" required placeholder="email">
-        <div class="pt-5 lg:pt-0 lg:pl-5 ">
-          <input type="submit" value="Subscribe" style="background-color: #6188ff;" class="cursor-pointer transform hover:scale-95 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase" />
-        </div>
-      </div>
-      <div class="mx-auto lg:mx-0 max-w-lg lg:max-w-md lg:flex">
-        <input type="checkbox" id="consent_text" name="consent_text" value="yes" required />
-        <div class="ml-3">
-          <label class="consent opacity-55 text-white" for='consent_text'>
-            I agree that Safing &amp;
-            <a class="text-blue-500 hover:text-blue-200 transition ease-in-out duration-150" title="GDPR compliant, located in Germany" href="https://rapidmail.de" target="_blank">
-              rapidmail.de
-            </a>
-            may process and use the email for newsletter purposes.
-          </label>
-        </div>
-      </div>
-    </form>
+<footer class="footer">
+  <div class="footer-form-wrapper">
+      <span class="footer-form-title">Stay Connected via Newsletter</span>
+      <form class="footer-form" action="https://t80607841.emailsys1a.net/184/1387/c70759e794/subscribe/form.html" method="post">
+          <div class="footer-form-subscribe">
+              <input class="input-rounded-primary w-full" type="email" name="email" required placeholder="email">
+              <input class="btn-primary" type="submit" value="Subscribe">
+          </div>
+          <div class="footer-form-legal">
+              <input type="checkbox" id="consent_text" name="consent_text" value="yes" required="">
+              <div>
+                  <label class="consent opacity-55 text-safing-gray-500" for="consent_text">
+                      I agree that Safing &
+                      <a class="link-primary-external" href="https://rapidmail.de" target="_blank">rapidmail.de</a>
+                      may process and use the email for newsletter purposes.
+                  </label>
+              </div>
+          </div>
+      </form>
   </div>
-  <div class="grid mx-auto grid-rows-4 grid-cols-1 sm:grid-rows-2 sm:grid-cols-2 row-gap-16 lg:row-gap-0 lg:grid-cols-none lg:grid-rows-none grid-flow-col-dense  grid-flow-row-dense justify-center md:justify-around max-w-screen-sm lg:max-w-screen-xl pt-10">
-    <div class="flex" style="width: max-content;">
-      <div>
-        <p class="text-white text-xl mb-6">Company</p>
-        <ul class="list-reset">
-          <li class="block mr-0">
-            <a href="{{ site.about_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">About Us</a>
-          </li>
-          <li class="mt-3 block mr-0">
-            <a href="{{ site.business_model_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Business Model</a>
-          </li>
-          <li class="mt-3 block mr-0">
-            <a href="{{ site.ownership_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Ownership</a>
-          </li>
-          <li class="mt-3 block mr-0 relative">
-            <a href="{{ site.jobs_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">
-              We're Hiring
-            </a>
-            <span class="absolute -mr-2 rounded-full" style="width: 0.35rem; height: 0.35rem; background: #6188ff; left: -11px; top: 9px;">
-            </span>
-          </li>
-          <li class="mt-3 block mr-0">
-            <a href="{{ site.help_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Get Help</a>
-          </li>
-        </ul>
+  <div class="footer-wrapper">
+      <div class="footer-category">
+          <div class="footer-category-title">
+              <span>Company</span>
+          </div>
+          <div class="footer-links">
+              <div class="footer-links-left">
+                  <a href="{{ site.about_url }}" class="footer-link"> About Us </a>
+                  <a href="{{ site.business_model_url }}" class="footer-link"> Business Model </a>
+                  <a href="{{ site.ownership_url }}" class="footer-link"> Ownership </a>
+                  <a href="{{ site.jobs_url }}" class="footer-link"> We're Hireing </a>
+                  <a href="{{ site.help_url }}" class="footer-link"> Get Help </a>
+              </div>
+          </div>
       </div>
-    </div>
-    <div class="hidden lg:block ml-8 mr-8 border-r-2 border-white w-0 h-full" style="opacity: .1;"></div>
-    <div class="flex relative">
-      <div>
-        <p class="text-white text-xl mb-6">Community</p>
-        <div class="flex" style="width: max-content;">
-          <ul class="list-reset">
-            <li class="block mr-0">
-              <a href="{{ site.next_page_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out"> What's Next?</a>
-            </li>
-            <li class="mt-3 flex items-center mr-0">
-              <a href="{{ site.blog_url }}"
-                class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Blog</a>
-              <a href="{{ site.blog_feed_url }}" style="transform: scale(0.8); margin-top: 2px; margin-left: 3px;"
-                class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">
-                <img style="height: 1.3rem; width: auto;" src="{{ site.img_url }}icons/rss-white.svg">
-              </a>
-            </li>
-            <li class="mt-3 flex items-center mr-0">
-              <a href="{{ site.podcast_url }}"
-                class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Podcast</a>
-              <a href="{{ site.podcast_feed_url }}" style="transform: scale(0.8); margin-top: 2px; margin-left: 3px;"
-                class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">
-                <img style="height: 1.3rem; width: auto;" src="{{ site.img_url }}icons/rss-white.svg">
-              </a>
-            </li>
-            <li class="mt-3 block mr-0">
-              <a href="{{ site.video_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Videos</a>
-            </li>
-          </ul>
-          <ul class="list-reset pl-12">
-            <li class="block mr-0">
-              <a href="{{ site.docs_code_of_conduct_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Code of Conduct</a>
-            </li>
-            <li class="mt-3 block mr-0">
-              <a href="{{ site.github_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">GitHub</a>
-            </li>
-            <li class="mt-3 block mr-0">
-              <a href="{{ site.reddit_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Reddit</a>
-            </li>
-            <li class="mt-3 block mr-0">
-              <a href="{{ site.twitter_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Twitter</a>
-            </li>
-          </ul>
-        </div>
+      <div class="vertical-line"></div>
+      <div class="footer-category">
+          <div class="footer-category-title">
+              <span>Community</span>
+          </div>
+          <div class="footer-links">
+              <div class="footer-links-left">
+                  <a href="{{ site.next_page_url }}" class="footer-link"> What's Next? </a>
+                  <a href="{{ site.blog_url }}" class="footer-link"> Blog </a>
+                  <a href="{{ site.podcast_url }}" class="footer-link"> Podcast </a>
+                  <a href="{{ site.video_url }}" class="footer-link"> Videos </a>
+              </div>
+              <div class="footer-links-right">
+                  <a href="{{ site.docs_code_of_conduct_url }}" class="footer-link"> Code of Conduct </a>
+                  <a href="{{ site.github_url }}" class="footer-link"> Github </a>
+                  <a href="{{ site.reddit_url }}" class="footer-link"> Reddit </a>
+                  <a href="{{ site.twitter_url }}" class="footer-link"> Twitter </a>
+              </div>
+          </div>
       </div>
-    </div>
-    <div class="hidden lg:block ml-8 mr-8 border-r-2 border-white w-0 h-full" style="opacity: .1;"></div>
-    <div class="flex-1">
-      <div class="flex items-center">
-        <p class="text-white text-xl mb-6 pr-10">Portmaster</p>
-        <div class="border-t-2 border-white w-full" style="opacity: .1; height: 20px;"></div>
+      <div class="vertical-line"></div>
+      <div class="footer-category">
+          <div class="footer-category-title">
+              <span>Portmaster</span>
+          </div>
+          <div class="footer-links">
+              <div class="footer-links-left">
+                  <a href="{{ site.portmaster_url }}" class="footer-link"> Discover </a>
+                  <a href="{{ site.docs_url }}portmaster/architecture/overview" class="footer-link"> Documentation </a>
+                  <a href="{{ site.github_url }}/portmaster/" class="footer-link"> Source Code </a>
+                  <a href="{{ site.backlog_url }}#portmaster" class="footer-link"> Backlog </a>
+              </div>
+          </div>
       </div>
-      <div class="flex">
-        <ul class="list-reset mb-6">
-          <li class="block mr-0">
-            <a href="{{ site.portmaster_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Discover</a>
-          </li>
-          <li class="mt-3 block mr-0">
-            <a href="{{ site.docs_url }}portmaster/architecture/overview" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Documentation</a>
-          </li>
-          <li class="mt-3 block mr-0">
-            <a href="{{ site.github_url }}/portmaster/" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Source Code</a>
-          </li>
-          <li class="mt-3 block mr-0">
-            <a href="{{ site.backlog_url }}#portmaster" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Backlog</a>
-          </li>
-        </ul>
-        <!-- <ul class="list-reset mb-6 pl-12">
-          <li class=" block mr-0">
-            <a href="{{ site.reddit_url }}" class="no-underline hover:opacity-100 opacity-25 text-white transition duration-150 ease-in-out">vs PiHole</a>
-          </li>
-          <li class="mt-3 block mr-0">
-            <a href="{{ site.github_url }}" class="no-underline hover:opacity-100 opacity-25 text-white transition duration-150 ease-in-out">vs Little Snitch</a>
-          </li>
-          <li class="mt-3 block mr-0">
-            <a href="{{ site.twitter_url }}" class="no-underline hover:opacity-100 opacity-25 text-white transition duration-150 ease-in-out">vs GlassWire</a>
-          </li>
-        </ul> -->
+      <div class="footer-category">
+          <div class="footer-category-title">
+              <span>SPN</span>
+              <div class="horizontal-line"></div>
+          </div>
+          <div class="footer-links">
+              <div class="footer-links-left">
+                  <a href="{{ site.spn_url }}" class="footer-link"> Discover </a>
+                  <a href="{{ site.whitepaper_url }}" class="footer-link"> Whitepaper </a>
+                  <a href="{{ site.github_url }}/spn/" class="footer-link"> Source Code </a>
+                  <a href="{{ site.backlog_url }}#spn" class="footer-link"> Backlog </a>
+              </div>
+              <div class="footer-links-right">
+                  <a href="{{ site.tor_comparison_url }}" class="footer-link"> vs Tor </a>
+                  <a href="{{ site.vpn_comparison_url }}" class="footer-link"> vs VPNs </a>
+              </div>
+          </div>
       </div>
-    </div>
-    <div class="hidden lg:block ml-0 mr-0 w-0 h-full"></div>
-    <div class="flex-1">
-      <div class="flex items-center">
-        <p class="text-white text-xl mb-6 pr-10">SPN</p>
-        <div class="border-t-2 border-white w-full" style="opacity: .1; height: 20px;"></div>
-      </div>
-      <div class="flex">
-        <ul class="list-reset mb-6">
-          <li class="block mr-0">
-            <a href="{{ site.spn_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Discover</a>
-          </li>
-          <li class="mt-3 block mr-0">
-            <a href="{{ site.whitepaper_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Whitepaper</a>
-          </li>
-          <li class="mt-3 block mr-0">
-            <a href="{{ site.github_url }}/spn/" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Source Code</a>
-          </li>
-          <li class="mt-3 block mr-0">
-            <a href="{{ site.backlog_url }}#spn" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Backlog</a>
-          </li>
-        </ul>
-        <ul class="list-reset mb-6 pl-12">
-          <li class="block mr-0">
-            <a href="{{ site.tor_comparison_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">vs Tor</a>
-          </li>
-          <li class="mt-3 block mr-0">
-            <a href="{{ site.vpn_comparison_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">vs VPNs</a>
-          </li>
-        </ul>
-      </div>
-    </div>
   </div>
-  <div class="text-sm pt-20 pb-4">
-    <div class="lg:flex md:mx-auto" style="width: max-content;">
-      <p class="md:text-center leading-6 text-white opacity-25">
-        &copy; {{ site.time | date: '%Y' }} Safing ICS Technologies GmbH
-      </p>
-      <ul class=" pt-5 lg:pt-0 md:flex">
-        <li class="lg:pl-16">
-          <a href="{{ site.terms_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Terms of Service</a>
-        </li>
-        <li class="pt-4 md:py-0 md:pl-10">
-          <a href="{{ site.privacy_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Privacy Policy</a>
-        </li>
-        <li class="pt-4 md:py-0 md:pl-10">
-          <a href="{{ site.contact_url }}" class="no-underline hover:opacity-100 opacity-55 text-white transition duration-150 ease-in-out">Contact & Notice</a>
-        </li>
-      </ul>
-    </div>
-    <p class="md:text-center leading-6 text-white opacity-25 pt-10 md:pt-4">
-      Companies mentioned are by way of example and are an opinion only, not based on fact.
-    </p>
+  <div class="footer-legal">
+      <div class="footer-legal-wrapper">
+          <span class="footer-legal-copyright">
+              © 2021 Safing ICS Technologies GmbH
+          </span>
+          <div class="footer-legal-links">
+              <a href="{{ site.terms_url }}" class="footer-legal-link"> Terms of Service </a>
+              <a href="{{ site.privacy_url }}" class="footer-legal-link"> Privacy Policy </a>
+              <a href="{{ site.contact_url }}" class="footer-legal-link"> Contact & Notice </a>
+          </div>
+      </div>
+      <span class="footer-legal-extra">
+          Companies mentioned are by way of example and are an opinion only, not based on fact.
+      </span>
   </div>
 </footer>
