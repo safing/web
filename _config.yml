@@ -40,6 +40,7 @@ video_url: /video/
 whitepaper_url: /files/whitepaper/Gate17.pdf
 vpn_comparison_url: /blog/2020/01/22/how-the-spn-compares-to-vpns/
 tor_comparison_url: /blog/2020/01/22/how-the-spn-compares-to-tor/
+pihole_comparison_url: /blog/2021/12/09/portmaster-vs-pi-hole/
 
 ### external
 account_server_url: https://account.safing.io/
