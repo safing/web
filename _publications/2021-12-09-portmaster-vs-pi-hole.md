@@ -127,7 +127,7 @@ An auditable and open source code builds a high level of trust in the software.
 Instead of having to trust a privacy policy of the company, people can check the source code and see what it really does on a technical level.
 
 The beauty with this is, the bigger the community around a software gets, the more secure it becomes, often outperforming proprietary software.
-Zero-day exploits and long-forgotten vulnerabilities are very rare because someone from the community will undoubtedly discover them.
+Zero-day exploits and long-forgotten vulnerabilities become rarer since someone from the community usually discovers them.
 
 The Portmaster[](https://github.com/safing/portmaster/) and Pi-hole[](https://github.com/pi-hole/pi-hole/) are both free and open source, with great communities involved. They are also both transparent about their funding which gives additional insight into their organization and motives. ([Portmaster](https://safing.io/ownership/) / [Pi-hole](https://discourse.pi-hole.net/t/results-of-the-pi-hole-user-survey/8958))
 
