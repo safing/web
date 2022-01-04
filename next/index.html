@@ -3,119 +3,124 @@ title: What's Next at Safing
 layout: page
 ---
 
-<section class="mb-40 mt-32">
-  <div class="items-center h-full">
-    <div class="relative max-w-screen-sm lg:max-w-screen-xl mx-auto px-4 sm:px-6  xl:px-0 lg:flex">
-      <div class="pt-8">
-        <div class="text-center lg:text-left">
-          <span class="text-sm opacity-55 tracking-normal">{{ site.last_progress_update_on }}</span>
-          <h2 id="influences" class="text-5xl tracking-tight font-extrabold leading-none pb-10 pt-2">
+<header class="header-three-container mt-32">
+    <div class="header-three-left">
+        <span class="header-three-left-data">
+          {{ site.last_progress_update_on }}
+        </span>
+        <h1 class="header-three-left-title">
             Progress Overview
-          </h2>
-          <p class="text-md opacity-55 max-w-lg mx-auto">
-            Find out what the Safing team is currently working on. This is a compact overview of bigger tasks grouped by projects.
-          </p>
-        </div>
-      </div>
-      <div class="relative mt-24 lg:mt-0 lg:absolute lg:right-0 lg:mr-10">
-        <span class="text-sm opacity-55 tracking-normal absolute w-full text-center lg:text-left " style="margin-top: -1.8rem;">Latest</span>
-        {% assign progress_posts = site.publications | reverse | where: "progress_update", "true" %}
-        {% for post in progress_posts limit: 1 %}
-          {% include thumbnail_blog.html pre_header="BLOG" %}
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-  {% if site.data.next.cards.done.size > 0 %}
-    <div class="pt-48">
-      <div class="nextwrapper">
-        <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
-          <span class="opacity-50">Recently Completed</span>
-          <strong class="pl-2 opacity-75">({{ site.data.next.cards.done.size }})</strong>
-        </div>
-        {% for card in site.data.next.cards.done %}
-          {% include project_card.html state = 'done' %}
-        {% endfor %}
-      </div>
-    </div>
-  {% endif %}
-  {% if site.data.next.cards.in_progress.size > 0 %}
-    <div class="pt-64">
-      <div class="nextwrapper">
-        <div class="absolute pl-8 -mt-48 sm:-mt-32">
-          <div >
-            <span class="opacity-50">In Progress</span>
-            <strong class="pl-2 opacity-75">({{ site.data.next.cards.in_progress.size }})</strong>
-          </div>
-          <p class="opacity-50 pt-5 max-w-4xl">
-            Being in progress does not imply the project will be
-            completed soon. Plenty will take a while a few
-            might even get discarded. Read the monthly blog updates
-            to follow the progress and conclusion of every project.
-          </p>
-        </div>
-        {% for card in site.data.next.cards.in_progress %}
-          {% include project_card.html state = 'in_progress' %}
-        {% endfor %}
-      </div>
-    </div>
-  {% endif %}
-  {% if site.data.next.cards.discarded.size > 0 %}
-    <div class="pt-48">
-      <div class="nextwrapper">
-        <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
-          <span class="opacity-50">Recently Discarded</span>
-          <strong class="pl-2 opacity-75">({{ site.data.next.cards.discarded.size }})</strong>
-        </div>
-
-        {% for card in site.data.next.cards.discarded %}
-          {% include project_card.html state = 'discarded' %}
-        {% endfor %}
-      </div>
-    </div>
-  {% endif %}
-  {% if site.data.next.cards.postponed.size > 0 %}
-    <div class="pt-48">
-      <div class="nextwrapper">
-        <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
-          <span class="opacity-50">Postponed</span>
-          <strong class="pl-2 opacity-75">({{ site.data.next.cards.postponed.size }})</strong>
-        </div>
-
-        {% for card in site.data.next.cards.postponed %}
-          {% include project_card.html state = 'postponed' %}
-        {% endfor %}
-      </div>
-    </div>
-  {% endif %}
-</section>
-<section class="mt-20 lg:mt-40 mb-16 lg:mb-48">
-<div class="items-center h-full">
-  <div class="container mx-auto px-8 sm:px-0 flex">
-    <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:flex block justify-center m-auto w-auto">
-      <div class="pb-16 lg:pb-0 ml-0 lg:ml-32 lg:hidden self-center">
-        <img src="{{ site.img_url }}page-specific/next/files.png" alt="">
-      </div>
-      <div class="inline-block max-w-lg">
-        <h2 class="text-5xl tracking-tight font-extrabold leading-none py-10 lg:w-auto">
-          There is More. <br/> A Lot More.
-        </h2>
-        <p class="text-md opacity-55 max-w-lg">
-          We have plans and ideas for years to come. We will never be "done" but always evolve and progress. I'm sure you have cool ideas for us too!
-          Take a look what we already plan on doing in the longer run.
+        </h1>
+        <p class="header-three-left-desc">
+            Without privacy there is no freedom of press, no
+            freedom of speech, not even freedom of thought.
         </p>
-        <div class="py-10 flex">
-          <a href="{{ site.backlog_url }}">
-            <button type="button" style="background-color: #000;" class="transform hover:scale-95 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-              Explore the Backlog
-            </button>
-          </a>
+    </div>
+    <div class="header-three-right">
+      {% assign progress_posts = site.publications | reverse | where: "progress_update", "true" %}
+      {% for post in progress_posts limit: 1 %}
+        {% include thumbnail_blog.html pre_header="BLOG" %}
+      {% endfor %}
+    </div>
+</header>
+<section class="space-y-36 mt-20">
+    {% if site.data.next.cards.done.size > 0 %}
+      <div class="collection-container">
+        <div class="collection-container-top">
+            <div class="collection-container-top-title-counter items-center">
+                <span class="collection-container-top-title">
+                    Recently Completed
+                </span>
+                <span class="text-sm collection-container-top-counter">
+                  ({{ site.data.next.cards.done.size }})
+                </span>
+            </div>
+        </div>
+        <div class="collection-container-bottom">
+          {% for card in site.data.next.cards.done %}
+            {% include project_card.html state = 'done' %}
+          {% endfor %}
         </div>
       </div>
-      <div class="hidden pt-16 lg:pt-0 ml-0 lg:ml-32 lg:block self-center">
-        <img src="{{ site.img_url }}page-specific/next/files.png" alt="">
+    {% endif %}
+    {% if site.data.next.cards.in_progress.size > 0 %}
+      <div class="collection-container">
+        <div class="collection-container-top">
+            <div class="collection-container-top-title-counter items-center">
+                <span class="collection-container-top-title">
+                  In Progress
+                </span>
+                <span class="text-sm collection-container-top-counter">
+                  ({{ site.data.next.cards.in_progress.size }})
+                </span>
+            </div>
+            <p class="collection-container-top-desc">
+              Being in progress does not imply the project will be
+              completed soon. Plenty will take a while a few
+              might even get discarded. Read the monthly blog updates
+              to follow the progress and conclusion of every project.
+          </p>
+        </div>
+        <div class="collection-container-bottom">
+          {% for card in site.data.next.cards.in_progress %}
+            {% include project_card.html state = 'in_progress' %}
+          {% endfor %}
+        </div>
       </div>
+    {% endif %}
+    {% if site.data.next.cards.discarded.size > 0 %}
+      <div class="collection-container">
+        <div class="collection-container-top">
+            <div class="collection-container-top-title-counter items-center">
+                <span class="collection-container-top-title">
+                    Recently Discarded
+                </span>
+                <span class="text-sm collection-container-top-counter">
+                  ({{ site.data.next.cards.discarded.size }})
+                </span>
+            </div>
+        </div>
+        <div class="collection-container-bottom">
+          {% for card in site.data.next.cards.discarded %}
+            {% include project_card.html state = 'discarded' %}
+          {% endfor %}
+        </div>
       </div>
+    {% endif %}
+    {% if site.data.next.cards.postponed.size > 0 %}
+      <div class="collection-container">
+        <div class="collection-container-top">
+            <div class="collection-container-top-title-counter items-center">
+                <span class="collection-container-top-title">
+                  Postponed
+                </span>
+                <span class="text-sm collection-container-top-counter">
+                  ({{ site.data.next.cards.postponed.size }})
+                </span>
+            </div>
+        </div>
+        <div class="collection-container-bottom">
+          {% for card in site.data.next.cards.postponed %}
+            {% include project_card.html state = 'postponed' %}
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+    <div class="showcase-container mt-32">
+        <div class="showcase-left">
+            <h2 class="showcase-left-title">
+                There is More. A Lot More.
+            </h2>
+            <p class="showcase-left-desc">
+                We have plans and ideas for years to come. We will
+                never be "done" but always evolve and progress. I'm
+                sure you have cool ideas for us too! Take a look what
+                we already plan on doing in the longer run.
+            </p>
+            <a class="btn-secondary" href="{{ site.backlog_url }}">Explore the bacllog</a>
+        </div>
+        <div class="showcase-right" style="max-width: 1050px;">
+            <img src="{{ site.img_url }}page-specific/next/files.png" alt="">
+        </div>
     </div>
-  </div>
 </section>
