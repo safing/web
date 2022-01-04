@@ -13,75 +13,82 @@ layout: page
 {% assign marketing_cards = all_cards | where_exp: "card", "card.projects contains 'Marketing'" %}
 {% assign backoffice_cards = all_cards | where_exp: "card", "card.projects contains 'Back Office'" %}
 
-<section style="margin-top: 12rem; margin-bottom: 8rem;" class="mb-40">
-  <div class="items-center h-full">
-    <div class="relative max-w-screen-sm lg:max-w-screen-xl mx-auto px-4 sm:px-6 xl:px-0 lg:flex">
-      <div class="pt-8">
-        <div class="text-center lg:text-left">
-          <span class="text-sm opacity-55 tracking-normal">{{ site.last_progress_update_on }}</span>
-          <h2 id="influences" class="text-5xl tracking-tight font-extrabold leading-none pb-5 pt-2">
-            Backlog
-          </h2>
-          <p class="text-md opacity-55 max-w-lg mx-auto">
-            A big picture overview of our current mid- and long-term plans.
-          </p>
-        </div>
-        <div class="pt-10 flex transform mx-auto justify-center lg:justify-start items-center">
-          <span class="text-sm opacity-55 mr-4">
-            Jump to:
-          </span>
-          <div class="flex">
-            {% if portmaster_cards.size > 0 %}
+<header class="header-three-container mt-32">
+  <div class="header-three-left">
+      <span class="header-three-left-data">
+        02.06.2021
+      </span>
+      <h1 class="header-three-left-title">
+          Backlog
+      </h1>
+      <p class="header-three-left-desc">
+          A big picture overview of our current
+          mid- and long-term plans.
+      </p>
+      <div class="header-three-left-jump">
+          <span class="title">Jump to:</span>
+          <div class="tag-list">
+              {% if portmaster_cards.size > 0 %}
               <a href="#portmaster" class="flex-1 pr-2" style="word-break: normal;">
                 {% include tag.html tag='Portmaster' %}
               </a>
-            {% endif %}
-            {% if spn_cards.size > 0 %}
-              <a href="#spn" class="flex-1 pr-2" style="word-break: normal;">
-                {% include tag.html tag='SPN' %}
-              </a>
-            {% endif %}
-            {% if website_cards.size > 0 %}
-              <a href="#website" class="flex-1 pr-2" style="word-break: normal;">
-                {% include tag.html tag='Website' %}
-              </a>
-            {% endif %}
-            {% if community_cards.size > 0 %}
-              <a href="#community" class="flex-1 pr-2" style="word-break: normal;">
-                {% include tag.html tag='Community' %}
-              </a>
-            {% endif %}
-            {% if marketing_cards.size > 0 %}
-              <a href="#marketing" class="flex-1 pr-2" style="word-break: normal;">
-                {% include tag.html tag='Marketing' %}
-              </a>
-            {% endif %}
-            {% if backoffice_cards.size > 0 %}
-              <a href="#backoffice" class="flex-1 pr-2" style="word-break: normal;">
-                {% include tag.html tag='Back Office' %}
-              </a>
-            {% endif %}
+              {% endif %}
+              {% if spn_cards.size > 0 %}
+                <a href="#spn" class="flex-1 pr-2" style="word-break: normal;">
+                  {% include tag.html tag='SPN' %}
+                </a>
+              {% endif %}
+              {% if website_cards.size > 0 %}
+                <a href="#website" class="flex-1 pr-2" style="word-break: normal;">
+                  {% include tag.html tag='Website' %}
+                </a>
+              {% endif %}
+              {% if community_cards.size > 0 %}
+                <a href="#community" class="flex-1 pr-2" style="word-break: normal;">
+                  {% include tag.html tag='Community' %}
+                </a>
+              {% endif %}
+              {% if marketing_cards.size > 0 %}
+                <a href="#marketing" class="flex-1 pr-2" style="word-break: normal;">
+                  {% include tag.html tag='Marketing' %}
+                </a>
+              {% endif %}
+              {% if backoffice_cards.size > 0 %}
+                <a href="#backoffice" class="flex-1 pr-2" style="word-break: normal;">
+                  {% include tag.html tag='Back Office' %}
+                </a>
+              {% endif %}
+              <!-- <a class="tag-spn" href=""> SPN </a>
+              <a class="tag-spn" href=""> SPN </a>
+              <a class="tag-spn" href=""> SPN </a> -->
           </div>
-        </div>
-        <p class="text-xs opacity-55 max-w-lg mx-auto pt-4">
-          Disclaimer: Even if we'd love to accomplish everything listed below, some projects may turn out to be unfeasible.
-        </p>
       </div>
-      <div class="relative mt-24 lg:mt-0 lg:absolute lg:right-0 lg:mr-10">
-        {% assign progress_posts = site.publications | reverse | where: "progress_update", "true" %}
-        {% for post in progress_posts limit: 1 %}
-          {% include thumbnail_blog.html pre_header="BLOG" %}
-        {% endfor %}
-      </div>
-    </div>
+      <p class="header-three-left-extra">
+          Disclaimer: Even if we'd love to accomplish everything
+          listed below, some projects may turn out to be unfeasible.
+      </p>
   </div>
+  <div class="header-three-right">
+    {% assign progress_posts = site.publications | reverse | where: "progress_update", "true" %}
+    {% for post in progress_posts limit: 1 %}
+      {% include thumbnail_blog.html pre_header="BLOG" %}
+    {% endfor %}
+  </div>
+</header>
+<section class="space-y-36 mt-20">
   {% if portmaster_cards.size > 0 %}
-    <div class="pt-32">
-      <div class="nextwrapper">
-        <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
-          <span class="opacity-50" id="portmaster">Portmaster</span>
-          <strong class="pl-2 opacity-75">({{ portmaster_cards.size }})</strong>
-        </div>
+    <div class="collection-container">
+      <div class="collection-container-top">
+          <div class="collection-container-top-title-counter items-center">
+              <span class="collection-container-top-title">
+                Portmaster
+              </span>
+              <span class="text-sm collection-container-top-counter">
+                ({{ portmaster_cards.size }})
+              </span>
+          </div>
+      </div>
+      <div class="collection-container-bottom">
         {% for card in portmaster_cards %}
           {% include project_card.html state='backlog' project='portmaster' %}
         {% endfor %}
@@ -89,12 +96,18 @@ layout: page
     </div>
   {% endif %}
   {% if spn_cards.size > 0 %}
-    <div class="pt-32">
-      <div class="nextwrapper">
-        <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
-          <span class="opacity-50" id="spn">Safing Privacy Network</span>
-          <strong class="pl-2 opacity-75">({{ spn_cards.size }})</strong>
-        </div>
+    <div class="collection-container">
+      <div class="collection-container-top">
+          <div class="collection-container-top-title-counter items-center">
+              <span class="collection-container-top-title">
+                Safing Privacy Network
+              </span>
+              <span class="text-sm collection-container-top-counter">
+                ({{ spn_cards.size }})
+              </span>
+          </div>
+      </div>
+      <div class="collection-container-bottom">
         {% for card in spn_cards %}
           {% include project_card.html state='backlog' project='spn' %}
         {% endfor %}
@@ -102,12 +115,18 @@ layout: page
     </div>
   {% endif %}
   {% if website_cards.size > 0 %}
-    <div class="pt-32">
-      <div class="nextwrapper">
-        <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
-          <span class="opacity-50" id="website">Website</span>
-          <strong class="pl-2 opacity-75">({{ website_cards.size }})</strong>
-        </div>
+    <div class="collection-container">
+      <div class="collection-container-top">
+          <div class="collection-container-top-title-counter items-center">
+              <span class="collection-container-top-title">
+                Website
+              </span>
+              <span class="text-sm collection-container-top-counter">
+                ({{ website_cards.size }})
+              </span>
+          </div>
+      </div>
+      <div class="collection-container-bottom">
         {% for card in website_cards %}
           {% include project_card.html state='backlog' project='website' %}
         {% endfor %}
@@ -115,12 +134,18 @@ layout: page
     </div>
   {% endif %}
   {% if community_cards.size > 0 %}
-    <div class="pt-32">
-      <div class="nextwrapper">
-        <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
-          <span class="opacity-50" id="community">Community</span>
-          <strong class="pl-2 opacity-75">({{ community_cards.size }})</strong>
-        </div>
+    <div class="collection-container">
+      <div class="collection-container-top">
+          <div class="collection-container-top-title-counter items-center">
+              <span class="collection-container-top-title">
+                Community
+              </span>
+              <span class="text-sm collection-container-top-counter">
+                ({{ community_cards.size }})
+              </span>
+          </div>
+      </div>
+      <div class="collection-container-bottom">
         {% for card in community_cards %}
           {% include project_card.html state='backlog' project='community' %}
         {% endfor %}
@@ -128,12 +153,18 @@ layout: page
     </div>
   {% endif %}
   {% if marketing_cards.size > 0 %}
-    <div class="pt-32">
-      <div class="nextwrapper">
-        <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
-          <span class="opacity-50" id="marketing">Marketing</span>
-          <strong class="pl-2 opacity-75">({{ marketing_cards.size }})</strong>
-        </div>
+    <div class="collection-container">
+      <div class="collection-container-top">
+          <div class="collection-container-top-title-counter items-center">
+              <span class="collection-container-top-title">
+                Marketing
+              </span>
+              <span class="text-sm collection-container-top-counter">
+                ({{ marketing_cards.size }})
+              </span>
+          </div>
+      </div>
+      <div class="collection-container-bottom">
         {% for card in marketing_cards %}
           {% include project_card.html state='backlog' project='marketing' %}
         {% endfor %}
@@ -141,12 +172,18 @@ layout: page
     </div>
   {% endif %}
   {% if backoffice_cards.size > 0 %}
-    <div class="pt-32">
-      <div class="nextwrapper">
-        <div style="margin-top: -3rem;" class="flex absolute pl-8 ">
-          <span class="opacity-50" id="backoffice">Back Office</span>
-          <strong class="pl-2 opacity-75">({{ backoffice_cards.size }})</strong>
-        </div>
+    <div class="collection-container">
+      <div class="collection-container-top">
+          <div class="collection-container-top-title-counter items-center">
+              <span class="collection-container-top-title">
+                Back Office
+              </span>
+              <span class="text-sm collection-container-top-counter">
+                ({{ backoffice_cards.size }})
+              </span>
+          </div>
+      </div>
+      <div class="collection-container-bottom">
         {% for card in backoffice_cards %}
           {% include project_card.html state='backlog' project='backoffice' %}
         {% endfor %}
