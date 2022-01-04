@@ -3,89 +3,70 @@ title: Team Overview
 layout: page
 ---
 
-<section class="my-40">
-  <div class="items-center h-full">
-    <div class="container mx-auto px-8 sm:px-0 flex">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:flex">
-        <div class="py-12">
-          <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="lg:text-center">
-              <!-- fix this text size once we have customizable tailwind -->
-              <span style="font-size: 12rem; font-weight: 800; margin-top: -9rem; opacity: 0.05;" class="z-0 ml-0 w-full left-0 text-center absolute bg-top overflow-x-hidden">Team</span>
-              <h2 class="text-5xl tracking-tight font-extrabold leading-none py-10 text-center">Who We Are</h2>
+<section class="space-y-48">
+  <div class="relative mt-48">
+      <span style="font-size: 12rem;" class="-mt-24 text-9xl font-bold opacity-5 z-0 ml-0 w-full left-0 text-center absolute overflow-hidden">Team</span>
+      <h1 class="text-5xl tracking-tight font-bold py-10 text-center">Who We Are</h1>
+  </div>
+  <div class="space-y-40">
+    {% for member in site.data.team.members %}
+      <div class="team-member" id="{{ member.name | slugify }}">
+        <div class="team-member-left">
+            <div class="team-member-left-profile relative">
+                <img src="{{ site.img_url }}profiles/{{ member.name | slugify }}.png" alt="{{ member.name }}">
             </div>
-            <div class="mt-32">
-              <ul class="grid grid-cols-1">
-
-                {% for member in site.data.team.members %}
-                <li class="pb-40 lg:pb-24" id="{{ member.name | slugify }}">
-                  <div class="text-center lg:text-left lg:flex items-center">
-                    <div class="pb-8 lg:-mb-10">
-                      <img class="mx-auto" src="{{ site.img_url }}profiles/{{ member.name | slugify }}.png" alt="{{ member.name }}">
-                      <span style="font-size: 12rem; font-weight: 800; margin-top: -9.5rem; margin-left: 6rem; z-index: -1;" class="hidden lg:block absolute transform scale-50 lg:scale-125">
-                        <img src="{{ site.img_url }}shapes/square.png" alt="">
-                      </span>
-                      <span style="font-size: 12rem; font-weight: 800; margin-top: -9.8rem; margin-left: 2.5rem; z-index: -1;" class="lg:hidden absolute transform scale-70 lg:scale-125">
-                        <img src="{{ site.img_url }}shapes/square.png" alt="">
-                      </span>
-                      <div class="flex mx-auto justify-center pt-5">
-                        {% for handle in member.handles %}
-                        <a href="{{ handle.external_url }}" target="_blank" class="opacity-55 hover:opacity-100 ease-in-out duration-150 mr-4">
-                          <img style="height: 1.1rem; width: auto;" src="{{ site.img_url }}icons/{{ handle.icon }}.svg" />
-                        </a>
-                        {% endfor %}
-                      </div>
-                    </div>
-                    <div class="lg:pl-16">
-                      <span style="color: #6188ff;" class="uppercase text-sm">{{ member.title }}</span>
-                      <p class="pt-1 pb-3 font-extrabold text-2xl">{{ member.name }}</p>
-                      <span class="opacity-55">Joined {{ member.joined }}</span>
-                      <p class="pt-3 text-md opacity-55 max-w-2xl">
-                        {{ member.description }}
-                      </p>
-                    </div>
-                  </div>
-                </li>
-
-                {% endfor %}
-
-                <li class="mb-40 lg:mb-24 bg-black opacity-25" style="height: 2px;"></li>
-
-                {% for external in site.data.team.externals %}
-                <li class="pb-40 lg:pb-24" id="{{ external.name | slugify }}">
-                  <div class="text-center lg:text-left lg:flex items-center">
-                    <div class="pb-8 lg:-mb-10">
-                      <img class="mx-auto" src="{{ site.img_url }}profiles/{{ external.name | slugify }}.png" alt="{{ external.name }}">
-                      <span style="font-size: 12rem; font-weight: 800; margin-top: -9.5rem; margin-left: 6rem; z-index: -1;" class="hidden lg:block absolute transform scale-50 lg:scale-125">
-                        <img src="{{ site.img_url }}shapes/square.png" alt="">
-                      </span>
-                      <span style="font-size: 12rem; font-weight: 800; margin-top: -9.8rem; margin-left: 2.5rem; z-index: -1;" class="lg:hidden absolute transform scale-70 lg:scale-125">
-                        <img src="{{ site.img_url }}shapes/square.png" alt="">
-                      </span>
-                      <div class="flex mx-auto justify-center pt-5">
-                        {% for handle in external.handles %}
-                        <a href="{{ handle.external_url }}" target="_blank" class="opacity-55 hover:opacity-100 ease-in-out duration-150 mr-4">
-                          <img style="height: 1.1rem; width: auto;" src="{{ site.img_url }}icons/{{ handle.icon }}.svg" />
-                        </a>
-                        {% endfor %}
-                      </div>
-                    </div>
-                    <div class="lg:pl-16">
-                      <span style="color: #6188ff;" class="uppercase text-sm">{{ external.title }}</span>
-                      <p class="pt-1 pb-3 font-extrabold text-2xl">{{ external.name }}</p>
-                      <span class="opacity-55">Joined {{ external.joined }}</span>
-                      <p class="pt-3 text-md opacity-55 max-w-2xl">
-                        {{ external.description }}
-                      </p>
-                    </div>
-                  </div>
-                </li>
-                {% endfor %}
-              </ul>
+            <div class="team-member-left-scoial">
+              {% for handle in member.handles %}
+                <a href="{{ handle.external_url }}" target="_blank"><i class="icon-{{ handle.icon }} text-md"></i></a>
+              {% endfor %}
             </div>
-          </div>
+        </div>
+        <div class="team-member-right">
+            <span class="team-member-right-postion">
+              {{ member.title }}
+            </span>
+            <span class="team-member-right-name">
+              {{ member.name }}
+            </span>
+            <span class="team-member-right-date">
+              Joined {{ member.joined }}
+            </span>
+            <p class="team-member-right-desc">
+              {{ member.description }}
+            </p>
         </div>
       </div>
-    </div>
+    {% endfor %}
+  </div>
+  <div class="horizontal-line"></div>
+  <div class="space-y-40">
+    {% for external in site.data.team.externals %}
+      <div class="team-member" id="{{ external.name | slugify }}">
+        <div class="team-member-left">
+            <div class="team-member-left-profile relative">
+                <img src="{{ site.img_url }}profiles/{{ external.name | slugify }}.png" alt="{{ external.name }}">
+            </div>
+            <div class="team-member-left-scoial">
+              {% for handle in external.handles %}
+                <a href="{{ handle.external_url }}" target="_blank"><i class="icon-{{ handle.icon }} text-md"></i></a>
+              {% endfor %}
+            </div>
+        </div>
+        <div class="team-member-right">
+            <span class="team-member-right-postion">
+              {{ external.title }}
+            </span>
+            <span class="team-member-right-name">
+              {{ external.name }}
+            </span>
+            <span class="team-member-right-date">
+              Joined {{ external.joined }}
+            </span>
+            <p class="team-member-right-desc">
+              {{ external.description }}
+            </p>
+        </div>
+      </div>
+    {% endfor %}
   </div>
 </section>
