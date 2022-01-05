@@ -1,95 +1,106 @@
-source:
-  ffg:
-    timespan: "2019-2021"
-    # FFG Total:
-    #   - Received Funding:    278.421€
-    #   - Received Loans:      263.025€
-    #   - Funding In Prospect:  32.720€
-    #   - Loans In Prospect:    30.920€
-    years:
-      - year: 2021
-        items:
-          - type: funding
-            amount: "32.720"
-            status: open
-          - type: loan
-            amount: "30.920"
-            status: open
-      - year: 2021
-        items:
-          - type: funding
-            amount: "49.080"
-            status: completed
-          - type: loan
-            amount: "46.380"
-            status: completed
-      - year: 2020
-        items:
-          - type: funding
-            amount: "146.541"
-            status: completed
-          - type: loan
-            amount: "138.445"
-            status: completed
-      - year: 2019
-        items:
-          - type: funding
-            amount: "82.800"
-            status: completed
-          - type: loan
-            amount: "78.200"
-            status: completed
-  # Netidee Total:
-  #   - Received Funding:      117.839€
-  #   - Funding In Prospect:     5.000€
-  netidee:
-    timespan: "2017-2021"
-    years:
-      - year: 2021
-        items:
-          - type: funding
-            amount: "5.000"
-            status: open
-      - year: 2021
-        items:
-          - type: funding
-            amount: "20.000"
-            status: completed
-      - year: 2020
-        items:
-          - type: funding
-            amount: "20.012"
-            status: completed
-      - year: 2019
-        items:
-          - type: funding
-            amount: "30.048"
-            status: completed
-      - year: 2017
-        items:
-          - type: funding
-            amount: "47.779"
-            status: completed
-  # Kickstarter is not counted towards the grants chart
-  # since backers receive(d) SPN access in return
-  kickstarter:
-    timespan: "February 2020"
-    years:
-      - year: 2020
-        items:
-          - type: funding
-            amount: "11.755"
-            status: completed
-  # ESA Total:
-  #   - Received Funding: 40.000€
-  esa:
-    timespan: "2018-2020"
-    years:
-      - year: 2019
-        items:
-          - type: funding
-            amount: "40.000"
-            status: completed
+- name: FFG
+  description: |
+    The FFG is the national funding institution for Research & Development of Austria. Their goal is to strengthen innovation and the economy.
+    
+    We got accepted into the FFG Basisprogramm in 2019 continuing until 2021. The included funding and loan enabled us to hire our first employees and further progress our products.
+  timespan: "2019-2021"
+  # FFG Total:
+  #   - Received Funding:    278.421€
+  #   - Received Loans:      263.025€
+  #   - Funding In Prospect:  32.720€
+  #   - Loans In Prospect:    30.920€
+  years:
+    - year: 2021
+      items:
+        - type: funding
+          amount: "32.720"
+          status: open
+        - type: loan
+          amount: "30.920"
+          status: open
+    - year: 2021
+      items:
+        - type: funding
+          amount: "49.080"
+          status: completed
+        - type: loan
+          amount: "46.380"
+          status: completed
+    - year: 2020
+      items:
+        - type: funding
+          amount: "146.541"
+          status: completed
+        - type: loan
+          amount: "138.445"
+          status: completed
+    - year: 2019
+      items:
+        - type: funding
+          amount: "82.800"
+          status: completed
+        - type: loan
+          amount: "78.200"
+          status: completed
+# Netidee Total:
+#   - Received Funding:      117.839€
+#   - Funding In Prospect:     5.000€
+- name: Netidee
+  description: |
+    Netidee funding from 2017 helped us to kickstart all this.
+    In late 2019 and 2020, they granted follow-up fundings for the years
+    2019/20 and 2020/21 respectively.
+  timespan: "2017-2021"
+  years:
+    - year: 2021
+      items:
+        - type: funding
+          amount: "5.000"
+          status: open
+    - year: 2021
+      items:
+        - type: funding
+          amount: "20.000"
+          status: completed
+    - year: 2020
+      items:
+        - type: funding
+          amount: "20.012"
+          status: completed
+    - year: 2019
+      items:
+        - type: funding
+          amount: "30.048"
+          status: completed
+    - year: 2017
+      items:
+        - type: funding
+          amount: "47.779"
+          status: completed
+# Kickstarter is not counted towards the grants chart
+# since backers receive(d) SPN access in return
+- name: Kickstarter
+  description: |
+    Through our [crowdfunding campaign]({{ site.kickstarter_url }}) we received our first supporters who also backed us financially. Thanks to every one of you for giving us your trust and money even before we had any software to show for!
+  timespan: "February 2020"
+  years:
+    - year: 2020
+      items:
+        - type: funding
+          amount: "11.755"
+          status: completed
+# ESA Total:
+#   - Received Funding: 40.000€
+- name: ESA-BIC Austria
+  description: |
+    Safing ICS Technologies GmbH is participating in the [ESA Business Incubation Centre Austria.]({{ site.esa_bic_url }}) We are incubated by Accent, with SPG and the Lower Austrian State as the contractual partners.
+  timespan: "2018-2020"
+  years:
+    - year: 2019
+      items:
+        - type: funding
+          amount: "40.000"
+          status: completed
 
 # Total Numbers of Grants/Loans Image
 #
