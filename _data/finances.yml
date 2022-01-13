@@ -1,8 +1,8 @@
 - name: FFG
   description: |
     The FFG is the national funding institution for Research & Development of Austria. Their goal is to strengthen innovation and the economy.
-    
-    We got accepted into the FFG Basisprogramm in 2019 continuing until 2021. The included funding and loan enabled us to hire our first employees and further progress our products.
+
+    We got accepted into the FFG Basisprogramm in 2019 continuing until 2021. The included funding and loan enabled us to hire our first employees and further progress our products. 
   timespan: "2019-2021"
   # FFG Total:
   #   - Received Funding:    278.421€
@@ -47,9 +47,7 @@
 #   - Funding In Prospect:     5.000€
 - name: Netidee
   description: |
-    Netidee funding from 2017 helped us to kickstart all this.
-    In late 2019 and 2020, they granted follow-up fundings for the years
-    2019/20 and 2020/21 respectively.
+    Netidee funding from 2017 helped us to kickstart all this. In late 2019 and 2020, they granted follow-up fundings for the years 2019/20 and 2020/21 respectively.
   timespan: "2017-2021"
   years:
     - year: 2021
@@ -102,6 +100,23 @@
           amount: "40.000"
           status: completed
 
+
+- name: Fund of Excellence
+  description: |
+    The Fund of Excellence is an investment fund by the Erste Group, that invests in people, rather than companies. They were investing in one of Safing's founders. 
+  timespan: "2018-2020"
+  years:
+    - year: 2018-2019
+      items:
+        - type: funding
+- name: Personal Investment
+  description: |
+     We invest our personal time and money to further push the project and company. Starting from 2017, and drastically increasing over the next years, we personally invested over 200.000€ in value. 
+  timespan: "2018-2020"
+  years:
+    - year: 2019
+      items:
+        - type: funding
 # Total Numbers of Grants/Loans Image
 #
 #             RECEIVED + In Prospect  => Total
