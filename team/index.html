@@ -8,65 +8,67 @@ layout: page
       <span style="font-size: 12rem;" class="-mt-24 text-9xl font-bold opacity-5 z-0 ml-0 w-full left-0 text-center absolute overflow-hidden">Team</span>
       <h1 class="text-5xl tracking-tight font-bold py-10 text-center">Who We Are</h1>
   </div>
-  <div class="space-y-40">
-    {% for member in site.data.team.members %}
-      <div class="team-member" id="{{ member.name | slugify }}">
-        <div class="team-member-left">
-            <div class="team-member-left-profile relative">
-                <img src="{{ site.img_url }}profiles/{{ member.name | slugify }}.png" alt="{{ member.name }}">
-            </div>
-            <div class="team-member-left-scoial">
-              {% for handle in member.handles %}
-                <a href="{{ handle.external_url }}" target="_blank"><i class="icon-{{ handle.icon }} text-md"></i></a>
-              {% endfor %}
-            </div>
+  <div class="space-y-28">
+    <div class="space-y-40">
+      {% for member in site.data.team.members %}
+        <div class="team-member" id="{{ member.name | slugify }}">
+          <div class="team-member-left">
+              <div class="team-member-left-profile relative">
+                  <img src="{{ site.img_url }}profiles/{{ member.name | slugify }}.png" alt="{{ member.name }}">
+              </div>
+              <div class="team-member-left-scoial">
+                {% for handle in member.handles %}
+                  <a href="{{ handle.external_url }}" target="_blank"><i class="icon-{{ handle.icon }} text-md"></i></a>
+                {% endfor %}
+              </div>
+          </div>
+          <div class="team-member-right">
+              <span class="team-member-right-postion">
+                {{ member.title }}
+              </span>
+              <span class="team-member-right-name">
+                {{ member.name }}
+              </span>
+              <span class="team-member-right-date">
+                Joined {{ member.joined }}
+              </span>
+              <p class="team-member-right-desc">
+                {{ member.description }}
+              </p>
+          </div>
         </div>
-        <div class="team-member-right">
-            <span class="team-member-right-postion">
-              {{ member.title }}
-            </span>
-            <span class="team-member-right-name">
-              {{ member.name }}
-            </span>
-            <span class="team-member-right-date">
-              Joined {{ member.joined }}
-            </span>
-            <p class="team-member-right-desc">
-              {{ member.description }}
-            </p>
+      {% endfor %}
+    </div>
+    <div class="horizontal-line max-w-5xl mx-auto"></div>
+    <div class="space-y-40">
+      {% for external in site.data.team.externals %}
+        <div class="team-member" id="{{ external.name | slugify }}">
+          <div class="team-member-left">
+              <div class="team-member-left-profile relative">
+                  <img src="{{ site.img_url }}profiles/{{ external.name | slugify }}.png" alt="{{ external.name }}">
+              </div>
+              <div class="team-member-left-scoial">
+                {% for handle in external.handles %}
+                  <a href="{{ handle.external_url }}" target="_blank"><i class="icon-{{ handle.icon }} text-md"></i></a>
+                {% endfor %}
+              </div>
+          </div>
+          <div class="team-member-right">
+              <span class="team-member-right-postion">
+                {{ external.title }}
+              </span>
+              <span class="team-member-right-name">
+                {{ external.name }}
+              </span>
+              <span class="team-member-right-date">
+                Joined {{ external.joined }}
+              </span>
+              <p class="team-member-right-desc">
+                {{ external.description }}
+              </p>
+          </div>
         </div>
-      </div>
-    {% endfor %}
-  </div>
-  <div class="horizontal-line"></div>
-  <div class="space-y-40">
-    {% for external in site.data.team.externals %}
-      <div class="team-member" id="{{ external.name | slugify }}">
-        <div class="team-member-left">
-            <div class="team-member-left-profile relative">
-                <img src="{{ site.img_url }}profiles/{{ external.name | slugify }}.png" alt="{{ external.name }}">
-            </div>
-            <div class="team-member-left-scoial">
-              {% for handle in external.handles %}
-                <a href="{{ handle.external_url }}" target="_blank"><i class="icon-{{ handle.icon }} text-md"></i></a>
-              {% endfor %}
-            </div>
-        </div>
-        <div class="team-member-right">
-            <span class="team-member-right-postion">
-              {{ external.title }}
-            </span>
-            <span class="team-member-right-name">
-              {{ external.name }}
-            </span>
-            <span class="team-member-right-date">
-              Joined {{ external.joined }}
-            </span>
-            <p class="team-member-right-desc">
-              {{ external.description }}
-            </p>
-        </div>
-      </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
 </section>
