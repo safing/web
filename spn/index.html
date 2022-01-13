@@ -38,156 +38,158 @@ layout: page
       </span>
   </div>
 </header> 
-<section class="space-y-60 mt-60">
-  <div class="intro-container mt-32">
-      <h2 class="intro-container-title">
-          Protect Your Meta‑Data
-      </h2>
-      <p class="intro-container-desc">
-          Seek true privacy. Do not overlook meta-data: which websites
-          you visit and how frequently tell more about you than knowing
-          what you actually do on them.
-      </p>
-  </div>
-  <div class="showcase-container">
-      <div class="showcase-left">
-          <h2 class="showcase-left-title">
-              Onion Layer Encryption 
-          </h2>
-          <p class="showcase-left-desc">
-            Re-route all your connections through our multi-hop network 
-            to decouple your identity from the destination. With onion-
-            encryption, no single party knows who you are and where you 
-            are going to. Inspired by Tor. 
-          </p>
-          <a class="btn-secondary" href="#">Discover the portmaster</a>
-      </div>
-      <div class="showcase-right" style="max-width: 850px;">
-          <img src="{{ site.img_url }}page-specific/spn/layers.gif" alt="">
-      </div>
-  </div>
-  <div class="showcase-container-reverse">
-      <div class="showcase-left">
-          <h2 class="showcase-left-title">
-              Minimize Your Meta‑Data 
-          </h2>
-          <p class="showcase-left-desc">
-              With the SPN, your meta-data is stripped to a minimum. 
-              Abstracting even the size of outgoing packets to diminish 
-              what information third parties, like your ISP or the Wi-Fi 
-              operator of your local coffee place, can gather about you. 
-          </p>
-          <a class="btn-secondary" href="#">Discover the portmaster</a>
-      </div>
-      <div class="showcase-right" style="max-width: 850px;">
-          <img src="{{ site.img_url }}page-specific/spn/metadata.gif" alt="">
-      </div>
-  </div>
-  <div class="showcase-container">
-      <div class="showcase-left">
-          <h2 class="showcase-left-title">
-              Distributed Multi Identity Network
-          </h2>
-          <p class="showcase-left-desc">
-            Instead of exiting all your traffic at one place, route every 
-            connection individually to spread your connections across the 
-            globe. Use vast amounts of identities (IP addresses) and limit 
-            your visibility in the "open" web. 
-          </p>
-          <a class="btn-secondary" href="#">Discover the portmaster</a>
-      </div>
-      <div class="showcase-right" style="max-width: 850px;">
-          <img src="{{ site.img_url }}page-specific/spn/network.png" alt="">
-      </div>
-  </div>
-  <div class="showcase-container-reverse">
-      <div class="showcase-left">
-          <h2 class="showcase-left-title">
-              No Kill Switch Needed 
-          </h2>
-          <p class="showcase-left-desc">
-            Get peace of mind instead of fearing data-leakage.
-
-            With the open source Portmaster, all your network connections are 
-            intercepted at the kernel-level, putting an end to accidental data 
-            exposure. 
-          </p>
-          <a class="btn-secondary" href="#">Discover the portmaster</a>
-      </div>
-      <div class="showcase-right" style="max-width: 850px;">
-          <img src="{{ site.img_url }}page-specific/spn/switch.gif" alt="">
-      </div>
-  </div>
-  <div class="packages-container">
-      <div class="packages-container-top">
-          <span class="packages-container-top-title">
-              Pre-Order the SPN
-          </span>
-          <p class="packages-container-top-desc">
-              Lock in the lower prices forever and join the waitlist to
-              become one of the first SPN users.
-          </p>
-      </div>
-      <div class="packages-container-bottom">
-          <div class="card-package">
-              <div class="card-package-top">
-                  <span class="card-package-top-title">Early Adopter Monthly</span>
-                  <span class="card-package-top-amount">
-                      9.90€ <span class="billing">/ per month</span>
-                  </span>
-                  <span class="card-package-top-offer block text-xl pl-1 opacity-55">11.90€</span>
-              </div>
-              <div class="card-package-middle space-y-4">
-                  <span class="block "> Includes: </span>
-                  <span class="block opacity-50"> Access to the SPN </span>
-                  <span class="block opacity-50"> Unlimited Bandwidth </span>
-                  <span class="block opacity-50"> Use on up to 5 devices </span>
-                  <span class="block opacity-50"> 17% off compared to Beta-Prices </span>
-              </div>
-              <div class="card-package-bottom">
-                  <a class="btn-secondary w-full justify-center" href="#">Pre-Order</a>
-              </div>
-          </div>
-      </div>
-  </div>
-
-
-  <div class="faq-container">
-    <div class="faq-container-top">
-        <span class="faq-container-top-title">
-            FAQ
-        </span>
-        <p class="faq-container-top-desc">
-            You have a question? We answered some already, but you
-            can always contact us at <a class="link-primary" href="">hello@safing.io</a>
+<section class="space-y-40 mt-60">
+    <div class="intro-container mt-32">
+        <h2 class="intro-container-title">
+            Protect Your Meta‑Data
+        </h2>
+        <p class="intro-container-desc">
+            Seek true privacy. Do not overlook meta-data: which websites
+            you visit and how frequently tell more about you than knowing
+            what you actually do on them.
         </p>
     </div>
-    <div class="faq-container-bottom">
-      {% for faq in site.data.faq.spn %}
-        <div class="faq-container-bottom-question">
-          <h1 class="faq-container-bottom-question-title">
-            {{ faq.q }}
-          </h1>
-          <p class="faq-container-bottom-question-desc">
-            {{ faq.a }}
-          </p>
-          <div class="faq-container-bottom-question-desc-extra">
-            {% if faq.link %}
-              <a class="link-primary" href="{{ faq.link.url }}">{{ faq.link.text }}</a>
-            {% endif %}
+    <div class="space-y-80">
+        <div class="showcase-container">
+            <div class="showcase-left">
+                <h2 class="showcase-left-title">
+                    Onion Layer Encryption 
+                </h2>
+                <p class="showcase-left-desc">
+                  Re-route all your connections through our multi-hop network 
+                  to decouple your identity from the destination. With onion-
+                  encryption, no single party knows who you are and where you 
+                  are going to. Inspired by Tor. 
+                </p>
+                <a class="btn-secondary" href="#">Discover the portmaster</a>
+            </div>
+            <div class="showcase-right" style="max-width: 850px;">
+                <img src="{{ site.img_url }}page-specific/spn/layers.gif" alt="">
+            </div>
+        </div>
+        <div class="showcase-container-reverse">
+            <div class="showcase-left">
+                <h2 class="showcase-left-title">
+                    Minimize Your Meta‑Data 
+                </h2>
+                <p class="showcase-left-desc">
+                    With the SPN, your meta-data is stripped to a minimum. 
+                    Abstracting even the size of outgoing packets to diminish 
+                    what information third parties, like your ISP or the Wi-Fi 
+                    operator of your local coffee place, can gather about you. 
+                </p>
+                <a class="btn-secondary" href="#">Discover the portmaster</a>
+            </div>
+            <div class="showcase-right" style="max-width: 850px;">
+                <img src="{{ site.img_url }}page-specific/spn/metadata.gif" alt="">
+            </div>
+        </div>
+        <div class="showcase-container">
+            <div class="showcase-left">
+                <h2 class="showcase-left-title">
+                    Distributed Multi Identity Network
+                </h2>
+                <p class="showcase-left-desc">
+                  Instead of exiting all your traffic at one place, route every 
+                  connection individually to spread your connections across the 
+                  globe. Use vast amounts of identities (IP addresses) and limit 
+                  your visibility in the "open" web. 
+                </p>
+                <a class="btn-secondary" href="#">Discover the portmaster</a>
+            </div>
+            <div class="showcase-right" style="max-width: 850px;">
+                <img src="{{ site.img_url }}page-specific/spn/network.png" alt="">
+            </div>
+        </div>
+        <div class="showcase-container-reverse">
+            <div class="showcase-left">
+                <h2 class="showcase-left-title">
+                    No Kill Switch Needed 
+                </h2>
+                <p class="showcase-left-desc">
+                  Get peace of mind instead of fearing data-leakage.
+      
+                  With the open source Portmaster, all your network connections are 
+                  intercepted at the kernel-level, putting an end to accidental data 
+                  exposure. 
+                </p>
+                <a class="btn-secondary" href="#">Discover the portmaster</a>
+            </div>
+            <div class="showcase-right" style="max-width: 850px;">
+                <img src="{{ site.img_url }}page-specific/spn/switch.gif" alt="">
+            </div>
+        </div>
+        <div class="packages-container">
+            <div class="packages-container-top">
+                <span class="packages-container-top-title">
+                    Pre-Order the SPN
+                </span>
+                <p class="packages-container-top-desc">
+                    Lock in the lower prices forever and join the waitlist to
+                    become one of the first SPN users.
+                </p>
+            </div>
+            <div class="packages-container-bottom">
+                <div class="card-package">
+                    <div class="card-package-top">
+                        <span class="card-package-top-title">Early Adopter Monthly</span>
+                        <span class="card-package-top-amount">
+                            9.90€ <span class="billing">/ per month</span>
+                        </span>
+                        <span class="card-package-top-offer block text-xl pl-1 opacity-55">11.90€</span>
+                    </div>
+                    <div class="card-package-middle space-y-4">
+                        <span class="block "> Includes: </span>
+                        <span class="block opacity-50"> Access to the SPN </span>
+                        <span class="block opacity-50"> Unlimited Bandwidth </span>
+                        <span class="block opacity-50"> Use on up to 5 devices </span>
+                        <span class="block opacity-50"> 17% off compared to Beta-Prices </span>
+                    </div>
+                    <div class="card-package-bottom">
+                        <a class="btn-secondary w-full justify-center" href="#">Pre-Order</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+      
+        <div class="faq-container">
+          <div class="faq-container-top">
+              <span class="faq-container-top-title">
+                  FAQ
+              </span>
+              <p class="faq-container-top-desc">
+                  You have a question? We answered some already, but you
+                  can always contact us at <a class="link-primary" href="">hello@safing.io</a>
+              </p>
+          </div>
+          <div class="faq-container-bottom">
+            {% for faq in site.data.faq.spn %}
+              <div class="faq-container-bottom-question">
+                <h1 class="faq-container-bottom-question-title">
+                  {{ faq.q }}
+                </h1>
+                <p class="faq-container-bottom-question-desc">
+                  {{ faq.a }}
+                </p>
+                <div class="faq-container-bottom-question-desc-extra">
+                  {% if faq.link %}
+                    <a class="link-primary" href="{{ faq.link.url }}">{{ faq.link.text }}</a>
+                  {% endif %}
+                </div>
+              </div>
+            {% endfor %}
+            <div class="faq-container-bottom-question">
+              <h1 class="faq-container-bottom-question-title">
+                  Where can I find your source code?
+              </h1>
+              <p class="faq-container-bottom-question-desc">
+                  You can find our code on <a class="link-primary" href="">Github. The Portmaster</a>, the <a class="link-primary" href="">Portmaster UI</a>, the <a class="link-primary" href="">SPN</a>, the <a class="link-primary" href="">docs</a>
+                  and <a class="link-primary" href="">this website</a> have their respective repositories. <a class="link-primary" href="">Jess</a>, the heart of the SPN, which
+                  got audited by Cure53, can also be found online.
+              </p>
+            </div>
           </div>
         </div>
-      {% endfor %}
-      <div class="faq-container-bottom-question">
-        <h1 class="faq-container-bottom-question-title">
-            Where can I find your source code?
-        </h1>
-        <p class="faq-container-bottom-question-desc">
-            You can find our code on <a class="link-primary" href="">Github. The Portmaster</a>, the <a class="link-primary" href="">Portmaster UI</a>, the <a class="link-primary" href="">SPN</a>, the <a class="link-primary" href="">docs</a>
-            and <a class="link-primary" href="">this website</a> have their respective repositories. <a class="link-primary" href="">Jess</a>, the heart of the SPN, which
-            got audited by Cure53, can also be found online.
-        </p>
-      </div>
     </div>
-  </div>
 </section>
