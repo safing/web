@@ -109,6 +109,8 @@
     - year: 2018-2019
       items:
         - type: funding
+          custom: "Received continuous personal funding"
+
 - name: Personal Investment
   description: |
      We invest our personal time and money to further push the project and company. Starting from 2017, and drastically increasing over the next years, we personally invested over 200.000€ in value. 
@@ -117,6 +119,8 @@
     - year: 2019
       items:
         - type: funding
+          custom: "Invested over 200.000€ in value"
+
 # Total Numbers of Grants/Loans Image
 #
 #             RECEIVED + In Prospect  => Total

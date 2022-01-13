@@ -17,8 +17,7 @@ redirect_from:
             personal risks instead of selling parts of our company for easy money.
             <br>
             <br>
-            The legal entity behind Safing is <i>Safing ICS Technologies GmbH</i>, a 
-            private company registered in Austria.
+            The legal entity behind Safing is <i>Safing ICS Technologies GmbH</i>, a private company registered in Austria.
           </p>
           <a class="btn-secondary" href="{{ site.company_agreement_url }}">View public registry</a>
       </div>
@@ -84,12 +83,16 @@ redirect_from:
                   <span class="card-influence-date">{{ year.year }}</span>
                   {% for item in year.items %}
                     <span class="card-influence-amount">
-                      {% if item.status == "completed" %}
-                        <span>Received</span>
-                      {% endif %}
-                        <span class="font-extrabold">{{ item.amount }}€ {{ item.type }}</span>
-                      {% if item.status == "open" %}
-                        <small>held out in prospect</small>
+                      {% if item.custom != null %}
+                        <span>{{ item.custom }}</span>
+                      {% else %}
+                        {% if item.status == "completed" %}
+                          <span>Received</span>
+                        {% endif %}
+                          <span class="font-extrabold">{{ item.amount }}€ {{ item.type }}</span>
+                        {% if item.status == "open" %}
+                          <small>held out in prospect</small>
+                        {% endif %}
                       {% endif %}
                     </span>
                   {% endfor %}
