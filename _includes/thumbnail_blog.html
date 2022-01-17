@@ -1,9 +1,15 @@
 <a class="card-blog" href="{{ post.url }}">
   <div class="card-blog-thumbnail">
       {% if post.custom_thumbnail_name == null %}
-        <img src="{{ site.img_url }}thumbnails/blog/placeholder.png">
+        <img 
+          src="{{ site.img_url }}thumbnails/blog/placeholder.png"
+          style="max-width: 365px; max-height: 223px;"
+        >
       {% else %}
-        <img src="{{ site.img_url }}thumbnails/blog/{{ post.custom_thumbnail_name }}.png">
+        <img 
+          src="{{ site.img_url }}thumbnails/blog/{{ post.custom_thumbnail_name }}.png"
+          style="max-width: 365px; max-height: 223px;"
+        >
       {% endif %}
       {% if post.progress_update == true %}
         <span class="counter">#{{ post.title | slice: 2, 2 }}</span>
@@ -14,7 +20,7 @@
         </span>
       {% endif %}
   </div>
-  <div class="card-blog-content">
+  <div class="card-blog-content" style="max-width: 365px;">
       <div class="content-wrapper">
           <span class="w-full">
             {% if include.pre_header %}
