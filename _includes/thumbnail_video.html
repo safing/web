@@ -1,15 +1,22 @@
 <a class="card-blog" href="{{ video.url }}">
   <div class="card-blog-thumbnail">
       {% if video.custom_thumbnail_name == null %}.
-        <img src="{{ site.img_url }}thumbnails/video/placeholder.png" alt="">
+        <img 
+          src="{{ site.img_url }}thumbnails/video/placeholder.png"
+          style="max-width: 365px; max-height: 223px;"  
+        >
+          
       {% else %}
-        <img src="{{ site.img_url }}thumbnails/video/{{ video.custom_thumbnail_name }}.png" alt="">
+        <img 
+          src="{{ site.img_url }}thumbnails/video/{{ video.custom_thumbnail_name }}.png"
+          style="max-width: 365px; max-height: 223px;"
+        >
       {% endif %}
       <span class="box-icon">
         <i class="icon-play text-xl"></i>
       </span>
   </div>
-  <div class="card-blog-content">
+  <div class="card-blog-content" style="max-width: 365px;">
       <div class="content-wrapper">
           <span class="w-full">
             {% if include.pre_header %}
