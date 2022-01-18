@@ -7,9 +7,9 @@
               <input class="btn-primary" type="submit" value="Subscribe">
           </div>
           <div class="footer-form-legal">
-              <input type="checkbox" id="consent_text" name="consent_text" value="yes" required="">
+            <input class="toggle" type="checkbox" id="consent_text" name="consent_text" value="yes" required="">
               <div>
-                  <label class="consent opacity-55 text-safing-gray-500" for="consent_text">
+                  <label class="consent cursor-pointer opacity-55 text-safing-gray-500" for="consent_text">
                       I agree that Safing &
                       <a class="link-primary-external" href="https://rapidmail.de" target="_blank">rapidmail.de</a>
                       may process and use the email for newsletter purposes.
@@ -25,11 +25,14 @@
           </div>
           <div class="footer-links">
               <div class="footer-links-left">
-                  <a href="{{ site.about_url }}" class="footer-link"> About Us </a>
-                  <a href="{{ site.business_model_url }}" class="footer-link"> Business Model </a>
-                  <a href="{{ site.ownership_url }}" class="footer-link"> Ownership </a>
-                  <a href="{{ site.jobs_url }}" class="footer-link"> We're Hireing </a>
-                  <a href="{{ site.help_url }}" class="footer-link"> Get Help </a>
+                <a href="{{ site.about_url }}" class="footer-link"> About Us </a>
+                <a href="{{ site.business_model_url }}" class="footer-link"> Business Model </a>
+                <a href="{{ site.ownership_url }}" class="footer-link"> Ownership </a>
+                <div class="flex items-center space-x-2">
+                    <span class="dot pulse-opacity-out-in" style="position: relative;"></span>
+                    <a href="{{ site.jobs_url }}" class="footer-link"> We're Hireing </a>
+                </div>
+                <a href="{{ site.help_url }}" class="footer-link"> Get Help </a>
               </div>
           </div>
       </div>
@@ -40,16 +43,22 @@
           </div>
           <div class="footer-links">
               <div class="footer-links-left">
-                  <a href="{{ site.next_page_url }}" class="footer-link"> What's Next? </a>
-                  <a href="{{ site.blog_url }}" class="footer-link"> Blog </a>
-                  <a href="{{ site.podcast_url }}" class="footer-link"> Podcast </a>
-                  <a href="{{ site.video_url }}" class="footer-link"> Videos </a>
+                <a href="{{ site.next_page_url }}" class="footer-link"> What's Next? </a>
+                <div class="flex  items-center space-x-2">
+                    <a href="{{ site.blog_url }}" class="footer-link"> Blog </a>
+                    <a href="{{ site.blog_feed_url }}" class="footer-link"><i class="icon-rss text-xs"></i></a>
+                </div>
+                <div class="flex  items-center space-x-2">
+                    <a href="{{ site.podcast_url }}" class="footer-link"> Podcast </a>
+                    <a href="{{ site.podcast_feed_url }}" class="footer-link"><i class="icon-rss text-xs"></i></a>
+                </div>
+                <a href="{{ site.video_url }}" class="footer-link"> Videos </a>
               </div>
               <div class="footer-links-right">
-                  <a href="{{ site.docs_code_of_conduct_url }}" class="footer-link"> Code of Conduct </a>
-                  <a href="{{ site.github_url }}" class="footer-link"> Github </a>
-                  <a href="{{ site.reddit_url }}" class="footer-link"> Reddit </a>
-                  <a href="{{ site.twitter_url }}" class="footer-link"> Twitter </a>
+                <a href="{{ site.docs_code_of_conduct_url }}" class="footer-link"> Code of Conduct </a>
+                <a href="{{ site.github_url }}" class="footer-link"> Github </a>
+                <a href="{{ site.reddit_url }}" class="footer-link"> Reddit </a>
+                <a href="{{ site.twitter_url }}" class="footer-link"> Twitter </a>
               </div>
           </div>
       </div>
