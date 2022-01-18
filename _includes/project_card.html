@@ -15,29 +15,24 @@
               {% if include.state == 'done' %}
                 <i class="icon-tick text-green-500"></i>
               {% elsif include.state == 'in_progress' %}
-                <i class="icon-tick text-green-500"></i>
-                <!-- <img style="min-width: 19px;" src="{{ site.assets_url }}icons/cog.svg" alt=""> -->
+                <i class="icon-cog text-gray-500"></i>
               {% elsif include.state == 'discarded' %}
-                <i class="icon-tick text-green-500"></i>
-                <!-- <img style="min-width: 19px;" src="{{ site.assets_url }}icons/cross.svg" alt=""> -->
+                <i class="icon-cross text-red-500"></i>
               {% elsif include.state == 'postponed' %}
-                <i class="icon-tick text-green-500"></i>
-                <!-- <img style="min-width: 19px;" src="{{ site.assets_url }}icons/files.svg" alt=""> -->
+                <i class="icon-files text-gray-800"></i>
               {% elsif include.state == 'backlog' %}
-                <i class="icon-tick text-green-500"></i>
-                <!-- <img style="min-width: 19px;" src="{{ site.assets_url }}icons/files.svg" alt=""> -->
+                <i class="icon-files text-gray-800"></i>
               {% endif %}
               <h1 class="title">{{ card.title }}</h1>
           </div>
       </div>
       <div class="wrapper-right">
-          {% for member in card.team %}
-            <div class="circular-profile" tooltip="{{ member | capitalize }}">
-              <img src="{{ site.img_url }}profiles/{{ member | downcase }}.png" alt="{{ member | capitalize }}">
-            </div>
-          {% endfor %}
-          <div class="circular-profile" tooltip="David">
-              <img src="https://safing.io/assets/img/profiles/david.png">
+          <div class="wrapper-right-profiles">
+            {% for member in card.team %}
+              <div class="circular-profile" tooltip="{{ member | capitalize }}">
+                <img src="{{ site.img_url }}profiles/{{ member | downcase }}.png" alt="{{ member | capitalize }}">
+              </div>
+            {% endfor %}
           </div>
           <i class="icon-arrow"></i>
       </div>
