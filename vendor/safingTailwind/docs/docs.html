@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../docs/css/highlight.min.css">
     <link rel="stylesheet" href="../docs/css/style.css">
-    <link rel="stylesheet" href="../safingTailwind-1.2.css">
+    <link rel="stylesheet" href="../safingTailwind-1.3.css">
     <script src="../docs/js/vendor/jquery.min.js" type="text/javascript"></script>
     <script src="../docs/js/vendor/jquery-resizable.js"></script>
     <script src="../docs/js/vendor/highlight.min.js"></script>
@@ -14,7 +14,7 @@
   </head>
 <body class="antialiased font-sans font-medium">
   <div class="alert-primary rounded-none text-md">
-    <span>There will be some stuff missing in this, and also some bugs. <strong>v1.2</strong></span>
+    <span>There will be some stuff missing in this, and also some bugs. <strong>v1.3</strong></span>
   </div>
   <div class="flex">
     <nav class="overflow-y-auto pb-10 pt-20  ml-20 w-56">
@@ -30,8 +30,12 @@
               <a  class="pl-3 block text-safing-gray-500" href="#profile">Profile</a>
               <a  class="pl-3 block text-safing-gray-500" href="#spacer">Spacer</a>
               <a  class="pl-3 block text-safing-gray-500" href="#tag">Tag</a>
+              <a  class="pl-3 block text-safing-gray-500" href="#toggle">Toggle</a>
               <a  class="pl-3 block text-safing-gray-500" href="#tooltip">Tooltip</a>
+              <a  class="pl-3 block text-safing-gray-500" href="#transition">Transition</a>
             <a  class="block text-safing-gray-500 pt-2" href="#prebuilt">Prebuilt</a>
+              <a  class="pl-3 block text-safing-gray-500" href="#col-container">Col-Container</a>
+              <a  class="pl-3 block text-safing-gray-500" href="#faq-container">Faq-Container</a>
               <a  class="pl-3 block text-safing-gray-500" href="#footer">Footer</a>
               <a  class="pl-3 block text-safing-gray-500" href="#markdown-container">Markdown-Container</a>
               <a  class="pl-3 block text-safing-gray-500" href="#navbar">Navbar</a>
@@ -154,8 +158,67 @@
                       </li>
                       
                         <li id="scss-Primary-Alart">
-                          <pre><code style="min-height: 200px;" class="language-scss">.alert-primary>.link {
+                          <pre><code style="min-height: 200px;" class="language-scss">.alert-primary {
+    @apply alert;
+    @apply bg-safing-blue-500;
+}
+
+.alert-primary>.link {
     @apply text-white;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Tiny</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Tiny-Alart">preview</a></li>
+                          <li><a href="#html-Tiny-Alart">html</a></li>
+                          
+                            <li><a href="#scss-Tiny-Alart">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Tiny-Alart" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <div class="alert-tiny">
+    <i class="icon-mic text-md"></i>
+    <span>Alpha Software: Portmaster is in active development </span>
+</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Tiny-Alart">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;div class="alert-tiny"&gt;
+    &lt;i class="icon-mic text-md"&gt;&lt;/i&gt;
+    &lt;span&gt;Alpha Software: Portmaster is in active development &lt;/span&gt;
+&lt;/div&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Tiny-Alart">
+                          <pre><code style="min-height: 200px;" class="language-scss">.alert-tiny {
+    @apply alert;
+    @apply text-xs;
+    @apply rounded-full;
+    @apply py-2;
+    @apply px-4;
+    @apply space-x-3;
+    @apply justify-start;
 }</code></pre>
                         </li>
                       
@@ -225,7 +288,7 @@
     @apply leading-normal;
     @apply whitespace-normal;
     @apply cursor-pointer;
-    /* @apply hover-scale-in; */
+    @apply hover-scale-in;
 }
 
 .btn[disabled],
@@ -398,8 +461,16 @@
             </div>
         </div>
         <div class="wrapper-right">
-            <div class="circular-profile" tooltip="David">
-                <img src="https://safing.io/assets/img/profiles/david.png">
+            <div class="wrapper-right-profiles">
+                <div class="circular-profile" tooltip="David">
+                    <img src="https://safing.io/assets/img/profiles/david.png">
+                </div>
+                <div class="circular-profile" tooltip="David">
+                    <img src="https://safing.io/assets/img/profiles/david.png">
+                </div>
+                <div class="circular-profile" tooltip="David">
+                    <img src="https://safing.io/assets/img/profiles/david.png">
+                </div>
             </div>
             <i class="icon-arrow"></i>
         </div>
@@ -434,8 +505,16 @@
             &lt;/div&gt;
         &lt;/div&gt;
         &lt;div class="wrapper-right"&gt;
-            &lt;div class="circular-profile" tooltip="David"&gt;
-                &lt;img src="https://safing.io/assets/img/profiles/david.png"&gt;
+            &lt;div class="wrapper-right-profiles"&gt;
+                &lt;div class="circular-profile" tooltip="David"&gt;
+                    &lt;img src="https://safing.io/assets/img/profiles/david.png"&gt;
+                &lt;/div&gt;
+                &lt;div class="circular-profile" tooltip="David"&gt;
+                    &lt;img src="https://safing.io/assets/img/profiles/david.png"&gt;
+                &lt;/div&gt;
+                &lt;div class="circular-profile" tooltip="David"&gt;
+                    &lt;img src="https://safing.io/assets/img/profiles/david.png"&gt;
+                &lt;/div&gt;
             &lt;/div&gt;
             &lt;i class="icon-arrow"&gt;&lt;/i&gt;
         &lt;/div&gt;
@@ -553,6 +632,12 @@
     @apply w-max;
     @apply items-center;
     @apply space-x-4;
+}
+
+.card-extended .wrapper-right .wrapper-right-profiles,
+.card .wrapper-right .wrapper-right-profiles{
+    @apply flex;
+    @apply space-x-1;
 }
     
 .card-extended .icon-arrow,
@@ -678,8 +763,16 @@
             </div>
         </div>
         <div class="wrapper-right">
-            <div class="circular-profile" tooltip="David">
-                <img src="https://safing.io/assets/img/profiles/david.png">
+            <div class="wrapper-right-profiles">
+                <div class="circular-profile" tooltip="David">
+                    <img src="https://safing.io/assets/img/profiles/david.png">
+                </div>
+                <div class="circular-profile" tooltip="David">
+                    <img src="https://safing.io/assets/img/profiles/david.png">
+                </div>
+                <div class="circular-profile" tooltip="David">
+                    <img src="https://safing.io/assets/img/profiles/david.png">
+                </div>
             </div>
             <i class="icon-arrow"></i>
         </div>
@@ -742,8 +835,16 @@
             &lt;/div&gt;
         &lt;/div&gt;
         &lt;div class="wrapper-right"&gt;
-            &lt;div class="circular-profile" tooltip="David"&gt;
-                &lt;img src="https://safing.io/assets/img/profiles/david.png"&gt;
+            &lt;div class="wrapper-right-profiles"&gt;
+                &lt;div class="circular-profile" tooltip="David"&gt;
+                    &lt;img src="https://safing.io/assets/img/profiles/david.png"&gt;
+                &lt;/div&gt;
+                &lt;div class="circular-profile" tooltip="David"&gt;
+                    &lt;img src="https://safing.io/assets/img/profiles/david.png"&gt;
+                &lt;/div&gt;
+                &lt;div class="circular-profile" tooltip="David"&gt;
+                    &lt;img src="https://safing.io/assets/img/profiles/david.png"&gt;
+                &lt;/div&gt;
             &lt;/div&gt;
             &lt;i class="icon-arrow"&gt;&lt;/i&gt;
         &lt;/div&gt;
@@ -823,64 +924,107 @@
                             <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
                             <div class="data items-center flex h-full" style="height: fit-content;">
                               <div class="w-full h-full" style="height: fit-content;">
-                                <div class="grid grid-flow-col grid-flow-col-dense grid-rows-3 gap-4 ">
-    <div class="bg-white p-4 w-max m-auto">
-        <i class="icon-arrow text-lg"></i>
+                                <div class="space-y-10">
+    <div class="space-y-7">
+        <span>General Icons</span>
+        <div class="grid grid-cols-12 auto-cols-max grid-flow-row gap-y-10">
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-earth">
+                <i class="icon-earth text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-reload">
+                <i class="icon-reload text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-files">
+                <i class="icon-files text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-cog">
+                <i class="icon-cog text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-arrow">
+                <i class="icon-arrow text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-cog-ring">
+                <i class="icon-cog-ring text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-cross">
+                <i class="icon-cross text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-external">
+                <i class="icon-external text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-heart">
+                <i class="icon-heart text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-info">
+                <i class="icon-info text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-mic">
+                <i class="icon-mic text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-play">
+                <i class="icon-play text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-podcast">
+                <i class="icon-podcast text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-rss">
+                <i class="icon-rss text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-shield">
+                <i class="icon-shield text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-tick">
+                <i class="icon-tick text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-users">
+                <i class="icon-users text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-warning">
+                <i class="icon-warning text-lg"></i>
+            </div>
+        </div>
     </div>
-    <div class="bg-white p-4 w-max m-auto">
-        <i class="icon-cog-ring text-lg"></i>
+    <div class="space-y-7">
+        <span>Social Icons</span>
+        <div class="grid grid-cols-12 auto-cols-max grid-flow-row gap-4">
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-github">
+                <i class="icon-github text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-linkedin">
+                <i class="icon-linkedin text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-reddit">
+                <i class="icon-reddit text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-twitter">
+                <i class="icon-twitter text-lg"></i>
+            </div>
+        </div>
     </div>
-    <div class="bg-white p-4 w-max m-auto">
-        <i class="icon-cross text-lg"></i>
+    <div class="space-y-7">
+        <span>Platform Icons</span>
+        <div class="grid grid-cols-12 auto-cols-max grid-flow-row gap-4">
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-ubuntu">
+                <i class="icon-ubuntu text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-fedora">
+                <i class="icon-fedora text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-windows">
+                <i class="icon-windows text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-linux">
+                <i class="icon-linux text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-mac">
+                <i class="icon-mac text-lg"></i>
+            </div>
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-docker">
+                <i class="icon-docker text-lg"></i>
+            </div>
+        </div>
     </div>
-    <div class="bg-white p-4 w-max m-auto">
-        <i class="icon-github text-lg"></i>
-    </div>
-    <div class="bg-white p-4 w-max m-auto">
-        <i class="icon-heart text-lg"></i>
-    </div>
-    <div class="bg-white p-4 w-max m-auto">
-        <i class="icon-info text-lg"></i>
-    </div>
-    <div class="bg-white p-4 w-max m-auto">
-        <i class="icon-linkedin text-lg"></i>
-    </div>
-    <div class="bg-white p-4 w-max m-auto">
-        <i class="icon-mic text-lg"></i>
-    </div>
-    <div class="bg-white p-4 w-max m-auto">
-        <i class="icon-play text-lg"></i>
-    </div>
-    <div class="bg-white p-4 w-max m-auto">
-        <i class="icon-podcast text-lg"></i>
-    </div>
-    <div class="bg-white p-4 w-max m-auto">
-        <i class="icon-reddit text-lg"></i>
-    </div>
-    <div class="bg-white p-4 w-max m-auto">
-        <i class="icon-rss text-lg"></i>
-    </div>
-    <div class="bg-white p-4 w-max m-auto">
-        <i class="icon-shield text-lg"></i>
-    </div>
-    <div class="bg-white p-4 w-max m-auto">
-        <i class="icon-tick text-lg"></i>
-    </div>
-    <div class="bg-white p-4 w-max m-auto">
-        <i class="icon-twitter text-lg"></i>
-    </div>
-    <div class="bg-white p-4 w-max m-auto">
-        <i class="icon-up-arrow text-lg"></i>
-    </div>
-    <div class="bg-white p-4 w-max m-auto">
-        <i class="icon-users text-lg"></i>
-    </div>
-    <div class="bg-white p-4 w-max m-auto">
-        <i class="icon-warning text-lg"></i>
-    </div>
-    
 </div>
-
                               </div>
                             </div>
                           </div>
@@ -888,64 +1032,107 @@
                         </div>
                       </li>
                       <li id="html-Icons-Font-Icon">
-                        <pre><code style="min-height: 200px;" class="language-html">&lt;div class="grid grid-flow-col grid-flow-col-dense grid-rows-3 gap-4 "&gt;
-    &lt;div class="bg-white p-4 w-max m-auto"&gt;
-        &lt;i class="icon-arrow text-lg"&gt;&lt;/i&gt;
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;div class="space-y-10"&gt;
+    &lt;div class="space-y-7"&gt;
+        &lt;span&gt;General Icons&lt;/span&gt;
+        &lt;div class="grid grid-cols-12 auto-cols-max grid-flow-row gap-y-10"&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-earth"&gt;
+                &lt;i class="icon-earth text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-reload"&gt;
+                &lt;i class="icon-reload text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-files"&gt;
+                &lt;i class="icon-files text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-cog"&gt;
+                &lt;i class="icon-cog text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-arrow"&gt;
+                &lt;i class="icon-arrow text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-cog-ring"&gt;
+                &lt;i class="icon-cog-ring text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-cross"&gt;
+                &lt;i class="icon-cross text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-external"&gt;
+                &lt;i class="icon-external text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-heart"&gt;
+                &lt;i class="icon-heart text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-info"&gt;
+                &lt;i class="icon-info text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-mic"&gt;
+                &lt;i class="icon-mic text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-play"&gt;
+                &lt;i class="icon-play text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-podcast"&gt;
+                &lt;i class="icon-podcast text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-rss"&gt;
+                &lt;i class="icon-rss text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-shield"&gt;
+                &lt;i class="icon-shield text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-tick"&gt;
+                &lt;i class="icon-tick text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-users"&gt;
+                &lt;i class="icon-users text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-warning"&gt;
+                &lt;i class="icon-warning text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
     &lt;/div&gt;
-    &lt;div class="bg-white p-4 w-max m-auto"&gt;
-        &lt;i class="icon-cog-ring text-lg"&gt;&lt;/i&gt;
+    &lt;div class="space-y-7"&gt;
+        &lt;span&gt;Social Icons&lt;/span&gt;
+        &lt;div class="grid grid-cols-12 auto-cols-max grid-flow-row gap-4"&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-github"&gt;
+                &lt;i class="icon-github text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-linkedin"&gt;
+                &lt;i class="icon-linkedin text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-reddit"&gt;
+                &lt;i class="icon-reddit text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-twitter"&gt;
+                &lt;i class="icon-twitter text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
     &lt;/div&gt;
-    &lt;div class="bg-white p-4 w-max m-auto"&gt;
-        &lt;i class="icon-cross text-lg"&gt;&lt;/i&gt;
+    &lt;div class="space-y-7"&gt;
+        &lt;span&gt;Platform Icons&lt;/span&gt;
+        &lt;div class="grid grid-cols-12 auto-cols-max grid-flow-row gap-4"&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-ubuntu"&gt;
+                &lt;i class="icon-ubuntu text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-fedora"&gt;
+                &lt;i class="icon-fedora text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-windows"&gt;
+                &lt;i class="icon-windows text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-linux"&gt;
+                &lt;i class="icon-linux text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-mac"&gt;
+                &lt;i class="icon-mac text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-docker"&gt;
+                &lt;i class="icon-docker text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
     &lt;/div&gt;
-    &lt;div class="bg-white p-4 w-max m-auto"&gt;
-        &lt;i class="icon-github text-lg"&gt;&lt;/i&gt;
-    &lt;/div&gt;
-    &lt;div class="bg-white p-4 w-max m-auto"&gt;
-        &lt;i class="icon-heart text-lg"&gt;&lt;/i&gt;
-    &lt;/div&gt;
-    &lt;div class="bg-white p-4 w-max m-auto"&gt;
-        &lt;i class="icon-info text-lg"&gt;&lt;/i&gt;
-    &lt;/div&gt;
-    &lt;div class="bg-white p-4 w-max m-auto"&gt;
-        &lt;i class="icon-linkedin text-lg"&gt;&lt;/i&gt;
-    &lt;/div&gt;
-    &lt;div class="bg-white p-4 w-max m-auto"&gt;
-        &lt;i class="icon-mic text-lg"&gt;&lt;/i&gt;
-    &lt;/div&gt;
-    &lt;div class="bg-white p-4 w-max m-auto"&gt;
-        &lt;i class="icon-play text-lg"&gt;&lt;/i&gt;
-    &lt;/div&gt;
-    &lt;div class="bg-white p-4 w-max m-auto"&gt;
-        &lt;i class="icon-podcast text-lg"&gt;&lt;/i&gt;
-    &lt;/div&gt;
-    &lt;div class="bg-white p-4 w-max m-auto"&gt;
-        &lt;i class="icon-reddit text-lg"&gt;&lt;/i&gt;
-    &lt;/div&gt;
-    &lt;div class="bg-white p-4 w-max m-auto"&gt;
-        &lt;i class="icon-rss text-lg"&gt;&lt;/i&gt;
-    &lt;/div&gt;
-    &lt;div class="bg-white p-4 w-max m-auto"&gt;
-        &lt;i class="icon-shield text-lg"&gt;&lt;/i&gt;
-    &lt;/div&gt;
-    &lt;div class="bg-white p-4 w-max m-auto"&gt;
-        &lt;i class="icon-tick text-lg"&gt;&lt;/i&gt;
-    &lt;/div&gt;
-    &lt;div class="bg-white p-4 w-max m-auto"&gt;
-        &lt;i class="icon-twitter text-lg"&gt;&lt;/i&gt;
-    &lt;/div&gt;
-    &lt;div class="bg-white p-4 w-max m-auto"&gt;
-        &lt;i class="icon-up-arrow text-lg"&gt;&lt;/i&gt;
-    &lt;/div&gt;
-    &lt;div class="bg-white p-4 w-max m-auto"&gt;
-        &lt;i class="icon-users text-lg"&gt;&lt;/i&gt;
-    &lt;/div&gt;
-    &lt;div class="bg-white p-4 w-max m-auto"&gt;
-        &lt;i class="icon-warning text-lg"&gt;&lt;/i&gt;
-    &lt;/div&gt;
-    
-&lt;/div&gt;
-</code></pre>
+&lt;/div&gt;</code></pre>
                       </li>
                       
                     </ul>
@@ -1119,10 +1306,8 @@
     @apply text-left;
     @apply font-medium;
     white-space    : break-spaces;
-    /* @apply hover: opacity-60; */
-    @apply transition;
-    @apply duration-100;
-    @apply ease-in-out;
+    @apply cursor-pointer;
+    @apply hover-opacity-in;
 }
 
 .link i {
@@ -1177,7 +1362,7 @@
     @apply inline-block;
     @apply font-bold;
 
-    content: '\e903';
+    content: var(--icon-external);
     @apply text-base;
     transform: rotate(30deg) translateY(2px) translateX(1px) scale(0.75);
 }</code></pre>
@@ -1418,6 +1603,54 @@
                     <div id="tabMenu" class="space-y-4">
                       <div class="flex">
                         <div>
+                          <span class="title block text-md">Community</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Community-Tag">preview</a></li>
+                          <li><a href="#html-Community-Tag">html</a></li>
+                          
+                            <li><a href="#scss-Community-Tag">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Community-Tag" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <span class="tag-community">
+    Community
+</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Community-Tag">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;span class="tag-community"&gt;
+    Community
+&lt;/span&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Community-Tag">
+                          <pre><code style="min-height: 200px;" class="language-scss">.tag-community {
+    @apply tag;
+    @apply bg-purple-100;
+    @apply text-purple-800;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
                           <span class="title block text-md">Default</span>
                         </div>
                         <ul class="tabs flex space-x-3 ml-auto">
@@ -1437,7 +1670,7 @@
                             <div class="data items-center flex h-full" style="height: fit-content;">
                               <div class="w-full h-full" style="height: fit-content;">
                                 <span class="tag">
-    SPN
+    Default
 </span>
                               </div>
                             </div>
@@ -1447,7 +1680,7 @@
                       </li>
                       <li id="html-Default-Tag">
                         <pre><code style="min-height: 200px;" class="language-html">&lt;span class="tag"&gt;
-    SPN
+    Default
 &lt;/span&gt;</code></pre>
                       </li>
                       
@@ -1462,6 +1695,102 @@
     @apply font-medium;
     @apply leading-5;
     @apply mr-2;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Marketing</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Marketing-Tag">preview</a></li>
+                          <li><a href="#html-Marketing-Tag">html</a></li>
+                          
+                            <li><a href="#scss-Marketing-Tag">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Marketing-Tag" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <span class="tag-marketing">
+    Marketing
+</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Marketing-Tag">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;span class="tag-marketing"&gt;
+    Marketing
+&lt;/span&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Marketing-Tag">
+                          <pre><code style="min-height: 200px;" class="language-scss">.tag-marketing {
+    @apply tag;
+    @apply bg-orange-100;
+    @apply text-orange-800;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Portmaster</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Portmaster-Tag">preview</a></li>
+                          <li><a href="#html-Portmaster-Tag">html</a></li>
+                          
+                            <li><a href="#scss-Portmaster-Tag">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Portmaster-Tag" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <span class="tag-portmaster">
+    Portmaster
+</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Portmaster-Tag">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;span class="tag-portmaster"&gt;
+    Portmaster
+&lt;/span&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Portmaster-Tag">
+                          <pre><code style="min-height: 200px;" class="language-scss">.tag-portmaster {
+    @apply tag;
+    @apply bg-blue-100;
+    @apply text-blue-800;
 }</code></pre>
                         </li>
                       
@@ -1556,8 +1885,103 @@
                         <li id="scss-Website-Tag">
                           <pre><code style="min-height: 200px;" class="language-scss">.tag-website {
     @apply tag;
-    @apply bg-orange-100;
-    @apply text-orange-800;
+    @apply bg-gray-200;
+    @apply text-gray-800;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+            </section><section class="w-full space-y-20" style="max-width: 80rem;">
+              <div class="title space-y-3">
+                <h2 id="toggle">Toggle</h2>
+                <span class="desc block text-safing-gray-500">This is still a wip</span>
+              </div>
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Default</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Default-Toggle">preview</a></li>
+                          <li><a href="#html-Default-Toggle">html</a></li>
+                          
+                            <li><a href="#scss-Default-Toggle">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Default-Toggle" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <div class="element-x-center-max space-y-2">
+    <input class="toggle block" type="checkbox" checked>
+    <input class="toggle block" type="checkbox">
+</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Default-Toggle">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;div class="element-x-center-max space-y-2"&gt;
+    &lt;input class="toggle block" type="checkbox" checked&gt;
+    &lt;input class="toggle block" type="checkbox"&gt;
+&lt;/div&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Default-Toggle">
+                          <pre><code style="min-height: 200px;" class="language-scss">.toggle {
+    @apply appearance-none;
+    @apply cursor-pointer;
+
+    height: 25px;
+    min-width: 45px;
+    border-radius: 16px;
+
+    @apply border-2;
+    @apply border-solid;
+    @apply border-safing-gray-600;
+
+    @apply inline-block;
+    @apply relative;
+    @apply m-0;
+
+    @apply bg-safing-gray-800;
+    transition: all 0.2s ease;
+}
+
+.toggle:focus {
+    @apply outline-none;
+}
+
+.toggle:after {
+    content: "";
+    @apply absolute;
+
+    top: 3px;
+    left: 3px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+
+    @apply bg-safing-gray-600;
+    transition: all 0.2s cubic-bezier(0.5, 0.1, 0.75, 1.35);
+}
+.toggle:checked {
+    @apply bg-safing-blue-500;
+    @apply border-safing-blue-500;
+}
+.toggle:checked:after {
+    @apply bg-white;
+    transform: translatex(20px);
 }</code></pre>
                         </li>
                       
@@ -1680,11 +2104,550 @@
                       
                     </ul>
                   </div>
+            </section><section class="w-full space-y-20" style="max-width: 80rem;">
+              <div class="title space-y-3">
+                <h2 id="transition">Transition</h2>
+                <span class="desc block text-safing-gray-500">This is still a wip</span>
+              </div>
+                
+                  <div class="list space-y-2">
+                    <h1 class="mb-4">Class</h1>
+<span class="block text-safing-gray-500">btn</span>
+<span class="block text-safing-gray-500">btn-secondary</span>
+<span class="block text-safing-gray-500">btn-secondary</span>
+                  </div>
+                
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Hover-Opacity</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Hover-Opacity-Transition">preview</a></li>
+                          <li><a href="#html-Hover-Opacity-Transition">html</a></li>
+                          
+                            <li><a href="#scss-Hover-Opacity-Transition">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Hover-Opacity-Transition" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <div class="element-x-center-max space-y-5">
+    <div class="alert max-w-md hover-opacity-in">
+        <i class="icon-mic text-lg"></i>
+        <span>hover-opacity-in</span>
+    </div>
+    <div class="alert max-w-md hover-opacity-out">
+        <i class="icon-mic text-lg"></i>
+        <span>hover-opacity-out</span>
+    </div>
+</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Hover-Opacity-Transition">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;div class="element-x-center-max space-y-5"&gt;
+    &lt;div class="alert max-w-md hover-opacity-in"&gt;
+        &lt;i class="icon-mic text-lg"&gt;&lt;/i&gt;
+        &lt;span&gt;hover-opacity-in&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="alert max-w-md hover-opacity-out"&gt;
+        &lt;i class="icon-mic text-lg"&gt;&lt;/i&gt;
+        &lt;span&gt;hover-opacity-out&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Hover-Opacity-Transition">
+                          <pre><code style="min-height: 200px;" class="language-scss">.hover-opacity-in {
+    @apply hover:opacity-50;
+    @apply transition;
+    @apply duration-150;
+    @apply ease-in-out;
+}
+.hover-opacity-out {
+    @apply opacity-50;
+    @apply hover:opacity-100;
+    @apply transition;
+    @apply duration-150;
+    @apply ease-in-out;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Hover-Scale</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Hover-Scale-Transition">preview</a></li>
+                          <li><a href="#html-Hover-Scale-Transition">html</a></li>
+                          
+                            <li><a href="#scss-Hover-Scale-Transition">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Hover-Scale-Transition" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <div class="element-x-center-max space-y-5">
+    <div class="alert max-w-md hover-scale-in">
+        <i class="icon-mic text-lg"></i>
+        <span>hover-scale-in</span>
+    </div>
+    <div class="alert max-w-md hover-scale-out">
+        <i class="icon-mic text-lg"></i>
+        <span>hover-scale-out</span>
+    </div>
+</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Hover-Scale-Transition">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;div class="element-x-center-max space-y-5"&gt;
+    &lt;div class="alert max-w-md hover-scale-in"&gt;
+        &lt;i class="icon-mic text-lg"&gt;&lt;/i&gt;
+        &lt;span&gt;hover-scale-in&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="alert max-w-md hover-scale-out"&gt;
+        &lt;i class="icon-mic text-lg"&gt;&lt;/i&gt;
+        &lt;span&gt;hover-scale-out&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Hover-Scale-Transition">
+                          <pre><code style="min-height: 200px;" class="language-scss">.hover-scale-in {
+    @apply transform;
+    @apply hover:scale-95;
+    @apply transition;
+    @apply duration-150;
+    @apply ease-in-out;
+}
+.hover-scale-out {
+    @apply transform;
+    @apply hover:scale-105;
+    @apply transition;
+    @apply duration-150;
+    @apply ease-in-out;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Pulse-Opacity</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Pulse-Opacity-Transition">preview</a></li>
+                          <li><a href="#html-Pulse-Opacity-Transition">html</a></li>
+                          
+                            <li><a href="#scss-Pulse-Opacity-Transition">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Pulse-Opacity-Transition" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <div class="element-x-center-max space-y-5">
+    <button class="btn-primary pulse-opacity-out-in">pulse-opacity-out-in</button>
+    <button class="btn-primary pulse-opacity-out-in">pulse-opacity-in-out</button>
+    
+    <div class="flex items-center space-x-2">
+        <span class="dot pulse-opacity-out-in"></span>
+        <a href="#" class="link-secondary">pulse-opacity-out-in</a>
+    </div>
+    <div class="flex items-center space-x-2">
+        <span class="dot pulse-opacity-out-in"></span>
+        <a href="#" class="link-secondary">pulse-opacity-in-out</a>
+    </div>
+
+    <a href="#" class="block link-primary-external pulse-opacity-out-in">pulse-opacity-out-in</a>
+    <a href="#" class="block link-primary-external pulse-opacity-out-in">pulse-opacity-in-out</a>
+</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Pulse-Opacity-Transition">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;div class="element-x-center-max space-y-5"&gt;
+    &lt;button class="btn-primary pulse-opacity-out-in"&gt;pulse-opacity-out-in&lt;/button&gt;
+    &lt;button class="btn-primary pulse-opacity-out-in"&gt;pulse-opacity-in-out&lt;/button&gt;
+    
+    &lt;div class="flex items-center space-x-2"&gt;
+        &lt;span class="dot pulse-opacity-out-in"&gt;&lt;/span&gt;
+        &lt;a href="#" class="link-secondary"&gt;pulse-opacity-out-in&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class="flex items-center space-x-2"&gt;
+        &lt;span class="dot pulse-opacity-out-in"&gt;&lt;/span&gt;
+        &lt;a href="#" class="link-secondary"&gt;pulse-opacity-in-out&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;a href="#" class="block link-primary-external pulse-opacity-out-in"&gt;pulse-opacity-out-in&lt;/a&gt;
+    &lt;a href="#" class="block link-primary-external pulse-opacity-out-in"&gt;pulse-opacity-in-out&lt;/a&gt;
+&lt;/div&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Pulse-Opacity-Transition">
+                          <pre><code style="min-height: 200px;" class="language-scss">.pulse-opacity-out-in {
+    animation: pulse 2s infinite;
+}
+.pulse-opacity-in-out {
+    animation: pulse 2s infinite reverse;
+}
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0;
+    }
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
             </section>
           <div class="space-y-2">
             <h1 class="block text-black text-xl" id="prebuilt">Prebuilt</h1>
             <span class="text-safing-gray-500">This is the compoents section</span>
           </div><section class="w-full space-y-20" style="max-width: 80rem;">
+              <div class="title space-y-3">
+                <h2 id="col-container">Col-Container</h2>
+                <span class="desc block text-safing-gray-500">This is still a wip</span>
+              </div>
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Default</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Default-Col-Container">preview</a></li>
+                          <li><a href="#html-Default-Col-Container">html</a></li>
+                          
+                            <li><a href="#scss-Default-Col-Container">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Default-Col-Container" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <div class="download-container">
+    <h2 class="download-container-title">
+        Lazy Responsive Column!
+    </h2>
+    <div class="col-container">
+        <a class="btn-secondary" href="#"><i class="icon-twitter text-xs mr-2"></i>Windows 10</a>
+        <a class="btn-secondary" href="#"><i class="icon-twitter text-xs mr-2"></i>Ubuntu (Latest)</a>
+        <a disabled class="btn " href="#"><i class="icon-twitter text-xs mr-2"></i>Macos (Not supported)</a>
+    </div>
+    <div class="col-container-center">
+        <a class="btn-secondary" href="#"><i class="icon-twitter text-xs mr-2"></i>Windows 10</a>
+        <a class="btn-secondary" href="#"><i class="icon-twitter text-xs mr-2"></i>Ubuntu (Latest)</a>
+        <a disabled class="btn " href="#"><i class="icon-twitter text-xs mr-2"></i>Macos (Not supported)</a>
+    </div>
+</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Default-Col-Container">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;div class="download-container"&gt;
+    &lt;h2 class="download-container-title"&gt;
+        Lazy Responsive Column!
+    &lt;/h2&gt;
+    &lt;div class="col-container"&gt;
+        &lt;a class="btn-secondary" href="#"&gt;&lt;i class="icon-twitter text-xs mr-2"&gt;&lt;/i&gt;Windows 10&lt;/a&gt;
+        &lt;a class="btn-secondary" href="#"&gt;&lt;i class="icon-twitter text-xs mr-2"&gt;&lt;/i&gt;Ubuntu (Latest)&lt;/a&gt;
+        &lt;a disabled class="btn " href="#"&gt;&lt;i class="icon-twitter text-xs mr-2"&gt;&lt;/i&gt;Macos (Not supported)&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class="col-container-center"&gt;
+        &lt;a class="btn-secondary" href="#"&gt;&lt;i class="icon-twitter text-xs mr-2"&gt;&lt;/i&gt;Windows 10&lt;/a&gt;
+        &lt;a class="btn-secondary" href="#"&gt;&lt;i class="icon-twitter text-xs mr-2"&gt;&lt;/i&gt;Ubuntu (Latest)&lt;/a&gt;
+        &lt;a disabled class="btn " href="#"&gt;&lt;i class="icon-twitter text-xs mr-2"&gt;&lt;/i&gt;Macos (Not supported)&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Default-Col-Container">
+                          <pre><code style="min-height: 200px;" class="language-scss">.col-container {
+    @apply space-y-4;
+    @apply sm:space-x-2;
+}
+
+.col-container-center {
+    @apply col-container;
+    @apply sm:element-x-center-max;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+            </section><section class="w-full space-y-20" style="max-width: 80rem;">
+              <div class="title space-y-3">
+                <h2 id="faq-container">Faq-Container</h2>
+                <span class="desc block text-safing-gray-500">This is still a wip</span>
+              </div>
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Default</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Default-Faq-Container">preview</a></li>
+                          <li><a href="#html-Default-Faq-Container">html</a></li>
+                          
+                            <li><a href="#scss-Default-Faq-Container">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Default-Faq-Container" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <div class="faq-container">
+    <div class="faq-container-top">
+        <span class="faq-container-top-title">
+            FAQ
+        </span>
+        <p class="faq-container-top-desc">
+            You have a question? We answered some already, but you
+            can always contact us at <a class="link-primary" href="">hello@safing.io</a>
+        </p>
+    </div>
+    <div class="faq-container-bottom">
+        <div class="faq-container-bottom-question">
+            <h1 class="faq-container-bottom-question-title">
+                How do you make money? What is the catch?
+            </h1>
+            <p class="faq-container-bottom-question-desc">
+                In short, our business model is Freemium. First provide local privacy for free,
+                forever. Then let happy users support us by paying for a powerful VPN alternative.
+                Finally reinvest earnings into making all our products better.
+            </p>
+            <div class="faq-container-bottom-question-desc-extra">
+                <a class="link-primary" href="">hello@safing.io</a>
+            </div>
+        </div>
+        <div class="faq-container-bottom-question">
+            <h1 class="faq-container-bottom-question-title">
+                Since the Portmaster can block ads and trackers, do I still need
+                an ad-blocker for my browser?
+            </h1>
+            <p class="faq-container-bottom-question-desc">
+                Yes, we highly recommend to continue using adblockers, such as uBlock Origin, uMatrix,
+                or similar. They give you more fine grained control over domains. iE you can allow
+                certain domains to allow css files & images while blocking cookies & javascripts. The
+                Portmaster cannot make this distinction.
+            </p>
+        </div>
+        <div class="faq-container-bottom-question">
+            <h1 class="faq-container-bottom-question-title">
+                What platforms do you support?
+            </h1>
+            <p class="faq-container-bottom-question-desc">
+                Currently we support Windows and Linux. Mac and Mobile are planned, but are further
+                down the road.
+            </p>
+        </div>
+        <div class="faq-container-bottom-question">
+            <h1 class="faq-container-bottom-question-title">
+                Where can I find your source code?
+            </h1>
+            <p class="faq-container-bottom-question-desc">
+                You can find our code on <a class="link-primary" href="">Github. The Portmaster</a>, the <a class="link-primary" href="">Portmaster UI</a>, the <a class="link-primary" href="">SPN</a>, the <a class="link-primary" href="">docs</a>
+                and <a class="link-primary" href="">this website</a> have their respective repositories. <a class="link-primary" href="">Jess</a>, the heart of the SPN, which
+                got audited by Cure53, can also be found online.
+            </p>
+        </div>
+    </div>
+</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Default-Faq-Container">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;div class="faq-container"&gt;
+    &lt;div class="faq-container-top"&gt;
+        &lt;span class="faq-container-top-title"&gt;
+            FAQ
+        &lt;/span&gt;
+        &lt;p class="faq-container-top-desc"&gt;
+            You have a question? We answered some already, but you
+            can always contact us at &lt;a class="link-primary" href=""&gt;hello@safing.io&lt;/a&gt;
+        &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="faq-container-bottom"&gt;
+        &lt;div class="faq-container-bottom-question"&gt;
+            &lt;h1 class="faq-container-bottom-question-title"&gt;
+                How do you make money? What is the catch?
+            &lt;/h1&gt;
+            &lt;p class="faq-container-bottom-question-desc"&gt;
+                In short, our business model is Freemium. First provide local privacy for free,
+                forever. Then let happy users support us by paying for a powerful VPN alternative.
+                Finally reinvest earnings into making all our products better.
+            &lt;/p&gt;
+            &lt;div class="faq-container-bottom-question-desc-extra"&gt;
+                &lt;a class="link-primary" href=""&gt;hello@safing.io&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="faq-container-bottom-question"&gt;
+            &lt;h1 class="faq-container-bottom-question-title"&gt;
+                Since the Portmaster can block ads and trackers, do I still need
+                an ad-blocker for my browser?
+            &lt;/h1&gt;
+            &lt;p class="faq-container-bottom-question-desc"&gt;
+                Yes, we highly recommend to continue using adblockers, such as uBlock Origin, uMatrix,
+                or similar. They give you more fine grained control over domains. iE you can allow
+                certain domains to allow css files & images while blocking cookies & javascripts. The
+                Portmaster cannot make this distinction.
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="faq-container-bottom-question"&gt;
+            &lt;h1 class="faq-container-bottom-question-title"&gt;
+                What platforms do you support?
+            &lt;/h1&gt;
+            &lt;p class="faq-container-bottom-question-desc"&gt;
+                Currently we support Windows and Linux. Mac and Mobile are planned, but are further
+                down the road.
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="faq-container-bottom-question"&gt;
+            &lt;h1 class="faq-container-bottom-question-title"&gt;
+                Where can I find your source code?
+            &lt;/h1&gt;
+            &lt;p class="faq-container-bottom-question-desc"&gt;
+                You can find our code on &lt;a class="link-primary" href=""&gt;Github. The Portmaster&lt;/a&gt;, the &lt;a class="link-primary" href=""&gt;Portmaster UI&lt;/a&gt;, the &lt;a class="link-primary" href=""&gt;SPN&lt;/a&gt;, the &lt;a class="link-primary" href=""&gt;docs&lt;/a&gt;
+                and &lt;a class="link-primary" href=""&gt;this website&lt;/a&gt; have their respective repositories. &lt;a class="link-primary" href=""&gt;Jess&lt;/a&gt;, the heart of the SPN, which
+                got audited by Cure53, can also be found online.
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Default-Faq-Container">
+                          <pre><code style="min-height: 200px;" class="language-scss">.faq-container {
+    @apply element-x-center-max;
+    @apply space-y-28;
+    @apply w-full;
+  }
+  
+  .faq-container .faq-container-top {
+    @apply element-x-center;
+    @apply space-y-7;
+  }
+  
+  .faq-container .faq-container-top-title {
+    @apply block;
+    @apply relative;
+    @apply text-5xl;
+    @apply tracking-tight;
+    @apply font-bold;
+    @apply leading-none;
+    @apply text-center;
+  
+    @apply lg:text-center;
+  }
+  
+  .faq-container .faq-container-top-desc {
+    @apply element-x-center;
+    @apply text-safing-gray-500;
+    @apply text-center;
+    @apply inline-block;
+  }
+  
+  .faq-container .faq-container-bottom {
+    @apply element-x-center-max;
+    @apply max-w-7xl;
+    @apply space-y-24;
+    @apply px-4;
+    @apply sm:px-10;
+    @apply md:space-y-0;
+    @apply md:grid;
+    @apply md:grid-cols-2;
+    @apply md:gap-20;
+    @apply xl:px-0;
+    @apply w-full;
+  }
+  
+  .faq-container .faq-container-bottom-question {
+    @apply block;
+    @apply space-y-5;
+  }
+  
+  .faq-container .faq-container-bottom-question-title {
+    @apply text-2xl;
+  }
+  
+  .faq-container .faq-container-bottom-question-desc {
+    @apply text-safing-gray-500;
+    @apply inline-block;
+  }
+  
+  .faq-container .faq-container-bottom-question-desc-extra {
+    display: block;
+  }
+  </code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+            </section><section class="w-full space-y-20" style="max-width: 80rem;">
               <div class="title space-y-3">
                 <h2 id="footer">Footer</h2>
                 <span class="desc block text-safing-gray-500">This is still a wip</span>
@@ -1726,9 +2689,9 @@
                 <input class="btn-primary" type="submit" value="Subscribe">
             </div>
             <div class="footer-form-legal">
-                <input type="checkbox" id="consent_text" name="consent_text" value="yes" required="">
+                <input class="toggle" type="checkbox" id="consent_text" name="consent_text" value="yes" required="">
                 <div>
-                    <label class="consent opacity-55 text-safing-gray-500" for="consent_text">
+                    <label class="consent cursor-pointer opacity-55 text-safing-gray-500" for="consent_text">
                         I agree that Safing &amp;
                         <a class="link-primary-external" href="https://rapidmail.de" target="_blank">rapidmail.de</a>
                         may process and use the email for newsletter purposes.
@@ -1747,7 +2710,10 @@
                     <a href="#" class="footer-link"> About Us </a>
                     <a href="#" class="footer-link"> Business Model </a>
                     <a href="#" class="footer-link"> Ownership </a>
-                    <a href="#" class="footer-link"> We're Hireing </a>
+                    <div class="flex items-center space-x-2">
+                        <span class="dot pulse-opacity-out-in"></span>
+                        <a href="#" class="footer-link">We're Hireing </a>
+                    </div>
                     <a href="#" class="footer-link"> Get Help </a>
                 </div>
             </div>
@@ -1760,13 +2726,19 @@
             <div class="footer-links">
                 <div class="footer-links-left">
                     <a href="#" class="footer-link"> What's Next? </a>
-                    <a href="#" class="footer-link"> Blog </a>
-                    <a href="#" class="footer-link"> Podcast </a>
+                    <div class="flex  items-center space-x-2">
+                        <a href="#" class="footer-link"> Blog </a>
+                        <a href="#" class="footer-link"><i class="icon-rss text-xs"></i></a>
+                    </div>
+                    <div class="flex  items-center space-x-2">
+                        <a href="#" class="footer-link"> Podcast </a>
+                        <a href="#" class="footer-link"><i class="icon-rss text-xs"></i></a>
+                    </div>
                     <a href="#" class="footer-link"> Videos </a>
                 </div>
                 <div class="footer-links-right">
                     <a href="#" class="footer-link"> Code of Conduct </a>
-                    <a href="#" class="footer-link"> Github </a>
+                    <a href="#" class="footer-link"> Github</a>
                     <a href="#" class="footer-link"> Reddit </a>
                     <a href="#" class="footer-link"> Twitter </a>
                 </div>
@@ -1837,9 +2809,9 @@
                 &lt;input class="btn-primary" type="submit" value="Subscribe"&gt;
             &lt;/div&gt;
             &lt;div class="footer-form-legal"&gt;
-                &lt;input type="checkbox" id="consent_text" name="consent_text" value="yes" required=""&gt;
+                &lt;input class="toggle" type="checkbox" id="consent_text" name="consent_text" value="yes" required=""&gt;
                 &lt;div&gt;
-                    &lt;label class="consent opacity-55 text-safing-gray-500" for="consent_text"&gt;
+                    &lt;label class="consent cursor-pointer opacity-55 text-safing-gray-500" for="consent_text"&gt;
                         I agree that Safing &amp;
                         &lt;a class="link-primary-external" href="https://rapidmail.de" target="_blank"&gt;rapidmail.de&lt;/a&gt;
                         may process and use the email for newsletter purposes.
@@ -1858,7 +2830,10 @@
                     &lt;a href="#" class="footer-link"&gt; About Us &lt;/a&gt;
                     &lt;a href="#" class="footer-link"&gt; Business Model &lt;/a&gt;
                     &lt;a href="#" class="footer-link"&gt; Ownership &lt;/a&gt;
-                    &lt;a href="#" class="footer-link"&gt; We're Hireing &lt;/a&gt;
+                    &lt;div class="flex items-center space-x-2"&gt;
+                        &lt;span class="dot pulse-opacity-out-in"&gt;&lt;/span&gt;
+                        &lt;a href="#" class="footer-link"&gt;We're Hireing &lt;/a&gt;
+                    &lt;/div&gt;
                     &lt;a href="#" class="footer-link"&gt; Get Help &lt;/a&gt;
                 &lt;/div&gt;
             &lt;/div&gt;
@@ -1871,13 +2846,19 @@
             &lt;div class="footer-links"&gt;
                 &lt;div class="footer-links-left"&gt;
                     &lt;a href="#" class="footer-link"&gt; What's Next? &lt;/a&gt;
-                    &lt;a href="#" class="footer-link"&gt; Blog &lt;/a&gt;
-                    &lt;a href="#" class="footer-link"&gt; Podcast &lt;/a&gt;
+                    &lt;div class="flex  items-center space-x-2"&gt;
+                        &lt;a href="#" class="footer-link"&gt; Blog &lt;/a&gt;
+                        &lt;a href="#" class="footer-link"&gt;&lt;i class="icon-rss text-xs"&gt;&lt;/i&gt;&lt;/a&gt;
+                    &lt;/div&gt;
+                    &lt;div class="flex  items-center space-x-2"&gt;
+                        &lt;a href="#" class="footer-link"&gt; Podcast &lt;/a&gt;
+                        &lt;a href="#" class="footer-link"&gt;&lt;i class="icon-rss text-xs"&gt;&lt;/i&gt;&lt;/a&gt;
+                    &lt;/div&gt;
                     &lt;a href="#" class="footer-link"&gt; Videos &lt;/a&gt;
                 &lt;/div&gt;
                 &lt;div class="footer-links-right"&gt;
                     &lt;a href="#" class="footer-link"&gt; Code of Conduct &lt;/a&gt;
-                    &lt;a href="#" class="footer-link"&gt; Github &lt;/a&gt;
+                    &lt;a href="#" class="footer-link"&gt; Github&lt;/a&gt;
                     &lt;a href="#" class="footer-link"&gt; Reddit &lt;/a&gt;
                     &lt;a href="#" class="footer-link"&gt; Twitter &lt;/a&gt;
                 &lt;/div&gt;
@@ -2133,15 +3114,15 @@
 
 .footer .footer-form-legal {
     @apply block;
-    @apply space-x-2;
     @apply max-w-md;
     @apply mx-auto;
     @apply space-y-3;
     @apply space-x-0;
     @apply select-none;
+    @apply items-center;
 
     @apply lg:space-y-0;
-    @apply lg:space-x-3;
+    @apply lg:space-x-5;
     @apply lg:flex;
     @apply lg:mx-0;
     @apply lg:max-w-xl;
@@ -2150,6 +3131,14 @@
 .footer .footer-form-legal .link-primary-external {
     @apply table-cell;
     padding-left: 3px;
+}
+
+.dot {
+    height: 0.45rem; 
+    width: 0.45rem; 
+    border-radius: 50%;
+    @apply bg-safing-blue-500;
+    @apply inline-block;
 }</code></pre>
                         </li>
                       
@@ -2176,6 +3165,8 @@
                           <li><a href="#preview-Default-Markdown-Container">preview</a></li>
                           <li><a href="#html-Default-Markdown-Container">html</a></li>
                           
+                            <li><a href="#scss-Default-Markdown-Container">scss</a></li>
+                          
                         </ul>
                       </div>
                     </div>
@@ -2186,7 +3177,7 @@
                             <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
                             <div class="data items-center flex h-full" style="height: fit-content;">
                               <div class="w-full h-full" style="height: fit-content;">
-                                <div class="mardown-container">
+                                <div class="markdown-container">
     <!-- Markdown Example  -->
     
     <blockquote>
@@ -2222,7 +3213,7 @@
                         </div>
                       </li>
                       <li id="html-Default-Markdown-Container">
-                        <pre><code style="min-height: 200px;" class="language-html">&lt;div class="mardown-container"&gt;
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;div class="markdown-container"&gt;
     &lt;!-- Markdown Example  --&gt;
     
     &lt;blockquote&gt;
@@ -2252,6 +3243,131 @@
     &lt;!-- Markdown Example --&gt;
 &lt;/div&gt;</code></pre>
                       </li>
+                      
+                        <li id="scss-Default-Markdown-Container">
+                          <pre><code style="min-height: 200px;" class="language-scss">.markdown-container {
+    @apply element-x-center;
+    @apply px-10;
+    @apply max-w-4xl;
+}
+
+.markdown-container > h2,
+.markdown-container > h3,
+.markdown-container > h4,
+.markdown-container > h5,
+.markdown-container > h6,
+.markdown-container > h1 {
+    @apply mt-8;
+    @apply mb-8;
+}
+
+.markdown-container > h1 {
+    @apply text-4xl;
+}
+
+.markdown-container > h2 {
+    @apply text-3xl;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.markdown-container > h3 {
+    @apply text-2xl;
+}
+
+.markdown-container > h4 {
+    @apply text-xl;
+}
+
+.markdown-container > h5 {
+    @apply text-lg;
+}
+
+.markdown-container > h6 {
+    @apply text-md;
+}
+
+.markdown-container > hr {
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+.markdown-container > [class^=' alert'],
+.markdown-container > [class*='alert'] {
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+.markdown-container > p {
+    @apply text-safing-gray-600;
+}
+
+.markdown-container > p:not(:first-of-type):not(:last-of-type) {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.markdown-container > p > code {
+    color: #ba00bf;
+    font-size: 0.875rem;
+    font-weight: 500;
+    word-break: break-word;
+}
+
+.markdown-container > p > code::after {
+    content: '`';
+}
+
+.markdown-container > p > code::before {
+    content: '`';
+}
+
+.markdown-container > p > a {
+    @apply link-primary;
+}
+
+.markdown-container > p > a:not( [href*='safing.io'] ) {
+    @apply link-primary-external;
+}
+
+.markdown-container > p > img {
+    border-radius: 0.375rem;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0), 0 0 90px 0 rgba(59, 93, 199, 0.1);
+    display: block;
+    height: auto;
+    margin-bottom: 4rem;
+    margin-top: 5rem;
+    max-width: 100%;
+}
+
+.markdown-container > ul {
+    @apply text-safing-gray-600;
+    list-style-type: disc;
+    padding-left: 1.85rem;
+    padding-top: 1.25rem;
+    @apply space-y-2;
+}
+
+.markdown-container > ol {
+    @apply text-safing-gray-600;
+    list-style-type: decimal;
+    padding-left: 1.85rem;
+    padding-top: 1.25rem;
+    @apply space-y-2;
+}
+
+.markdown-container > blockquote {
+    border-left: 4px solid #ddd;
+    @apply text-safing-gray-600;
+    margin-top: 1.55rem;
+    opacity: 1;
+    padding-left: 1rem;
+}
+
+.markdown-container > em {
+    font-weight: 400;
+    @apply text-safing-gray-600;
+}</code></pre>
+                        </li>
                       
                     </ul>
                   </div>
