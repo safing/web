@@ -79,7 +79,7 @@
 # since backers receive(d) SPN access in return
 - name: Kickstarter
   description: |
-    Through our [crowdfunding campaign]({{ site.kickstarter_url }}) we received our first supporters who also backed us financially. Thanks to every one of you for giving us your trust and money even before we had any software to show for!
+    Through our [crowdfunding campaign](https://www.kickstarter.com/projects/safingio/spn) we received our first supporters who also backed us financially. Thanks to every one of you for giving us your trust and money even before we had any software to show for!
   timespan: "February 2020"
   years:
     - year: 2020
@@ -91,7 +91,7 @@
 #   - Received Funding: 40.000€
 - name: ESA-BIC Austria
   description: |
-    Safing ICS Technologies GmbH is participating in the [ESA Business Incubation Centre Austria.]({{ site.esa_bic_url }}) We are incubated by Accent, with SPG and the Lower Austrian State as the contractual partners.
+    Safing ICS Technologies GmbH is participating in the [ESA Business Incubation Centre Austria.](/esa-bic/) We are incubated by Accent, with SPG and the Lower Austrian State as the contractual partners.
   timespan: "2018-2020"
   years:
     - year: 2019
