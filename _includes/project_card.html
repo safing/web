@@ -4,7 +4,7 @@
         <div class="tab">
           <input class="dropinput" type="checkbox" id="card{{ include.state | prepend: '-' }}{{ include.project | prepend: '-' }}-{{ forloop.index }}">
           <label style="min-width: 90%; min-height: 150px; display: block;" class="absolute cursor-pointer" for="card{{ include.state | prepend: '-' }}{{ include.project | prepend: '-' }}-{{ forloop.index }}">
-            <img class="absolute right-0" style="margin-right: 1rem;" id="icon" src="{{ site.assets_url }}/icons/arrow.svg" alt="">
+            <img loading="lazy" class="absolute right-0" style="margin-right: 1rem;" id="icon" src="{{ site.assets_url }}/icons/arrow.svg" alt="">
           </label>
           <div>
             <div class="flex">
@@ -15,15 +15,15 @@
             <div class="flex pt-6 items-center">
               <div>
                 {% if include.state == 'done' %}
-                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/tick.svg" alt="">
+                  <img loading="lazy" style="min-width: 19px;" src="{{ site.assets_url }}icons/tick.svg" alt="">
                 {% elsif include.state == 'in_progress' %}
-                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/cog.svg" alt="">
+                  <img loading="lazy" style="min-width: 19px;" src="{{ site.assets_url }}icons/cog.svg" alt="">
                 {% elsif include.state == 'discarded' %}
-                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/cross.svg" alt="">
+                  <img loading="lazy" style="min-width: 19px;" src="{{ site.assets_url }}icons/cross.svg" alt="">
                 {% elsif include.state == 'postponed' %}
-                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/files.svg" alt="">
+                  <img loading="lazy" style="min-width: 19px;" src="{{ site.assets_url }}icons/files.svg" alt="">
                 {% elsif include.state == 'backlog' %}
-                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/files.svg" alt="">
+                  <img loading="lazy" style="min-width: 19px;" src="{{ site.assets_url }}icons/files.svg" alt="">
                 {% endif %}
               </div>
               <h1 class="pl-3 font-bold text-lg">{{ card.title }}</h1>
@@ -53,7 +53,7 @@
               <div class="flex ">
                 {% for member in card.team %}
                   <span class="transform hover:scale-110 duration-150 ease-in-out" tooltip="{{ member | capitalize }}"  >
-                    <img class="inline-block h-6 w-6 rounded-full text-white shadow-solid border-2 border-white" src="{{ site.img_url }}profiles/{{ member | downcase }}.png" alt="{{ member }}">
+                    <img loading="lazy" class="inline-block h-6 w-6 rounded-full text-white shadow-solid border-2 border-white" src="{{ site.img_url }}profiles/{{ member | downcase }}.png" alt="{{ member }}">
                   </span>
                 {% endfor %}
               </div>

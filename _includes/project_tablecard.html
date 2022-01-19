@@ -5,7 +5,7 @@
         <div class="flex ">
           {% for member in card.team %}
           <span class="transform hover:scale-110 duration-150 ease-in-out" tooltip="{{ member | capitalize }}">
-            <img class="inline-block h-6 w-6 rounded-full text-white shadow-solid border-2 border-white" src="{{ site.img_url }}profiles/{{ member | downcase }}.png" alt="{{ member }}">
+            <img loading="lazy" class="inline-block h-6 w-6 rounded-full text-white shadow-solid border-2 border-white" src="{{ site.img_url }}profiles/{{ member | downcase }}.png" alt="{{ member }}">
           </span>
           {% endfor %}
         </div>
@@ -15,7 +15,7 @@
       <div class="tab relative">
         <input class="dropinput" type="checkbox" id="tablecard-{{ include.state }}-{{ forloop.index }}">
         <label style="min-width: 100%; min-height: 115px; display: block;" class="z-10 absolute cursor-pointer" for="tablecard-{{ include.state }}-{{ forloop.index }}">
-          <img class="absolute right-0" style="margin-right: 1rem; margin-top: 1.2rem;" id="icon" src="{{ site.assets_url }}/icons/arrow.svg" alt="">
+          <img loading="lazy" class="absolute right-0" style="margin-right: 1rem; margin-top: 1.2rem;" id="icon" src="{{ site.assets_url }}/icons/arrow.svg" alt="">
         </label>
         <div class="flex relative ">
           <div>
@@ -45,15 +45,15 @@
             <div class="flex pt-3 items-center">
               <div>
                 {% if include.state == 'done' %}
-                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/tick.svg" alt="">
+                  <img loading="lazy" style="min-width: 19px;" src="{{ site.assets_url }}icons/tick.svg" alt="">
                 {% elsif include.state == 'in_progress' %}
-                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/cog.svg" alt="">
+                  <img loading="lazy" style="min-width: 19px;" src="{{ site.assets_url }}icons/cog.svg" alt="">
                 {% elsif include.state == 'discarded' %}
-                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/cross.svg" alt="">
+                  <img loading="lazy" style="min-width: 19px;" src="{{ site.assets_url }}icons/cross.svg" alt="">
                 {% elsif include.state == 'postponed' %}
-                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/files.svg" alt="">
+                  <img loading="lazy" style="min-width: 19px;" src="{{ site.assets_url }}icons/files.svg" alt="">
                 {% elsif include.state == 'backlog' %}
-                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/files.svg" alt="">
+                  <img loading="lazy" style="min-width: 19px;" src="{{ site.assets_url }}icons/files.svg" alt="">
                 {% endif %}
               </div>
               <h4 class="pl-3 font-bold text-lg pr-16 ">{{ card.title }}</h4>
@@ -66,7 +66,7 @@
             <div class="tab relative" id="tabtwo">
               <input class="dropinput" type="checkbox" id="tablecard-description-{{ include.state }}-{{ forloop.index }}">
               <label style="min-width: 100%; min-height: 115px; display: block;" class="z-10 absolute cursor-pointer" for="tablecard-description-{{ include.state }}-{{ forloop.index }}">
-                <img class="absolute right-0" style="margin-right: 1rem; margin-top: 0.5rem;" id="icontwo" src="{{ site.assets_url }}/icons/arrow.svg" alt="">
+                <img loading="lazy" class="absolute right-0" style="margin-right: 1rem; margin-top: 0.5rem;" id="icontwo" src="{{ site.assets_url }}/icons/arrow.svg" alt="">
               </label>
               <div class="flex relative">
                 <div class="self-center -mt-5">
@@ -76,7 +76,7 @@
                 <div>
                   <div class="flex pt-3" style="margin-left: 1rem;">
                     <div>
-                      <img src="" alt="">
+                      <img loading="lazy" src="" alt="">
                     </div>
                     <span class=" text-md opacity-50">Assignment</span>
                   </div>

@@ -3,9 +3,9 @@
     <a href="{{ post.url }}">
       <div class="relative" style="max-width: 365px;">
         {% if post.custom_thumbnail_name == null %}
-        <img src="{{ site.img_url }}thumbnails/blog/placeholder.png">
+        <img loading="lazy" src="{{ site.img_url }}thumbnails/blog/placeholder.jpg">
         {% else %}
-        <img src="{{ site.img_url }}thumbnails/blog/{{ post.custom_thumbnail_name }}.png">
+        <img loading="lazy" src="{{ site.img_url }}thumbnails/blog/{{ post.custom_thumbnail_name }}.jpg">
         {% endif %}
         {% if post.progress_update == true %}
         <span class="absolute text-white right-0 bottom-0 pr-3 pb-3" style="font-size: 3.1rem; font-weight: 800;">#{{ post.title | slice: 2, 2 }}</span>
@@ -32,7 +32,7 @@
           <div class="flex-shrink-0 right-0 absolute right-0">
             <div class="flex ">
               <span class="transform hover:scale-110 duration-150 ease-in-out" tooltip="{{ post.author | capitalize }}">
-                <img class="inline-block h-6 w-6 rounded-full text-white shadow-solid border-2 border-transparent" src="{{ site.img_url }}profiles/{{ post.author | downcase }}.png" alt="{{ post.author | capitalize }}">
+                <img loading="lazy" class="inline-block h-6 w-6 rounded-full text-white shadow-solid border-2 border-transparent" src="{{ site.img_url }}profiles/{{ post.author | downcase }}.png" alt="{{ post.author | capitalize }}">
               </span>
             </div>
           </div>

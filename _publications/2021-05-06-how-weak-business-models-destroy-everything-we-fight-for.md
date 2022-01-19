@@ -154,7 +154,7 @@ I am not here to take take away anything from all the amazing work they do, but 
 
 ###### A Chain Breaks At Its Weakest Link - So Let's Investigate Signal & Money
 
-![image displays a chain with many strong links (no meta-data, security, usability) but still breaking at its weak link (business-model))](/assets/img/blog/breaking_chain.png)
+![image displays a chain with many strong links (no meta-data, security, usability) but still breaking at its weak link (business-model))](/assets/img/blog/breaking_chain.jpg)
 
 ### The Initial $50M Gave Signal the Freedom to Not Worry About Money
 

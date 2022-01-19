@@ -2,9 +2,9 @@
   <div class="block transform hover:scale-95 duration-150 ease-in-out">
     <a href="{{ video.url }}">
       {% if video.custom_thumbnail_name == null %}.
-        <img src="{{ site.img_url }}thumbnails/video/placeholder.png" alt="">
+        <img loading="lazy" src="{{ site.img_url }}thumbnails/video/placeholder.jpg" alt="">
       {% else %}
-        <img src="{{ site.img_url }}thumbnails/video/{{ video.custom_thumbnail_name }}.png" alt="">
+        <img loading="lazy" src="{{ site.img_url }}thumbnails/video/{{ video.custom_thumbnail_name }}.jpg" alt="">
       {% endif %}
       <span style="font-size: 12rem; font-weight: 800; margin-top: -13.8rem; margin-left: -0.8rem;" class=" z-0 absolute bg-top">
         <button type="button" style="background-color: #6188ff;" class="inline-flex items-center px-4 py-4 rounded-md border border-transparent text-xs leading-5 font-extrabold  text-white">
