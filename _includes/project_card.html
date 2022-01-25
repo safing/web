@@ -18,7 +18,7 @@
               {% elsif include.state == 'backlog' %}
                 <i class="icon-files text-gray-800"></i>
               {% endif %}
-              <h1 class="title">{{ card.title }}</h1>
+              <h3 class="title">{{ card.title }}</h3>
           </div>
       </div>
       <div class="wrapper-right">
@@ -35,7 +35,7 @@
   <input class="card-input-toggle" id="card{{ include.state | prepend: '-' }}{{ include.project | prepend: '-' }}-{{ forloop.index }}" type="checkbox">
   <div class="card-dropdown-toggle">
       <div class="card-dropdown-content">
-        <h5>The Assignment:</h5>
+        <h4>The Assignment:</h4>
         <br/>
         {% for paragraph in card.description %}
           <p>{{ paragraph }}</p>
