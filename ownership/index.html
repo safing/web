@@ -45,6 +45,8 @@ redirect_from:
           <a class="btn-secondary" href="#">Discover the portmaster</a>
       </div>
   </div>
+
+
   <div class="influence-container">
       <div class="influence-container-top">
           <div class="influence-container-top-title-date">
@@ -68,7 +70,7 @@ redirect_from:
           <div class="card-influence">
             <div class="card-influence-top ">
                 <div class="card-influence-title-date">
-                    <span class="card-influence-title">{{ influence.name }}</span>
+                    <span class="card-influence-top-title">{{ influence.name }}</span>
                     <span class="card-influence-top-date">{{ influence.timespan }}</span>
                 </div>
                 <p class="card-influence-top-desc">
@@ -79,10 +81,10 @@ redirect_from:
             </div>
             <div class="card-influence-bottom">
               {% for year in influence.years %}
-                <div class="card-influence-funding">
-                  <span class="card-influence-date">{{ year.year }}</span>
+                <div class="card-influence-bottom-funding">
+                  <span class="card-influence-bottom-funding-date">{{ year.year }}</span>
                   {% for item in year.items %}
-                    <span class="card-influence-amount">
+                    <span class="card-influence-bottom-funding-amount">
                       {% if item.custom != null %}
                         <span>{{ item.custom }}</span>
                       {% else %}
