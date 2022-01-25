@@ -6,39 +6,46 @@ layout: page
 
 <section class="space-y-80">
 
-  <div class="download-container max-w-4xl ">
-      <h2 class="download-container-title">
-          Support
-      </h2>
-      <p class="download-container-extra">
-          What do you need help with?
-      </p>
-      <div class="download-container-buttons">
-          <a class="btn-secondary" href="#portmaster"><i class="icon-twitter text-xs mr-2"></i>Portmaster</a>
-          <a class="btn-secondary" href="#spn"><i class="icon-twitter text-xs mr-2"></i>SPN</a>
-      </div>
+
+
+
+  <div class="download-container">
+    <h2 class="download-container-title">Support</h2>
+    <p class="download-container-extra">
+      What do you need help with?
+    </p>
+    <div class="col-container-center w-full md:w-max text-center md:text-left">
+      <a class="btn-secondary" href="{{ site.download_windows_url }}"><i class="icon-windows text-md mr-2"></i>Windows 10 + 11</a>
+      <a class="btn-secondary" href="{{ site.download_linux_deb_url }}"><i class="icon-ubuntu text-md mr-2"></i>Ubuntu</a>
+    </div>
   </div>
+
+
+  
+
   <div class="space-y-36" id="portmaster">
-      <div class="download-container max-w-4xl ">
-          <h2 class="download-container-title">
-              Portmaster
-          </h2>
-          <div class="alert-primary max-w-3xl mx-auto">
-              <i class="icon-twitter text-xs"></i>
-              <span>Portmaster is Alpha Software, thanks for being an Early Adopter. Bug reports are appreciated. </span>
-          </div>
-          <div class="download-container-buttons">
-              <a class="btn-secondary" href="#"><i class="icon-twitter text-xs mr-2"></i>View Documentation</a>
-              <a class="btn-secondary" href="#"><i class="icon-twitter text-xs mr-2"></i>Report Issuse</a>
-              <a class="btn-secondary" href="#"><i class="icon-twitter text-xs mr-2"></i>Ask On Reddit</a>
-              <a class="btn-secondary" href="#"><i class="icon-twitter text-xs mr-2"></i>Contact Us</a>
-          </div>
+      <div class="download-container">
+        <h2 class="download-container-title">
+          Portmaster
+        </h2>
+        <div class="space-y-8 max-w-3xl mx-auto">
           <p class="download-container-extra">
-              For common problems check out our documentation with extensive guides on
-              installation, DNS Configuration and the Settings Handbook, describing every
-              Portmaster setting in detail. Report issues and bugs on GitHub while you can
-              always ask for more help on our subreddit or via mail.
+            For common problems check out our documentation with extensive guides on
+            installation, DNS Configuration and the Settings Handbook, describing every
+            Portmaster setting in detail. Report issues and bugs on GitHub while you can
+            always ask for more help on our subreddit or via mail.
           </p>
+          <div class="alert-primary">
+              <i class="icon-twitter text-xs"></i>
+              <span>Portmaster is Alpha Software, treat as such; expect bugs here and there. Early Adopters welcome.</span>
+          </div>
+        </div>
+        <div class="col-container-center w-full md:w-max text-center md:text-left">
+          <a class="btn-secondary" href="{{ site.download_windows_url }}"><i class="icon-windows text-md mr-2"></i>Windows 10 + 11</a>
+          <a class="btn-secondary" href="{{ site.download_linux_deb_url }}"><i class="icon-ubuntu text-md mr-2"></i>Ubuntu</a>
+          <a class="btn-secondary" href="{{ site.download_linux_rpm_url }}"><i class="icon-fedora text-md mr-2"></i>Fedora</a>
+          <a disabled class="btn" href="#"><i class="icon-mac text-md mr-2"></i>Macos (Not supported)</a>
+        </div>
       </div>
       <div class="faq-container">
         <div class="faq-container-top">
@@ -46,98 +53,130 @@ layout: page
                 FAQ
             </span>
             <p class="faq-container-top-desc">
-                You have a question? We answered some already, but you
-                can always contact us at <a class="link-primary" href="">hello@safing.io</a>
+              Have a question? Check out some we already answered below. You can always reach out to us to find out more or just to say hi. 
             </p>
         </div>
         <div class="faq-container-bottom">
           {% for faq in site.data.faq.portmaster %}
             <div class="faq-container-bottom-question">
-              <h1 class="faq-container-bottom-question-title">
-                {{ faq.q }}
-              </h1>
-              <p class="faq-container-bottom-question-desc">
-                {{ faq.a }}
-              </p>
-              <div class="faq-container-bottom-question-desc-extra">
-                {% if faq.link %}
-                  <a class="link-primary" href="{{ faq.link.url }}">{{ faq.link.text }}</a>
-                {% endif %}
-              </div>
+                <div class="card-faq hover-scale-out">
+                    <label class="card-label" for="card-toggle-anchor-2">
+                        <div class="wrapper-left">
+                            <div class="card-title">
+                                <h1 class="title">
+                                  {{ faq.q }}
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="wrapper-right">
+                            <i class="icon-arrow"></i>
+                        </div>
+                    </label>
+                    <input class="card-input-toggle" id="card-toggle-anchor-2" type="checkbox">
+                    <div class="card-dropdown-toggle">
+                        <div class="card-dropdown-content">
+                          {{ faq.a }}
+                          {% if faq.link %}
+                            <br>
+                            <br>
+                            <a class="link-primary" href="{{ faq.link.url }}">{{ faq.link.text }}</a>
+                          {% endif %}
+                        </div>
+                    </div>
+                </div>
             </div>
           {% endfor %}
           <div class="faq-container-bottom-question">
-            <h1 class="faq-container-bottom-question-title">
-                Where can I find your source code?
-            </h1>
-            <p class="faq-container-bottom-question-desc">
-                You can find our code on <a class="link-primary" href="">Github. The Portmaster</a>, the <a class="link-primary" href="">Portmaster UI</a>, the <a class="link-primary" href="">SPN</a>, the <a class="link-primary" href="">docs</a>
-                and <a class="link-primary" href="">this website</a> have their respective repositories. <a class="link-primary" href="">Jess</a>, the heart of the SPN, which
-                got audited by Cure53, can also be found online.
-            </p>
-          </div>
+            <div class="card-faq hover-scale-out">
+                <label class="card-label" for="card-toggle-anchor-2">
+                    <div class="wrapper-left">
+                        <div class="card-title">
+                            <h1 class="title">
+                              Where can I find your source code?
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="wrapper-right">
+                        <i class="icon-arrow"></i>
+                    </div>
+                </label>
+                <input class="card-input-toggle" id="card-toggle-anchor-2" type="checkbox">
+                <div class="card-dropdown-toggle">
+                    <div class="card-dropdown-content">
+                      You can find our code on <a class="link-primary" href="">Github. The Portmaster</a>, the <a class="link-primary" href="">Portmaster UI</a>, the <a class="link-primary" href="">SPN</a>, the <a class="link-primary" href="">docs</a>
+                      and <a class="link-primary" href="">this website</a> have their respective repositories. <a class="link-primary" href="">Jess</a>, the heart of the SPN, which
+                      got audited by Cure53, can also be found online.
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
   </div>
-  <div class="space-y-36" id="spn">
-      <div class="download-container max-w-4xl ">
-          <h2 class="download-container-title">
-              Safing Privacy Network
-          </h2>
-          <div class="alert-primary max-w-3xl mx-auto">
-              <i class="icon-twitter text-xs"></i>
-              <span>
-                If you want to know more about the technology, visit 
-                <a class="link" href="{{ site.spn_url }}">the SPN page</a>, 
-                <a class="link" href="{{ site.kickstarter_url }}">the Kickstarter</a> 
-                or 
-                <a class="link" href="{{ site.whitepaper_url }}">read our Whitepaper</a>.
-                Otherwise, feel free to contact us with any matter or request you might have. 
-              </span>
-          </div>
-          <div class="download-container-buttons">
-              <a class="btn-secondary" href="#"><i class="icon-twitter text-xs mr-2"></i>View SPN Repository</a>
-              <a class="btn-secondary" href="#"><i class="icon-twitter text-xs mr-2"></i>Ask On Reddit</a>
-              <a class="btn-secondary" href="#"><i class="icon-twitter text-xs mr-2"></i>Contact Us</a>
-          </div>
+
+
+
+  <div class="space-y-36" id="portmaster">
+    <div class="download-container">
+      <h2 class="download-container-title">
+        Safing Privacy Network 
+      </h2>
+      <div class="alert-primary max-w-3xl mx-auto">
+        <i class="icon-twitter text-xs"></i>
+        <span>
+          If you want to know more about the technology, visit 
+          <a class="link" href="{{ site.spn_url }}">the SPN page</a>, 
+          <a class="link" href="{{ site.kickstarter_url }}">the Kickstarter</a> 
+          or 
+          <a class="link" href="{{ site.whitepaper_url }}">read our Whitepaper</a>.
+          Otherwise, feel free to contact us with any matter or request you might have. 
+        </span>
       </div>
-      <div class="faq-container">
-        <div class="faq-container-top">
-            <span class="faq-container-top-title">
-                FAQ
-            </span>
-            <p class="faq-container-top-desc">
-                You have a question? We answered some already, but you
-                can always contact us at <a class="link-primary" href="">hello@safing.io</a>
-            </p>
-        </div>
-        <div class="faq-container-bottom">
-          {% for faq in site.data.faq.spn %}
-            <div class="faq-container-bottom-question">
-              <h1 class="faq-container-bottom-question-title">
-                {{ faq.q }}
-              </h1>
-              <p class="faq-container-bottom-question-desc">
-                {{ faq.a }}
-              </p>
-              <div class="faq-container-bottom-question-desc-extra">
-                {% if faq.link %}
-                  <a class="link-primary" href="{{ faq.link.url }}">{{ faq.link.text }}</a>
-                {% endif %}
-              </div>
-            </div>
-          {% endfor %}
+      <div class="col-container-center w-full md:w-max text-center md:text-left">
+        <a class="btn-secondary" href="{{ site.download_windows_url }}"><i class="icon-windows text-md mr-2"></i>Windows 10 + 11</a>
+        <a class="btn-secondary" href="{{ site.download_linux_deb_url }}"><i class="icon-ubuntu text-md mr-2"></i>Ubuntu</a>
+        <a class="btn-secondary" href="{{ site.download_linux_rpm_url }}"><i class="icon-fedora text-md mr-2"></i>Fedora</a>
+        <a disabled class="btn" href="#"><i class="icon-mac text-md mr-2"></i>Macos (Not supported)</a>
+      </div>
+    </div>
+    <div class="faq-container">
+      <div class="faq-container-top">
+          <span class="faq-container-top-title">
+              FAQ
+          </span>
+          <p class="faq-container-top-desc">
+            Have a question? Check out some we already answered below. You can always reach out to us to find out more or just to say hi. 
+          </p>
+      </div>
+      <div class="faq-container-bottom">
+        {% for faq in site.data.faq.spn %}
           <div class="faq-container-bottom-question">
-            <h1 class="faq-container-bottom-question-title">
-                Where can I find your source code?
-            </h1>
-            <p class="faq-container-bottom-question-desc">
-                You can find our code on <a class="link-primary" href="">Github. The Portmaster</a>, the <a class="link-primary" href="">Portmaster UI</a>, the <a class="link-primary" href="">SPN</a>, the <a class="link-primary" href="">docs</a>
-                and <a class="link-primary" href="">this website</a> have their respective repositories. <a class="link-primary" href="">Jess</a>, the heart of the SPN, which
-                got audited by Cure53, can also be found online.
-            </p>
+              <div class="card-faq hover-scale-out">
+                  <label class="card-label" for="card-toggle-anchor-2">
+                      <div class="wrapper-left">
+                          <div class="card-title">
+                              <h1 class="title">
+                                {{ faq.q }}
+                              </h1>
+                          </div>
+                      </div>
+                      <div class="wrapper-right">
+                          <i class="icon-arrow"></i>
+                      </div>
+                  </label>
+                  <input class="card-input-toggle" id="card-toggle-anchor-2" type="checkbox">
+                  <div class="card-dropdown-toggle">
+                      <div class="card-dropdown-content">
+                        {{ faq.a }}
+                        {% if faq.link %}
+                          <br>
+                          <br>
+                          <a class="link-primary" href="{{ faq.link.url }}">{{ faq.link.text }}</a>
+                        {% endif %}
+                      </div>
+                  </div>
+              </div>
           </div>
-        </div>
-      </div>
+        {% endfor %}
+    </div>
   </div>
 </section>
