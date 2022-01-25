@@ -172,42 +172,69 @@ layout: page
             </div>
         </div>
         <div class="faq-container">
-          <div class="faq-container-top">
-              <span class="faq-container-top-title">
-                  FAQ
-              </span>
-              <p class="faq-container-top-desc">
-                  You have a question? We answered some already, but you
-                  can always contact us at <a class="link-primary" href="">hello@safing.io</a>
-              </p>
-          </div>
-          <div class="faq-container-bottom">
-            {% for faq in site.data.faq.spn %}
-              <div class="faq-container-bottom-question">
-                <h1 class="faq-container-bottom-question-title">
-                  {{ faq.q }}
-                </h1>
-                <p class="faq-container-bottom-question-desc">
-                  {{ faq.a }}
+            <div class="faq-container-top">
+                <span class="faq-container-top-title">
+                    FAQ
+                </span>
+                <p class="faq-container-top-desc">
+                    You have a question? We answered some already, but you
+                    can always contact us at <a class="link-primary" href="">hello@safing.io</a>
                 </p>
-                <div class="faq-container-bottom-question-desc-extra">
-                  {% if faq.link %}
-                    <a class="link-primary" href="{{ faq.link.url }}">{{ faq.link.text }}</a>
-                  {% endif %}
-                </div>
-              </div>
-            {% endfor %}
-            <div class="faq-container-bottom-question">
-              <h1 class="faq-container-bottom-question-title">
-                  Where can I find your source code?
-              </h1>
-              <p class="faq-container-bottom-question-desc">
-                  You can find our code on <a class="link-primary" href="">Github. The Portmaster</a>, the <a class="link-primary" href="">Portmaster UI</a>, the <a class="link-primary" href="">SPN</a>, the <a class="link-primary" href="">docs</a>
-                  and <a class="link-primary" href="">this website</a> have their respective repositories. <a class="link-primary" href="">Jess</a>, the heart of the SPN, which
-                  got audited by Cure53, can also be found online.
-              </p>
             </div>
-          </div>
+            <div class="faq-container-bottom">
+              {% for faq in site.data.faq.spn %}
+                <div class="faq-container-bottom-question">
+                    <div class="card-faq hover-scale-out">
+                        <label class="card-label" for="card-toggle-anchor-2">
+                            <div class="wrapper-left">
+                                <div class="card-title">
+                                    <h1 class="title">
+                                      {{ faq.q }}
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="wrapper-right">
+                                <i class="icon-arrow"></i>
+                            </div>
+                        </label>
+                        <input class="card-input-toggle" id="card-toggle-anchor-2" type="checkbox">
+                        <div class="card-dropdown-toggle">
+                            <div class="card-dropdown-content">
+                              {{ faq.a }}
+                              {% if faq.link %}
+                                <br>
+                                <br>
+                                <a class="link-primary" href="{{ faq.link.url }}">{{ faq.link.text }}</a>
+                              {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              {% endfor %}
+              <div class="faq-container-bottom-question">
+                <div class="card-faq hover-scale-out">
+                    <label class="card-label" for="card-toggle-anchor-2">
+                        <div class="wrapper-left">
+                            <div class="card-title">
+                                <h1 class="title">
+                                  Where can I find your source code?
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="wrapper-right">
+                            <i class="icon-arrow"></i>
+                        </div>
+                    </label>
+                    <input class="card-input-toggle" id="card-toggle-anchor-2" type="checkbox">
+                    <div class="card-dropdown-toggle">
+                        <div class="card-dropdown-content">
+                          You can find our code on <a class="link-primary" href="">Github. The Portmaster</a>, the <a class="link-primary" href="">Portmaster UI</a>, the <a class="link-primary" href="">SPN</a>, the <a class="link-primary" href="">docs</a>
+                          and <a class="link-primary" href="">this website</a> have their respective repositories. <a class="link-primary" href="">Jess</a>, the heart of the SPN, which
+                          got audited by Cure53, can also be found online.
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
