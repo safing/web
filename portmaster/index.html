@@ -19,7 +19,7 @@ redirect_from:
           you back in charge over all your computer's network
           connections.
       </p>
-      <a class="btn-secondary" href="#downloads">Take back your freedom</a>
+      <a class="btn-secondary" href="#download">Download for free</a>
   </div>
   <div class="header-two-bottom">
       <img src="{{ site.img_url }}page-specific/portmaster/full-interface.png" alt="">
@@ -60,7 +60,6 @@ redirect_from:
             connection your applications make and detect evil ones. Finally get 
             the power to act accordingly. 
           </p>
-          <a class="btn-secondary" href="#">Discover the portmaster</a>
       </div>
   </div>
   <div class="showcase-container">
@@ -79,7 +78,6 @@ redirect_from:
           Many programs connect to the Internet without your knowledge. When you 
           find unwanted connections, you can now simply block them. 
         </p>
-        <a class="btn-secondary" href="#">Discover the portmaster</a>
     </div>
   </div>
   <div class="showcase-container-reverse">
@@ -99,7 +97,6 @@ redirect_from:
             which are also used by Ad-Blockers, etc. Easily change the defaults to fit 
             your needs. 
           </p>
-          <a class="btn-secondary" href="#">Discover the portmaster</a>
       </div>
   </div>
   <div class="showcase-container">
@@ -119,7 +116,6 @@ redirect_from:
           out in the open. With the Portmaster, you can easily re-route all your dns 
           queries to a DNS-over-TLS provider of your choice. 
         </p>
-        <a class="btn-secondary" href="#">Discover the portmaster</a>
     </div>
   </div>
   <div class="showcase-container-reverse">
@@ -139,7 +135,10 @@ redirect_from:
           it is really doing? We believe in open source. We also document everything 
           as good as we can. 
         </p>
-        <a class="btn-secondary" href="#">Discover the portmaster</a>
+        <div class="col-container w-full text-left md:text-center lg:w-max lg:text-left">
+          <a class="btn-secondary" href="#">Checkout the docs</a>
+          <a class="btn-tertiary hover-opacity-out" href="#"><i class="icon-github text-md mr-2"></i>Inspect source code</a>
+        </div>
     </div>
   </div>
   <div class="showcase-container">
@@ -183,7 +182,7 @@ redirect_from:
           <a class="btn-secondary" href="#">Discover the portmaster</a>
       </div>
   </div>
-  <div class="download-container">
+  <div class="download-container" id="download">
     <h2 class="download-container-title">
         Download
     </h2>
@@ -213,9 +212,6 @@ redirect_from:
     </div>
     <div class="faq-container-bottom">
       {% for faq in site.data.faq.portmaster %}
-
-        
-
         <div class="faq-container-bottom-question">
             <div class="card-faq hover-scale-out">
                 <label class="card-label" for="card-toggle-anchor-{{ forloop.index }}">
