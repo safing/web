@@ -213,9 +213,12 @@ redirect_from:
     </div>
     <div class="faq-container-bottom">
       {% for faq in site.data.faq.portmaster %}
+
+        
+
         <div class="faq-container-bottom-question">
             <div class="card-faq hover-scale-out">
-                <label class="card-label" for="card-toggle-anchor-2">
+                <label class="card-label" for="card-toggle-anchor-{{ forloop.index }}">
                     <div class="wrapper-left">
                         <div class="card-title">
                             <h1 class="title">
@@ -227,7 +230,7 @@ redirect_from:
                         <i class="icon-arrow"></i>
                     </div>
                 </label>
-                <input class="card-input-toggle" id="card-toggle-anchor-2" type="checkbox">
+                <input class="card-input-toggle" id="card-toggle-anchor-{{ forloop.index }}" type="checkbox">
                 <div class="card-dropdown-toggle">
                     <div class="card-dropdown-content">
                       {{ faq.a }}
@@ -243,7 +246,7 @@ redirect_from:
       {% endfor %}
       <div class="faq-container-bottom-question">
         <div class="card-faq hover-scale-out">
-            <label class="card-label" for="card-toggle-anchor-2">
+            <label class="card-label" for="card-toggle-anchor-0">
                 <div class="wrapper-left">
                     <div class="card-title">
                         <h1 class="title">
@@ -255,7 +258,7 @@ redirect_from:
                     <i class="icon-arrow"></i>
                 </div>
             </label>
-            <input class="card-input-toggle" id="card-toggle-anchor-2" type="checkbox">
+            <input class="card-input-toggle" id="card-toggle-anchor-0" type="checkbox">
             <div class="card-dropdown-toggle">
                 <div class="card-dropdown-content">
                   You can find our code on <a class="link-primary" href="">Github. The Portmaster</a>, the <a class="link-primary" href="">Portmaster UI</a>, the <a class="link-primary" href="">SPN</a>, the <a class="link-primary" href="">docs</a>
