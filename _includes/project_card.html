@@ -6,11 +6,6 @@
               {% include tag.html tag=tag %}
             {% endfor %}
           </div>
-          <!-- <div class="tag-list">
-              <span class="tag-spn">
-                  SPN
-              </span>
-          </div> -->
           <div class="card-title">
               {% if include.state == 'done' %}
                 <i class="icon-tick text-green-500"></i>
@@ -40,7 +35,7 @@
   <input class="card-input-toggle" id="card{{ include.state | prepend: '-' }}{{ include.project | prepend: '-' }}-{{ forloop.index }}" type="checkbox">
   <div class="card-dropdown-toggle">
       <div class="card-dropdown-content">
-        <p>The Assignment:</p>
+        <h5>The Assignment:</h5>
         <br/>
         {% for paragraph in card.description %}
           <p>{{ paragraph }}</p>
