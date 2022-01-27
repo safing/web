@@ -2,42 +2,40 @@
 layout: page_container
 ---
 
-<div class="text-center">
-    <h1 >{{ page.title }}</h1>
+<div class="header-four-container">
+    <h1 class="header-four-container-title">{{ page.title }}</h1>
     {% if page.summary %}
-      <p class="text-left max-w-2xl mx-auto" >
+      <p class="header-four-container-desc">
         {{ page.summary | markdownify | remove: "<p>" | remove: "</p>" }}
       </p>
     {% endif %}
-    <p>{{ page.date | date: "%B %-d, %Y" }} • Written by <a href="{{ site.team_url }}#{{ page.author | slugify }}">{{ page.author | capitalize }}</a></p>
-    <div class="flex mx-auto justify-center pt-5">
-      <a href="{{ site.twitter_url }}" class="opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
-        <img style="height: 1.1rem; width: auto;" src="{{ site.img_url }}icons/twitter.svg">
-      </a>
-      <a href="{{ site.github_url }}" class="pl-4 pr-4  opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
-        <img style="height: 1.19rem; width: auto;" src="{{ site.img_url }}icons/github.svg">
-      </a>
-      <a href="{{ site.reddit_url }}" class="opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
-        <img style="height: 1.18rem; width: auto;" src="{{ site.img_url }}icons/reddit.svg">
-      </a>
+    <span class="header-four-container-title-author">
+        May 6, 2021 • Written by <a class="link-primary" href="/team/#david">David</a>
+    </span>
+    <div class="header-four-container-social">
+        <a class="link hover-opacity-in" href="{{ site.twitter_url }}"><i class="icon-twitter text-lg"></i></a>
+        <a class="link hover-opacity-in" href="{{ site.github_url }}"><i class="icon-github text-xl"></i></a>
+        <a class="link hover-opacity-in" href="{{ site.reddit_url }}"><i class="icon-reddit text-xl"></i></a>
     </div>
 </div>
-
-{% if page.progress_update %}
-<div class="progress-update">
-{% else %}
-<div class="content" id="blog">
-{% endif %}
+<div class="markdown-container">
   {{ content | replace: '<!--break-->', '<a class="anchor" id="continue"></a>' }}
   {% if page.progress_update == null %}
     <p>{{ page.date | date: "%B %-d, %Y" }} • Written by <a href="{{ site.team_url }}#{{ page.author | slugify }}">{{ page.author | capitalize }}</a></p>
   {% endif %}
 </div>
-
-<hr>
+<div class="horizontal-line element-x-center max-w-4xl mt-0"></div>
 
 {% if page.portmaster_plug == true %}
   {% include portmaster_plug.html %}
 {% endif %}
 
 {% include next_previous_item.html %}
+
+<!-- 
+{% if page.progress_update %}
+  <div class="progress-update">
+{% else %}
+  <div class="content" id="blog">
+{% endif %}
+ -->
