@@ -1,28 +1,24 @@
 ---
 layout: page_container
-container_class: "podcast pt-40 lg:pt-40"
 ---
 
-<div class="text-center">
+<div class="header-four-container">
   {% assign title_length = page.title | size %}
-  <span style="font-size: 12rem; font-weight: 800; margin-top: -9rem; opacity: 0.05;" class="z-0 ml-0 w-full left-0 text-center absolute bg-top">#{{ page.title | slice: 2, 2 }}</span>
-  <h1 style="padding-top: 1.5em;">{{ page.title | slice: 7, title_length }}</h1>
-  <p>{{ page.date | date: "%B %-d, %Y" }}</p>
-  <div class="flex mx-auto justify-center pt-5">
-    <a href="{{ site.twitter_url }}" class="opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
-      <img style="height: 1.1rem; width: auto;" src="{{ site.img_url }}icons/twitter.svg">
-    </a>
-    <a href="{{ site.github_url }}" class="pl-4 pr-4  opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
-      <img style="height: 1.19rem; width: auto;" src="{{ site.img_url }}icons/github.svg">
-    </a>
-    <a href="{{ site.reddit_url }}" class="opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
-      <img style="height: 1.18rem; width: auto;" src="{{ site.img_url }}icons/reddit.svg">
-    </a>
+  <span class="header-four-container-counter">#{{ page.title | slice: 2, 2 }}</span>
+  <h1 class="header-four-container-title">{{ page.title | slice: 7, title_length }}</h1>
+  <p class="header-four-container-desc">{{ page.date | date: "%B %-d, %Y" }}</p>
+  <div class="header-four-container-social">
+      <a class="link hover-opacity-in" href="{{ site.twitter_url }}"><i class="icon-twitter text-lg"></i></a>
+      <a class="link hover-opacity-in" href="{{ site.github_url }}"><i class="icon-github text-xl"></i></a>
+      <a class="link hover-opacity-in" href="{{ site.reddit_url }}"><i class="icon-reddit text-xl"></i></a>
   </div>
 </div>
-<div class="content">
+<div class="markdown-container">
   {{ content | replace: '<!--break-->', '<a class="anchor" id="continue"></a>' }}
   <h3>Description</h3>
   {{ page.summary }}
+</div>
+
+<div class="horizontal-line element-x-center max-w-4xl mt-0"></div>
 
 {% include next_previous_item.html %}
