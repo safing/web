@@ -5,7 +5,7 @@ layout:   blog
 title: "Reminder: Free Period Ends February, 1st"
 date: 2022-01-31
 author: david
-custom_thumbnail_name: spn-reaches-alpha
+custom_thumbnail_name: placeholder-announcement
 ---
 
 Just a quick reminder to all SPN customers. Your free period will end tomorrow, February 1st, 2022.
