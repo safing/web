@@ -1,19 +1,19 @@
 <a class="card-blog" href="{{ episode.url }}">
   <div class="card-blog-thumbnail">
       {% if episode.custom_thumbnail_name == null %}
-        <img 
+        <img
           src="{{ site.img_url }}thumbnails/podcast/placeholder.png"
           style="max-width: 365px; max-height: 223px;"
         >
       {% else %}
-        <img 
+        <img
           src="{{ site.img_url }}thumbnails/podcast/{{ episode.custom_thumbnail_name }}.jpg"
           style="max-width: 365px; max-height: 223px;"
         >
       {% endif %}
       <span class="counter">#{{ episode.title | slice: 2, 2 }}</span>
       <span class="box-icon">
-        <i class="icon-play text-xl"></i>
+        <i class="icon-mic text-xl"></i>
       </span>
   </div>
   <div class="card-blog-content" style="max-width: 365px;">
