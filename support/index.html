@@ -78,30 +78,7 @@ layout: page
                 </div>
             </div>
           {% endfor %}
-          <div class="faq-container-bottom-question">
-            <div class="card-faq hover-scale-out">
-                <label class="card-label" for="card-toggle-anchor-portmaster-0">
-                    <div class="wrapper-left">
-                        <div class="card-title">
-                            <h3 class="title">
-                              Where can I find your source code?
-                            </h3>
-                        </div>
-                    </div>
-                    <div class="wrapper-right">
-                        <i class="icon-arrow"></i>
-                    </div>
-                </label>
-                <input class="card-input-toggle" id="card-toggle-anchor-portmaster-0" type="checkbox">
-                <div class="card-dropdown-toggle">
-                    <div class="card-dropdown-content">
-                      You can find our code on <a class="link-primary" href="">Github. The Portmaster</a>, the <a class="link-primary" href="">Portmaster UI</a>, the <a class="link-primary" href="">SPN</a>, the <a class="link-primary" href="">docs</a>
-                      and <a class="link-primary" href="">this website</a> have their respective repositories. <a class="link-primary" href="">Jess</a>, the heart of the SPN, which
-                      got audited by Cure53, can also be found online.
-                    </div>
-                </div>
-            </div>
-        </div>
+          {% include source_code_faq.html %}
       </div>
   </div>
   <div class="space-y-36" id="portmaster">
@@ -166,6 +143,7 @@ layout: page
               </div>
           </div>
         {% endfor %}
+        {% include source_code_faq.html faq_id='spn-0'%}
     </div>
   </div>
 </section>
