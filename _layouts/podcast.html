@@ -13,12 +13,9 @@ layout: page_container
       <a class="link hover-opacity-in" href="{{ site.reddit_url }}"><i class="icon-reddit text-xl"></i></a>
   </div>
 </div>
+
 <div class="markdown-container">
   {{ content | replace: '<!--break-->', '<a class="anchor" id="continue"></a>' }}
   <h3>Description</h3>
   {{ page.summary }}
 </div>
-
-<div class="horizontal-line element-x-center max-w-4xl mt-0"></div>
-
-{% include next_previous_item.html %}
