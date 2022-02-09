@@ -1,0 +1,11 @@
+.general-layout {
+    margin-top: 10rem;
+    margin-bottom: 15rem;
+}
+
+.general-layout > div:first-child {
+    margin-top: 0;
+} 
+.general-layout > div {
+    margin-top: 15rem;
+} 
