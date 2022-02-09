@@ -33,12 +33,10 @@ It was fun getting to dive into this area from an employers perspective. So far 
 
 ### Then Luke Appeared on the Scene
 
-<div class="notification-podcast">
-  <img src="{{ site.img_url }}icons/mic.svg">
-  <a href="/podcast/2019/11/29/hiring-a-designer-from-the-privacy-community/">
-    <p>
-      Listen to the accompanying podcast where Luke talks about his side of the story
-    </p>
+<div class="alert-primary">
+  <i class="icon-mic text-lg"></i>  
+  <a class="underline hover-opacity-in" href="/podcast/2019/11/29/hiring-a-designer-from-the-privacy-community/">
+    Listen to the accompanying podcast where Luke talks about his side of the story
   </a>
 </div>
 

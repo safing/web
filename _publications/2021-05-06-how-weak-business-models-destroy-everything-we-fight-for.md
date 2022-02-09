@@ -34,12 +34,10 @@ And before we move on, let me be clear: all of these costs do not have to be cov
 
 ## How To Evaluate A Healthy Privacy Company
 
-<div class="notification-podcast">
-  <img src="{{ site.img_url }}icons/mic.svg">
-  <a href="/podcast/2021/05/06/how-weak-business-models-corrupt-privacy-projects/">
-    <p>
-      Enjoy Podcasts? Privacy YouTuber "TheHatedOne" and I got together to discuss this topic in-depth.
-    </p>
+<div class="alert-primary">
+  <i class="icon-mic text-lg"></i>  
+  <a class="underline hover-opacity-in" href="/podcast/2021/05/06/how-weak-business-models-corrupt-privacy-projects">
+    Enjoy Podcasts? Privacy YouTuber "TheHatedOne" and I got together to discuss this topic in-depth.
   </a>
 </div>
 
@@ -189,12 +187,10 @@ Transparency is key, and here Signal sadly is not open about their current state
 
 Earlier this year, Signal announced plans to implement cryptocurrency payments into its messenger via MobileCoin. This stirred a lot of worry and uncertainty within the community.
 
-<div class="notification-podcast">
-  <img src="{{ site.img_url }}icons/mic.svg">
-  <a href="/podcast/2021/05/06/how-weak-business-models-corrupt-privacy-projects/">
-    <p>
-      Privacy YouTuber "TheHatedOne" and I talk extensively about the MobileCoin situation. Tune into that episode for more details
-    </p>
+<div class="alert-primary">
+  <i class="icon-mic text-lg"></i>  
+  <a class="underline hover-opacity-in" href="/podcast/2021/05/06/how-weak-business-models-corrupt-privacy-projects">
+    Privacy YouTuber "TheHatedOne" and I talk extensively about the MobileCoin situation. Tune into that episode for more details
   </a>
 </div>
 
