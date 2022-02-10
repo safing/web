@@ -1,0 +1,14 @@
+---
+layout: page
+---
+
+<section class="publication-layout">
+  <div class="markdown-container max-w-5xl">
+    {% unless page.heading == null %}
+    <h1 class="font-extrabold">
+      {{ page.heading }}
+    </h1>
+    {% endunless %}
+    {{ content }}
+  </div>
+</section>
