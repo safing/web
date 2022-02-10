@@ -6,6 +6,15 @@
 .general-layout > div:first-child {
     margin-top: 0;
 } 
+
 .general-layout > div {
     margin-top: 15rem;
+}
+
+.general-layout.spacing-sm > div {
+	margin-top: 8rem;
 } 
+
+.general-layout.spacing-xl > div {
+	margin-top: 24rem;
+}
