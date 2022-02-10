@@ -13,7 +13,7 @@ spn:
     a: The SPN is heavily inspired by Tor, but the mission is different. Next to tightly integrating with other privacy modules, the main focus of the SPN is easy protection for your whole computer, not just your browser. Additionally it spreads your connections across the globe instead of routing everything through the same circuit.
     link:
       text: Read our comparison blog to find out more.
-      url: https://safing.io/blog/2020/01/22/how-the-spn-compares-to-tor/
+      url: /blog/2020/01/22/how-the-spn-compares-to-tor/
   - q: How does the SPN compare to VPNs?
     a: The VPN technology was built to securely connect two company locations. However, the SPN was developed from the ground up to protect user privacy. As a result the SPN can easily outperform VPNs in every aspect.
     link:
