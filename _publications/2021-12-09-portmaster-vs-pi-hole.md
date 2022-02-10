@@ -12,89 +12,102 @@ summary: Both Portmaster and Pi-hole are free and open source privacy tools. The
 
 ## Overview Chart
 
-<div class="table">
-  <table>
-    <colgroup>
-      <col>
-      <col class="highlight">
-      <col>
-    </colgroup>
-    <thead>
-      <tr>
-        <th></th>
-        <th>Portmaster</th>
-        <th>Pi-hole</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Open Source</td>
-        <td class="link">
-          <a href="{{ site.github_url }}/portmaster" class="exclude-external-icon">
-            <div>
-              <img src="{{ site.img_url }}icons/tick.svg">
-            </div>
-            <img src="{{ site.img_url }}icons/external-black.svg">
-          </a>
-        </td>
-        <td class="link">
-          <a href="https://github.com/pi-hole/pi-hole/" class="exclude-external-icon">
-            <div>
-              <img src="{{ site.img_url }}icons/tick.svg">
-            </div>
-            <img src="{{ site.img_url }}icons/external-black.svg">
-          </a>
-        </td>
-      </tr>
-      <tr>
-        <td>Setup</td>
-        <td><strong>Easy</strong></td>
-        <td><strong>Advanced</strong></td>
-      </tr>
-      <tr>
-        <td>Protection Type</td>
-        <td><strong>Device</strong></td>
-        <td><strong>Network</strong></td>
-      </tr>
-      <tr>
-        <td>Availabilty</td>
-        <td class="link">
-          <a href="{{ site.portmaster_url }}#downloads">
-            <div>
-              <img src="{{ site.img_url }}icons/windows.svg">
-              <img src="{{ site.img_url }}icons/linux.svg">
-            </div>
-            <img src="{{ site.img_url }}icons/external-black.svg">
-          </a>
-        </td>
-        <td class="link">
-          <a href="https://docs.pi-hole.net/main/prerequisites/#supported-operating-systems" class="exclude-external-icon">
-            <div>
-              <img src="{{ site.img_url }}icons/linux.svg">
-              <img src="{{ site.img_url }}icons/docker.svg">
-            </div>
-            <img src="{{ site.img_url }}icons/external-black.svg">
-          </a>
-        </td>
-      </tr>
-      <tr>
-        <td>Secure DNS</td>
-        <td><img src="{{ site.img_url }}icons/tick.svg"></td>
-        <td><img src="{{ site.img_url }}icons/tick.svg"></td>
-      </tr>
-      <tr>
-        <td>Individual Apps Settings</td>
-        <td><img src="{{ site.img_url }}icons/tick.svg"></td>
-        <td><img src="{{ site.img_url }}icons/cross.svg"></td>
-      </tr>
-      <tr>
-        <td>Adaptive Threat Model</td>
-        <td><img src="{{ site.img_url }}icons/tick.svg"></td>
-        <td><img src="{{ site.img_url }}icons/cross.svg"></td>
-      </tr>
-    </tbody>
-  </table>
+<div class="card-table">
+    <table>
+      <colgroup class="card-table-colgroup">
+        <col class="card-table-colgroup-col">
+        <col class="card-table-colgroup-col-highlight">
+        <col class="card-table-colgroup-col">
+      </colgroup>
+      <thead class="card-table-header">
+        <tr class="card-table-header-row">
+          <th class="card-table-header-row-cell"></th>
+          <th class="card-table-header-row-cell">Portmaster</th>
+          <th class="card-table-header-row-cell">Pi-hole</th>
+        </tr>
+      </thead>
+      <tbody class="card-table-body">
+        <tr class="card-table-body-row">
+            <td class="card-table-body-row-cell-title">Open Source</td>
+            <td class="card-table-body-row-cell">
+                <a class="card-table-body-row-cell-link" href="{{ site.github_url }}/portmaster">
+                    <i class="icon-tick text-2xl text-green-500"></i>
+                </a>
+            </td>
+            <td class="card-table-body-row-cell">
+                <a class="card-table-body-row-cell-link" href="https://github.com/pi-hole/pi-hole/">
+                    <i class="icon-tick text-2xl text-green-500"></i>
+                </a>
+            </td>
+        </tr>
+        <tr class="card-table-body-row">
+          <td class="card-table-body-row-cell-title">Setup</td>
+          <td class="card-table-body-row-cell">
+            Easy
+          </td>
+          <td class="card-table-body-row-cell">
+            Advanced
+          </td>
+        </tr>
+        <tr class="card-table-body-row">
+          <td class="card-table-body-row-cell-title">Protection Type</td>
+          <td class="card-table-body-row-cell">
+            Device
+          </td>
+          <td class="card-table-body-row-cell">
+            Network
+          </td>
+        </tr>
+        <tr class="card-table-body-row">
+            <td class="card-table-body-row-cell-title">Availabilty</td>
+            <td class="card-table-body-row-cell">
+                <a class="card-table-body-row-cell-link" href="{{ site.portmaster_url }}#downloads">
+                    <div class="md:space-x-2">
+                        <i class="icon-windows text-2xl text-safing-blue-500"></i>
+                        <i class="icon-linux text-2xl"></i>
+                    </div>
+                </a>
+            </td>
+            <td class="card-table-body-row-cell">
+            <a class="card-table-body-row-cell-link" href="https://docs.pi-hole.net/main/prerequisites/#supported-operating-systems">
+                <div class="md:space-x-2">
+                    <i class="icon-linux text-2xl"></i>
+                    <i class="icon-docker text-3xl text-safing-blue-500"></i>
+                </div>
+            </a>
+            </td>
+        </tr>
+        <tr class="card-table-body-row">
+            <td class="card-table-body-row-cell-title">Secure DNS</td>
+            <td class="card-table-body-row-cell">
+                <i class="icon-tick text-2xl text-green-500"></i>
+            </td>
+            <td class="card-table-body-row-cell">
+                <i class="icon-tick text-2xl text-green-500"></i>
+            </td>
+        </tr>
+        <tr class="card-table-body-row">
+            <td class="card-table-body-row-cell-title">Individual Apps Settings</td>
+            <td class="card-table-body-row-cell">
+                <i class="icon-tick text-2xl text-green-500"></i>
+            </td>
+            <td class="card-table-body-row-cell">
+                <i class="icon-cross text-2xl text-red-500"></i>
+            </td>
+        </tr>
+        <tr class="card-table-body-row">
+            <td class="card-table-body-row-cell-title">Adaptive Threat Model</td>
+            <td class="card-table-body-row-cell">
+                <i class="icon-tick text-2xl text-green-500"></i>
+            </td>
+            <td class="card-table-body-row-cell">
+                <i class="icon-cross text-2xl text-red-500"></i>
+            </td>
+        </tr>
+      </tbody>
+    </table>
 </div>
+
 
 ## Detailed Comparison
 
