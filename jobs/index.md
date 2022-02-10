@@ -1,5 +1,5 @@
 ---
-layout: page_container
+layout: exception_container
 title: Join Safing
 heading: Join Safing
 ---
