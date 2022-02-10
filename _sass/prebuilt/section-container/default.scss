@@ -1,0 +1,11 @@
+.section-container {
+    margin-top: 10rem;
+    margin-bottom: 16rem;
+}
+
+.section-container > div:first-child {
+    margin-top: 0;
+}
+.section-container > div {
+    margin-top: 15rem;
+}
