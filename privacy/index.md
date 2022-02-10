@@ -1,5 +1,5 @@
 ---
-layout: page_container
+layout: legal_container
 title: Privacy Policy
 heading: Privacy Policy
 ---
