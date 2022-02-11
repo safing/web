@@ -57,7 +57,7 @@
           </div>
           {% for tag in card.progress %}
             {% if tag.type == 'a' %}
-              <{{ tag.type }} href='{{ tag.href }}'>{{ tag.text }}</{{tag.type}}>
+              <p><{{ tag.type }} href='{{ tag.href }}'>{{ tag.text }}</{{tag.type}}></p>
             {% elsif tag.type == 'br' %}
               <br/>
             {% elsif tag.type == 'ol' %}
