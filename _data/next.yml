@@ -37,14 +37,6 @@ cards:
         - SPN
       team:
         - Daniel
-    - title: Bug Hunting
-      description:
-        Hunt down bugs that dug up during our feature development focus weeks. Fix as many as you can.
-        # mention Portmaster part is coming up
-      projects:
-        - SPN
-      team:
-        - Daniel
   in_progress:
     - title: Redesign Application Pages
       description:
