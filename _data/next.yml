@@ -40,7 +40,7 @@ cards:
   in_progress:
     - title: Redesign Application Pages
       description:
-        - With On / Off toggles now available, redesign the settings page and make it easy to switch between monitoring an app and configuring its settings.
+        - With "On/Off" switches now available, redesign the settings page and make it easy to switch between monitoring an app and configuring its settings.
       projects:
         - Portmaster
       team:
