@@ -14,9 +14,9 @@ In October 2020 one of our supporters joked around and said he would gift us a v
 
 Yes, as of today, all customers get access to the [SPN]({{ site.spn_url }}). Whether you pre-ordered the SPN a while ago or are going to purchase it today. You are in!
 
-### To Celebrate, All Customers Can Use the SPN For Free in December
+### To Celebrate, All Customers Can Use the SPN For Free in December + January
 
-This is an exciting moment for all of us. To celebrate and to say thanks, all customers can [use the SPN for free](http://account.safing.io/spn-reaches-alpha) throughout December 2021. Every paying person, new or old, gets automatic access.
+This is an exciting moment for all of us. To celebrate and to say thanks, all customers can [use the SPN for free](http://account.safing.io/spn-reaches-alpha) throughout December 2021 and January 2022. Every paying person, new or old, gets automatic access.
 
 Of course the free SPN access will not charge for your paid subscription. Only after the free period you will decide when to start your paid subscription.
 

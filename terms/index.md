@@ -493,6 +493,10 @@ party's use and enjoyment of any of our Services.
 -   You will not use the Service for anything other than lawful
     purposes.
 
+-   You will not over burden any Safing network with high traffic loads, sustained or in bursts.
+
+-   You will use all Safing products within the normal operational parameters.
+
 -   You will not copy or reproduce, in any way shape or form, by any
     means, any part of the SPN Services, unauthorised by you.
 
