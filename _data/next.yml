@@ -16,61 +16,6 @@
 
 cards:
   done:
-    - title: Alpha + In-App Account Login
-      description:
-        - Prepare to get rid of SPN pre-orders by implementing the In-App login into the Portmaster.
-      projects:
-        - SPN
-        - Portmaster
-      team:
-        - Daniel
-        - Patrick
-    - title: Compatibility Assistant
-      description:
-        - Portmaster users regularly run into different compatibility issues, breaking system integration, DNS or specific apps.
-        - Implement self-checks so the Portmaster can notify users about these issues. Improving their understanding of their state might also help in their issue reporting.
-      projects:
-        - Portmaster
-      team:
-        - Daniel
-    - title: Credit Card Payments
-      description: Enable you to pay for the SPN with credit cards.
-      projects:
-        - Website
-      team:
-        - Alex
-    - title: Cryptocurrency Payments
-      description: 
-        Now that the tech is in place, set up the required back office structures in order to activate this feature.
-      team:
-        - Raphael
-      projects:
-        - Back Office
-    - title: Product Feature Videos
-      description: 
-        Show what the Portmaster / the SPN are all about; in video format. Display them on the website where fitting.
-      team:
-        - David
-        - Tabitha
-      projects:
-        - Marketing
-  in_progress:
-    - title: Bug Hunting
-      description:
-        Hunt down bugs that dug up during our feature development focus weeks. Fix as many as you can.
-      projects:
-        - SPN
-        - Portmaster
-      team:
-        - Daniel
-    - title: Rework Installers & PKGBUILD 
-      description:
-        - The current installation experience is sub-optimal. Prompt users to reboot their system after installation to mitigate issues.
-        - Revisit our linux distribution, improve the PKGBUILD and add packaging for RPM and Arch. Also, submit Portmaster to AUR.
-      projects:
-        - Portmaster
-      team:
-        - Patrick
     - title: Simplify Portmaster Settings
       description:
         - Current Portmaster settings are complicated. Especially settings connected to the Network Ratings are hard to grasp for new users. Re-imagine and simplify.
@@ -85,6 +30,45 @@ cards:
         - Portmaster
       team:
         - Daniel
+    - title: Stabilize Network Structure
+      description:
+        Evaluate why speeds and latency are still below par and bring them up to speed.
+      projects:
+        - SPN
+      team:
+        - Daniel
+  in_progress:
+    - title: Redesign Application Pages
+      description:
+        - With "On/Off" switches now available, redesign the settings page and make it easy to switch between monitoring an app and configuring its settings.
+      projects:
+        - Portmaster
+      team:
+        - Luke
+        - Patrick
+    - title: Rework Installers & PKGBUILD 
+      description:
+        - The current installation experience is sub-optimal. Prompt users to reboot their system after installation to mitigate issues.
+        - Revisit our linux distribution, improve the PKGBUILD and add packaging for RPM and Arch. Also, submit Portmaster to AUR.
+      projects:
+        - Portmaster
+      team:
+        - Patrick
+    - title: Portmaster Stabilizing
+      description:
+        - With our recent months being focused on the SPN, invest more time into investigating Portmaster bugs and make the whole experience more straightforward and stable.
+      projects:
+        - Portmaster
+      team:
+        - Patrick
+        - Daniel
+    - title: Select Exit Node
+      description:
+        Let SPN users select at which server they want to exit for certain apps. Also make it easy to exclude certain apps or websites from using the SPN.
+      projects:
+        - SPN
+      team:
+        - Daniel
     - title: Comparison Blog Posts
       description: Write blog posts comparing the Portmaster with different alternatives. What does the Portmaster do better? Where are others better? Be honest.
       projects:
@@ -92,13 +76,19 @@ cards:
       team:
         - David
         - Pranav
-    - title: Internal Tailwind Docs
-      description:
-        - Create our own docs page where Safing styled tailwind elements are displayed.
-        - Make it easy to copy paste HTML when creating new sites or elements.
+    - title: Implement Tailwind Components
+      description: "A lot of duplication happens in the HTML of our different web projects. Having already built the most common components into CSS component classes, such as `btn-primary`, implement them into the main website to remove duplication and clean up the HTML."
       projects:
         - Website
       team:
         - Luke
+    - title: Visit Opt Out Podcast
+      description:
+        - Seth from the amazing Opt Out privacy podcast recently invited us to be part of Opt Out S02, where he chats with different privacy creators. Most definitely!
+      projects:
+        - Community
+      team:
+        - Daniel
+        - David
   postponed:
   discarded:
