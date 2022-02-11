@@ -1,4 +1,8 @@
 cards:
+  - title: Custom Filter Lists
+    description: Integrate custom filter lists into the Portmaster so users can block their own list of domains.
+    projects:
+      - Portmaster
   - title: Network Trust System
     description:
       - Remember which networks you trust and activate additional defenses in untrusted networks, like the Wi-Fi of your favorite coffee shop.
@@ -103,10 +107,6 @@ cards:
     description: Allow you to access the SPN from within restricted countries or areas.
     projects:
       - SPN
-  - title: "Implement Tailwind Components"
-    description: "A lot of duplication happens in the HTML of our different web projects. Having already built the most common components into CSS component classes, such as `btn-primary`, implement them into our web projects to remove duplication and unify the HTML."
-    projects:
-      - Website
   - title: "Docs: Filter Lists Architecture"
     description: Describe in detail how the IntelHub collects and distributes filter lists. What lists are selected? How often are lists distributed? And why?
     projects:
