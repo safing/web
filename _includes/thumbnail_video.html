@@ -1,31 +1,38 @@
-<li class="mt-10 md:mt-0">
-  <div class="block transform hover:scale-95 duration-150 ease-in-out">
-    <a href="{{ video.url }}">
+<a class="card-blog" href="{{ video.url }}">
+  <div class="card-blog-thumbnail">
       {% if video.custom_thumbnail_name == null %}.
-        <img src="{{ site.img_url }}thumbnails/video/placeholder.png" alt="">
+        <img 
+          src="{{ site.img_url }}thumbnails/video/placeholder.png"
+          style="max-width: 365px; max-height: 223px;"  
+        >
+          
       {% else %}
-        <img src="{{ site.img_url }}thumbnails/video/{{ video.custom_thumbnail_name }}.png" alt="">
+        <img 
+          src="{{ site.img_url }}thumbnails/video/{{ video.custom_thumbnail_name }}.png"
+          style="max-width: 365px; max-height: 223px;"
+        >
       {% endif %}
-      <span style="font-size: 12rem; font-weight: 800; margin-top: -13.8rem; margin-left: -0.8rem;" class=" z-0 absolute bg-top">
-        <button type="button" style="background-color: #6188ff;" class="inline-flex items-center px-4 py-4 rounded-md border border-transparent text-xs leading-5 font-extrabold  text-white">
-          <svg class="h-8 w-auto lg:h-5 fill-current text-white" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.41 11">
-            <path d="M8.43 4.62l-6.34-4A1 1 0 00.5 1.5v8a1 1 0 001.59.88l6.34-4a1 1 0 000-1.76z" stroke-miterlimit="10" /></svg>
-        </button>
+      <span class="box-icon">
+        <i class="icon-play text-xl"></i>
       </span>
-      <div class="pt-6">
-        <span class="opacity-25">
-          {% if include.pre_header %}
-            {{ include.pre_header }} -
-          {% endif %}
-          {{ video.date | date: "%-d. %b %Y" }}
-        </span>
-        {% if video.progress_update %}
-          {% assign title_length = video.title | size %}
-          <p>{{ video.title | slice: 7, title_length }} - #{{ video.title | slice: 2, 2 }}</p>
-        {% else %}
-          <p>{{ video.title }}</p>
-        {% endif %}
-      </div>
-    </a>
   </div>
-</li>
+  <div class="card-blog-content" style="max-width: 365px;">
+      <div class="content-wrapper">
+          <span class="w-full">
+            {% if include.pre_header %}
+            {{ include.pre_header }} -
+            {% endif %}
+            {{ video.date | date: "%-d. %b %Y" }}
+          </span>
+          <div class="circular-profile" tooltip="{{ post.author | capitalize }}">
+              <img src="{{ site.img_url }}profiles/{{ post.author | downcase }}.png" alt="{{ post.author | capitalize }}">
+          </div>
+      </div>
+      {% if video.progress_update %}
+      {% assign title_length = video.title | size %}
+        <span>{{ video.title | slice: 7, title_length }} - #{{ video.title | slice: 2, 2 }}</span>
+      {% else %}
+        <span>{{ video.title }}</span>
+      {% endif %}
+  </div>
+</a>

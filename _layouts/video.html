@@ -1,31 +1,30 @@
 ---
-layout: page_container
-container_class: "podcast pt-40 lg:pt-64"
+layout: publication_container
 ---
 
-<div class="text-center">
+<div class="header-four-container">
   {% if page.progress_update %}
     {% assign title_length = page.title | size %}
-    <span style="font-size: 12rem; font-weight: 800; margin-top: -9rem; opacity: 0.05;" class="z-0 ml-0 w-full left-0 text-center absolute bg-top">#{{ page.title | slice: 2, 2 }}</span>
-    <h1 style="padding-top: 1.5em;">{{ page.title | slice: 7, title_length }}</h1>
+    <span class="header-four-container-counter">#{{ page.title | slice: 2, 2 }}</span>
+    <h1 class="header-four-container-title">{{ page.title | slice: 7, title_length }}</h1>
   {% else %}
-    <h1>{{ page.title }}</h1>
+    <h1 class="header-four-container-title">{{ page.title }}</h1>
   {% endif %}
-  <p class="opacity-55">{{ page.date | date: "%B %-d, %Y" }}</p>
-  <div class="flex mx-auto justify-center pt-5">
-    <a href="{{ site.twitter_url }}" class="opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
-      <img style="height: 1.1rem; width: auto;" src="{{ site.img_url }}icons/twitter.svg">
-    </a>
-    <a href="{{ site.github_url }}" class="pl-4 pr-4  opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
-      <img style="height: 1.19rem; width: auto;" src="{{ site.img_url }}icons/github.svg">
-    </a>
-    <a href="{{ site.reddit_url }}" class="opacity-55 hover:opacity-100 ease-in-out duration-150" target="_blank">
-      <img style="height: 1.18rem; width: auto;" src="{{ site.img_url }}icons/reddit.svg">
-    </a>
+  {% if page.summary %}
+    <p class="header-four-container-desc">
+      {{ page.summary | markdownify | remove: "<p>" | remove: "</p>" }}
+    </p>
+  {% endif %}
+  <span class="header-four-container-title-author">
+    {{ page.date | date: "%B %-d, %Y" }}
+  </span>
+  <div class="header-four-container-social">
+      <a class="link hover-opacity-in" href="{{ site.twitter_url }}"><i class="icon-twitter text-lg"></i></a>
+      <a class="link hover-opacity-in" href="{{ site.github_url }}"><i class="icon-github text-xl"></i></a>
+      <a class="link hover-opacity-in" href="{{ site.reddit_url }}"><i class="icon-reddit text-xl"></i></a>
   </div>
 </div>
-<div class="content">
-  {{ content }}
-</div>
 
-{% include next_previous_item.html %}
+<div class="markdown-container">
+{{ content | replace: '<!--break-->', '<a class="anchor" id="continue"></a>' }}
+</div>

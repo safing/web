@@ -1,44 +1,34 @@
-<li class="mt-10 md:mt-0">
-  <div class="block transform hover:scale-95 duration-150 ease-in-out">
-    <a href="{{ episode.url }}">
-      <div class="relative" style="max-width: 365px;">
-        {% if episode.custom_thumbnail_name == null %}
-        <img src="{{ site.img_url }}thumbnails/podcast/placeholder.png">
-        {% else %}
-        <img src="{{ site.img_url }}thumbnails/podcast/{{ episode.custom_thumbnail_name }}.jpg">
-        {% endif %}
-        <span class="absolute text-white right-0 bottom-0 pr-3 pb-3" style="font-size: 3.1rem; font-weight: 800;" >#{{ episode.title | slice: 2, 2 }}</span>
-      </div>
-      <span style="font-size: 12rem; font-weight: 800; margin-top: -13.8rem; margin-left: -0.8rem;" class=" z-0 absolute bg-top">
-        <button type="button" style="background-color: #6188ff;" class="inline-flex items-center px-3 py-3 rounded-md border border-transparent text-xs leading-5 font-extrabold  text-white">
-          <svg class="h-8 w-auto lg:h-7" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <g fill="none">
-              <path d="M0 0h24v24H0z"/>
-              <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 15v0c-1.657 0-3-1.343-3-3V6c0-1.657 1.343-3 3-3v0c1.657 0 3 1.343 3 3v6c0 1.657-1.343 3-3 3z"/>
-              <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M18 10v2c0 3.314-2.686 6-6 6v0c-3.314 0-6-2.686-6-6v-2M12 18v3M7.82 21h8.36"/>
-            </g>
-          </svg>
-        </button>
+<a class="card-blog" href="{{ episode.url }}">
+  <div class="card-blog-thumbnail">
+      {% if episode.custom_thumbnail_name == null %}
+        <img
+          src="{{ site.img_url }}thumbnails/podcast/placeholder.png"
+          style="max-width: 365px; max-height: 223px;"
+        >
+      {% else %}
+        <img
+          src="{{ site.img_url }}thumbnails/podcast/{{ episode.custom_thumbnail_name }}.jpg"
+          style="max-width: 365px; max-height: 223px;"
+        >
+      {% endif %}
+      <span class="counter">#{{ episode.title | slice: 2, 2 }}</span>
+      <span class="box-icon">
+        <i class="icon-mic text-xl"></i>
       </span>
-      <div class="pt-6">
-        <div class="flex w-full relative">
-          <span class="opacity-25">
+  </div>
+  <div class="card-blog-content" style="max-width: 365px;">
+      <div class="content-wrapper">
+          <span class="w-full">
             {% if include.pre_header %}
               {{ include.pre_header }} -
             {% endif %}
             {{ episode.date | date: "%-d. %b %Y" }}
-            </span>
-            <div class="flex-shrink-0 right-0 absolute right-0">
-              <div class="flex ">
-                <span class="transform hover:scale-110 duration-150 ease-in-out" tooltip="{{ post.author | capitalize }}">
-                  <img class="inline-block h-6 w-6 rounded-full text-white shadow-solid border-2 border-transparent" src="{{ site.img_url }}profiles/{{ post.author | downcase }}.png" alt="{{ post.author | capitalize }}">
-                </span>
-              </div>
-            </div>
-        </div>
-        {% assign title_length = episode.title | size %}
-        <p>{{ episode.title | slice: 7, title_length }} - #{{ episode.title | slice: 2, 2 }}</p>
+          </span>
+          <div class="circular-profile" tooltip="{{ post.author | capitalize }}">
+              <img src="{{ site.img_url }}profiles/{{ post.author | downcase }}.png" alt="{{ post.author | capitalize }}">
+          </div>
       </div>
-    </a>
+      {% assign title_length = episode.title | size %}
+      <span>{{ episode.title | slice: 7, title_length }} - #{{ episode.title | slice: 2, 2 }}</span>
   </div>
-</li>
+</a>

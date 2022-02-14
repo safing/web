@@ -1,125 +1,81 @@
-<div class="tablecard cardshadow text-left transform">
-  <div class="block px-8 py-6 rounded-lg">
-    <div class="absolute top-0 right-0 overflow-visible mr-16 mt-12 z-20">
-      <div class="flex-shrink-0 mt-0">
-        <div class="flex ">
-          {% for member in card.team %}
-          <span class="transform hover:scale-110 duration-150 ease-in-out" tooltip="{{ member | capitalize }}">
-            <img class="inline-block h-6 w-6 rounded-full text-white shadow-solid border-2 border-white" src="{{ site.img_url }}profiles/{{ member | downcase }}.png" alt="{{ member }}">
-          </span>
+<div class="card-extended">
+  <label class="card-label" for="tablecard-{{ include.state }}-{{ forloop.index }}">
+      <div class="wrapper-left">
+        <div class="flex">
+          {% for tag in card.projects %}
+            {% include tag.html tag=tag %}
           {% endfor %}
         </div>
-      </div>
-    </div>
-    <div class="tabs">
-      <div class="tab relative">
-        <input class="dropinput" type="checkbox" id="tablecard-{{ include.state }}-{{ forloop.index }}">
-        <label style="min-width: 100%; min-height: 115px; display: block;" class="z-10 absolute cursor-pointer" for="tablecard-{{ include.state }}-{{ forloop.index }}">
-          <img class="absolute right-0" style="margin-right: 1rem; margin-top: 1.2rem;" id="icon" src="{{ site.assets_url }}/icons/arrow.svg" alt="">
-        </label>
-        <div class="flex relative ">
-          <div>
-            <div class="flex">
-              {% for tag in card.projects %}
-                {% assign tag_bg_strength = 100 %}
-
-                {% if tag == 'Portmaster' %}
-                  {% assign tag_color = 'blue' %}
-                {% elsif tag == 'SPN' %}
-                  {% assign tag_color = 'green' %}
-                {% elsif tag == 'Website' %}
-                  {% assign tag_color = 'pink' %}
-                {% elsif tag == 'Back Office' %}
-                  {% assign tag_color = 'gray' %}
-                  {% assign tag_bg_strength = 200 %}
-                {% elsif tag == 'Community' %}
-                  {% assign tag_color = 'purple' %}
-                {% elsif tag == 'Marketing' %}
-                  {% assign tag_color = 'orange' %}
-                {% endif %}
-                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium leading-5 bg-{{ tag_color }}-{{ tag_bg_strength }} text-{{ tag_color }}-800 mr-2">
-                  {{ tag }}
-                </span>
-              {% endfor %}
-            </div>
-            <div class="flex pt-3 items-center">
-              <div>
-                {% if include.state == 'done' %}
-                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/tick.svg" alt="">
-                {% elsif include.state == 'in_progress' %}
-                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/cog.svg" alt="">
-                {% elsif include.state == 'discarded' %}
-                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/cross.svg" alt="">
-                {% elsif include.state == 'postponed' %}
-                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/files.svg" alt="">
-                {% elsif include.state == 'backlog' %}
-                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/files.svg" alt="">
-                {% endif %}
-              </div>
-              <h4 class="pl-3 font-bold text-lg pr-16 ">{{ card.title }}</h4>
-            </div>
-          </div>
+        <div class="card-title">
+            {% if include.state == 'done' %}
+              <i class="icon-tick text-green-500"></i>
+            {% elsif include.state == 'in_progress' %}
+              <i class="icon-cog text-gray-500"></i>
+            {% elsif include.state == 'discarded' %}
+              <i class="icon-cross text-red-500"></i>
+            {% elsif include.state == 'postponed' %}
+              <i class="icon-files text-gray-800"></i>
+            {% elsif include.state == 'backlog' %}
+              <i class="icon-files text-gray-800"></i>
+            {% endif %}
+            <h3 class="title">{{ card.title }}</h3>
         </div>
-        <div style="padding-left: 0; padding-right: 0;" class="tab-content text-md">
-          <div class="block py-3">
-            <hr>
-            <div class="tab relative" id="tabtwo">
-              <input class="dropinput" type="checkbox" id="tablecard-description-{{ include.state }}-{{ forloop.index }}">
-              <label style="min-width: 100%; min-height: 115px; display: block;" class="z-10 absolute cursor-pointer" for="tablecard-description-{{ include.state }}-{{ forloop.index }}">
-                <img class="absolute right-0" style="margin-right: 1rem; margin-top: 0.5rem;" id="icontwo" src="{{ site.assets_url }}/icons/arrow.svg" alt="">
+      </div>
+      <div class="wrapper-right">
+        <div class="wrapper-right-profiles">
+          {% for member in card.team %}
+            <div class="circular-profile" tooltip="{{ member | capitalize }}">
+              <img src="{{ site.img_url }}profiles/{{ member | downcase }}.png" alt="{{ member | capitalize }}">
+            </div>
+          {% endfor %}
+        </div>
+        <i class="icon-arrow"></i>
+      </div>
+  </label>
+  <input class="card-input-toggle" id="tablecard-{{ include.state }}-{{ forloop.index }}" type="checkbox">
+  <div class="card-dropdown-toggle">
+      <div class="card-dropdown-content markdown-container max-w-full pr-0">
+          <div class="card">
+              <label class="card-label" for="tablecard-description-{{ include.state }}-{{ forloop.index }}">
+                  <div class="wrapper-left">
+                      <div class="card-title">
+                          <h1 class="title">Assignment</h1>
+                      </div>
+                  </div>
+                  <div class="wrapper-right">
+                      <i class="icon-arrow"></i>
+                  </div>
               </label>
-              <div class="flex relative">
-                <div class="self-center -mt-5">
-                  <div class="absolute right-0 mr-12 transform scale-110">
+              <input class="card-input-toggle" id="tablecard-description-{{ include.state }}-{{ forloop.index }}" type="checkbox">
+              <div class="card-dropdown-toggle">
+                  <div class="card-dropdown-content">
+                    {% for paragraph in card.description %}
+                      <p>{{ paragraph }}</p>
+                    {% endfor %}
                   </div>
-                </div>
-                <div>
-                  <div class="flex pt-3" style="margin-left: 1rem;">
-                    <div>
-                      <img src="" alt="">
-                    </div>
-                    <span class=" text-md opacity-50">Assignment</span>
-                  </div>
-                </div>
               </div>
-              <div style="padding-left: 3; padding-right: 1em; padding-top: 0;" class="tab-content text-md">
-                <p>
-                  {% for paragraph in card.description %}
-                    {{ paragraph }}
-                  {% endfor %}
-                </p>
-              </div>
-            </div>
-            <hr>
           </div>
-          <div>
-            {% for tag in card.progress %}
-              {% if tag.type == 'a' %}
-                <{{ tag.type }} href='{{ tag.href }}'>{{ tag.text }}</{{tag.type}}>
-              {% elsif tag.type == 'br' %}
-                <br/>
-              {% elsif tag.type == 'ol' %}
-                <ol>
-                  {% for li in tag.lis %}
-                    <li>{{ li }}</li>
-                  {% endfor %}
-                </ol>
-              {% elsif tag.type == 'ul' %}
-                <ul>
-                  {% for li in tag.lis %}
-                    <li>{{ li }}</li>
-                  {% endfor %}
-                </ul>
-              {% else %}
-                <{{ tag.type }}>{{ tag.text }}</{{tag.type}}>
-              {% endif %}
-            {% endfor %}
-          </div>
-          <!-- <div class="pt-12">
-            <span style="font-size: 0.8rem;" class="absolute right-0"><strong>01/6/2020</strong> <span class="opacity-50">-</span><strong> 31/6/2020</strong></span>
-          </div> -->
-        </div>
+          {% for tag in card.progress %}
+            {% if tag.type == 'a' %}
+              <p><{{ tag.type }} href='{{ tag.href }}'>{{ tag.text }}</{{tag.type}}></p>
+            {% elsif tag.type == 'br' %}
+              <br/>
+            {% elsif tag.type == 'ol' %}
+              <ol>
+                {% for li in tag.lis %}
+                  <li>{{ li }}</li>
+                {% endfor %}
+              </ol>
+            {% elsif tag.type == 'ul' %}
+              <ul>
+                {% for li in tag.lis %}
+                  <li>{{ li }}</li>
+                {% endfor %}
+              </ul>
+            {% else %}
+              <{{ tag.type }}>{{ tag.text }}</{{tag.type}}>
+            {% endif %}
+          {% endfor %}
       </div>
-    </div>
   </div>
 </div>

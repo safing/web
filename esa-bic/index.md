@@ -1,5 +1,5 @@
 ---
-layout: page_container
+layout: exception_container
 title: ESA Business Incubation
 heading: ESA Business Incubation
 ---

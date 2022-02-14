@@ -3,315 +3,258 @@ title: Safing Privacy Network
 layout: page
 ---
 
-<div class="notification w-full text-center text-white p-2" style="background-color: #6188ff;">
-  <div class="mx-auto flex">
-    <!-- use this disclaimer after the free month
-    <img src="{{ site.img_url }}icons/info.svg" class="ml-auto h-4 w-4 self-center mr-2">
-    <div class="mr-auto">
-      <span class="w-auto text-sm">SPN is in Alpha - expect hiccups here and there, even as a customer.</span>
-    </div>
-    -->
-    <div class="mx-auto">
-      <a data-method="get" href="{{ site.spn_alpha_status_page_url }}">
-        <span class="w-auto text-sm">
-          SPN is in "Alpha". View
-          <span class="underline">what to expect</span>
-          from current speeds and features
+<div class="alert-primary rounded-none text-md">
+    <i class="icon-info text-md"></i>
+    <a data-method="get" href="https://docs.safing.io/spn/alpha/status">
+        <span>
+            SPN is in "Alpha". View
+            <span class="underline">what to expect</span>
+            from current speeds and features
         </span>
-      </a>
-    </div>
-  </div>
+    </a>
 </div>
-<header class="h-full">
-  <div class="flex items-center h-full pt-20 md:pt-32 md:pb-40">
-    <div class="container mx-auto sm:px-8 sm:px-0">
-      <div class="container mx-auto px-8 sm:px-0 flex">
-        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:flex">
-          <div class="lg:pb-0 m0-0 lg:mr-40 self-center">
-            <span style="font-size: 12rem; font-weight: 800; margin-top: -5rem; margin-left: 6rem; z-index: -1;" class="absolute transform scale-50 lg:scale-125">
-              <img src="{{ site.img_url }}shapes/circle-md.png" alt="">
-            </span>
-            <video style="box-shadow: 0 0px 90px 0 rgba(59, 93, 199, 0.3), 0 0px 5px 0 rgba(0, 0, 0, 0.05);" class="z-30 rounded-md max-w-full max-h-auto transform scale-70" height="1220" width="1220" playsinline="" preload="auto" src="{{ site.assets_server_url }}spn/feature-tour.mp4" poster="{{ site.assets_server_url }}spn/feature-tour-poster.png"
-              controls></video>
-            <span style="font-size: 12rem; font-weight: 800; margin-top: -4.5rem; margin-left: -3rem; z-index: -1;" class="absolute transform scale-50 lg:scale-125">
-              <img src="{{ site.img_url }}shapes/circle-sm.png" alt="">
-            </span>
-
-          </div>
-          <div class="inline-block text-center md:text-left">
-            <h2 class="text-6xl tracking-tight font-extrabold leading-none py-10 lg:w-3/4">
-              <!-- the &nbsp; is super nice for bigger screens, but breaks stuff on mobile -->
-              <!-- hence, we only have the header with &nbsp; on md+ devices -->
-              <span class="block md:hidden">Safing Privacy Network</span>
-              <span class="hidden md:block">Safing&nbsp;Privacy Network</span>
-            </h2>
-            <p class="text-md opacity-55 max-w-4xl">
-              With the SPN you protect all your connections from mass surveillance. Prevent all Internet Service Providers from collecting and selling your private activities.
-            </p>
-            <div class="py-10 sm:py-10 md:flex text-center">
-              <a href="#pricing">
-                <button type="button" style="background-color: #6188ff;" class="mb-5 md:mb-0 transform hover:scale-95 inline-flex items-center px-5 px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-                  Get Started
-                </button>
-              </a>
-              <br>
-              <a href="{{ site.portmaster_url }}" class="transition duration-150 ease-in-out hover:opacity-100 self-center md:pl-8 uppercase opacity-55 text-xs font-bold">Built into the Portmaster</a>
-            </div>
-          </div>
-        </div>
+<header class="header-one-container-reverse mb-64 mt-36">
+  <div class="header-one-left pl-12">
+      <h1 class="header-one-left-title lg:max-w-md">
+          Safing Privacy Network
+      </h1>
+      <p class="header-one-left-desc">
+          With the SPN you protect all your connections from mass
+          surveillance. Prevent all Internet Service Providers
+          from collecting and selling your private activities.
+      </p>
+      <div class="col-container w-full text-center lg:w-max lg:text-left">
+        <a class="btn-primary" href="#pricing">Get started</a>
+        <a class="btn-tertiary" href="{{ site.portmaster_url }}">Built into the Portmaster</a>
       </div>
+  </div>
+  <div class="header-one-right">
+    <span style="font-size: 12rem; font-weight: 800; margin-top: -5rem; margin-left: 6rem; z-index: -1;" class="absolute transform scale-50 lg:scale-125">
+        <img src="{{ site.img_url }}shapes/circle-md.png" alt="">
+    </span>
+    <div class="card">
+       <div class="rounded-2xl overflow-hidden">
+            <video class="max-w-2xl" preload="auto"
+            src="{{ site.assets_server_url }}spn/feature-tour.mp4"
+            poster="{{ site.assets_server_url }}spn/feature-tour-poster.png"
+            controls>
+            </video>
+       </div>
     </div>
+    <span style="font-size: 12rem; font-weight: 800; margin-top: -4.5rem; margin-left: -3rem; z-index: -1;" class="absolute transform scale-50 lg:scale-125">
+        <img src="{{ site.img_url }}shapes/circle-sm.png" alt="">
+    </span>
   </div>
 </header>
-<section style="margin-top: 3rem;">
-  <div class="text-center pb-24 lg:pb-48">
-    <h2 class="text-5xl tracking-tight font-extrabold leading-none py-10 mr-auto ml-auto">
-      Protect Your Meta&#8209;Data
-    </h2>
-    <p class="text-md opacity-55 w-auto mx-auto max-w-lg">
-      Seek true privacy. Do not overlook meta-data: which websites you visit and how frequently tell more about you than knowing what you actually do on them.
-    </p>
-  </div>
-  <div class="items-center h-full">
-    <div class="container mx-auto px-8 sm:px-0 flex">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:flex  items-center">
-        <div class="lg:pb-0 m0-0 lg:mr-48 self-center">
-          <img src="{{ site.img_url }}page-specific/spn/layers.gif" alt="">
-        </div>
-        <div class="inline-block max-w-lg">
-          <div class="pt-1 pb-1 pr-4 pl-2 rounded-full text-white text-xs flex break-words" style="background-color: #5c85ff; width: fit-content; width: -moz-fit-content;">
-            <img src="{{ site.img_url }}icons/info.svg" class="h-4 w-4 self-center mr-2">
-            Alpha Software: the SPN is in active development
-          </div>
-          <h2 style="max-width: 470px; line-height: 60px;" class="text-5xl tracking-tight font-extrabold leading-none py-10 lg:w-2/3">
-            Onion Layer Encryption
-          </h2>
-          <p class="text-md opacity-55 max-w-lg">
-            Re-route all your connections through our multi-hop network to decouple your identity from the destination. With onion-encryption, no single party knows who you are and where you are going to. Inspired by Tor.
-          </p>
-          <div class="py-10 flex">
-            <a href="{{ site.blog_url }}2020/01/22/how-the-spn-compares-to-tor/">
-              <button type="button" style="background-color: #000;" class="transform hover:scale-95 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-                Compare the SPN to TOR
-              </button>
-              <a href="{{ site.img_url }}spn-labeled/spn-core.png" class="transition duration-150 ease-in-out hover:opacity-100 self-center md:pl-8 uppercase opacity-55 text-xs font-bold">
-                View explainer-image
-              </a>
-            </a>
-          </div>
-        </div>
-      </div>
+<section class="general-layout">
+    <div class="intro-container mt-32">
+        <h2 class="intro-container-title">
+            Protect Your Meta‑Data
+        </h2>
+        <p class="intro-container-desc">
+            Seek true privacy. Do not overlook meta-data: which websites
+            you visit and how frequently tell more about you than knowing
+            what you actually do on them.
+        </p>
     </div>
-  </div>
-  <div class="items-center h-full mt-32 lg:mt-64">
-    <div class="container mx-auto px-8 sm:px-0 flex">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:flex block justify-center m-auto w-auto">
-        <div class="ml-0 lg:ml-32 lg:hidden self-center">
-          <img src="{{ site.img_url }}page-specific/spn/metadata.gif" alt="">
+    <div class="space-y-80">
+        <div class="showcase-container-reverse">
+            <div class="showcase-left" style="max-width: 850px;">
+                <img src="{{ site.img_url }}page-specific/spn/layers.gif" alt="">
+            </div>
+            <div class="showcase-right">
+                <div class="alert-tiny w-max pr-6 bg-safing-blue-600 ml-0 md:mx-auto">
+                    <i class="icon-info text-md"></i>
+                    <span>Alpha Software: the SPN is in active development </span>
+                </div>
+                <h2 class="showcase-right-title" style="max-width: 450px;">
+                    Onion Layer Encryption
+                </h2>
+                <p class="showcase-right-desc">
+                  Re-route all your connections through our multi-hop network
+                  to decouple your identity from the destination. With onion-
+                  encryption, no single party knows who you are and where you
+                  are going to. Inspired by Tor.
+                </p>
+                <a class="btn-secondary" href="{{ site.blog_url }}2020/01/22/how-the-spn-compares-to-tor/">Compare the SPN to Tor</a>
+                <a class="btn-tertiary hover-opacity-out" href="{{ site.img_url }}spn-labeled/spn-core.png">
+                  View explainer-image
+                </a>
+            </div>
         </div>
-        <div class="inline-block max-w-lg">
-          <div class="pt-1 pb-1 pr-4 pl-2 rounded-full text-white text-xs flex break-words" style="background-color: #5c85ff; width: fit-content; width: -moz-fit-content;">
-            <img src="{{ site.img_url }}icons/info.svg" class="h-4 w-4 self-center mr-2">
-            Alpha Software: the SPN is in active development
-          </div>
-          <h2 style="max-width: 470px; line-height: 60px;" class="text-5xl tracking-tight font-extrabold py-10 lg:w-auto">
-            Minimize Your Meta&#8209;Data
-          </h2>
-          <p class="text-md opacity-55 max-w-lg">
-            With the SPN, your meta-data is stripped to a minimum. Abstracting even the size of outgoing packets to diminish what information third parties, like your ISP or the Wi-Fi operator of your local coffee place, can gather about you.
-          </p>
+        <div class="showcase-container">
+            <div class="showcase-left" style="max-width: 850px;">
+                <img src="{{ site.img_url }}page-specific/spn/metadata.gif" alt="">
+            </div>
+            <div class="showcase-right">
+                <div class="alert-tiny w-max pr-6 bg-safing-blue-600 ml-0 md:mx-auto">
+                    <i class="icon-info text-md"></i>
+                    <span>Alpha Software: the SPN is in active development </span>
+                </div>
+                <h2 class="showcase-right-title" style="max-width: 450px;">
+                    Minimize Your Meta‑Data
+                </h2>
+                <p class="showcase-right-desc">
+                    With the SPN, your meta-data is stripped to a minimum.
+                    Abstracting even the size of outgoing packets to diminish
+                    what information third parties, like your ISP or the Wi-Fi
+                    operator of your local coffee place, can gather about you.
+                </p>
+            </div>
         </div>
-        <div class="hidden pt-16 lg:pt-0 ml-0 lg:ml-32 lg:block self-center">
-          <img src="{{ site.img_url }}page-specific/spn/metadata.gif" alt="">
+        <div class="showcase-container-reverse">
+            <div class="showcase-left" style="max-width: 850px;">
+                <img src="{{ site.img_url }}page-specific/spn/network.png" alt="">
+            </div>
+            <div class="showcase-right">
+                <div class="alert-tiny w-max pr-6 bg-safing-blue-600 ml-0 md:mx-auto">
+                    <i class="icon-info text-md"></i>
+                    <span>Alpha Software: the SPN is in active development </span>
+                </div>
+                <h2 class="showcase-right-title" style="max-width: 450px;">
+                    Distributed Multi Identity Network
+                </h2>
+                <p class="showcase-right-desc">
+                  Instead of exiting all your traffic at one place, route every
+                  connection individually to spread your connections across the
+                  globe. Use vast amounts of identities (IP addresses) and limit
+                  your visibility in the "open" web.
+                </p>
+                <a class="btn-secondary" href="{{ site.blog_url }}2020/01/22/how-the-spn-compares-to-vpns/">
+                  Compare the SPN to VPNs
+                </a>
+                <a class="btn-tertiary hover-opacity-out" href="{{ site.img_url }}spn-labeled/spn-community.png">
+                  View explainer-image
+                </a>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="items-center h-full mt-32 lg:mt-64">
-    <div class="container mx-auto px-8 sm:px-0 flex">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:flex block justify-center m-auto w-auto  items-center">
-        <div class="ml-0 lg:ml-32 lg:hidden self-center">
-          <img src="{{ site.img_url }}page-specific/spn/network.png" alt="">
+        <div class="showcase-container">
+            <div class="showcase-left" style="max-width: 850px;">
+                <img src="{{ site.img_url }}page-specific/spn/switch.gif" alt="">
+            </div>
+            <div class="showcase-right">
+                <div class="alert-tiny w-max pr-6 bg-safing-blue-600 ml-0 md:mx-auto">
+                    <i class="icon-info text-md"></i>
+                    <span>Alpha Software: the SPN is in active development </span>
+                </div>
+                <h2 class="showcase-right-title" style="max-width: 450px;">
+                    No Kill Switch Needed
+                </h2>
+                <p class="showcase-right-desc">
+                    Get peace of mind instead of fearing data-leakage.
+                    <br>
+                    <br>
+                    With the open source Portmaster, all your network connections are
+                    intercepted at the kernel-level, putting an end to accidental data
+                    exposure.
+                </p>
+                <a class="btn-secondary" href="{{ site.portmaster_url }}">Discover the portmaster</a>
+            </div>
         </div>
-        <div class="inline-block max-w-lg">
-          <div class="pt-1 pb-1 pr-4 pl-2 rounded-full text-white text-xs flex break-words" style="background-color: #5c85ff; width: fit-content; width: -moz-fit-content;">
-            <img src="{{ site.img_url }}icons/info.svg" class="h-4 w-4 self-center mr-2">
-            Alpha Software: the SPN is in active development
-          </div>
-          <h2 style="max-width: 470px; line-height: 60px;" class="text-5xl  tracking-tight font-extrabold leading-none py-10">
-            Distributed Multi Identity Network
-          </h2>
-          <p class="text-md opacity-55 max-w-lg">
-            Instead of exiting all your traffic at one place, route every connection individually to spread your connections across the globe. Use vast amounts of identities (IP addresses) and limit your visibility in the "open" web.
-          </p>
-          <div class="py-10 flex">
-            <a href="{{ site.blog_url }}2020/01/22/how-the-spn-compares-to-vpns/">
-              <button type="button" style="background-color: #000;" class="transform hover:scale-95 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-                Compare the SPN to VPNs
-              </button>
-              <a href="{{ site.img_url }}spn-labeled/spn-community.png" class="transition duration-150 ease-in-out hover:opacity-100 self-center md:pl-8 uppercase opacity-55 text-xs font-bold">
-                View explainer-image
-              </a>
-            </a>
-          </div>
-        </div>
-        <div class="hidden pt-16 lg:pt-0 ml-0 lg:ml-32 lg:block self-center">
-          <img src="{{ site.img_url }}page-specific/spn/network.png" alt="">
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="items-center h-full mt-32 lg:mt-64">
-    <div class="container mx-auto px-8 sm:px-0 flex">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:flex  items-center">
-        <div class="lg:pb-0 m0-0 lg:mr-48 self-center">
-          <img src="{{ site.img_url }}page-specific/spn/switch.gif" alt="">
-        </div>
-        <div class="inline-block max-w-lg">
-          <div class="pt-1 pb-1 pr-4 pl-2 rounded-full text-white text-xs flex break-words" style="background-color: #5c85ff; width: fit-content; width: -moz-fit-content;">
-            <img src="{{ site.img_url }}icons/info.svg" class="h-4 w-4 self-center mr-2">
-            Alpha Software: the SPN is in active development
-          </div>
-          <h2 style="max-width: 470px; line-height: 60px;" class="text-5xl tracking-tight font-extrabold leading-none py-10 lg:w-2/3">
-            No Kill Switch Needed
-          </h2>
-          <p class="text-md opacity-55 max-w-lg">
-            Get peace of mind instead of fearing data-leakage.
-          </p>
-          <p class="text-md opacity-55 max-w-lg pt-4">
-            With the open source Portmaster, all your network connections are intercepted at the kernel-level, putting an end to accidental data exposure.
-          </p>
-          <div class="py-10 flex">
-            <a href="{{ site.portmaster_url }}">
-              <button type="button" style="background-color: #000;" class="transform hover:scale-95 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-                Discover the Portmaster
-              </button>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="mt-16 lg:mt-48">
-  <div class="items-center h-full">
-    <div>
-      <div class="max-w-full mx-auto px-4 sm:px-6" id="pricing">
-        <div class="py-12 bg-white">
-          <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center">
+        <div class="packages-container" id="pricing">
+            <div class="alert-primary mb-20">
               <a data-method="get" href="{{ site.spn_alpha_status_page_url }}">
-                <button class="w-full h-auto md:h-12 text-sm md:text-md rounded-lg text-center p-3 transform hover:scale-105 duration-150 ease-in-out text-white pointer-cursor" style="background-color: #436ded; margin-bottom: 4em;">
+                <span>
                   SPN is in "Alpha". View
                   <span class="underline">what to expect</span>
                   from current speeds and features
-                </button>
+                </span>
               </a>
-              <h2 class="text-5xl tracking-tight font-extrabold leading-none px-10 py-6 text-center">
-                Protect Your Connections Today
-              </h2>
-              <p class="text-md opacity-55 pb-8">
-                Subscribe to the SPN and lock in the lower Alpha prices forever.
-              </p>
             </div>
-            <div class="">
-              <ul class="md:grid md:grid-cols-2 lg:grid-cols-2 md:col-gap-8 md:row-gap-10 max-w-4xl mr-auto ml-auto">
-                <li class="text-center md:text-left">
-                  <div class="block transform hover:scale-105 duration-150 ease-in-out hover px-16 py-10 rounded-lg">
-                    <span class="text-2xl">Early Adopter Monthly</span>
-                    <div class="block pb-6">
-                      <h1 style="font-size: 3.5rem;" class="font-extrabold pt-6">9.90€ <span class="opacity-55" style="font-size: 1.1rem; font-weight: 500;">/ per month</span></h1>
-                      <span class="text-xl pl-1 opacity-55 line-through">11.90€</span>
-                    </div>
-                    <span class="font-extrabold pt-10 text-md">Includes:</span>
-                    <ul class="">
-                      <li class="pt-4 opacity-55">Access to the SPN</li>
-                      <li class="pt-4 opacity-55">Unlimited Bandwidth</li>
-                      <li class="pt-4 opacity-55">Use on up to 5 devices</li>
-                      <li class="pt-4 opacity-55">17% off compared to Beta-Prices</li>
-                    </ul>
-                    <div class="pt-16">
-                      <a href="{{ site.account_server_url }}plans/1/subscribe">
-                        <button type="button" style="background-color: #000;" class="w-full text-center items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white transition duration-150 ease-in-out uppercase">
-                          Subscribe
-                        </button>
-                      </a>
-                    </div>
-                  </div>
-                </li>
-                <li class="mt-10 md:mt-0 text-center md:text-left">
-                  <div class="block transform hover:scale-105 duration-150 ease-in-out hover px-16 py-10 rounded-lg">
-                    <span class="text-2xl">Early Adopter Yearly</span>
-                    <div class="block pb-6">
-                      <h1 style="font-size: 3.5rem;" class="font-extrabold pt-6">99.00€ <span class="opacity-55" style="font-size: 1.1rem; font-weight: 500;">/ per year</span></h1>
-                      <span class="text-xl pl-1 opacity-55 line-through">142.80€</span>
-                    </div>
-                    <span class="font-extrabold pt-10 text-md">Includes:</span>
-                    <ul>
-                      <li class="pt-4 opacity-55">Access to the SPN</li>
-                      <li class="pt-4 opacity-55">Unlimited Bandwidth</li>
-                      <li class="pt-4 opacity-55">Use on up to 5 devices</li>
-                      <li class="pt-4 opacity-55">30% off compared to Beta-Prices</li>
-                    </ul>
-                    <div class="pt-16">
-                      <a href="{{ site.account_server_url }}plans/2/subscribe">
-                        <button type="button" style="background-color: #000;" class="w-full text-center items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white transition duration-150 ease-in-out uppercase">
-                          Subscribe
-                        </button>
-                      </a>
-                    </div>
-                  </div>
-                </li>
-              </ul>
+
+            <div class="packages-container-top">
+                <h2 class="packages-container-top-title">
+                    Protect Your Connections Today
+                </h2>
+                <p class="packages-container-top-desc">
+                    Subscribe to the SPN and lock in the lower Alpha prices forever.
+                </p>
             </div>
-          </div>
+            <div class="packages-container-bottom">
+                <div class="card-package">
+                    <div class="card-package-top">
+                        <span class="card-package-top-title">Early Adopter Monthly</span>
+                        <span class="card-package-top-amount">
+                            9.90€ <span class="billing">/ per month</span>
+                        </span>
+                        <span class="card-package-top-offer">11.90€</span>
+                    </div>
+                    <div class="card-package-middle space-y-4">
+                        <span class="card-package-middle-includes"> Includes: </span>
+                        <span class="card-package-middle-includes-feature"> Access to the SPN </span>
+                        <span class="card-package-middle-includes-feature"> Unlimited Bandwidth </span>
+                        <span class="card-package-middle-includes-feature"> Use on up to 5 devices </span>
+                        <span class="card-package-middle-includes-feature"> 17% off compared to Beta-Prices </span>
+                    </div>
+                    <div class="card-package-bottom">
+                        <a class="btn-secondary w-full justify-center" href="{{ site.account_server_url }}plans/1/subscribe">Subscribe</a>
+                    </div>
+                </div>
+                <div class="card-package">
+                    <div class="card-package-top">
+                        <span class="card-package-top-title">Early Adopter Yearly</span>
+                        <span class="card-package-top-amount">
+                            99.00€ <span class="billing">/ per year</span>
+                        </span>
+                        <span class="card-package-top-offer">142.80</span>
+                    </div>
+                    <div class="card-package-middle space-y-4">
+                        <span class="card-package-middle-includes"> Includes: </span>
+                        <span class="card-package-middle-includes-feature"> Access to the SPN </span>
+                        <span class="card-package-middle-includes-feature"> Unlimited Bandwidth </span>
+                        <span class="card-package-middle-includes-feature"> Use on up to 5 devices </span>
+                        <span class="card-package-middle-includes-feature"> 30% off compared to Beta-Prices </span>
+                    </div>
+                    <div class="card-package-bottom">
+                        <a class="btn-secondary w-full justify-center" href="{{ site.account_server_url }}plans/2/subscribe">Subscribe</a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="mb-16 lg:pb-32" id="faq">
-  <div class="bg-white">
-    <div class="max-w-screen-xl mx-auto pt-12 pb-16 sm:pt-16 sm:pb-20 px-4 sm:px-6 lg:pt-20 lg:pb-28 lg:px-8">
-      <div class="text-center pb-12">
-        <h2 class="text-5xl tracking-tight font-extrabold leading-none py-10 text-center">
-          FAQ
-        </h2>
-        <p class="text-md opacity-55">
-          You have a question? We answered some already, but you can always contact us at <a href="mailto:hello@safing.io">hello@safing.io</a>
-        </p>
-      </div>
-      <div class="mt-6 pt-10 text-center md:text-left">
-        <dl class="md:grid md:grid-cols-2 md:gap-8">
-          {% for faq in site.data.faq.spn %}
-            <div>
-              <h1 class="text-xl pb-4">
-                {{ faq.q }}
-              </h1>
-              <dd class="mt-2">
-                <p class="text-md opacity-55">
-                  {{ faq.a }}
+        <div class="faq-container">
+            <div class="faq-container-top">
+                <h2 class="faq-container-top-title">
+                    FAQ
+                </h2>
+                <p class="faq-container-top-desc">
+                    You have a question? We answered some already, but you
+                    can always contact us at <a class="link-primary" href="mailto:hello@safing.io">hello@safing.io</a>
                 </p>
-              </dd>
-              {% if faq.link %}
-                <p class="text-md pt-4" style="color: #727272;">
-                  <a class="link" href="{{ faq.link.url }}">
-                    {{ faq.link.text }}
-                  </a>
-                </p>
-              {% endif %}
             </div>
-          {% endfor %}
-          <div>
-            <h1 class="text-xl pb-4">Where can I find your source code?</h1>
-            <dd class="mt-2">
-              <p class="text-md" style="color: #727272;">
-                You can find our code on <a href="{{ site.github_url }}" class="link">Github</a>. <a href="{{ site.github_url }}/portmaster/" class="link">The Portmaster</a>, the <a href="{{ site.github_url }}/portmaster-ui/" class="link">Portmaster UI</a>, the <a href="{{ site.github_url }}/spn/" class="link">SPN</a>, the <a href="{{ site.github_url }}/docs/" class="link">docs</a> and <a href="{{ site.github_url }}/web/" class="link">this website</a> have their respective repositories. <a href="{{ site.github_url }}/jess/" class="link">Jess</a>, the heart of the SPN, which got <a href="https://cure53.de/pentest-report_safing-jess.pdf">audited by Cure53</a>, can also be found online.
-              </p>
-            </dd>
-          </div>
-        </dl>
-      </div>
+            <div class="faq-container-bottom">
+              {% for faq in site.data.faq.spn %}
+                <div class="faq-container-bottom-question">
+                    <div class="card-faq hover-scale-out">
+                        <label class="card-label" for="card-toggle-anchor-{{ forloop.index }}">
+                            <div class="wrapper-left">
+                                <div class="card-title">
+                                    <h3 class="title">
+                                      {{ faq.q }}
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="wrapper-right">
+                                <i class="icon-arrow"></i>
+                            </div>
+                        </label>
+                        <input class="card-input-toggle" id="card-toggle-anchor-{{ forloop.index }}" type="checkbox">
+                        <div class="card-dropdown-toggle">
+                            <div class="card-dropdown-content">
+                              <div class="text-safing-gray-500">
+                                {{ faq.a }}
+                              </div>
+                              {% if faq.link %}
+                                <br>
+                                <br>
+                                <a class="link-primary" href="{{ faq.link.url }}">{{ faq.link.text }}</a>
+                              {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              {% endfor %}
+              {% include source_code_faq.html %}
+            </div>
+        </div>
     </div>
-  </div>
 </section>

@@ -1,5 +1,10 @@
 ---
 ---
 
-@import "global";
-@import "page_container";
+/* Components */
+/* Components End */
+
+/* Prebuilt */
+@import './prebuilt/general-layout/default.scss';
+@import './prebuilt/publication-layout/default.scss';
+/* Prebuilt End */

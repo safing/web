@@ -1,49 +1,42 @@
-<li class="list-none mt-10 md:mt-0 grid">
-  <div class="block transform hover:scale-95 duration-150 ease-in-out" style="max-width: 350px; justify-self: center;">
-    <a href="{{ post.url }}">
-      <div class="relative" style="max-width: 365px;">
-        {% if post.custom_thumbnail_name == null %}
-        <img src="{{ site.img_url }}thumbnails/blog/placeholder.png">
-        {% else %}
-        <img src="{{ site.img_url }}thumbnails/blog/{{ post.custom_thumbnail_name }}.png">
-        {% endif %}
-        {% if post.progress_update == true %}
-        <span class="absolute text-white right-0 bottom-0 pr-3 pb-3" style="font-size: 3.1rem; font-weight: 800;">#{{ post.title | slice: 2, 2 }}</span>
-        {% endif %}
-        {% if post.portmaster_update == true %}
-        <span style="font-size: 12rem; font-weight: 800; margin-top: -13.8rem; margin-left: -0.8rem;" class=" z-0 absolute bg-top">
-          <button type="button" style="background-color: #6188ff;" class="inline-flex items-center px-3 py-3 rounded-md border border-transparent text-xs leading-5 font-extrabold  text-white">
-            <svg class="h-8 w-auto lg:h-7" style="padding: 0.3rem;" xmlns="http://www.w3.org/2000/svg" data-name="Layer 2" viewBox="0 0 10.82 10.94">
-              <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M1.41 7.98a5 5 0 0 0 .65.83 4.7 4.7 0 0 0 8-2.67M.75 4.8a4.68 4.68 0 0 1 1.32-2.67 4.73 4.73 0 0 1 6.68 0 4.56 4.56 0 0 1 .65.83" />
-              <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M1.23 9.65V7.98H2.9M9.59 1.29v1.67H7.92" />
-            </svg>
-          </button>
+<a class="card-blog" href="{{ post.url }}">
+  <div class="card-blog-thumbnail">
+      {% if post.custom_thumbnail_name == null %}
+        <img 
+          src="{{ site.img_url }}thumbnails/blog/placeholder.png"
+          style="max-width: 365px; max-height: 223px;"
+        >
+      {% else %}
+        <img 
+          src="{{ site.img_url }}thumbnails/blog/{{ post.custom_thumbnail_name }}.png"
+          style="max-width: 365px; max-height: 223px;"
+        >
+      {% endif %}
+      {% if post.progress_update == true %}
+        <span class="counter">#{{ post.title | slice: 2, 2 }}</span>
+      {% endif %}
+      {% if post.portmaster_update == true %}
+        <span class="box-icon">
+          <i class="icon-reload text-xl"></i>
         </span>
-        {% endif %}
-      </div>
-      <div class="pt-6">
-        <div class="flex w-full relative">
-          <span class="opacity-25">
+      {% endif %}
+  </div>
+  <div class="card-blog-content" style="max-width: 365px;">
+      <div class="content-wrapper">
+          <span class="w-full">
             {% if include.pre_header %}
             {{ include.pre_header }} -
             {% endif %}
             {{ post.date | date: "%-d. %b %Y" }}
           </span>
-          <div class="flex-shrink-0 right-0 absolute right-0">
-            <div class="flex ">
-              <span class="transform hover:scale-110 duration-150 ease-in-out" tooltip="{{ post.author | capitalize }}">
-                <img class="inline-block h-6 w-6 rounded-full text-white shadow-solid border-2 border-transparent" src="{{ site.img_url }}profiles/{{ post.author | downcase }}.png" alt="{{ post.author | capitalize }}">
-              </span>
-            </div>
+          <div class="circular-profile" tooltip="{{ post.author | capitalize }}">
+              <img src="{{ site.img_url }}profiles/{{ post.author | downcase }}.png" alt="{{ post.author | capitalize }}">
           </div>
-        </div>
-        {% if post.progress_update == true %}
-        {% assign title_length = post.title | size %}
-        <p>{{ post.title | slice: 7, title_length }} - #{{ post.title | slice: 2, 2 }}</p>
-        {% else %}
-        <p>{{ post.title }}</p>
-        {% endif %}
       </div>
-    </a>
+      {% if post.progress_update == true %}
+      {% assign title_length = post.title | size %}
+        <span>{{ post.title | slice: 7, title_length }} - #{{ post.title | slice: 2, 2 }}</span>
+      {% else %}
+        <span>{{ post.title }}</span>
+      {% endif %}
   </div>
-</li>
+</a>

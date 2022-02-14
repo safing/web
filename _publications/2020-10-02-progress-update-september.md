@@ -1,0 +1,217 @@
+---
+# possible values: blog video podcast
+category: blog
+layout:   blog
+# ⚠️ ALWAYS follow this format: "#001 - Some sweet title"
+# this has to be consistent for displaying only the episode number or only the title
+title: "#003 - Progress Update September"
+date: 2020-10-02
+author: David
+custom_thumbnail_name: progress-update
+
+# Progress Update blogs make a snapshot of the current next page
+# and then add a "progress: description" to it.
+# -> this is cool for history purposes
+
+# And in there, describe the progress, challenges, cool moments etc..
+# You may always refer to previous blog posts to get an idea.
+# if a project gets completed / abandoned, add a finish date
+
+# also set this attribute to true so the website does its magic with it
+progress_update: true
+
+# snapshot as of 2020/10/02
+cards:
+  done:
+    - title: AMA on r/privacytoolsio
+      description:
+        - Reach out to the PTIO team. Together, schedule and host an IAMA event so people can ask us anything.
+      projects:
+        - Community
+      team:
+        - David
+        - Raphael
+      progress:
+        - type: 'h5'
+          text: "Having a Blast"
+        - type: p
+          text: "It is hard to express how fun the event was! After a slower start first tens and then hundreds of questions and comments rolled in. Starting at 16:00 the whole team ended up being up until around midnight - followed by us taking shifts over the next days. Thanks for all your great questions and valuable discussions!"
+        - type: a
+          text: "Check out the full AMA"
+          href: "https://www.reddit.com/r/privacytoolsIO/comments/iv6mca/we_are_safing_a_forprivacy_counterculture_company/"
+    - title: Portscan Detection
+      description: Detect and block malicious actors trying to expose vulnerabilities by scanning through all networking ports on your device. Research thoroughly to prevent false positives.
+      projects:
+        - Portmaster
+      team:
+        - Daniel
+      progress:
+        - type: 'h5'
+          text: "Ready for Stage 2"
+        - type: p
+          text: "The Portscan got wrapped up by Patrick and Daniel and is ready to be integrated into the Portmaster. This will happen via the \"Adaptive Protection System\" currently in the backlog. We will tackle this project after the SPN has reached a more stable state."
+        - type: a
+          text: "Dive into the Backlog"
+          href: "https://safing.io/backlog/"
+    - title: Administration Interface
+      description:
+        - Enable admins to easily accept cash payments, manage refunds or suspend rogue users.
+        - Also provide some basic insights on signups, payments, survey results, etc...
+      projects:
+        - Website
+      team:
+        - Alex
+      progress:
+        - type: 'h5'
+          text: "Fancy Administration Is Here"
+        - type: p
+          text: "Alex did a great job with this module, giving us a nice back office for moderation and insight. As an example, we now see the voluntary survey results with nice charts. Even though you cannot view the new back office yourself, you will benefit from these changes nevertheless."
+    - title: Redesign account.safing.io
+      description:
+        - When visiting https://account.safing.io/ to manage your Safing account, the design clearly breaks from the main website.
+        - Unify these designs so you get a more wholesome web experience.
+      projects:
+        - Website
+      team:
+        - Luke
+        - Alex
+        - David
+      progress:
+        - type: 'h5'
+          text: "Squeezing It Out Before the AMA"
+        - type: p
+          text: "The internal goal was to push the redesign out before the AMA event, which turned out to be tighter as expected. But we bundled our resources and pushed it out a few hours before the AMA started - great team effort!"
+        - type: 'h5'
+          text: "Retrospective Polishing"
+        - type: p
+          text: "Even though we successfully launched the redesign before our deadline, the following week we still had to finetune things here and there: Change navigation to link-only instead of buttons, re-insert crucial information when deleting your account, improve the pre-order process, etc. But it is all wrapped up now - we are ready for the next challenges."
+
+  in_progress:
+    - title: Stabilize the Network
+      description:
+        - After v0.1, focus on stabilizing the typical issues that arise with early software. Fix bugs, improve performance & stability.
+        - Detect failures in the network and react accordingly.
+        - Deliver to more and more pre-orders as the network matures.
+      projects:
+        - SPN
+      team:
+        - Daniel
+      progress:
+        - type: 'h5'
+          text: "First Big Update Imminent"
+        - type: p
+          text: "Though we are not quite yet ready for the first big SPN update, there has been good progress regarding the new navigation system that is responsible for the routing. One of the first things we realized when the first version came out, is that it started to crumble very quickly because we were not yet categorizing the servers into different states in order to dismiss any invalid server configurations that polluted the network state. With this almost done, we will revisit the connection lifecycle management of connections within the SPN and then we will be ready for the first big update. So, stay tuned!"
+    - title: Full UI Redesign
+      description:
+        - Completely overhaul the Portmaster user interface to simplify all aspects of it.
+        - Easily block connections from the Monitor, easily block all connection of an app, etc...
+      projects:
+        - Portmaster
+      team:
+        - Patrick
+        - Luke
+      progress:
+        - type: 'h5'
+          text: "Simple And Beautiful Designs"
+        - type: p
+          text: "Luke has been busy designing a lot of the Portmaster's features into being both simple and beautiful. Starting from the Monitor page, where you will be able see everything that is happening on your computer all the way to making the multitude of settings easy to understand and accessible for anyone who wants to configure them. In comparison, the current design stands no chance."
+        - type: 'h5'
+          text: "Progressing the JS-Frontend"
+        - type: p
+          text: "On the other hand, a design is not useful until it has been implemented int othe frontend. That is Patricks current main task and he is speeding through the steps as well. We hope so much looking forward to being able to share all of this with you - next week we will publish a sneak peek in our Newsletter and on our socials - so stay tuned!"
+        - type: a
+          text: "Follow Us for sneak peeks"
+          href: '#newsletter'
+    - title: Safing API
+      description:
+        - Enable you to sign in to your Safing account on the Portmaster client via the Safing API. Also respond with details regarding your SPN subscription.
+        - Implement device management so you can sign out of devices from the Safing website.
+      projects:
+        - SPN
+        - Portmaster
+        - Website
+      team:
+        - David
+        - Daniel
+      progress:
+        - type: 'h5'
+          text: "Last Steps Bundled With the UI Redesign"
+        - type: p
+          text: "We decided to wait until the new UI is done before tackling the last steps of this project. This prevents double spending of our resources. So as soon as the new UI drops this will be integrated after. Hang on tight!"
+    - title: Portmaster Documentation
+      description:
+        - You can see our high level concepts & you can inspect our code. But nothing in between.
+        - Fill that gap by providing proper documentation of the Portmaster. What does each component do? With what other components does it interact? Where is its code located?
+      projects:
+        - Portmaster
+        - Website
+      team:
+        - David
+        - Patrick
+        - Daniel
+      progress:
+        - type: 'h5'
+          text: "Progress Froze In September"
+        - type: p
+          text: "Being honest, this project did not get any attention this month. David, the main bottleneck of this project had a vacation in September and spent his remaining resources on the AMA and helping out with the redesign of account.safing.io. The good news is that in October, this will be his main focus. So expect progress by the next update!"
+    - title: Cryptocurrency Payments
+      description: Enable you to pay for the SPN with cryptocurrencies such as Bitcoin, Ethereum, Zcash and Monero
+      projects:
+        - Website
+      team:
+        - Alex
+      progress:
+        - type: 'h5'
+          text: "Specification Done, Development Underway"
+        - type: p
+          text: "Good news for crypto enthusiasts! After the setback with the credit cards implementation (read below) we decided to pivot and are now working on offering payments via crypto currencies. Bundled in two sub-tasks, the first already had its specification completed and Alex is now working on the implementation. Crypto payments we are coming."
+    - title: "Inception: Reaching Out"
+      description:
+        - As the SPN will saw the light of day, the time has come to spread the word, also by spending money.
+        - Reach out to YouTube channels and newsletters in the privacy scene who offer sponsored shout-outs.
+        - You are very welcome to give us suggestions in this context.
+      link:
+        text: "Share your ideas on reddit"
+        href: "https://reddit.com/r/safing/"
+      projects:
+        - Marketing
+      team:
+        - Raphael
+        - Tabitha
+      progress:
+        - type: 'h5'
+          text: "The Linux Experiment"
+        - type: p
+          text: "This month it was super fun to see the YouTube videos of The Linux Experiment channel which we sponsored. He is such a nice person to work with and did a great job in showcasing the Portmaster in action! And also his viewers were very pleased to find out about us - big welcome to y'all and thanks!"
+        - type: a
+          text: "Head over to The Linux Experiment's YouTube Channel"
+          href: "https://www.youtube.com/channel/UC5UAwBUum7CPN5buc-_N1Fw"
+    - title: Conclude FFG Funding 19/20
+      description:
+        - Co-operate with the FFG to wrap up the funding of the past year. Prepare and fine tune our documents so we can promptly respond to any requests as they make spot checks.
+      projects:
+        - Back Office
+      team:
+        - Tabitha
+        - Raphael
+      progress:
+        - type: 'h5'
+          text: "Waiting for External Conclusion"
+        - type: p
+          text: "We wrapped up our report, handed over everything the FFG backoffice needed and are now waiting for the conclusion on their end. Naturally, we do not know how long this will take, but we'll keep you posted."
+  postponed:
+    - title: Credit Card Payments
+      description: Enable you to pay for the SPN with credit cards.
+      projects:
+        - Website
+      team:
+        - Alex
+      progress:
+        - type: 'h5'
+          text: "Vendor Denied Us"
+        - type: p
+          text: "Sadly, our preferred vendor to process credit card payments denied our application. That is why we decided to pivot onto cryptocurrency payments instead (read above). So for now, this project goes back into the backlog and we will re-evaluate at a later point."
+  discarded:
+---
+
+{% include progress-update-tablecards.html %}

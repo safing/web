@@ -1,65 +1,56 @@
-<div class="card text-left transform">
-    <div class="block cardshadow p-8 rounded-lg">
-      <div class="tabs">
-        <div class="tab">
-          <input class="dropinput" type="checkbox" id="card{{ include.state | prepend: '-' }}{{ include.project | prepend: '-' }}-{{ forloop.index }}">
-          <label style="min-width: 90%; min-height: 150px; display: block;" class="absolute cursor-pointer" for="card{{ include.state | prepend: '-' }}{{ include.project | prepend: '-' }}-{{ forloop.index }}">
-            <img class="absolute right-0" style="margin-right: 1rem;" id="icon" src="{{ site.assets_url }}/icons/arrow.svg" alt="">
-          </label>
-          <div>
-            <div class="flex">
-              {% for tag in card.projects %}
-                {% include tag.html tag=tag %}
-              {% endfor %}
-            </div>
-            <div class="flex pt-6 items-center">
-              <div>
-                {% if include.state == 'done' %}
-                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/tick.svg" alt="">
-                {% elsif include.state == 'in_progress' %}
-                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/cog.svg" alt="">
-                {% elsif include.state == 'discarded' %}
-                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/cross.svg" alt="">
-                {% elsif include.state == 'postponed' %}
-                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/files.svg" alt="">
-                {% elsif include.state == 'backlog' %}
-                  <img style="min-width: 19px;" src="{{ site.assets_url }}icons/files.svg" alt="">
-                {% endif %}
-              </div>
-              <h1 class="pl-3 font-bold text-lg">{{ card.title }}</h1>
-            </div>
-          </div>
-          <div style="padding-left: 0;" class="tab-content  opacity-50 text-md">
-            <p>The Assignment:</p>
-            <br/>
-            {% for paragraph in card.description %}
-              <p>{{ paragraph }}</p>
-              {% unless forloop.last %}
-                <br/>
-              {% endunless %}
+<div class="card">
+  <label class="card-label" for="card{{ include.state | prepend: '-' }}{{ include.project | prepend: '-' }}-{{ forloop.index }}">
+      <div class="wrapper-left">
+          <div class="flex">
+            {% for tag in card.projects %}
+              {% include tag.html tag=tag %}
             {% endfor %}
-
-            {% if card.link %}
-              <br/>
-              <a href="{{ card.link.url }}">
-                {{ card.link.text }}
-              </a>
-            {% endif %}
           </div>
-        </div>
-        <div class="pt-3">
-          <div class="absolute top-0 right-0 mr-6 pt-1 overflow-visible mt-20 sm:mt-16 sm:mr-16">
-            <div class="flex-shrink-0 mt-0">
-              <div class="flex ">
-                {% for member in card.team %}
-                  <span class="transform hover:scale-110 duration-150 ease-in-out" tooltip="{{ member | capitalize }}"  >
-                    <img class="inline-block h-6 w-6 rounded-full text-white shadow-solid border-2 border-white" src="{{ site.img_url }}profiles/{{ member | downcase }}.png" alt="{{ member }}">
-                  </span>
-                {% endfor %}
-              </div>
-            </div>
+          <div class="card-title">
+              {% if include.state == 'done' %}
+                <i class="icon-tick text-green-500"></i>
+              {% elsif include.state == 'in_progress' %}
+                <i class="icon-cog text-gray-500"></i>
+              {% elsif include.state == 'discarded' %}
+                <i class="icon-cross text-red-500"></i>
+              {% elsif include.state == 'postponed' %}
+                <i class="icon-files text-gray-800"></i>
+              {% elsif include.state == 'backlog' %}
+                <i class="icon-files text-gray-800"></i>
+              {% endif %}
+              <h3 class="title">{{ card.title }}</h3>
           </div>
-        </div>
       </div>
-    </div>
+      <div class="wrapper-right">
+          <div class="wrapper-right-profiles">
+            {% for member in card.team %}
+              <div class="circular-profile" tooltip="{{ member | capitalize }}">
+                <img src="{{ site.img_url }}profiles/{{ member | downcase }}.png" alt="{{ member | capitalize }}">
+              </div>
+            {% endfor %}
+          </div>
+          <i class="icon-arrow"></i>
+      </div>
+  </label>
+  <input class="card-input-toggle" id="card{{ include.state | prepend: '-' }}{{ include.project | prepend: '-' }}-{{ forloop.index }}" type="checkbox">
+  <div class="card-dropdown-toggle">
+      <div class="card-dropdown-content">
+        <h4>The Assignment:</h4>
+        <br/>
+        {% for paragraph in card.description %}
+          <p>{{ paragraph }}</p>
+          {% unless forloop.last %}
+            <br/>
+          {% endunless %}
+        {% endfor %}
+
+        {% if card.link %}
+          <br/>
+          <a href="{{ card.link.url }}">
+            {{ card.link.text }}
+          </a>
+        {% endif %}
+      </div>
   </div>
+</div>
+

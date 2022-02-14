@@ -3,219 +3,159 @@ title: Get Help
 layout: page
 ---
 
-<header class="h-full py-40">
-  <div class="flex items-center">
-    <div class="container mx-auto px-8 sm:px-0">
-      <div class="text-center">
-        <h2 class="text-5xl sm:text-6xl tracking-tight font-extrabold leading-none py-10">
-          Support
+
+<section class="general-layout">
+  <div class="download-container">
+    <h1 class="download-container-title">Support</h1>
+    <p class="download-container-extra">
+      What do you need help with?
+    </p>
+    <div class="col-container-center w-full md:w-max text-center md:text-left">
+      <a class="btn-secondary" href="#portmaster">Portmaster</a>
+      <a class="btn-secondary" href="#spn">SPN</a>
+    </div>
+  </div>
+  <div class="space-y-36" id="portmaster">
+      <div class="download-container">
+        <h2 class="download-container-title">
+          Portmaster
         </h2>
-        <div class="self-center">
-          <p class="text-md opacity-55 max-w-lg mx-auto">
-            What do you need help with?
+        <div class="space-y-8 max-w-3xl mx-auto">
+          <p class="download-container-extra">
+            For common problems check out our documentation with extensive guides on
+            installation, DNS Configuration and the Settings Handbook, describing every
+            Portmaster setting in detail. Report issues and bugs on GitHub while you can
+            always ask for more help on our subreddit or via mail.
           </p>
-          <div class="py-10 sm:py-16 block ">
-            <a href="#portmaster">
-              <button type="button" style="background-color: #000;" class=" mb-5 transform hover:scale-95 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-                Portmaster
-              </button>
-            </a>
-            <br>
-            <a href="#spn">
-              <button type="button" style="background-color: #000;" class="mb-5 transform hover:scale-95 inline-flex items-center px-16 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-                Spn
-              </button>
-            </a>
+          <div class="alert-primary">
+              <i class="icon-info text-md"></i>
+              <span> Portmaster is Alpha Software, thanks for being an Early Adopter. Bug reports are appreciated.</span>
           </div>
         </div>
+        <div class="col-container-center w-full md:w-max text-center md:text-left">
+          <a class="btn-secondary" href="{{ site.docs_url }}"">
+            View Documentation
+          </a>
+          <a href="{{ site.docs_url }}portmaster/guides/contribute#report-bugs-suggest-features-and-improvements" class="btn-secondary"">
+            Report Issue
+          </a>
+          <a class="btn-secondary" href="{{ site.reddit_url }}"">
+            Ask On Reddit
+          </a>
+          <a class="btn-secondary" href="mailto:support@safing.io"">
+            Contact us
+          </a>
+        </div>
       </div>
-    </div>
-  </div>
-</header>
-
-<section class="mb-10 md:mb-20 lg:mb-40" id="portmaster">
-  <div class="items-center h-full">
-    <div class="max-w-full mx-auto px-4 sm:px-6">
-      <div class="py-12 bg-white">
-        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="text-center">
-            <h2 id="downloads" class="text-5xl tracking-tight font-extrabold leading-none py-10 text-center">
-              Portmaster
+      <div class="faq-container">
+        <div class="faq-container-top">
+            <h2 class="faq-container-top-title">
+                FAQ
             </h2>
-            <p class="text-md opacity-55 max-w-screen-sm mx-auto">
-              For common problems check out our documentation with extensive guides on installation, DNS Configuration and the Settings Handbook, describing every Portmaster setting in detail. Report issues and bugs on GitHub while you can always ask for more help on our subreddit or via mail.
+            <p class="faq-container-top-desc">
+              Have a question? Check out some we already answered below. You can always reach out to us to find out more or just to say hi.
             </p>
-          </div>
-          <div>
-            <div class="mx-auto p-5 pl-5 rounded-md text-white flex break-words items-center mt-16 mb-16" style="font-size: .85rem; background-color: #5c85ff; width: fit-content; width: -moz-fit-content;">
-              <img src="{{ site.img_url }}icons/info.svg" class="h-4 w-4 self-center mr-2">
-              Portmaster is Alpha Software, thanks for being an Early Adopter. Bug reports are appreciated.
-            </div>
-            <div class="py-5 block grid lg:flex lg:grid-cols-3 gap-10 justify-center ">
-              <a href="{{ site.docs_url }}" class="flex items-center mx-auto text-center">
-                <button type="button" style="background-color: #000;" class="transform hover:scale-95 hover:opacity-100 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-                  View Documentation
-                </button>
-              </a>
-              <a href="{{ site.docs_url }}portmaster/guides/contribute#report-bugs-suggest-features-and-improvements" class="flex items-center mx-auto text-center">
-                <button type="button" style="background-color: #000;" class="transform hover:scale-95 hover:opacity-100 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-                  Report Issue
-                </button>
-              </a>
-              <a href="{{ site.reddit_url }}" class="flex items-center mx-auto text-center">
-                <button type="button" style="background-color: #000;" class="lg:ml-3 lg:mr-3 transform hover:scale-95 hover:opacity-100 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-                  Ask On Reddit
-                </button>
-              </a>
-              <a href="mailto:support@safing.io" class="flex items-center mx-auto text-center">
-                <button type="button" style="background-color: #000;" class="lg:ml-3 lg:mr-3 transform hover:scale-95 hover:opacity-100 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-                  Contact us
-                </button>
-              </a>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="bg-white" id="portmaster-faq">
-    <div class="max-w-screen-xl mx-auto md:pt-12 lg:pt-20 pb-16 sm:pb-20 px-4 sm:px-6 lg:pb-28 lg:px-8">
-      <div class="text-center pb-12">
-        <h2 class="text-5xl tracking-tight font-extrabold leading-none py-10 text-center">
-          FAQ
-        </h2>
-        <p class="text-md opacity-55">
-          Have a question? Check out some we already answered below. You can always reach out to us to find out more or just to say hi.
-        </p>
-      </div>
-      <div class="mt-6 pt-10 text-center md:text-left">
-        <dl class="md:grid md:grid-cols-2 md:gap-8">
+        <div class="faq-container-bottom">
           {% for faq in site.data.faq.portmaster %}
-            <div>
-              <h1 class="text-xl pb-4">
-                {{ faq.q }}
-              </h1>
-              <dd class="mt-2">
-                <p class="text-md opacity-55">
-                  {{ faq.a }}
-                </p>
-              </dd>
-              {% if faq.link %}
-                <p class="text-md pt-4" style="color: #727272;">
-                  <a class="link" href="{{ faq.link.url }}">
-                    {{ faq.link.text }}
-                  </a>
-                </p>
-              {% endif %}
+            <div class="faq-container-bottom-question">
+                <div class="card-faq hover-scale-out">
+                    <label class="card-label" for="card-toggle-anchor-portmaster-{{ forloop.index }}">
+                        <div class="wrapper-left">
+                            <div class="card-title">
+                                <h3 class="title">
+                                  {{ faq.q }}
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="wrapper-right">
+                            <i class="icon-arrow"></i>
+                        </div>
+                    </label>
+                    <input class="card-input-toggle" id="card-toggle-anchor-portmaster-{{ forloop.index }}" type="checkbox">
+                    <div class="card-dropdown-toggle">
+                        <div class="card-dropdown-content">
+                          <div class="text-safing-gray-500">
+                            {{ faq.a }}
+                          </div>
+                          {% if faq.link %}
+                            <br>
+                            <br>
+                            <a class="link-primary" href="{{ faq.link.url }}">{{ faq.link.text }}</a>
+                          {% endif %}
+                        </div>
+                    </div>
+                </div>
             </div>
           {% endfor %}
-          <div>
-            <h1 class="text-xl pb-4">Where can I find your source code?</h1>
-            <dd class="mt-2">
-              <p class="text-md" style="color: #727272;">
-                You can find our code on <a href="{{ site.github_url }}" class="link">Github</a>. <a href="{{ site.github_url }}/portmaster/" class="link">The Portmaster</a>, the <a href="{{ site.github_url }}/portmaster-ui/" class="link">Portmaster UI</a>, the <a href="{{ site.github_url }}/spn/" class="link">SPN</a> and <a href="{{ site.github_url }}/web/" class="link">this website</a> have their respective repositories. <a href="{{ site.github_url }}/jess/" class="link">Jess</a>, the heart of the SPN, which got <a href="https://cure53.de/pentest-report_safing-jess.pdf">audited by Cure53</a>, can also be found online.
-              </p>
-            </dd>
-          </div>
-        </dl>
+          {% include source_code_faq.html %}
+      </div>
+  </div>
+  <div class="space-y-36" id="spn">
+    <div class="download-container">
+      <h2 class="download-container-title">
+        Safing Privacy Network
+      </h2>
+      <div class="alert-primary max-w-3xl mx-auto">
+        <i class="icon-info text-md"></i>
+        <span>
+          The SPN is Alpha Software, thanks for being an Early Supporter. Always feel free to reach out.
+        </span>
+      </div>
+      <div class="col-container-center w-full md:w-max text-center md:text-left">
+        <a class="btn-secondary" href="{{ site.github_url }}/spn">
+          View SPN Repository
+        </a>
+        <a class="btn-secondary" href="{{ site.reddit_url }}">
+          Ask on Reddit
+        </a>
+        <a class="btn-secondary" href="mailto:support@safing.io">
+          Contact us
+        </a>
       </div>
     </div>
-  </div>
-</section>
-
-<section class="my-20" id="spn">
-  <div class="items-center h-full">
-    <div class="max-w-full mx-auto px-4 sm:px-6">
-      <div class="py-12 bg-white">
-        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="text-center">
-            <h2 id="downloads" class="text-5xl tracking-tight font-extrabold leading-none py-10 text-center">
-              Safing Privacy Network
-            </h2>
-          </div>
-          <div class="mx-auto text-center">
-            <div class="text-center lg:text-left lg:inline-flex items-center mt-16 mb-16 spn-shadow p-10 rounded-lg">
-              <div class="flex items-center justify-center pl-2 md:pl-0 h-12 md:w-12 w-auto mr-auto ml-auto">
-                <svg class="h-8 w-8" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <g fill="none">
-                    <path d="M0 0h24v24H0z" />
-                    <path stroke="#ddae7b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 21v0c-4.971 0-9-4.029-9-9v0c0-4.971 4.029-9 9-9v0c4.971 0 9 4.029 9 9v0c0 4.971-4.029 9-9 9z" />
-                    <path stroke="#ddae7b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 17v-5h-1M11.749 8c-.138 0-.25.112-.249.25 0 .138.112.25.25.25s.25-.112.25-.25-.112-.25-.251-.25" />
-                  </g>
-                </svg>
+    <div class="faq-container">
+      <div class="faq-container-top">
+          <h2 class="faq-container-top-title">
+              FAQ
+          </h2>
+          <p class="faq-container-top-desc">
+            Have a question? Check out some we already answered below. You can always reach out to us to find out more or just to say hi.
+          </p>
+      </div>
+      <div class="faq-container-bottom">
+        {% for faq in site.data.faq.spn %}
+          <div class="faq-container-bottom-question">
+              <div class="card-faq hover-scale-out">
+                  <label class="card-label" for="card-toggle-anchor-spn-{{ forloop.index }}">
+                      <div class="wrapper-left">
+                          <div class="card-title">
+                              <h3 class="title">
+                                {{ faq.q }}
+                              </h3>
+                          </div>
+                      </div>
+                      <div class="wrapper-right">
+                          <i class="icon-arrow"></i>
+                      </div>
+                  </label>
+                  <input class="card-input-toggle" id="card-toggle-anchor-spn-{{ forloop.index }}" type="checkbox">
+                  <div class="card-dropdown-toggle">
+                      <div class="card-dropdown-content">
+                        <div class="text-safing-gray-500">
+                          {{ faq.a }}
+                        </div>
+                        {% if faq.link %}
+                          <br>
+                          <br>
+                          <a class="link-primary" href="{{ faq.link.url }}">{{ faq.link.text }}</a>
+                        {% endif %}
+                      </div>
+                  </div>
               </div>
-              <p class="pt-5 lg:pt-0 md:pl-10 md:pr-10 text-sm opacity-75">
-                If you want to know more about the technology, visit <a href="{{ site.spn_url }}" class="link">the SPN page</a>, <a href="{{ site.kickstarter_url }}" class="link">the Kickstarter</a> or read <a href="{{ site.whitepaper_url }}" class="link">our Whitepaper</a>.
-                <br/>
-                <br/>
-                Otherwise, feel free to contact us with any matter or request you might have.
-              </p>
-            </div>
-            <div class="py-5 block grid lg:flex lg:grid-cols-3 gap-10 justify-center">
-              <a href="{{ site.github_url }}/spn" class="flex items-center mx-auto text-center">
-                <button type="button" style="background-color: #000;" class="transform hover:scale-95 hover:opacity-100 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-                  View SPN Repository
-                </button>
-              </a>
-              <a href="{{ site.reddit_url }}" class="flex items-center mx-auto text-center">
-                <button type="button" style="background-color: #000;" class="lg:ml-3 lg:mr-3 transform hover:scale-95 hover:opacity-100 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-                  Ask on Reddit
-                </button>
-              </a>
-              <a href="mailto:support@safing.io" class="flex items-center mx-auto text-center">
-                <button type="button" style="background-color: #000;" class="lg:ml-3 lg:mr-3 transform hover:scale-95 hover:opacity-100 inline-flex items-center px-10 py-3 border border-transparent text-xs leading-5 font-extrabold rounded-full text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700 transition duration-150 ease-in-out uppercase">
-                  Contact us
-                </button>
-              </a>
-            </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="bg-white" id="spn-faq">
-    <div class="max-w-screen-xl mx-auto md:pt-12 pb-16 sm:pt-16 sm:pb-20 px-4 sm:px-6 lg:pt-20 lg:pb-28 lg:px-8">
-      <div class="text-center pb-12">
-        <h2 class="text-5xl tracking-tight font-extrabold leading-none py-10 text-center">
-          FAQ
-        </h2>
-        <p class="text-md opacity-55">
-          Have a question? Check out some we already answered below. You can always reach out to us to find out more or just to say hi.
-        </p>
-      </div>
-      <div class="mt-6 pt-10 text-center md:text-left">
-        <dl class="md:grid md:grid-cols-2 md:gap-8">
-          {% for faq in site.data.faq.spn %}
-            <div>
-              <h1 class="text-xl pb-4">
-                {{ faq.q }}
-              </h1>
-              <dd class="mt-2">
-                <p class="text-md opacity-55">
-                  {{ faq.a }}
-                </p>
-              </dd>
-              {% if faq.link %}
-                <p class="text-md pt-4" style="color: #727272;">
-                  <a class="link" href="{{ faq.link.url }}">
-                    {{ faq.link.text }}
-                  </a>
-                </p>
-              {% endif %}
-            </div>
-          {% endfor %}
-          <div>
-            <h1 class="text-xl pb-4">Where can I find your source code?</h1>
-            <dd class="mt-2">
-              <p class="text-md" style="color: #727272;">
-                You can find our code on <a href="{{ site.github_url }}" class="link">Github</a>. <a href="{{ site.github_url }}/portmaster/" class="link">The Portmaster</a>, the <a href="{{ site.github_url }}/portmaster-ui/" class="link">Portmaster UI</a>, the <a href="{{ site.github_url }}/spn/" class="link">SPN</a> and <a href="{{ site.github_url }}/web/" class="link">this website</a> have their respective repositories. <a href="{{ site.github_url }}/jess/" class="link">Jess</a>, the heart of the SPN, which got <a href="https://cure53.de/pentest-report_safing-jess.pdf">audited by Cure53</a>, can also be found online.
-              </p>
-            </dd>
-          </div>
-        </dl>
-      </div>
+        {% endfor %}
+        {% include source_code_faq.html faq_id='spn-0'%}
     </div>
   </div>
 </section>
