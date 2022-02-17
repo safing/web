@@ -50,5 +50,15 @@ portmaster:
     a: Yes, we highly recommend to continue using adblockers, such as uBlock Origin, uMatrix, or similar. They give you more fine grained control over domains. iE you can allow certain domains to allow css files & images while blocking cookies & javascripts. The Portmaster cannot make this distinction.
   - q: What platforms do you support?
     a: Currently we support Windows and Linux. Mac and Mobile are planned, but are further down the road.
+  - q: Incoming connections no longer work. Why?
+    a: As a security measure, Portmaster blocks all incoming connections by default. You can create exceptions for apps and services that need it.
+    link:
+      text: Learn how to configure exceptions for Incoming Connections
+      url: https://docs.safing.io/portmaster/settings#filter/serviceEndpoints
+  - q: External services and devices can no longer communicate with my device. Why?
+    a: As a security measure, Portmaster blocks all incoming connections by default. You can create exceptions for apps and services that need it.
+    link:
+      text: Learn how to configure exceptions for Incoming Connections
+      url: https://docs.safing.io/portmaster/settings#filter/serviceEndpoints
 
 # ## The Portmaster can block ads and trackers. Do I still need a ad-blocking web extension?
