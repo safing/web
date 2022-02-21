@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../docs/css/highlight.min.css">
     <link rel="stylesheet" href="../docs/css/style.css">
-    <link rel="stylesheet" href="../safingTailwind-1.5.css">
+    <link rel="stylesheet" href="../safingTailwind-1.5.1.css">
     <script src="../docs/js/vendor/jquery.min.js" type="text/javascript"></script>
     <script src="../docs/js/vendor/jquery-resizable.js"></script>
     <script src="../docs/js/vendor/highlight.min.js"></script>
@@ -14,7 +14,7 @@
   </head>
 <body class="antialiased font-sans font-medium">
   <div class="alert-primary rounded-none text-md">
-    <span>There will be some stuff missing in this, and also some bugs. <strong>v1.5</strong></span>
+    <span>There will be some stuff missing in this, and also some bugs. <strong>v1.5.1</strong></span>
   </div>
   <div class="flex">
     <nav class="overflow-y-auto pb-10 pt-20  ml-20 w-56">
@@ -1649,6 +1649,54 @@
                     <div id="tabMenu" class="space-y-4">
                       <div class="flex">
                         <div>
+                          <span class="title block text-md">Backoffice</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Backoffice-Tag">preview</a></li>
+                          <li><a href="#html-Backoffice-Tag">html</a></li>
+                          
+                            <li><a href="#scss-Backoffice-Tag">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Backoffice-Tag" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <span class="tag-backoffice">
+    Community
+</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Backoffice-Tag">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;span class="tag-backoffice"&gt;
+    Community
+&lt;/span&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Backoffice-Tag">
+                          <pre><code style="min-height: 200px;" class="language-scss">.tag-backoffice {
+    @apply tag;
+    @apply bg-gray-200;
+    @apply text-gray-800;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
                           <span class="title block text-md">Community</span>
                         </div>
                         <ul class="tabs flex space-x-3 ml-auto">
@@ -1787,8 +1835,8 @@
                         <li id="scss-Marketing-Tag">
                           <pre><code style="min-height: 200px;" class="language-scss">.tag-marketing {
     @apply tag;
-    @apply bg-orange-100;
-    @apply text-orange-800;
+    @apply bg-yellow-200;
+    @apply text-yellow-800;
 }</code></pre>
                         </li>
                       
@@ -1931,8 +1979,8 @@
                         <li id="scss-Website-Tag">
                           <pre><code style="min-height: 200px;" class="language-scss">.tag-website {
     @apply tag;
-    @apply bg-gray-200;
-    @apply text-gray-800;
+    @apply bg-pink-200;
+    @apply text-pink-800;
 }</code></pre>
                         </li>
                       
@@ -3459,14 +3507,20 @@
 }
 
 .markdown-container > hr {
-    margin-bottom: 1.25rem;
     margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 .markdown-container > [class^=' alert'],
 .markdown-container > [class*='alert'] {
-    margin-bottom: 1.25rem;
     margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.markdown-container > a {
+    @apply block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .markdown-container > p:not(:first-of-type):not(:last-of-type) {
