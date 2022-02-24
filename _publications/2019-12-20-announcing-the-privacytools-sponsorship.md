@@ -14,7 +14,7 @@ We are delighted to be in a position where we are able to share our resources, a
 
 ### What is PrivacyTools?
 
-[PrivacyTools](https://privacytools.io) is an endeavor which strives to inform, educate and empower privacy-minded people to withstand today's mass surveillance. Their thriving community members do not only help each other out, but also equip and aid all newcomers into the field. The team's openness in all their decision making, criteria and finances continues to validate their gained trust across the privacy scene. If you are able [to spare time](https://www.privacytools.io/index.html#participate) or [money](https://www.privacytools.io/donate/), we encourage you to support them too!
+[PrivacyTools](https://privacytools.io) is an endeavor which strives to inform, educate and empower privacy-minded people to withstand today's mass surveillance. Their thriving community members do not only help each other out, but also equip and aid all newcomers into the field. The team's openness in all their decision making, criteria and finances continues to validate their gained trust across the privacy scene. If you are able [to spare time](https://www.privacytools.io/) or [money](https://www.privacytools.io/donate/), we encourage you to support them too!
 
 ### Their Work Impacted Us Personally
 

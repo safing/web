@@ -53,7 +53,7 @@ cards:
         - type: p
           text: While tackling the installer for the second Linux distribution Arch, Patrick pointed out the opt-in security of their service files. Without defining restrictions, an app like the Portmaster gets root access, so when a malicious actor takes over the Portmaster it would give him the tools to take over the whole system. As a result we defined strict rules so the Portmaster only gets read access for most of the system.
         - type: a
-          href: https://github.com/safing/portmaster-packaging/blob/master/linux/debian/portmaster.service
+          href: https://github.com/safing/portmaster-packaging/blob/master/linux/portmaster.service
           text: Look at the service config
     - title: Funding Proposals
       description:
