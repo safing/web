@@ -24,9 +24,6 @@
             {% endif %}
             {{ episode.date | date: "%-d. %b %Y" }}
           </span>
-          <div class="circular-profile" tooltip="{{ post.author | capitalize }}">
-              <img src="{{ site.img_url }}profiles/{{ post.author | downcase }}.png" alt="{{ post.author | capitalize }}">
-          </div>
       </div>
       {% assign title_length = episode.title | size %}
       <span>{{ episode.title | slice: 7, title_length }} - #{{ episode.title | slice: 2, 2 }}</span>

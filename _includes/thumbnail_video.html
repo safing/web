@@ -1,13 +1,13 @@
 <a class="card-blog" href="{{ video.url }}">
   <div class="card-blog-thumbnail">
       {% if video.custom_thumbnail_name == null %}.
-        <img 
+        <img
           src="{{ site.img_url }}thumbnails/video/placeholder.png"
-          style="max-width: 365px; max-height: 223px;"  
+          style="max-width: 365px; max-height: 223px;"
         >
-          
+
       {% else %}
-        <img 
+        <img
           src="{{ site.img_url }}thumbnails/video/{{ video.custom_thumbnail_name }}.png"
           style="max-width: 365px; max-height: 223px;"
         >
@@ -24,9 +24,6 @@
             {% endif %}
             {{ video.date | date: "%-d. %b %Y" }}
           </span>
-          <div class="circular-profile" tooltip="{{ post.author | capitalize }}">
-              <img src="{{ site.img_url }}profiles/{{ post.author | downcase }}.png" alt="{{ post.author | capitalize }}">
-          </div>
       </div>
       {% if video.progress_update %}
       {% assign title_length = video.title | size %}
