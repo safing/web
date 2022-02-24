@@ -51,7 +51,7 @@ For generic growth, there is no way around listening to your audience, being hon
 
 Oh yeah, there is a way around this too. Instead of putting in the work, just buy yourself into the game: With todays ad industry, you can simply spend hundreds of thousands of dollars to buy people's attention and hopefully convert enough of them into customers.
 
-The catch with this however is that you normally have to turn to venture capital, which focuses more on the investor's profit than your customers. There's [this vicious cycle going on](https://forum.privacytools.io/t/what-privacy-services-have-been-sold-or-taken-on-major-investors-we-should-find-out/1834/9) that, ultimately, forces so many companies to sell out on their customers. Avoid this at all cost.
+The catch with this however is that you normally have to turn to venture capital, which focuses more on the investor's profit than your customers. There's [this vicious cycle going on](https://web.archive.org/web/20210913181902/https://forum.privacytools.io/t/what-privacy-services-have-been-sold-or-taken-on-major-investors-we-should-find-out/1834) that, ultimately, forces so many companies to sell out on their customers. Avoid this at all cost.
 
 #### Conclusion
 
