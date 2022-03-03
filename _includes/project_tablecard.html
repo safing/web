@@ -72,6 +72,8 @@
                   <li>{{ li }}</li>
                 {% endfor %}
               </ul>
+            {% elsif tag.type == 'img' %}
+              <img class="my-5" src="{{ tag.src }}"/>
             {% else %}
               <{{ tag.type }}>{{ tag.text }}</{{tag.type}}>
             {% endif %}
