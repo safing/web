@@ -1,0 +1,4 @@
+# Ignore all logfiles and tempfiles.
+/_site/*
+/.git/*
+*.DS_Store
