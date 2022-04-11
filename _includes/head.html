@@ -1,22 +1,65 @@
-<!-- meta -->
+
 <meta charset={{ site.encoding }}>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+<title>{{ page.title }}</title>
 <meta name="description" content="{{ site.description }}">
 <meta name="author" content="{{ site.author }}">
-<title>
-  {% if page.type == "podcast" %}
-    {% assign title_length = page.title | size %}
-    {{ page.title | slice: 7, title_length }} - The Safing Podcast #{{ page.title | slice: 2, 2 }}
-  {% elsif page.type == "video" %}
-    {% assign title_length = page.title | size %}
-    {{ page.title | slice: 7, title_length }} - Safing Update #{{ page.title | slice: 2, 2 }}
-  {% elsif page.type == "post" %}
-    {{ page.title }} - Safing Blog
+
+<!-- Other & Facebook -->
+<meta property="og:url" content="{{ site.url }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="
+  {% if page.summary != null %}
+    {{ page.summary | truncatewords: 18 }}
   {% else %}
-    {{ page.title }}
+    {{ site.description }}
   {% endif %}
-</title>
+">
+<meta property="og:image" content="
+  {% if page.category == "podcast" %}
+    {% if page.custom_thumbnail_name == null %}
+      {{ site.url }}{{ site.img_url }}thumbnails/podcast/placeholder.png
+    {% else %}
+      {{ site.url }}{{ site.img_url }}thumbnails/podcast/{{ page.custom_thumbnail_name }}.png
+    {% endif %}
+  {% elsif page.category == "video" %}
+    {{ site.url }}{{ site.img_url }}thumbnails/video/{{ page.custom_thumbnail_name }}.png
+  {% elsif page.category == "blog" %}
+    {{ site.url }}{{ site.img_url }}thumbnails/blog/{{ page.custom_thumbnail_name }}.png
+  {% else %}
+    {{ site.url }}{{ site.img_url }}ogp/default.png
+  {% endif %}
+">
+
+<!-- Twitter -->
+<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:description" content="
+{% if page.summary != null %}
+  {{ page.summary | truncatewords: 18 }}
+{% else %}
+  {{ site.description }}
+{% endif %}
+">
+<meta name="twitter:site" content="@SafingIO">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="
+{% if page.category == "podcast" %}
+  {% if page.custom_thumbnail_name == null %}
+    {{ site.url }}{{ site.img_url }}thumbnails/podcast/placeholder.png
+  {% else %}
+    {{ site.url }}{{ site.img_url }}thumbnails/podcast/{{ page.custom_thumbnail_name }}.png
+  {% endif %}
+{% elsif page.category == "video" %}
+  {{ site.url }}{{ site.img_url }}thumbnails/video/{{ page.custom_thumbnail_name }}.png
+{% elsif page.category == "blog" %}
+  {{ site.url }}{{ site.img_url }}thumbnails/blog/{{ page.custom_thumbnail_name }}.png
+{% else %}
+  {{ site.url }}{{ site.img_url }}ogp/default.png
+{% endif %}
+">
 
 <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
 <link rel="apple-touch-icon" sizes="57x57" href="{{ site.assets_url }}icons/apple-icon-57x57.png">
