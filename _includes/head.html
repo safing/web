@@ -1,22 +1,13 @@
-<!-- meta -->
+
 <meta charset={{ site.encoding }}>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+<title>{{ page.title }}</title>
 <meta name="description" content="{{ site.description }}">
 <meta name="author" content="{{ site.author }}">
-<title>
-  {% if page.type == "podcast" %}
-    {% assign title_length = page.title | size %}
-    {{ page.title | slice: 7, title_length }} - The Safing Podcast #{{ page.title | slice: 2, 2 }}
-  {% elsif page.type == "video" %}
-    {% assign title_length = page.title | size %}
-    {{ page.title | slice: 7, title_length }} - Safing Update #{{ page.title | slice: 2, 2 }}
-  {% elsif page.type == "post" %}
-    {{ page.title }} - Safing Blog
-  {% else %}
-    {{ page.title }}
-  {% endif %}
-</title>
+
+{% include head_ogp.html %}
 
 <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
 <link rel="apple-touch-icon" sizes="57x57" href="{{ site.assets_url }}icons/apple-icon-57x57.png">

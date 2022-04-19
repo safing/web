@@ -1,0 +1,67 @@
+<!-- Other & Facebook -->
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page.title }}">
+
+<!-- 
+    Todo: Daniel said leave a comment here and this 
+    need also need more clarification for how/what 
+    should be displayed here
+ -->
+<!-- <meta property="og:description" content="
+  {% if page.summary != null %}
+    {{ page.summary | truncatewords: 18 }}
+  {% else %}
+    {{ site.description }}
+  {% endif %}
+"> -->
+
+<meta property="og:image" content="
+  {% if page.category == "podcast" %}
+    {% if page.custom_thumbnail_name %}
+        {{ site.url }}{{ site.img_url }}thumbnails/podcast/{{ page.custom_thumbnail_name }}.png
+    {% else %}
+        {{ site.url }}{{ site.img_url }}thumbnails/podcast/placeholder.png
+    {% endif %}
+  {% elsif page.category == "video" %}
+    {{ site.url }}{{ site.img_url }}thumbnails/video/{{ page.custom_thumbnail_name }}.png
+  {% elsif page.category == "blog" %}
+    {{ site.url }}{{ site.img_url }}thumbnails/blog/{{ page.custom_thumbnail_name }}.png
+  {% else %}
+    {{ site.url }}{{ site.img_url }}ogp/default.png
+  {% endif %}
+">
+
+<!-- Twitter -->
+<meta name="twitter:title" content="{{ page.title }}">
+
+<!-- 
+    Todo: Daniel said leave a comment here and this 
+    need also need more clarification for how/what 
+    should be displayed here
+ -->
+<!-- <meta name="twitter:description" content="
+{% if page.summary != null %}
+  {{ page.summary | truncatewords: 18 }}
+{% else %}
+  {{ site.description }}
+{% endif %}
+"> -->
+
+<meta name="twitter:site" content="{{ site.twitter_username }}">
+<meta name="twitter:card" content="{{ site.twitter_card_type }}">
+<meta name="twitter:image" content="
+{% if page.category == "podcast" %}
+  {% if page.custom_thumbnail_name %}
+    {{ site.url }}{{ site.img_url }}thumbnails/podcast/{{ page.custom_thumbnail_name }}.png
+  {% else %}
+    {{ site.url }}{{ site.img_url }}thumbnails/podcast/placeholder.png
+  {% endif %}
+{% elsif page.category == "video" %}
+  {{ site.url }}{{ site.img_url }}thumbnails/video/{{ page.custom_thumbnail_name }}.png
+{% elsif page.category == "blog" %}
+  {{ site.url }}{{ site.img_url }}thumbnails/blog/{{ page.custom_thumbnail_name }}.png
+{% else %}
+  {{ site.url }}{{ site.img_url }}ogp/default.png
+{% endif %}
+">
