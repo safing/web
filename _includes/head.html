@@ -7,59 +7,7 @@
 <meta name="description" content="{{ site.description }}">
 <meta name="author" content="{{ site.author }}">
 
-<!-- Other & Facebook -->
-<meta property="og:url" content="{{ site.url }}{{ page.url }}">
-<meta property="og:type" content="website">
-<meta property="og:title" content="{{ page.title }}">
-<meta property="og:description" content="
-  {% if page.summary != null %}
-    {{ page.summary | truncatewords: 18 }}
-  {% else %}
-    {{ site.description }}
-  {% endif %}
-">
-<meta property="og:image" content="
-  {% if page.category == "podcast" %}
-    {% if page.custom_thumbnail_name == null %}
-      {{ site.url }}{{ site.img_url }}thumbnails/podcast/placeholder.png
-    {% else %}
-      {{ site.url }}{{ site.img_url }}thumbnails/podcast/{{ page.custom_thumbnail_name }}.png
-    {% endif %}
-  {% elsif page.category == "video" %}
-    {{ site.url }}{{ site.img_url }}thumbnails/video/{{ page.custom_thumbnail_name }}.png
-  {% elsif page.category == "blog" %}
-    {{ site.url }}{{ site.img_url }}thumbnails/blog/{{ page.custom_thumbnail_name }}.png
-  {% else %}
-    {{ site.url }}{{ site.img_url }}ogp/default.png
-  {% endif %}
-">
-
-<!-- Twitter -->
-<meta name="twitter:title" content="{{ page.title }}">
-<meta name="twitter:description" content="
-{% if page.summary != null %}
-  {{ page.summary | truncatewords: 18 }}
-{% else %}
-  {{ site.description }}
-{% endif %}
-">
-<meta name="twitter:site" content="@SafingIO">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="
-{% if page.category == "podcast" %}
-  {% if page.custom_thumbnail_name == null %}
-    {{ site.url }}{{ site.img_url }}thumbnails/podcast/placeholder.png
-  {% else %}
-    {{ site.url }}{{ site.img_url }}thumbnails/podcast/{{ page.custom_thumbnail_name }}.png
-  {% endif %}
-{% elsif page.category == "video" %}
-  {{ site.url }}{{ site.img_url }}thumbnails/video/{{ page.custom_thumbnail_name }}.png
-{% elsif page.category == "blog" %}
-  {{ site.url }}{{ site.img_url }}thumbnails/blog/{{ page.custom_thumbnail_name }}.png
-{% else %}
-  {{ site.url }}{{ site.img_url }}ogp/default.png
-{% endif %}
-">
+{% include head_ogp.html %}
 
 <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
 <link rel="apple-touch-icon" sizes="57x57" href="{{ site.assets_url }}icons/apple-icon-57x57.png">
