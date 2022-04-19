@@ -87,6 +87,13 @@ inter_post_navigation: false
 email: hello@safing.io
 emailobfuscated: "=b!isfg>#nbjmup;ifmmpAtbgjoh/jp#?ifmmpAtbgjoh/jp=0b?"
 
+##############################
+###### OGP settings ######
+##############################
+
+twitter_username: "@SafingIO"
+twitter_card_type: "summary_large_image"
+
 ###################################
 ###### media/content options ######
 ###################################
