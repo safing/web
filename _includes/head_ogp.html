@@ -18,10 +18,10 @@
 
 <meta property="og:image" content="
   {% if page.category == "podcast" %}
-    {% if page.custom_thumbnail_name == null %}
-      {{ site.url }}{{ site.img_url }}thumbnails/podcast/placeholder.png
+    {% if page.custom_thumbnail_name %}
+        {{ site.url }}{{ site.img_url }}thumbnails/podcast/{{ page.custom_thumbnail_name }}.png
     {% else %}
-      {{ site.url }}{{ site.img_url }}thumbnails/podcast/{{ page.custom_thumbnail_name }}.png
+        {{ site.url }}{{ site.img_url }}thumbnails/podcast/placeholder.png
     {% endif %}
   {% elsif page.category == "video" %}
     {{ site.url }}{{ site.img_url }}thumbnails/video/{{ page.custom_thumbnail_name }}.png
@@ -52,10 +52,10 @@
 <meta name="twitter:card" content="{{ site.twitter_card_type }}">
 <meta name="twitter:image" content="
 {% if page.category == "podcast" %}
-  {% if page.custom_thumbnail_name == null %}
-    {{ site.url }}{{ site.img_url }}thumbnails/podcast/placeholder.png
-  {% else %}
+  {% if page.custom_thumbnail_name %}
     {{ site.url }}{{ site.img_url }}thumbnails/podcast/{{ page.custom_thumbnail_name }}.png
+  {% else %}
+    {{ site.url }}{{ site.img_url }}thumbnails/podcast/placeholder.png
   {% endif %}
 {% elsif page.category == "video" %}
   {{ site.url }}{{ site.img_url }}thumbnails/video/{{ page.custom_thumbnail_name }}.png
