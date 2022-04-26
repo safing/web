@@ -1,0 +1,94 @@
+---
+title: Join Safing
+layout: page
+---
+
+<section class="general-layout">
+    <div class="feature-two-container">
+        <div class="feature-two-container-top">
+            <h1 class="feature-two-container-top-title" style="max-width: 500px;">
+                <span class="text-safing-blue-500">Join Our Team</span> and Help
+                Us with Our Mission
+            </h1>
+            <p class="feature-two-container-top-desc" style="max-width: 810px;">
+                We love freedom, just like you. We are on a mission to help everyone 
+                withstand today’s mass surveillance so they can reclaim control over 
+                their data. Play an active part in tackling some of online privacy’s 
+                root problems and have a huge impact on people’s lives!
+            </p>
+            <div class="element-x-center-max space-x-7">
+                <a class="link-primary" href="#open-postions">Open Positions</a>
+            </div>
+        </div>
+        <div class="feature-two-container-bottom">
+            <div class="feature-two-container-bottom-content">
+                <i class="icon-users feature-two-container-bottom-content-icon"></i>
+                <span class="feature-two-container-bottom-content-title">Attractive Workplace</span>
+                <p class="feature-two-container-bottom-content-desc">
+                    You’ll have a fully paid setup with the latest technology and ergonomic 
+                    office furniture. We are currently in a beautiful office in Baden, Lower 
+                    Austria, but there is the possibility to work remotely. Unfortunately, 
+                    this is restricted to Austria as of now. However, we will help you with 
+                    settling in Austria if you decide to join us.
+                </p>
+            </div>
+            <div class="feature-two-container-bottom-content">
+                <i class="icon-scales feature-two-container-bottom-content-icon"></i>
+                <span class="feature-two-container-bottom-content-title">Strive for a healthy work-life balance</span>
+                <p class="feature-two-container-bottom-content-desc">
+                    Development is often tied to long working hours. That is why we want to 
+                    you to have enough time for recreation. Austria is a great workplace 
+                    where you will enjoy health insurance and five weeks of paid vacation. 
+                    Additionally, all new parents have the possibility to take paid family 
+                    leave (how long?). We are okay with parent leave. We have experience with 
+                    that and are open to be flexible and help your family planning lol
+                </p>
+            </div>
+            <div class="feature-two-container-bottom-content">
+                <i class="icon-chart feature-two-container-bottom-content-icon"></i>
+                <span class="feature-two-container-bottom-content-title">Purpose-Driven Growth</span>
+                <p class="feature-two-container-bottom-content-desc">
+                    Safing’s drive comes out of conviction and commitment to the cause of privacy, 
+                    not for generating profit. We strive for creating sustainable high quality 
+                    software solutions to serious problems. This requires constant growth and 
+                    consistency. If this resonates with you, you’re welcome to grow with us
+                </p>
+            </div>
+            <div class="feature-two-container-bottom-content">
+                <i class="icon-heart feature-two-container-bottom-content-icon"></i>
+                <span class="feature-two-container-bottom-content-title">Transparency & Open Source</span>
+                <p class="feature-two-container-bottom-content-desc">
+                    Handling sensitive data requires a lot of trust. Help us building this trust 
+                    by contributing to our code base. Open Source is a way of being transparent 
+                    and gives other the opportunity to hold us accountable. Be the additional 
+                    pair of eyes that increases our transparency.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="feature-two-container" id="open-postions">
+        <div class="feature-two-container-top">
+            <h2 class="feature-two-container-top-title">
+                Open Postions
+            </h2>
+        </div>
+        <div class="space-y-4 mx-auto" style="max-width: 900px;">
+            {% assign posts = site.jobs %}
+            {% if posts.size > 0 %}
+                {% for post in posts %}
+                    <div class="card p-7 flex items-center">
+                        <div class="flex space-x-2 items-center">
+                            <span class="text-xl block">{{ post.title }}</span>
+                            <span class="text-sm text-safing-gray-300 block">Austria - remote</span>
+                        </div>
+                        <a class="btn-secondary ml-auto" href="{{ post.url }}">View More</a>
+                    </div>
+                {% endfor %}
+            {%- else -%}
+                <div class="bg-gray-200 p-7">
+                    <span class="text-md text-center block">Applications are currently. Sign up to receive updates about new postions opportunities via email.</span>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</section>
