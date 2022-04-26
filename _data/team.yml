@@ -70,7 +70,5 @@ externals:
     handles:
       - icon: earth
         external_url: https://brainbits.in
-      - icon: twitter
-        external_url: https://twitter.com/tweetsbypranav
     description: >
       Pranav is a minimalist who enjoys writing about privacy, web development and philosophy. He joined forces with Safing to tackle the "Portmaster vs X" comparison blog posts, where he is the main contributor.
