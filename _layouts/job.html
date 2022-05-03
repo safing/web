@@ -1,0 +1,23 @@
+---
+layout: page
+---
+
+<section class="publication-layout">
+    <div class="mx-auto max-w-4xl space-y-5">
+      <div class="flex mx-auto items-center">
+        <div class="space-y-3">
+          <h1 class="text-5xl block tracking-tight font-bold leading-none">{{ page.title }}</h1>
+          <span class="block text-md text-safing-gray-300">{{ page.extraInfo }}</span>
+        </div>
+        <div class="ml-auto">
+          <a class="btn-primary" href="mailto:{{ site.email }}">Apply Now</a>
+        </div>
+      </div>
+      <div>
+        <p>{{ page.summary }}</p>
+      </div>
+    </div>
+    <div class="markdown-container">
+        {{ content }}
+    </div>
+</section>

@@ -95,13 +95,13 @@ twitter_username: "@SafingIO"
 twitter_card_type: "summary_large_image"
 
 ###################################
-###### media/content options ######
+###### collection options ######
 ###################################
 
-last_progress_update_on: "03. March 2022"
-last_finances_update_on: "March 2022"
-
 collections:
+  jobs:
+    output: true
+    permalink: /jobs/:title/
   publications:
     output: true
 
@@ -112,6 +112,14 @@ defaults:
     values:
       permalink: /:categories/:year/:month/:day/:title/
       type: "publication"
+
+
+###################################
+###### media/content options ######
+###################################
+
+last_progress_update_on: "03. March 2022"
+last_finances_update_on: "March 2022"
 
 ##############################
 ###### Podcast settings ######
