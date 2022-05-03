@@ -76,15 +76,15 @@ layout: page
             </h2>
         </div>
         <div class="space-y-4 mx-auto" style="max-width: 900px;">
-            {% assign posts = site.jobs %}
-            {% if posts.size > 0 %}
-                {% for post in posts %}
+            {% assign jobs = site.jobs %}
+            {% if jobs.size > 0 %}
+                {% for job in jobs %}
                     <div class="card p-7 flex items-center">
                         <div class="flex space-x-2 items-center">
-                            <span class="text-xl block">{{ post.title }}</span>
+                            <span class="text-xl block">{{ job.title }}</span>
                             <span class="text-sm text-safing-gray-300 block">Austria - remote</span>
                         </div>
-                        <a class="btn-secondary ml-auto" href="{{ post.url }}">View More</a>
+                        <a class="btn-secondary ml-auto" href="{{ job.url }}">View More</a>
                     </div>
                 {% endfor %}
             {%- else -%}
