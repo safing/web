@@ -7,8 +7,7 @@ layout: page
     <div class="feature-two-container">
         <div class="feature-two-container-top">
             <h1 class="feature-two-container-top-title" style="max-width: 500px;">
-                <span class="text-safing-blue-500">Join Our Team</span> and Help
-                Us with Our Mission
+                <span class="text-safing-blue-500">Join Our Team</span> and Take Part in Our Mission
             </h1>
             <p class="feature-two-container-top-desc" style="max-width: 810px;">
                 We love freedom, just like you. We are on a mission to help everyone 
@@ -23,7 +22,7 @@ layout: page
         <div class="feature-two-container-bottom">
             <div class="feature-two-container-bottom-content">
                 <i class="icon-users feature-two-container-bottom-content-icon"></i>
-                <span class="feature-two-container-bottom-content-title">Attractive Workplace</span>
+                <h3 class="feature-two-container-bottom-content-title">Attractive Workplace</h3>
                 <p class="feature-two-container-bottom-content-desc">
                     You’ll have a fully paid setup with the latest technology and 
                     ergonomic office furniture. We are currently in a beautiful 
@@ -35,7 +34,7 @@ layout: page
             </div>
             <div class="feature-two-container-bottom-content">
                 <i class="icon-scales feature-two-container-bottom-content-icon"></i>
-                <span class="feature-two-container-bottom-content-title">Strive for a healthy work-life balance</span>
+                <h3 class="feature-two-container-bottom-content-title">Strive for a Healthy Work-Life Balance</h3>
                 <p class="feature-two-container-bottom-content-desc">
                     Development is often tied to long working hours. That is why we 
                     want to you to have enough time for recreation. Austria is a 
@@ -46,7 +45,7 @@ layout: page
             </div>
             <div class="feature-two-container-bottom-content">
                 <i class="icon-chart feature-two-container-bottom-content-icon"></i>
-                <span class="feature-two-container-bottom-content-title">Purpose-Driven Growth</span>
+                <h3 class="feature-two-container-bottom-content-title">Purpose-Driven Growth</h3>
                 <p class="feature-two-container-bottom-content-desc">
                     Safing’s drive comes out of conviction and commitment to the 
                     cause of privacy, not for generating profit. We strive for 
@@ -58,7 +57,7 @@ layout: page
             </div>
             <div class="feature-two-container-bottom-content">
                 <i class="icon-heart feature-two-container-bottom-content-icon"></i>
-                <span class="feature-two-container-bottom-content-title">Transparency & Open Source</span>
+                <h3 class="feature-two-container-bottom-content-title">Transparency & Open Source</h3>
                 <p class="feature-two-container-bottom-content-desc">
                     Handling sensitive data requires a lot of trust. Help us 
                     building this trust by contributing to our code base. Open 
@@ -81,7 +80,7 @@ layout: page
                 {% for job in jobs %}
                     <div class="card p-7 flex items-center">
                         <div class="flex space-x-2 items-center">
-                            <span class="text-xl block">{{ job.title }}</span>
+                            <h3 class="text-xl block">{{ job.title }}</h3>
                             <span class="text-sm text-safing-gray-300 block">{{ job.extraInfo }}</span>
                         </div>
                         <a class="btn-secondary ml-auto" href="{{ job.url }}">View More</a>
