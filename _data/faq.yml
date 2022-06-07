@@ -19,6 +19,10 @@ spn:
     link:
       text: Read our blog post to read all about the differences.
       url: /blog/2020/01/22/how-the-spn-compares-to-vpns/
+  - q: What payment methods are supported?
+    a: You can pay with your creditcard, PayPal, cash and crypto currencies (BTC, ETH, XMR).
+  - q: Do you accept crypto currency payments?
+    a: Yes - we support Bitcoin, Ethereum and Monero. Aside from that we also support creditcard, PayPal and cash payments.
   - q: Are all connections routed through the SPN?
     a: Yes, when enabled the Portmaster routes all Internet connections through the Safing Privacy Network. You can easily create exceptions for apps or processes if you so desire.
   - q: Does the SPN route all connections individually? So every connection exits on a different node?
