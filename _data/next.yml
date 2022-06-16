@@ -16,29 +16,85 @@
 
 cards:
   done:
-    - title: Redesign Application Pages
+    - title: On-Boarding Screens
       description:
-        - With "On/Off" switches now available, redesign the settings page and make it easy to switch between monitoring an app and configuring its settings.
+        - Introduce new users to the core concepts and features of Portmaster. Make onboarding easier.
       projects:
         - Portmaster
       team:
-        - Luke
         - Patrick
-    - title: Implement Tailwind Components
-      description: "A lot of duplication happens in the HTML of our different web projects. Having already built the most common components into CSS component classes, such as `btn-primary`, implement them into the main website to remove duplication and clean up the HTML."
+        - David
+        - Luke
+    - title: Installer Checksums
+      description:
+        - Host an official list of checksums for all our installers so users can verify their downloads.
+      projects:
+        - Portmaster
+      team:
+        - Daniel
+    - title: SPN Server Upgrades
+      description:
+        - Improve our server infrastructure so SPN users get better stability and higher speeds.
+      projects:
+        - SPN
+      team:
+        - Daniel
+    - title: Per-App SPN Settings
+      description:
+        - Let SPN users select at which server they want to exit for certain apps. Also make it easy to exclude certain apps or websites from using the SPN, per-app and globally.
+      projects:
+        - SPN
+      team:
+        - Daniel
+    - title: Gift Card Support
+      description: Enable SPN gift cards so users can receive SPN credit through gift card codes.
+      projects:
+        - Website
+      team:
+        - Alex
+    - title: OGP for blog posts etc
+      description: Make sharing blog posts, podcasts or Safing pages prettier by adding OGP info so that the external site can easily display an image and relevant text.
       projects:
         - Website
       team:
         - Luke
-    - title: Visit Opt Out Podcast
-      description:
-        - Seth from the amazing Opt Out privacy podcast recently invited us to be part of Opt Out S02, where he chats with different privacy creators. Most definitely!
-      projects:
-        - Community
-      team:
-        - Daniel
-        - David
   in_progress:
+    - title: Full-Device Network Activity
+      description:
+        - Enable users to view connections across all applications. Make it easy to filter based on individual needs.
+      projects:
+        - Portmaster
+      team:
+        - Patrick
+        - Luke
+    - title: SPN Interface in PM
+      description:
+        - The SPN interface in the Portmaster was a quick first implementation. Now that the SPN has been out a few months, re-imagine the interface and make it easy to see and configure the SPN in action.
+      projects:
+        - SPN
+      team:
+        - Luke
+    - title: Comparison Blog Posts
+      description: Write blog posts comparing the Portmaster with different alternatives. What does the Portmaster do better? Where are others better? Be honest.
+      projects:
+        - Website
+      team:
+        - David
+        - Pranav
+    - title: Two-Factor Authentication (2FA)
+      description: Enable customers to secure their accounts with different methods of 2FA.
+      projects:
+        - Website
+      team:
+        - Alex
+    - title: SPN Page Revamp
+      description: Now that the SPN has been out a few months, redesign the SPN product page to bring it up to speed. Re-think the presented features and include screenshots.
+      projects:
+        - Website
+      team:
+        - Luke
+        - Raphael
+  postponed:
     - title: Rework Installers & PKGBUILD 
       description:
         - The current installation experience is sub-optimal. Prompt users to reboot their system after installation to mitigate issues.
@@ -47,35 +103,4 @@ cards:
         - Portmaster
       team:
         - Patrick
-    - title: Portmaster Stabilizing
-      description:
-        - With our recent months being focused on the SPN, invest more time into investigating Portmaster bugs and make the whole experience more straightforward and stable.
-      projects:
-        - Portmaster
-      team:
-        - Patrick
-        - Daniel
-    - title: Full-Device Network Monitor
-      description:
-        - Enable users to view connections across all applications. Make it easy to filter based on individual needs.
-      projects:
-        - Portmaster
-      team:
-        - Patrick
-        - Luke
-    - title: Select Exit Node
-      description:
-        Let SPN users select at which server they want to exit for certain apps. Also make it easy to exclude certain apps or websites from using the SPN.
-      projects:
-        - SPN
-      team:
-        - Daniel
-    - title: Comparison Blog Posts
-      description: Write blog posts comparing the Portmaster with different alternatives. What does the Portmaster do better? Where are others better? Be honest.
-      projects:
-        - Website
-      team:
-        - David
-        - Pranav
-  postponed:
   discarded:
