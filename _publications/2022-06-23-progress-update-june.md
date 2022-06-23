@@ -179,7 +179,7 @@ cards:
         - type: p
           text: "The current SPN UI brought together some technical ideas with a very rudimentary design concept from Luke, as we did not have too much time to get out the first version."
         - type: p
-          text: "Now that we have more experience with how we use the SPN and what elements you and I expect, the goal for this task is to make the UI a lot easier. Easier to find information, easier to understand information and easier to interact the UI."
+          text: "Now that we have more experience with how we use the SPN and what elements you and I expect, the goal for this task is to make the UI a lot easier. Easier to find information, easier to understand information and easier to interact with the UI."
         - type: 'h5'
           text: "There Are Challenges Within the Concept Phase"
         - type: p
