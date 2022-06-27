@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../docs/css/highlight.min.css">
     <link rel="stylesheet" href="../docs/css/style.css">
-    <link rel="stylesheet" href="../safingTailwind-1.6.1.css">
+    <link rel="stylesheet" href="../safingTailwind-1.7.css">
     <script src="../docs/js/vendor/jquery.min.js" type="text/javascript"></script>
     <script src="../docs/js/vendor/jquery-resizable.js"></script>
     <script src="../docs/js/vendor/highlight.min.js"></script>
@@ -14,7 +14,7 @@
   </head>
 <body class="antialiased font-sans font-medium">
   <div class="alert-primary rounded-none text-md">
-    <span>There will be some stuff missing in this, and also some bugs. <strong>v1.6</strong></span>
+    <span>There will be some stuff missing in this, and also some bugs. <strong>v1.7</strong></span>
   </div>
   <div class="flex">
     <nav class="overflow-y-auto pb-10 pt-20  ml-20 w-56">
@@ -587,7 +587,6 @@
     @apply block;
     @apply rounded-lg;
     @apply bg-white;
-    @apply card-shadow;
 }
 
 .card-extended .card {
@@ -745,8 +744,6 @@
     @apply pl-0;
 }
 
-
-
 .card-input-toggle {
     @apply hidden;
 }
@@ -755,11 +752,13 @@
     @apply block;
 }
 
-.card-shadow {
+.card.card-shadow,
+.card-extended.card-shadow {
     @apply relative;
 }
 
-.card-shadow::after {
+.card.card-shadow::after,
+.card-extended.card-shadow::after {
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0), 0 0 90px 0 rgba(59, 93, 199, 0.1);
     content: '';
     @apply h-full;
@@ -974,6 +973,9 @@
     <div class="space-y-7">
         <span>General Icons</span>
         <div class="grid grid-cols-12 auto-cols-max grid-flow-row gap-y-10">
+            <div class="bg-white p-4 w-max m-auto" tooltip=".icon-add">
+                <i class="icon-add text-lg"></i>
+            </div>
             <div class="bg-white p-4 w-max m-auto" tooltip=".icon-earth">
                 <i class="icon-earth text-lg"></i>
             </div>
@@ -1088,6 +1090,9 @@
     &lt;div class="space-y-7"&gt;
         &lt;span&gt;General Icons&lt;/span&gt;
         &lt;div class="grid grid-cols-12 auto-cols-max grid-flow-row gap-y-10"&gt;
+            &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-add"&gt;
+                &lt;i class="icon-add text-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
             &lt;div class="bg-white p-4 w-max m-auto" tooltip=".icon-earth"&gt;
                 &lt;i class="icon-earth text-lg"&gt;&lt;/i&gt;
             &lt;/div&gt;
