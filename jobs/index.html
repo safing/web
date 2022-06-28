@@ -78,7 +78,7 @@ layout: page
             {% assign jobs = site.jobs %}
             {% if jobs.size > 0 %}
                 {% for job in jobs %}
-                    <div class="card p-7 flex items-center">
+                    <div class="card card-shadow p-7 flex items-center">
                         <div class="flex space-x-2 items-center">
                             <h3 class="text-xl block">{{ job.title }}</h3>
                             <span class="text-sm text-safing-gray-300 block">{{ job.extraInfo }}</span>
