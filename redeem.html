@@ -1,0 +1,21 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en-US">
+  <meta charset="utf-8">
+  <title>Redirecting&hellip;</title>
+  <link rel="canonical" href="{{ site.account_server_redeem_url }}">
+  <script>
+    let params = new URLSearchParams(document.location.search);
+    if (params.has("code")) {
+      location="{{ site.account_server_redeem_url }}?code=" + params.get("code");
+    } else {
+      location="{{ site.account_server_redeem_url }}";
+    }
+  </script>
+  <meta http-equiv="refresh" content="0; url={{ site.account_server_redeem_url }}">
+  <meta name="robots" content="noindex">
+  <h1>Redirecting&hellip;</h1>
+  <a href="{{ site.account_server_redeem_url }}">Click here if you are not redirected.</a>
+</html>
