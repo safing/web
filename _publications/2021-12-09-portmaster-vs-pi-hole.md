@@ -117,7 +117,7 @@ What is the best way to protect diamonds worth a few thousand dollars?
 
 You could leave them in your living room for everyone to see.
 But that would be careless.  
-You could build an atomic bunker in the middle of the woods.
+You could build an atomic bomb shelter in the middle of the woods.
 But that would overdo it.  
 A safe in your house is probably a better solution.
 
