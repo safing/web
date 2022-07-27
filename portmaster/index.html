@@ -20,11 +20,19 @@ redirect_from:
         you back in charge over all your computer's network
         connections.
     </p>
-    <a class="btn-secondary" href="#download">Download for free</a>
+    <div class="download-container" id="download">
+      <div class="col-container-center w-full md:w-max text-center md:text-left">
+        <a class="btn-secondary" href="{{ site.download_windows_url }}"><i class="icon-windows text-md mr-2"></i>Windows 10 + 11</a>
+        <a class="btn-secondary" href="{{ site.docs_install_linux_url }}#installers"><i class="icon-ubuntu text-md mr-2"></i>Ubuntu</a>
+        <a class="btn-secondary" href="{{ site.docs_install_linux_url }}#installers"><i class="icon-fedora text-md mr-2"></i>Fedora</a>
+        <a disabled class="btn"><i class="icon-mac text-md mr-2"></i>Macos (Not supported)</a>
+      </div>
+      <p class="download-container-extra">
+          View guide and status for <a class="link-primary" href="{{ site.docs_install_windows_url }}">Windows 7, 8</a> or <a class="link-primary" href="{{ site.docs_install_linux_url }}">other Linux 2.4+ distributions</a>. View installer <a class="link-primary" href="{{ site.github_url }}/checksums/">checksums</a>.
+      </p>
+    </div>
   </div>
-  <div class="header-two-bottom">
-      <img src="{{ site.img_url }}page-specific/portmaster/full-interface.png" alt="">
-  </div>
+  <div class="header-two-bottom"></div>
   <div class="header-bg">
       <svg viewBox="0 0 862.55555573 533">
           <rect width="100%" height="100%" fill="transparent" />
@@ -43,25 +51,37 @@ redirect_from:
       </svg>
   </div>
 </header>
-<section class="general-layout">
-  <div class="showcase-one-container-reverse">
-      <div class="showcase-one-left" style="max-width: 1050px;">
-        <img src="{{ site.img_url }}page-specific/portmaster/monitor-network-activity.png" alt="">
+<section class="general-layout" >
+  <div class="space-y-28">
+    <div class="download-container" id="features">
+      <h2 class="download-container-title">
+        Explore All Portmaster Features
+      </h2>
+      <div class="space-y-8 max-w-3xl mx-auto">
+        <p class="download-container-extra">
+          With Portmaster's great defaults your privacy improves without any effort. And if you want to configure and control everything down to the last detail - Portmaster has you covered too!
+        </p>
       </div>
-      <div class="showcase-one-right">
-          <div class="alert-tiny w-max pr-6 bg-safing-blue-600 ml-0 md:mx-auto">
-            <i class="icon-info text-md"></i>
-            <span>Alpha Software: Portmaster is in active development</span>
-          </div>
-          <h2 class="showcase-one-right-title" style="max-width: 350px;">
-            Monitor All Network Activity
-          </h2>
-          <p class="showcase-one-right-desc">
-            Discover everything that is happening on your computer. Expose every
-            connection your applications make and detect evil ones. Finally get
-            the power to act accordingly.
-          </p>
-      </div>
+    </div>
+    <div class="showcase-one-container-reverse">
+        <div class="showcase-one-left" style="max-width: 1050px;">
+          <img src="{{ site.img_url }}page-specific/portmaster/monitor-network-activity.png" alt="">
+        </div>
+        <div class="showcase-one-right">
+            <div class="alert-tiny w-max pr-6 bg-safing-blue-600 ml-0 md:mx-auto">
+              <i class="icon-info text-md"></i>
+              <span>Alpha Software: Portmaster is in active development</span>
+            </div>
+            <h2 class="showcase-one-right-title" style="max-width: 350px;">
+              Monitor All Network Activity
+            </h2>
+            <p class="showcase-one-right-desc">
+              Discover everything that is happening on your computer. Expose every
+              connection your applications make and detect evil ones. Finally get
+              the power to act accordingly.
+            </p>
+        </div>
+    </div>
   </div>
   <div class="showcase-one-container">
     <div class="showcase-one-left" style="max-width: 850px;">
