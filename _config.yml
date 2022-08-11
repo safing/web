@@ -45,6 +45,7 @@ simplewall_comparison_url: /blog/2022/04/11/portmaster-vs-simplewall/
 
 ### external
 account_server_url: https://account.safing.io/
+account_server_redeem_url: https://account.safing.io/redeem
 assets_server_url: https://assets.safing.io/
 company_agreement_url: https://www.firmenmonitor.at/Secure/CompanyDetail.aspx?CID=761761
 download_linux_deb_url: https://updates.safing.io/latest/linux_amd64/packages/portmaster-installer.deb
