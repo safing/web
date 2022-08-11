@@ -12,7 +12,7 @@ portmaster_update: true
 
 ### New Network Monitor with Graphs
 
-Many of you have been waiting for this, and finally it is here: The new network monitor with elaborate search, filter and grouping support - with beautiful graphs everywhere!
+Many of you have been asking for this, and finally it is here: The new network monitor with elaborate search, filter and grouping support - with beautiful graphs everywhere!
 
 ![image displaying the v0.9 Portmaster user interface - network activity per app](/assets/img/blog/release-0.9/1_1_network_activity_per_app.png)
 
@@ -33,14 +33,6 @@ Many of you have been waiting for this, and finally it is here: The new network 
 ![image displaying the v0.9 Portmaster user interface - network activity per app blocked](/assets/img/blog/release-0.9/1_2_network_activity_per_app_blocked.png)  | ![image displaying the v0.9 Portmaster user interface - network activity search](/assets/img/blog/release-0.9/1_3_network_activity_search.png)
 ![image displaying the v0.9 Portmaster user interface - network activity per country](/assets/img/blog/release-0.9/1_4_network_activity_per_country.png) | ![image displaying the v0.9 Portmaster user interface - network activity in app](/assets/img/blog/release-0.9/1_5_network_activity_in_app.png)
 
-
-<!--
-![image displaying the v0.9 Portmaster user interface - network activity per app blocked](/assets/img/blog/release-0.9/1_2_network_activity_per_app_blocked.png)
-![image displaying the v0.9 Portmaster user interface - network activity search](/assets/img/blog/release-0.9/1_3_network_activity_search.png)
-![image displaying the v0.9 Portmaster user interface - network activity per country](/assets/img/blog/release-0.9/1_4_network_activity_per_country.png)
-![image displaying the v0.9 Portmaster user interface - network activity in app](/assets/img/blog/release-0.9/1_5_network_activity_in_app.png)
--->
-
 ### Support for DNS-over-HTTPS
 
 We have support DNS-over-TLS (DoT) from the beginning. Due to popular request we now additioanlly support DNS-over-HTTPS (DoH). Just paste your favourite provider into the setting and go! If you don't want to depend on your ISP for resolving the IP of your DoH resolver, you can also add the IP manually for even better security.
@@ -51,7 +43,7 @@ Note: We still think that DoT is superior due to the fact that it is a lot less 
 
 ### Custom Filter Lists
 
-An even more requested feature has been to ability to add custom filter lists in addition to the defaults. You can now specify a file that Portmaster import and monitor for changes. Compile you own list of baddies and block them! 
+An even more requested feature has been to ability to add custom filter lists in addition to the defaults. You can now specify a file that Portmaster automatically imports and monitors for changes. Compile you own list of baddies and block them! 
 
 ![image displaying the v0.9 Portmaster user interface - custom filter list setting](/assets/img/blog/release-0.9/3_1_custom_filter_list_setting.png)
 ![image displaying the v0.9 Portmaster user interface - custom filter list imported](/assets/img/blog/release-0.9/3_2_custom_filter_list_imported.png)
