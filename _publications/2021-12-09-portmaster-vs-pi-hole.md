@@ -211,7 +211,7 @@ Even if your ISP is uninformed of the websites you visit, they can monitor the I
 Since many services employ dedicated static IPs for their infrastructure, ISPs can still track your queries using conditional logic.
 So even though DNS encryption improves your privacy, it cannot safeguard all your connections.
 
-We recommend using [Tor](https://www.torproject.org/), a trusted VPN or [the SPN](/spn/), which will provide additional privacy from your ISP.
+We recommend using [Tor](https://www.torproject.org/), a trusted VPN or [the SPN](/spn/) (Portmaster Add-On), which will provide additional privacy from your ISP.
 
 ### The Portmaster Adapts to Your Threat Model
 

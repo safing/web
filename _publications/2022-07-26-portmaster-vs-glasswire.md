@@ -199,7 +199,7 @@ Contrary to GlassWire, Portmaster's system integration is both [documented](http
 
 Encrypted DNS queries allow you to bypass Internet Service Providers (ISPs) and eavesdroppers and directly resolve your requests at the DNS provider. While the ISPs or middleware can no longer easily determine the websites you browse or the apps you use, but your DNS provider definitely can. That being said, even if your ISP is uninformed of the websites you visit, they can monitor the IP addresses you connect to. Since many services employ dedicated static IPs for their infrastructure, ISPs can try to track your queries using conditional logic. So even though DNS encryption improves your privacy, it cannot safeguard all your connections.
 
-We recommend using Tor, a trusted VPN or the SPN, which will provide additional privacy from your ISP.
+We recommend using [Tor](https://www.torproject.org/), a trusted VPN or [the SPN](/spn/) (Portmaster Add-On), which will provide additional privacy from your ISP.
 
 Nevertheless, you get to enjoy enhanced security by preventing threats like DNS based Man-in-the-Middle (MitM) attacks and additional privacy from middleware. GlassWire needs extra software/setup to encrypt DNS queries, while Portmaster encrypts your DNS queries by default.
 
