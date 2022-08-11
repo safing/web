@@ -10,7 +10,7 @@ function SetUpIframeData() {
         innerHtml = iframeContents.find('html');
         innerBody = iframeContents.find('body');
         innerHead = iframeContents.find('head');
-        innerHead.append('<link rel="stylesheet" href="../safingTailwind-1.7.css">');
+        innerHead.append('<link rel="stylesheet" href="../safingTailwind-1.9.css">');
         innerBody.append(data)
     });
     setTimeout(function(){ 
