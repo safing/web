@@ -149,7 +149,7 @@ To detect trackers and bad domains, Portmaster uses filter lists. These lists ar
 
 Just like GlassWire, Portmaster allows you to configure different settings for different network environments. This way you can easily switch from your trusted Home Wi-Fi to an untrusted network, like in a coffee shop.
 
-Portmaster also allows you to log and display different metrics about different apps. Like which domains, IP addresses they are connecting to and in which country the servers are located, along with the time taken to make the connections.
+Portmaster also allows you to log and display different metrics about different apps. Like which domains, IP addresses they are connecting to and in which country the servers are located, along with the time a connection started and ended.
 
 Another useful feature of Portmaster is the ability to block incoming connections by default. This prevents devices from your local network or devices from the Internet to connect to your computer unless you specifically allow them to.
 
@@ -167,7 +167,7 @@ Having a business models and openly communicating this is an important thing for
 
 As far as network monitoring is concerned, the dashboard is an important part that will allow you to understand the network activity of your device. You would want to know which domains/websites were allowed to connect and which were blocked while you enjoyed your memes. In this case, Portmaster and GlassWire take a similar approach. They display all connections on a simple and easy to understand dashboard. GlassWire uses graphs, while Portmaster uses numbers. These connections are also sorted per app to help you differentiate connections made by your browser from the connections made by your chat app.
 
-When it comes to connection details, both Portmaster and GlassWire show the type of traffic, the IP address and country of the connected servers, the time taken to make a connection and similar metrics.
+When it comes to connection details, both Portmaster and GlassWire show the type of traffic, the IP address and country of the connected servers, as well as the time a connection started and ended.
 
 GlassWire as well as Portmaster allow you to better understand your network activity by displaying the past and present connections of apps on the dashboard. GlassWire can display past network activity for up to a month on the free plan. Portmaster currently cannot show a long connection history, but it is on Portmaster's roadmap.
 
@@ -179,13 +179,13 @@ You can even block risky connection types system-wide, such as p2p or incoming, 
 
 ### GlassWire Seems to Be A Proxy for the Windows Filtering Platform
 
-Disclaimer: GlassWire is closed-source - therefore we had to analyze their software in a blackbox test. We do not have the full picture on how GlassWire integrates into the operating system.
+We do not claim to have the full picture on how GlassWire integrates into the operating system, since GlassWire is closed-source. Therefore we had to analyze their software in a blackbox test. We do not have the full picture on how GlassWire integrates into the operating system.
 
 What we did find out is that GlassWire uses the Windows Filtering Platform (WFP) in user-space mode, creating rules for applications essentially exactly like the Windows Firewall does itself. This is a similar approach to that of [Simplewall]({{ site.simplewall_comparison_url }}). When Windows Firewall is disabled, this also makes GlassWire blind and incapable of blocking anything.
 
-GlassWire also uses a background service to collect additional data about connections. It is hard to find out what this service exactly does.
+GlassWire also uses a background service to collect additional data about connections.
 
-Finally, an oddity we came across was that GlassWire provides a tray icon with the "Exit" option. But pressing that does not end GlassWire or the service as expected - instead the software continues to do what it does. We feel that this is unfavorable wording and might not align with user expectation.
+Finally, an oddity we came across was that GlassWire provides a tray icon with the "Exit" option. But pressing that button makes GlassWire stop blocking connections, but it does not end GlassWire or the service as expected - instead it continues to run and monitor connections. We feel that this is unfavorable wording and might not align with user expectation.
 
 ### Portmaster Integrates Into the System Using the Kernel Extension
 
@@ -197,11 +197,11 @@ Contrary to GlassWire, Portmaster's system integration is both [documented](http
 
 ### Portmaster Safeguards Your DNS queries From ISPs to Enhance Your Privacy
 
-Encrypted DNS queries allow you to bypass Internet Service Providers (ISPs) and eavesdroppers and directly resolve your requests at the DNS provider. While the ISPs or middleware can no longer easily determine the websites you browse or the apps you use, but your DNS provider definitely can. That being said, even if your ISP is uninformed of the websites you visit, they can monitor the IP addresses you connect to. Since many services employ dedicated static IPs for their infrastructure, ISPs can try to track your queries using conditional logic. So even though DNS encryption improves your privacy, it cannot safeguard all your connections.
+Encrypted DNS queries allow you to bypass Internet Service Providers (ISPs) and eavesdroppers and directly resolve your requests at the DNS provider. With Secure DNS, you get to enjoy enhanced security by preventing threats like DNS based Man-in-the-Middle (MitM) attacks and additional privacy from middleware. GlassWire needs extra software/setup to encrypt DNS queries, while Portmaster encrypts your DNS queries by default.
 
-We recommend using [Tor](https://www.torproject.org/), a trusted VPN or [the SPN](/spn/) (Portmaster Add-On), which will provide additional privacy from your ISP.
+That being said, even if your ISP is uninformed of the websites you visit, they can monitor the IP addresses you connect to. Since many services employ dedicated static IPs for their infrastructure, ISPs can try to track your queries using conditional logic. So even though DNS encryption improves your privacy, it cannot safeguard all of your connections.
 
-Nevertheless, you get to enjoy enhanced security by preventing threats like DNS based Man-in-the-Middle (MitM) attacks and additional privacy from middleware. GlassWire needs extra software/setup to encrypt DNS queries, while Portmaster encrypts your DNS queries by default.
+To fully protect your connections, we recommend using [Tor](https://www.torproject.org/), a trusted VPN or [the SPN](/spn/) (Portmaster Add-On), which will provide additional privacy from your ISP.
 
 ### Conclusion
 
