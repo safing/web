@@ -64,7 +64,7 @@ summary: Both Portmaster and GlassWire are powerful applications, are well desig
           </a>
         </td>
         <td class="card-table-body-row-cell">
-          <a class="card-table-body-row-cell-link" href="https://www.henrypp.org/product/simplewall#download">
+          <a class="card-table-body-row-cell-link" href="https://www.glasswire.com/download/">
             <div class="md:space-x-2">
                 <i class="icon-windows text-2xl text-safing-blue-500"></i>
                 <i class="icon-android text-2xl"></i>
