@@ -17,8 +17,10 @@
   Here are some keywords, so that everyone who is curious will find this code snippet faster:
   plausible, analysis, analytics, campaign, tracking, query, hash, URL, #disabled?source=
 -->
-<script defer>
-  if (document.location.search !== "") {
-    window.history.replaceState({}, document.title, document.location.pathname + "#disabled" + document.location.search);
-  }
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+    if (document.location.search !== "") {
+      window.history.replaceState({}, document.title, document.location.pathname + "#disabled" + document.location.search);
+    }
+  });
 </script>
