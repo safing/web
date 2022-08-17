@@ -100,7 +100,7 @@ What is the best way to protect diamonds worth a few thousand dollars?
 
 You could leave them in your living room for everyone to see.
 But that would be careless.  
-You could build an atomic bunker in the middle of the woods.
+You could build an atomic bomb shelter in the middle of the woods.
 But that would overdo it.  
 A safe in your house is probably a better solution.
 
@@ -190,7 +190,7 @@ With encrypted DNS, only your DNS provider can keep track of your DNS requests, 
 
 Even if your ISP is unaware of the websites you visit, they can monitor the IP addresses you connect to. If services use dedicated static IPs for their infrastructure, ISPs can still use conditional logic to track your queries. Remember that only your queries are encrypted; any data you exchange with the websites is encrypted only if you see a padlock next to the domain. DNS encryption enhances your privacy, but it cannot protect all of your connections.
 
-Depending on your threat model, we recommend using Tor, a trustworthy VPN, or the SPN to gain additional privacy from your ISP. To enable DoH/DoT system-wide with Simplewall, you may need to install additional apps such as yogaDNS or stubby. The Portmaster on the other hand, saves you time and effort by supporting and enabling secure DNS system-wide by default, allowing you to configure your preferred DNS provider. Furthermore, the Portmaster prevents other apps from using secure DNS to connect to a different DNS provider in order to stop DNS leaks from apps. However, there may be times when you need other apps to connect to a different DNS provider, and the Portmaster can assist you with that as well.
+Depending on your threat model, we recommend using [Tor](https://www.torproject.org/), a trusted VPN or [the SPN](/spn/) (Portmaster Add-On) to gain additional privacy from your ISP. To enable DoH/DoT system-wide with Simplewall, you may need to install additional apps such as yogaDNS or stubby. The Portmaster on the other hand, saves you time and effort by supporting and enabling secure DNS system-wide by default, allowing you to configure your preferred DNS provider. Furthermore, the Portmaster prevents other apps from using secure DNS to connect to a different DNS provider in order to stop DNS leaks from apps. However, there may be times when you need other apps to connect to a different DNS provider, and the Portmaster can assist you with that as well.
 
 ### The Portmaster Adapts to Your Threat Model
 
