@@ -77,6 +77,6 @@ Another thing we have been continually improving is how we communicate what the 
 
 ### Thank You!
 
-To all our users and customers: Thanks for using Portmaster and the SPN, thanks for reporting bugs and for telling your friends. All of this is only possible through your support.
+To all our users and customers: Thanks for using Portmaster and the SPN, thanks for reporting bugs and for telling your friends.
 
-If you are using Portmaster and SPN and experience problems, we'd love to hear about them!
+If you like these newest updates, you would do us a big favor by sharing this blog post far and wide. Thanks again - all of this is only possible through your support.
