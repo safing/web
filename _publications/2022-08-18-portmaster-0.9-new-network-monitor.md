@@ -5,7 +5,7 @@ layout:   blog
 title: "Portmaster 0.9 Available Now: Graphs & Full-Device Monitor"
 date: 2022-08-18
 author: daniel
-custom_thumbnail_name: placeholder-announcement
+custom_thumbnail_name: portmaster-0.9-new-graphs-and-monitor
 portmaster_plug: true
 portmaster_update: true
 ---
