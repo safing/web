@@ -3,7 +3,7 @@
 category: blog
 layout:   blog
 title: "What Makes Portmaster A Great Alternative to GlassWire"
-date: 2022-07-26
+date: 2022-08-17
 author: safing
 custom_thumbnail_name: portmaster-vs-glasswire
 portmaster_plug: true
