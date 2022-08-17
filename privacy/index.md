@@ -78,6 +78,7 @@ Safing additionally operates and manages the following websites:
 - Asset Server: https://assets.safing.io
 - Update Server: https://updates.safing.io
 - Support Server: https://support.safing.io
+- Self-Hosted [Plausible](https://github.com/plausible/analytics) Server: https://plausible.safing.io
 
 The following personal identifiable information (PII) is held for technical reasons and is deleted after 72 hours:
 - IP Address
@@ -596,6 +597,14 @@ This sentence was originally added for legal flexibility, intended to cover such
 ### Amendment 0.6. on 29.11.2021
 
 [Revision from Article 5](#article-5-third-party-websites-and-links): The third party service "Stripe" was added after reevaluating the payment service.
+
+### Amendment 0.7. on 17.08.2022
+
+[Revision of Article 2](#article-2-personal-identifiable-information--data-we-collect): Added Self-Hosted Plausible Server
+
+We now run a self-hosted installation of [Plausible Analytics](https://github.com/plausible/analytics) to collect some anonymous usage data for statistical purposes.
+The goal is to track overall trends in our website traffic, it is not to track individual visitors.
+All the data is in aggregate only. No personal data is collected.
 
 ## Article 19. Contact
 
