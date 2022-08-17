@@ -78,6 +78,7 @@ Safing additionally operates and manages the following websites:
 - Asset Server: https://assets.safing.io
 - Update Server: https://updates.safing.io
 - Support Server: https://support.safing.io
+- Self-Hosted [Plausible](https://github.com/plausible/analytics) Server: https://plausible.safing.io
 
 The following personal identifiable information (PII) is held for technical reasons and is deleted after 72 hours:
 - IP Address
@@ -545,7 +546,7 @@ in the future.
 
 <br>
 
-# Amendment 0.1. 05/08/2020
+### Amendment 0.1. on 05.08.2020
 
 Due to the Court of Justice of the European Union ruling on data transfers, invalidating the Privacy Shield and GDPR compliance of such a ruling.
 
@@ -553,7 +554,7 @@ it is here by stated that Safing ICS Technologies GmbH, does not hold or transfe
 
 <br>
 
-# Amendment 0.2. 18/08/2020
+### Amendment 0.2. on 18.08.2020
 
 As per update to CalOPPA/CCPA (California Consumer Privacy Act) 14/08/2020, this amendment applies to Privacy Policy Articles [8](#article-8-california-online-privacy-protection-act-caloppa-explained),[11](#article-11-do-not-track),[13](#article-13-no-logs-policy) & [16](#article-16-data-request).
 
@@ -567,7 +568,7 @@ Authorized agents must also provide a current, verifiable identification and all
 
 <br>
 
-# Amendment 0.3. 22/01/21
+### Amendment 0.3. on 22.01.21
 
 [Addition to Article 2](#article-2-personal-identifiable-information--data-we-collect), Personal Identifiable Information & Data we collect: the addition of customer support, data
 received, gathered, collected and held.
@@ -576,7 +577,7 @@ received, gathered, collected and held.
 
 <br>
 
-# Amendment 0.4. 25/05/2021
+### Amendment 0.4. on 25.05.2021
 
 [Removal from Article 2](#article-2-personal-identifiable-information--data-we-collect), Personal Identifiable Information & Data we collect. Removal of a sentence about future potential Portmaster telemetry.
 
@@ -584,7 +585,7 @@ This sentence was originally added for legal flexibility, intended to cover such
 
 <br>
 
-# Amendment 0.5. 07/07/2021
+### Amendment 0.5. on 07.07.2021
 
 [Revision of Article 2](#article-2-personal-identifiable-information--data-we-collect) according to current developments:
 - Revised and unified Web Services, Account and Portmaster Software sections.
@@ -593,9 +594,17 @@ This sentence was originally added for legal flexibility, intended to cover such
 
 [Removal from Article 5](#article-5-third-party-websites-and-links): The third party service "Stripe" was removed, as integration was aborted a while ago.
 
-# Amendment 0.6. 29/11/2021
+### Amendment 0.6. on 29.11.2021
 
 [Revision from Article 5](#article-5-third-party-websites-and-links): The third party service "Stripe" was added after reevaluating the payment service.
+
+### Amendment 0.7. on 17.08.2022
+
+[Revision of Article 2](#article-2-personal-identifiable-information--data-we-collect): Added Self-Hosted Plausible Server
+
+We now run a self-hosted installation of [Plausible Analytics](https://github.com/plausible/analytics) to collect some anonymous usage data for statistical purposes.
+The goal is to track overall trends in our website traffic, it is not to track individual visitors.
+All the data is in aggregate only. No personal data is collected.
 
 ## Article 19. Contact
 
@@ -607,7 +616,7 @@ detail as possible and we will reply as soon as we can, normally within
 
 <privacymatters@safing.io>
 
-please note: whereas we cannot change our policies to suit every
+Please note: whereas we cannot change our policies to suit every
 individual, we will listen to your concerns and reply in a timely
 manner.
 
