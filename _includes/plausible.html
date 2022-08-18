@@ -3,9 +3,7 @@
   anonymous usage data for statistical purposes. The goal is to track overall
   trends in our website traffic, it is not to track individual visitors. All
   the data is in aggregate only. No personal data is collected.
--->
-<script defer data-domain="safing.io" data-api="https://plausible.safing.io/event" src="https://plausible.safing.io/init.js"></script>
-<!--
+
   There are some occasions, where we need to add a simple "source" query parameter
   to URLs so that we can see where visitors are coming from, as referrers only
   work within browsers and with platforms that don't use special redirect mechanisms.
@@ -17,8 +15,15 @@
   Here are some keywords, so that everyone who is curious will find this code snippet faster:
   plausible, analysis, analytics, campaign, tracking, query, hash, URL, #disabled?source=
 -->
+<script defer data-domain="safing.io" data-api="https://plausible.safing.io/event" src="https://plausible.safing.io/manual-init.js"></script>
 <script>
+  // Wait until everything is loaded - the plausible script is deferred.
   document.addEventListener('DOMContentLoaded', (event) => {
+    // Initialize plausible.
+    window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }
+    // Trigger pageview.
+    plausible('pageview');
+    // Move query parameters to "#disabled" hash.
     if (document.location.search !== "") {
       window.history.replaceState({}, document.title, document.location.pathname + "#disabled" + document.location.search);
     }
