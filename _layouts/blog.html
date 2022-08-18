@@ -10,7 +10,12 @@ layout: publication_container
       </p>
     {% endif %}
     <span class="header-four-container-title-author">
-      {{ page.date | date: "%B %-d, %Y" }} • Written by <a class="link-primary" href="{{ site.team_url }}#{{ page.author | slugify }}">{{ page.author | capitalize }}</a>
+      {% if page.updated %}
+        updated {{ page.updated | date: "%B %-d, %Y" }}
+      {% else %}
+        {{ page.date | date: "%B %-d, %Y" }}
+      {% endif %}
+      • Written by <a class="link-primary" href="{{ site.team_url }}#{{ page.author | slugify }}">{{ page.author | capitalize }}</a>
     </span>
     <div class="header-four-container-social">
         <a class="link hover-opacity-in" href="{{ site.twitter_url }}"><i class="icon-twitter text-lg"></i></a>

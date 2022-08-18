@@ -4,70 +4,199 @@ category: blog
 layout:   blog
 title: How the SPN Compares to VPNs
 date: 2020-01-22
+updated: 2022-08-17
 author: safing
 custom_thumbnail_name: how-the-spn-compares-to-vpns
 cover_image_source: https://pixabay.com/vectors/the-globe-globe-the-internet-free-4790044/
+portmaster_plug: true
 ---
 
-### Overview of VPN Technology
+## Overview Chart
 
-#### VPNs Were Built for Security, NOT for Privacy
-The VPN technology was developed to allow remote workers to securely connect to a corporate network to virtually check into the office and access internal resources. It does this by establishing a secure tunnel between the worker and the company. The VPN shields the whole route from the worker to the office, never entering the "open Internet".
+TODO
 
-#### Commercial VPNs Are just Proxy Servers
-A commercial VPNs does something rather mundane. As an example, let's say you want to connect to "google.com" via a VPN. The VPN client first creates a safe tunnel to the VPN server, which then calls upon "google.com". So a VPN safeguards your connections up until the VPN server, then unpacks their protection and routes it back into the open Internet.
+<!--
+FIXME: include first table
 
-#### VPNs do NOT Protect Your Privacy
-There are many legitimate use cases for a VPN, like securely connecting to your corporate network or "beaming" into another country to enjoy different content or cheaper prices. But VPNs do *not* protect your privacy.
+SPN
+Most VPNs* (Exceptions exist, but are few)
+Tor
+- Browser Only [b]
+- System Proxy Only [p]
 
-### The SPN Truly Protects Your Meta Data
+-> Start with Threat Modeling
+-> Place SPN in the middle
 
-Before diving into the SPN, let's recap: A VPN does protect you from your Internet Service Provider (ISP) to collect and process you browsing activities. But in the end this just delegates the problem: now the VPN that can collect and sell all your data, which many of them do.
+yny Multiple Identities
 
-![VPNs](https://safing.io/assets/img/spn/vpn-web.png)
+ynn Automatic Geo-Unblocking
 
+ynn Individual App Settings
 
-The SPN however decouples the person from the destination, resulting in true privacy. And already early in our alpha stage we will welcome community nodes into our network, creating a decentralized network without a single point of trust.
+yyb Easy Setup
+Availability (no blog post details)
 
-![SPN community](https://safing.io/assets/img/spn/spn-community-web.png)
+yny Open Source
 
+yny Built for Privacy
+-->
 
-### VPN Technology is More Widespread (for now)
+## Detailed Comparison
 
-The VPN technology is widespread and almost every computer and mobile phone supports connecting to a VPN natively.
+### One Shoe Does Not Fit All - What Is Your Threat Model?
 
-When launching in June, the SPN will support Windows, with Linux following shortly after. We are planning on supporting Mac and Mobile in the future too, so everybody can enjoy easy privacy with their preferred operating system.
+What is the best way to protect diamonds worth a few thousand dollars?
 
-The VPN and SPN both tunnel connections from your whole computer, not only from your browser.
+You could leave them in your living room for everyone to see.
+But that would be careless.  
+You could build an atomic bunker in the middle of the woods.
+But that would overdo it.  
+A safe in your house is probably a better solution.
 
-### SPN ♥ Open Source - Everybody Can Inspect
-Many commercial VPN providers use bold and misleading marketing claims without any evidence to back it up. The code on their servers and mostly on their clients cannot be investigated. They demand your trust but give little to no proof in return.
+Welcome to the world of threat modeling.
+Before choosing any tool, especially within privacy, it is important to ask:
 
-The [SPN however is open source / FOSS]({{ site.github_url }}/spn/). We do not believe users should simply 'trust' companies when it comes to their privacy. Instead they should be able to inspect vendors and hold them accountable publicly. Feel free to [check out all of our Github](https://github.com/Safing/).
+- What do I want to protect?
+- From whom do I want protection?
+- How much time can I invest?
 
-### The SPN Minimizes Travel through the Open Web
+We need different solutions for different needs - there simply is no perfect solution for everyone.
+You are the only one who knows the value of your diamonds and who is after them.
+So only you can decide which solution is best for you.
 
-After a connection arrives at the VPN server it still has to travel to the desired website. Depending on where your VPN is located, this may lead to a slower Internet experience. As an example, a person who is located in Europe may be connected to a US VPN server while loading a European website. This means the connection has to cross the Atlantic twice (EU -> US -> EU).
+Understanding your threat model might be difficult at first, but it will save you a lot of time and help you avoiding wrong decisions.
+This comparison blog showcases the strengths and weaknesses of the Portmaster and Simplewall and hopes to assist you in your decision making.
 
-With the SPN however, every connection is calculated individually and leaves the network as near to the destination as possible. This means:
+With this mindest, let's dig into the details.
 
-1. your connections are spread across the globe, using vast amounts of identities (IP addresses)
-2. visibility in the 'open web' is minimized
-3. connections are not slowed down by having to go extra miles
+### Multiple Identities
 
-![SPN community](https://safing.io/assets/img/spn/spn-community-web.png)
+Open any VPN app, and you are presented with your most important choice: Choose the country you want to browse the Internet from. You exchange the identity of being a customer of your ISP with the identity of being a customer of your VPN provider. This is good if you trust your VPN more than your ISP, but it won't fool many trackers.
 
-#### Minor comments
+This is how this looks like:
 
-###### SPN Enforces DoT and Blocks Ads/Trackers
-As the [open source Portmaster app]({{ site.github_url }}/portmaster/), which hosts the SPN, sits at the kernel, it can add all sorts of amazing privacy features. Current modules (free & optional) include a DNS Resolver which enforces all your DNS queries to use DNS over TLS (DoT) and a Privacy Filter which blocks malicious or unwanted connections.
+![Illustration showing a typical VPN connection](https://safing.io/assets/img/spn/vpn-web.png)
 
-###### VPN - a Very Precarious Narrative
-There is [a great write up by Dennis Schubert](https://schub.wtf/blog/2019/04/08/very-precarious-narrative.html) showcasing the problem of todays commercial VPNs, both from a privacy and security perspective. Feel free to check it out, it also shows the valid use cases of VPNs.
+When you first open the SPN, it won't ask you from which country you want to browse the Internet. Why limit yourself to one?  
+The SPN does not just use one server in one country, but uses many servers in many countries - at the same time. This results in having many identities, not just one.
 
-###### The SPN Costs more Because it is a New Product
-While VPN providers basically rebrand the same basic technologies widely available, we built every aspect of the network from the ground up, by hand. This is a huge investment and will require lots of resources to properly maintain and improve. But this is the only way to achieve real privacy. Thank you for enabling us to continue fighting for a brighter future!
+This is how this looks like:
 
-### Conclusion: SPN > VPN
+![Illustration showing the SPN connecting via multiple exit nodes](https://safing.io/assets/img/spn/spn-community-web.png)
 
-The VPN technology was built to securely connect two company locations. However, the SPN was developed from the ground up to protect user privacy. As a result the SPN can easily outperform VPNs in every aspect.
+Instead of just "beaming" yourself to another place, you can now be everywhere at once. Connections are individually routed through the network in order to make sure you have the best possible privacy and speeds.
+
+### Automatic Geo-Unblocking
+
+The longer your connections stay within the SPN, the more private they are. This is why the SPN selects the final server as close as possible to the destination server that you are trying to connect to in order to open a website.
+
+This does not only provide vastly improved privacy, but automatically unblocks geo-restricted content, as you will be accessing the content in the country it originates from.
+
+In case you have special requirements, you can of course instruct the SPN to use a specific country for a website. _This feature is still in progress._
+
+Needless to say, VPNs cannot do this automatically, as they can only use one "exit" server at once, even if they are "multi-hop".
+
+### Individual App Settings
+
+While there are some VPNs that are able to exclude the local network (LAN) or certain apps from the VPN, the SPN takes this to a new level.
+
+Similar to firewall rules, you can very easily exclude any combination of connections from being routed through the SPN. By default, it excludes local network resources, as well as any captive portal. You don't need to turn it off to log into the WiFi when traveling!
+
+### Easy Setup
+
+The SPN is part of Portmaster, which seamlessly integrates into your system and is installed with a single click.
+
+Most VPNs provide a custom app that is easy to install - some require you to manually configure a client, though.
+
+### SPN is Open Source
+
+An auditable and open source code builds a high level of trust in the software. Instead of having to trust a privacy policy of the company, people can check the source code and see what it really does on a technical level.
+
+The beauty with this is, the bigger the community around a software gets, the more secure it becomes, often outperforming proprietary software. Zero-day exploits and long-forgotten vulnerabilities become rarer since someone from the community usually discovers them.
+
+The SPN is fully open source. Everyone can inspect the code and make sure it does what we say. While there are some VPN providers that open source their clients, most of them do not publish their source code, requiring even more trust in how they handle modern privacy threats on the basis of ancient technology built for another purpose.
+
+### SPN is Built for Privacy
+
+VPNs use a technology first created over 20 years ago with the intent to securely connect two distant private networks. It was never meant to protect a single device from the network, but to enable even more connectivity through a separate channel. The term "Private" in "Virtual Private Network" does not stand for "private as in secret", but for "private as in property".
+
+Only later companies started to offer a "VPN" as an online privacy solution for individual users. In order to that, they had to "twist" the VPN technology into a direction it was not created for: protecting a device from the network itself. This is why VPN providers have problems with IP leaks and DNS leaks and try to circumvent the negative side effects with "Kill Switches" and "No Log Policies".
+
+The SPN technology, on the other hand, was created from scratch with a single purpose in mind: Protecting your privacy on the Internet. Every single part of the SPN is geared towards this goal. There are no dirty fixes or bandages. Everything is carefully engineered to protect you.
+
+The SPN does not have IP or DNS leaks, because it is part of Portmaster, the privacy firewall that is in control of all your connections.
+
+The SPN does not need a kill switch and it does not need "No Log Policies", because all traffic goes through multiple servers and is encrypted in layers. This means that no server ever knows both who you are (ie. your IP address) and where you are going to (ie. the website you are visiting). 
+
+![Illustration showing the SPN connecting via multiple exit nodes](https://safing.io/assets/img/spn/spn-community-web.png)
+
+The SPN does one thing and it's very good at it: Protecting your privacy.
+
+### Conclusion: SPN is a better fit for most threat models
+
+Going back to the threat modeling we started with, we believe that many VPN users actually want a level of privacy that VPNs simply cannot offer. The SPN is built from the ground up to be superior to VPNs in every aspect - in regards to privacy.
+
+## Technical Overview Chart
+
+TODO
+
+<!--
+FIXME: include second table
+
+yny Cryptographic Identity Protection (Onion Encryption)
+
+yny Community Nodes
+yny No Network Logs
+
+yny No Kill Switch Needed
+
+yyp Full-Device Protection [killed from this variant]
+
+yn~ Exclude Apps
+yn~ Exclude Domains
+[With vanilla Tor this is difficult, other]
+
+yn- Private Account and Payments
+
+[in progress]ny Battle Proven [killed from this variant]
+-->
+
+## Technical Comparison
+
+### Cryptographic Identity Protection
+
+VPNs - Virtual Private Networks - are, well, networks that carry data packets through a tunnel from one point to the next. They are a more or less seamless part of the network. Packets destined for the Internet go into the VPN and out again without change. This means that packets are just relayed somewhere else and do not receive any advanced protection. Multi-Hop VPNs just relay your packets via one more server, but the problem remains: The packets do not receive any extra protection. Every server in that Multi-Hop chain can see all your traffic. Yes, the last server can't your IP address, but the previous servers can see all your traffic unencrypted and log everything you do. Oh, and just hope that your VPN client does not log into the last server in the chain too, then it even might have your VPN login data and again know who you are.
+
+Instead of just doing some tricks with packet routing, the SPN protects your traffic and identity with proper cryptography. Every packet is end-to-end encrypted to every single server along the chain of servers the connection uses. This was originally invented for Tor and was called [Onion Routing](https://en.wikipedia.org/wiki/Onion_routing). This way, every server in the chain only knows the previous and the next hop. No server ever knows who you are _and_ where you are going to.
+
+![Illustration showing the SPN connecting via multiple exit nodes](https://safing.io/assets/img/spn/spn-community-web.png)
+
+But the SPN goes even one step further. Instead of using your username and password - which makes you identifyable - to log into the SPN, Portmaster authenticates itself not against the network itself, but against the SPN Account Service, which verifies you are allowed to access the network. It then give you special cryptographically blinded tokens, which prove your access permission, but are not linked to your account anymore. This way, no server in the SPN will ever know your username.
+
+### Node Ownership and Logging
+
+As VPNs are centralized, all their servers are operated by only one entity - the VPN provider itself. They can, therefore, monitor all you traffic and see what you are up to. This is why they tout their "No Logging" policies so loudly, because they know they can see everything.
+
+The SPN, on the other hand, invites the community to join the network and strengthen it by adding diversity to the operators of the network. This way - in addition to the cryptographic protections - it is made almost impossible that anyone will ever be able to track you through the SPN.
+
+Side note: There will be some form of compensation for community nodes in the future.
+
+### No Kill Switch Needed
+
+VPNs came up with the idea of kill switches, because they need to change the "default route", which is more or less what tells your device where to send all it's traffic to.
+If you install a VPN, it will add a "virtual network" to your device and will update the default route to point to that network. If your device sends network packets to that virtual network, they will be encrypted and sent to your VPN provider, who will then release these packets to the Internet to do their thing. So far so good.
+
+But when (not if) the connection to your VPN provider breaks - for whatever reason - your operating system will disable the virtual network and automatically change the default route to point to your ISP. This happens in a blink of an eye - your VPN software won't even notice.
+
+The SPN is part of Portmaster, which tightly controls all the network connections of your device. It always knows what is going on and can stop any leaks in its tracks.
+
+### Private Account and Payments
+
+For a truly private experience, it is not only important to protect connections, but also your identity when signing up and making a payment.
+
+While there are VPN providers that offer very good options in this area, many of them require payment methods that identify you to 100%.
+
+When you sign up for the SPN, you can just go with the pre-filled random generated username and choose a password. You need to fill out a country with a matching phone prefix for tax and legal reasons - just to make everything legal and well on our side. While we can't verify what you fill in these fields - we do not look at your IP address - we trust that our users are well-meaning and trustworthy.
+
+Payments can be done using Bitcoin, Ethereum and Monero as well as sending us cash (Euros) in a letter.  
+If you do not need to protect your privacy in that regard, we offer credict card payments and PayPal for your convenience.
