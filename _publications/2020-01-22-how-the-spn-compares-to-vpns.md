@@ -11,37 +11,7 @@ cover_image_source: https://pixabay.com/vectors/the-globe-globe-the-internet-fre
 portmaster_plug: true
 ---
 
-## Overview Chart
-
-TODO
-
-<!--
-FIXME: include first table
-
-SPN
-Most VPNs* (Exceptions exist, but are few)
-Tor
-- Browser Only [b]
-- System Proxy Only [p]
-
--> Start with Threat Modeling
--> Place SPN in the middle
-
-yny Multiple Identities
-
-ynn Automatic Geo-Unblocking
-
-ynn Individual App Settings
-
-yyb Easy Setup
-Availability (no blog post details)
-
-yny Open Source
-
-yny Built for Privacy
--->
-
-## Detailed Comparison
+{% include spn_vs_vpns_top.html %}
 
 ### One Shoe Does Not Fit All - What Is Your Threat Model?
 
@@ -136,32 +106,17 @@ The SPN does one thing and it's very good at it: Protecting your privacy.
 
 Going back to the threat modeling we started with, we believe that many VPN users actually want a level of privacy that VPNs simply cannot offer. The SPN is built from the ground up to be superior to VPNs in every aspect - in regards to privacy.
 
-## Technical Overview Chart
+<br>
+<br>
 
-TODO
+---
 
-<!--
-FIXME: include second table
+<br>
+<br>
 
-yny Cryptographic Identity Protection (Onion Encryption)
+Want to know more? Let's dive even deeper...
 
-yny Community Nodes
-yny No Network Logs
-
-yny No Kill Switch Needed
-
-yyp Full-Device Protection [killed from this variant]
-
-yn~ Exclude Apps
-yn~ Exclude Domains
-[With vanilla Tor this is difficult, other]
-
-yn- Private Account and Payments
-
-[in progress]ny Battle Proven [killed from this variant]
--->
-
-## Technical Comparison
+{% include spn_vs_vpns_tech.html %}
 
 ### Cryptographic Identity Protection
 
