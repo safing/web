@@ -11,6 +11,19 @@ cover_image_source: https://pixabay.com/vectors/the-globe-globe-the-internet-fre
 portmaster_plug: true
 ---
 
+<style>
+  /*
+    TODO: Improve and move to tailwind lib.
+  */
+  .emphasize {
+    color: rgb(16, 24, 28);
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgba(97, 136, 255);
+    text-decoration-thickness: 2px;
+  }
+</style>
+
 {% include spn_vs_vpns_top.html %}
 
 ### One Shoe Does Not Fit All - What Is Your Threat Model?
@@ -54,7 +67,7 @@ This is how this looks like:
 
 ![Illustration showing the SPN connecting via multiple exit nodes](https://safing.io/assets/img/spn/spn-community-web.png)
 
-Instead of just "beaming" yourself to another place, you can now be everywhere at once. Connections are individually routed through the network in order to make sure you have the best possible privacy and speeds.
+Instead of just "beaming" yourself to another place, you can now be everywhere at once. <span class="emphasize">Connections are individually routed through the network in order to make sure you have the best possible privacy and speeds.</span>
 
 ### Automatic Geo-Unblocking
 
@@ -90,9 +103,11 @@ The SPN is fully open source. Everyone can inspect the code and make sure it doe
 
 VPNs use a technology first created over 20 years ago with the intent to securely connect two distant private networks. It was never meant to protect a single device from the network, but to enable even more connectivity through a separate channel. The term "Private" in "Virtual Private Network" does not stand for "private as in secret", but for "private as in property".
 
-Only later companies started to offer a "VPN" as an online privacy solution for individual users. In order to that, they had to "twist" the VPN technology into a direction it was not created for: protecting a device from the network itself. This is why VPN providers have problems with IP leaks and DNS leaks and try to circumvent the negative side effects with "Kill Switches" and "No Log Policies".
+Only later companies started to offer a "VPN" as an online privacy solution for individual users. In order to do that, they had to "twist" the VPN technology into a direction it was not created for: protecting a device from the network itself. This is why VPN providers have problems with IP leaks and DNS leaks and try to circumvent the negative side effects with "Kill Switches" and "No Log Policies".
 
-The SPN technology, on the other hand, was created from scratch with a single purpose in mind: Protecting your privacy on the Internet. Every single part of the SPN is geared towards this goal. There are no dirty fixes or bandages. Everything is carefully engineered to protect you.
+<p class="emphasize">
+  The SPN technology, on the other hand, was created from scratch with a single purpose in mind: Protecting your privacy on the Internet. Every single part of the SPN is geared towards this goal. There are no dirty fixes or bandages. Everything is carefully engineered to protect you.
+</p>
 
 The SPN does not have IP or DNS leaks, because it is part of Portmaster, the privacy firewall that is in control of all your connections.
 
@@ -120,21 +135,21 @@ Want to know more? Let's dive even deeper...
 
 ### Cryptographic Identity Protection
 
-VPNs - Virtual Private Networks - are, well, networks that carry data packets through a tunnel from one point to the next. They are a more or less seamless part of the network. Packets destined for the Internet go into the VPN and out again without change. This means that packets are just relayed somewhere else and do not receive any advanced protection. Multi-Hop VPNs just relay your packets via one more server, but the problem remains: The packets do not receive any extra protection. Every server in that Multi-Hop chain can see all your traffic. Yes, the last server can't your IP address, but the previous servers can see all your traffic unencrypted and log everything you do. Oh, and just hope that your VPN client does not log into the last server in the chain too, then it even might have your VPN login data and again know who you are.
+VPNs (Virtual Private Networks) are, well, networks that carry data packets through a tunnel from one point to the next. They are a more or less seamless part of the network. Packets destined for the Internet go into the VPN and out again without change. This means that packets are just relayed somewhere else and do not receive any advanced protection. Multi-Hop VPNs just relay your packets via one more server, but the problem remains: The packets do not receive any extra protection. Every server in that Multi-Hop chain can see all your traffic. Yes, the last server can't your IP address, but the previous servers can see all your traffic unencrypted and log everything you do. Oh, and just hope that your VPN client does not log into the last server in the chain too, then it even might have your VPN login data and again know who you are.
 
 Instead of just doing some tricks with packet routing, the SPN protects your traffic and identity with proper cryptography. Every packet is end-to-end encrypted to every single server along the chain of servers the connection uses. This was originally invented for Tor and was called [Onion Routing](https://en.wikipedia.org/wiki/Onion_routing). This way, every server in the chain only knows the previous and the next hop. No server ever knows who you are _and_ where you are going to.
 
 ![Illustration showing the SPN connecting via multiple exit nodes](https://safing.io/assets/img/spn/spn-community-web.png)
 
-But the SPN goes even one step further. Instead of using your username and password - which makes you identifyable - to log into the SPN, Portmaster authenticates itself not against the network itself, but against the SPN Account Service, which verifies you are allowed to access the network. It then give you special cryptographically blinded tokens, which prove your access permission, but are not linked to your account anymore. This way, no server in the SPN will ever know your username.
+But the SPN goes even one step further. Instead of using your username and password - which makes you identifyable - to log into the SPN, Portmaster authenticates itself not against the network itself, but against the SPN Account Service, which verifies you are allowed to access the network. It then give you special cryptographically blinded tokens, which prove your access permission, but are not linked to your account anymore. <span class="emphasize">This way, no server in the SPN will ever know your username.</span>
 
 ### Node Ownership and Logging
 
 As VPNs are centralized, all their servers are operated by only one entity - the VPN provider itself. They can, therefore, monitor all you traffic and see what you are up to. This is why they tout their "No Logging" policies so loudly, because they know they can see everything.
 
-The SPN, on the other hand, invites the community to join the network and strengthen it by adding diversity to the operators of the network. This way - in addition to the cryptographic protections - it is made almost impossible that anyone will ever be able to track you through the SPN.
+The SPN, on the other hand, invites the community to join the network and strengthen it by adding diversity to the operators of the network. This way - in addition to the cryptographic protections - it is made almost impossible that anyone will ever be able to track you through the SPN. Also, because of the cryptographic identity protection before, there aren't even any logs with identifyable data to begin with!
 
-Side note: There will be some form of compensation for community nodes in the future.
+Side note: Community nodes will be compensated in some form in the future.
 
 ### No Kill Switch Needed
 
@@ -143,7 +158,7 @@ If you install a VPN, it will add a "virtual network" to your device and will up
 
 But when (not if) the connection to your VPN provider breaks - for whatever reason - your operating system will disable the virtual network and automatically change the default route to point to your ISP. This happens in a blink of an eye - your VPN software won't even notice.
 
-The SPN is part of Portmaster, which tightly controls all the network connections of your device. It always knows what is going on and can stop any leaks in its tracks.
+The SPN is part of Portmaster, which tightly controls all the network connections of your device. It always knows what is going on and stops any leaks in its tracks.
 
 ### Private Account and Payments
 
