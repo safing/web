@@ -48,7 +48,6 @@ You are the only one who knows the value of your diamonds and who is after them.
 So only you can decide which solution is best for you.
 
 Understanding your threat model might be difficult at first, but it will save you a lot of time and help you avoiding wrong decisions.
-This comparison blog showcases the strengths and weaknesses of the Portmaster and Simplewall and hopes to assist you in your decision making.
 
 With that mindset, we believe SPN is for people who want more than a simple VPN and at the same time do not have the time or skills to go through the hassle of setting up Tor for their full device.
 
