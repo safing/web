@@ -5,7 +5,7 @@ layout:   blog
 title: What Makes SPN A Better Alternative to VPNs
 date: 2022-09-06
 author: daniel
-custom_thumbnail_name: how-the-spn-compares-to-vpns
+custom_thumbnail_name: spn-vs-vpn
 portmaster_plug: true
 redirect_from:
   - /blog/2020/01/22/how-the-spn-compares-to-vpns/
