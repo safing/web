@@ -2,13 +2,13 @@
 # possible values: blog video podcast
 category: blog
 layout:   blog
-title: How the SPN Compares to VPNs
-date: 2020-01-22
-updated: 2022-08-17
-author: safing
+title: What Makes SPN A Better Alternative to VPNs
+date: 2022-09-06
+author: daniel
 custom_thumbnail_name: how-the-spn-compares-to-vpns
-cover_image_source: https://pixabay.com/vectors/the-globe-globe-the-internet-free-4790044/
 portmaster_plug: true
+redirect_from:
+  - /blog/2020/01/22/how-the-spn-compares-to-vpns/
 summary: VPN is an out-dated technology that was never intended to protect your privacy. It simply swaps your one identity with one different identity, creating only a minor obstacle for today's mass surveillance. SPN on the other hand is built from the ground up and fully designed to protect your privacy. It gives you multiple identities by default. Therefore we believe people looking for privacy will prefer SPN.
 ---
 
