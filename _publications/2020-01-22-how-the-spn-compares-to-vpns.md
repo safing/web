@@ -9,6 +9,7 @@ author: safing
 custom_thumbnail_name: how-the-spn-compares-to-vpns
 cover_image_source: https://pixabay.com/vectors/the-globe-globe-the-internet-free-4790044/
 portmaster_plug: true
+summary: VPN is an out-dated technology that was never intended to protect your privacy. It simply swaps your one identity with one different identity, creating only a minor obstacle for today's mass surveillance. SPN on the other hand is built from the ground up and fully designed to protect your privacy. It gives you multiple identities by default. Therefore we believe people looking for privacy will prefer SPN.
 ---
 
 <style>
@@ -165,3 +166,7 @@ When you sign up for the SPN, you can just go with the pre-filled random generat
 
 Payments can be done using Bitcoin, Ethereum and Monero as well as sending us cash (Euros) in a letter.  
 If you do not need to protect your privacy in that regard, we offer credit card payments and PayPal for your convenience.
+
+### Conclusion
+
+VPN is an out-dated technology that was never intended to protect your privacy. It simply swaps your one identity with one different identity, creating only a minor obstacle for today's mass surveillance. SPN on the other hand is built from the ground up and fully designed to protect your privacy. It gives you multiple identities by default, for each app you use. Therefore we believe people looking for privacy will prefer SPN.
