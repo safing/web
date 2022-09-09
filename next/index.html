@@ -16,7 +16,11 @@ layout: page
         </p>
     </div>
     <div class="header-three-right">
-      {% assign progress_posts = site.publications | reverse | where: "progress_update", "true" %}
+      {%
+        assign progress_posts = site.publications
+        | reverse
+        | where_exp: "item", "item.portmaster_update == true or item.progress_update == true"
+      %}
       {% for post in progress_posts limit: 1 %}
         {% include thumbnail_blog.html pre_header="BLOG" %}
       {% endfor %}
@@ -56,8 +60,8 @@ layout: page
             <p class="collection-container-top-desc">
               Being in progress does not imply the project will be
               completed soon. Plenty will take a while a few
-              might even get discarded. Read the monthly blog updates
-              to follow the progress and conclusion of every project.
+              might even get discarded. Read the progress and release blog posts
+              to follow the development and conclusion of every project.
           </p>
         </div>
         <div class="collection-container-bottom">
