@@ -1,8 +1,4 @@
 cards:
-  - title: Custom Filter Lists
-    description: Integrate custom filter lists into the Portmaster so users can block their own list of domains.
-    projects:
-      - Portmaster
   - title: Network Trust System
     description:
       - Remember which networks you trust and activate additional defenses in untrusted networks, like the Wi-Fi of your favorite coffee shop.
@@ -32,12 +28,6 @@ cards:
       - Enable you to set or cut down on the amount of trusted Root Certification Authorities.
     projects:
       - Portmaster
-  - title: Community Nodes
-    description:
-      - Fully support community nodes to join the network. Make it easy for contributors to get started by creating good documentation.
-      - "Disclaimer: this does not yet include compensation, which is tackled in its own project"
-    projects:
-      - SPN
   - title: Connection Resiliance & Stability
     description:
       - Insert more resilience into SPN connections, so that even when your Internet goes down for a bit or a used node fails, the Portmaster will still be able to revive and continue your connection as if nothing happened.
