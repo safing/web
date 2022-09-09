@@ -16,11 +16,7 @@ layout: page
         </p>
     </div>
     <div class="header-three-right">
-      {%
-        assign progress_posts = site.publications
-        | reverse
-        | where_exp: "item", "item.portmaster_update == true or item.progress_update == true"
-      %}
+      {% assign progress_posts = site.publications | reverse | where_exp: "item", "item.portmaster_update == true or item.progress_update == true" %}
       {% for post in progress_posts limit: 1 %}
         {% include thumbnail_blog.html pre_header="BLOG" %}
       {% endfor %}
