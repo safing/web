@@ -63,6 +63,11 @@ members:
         external_url: https://github.com/ppacher
     description: >
       With his wide experience, ranging from IT-security and pen-testing to driver development to server management, Patrick rapidly became an invaluable part of the team. With his passion for Go-lang he is primarily advancing the Portmaster.
+  - name: Vladimir
+    title: Senior Developer
+    joined: July 2022
+    description: >
+      With his broad skillset, from app development to low level programming, Vladimir quickly became a valuable part of the team. Loving both privacy and challenges, he is unafraid to tackle the tricky areas of Portmaster in order to push it forward.
 externals:
   - name: Pranav
     title: Freelancer
