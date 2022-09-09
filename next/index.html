@@ -16,7 +16,12 @@ layout: page
         </p>
     </div>
     <div class="header-three-right">
+      {% comment %}
+      <!-- this where_exp needs jekyll 4.1 in order to work, but GitHub pages only supports 3.9 -->
       {% assign progress_posts = site.publications | reverse | where_exp: "item", "item.portmaster_update == true or item.progress_update == true" %}
+      <!-- hence we use the simpler version below, even though this now only searches for portmaster_update posts -->
+      {% endcomment %}
+      {% assign progress_posts = site.publications | reverse | where: "portmaster_update", "true" %}
       {% for post in progress_posts limit: 1 %}
         {% include thumbnail_blog.html pre_header="BLOG" %}
       {% endfor %}
