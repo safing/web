@@ -6,13 +6,16 @@
 
 1. [Install docker](https://www.docker.com/get-started)
 
-2. Run
+2. In Docker settings untick `Use Docker Compose V2` (We currently only support V1)
 
-```
-docker-compose up
-```
+3. Go to `Web` dir
 
-3. Access the local version at http://localhost:4000
+4. Run `docker-compose up`
+
+5. Access the local version at http://localhost:4000
+
+### Auto refresh not working?!
+You might be blocking javascript. `livereload` injects javascript to auto reload the page.
 
 ## Supporters
 
