@@ -4,9 +4,9 @@
 
 ### Run Safing locally:
 
-1. [Install docker](https://www.docker.com/get-started)
+1. [Install Docker Desktop](https://www.docker.com/get-started)
 
-2. In Docker settings untick `Use Docker Compose V2` (We currently only support V1)
+2. In Docker Desktop settings untick `Use Docker Compose V2` (We currently only support V1)
 
 3. Go to `Web` dir
 
