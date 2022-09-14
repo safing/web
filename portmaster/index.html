@@ -84,24 +84,6 @@ redirect_from:
     </div>
   </div>
   <div class="showcase-one-container">
-    <div class="showcase-one-left" style="max-width: 850px;">
-      <img src="{{ site.img_url }}page-specific/portmaster/manually-allow-ord-block-connections.png" alt="">
-    </div>
-    <div class="showcase-one-right">
-        <div class="alert-tiny w-max pr-6 bg-safing-blue-600 ml-0 md:mx-auto">
-          <i class="icon-info text-md"></i>
-          <span>Alpha Software: Portmaster is in active development</span>
-        </div>
-        <h2 class="showcase-one-right-title" style="max-width: 350px;">
-          Block Unwanted Connections
-        </h2>
-        <p class="showcase-one-right-desc">
-          Many programs connect to the Internet without your knowledge. When you
-          find unwanted connections, you can now simply block them.
-        </p>
-    </div>
-  </div>
-  <div class="showcase-one-container-reverse">
       <div class="showcase-one-left" style="max-width: 850px;">
         <img src="{{ site.img_url }}page-specific/portmaster/block-trackers-system-wide.png" alt="">
       </div>
@@ -110,17 +92,17 @@ redirect_from:
             <i class="icon-info text-md"></i>
             <span>Alpha Software: Portmaster is in active development</span>
           </div>
-          <h2 class="showcase-one-right-title" style="max-width: 450px;">
-            Auto-Block via Selected Filter Lists
+          <h2 class="showcase-one-right-title" style="max-width: 410px;">
+            Auto-Block Trackers & Malware
           </h2>
           <p class="showcase-one-right-desc">
-            Automatically block ads, trackers and malware hosts via trusted domain-lists,
+            Block ads, trackers and malware hosts system-wide. Portmaster does this by default and uses trusted filter lists,
             which are also used by Ad-Blockers, etc. Easily change the defaults to fit
             your needs.
           </p>
       </div>
   </div>
-  <div class="showcase-one-container">
+  <div class="showcase-one-container-reverse">
     <div class="showcase-one-left" style="max-width: 850px;">
       <img src="{{ site.img_url }}page-specific/portmaster/enforce-dns-over-tls.png" alt="">
     </div>
@@ -130,16 +112,15 @@ redirect_from:
           <span>Alpha Software: Portmaster is in active development</span>
         </div>
         <h2 class="showcase-one-right-title" style="max-width: 350px;">
-          Enforce Secure DNS
+          Secure Your DNS by Default
         </h2>
         <p class="showcase-one-right-desc">
           Even with invasive connections gone, you do not want to share your dns requests
-          out in the open. With the Portmaster, you can easily re-route all your dns
-          queries to a DNS-over-TLS provider of your choice.
+          out in the open. With Portmaster, all your DNS queries are automatically secured and re-routed to a DNS-over-TLS provider of your choice.
         </p>
     </div>
   </div>
-  <div class="showcase-one-container-reverse">
+  <div class="showcase-one-container">
     <div class="showcase-left" style="max-width: 850px;">
       <img src="{{ site.img_url }}page-specific/portmaster/explore-the-docs-and-source-code.png" alt="">
     </div>
@@ -156,12 +137,30 @@ redirect_from:
           it is really doing? We believe in open source. We also document everything
           as good as we can.
         </p>
-        <div class="col-container w-full text-left md:text-center lg:w-max lg:text-left">
+        <div class="col-container w-full text-left md:text-center lg:w-max lg:text-left" style="margin-left: 0;">
           <a class="btn-secondary" href="{{ site.docs_url }}">Checkout the docs</a>
           <a class="btn-tertiary hover-opacity-out" href="{{ site.github_url }}/portmaster"><i class="icon-github text-md mr-2"></i>Inspect source code</a>
         </div>
     </div>
   </div>
+  <div class="showcase-one-container-reverse">
+    <div class="showcase-one-left" style="max-width: 850px;">
+      <img src="{{ site.img_url }}page-specific/portmaster/manually-allow-ord-block-connections.png" alt="">
+    </div>
+    <div class="showcase-one-right">
+        <div class="alert-tiny w-max pr-6 bg-safing-blue-600 ml-0 md:mx-auto">
+          <i class="icon-info text-md"></i>
+          <span>Alpha Software: Portmaster is in active development</span>
+        </div>
+        <h2 class="showcase-one-right-title" style="max-width: 340px;">
+          Create Your Own Rules
+        </h2>
+        <p class="showcase-one-right-desc">
+          Portmaster has great defaults - but one shoe does not fit all. Customize and configure Portmaster's powerful settings to fit your needs and threat model.
+        </p>
+    </div>
+  </div>
+  <!--
   <div class="showcase-one-container">
     <div class="showcase-one-left" style="max-width: 850px;">
       <img src="{{ site.img_url }}page-specific/portmaster/configure-settings-for-different-networks.png" alt="">
@@ -180,8 +179,8 @@ redirect_from:
           location. All settings will adjust immediately
         </p>
     </div>
-  </div>
-  <div class="showcase-one-container-reverse">
+  </div> -->
+  <div class="showcase-one-container">
       <div class="showcase-left" style="max-width: 850px;">
         <img src="{{ site.img_url }}page-specific/portmaster/set-global-and-per-app-configuration.png" alt="">
       </div>
@@ -194,10 +193,9 @@ redirect_from:
               Set Global & per‑App Settings
           </h2>
           <p class="showcase-one-right-desc">
-            Make your own rules. Completely cut off applications from the
-            Internet. Or block all p2p connections except for certain apps.
-            Or never connect to specific countries. The Portmaster has you
-            covered.
+            Easily cut off applications from the
+            Internet. Or block all p2p connections globally but allow them for certain apps.
+            Or never connect to specific countries. Portmaster has you covered.
           </p>
       </div>
   </div>
