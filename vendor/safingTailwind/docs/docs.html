@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../docs/css/highlight.min.css">
     <link rel="stylesheet" href="../docs/css/style.css">
-    <link rel="stylesheet" href="../safingTailwind-1.9.css">
+    <link rel="stylesheet" href="../safingTailwind-1.10-Prerelease.css">
     <script src="../docs/js/vendor/jquery.min.js" type="text/javascript"></script>
     <script src="../docs/js/vendor/jquery-resizable.js"></script>
     <script src="../docs/js/vendor/highlight.min.js"></script>
@@ -293,6 +293,7 @@
     @apply whitespace-normal;
     @apply cursor-pointer;
     @apply hover-scale-in;
+    @apply justify-center ;
 }
 
 .btn[disabled],
@@ -324,6 +325,10 @@
 .btn i,
 .btn i {
     @apply align-baseline;
+}
+
+.btn.less-round {
+    @apply rounded-md;
 }</code></pre>
                         </li>
                       
@@ -366,7 +371,7 @@
                         <li id="scss-Primary-Button">
                           <pre><code style="min-height: 200px;" class="language-scss">.btn-primary {
     @apply btn;
-    @apply bg-safing-blue-500;
+    @apply bg-safing-blue-600;
 }</code></pre>
                         </li>
                       
@@ -409,7 +414,7 @@
                         <li id="scss-Secondary-Button">
                           <pre><code style="min-height: 200px;" class="language-scss">.btn-secondary {
     @apply btn;
-    @apply bg-black;
+    background-color: #2a2a2a;
 }</code></pre>
                         </li>
                       
@@ -596,7 +601,6 @@
     margin-bottom: 2.5rem;
 }
 
-
 .card-extended > .card-label,
 .card > .card-label {
     @apply z-10;
@@ -768,7 +772,39 @@
     @apply w-full;
     z-index: -1;
 }
-</code></pre>
+
+.card.darkmode,
+.card-extended.darkmode {
+    background-color: #1c1a1c;
+    @apply rounded-lg;
+}
+
+.card.darkmode .card,
+.card-extended.darkmode .card {
+    border-bottom: solid 1px #444343;
+    border-top: solid 1px #444343;
+    background-color: transparent;
+}
+
+
+.card.darkmode .icon-arrow,
+.card-extended.darkmode .icon-arrow,
+.card.darkmode .card-title .title,
+.card-extended.darkmode .card-title .title {
+    color: white;
+}
+
+.card.darkmode .card-label,
+.card-extended.darkmode .card-label {
+    background-color: #1c1a1c;
+    @apply rounded-lg;
+}
+
+
+.card.darkmode .card-dropdown-content,
+.card-extended.darkmode .card-dropdown-content {
+    color: white;
+}</code></pre>
                         </li>
                       
                     </ul>
@@ -9994,8 +10030,7 @@
     @apply rounded-full;
     @apply text-white;
     @apply border-2;
-    @apply border-white;
-
+    @apply border-transparent;
 }
 
 .circular-profile:hover img {
@@ -10495,9 +10530,10 @@
     @apply bg-safing-gray-600;
     transition: all 0.2s cubic-bezier(0.5, 0.1, 0.75, 1.35);
 }
+
 .toggle:checked {
-    @apply bg-safing-blue-500;
-    @apply border-safing-blue-500;
+    @apply bg-safing-blue-600;
+    @apply border-safing-blue-600;
 }
 .toggle:checked:after {
     @apply bg-white;
@@ -10581,7 +10617,7 @@
 }
 
 [tooltip]::after {
-    background: #333;
+    background: #2e2e2e;
     border-radius: 5px;
     padding: 20px;
     width: max-content;
@@ -10609,7 +10645,7 @@
 
 @keyframes tooltips-vert {
     to {
-        opacity: 0.9;
+        opacity: 1;
         transform: translate(-50%, 0);
     }
 }</code></pre>
@@ -12014,6 +12050,24 @@
     margin-top: 1.55rem;
     opacity: 1;
     padding-left: 1rem;
+}
+
+.markdown-container > em > strong {
+    @apply font-medium;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgba(97, 136, 255);
+    text-decoration-thickness: 2px;
+
+}
+
+/* If this breaks stuff in a markdown usecase, well it's the CTO's aka Daniel fault.*/
+.markdown-container table img {
+    border-radius: 0.375rem;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0), 0 0 90px 0 rgba(59, 93, 199, 0.1);
+    display: block;
+    height: auto;
+    max-width: 100%;
 }</code></pre>
                         </li>
                       
@@ -12142,6 +12196,7 @@
     @apply bg-black;
     @apply flex;
     @apply p-6;
+    @apply relative;
 
     @apply lg:pr-12;
     @apply lg:pl-12;
@@ -12183,11 +12238,20 @@
     @apply hidden;
 }
 
+.nav-center {
+    @apply bg-black;
+
+    @apply lg:bg-transparent;
+}
+
+.nav-toggle-burger:checked+.nav-center,
 .nav-toggle-burger:checked+.nav-right {
+    height: 100vh;
     @apply grid;
 }
 
 @media (min-width: 1024px) {
+    .nav-toggle-burger:checked+.nav-center,
     .nav-toggle-burger:checked+.nav-right {
         @apply flex;
     }
@@ -12203,8 +12267,8 @@
     @apply p-10;
     @apply z-10;
     @apply w-full;
-    @apply space-x-10;
 
+    @apply lg:space-x-10;
     @apply lg:flex;
     @apply lg:flex-auto;
     @apply lg:relative;
@@ -12212,6 +12276,30 @@
     @apply lg:p-0;
     @apply lg:h-auto;
 }
+
+.nav > .nav-center {
+    @apply hidden;
+    @apply absolute;
+    @apply content-center;
+    @apply inset-0;
+    @apply h-full;
+    @apply p-10;
+    @apply z-10;
+    @apply w-full;
+    
+    @apply lg:space-x-10;
+    @apply lg:flex;
+    @apply lg:p-0;
+    @apply lg:h-auto;
+
+    @apply ml-auto;
+    @apply mr-auto;
+
+    position: absolute;
+    width: 100%;
+    @apply lg:justify-center;
+}
+
 
 .nav-right > .nav-right-profile {
     @apply flex;
@@ -12250,7 +12338,7 @@
     @apply text-sm;
 }
 
-
+.nav-center > .nav-right-links,
 .nav-right > .nav-right-links {
     @apply space-x-0;
     @apply space-y-11;
@@ -12269,8 +12357,24 @@
     @apply text-white;
     @apply font-bold;
     @apply text-base;
+    @apply relative;
 
     @apply lg:text-sm;
+}
+
+.nav .nav-link.selected::before {
+    position: absolute;
+    @apply bg-transparent;
+    height: 0.45rem; 
+    width: 0.45rem; 
+    border-radius: 100%;
+    content: '';
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    bottom: -11px;
+
+    @apply lg:bg-safing-blue-500;
 }
 
 .nav-right-links > .nav-link {
@@ -12278,9 +12382,10 @@
 }
 
 .nav-right-actions > .nav-link {
-    @apply hover-opacity-out;
+    @apply hover-opacity-in;
 }
 
+.nav-center > .nav-right-actions,
 .nav-right > .nav-right-actions {
     @apply space-y-11;
     @apply items-baseline;
@@ -12295,6 +12400,16 @@
     @apply lg:flex;
     @apply lg:space-y-0;
     @apply lg:space-x-5;
+}
+
+.nav-center > .nav-right-actions {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    @apply right-0;
+
+    @apply lg:absolute;
+    @apply lg:right-10;
 }
 
 .nav-right-actions > .btn-primary {
