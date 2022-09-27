@@ -15,6 +15,7 @@ base_url: "/" # the subpath of your site, e.g. /blog
 ### assets
 assets_url: /assets/
 img_url: /assets/img/
+video_url: /assets/video/
 vendor_url: /vendor/
 
 ### pages
