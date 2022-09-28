@@ -10,6 +10,9 @@
 
 3. Go to `Web` dir
 
+#### Known Bug In Docker: https://github.com/docker/for-mac/issues/6467
+if you have problems with **chown permissions**, then you will need todo run this `rm -rf _site .sass-cache .jekyll-metadata .jekyll-cache` before `docker-compose up` every time.
+
 4. Run `docker-compose up`
 
 5. Access the local version at http://localhost:4000
