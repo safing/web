@@ -20,7 +20,7 @@ portmaster_plug: true
 ### Get Involved in Portmaster Development Through Discord
 
 
-We are passionate about sharing and interacting without more directly and Discord finally gives us this option - Some team members wanted this for the longest time!
+We are passionate about sharing and interacting more directly, and Discord finally gives us this option - Some team members wanted this for the longest time!
 
 Email is too siloed and sending a newsletter with draft designs seems unnatural as well, Reddit is too public and Twitter not conversational enough - so this is why we landed here.
 
