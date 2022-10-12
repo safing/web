@@ -143,7 +143,6 @@ title: Prcing
                                   </div>
                                   <div class="card-package-bottom" style="display: block;">
                                       <span class="element-x-center-max mt-4 text-sm">Billing does <strong>NOT</strong> auto-renew</span>
-                                      
                                       <div class="mx-auto space-x-2 flex w-percent-80">
                                             <input class="btn-secondary less-round w-full h-auto py-5" type="submit" name="commit" value="Buy Package"  data-disable-with="Buy Package">
                                             <nojs>
@@ -161,7 +160,7 @@ title: Prcing
                   </div>
               </div>
           </div>
-          <div class="flex mx-auto w-max mt-8 space-x-8 items-center opacity-50">
+          <div class="flex mx-auto w-max mt-8 space-x-8 items-center opacity-50" style="position: relative; z-index: -1;">
             <div class="space-x-8 hidden lg:flex items-center">
                 <img src="{{ site.img_url }}page-specific/pricing/payment-methods/mastercard.png">
                 <img src="{{ site.img_url }}page-specific/pricing/payment-methods/visacard.png">
@@ -173,7 +172,7 @@ title: Prcing
             </div>
           </div>
         </div>
-          <div class=" mt-10">
+         <!-- <div class=" mt-10">
             <div class="card-package darkmode relative mx-auto" style="max-width: 1210px; width: 100%;">
                 <div class="card-package-top" style="margin-top: 0;">
                   <span class="card-package-top-amount" style="font-size: 2rem;">
@@ -196,7 +195,7 @@ title: Prcing
                     <a href="{{ site.seen_privacytools_url }}" class="hover-scale-in cursor-pointer hover-grayscale-in"><img src="{{ site.img_url }}/external/privacytools.png"></a>
                 </div>
             </div>
-          </div>
+          </div> -->
       </div>
   </div>
     <div class="header-bg">
@@ -420,8 +419,6 @@ title: Prcing
     </div>
     <!-- <div class="showcase-bg"></div> -->
   </div>  
-
-
     <div class="showcase-one-container-reverse">
         <div class="showcase-one-left" style="max-width: 1050px;">
         <img src="{{ site.img_url }}page-specific/business-model/provide-local-value-for-free-forever.png" alt="">
@@ -435,12 +432,9 @@ title: Prcing
             all local privacy features are free, and will remain so forever.
             This fits perfectly into the Freemium business model.
             </p>
-            <a class="btn-secondary" href="{{ site.portmaster_url }}">Discover the portmaster</a>
+            <a class="btn-secondary" href="{{ site.business_model_url }}">Explore our Business Model</a>
         </div>
     </div>
-
-
-
   <div class="faq-container mb-60" id="faq">
     <div class="faq-container-top">
         <h2 class="faq-container-top-title">
@@ -484,7 +478,4 @@ title: Prcing
       {% include source_code_faq.html %}
     </div>
   </div>
-
-
-
 </section>
