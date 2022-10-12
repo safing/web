@@ -33,73 +33,34 @@ title: Features
     </div>
     <div class="showcase-one-container">
       <div class="showcase-one-left" style="max-width: 850px;">
-        <img src="{{ site.img_url }}page-specific/portmaster/manually-allow-ord-block-connections.png" alt="">
+        <img src="{{ site.img_url }}page-specific/portmaster/block-trackers-system-wide.png" alt="">
       </div>
       <div class="showcase-one-right">
-          <h2 class="showcase-one-right-title" style="max-width: 350px;">
-            Block Domains
+          <h2 class="showcase-one-right-title" style="max-width: 410px;">
+            Auto-Block Trackers & Malware
           </h2>
           <p class="showcase-one-right-desc">
-            Many programs connect to the Internet without your knowledge. When you
-            find unwanted connections, you can now simply block them.
+            Block ads, trackers and malware hosts system-wide. Portmaster does this by default and uses trusted filter lists,
+            which are also used by Ad-Blockers, etc. Easily change the defaults to fit
+            your needs.
           </p>
       </div>
     </div>
     <div class="showcase-one-container-reverse">
-      <div class="showcase-one-left" style="max-width: 850px;">
-        <img src="{{ site.img_url }}page-specific/portmaster/block-trackers-system-wide.png" alt="">
-      </div>
-        <div class="showcase-one-right">
-            <h2 class="showcase-one-right-title" style="max-width: 450px;">
-              Auto-Block via Selected Filter Lists
-            </h2>
-            <p class="showcase-one-right-desc">
-              Automatically block ads, trackers and malware hosts via trusted domain-lists,
-              which are also used by Ad-Blockers, etc. Easily change the defaults to fit
-              your needs.
-            </p>
-        </div>
-    </div>
-    <div class="showcase-one-container">
       <div class="showcase-one-left" style="max-width: 950px;">
         <img src="{{ site.img_url }}page-specific/portmaster/enforce-dns-over-tls.png" alt="">
       </div>
       <div class="showcase-one-right">
-          <h2 class="showcase-one-right-title" style="max-width: 250px;">
-            Enforce Secure DNS
-          </h2>
-          <p class="showcase-one-right-desc">
-            Even with invasive connections gone, you do not want to share your dns requests
-            out in the open. With the Portmaster, you can easily re-route all your dns
-            queries to a DNS-over-TLS provider of your choice.
-          </p>
+        <h2 class="showcase-one-right-title" style="max-width: 350px;">
+          Secure Your DNS by Default
+        </h2>
+        <p class="showcase-one-right-desc">
+          Even with invasive connections gone, you do not want to share your DNS requests
+          out in the open. With Portmaster, all your DNS queries are automatically secured and re-routed to a DNS-over-TLS provider of your choice.
+        </p>
       </div>
     </div>
-    <div class="showcase-two-container">
-      <div class="showcase-two-top-left" style="max-width: 73rem;">
-          <h2 class="showcase-two-top-title" style="max-width: 550px;">
-              Portmaster News
-          </h2>
-          <p class="showcase-two-top-desc" style="max-width: 430px;">
-              Discover everything that is happing on your computer. Expose every connection your applications make.
-          </p>
-      </div>
-      <div class="showcase-two-bottom" style="max-width: 100%;">
-          <div class="blogpod-container" style="margin-top: 0;">
-              <div class="blogpod-container-bottom">
-                  {% assign all_publications = site.publications | sort: "date" | reverse %}
-                  {% for publication in all_publications limit: 3 %}
-                  {% if publication.category == "blog" %}
-                      {% assign post = publication %}
-                      {% include thumbnail_blog.html pre_header="BLOG" %}
-                  {% endif %}
-                  {% endfor %}
-              </div>
-          </div>
-      </div>
-      <!-- <div class="showcase-bg"></div> -->
-    </div>
-    <div class="showcase-one-container-reverse">
+    <div class="showcase-one-container">
       <div class="showcase-one-left" style="max-width: 850px;">
         <img src="{{ site.img_url }}page-specific/portmaster/explore-the-docs-and-source-code.png" alt="">
       </div>
@@ -119,18 +80,28 @@ title: Features
       </div>
     </div>
     <div class="showcase-one-container-reverse">
+      <div class="showcase-one-left" style="max-width: 850px;">
+        <img src="{{ site.img_url }}page-specific/portmaster/manually-allow-ord-block-connections.png" alt="">
+      </div>
+      <div class="showcase-one-right">
+          <h2 class="showcase-one-right-title" style="max-width: 340px;">
+            Create Your Own Rules
+          </h2>
+          <p class="showcase-one-right-desc">
+            Portmaster has great defaults - but one shoe does not fit all. Customize and configure Portmaster's powerful settings to fit your needs and threat model.
+          </p>
+      </div>
+    </div>
+    <div class="showcase-one-container">
         <div class="showcase-one-left" style="max-width: 950px;">
           <img src="{{ site.img_url }}page-specific/portmaster/set-global-and-per-app-configuration.png" alt="">
         </div>
         <div class="showcase-one-right">
             <h2 class="showcase-one-right-title" style="max-width: 350px;">
-                Set Global & per‑App Settings
+              Set Global & per‑App Settings
             </h2>
             <p class="showcase-one-right-desc">
-              Make your own rules. Completely cut off applications from the
-              Internet. Or block all p2p connections except for certain apps.
-              Or never connect to specific countries. The Portmaster has you
-              covered.
+              Easily cut off applications from the Internet. Or block all p2p connections globally but allow them for certain apps. Or never connect to specific countries. Portmaster has you covered.
             </p>
         </div>
     </div>
@@ -158,5 +129,28 @@ title: Features
             </div>
         </div>
     </div>
+    <div class="showcase-two-container">
+      <div class="showcase-two-top-left" style="max-width: 73rem;">
+          <h2 class="showcase-two-top-title" style="max-width: 550px;">
+              Portmaster News
+          </h2>
+          <p class="showcase-two-top-desc" style="max-width: 430px;">
+              Discover everything that is happing on your computer. Expose every connection your applications make.
+          </p>
+      </div>
+      <div class="showcase-two-bottom" style="max-width: 100%;">
+          <div class="blogpod-container" style="margin-top: 0;">
+              <div class="blogpod-container-bottom">
+                  {% assign all_publications = site.publications | sort: "date" | reverse %}
+                  {% for publication in all_publications limit: 3 %}
+                  {% if publication.category == "blog" %}
+                      {% assign post = publication %}
+                      {% include thumbnail_blog.html pre_header="BLOG" %}
+                  {% endif %}
+                  {% endfor %}
+              </div>
+          </div>
+      </div>
+      <!-- <div class="showcase-bg"></div> -->
+    </div>
 </section>
-  
