@@ -131,11 +131,17 @@ redirect_from:
 
   <div class="blogpod-container">
       <div class="blogpod-container-top">
-          <span class="blogpod-container-top-bg-title">Follow Us</span>
+          <span class="blogpod-container-top-bg-title" style="margin-top: -6rem; opacity: 0.11;">Follow Us</span>
           <h2 class="blogpod-container-top-title">
               Blog, Podcast &amp; Videos
           </h2>
+          <div class="col-container-center pt-5 md:pt-0  w-full md:w-max text-center md:text-left">
+            <a class="btn-secondary" href="{{ site.blog_url }}">Blogs</a>
+            <a class="btn-secondary" href="{{ site.podcast_url }}">Podcast</a>
+            <a class="btn-secondary" href="{{ site.video_url }}">Videos</a>
+          </div>
       </div>
+      
       <div class="blogpod-container-bottom">
           {% assign all_publications = site.publications | sort: "date" | reverse %}
           {% for publication in all_publications limit: 6 %}
@@ -151,10 +157,6 @@ redirect_from:
             {% endif %}
           {% endfor %}
       </div>
-      <div class="col-container-center pt-20 w-full md:w-max text-center md:text-left">
-        <a class="btn-secondary" href="{{ site.blog_url }}">Blogs</a>
-        <a class="btn-secondary" href="{{ site.podcast_url }}">Podcast</a>
-        <a class="btn-secondary" href="{{ site.video_url }}">Videos</a>
-      </div>
+     
   </div>
 </section>
