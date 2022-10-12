@@ -1,0 +1,490 @@
+---
+layout: page
+title: Prcing
+---
+
+<header class="header-two-container mb-64 mt-20">
+  <div class="header-two-top">
+      <h1 class="header-two-top-title" style="margin-top: 0.3rem;">
+          Pricing
+      </h1>
+      <p class="header-two-top-desc" style="max-width: 650px;">
+          Built from scratch and designed to truly protect your privacy from mass surveillance. 
+      </p>
+  </div>
+  <div class="header-two-bottom" style="margin-top: 1.85rem;">
+      <div class="element-x-center max-w-sm md:max-w-7xl">
+          <div class="package-billing darkmode">
+              <div class="package-billing-top">
+                  <div class="package-billing-top-line-left"></div>
+                  <div class="package-billingtop-top-center">
+                      <div class="package-billingtop-top-center-inner">
+                          <span>Per Month</span>
+                          <span>Per Year</span>
+                      </div>
+                  </div>
+                  <div class="package-billing-top-line-right"></div>
+              </div>
+              <input class="package-billing-toggle darkmode" type="checkbox" id="consent_text" name="consent_text" value="yes">
+              <div class="package-billing-bottom">
+                  <div class="content-one"> 
+                      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 transform scale-90 xl:scale-100 gap-5 lg:gap-28 xl:gap-0 justify-center justify-items-center mx-auto" style="align-items: center;">
+                          <div class="card-package darkmode" style="height: 650px;">
+                              <div class="card-package-top">
+                                  <div class="flex">
+                                      <span class="card-package-top-title">Portmaster Free</span>
+                                  </div>
+                                  <span class="card-package-top-amount">
+                                      Free
+                                      <span class="card-package-top-amount-monthly">/ Forever</span>
+                                  </span>
+                                  <p class="card-package-top-desc" style="max-width: 480px;">Increase your privacy and security.</p>
+                              </div>
+                              <div class="card-package-middle">
+                                  <span class="card-package-middle-includes">Features 
+                                      <span tooltip="Portmaster is the base that deals with all our plugins"> <i  class="icon-info text-gray-500 ml-1"></i></span>
+                                  </span>
+                                  <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Privacy filter
+                                  </span>
+                                  <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Secure DNS
+                                  </span>
+                                  <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Network Monitor
+                                  </span>
+                                  <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Community Support
+                                  </span>
+                              </div>
+                              <div class="card-package-bottom" style="bottom: 36px;">
+                                <div class="hidden lg:block">
+                                    {% include download_button.html unique_id="1" %}
+                                </div>
+                              </div>
+                          </div>
+                          <form class="new_charge" id="new_charge" action="https://account.safing.io/charges/checkout" accept-charset="UTF-8" method="get">
+                              <input value="1" autocomplete="off" type="hidden" name="charge[package_id]" id="charge_package_id">
+                              <div class="card-package darkmode mt-0" style="height: 650px;">
+                                  <div class="absolute -top-8 -right-11 hidden xl:block">
+                                      <img src="{{ site.img_url }}page-specific/pricing/package-icons/circle-big.png" alt="">
+                                  </div>
+                                  <div class="card-package-top" style="margin-top: 0;">
+                                      <div class="flex">
+                                          <span class="card-package-top-title">Portmaster  <span style="color: #2fcfae;">Supporter</span> </span>
+                                      </div>
+                                      <span class="card-package-top-amount">
+                                          3€
+                                          <span class="card-package-top-amount-monthly">/ 1-Month</span>
+                                      </span>
+                                      <p class="card-package-top-desc" style="max-width: 480px;">We truly appreciate your support.</p>
+                                  </div>
+                                  <div class="card-package-middle">
+                                      <span class="card-package-middle-includes">Features 
+                                          <span tooltip="Portmaster is the base that deals with all our plugins"> <i  class="icon-info text-gray-500 ml-1"></i></span>
+                                      </span>
+                                      <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Everything in Free    
+                                      </span>
+                                      <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Priority Support 
+                                      </span>
+                                      <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Discord Benefits
+                                        <span class="ml-1">
+                                            <img src="{{ site.img_url }}page-specific/pricing/package-icons/circle-triangle.png" style="width: 19px; display: inline-block;"  alt="">
+                                        </span>
+                                    </span>
+                                    <span class="card-package-middle-includes"></span>
+                                      <span class="card-package-middle-includes-feature"><i class="icon-alarm-clock-time-timer text-gray-500 text-xl mr-1"></i> Early Access to Features
+                                    </span>
+                                      <span class="card-package-middle-includes-feature"><i class="icon-alarm-clock-time-timer text-gray-500 text-xl mr-1"></i> Reddit Benefits
+                                          <span class="ml-1">
+                                              <img src="{{ site.img_url }}page-specific/pricing/package-icons/circle-triangle.png" style="width: 19px; display: inline-block;"  alt="">
+                                          </span>
+                                      </span>
+                                  </div>
+                                  <div class="card-package-bottom" style="display: block;">
+                                      <span class="element-x-center-max mt-4 text-sm">Billing does <strong>NOT</strong> auto-renew</span>
+                                      <div class="mx-auto space-x-2 flex w-percent-80">
+                                        <input class="btn-secondary less-round w-full h-auto py-5" type="submit" name="commit" value="Buy Package"  data-disable-with="Buy Package">
+                                        <nojs>
+                                            <div class="input-counter darkmode h-full">
+                                                <input class="input-counter-right" value="1" step="1" min="1" max="4" required="required" class="input-counter-right" type="number" name="charge[quantity]" id="charge_quantity">
+                                            </div>
+                                        </nojs>
+                                      </div>
+                                  </div>
+                              </div>
+                          </form>
+                          <form class="new_charge" id="new_charge" action="https://account.safing.io/charges/checkout" accept-charset="UTF-8" method="get">
+                              <input value="1" autocomplete="off" type="hidden" name="charge[package_id]" id="charge_package_id">
+                              <div class="card-package darkmode mt-0" style="height: 650px;">
+                                  <div class="absolute -top-8 -right-11 hidden xl:block">
+                                      <img src="{{ site.img_url }}page-specific/pricing/package-icons/triangle-big.png" alt="">
+                                  </div>
+                                  <div class="card-package-top" style="margin-top: 0;">
+                                      <div class="flex">
+                                          <span class="card-package-top-title">Portmaster <span style="color: #029ad0;">Unlimited</span></span>
+                                      </div>
+                                      <span class="card-package-top-amount">
+                                          9.90€
+                                          <span class="card-package-top-amount-monthly">/ 1-Month</span>
+                                      </span>
+                                      <p class="card-package-top-desc" style="max-width: 480px;">It's time to ditch VPN's.</p>
+                                  </div>
+                                  <div class="card-package-middle">
+                                      <span class="card-package-middle-includes">Features 
+                                          <span tooltip="Portmaster is the base that deals with all our plugins"> <i  class="icon-info text-gray-500 ml-1"></i></span>
+                                      </span>
+                                      <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Everything in <span style="color: #2fcfae;">Supporter</span>
+                                      </span>
+                                      <span class="card-package-middle-includes">SPN Accress 
+                                      </span>
+                                      <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Multiple Identities
+                                      </span>
+                                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Geo-Unblocking
+                                    </span>
+                                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Built for Privacy
+                                    </span>
+                                  </div>
+                                  <div class="card-package-bottom" style="display: block;">
+                                      <span class="element-x-center-max mt-4 text-sm">Billing does <strong>NOT</strong> auto-renew</span>
+                                      
+                                      <div class="mx-auto space-x-2 flex w-percent-80">
+                                            <input class="btn-secondary less-round w-full h-auto py-5" type="submit" name="commit" value="Buy Package"  data-disable-with="Buy Package">
+                                            <nojs>
+                                                <div class="input-counter darkmode h-full">
+                                                    <input class="input-counter-right" value="1" step="1" min="1" max="4" required="required" class="input-counter-right" type="number" name="charge[quantity]" id="charge_quantity">
+                                                </div>
+                                            </nojs>
+                                      </div>
+                                  </div>
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+                  <div class="content-two"> 
+                  </div>
+              </div>
+          </div>
+          <div class="flex mx-auto w-max mt-8 space-x-8 items-center opacity-50">
+            <div class="space-x-8 hidden lg:flex items-center">
+                <img src="{{ site.img_url }}page-specific/pricing/payment-methods/mastercard.png">
+                <img src="{{ site.img_url }}page-specific/pricing/payment-methods/visacard.png">
+                <img src="{{ site.img_url }}page-specific/pricing/payment-methods/amex.png">
+                <img src="{{ site.img_url }}page-specific/pricing/payment-methods/paypal.png">
+                <img src="{{ site.img_url }}page-specific/pricing/payment-methods/cash.png">
+                <img src="{{ site.img_url }}page-specific/pricing/payment-methods/monero.png">
+                <img src="{{ site.img_url }}page-specific/pricing/payment-methods/bitcoin.png">
+            </div>
+          </div>
+        </div>
+          <div class=" mt-10">
+            <div class="card-package darkmode relative mx-auto" style="max-width: 1210px; width: 100%;">
+                <div class="card-package-top" style="margin-top: 0;">
+                  <span class="card-package-top-amount" style="font-size: 2rem;">
+                      Open Source & Free
+                  </span>
+                  <p class="card-package-top-desc" style="max-width: 480px;">The free version is very powerful tool, but by buying a package you support the devlopment of the portmaster.</p>
+                  </div>
+                <div class="card-package-bottom transform scale-105" style="position: absolute; width: 100%; left: 0; bottom: 0px; display: flex; justify-content: end; height: 100%;">
+                  <div class="hidden lg:block"  style="display: flex; align-items: center; margin-right: 4rem;">
+                      {% include download_button.html unique_id="2" %}
+                    </div>
+                </div>
+            </div>
+            <div class="flex mx-auto w-max mt-8 space-x-8 items-center">
+                <p class="block text-safing-gray-400">Seen and featured on</p>
+                <div class="space-x-8 hidden lg:flex items-center">
+                    <a href="{{ site.seen_itsfoss_url }}" class="hover-scale-in cursor-pointer hover-grayscale-in"><img src="{{ site.img_url }}/external/itsfoss.png"></a>
+                    <a href="{{ site.seen_ghacks_url }}" class="hover-scale-in cursor-pointer hover-grayscale-in"><img src="{{ site.img_url }}/external/ghacks.png"></a>
+                    <a href="{{ site.seen_techlore_url }}" class="hover-scale-in cursor-pointer hover-grayscale-in"><img src="{{ site.img_url }}/external/techlore.png"></a>
+                    <a href="{{ site.seen_privacytools_url }}" class="hover-scale-in cursor-pointer hover-grayscale-in"><img src="{{ site.img_url }}/external/privacytools.png"></a>
+                </div>
+            </div>
+          </div>
+      </div>
+  </div>
+    <div class="header-bg">
+        <div class="wave-contrainer" style="z-index: -1; bottom: unset; top: 440px; opacity: .45;">
+            <div class="wave-background" style="background-image: url({{ site.img_url }}page-specific/pricing/wave3.svg); height: 195px; position: unset;"></div>
+        </div>
+    </div>
+</header>
+<section class="general-layout">
+  <div class="showcase-two-container">
+    <div class="showcase-two-top-left" style="max-width: 73rem;">
+        <h2 class="showcase-two-top-title" style="max-width: 550px;">
+            Comparison Chart
+        </h2>
+        <p class="showcase-two-top-desc" style="max-width: 430px;">
+            Discover everything that is happing on your computer. Expose every connection your applications make.
+        </p>
+    </div>
+    <div class="showcase-two-bottom" style="max-width: 100%;">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 transform scale-90 xl:scale-100 gap-5 lg:gap-28 xl:gap-10 justify-center justify-items-center mx-auto" style="align-items: center;">
+            
+            
+            <div class="card-package darkmode" style="height: 1016px;">
+                <div class="card-package-top">
+                    <div class="flex">
+                        <span class="card-package-top-title">Portmaster Free</span>
+                        <!-- <span tooltip="Compared to Monthly &quot;Beta&quot; Prices" class="ml-auto bg-safing-gray-100 text-center rounded-full px-5 py-1 inline-flex text-sm">Save 36%</span> -->
+                    </div>
+                    <p class="card-package-top-desc" style="max-width: 480px;">Increase your privacy and security.</p>
+                </div>
+                <div class="card-package-middle">
+                    <span class="card-package-middle-includes"> Portmaster Features
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Privacy Filter    
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Secure DNS 
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Network Monitor
+                    </span>
+
+                    <span class="card-package-middle-includes"></span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-alarm-clock-time-timer text-gray-500 text-xl mr-1"></i> Record App History 
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-cross text-red-500 mr-1"></i>  Early Access to Features 
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-cross text-red-500 mr-1"></i>  VM Support
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-cross text-red-500 mr-1"></i>  Docker Support
+                    </span>
+
+                    <span class="card-package-middle-includes"></span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-cross text-red-500 mr-1"></i> SPN
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-cross text-red-500 mr-1"></i>  Multiple Identities
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-cross text-red-500 mr-1"></i>  Auto Geo-Unblocking
+                    </span>
+
+                    <span class="card-package-middle-includes"></span>
+                    <span class="card-package-middle-includes"> Socials
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-cross text-red-500 mr-1"></i>  Discord User Flair
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-cross text-red-500 mr-1"></i> Private Discord Channel
+                    </span>
+
+                    <span class="card-package-middle-includes-feature"><i class="icon-cross text-red-500 mr-1"></i>  Reddit User Flair
+                    </span>
+
+                    <span class="card-package-middle-includes"></span>
+                    <span class="card-package-middle-includes"> Support
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Community Support
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-cross text-red-500 mr-1"></i> Priority Support
+                    </span>
+                </div>
+                <div class="card-package-bottom" style="bottom: 36px;">
+                    <div class="hidden lg:block">
+                        {% include download_button.html unique_id="3" %}
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-package darkmode mt-0"  style="height: 1016px;">
+                <div class="card-package-top" style="margin-top: 0;">
+                    <div class="flex">
+                        <span class="card-package-top-title">Portmaster  <span style="color: #2fcfae;"> Supporter</span> </span>
+                        <!-- <span tooltip="Compared to Monthly &quot;Beta&quot; Prices" class="ml-auto bg-safing-gray-100 text-center rounded-full px-5 py-1 inline-flex text-sm">Save 36%</span> -->
+                    </div>
+                    <p class="card-package-top-desc" style="max-width: 480px;">We truly appreciate your support.</p>
+                </div>
+                <div class="card-package-middle">
+                    <span class="card-package-middle-includes"> Portmaster Features
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Privacy Filter    
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Secure DNS 
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Network Monitor
+                    </span>
+
+                    <span class="card-package-middle-includes"></span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-alarm-clock-time-timer text-gray-500 text-xl mr-1"></i> Record App History 
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-alarm-clock-time-timer text-gray-500 text-xl mr-1"></i>  Early Access to Features 
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-alarm-clock-time-timer text-gray-500 text-xl mr-1"></i>  VM Support
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-alarm-clock-time-timer text-gray-500 text-xl mr-1"></i>  Docker Support
+                    </span>
+
+                    <span class="card-package-middle-includes"></span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-cross text-red-500 mr-1"></i> SPN
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-cross text-red-500 mr-1"></i>  Multiple Identities
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-cross text-red-500 mr-1"></i>  Auto Geo-Unblocking
+                    </span>
+
+
+                    
+
+
+                    <span class="card-package-middle-includes"></span>
+                    <span class="card-package-middle-includes"> Socials
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i>  Discord User Flair
+                        <span class="ml-1">
+                            <img src="{{ site.img_url }}page-specific/pricing/package-icons/circle.png" style="width: 19px; display: inline-block;"  alt="">
+                        </span>
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Private Discord Channel
+                    </span>
+
+                    <span class="card-package-middle-includes-feature"><i class="icon-alarm-clock-time-timer text-gray-500 text-xl mr-1"></i> Reddit User Flair
+                        <span class="ml-1">
+                            <img src="{{ site.img_url }}page-specific/pricing/package-icons/circle.png" style="width: 19px; display: inline-block;"  alt="">
+                        </span>
+                    </span>
+
+                    <span class="card-package-middle-includes"></span>
+                    <span class="card-package-middle-includes"> Support
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Community Support
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Priority Support
+                    </span>
+                </div>
+                <div class="card-package-bottom">
+                    <a class="btn-secondary justify-center less-round" href="" style="background-color: #2a2a2a; width: 80%; border-radius: 7px !important; padding-top: 1.2rem; padding-bottom: 1.2rem;">Get Started</a>
+                </div>
+            </div>
+
+            <div class="card-package darkmode"  style="height: 1016px;">
+                <div class="card-package-top" style="margin-top: 0;">
+                    <div class="flex">
+                        <span class="card-package-top-title">Portmaster <span style="color: #029ad0;">Unlimited</span></span>
+                        <!-- <span tooltip="Compared to Monthly &quot;Beta&quot; Prices" class="ml-auto bg-safing-gray-100 text-center rounded-full px-5 py-1 inline-flex text-sm">Save 36%</span> -->
+                    </div>
+                    <p class="card-package-top-desc" style="max-width: 480px;">It's time to ditch VPN's.</p>
+                </div>
+                <div class="card-package-middle">
+                    <span class="card-package-middle-includes"> Portmaster Features
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Privacy Filter    
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Secure DNS 
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Network Monitor
+                    </span>
+
+                    <span class="card-package-middle-includes"></span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-alarm-clock-time-timer text-gray-500 text-xl mr-1"></i> Record App History 
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-alarm-clock-time-timer text-gray-500 text-xl mr-1"></i>  Early Access to Features 
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-alarm-clock-time-timer text-gray-500 text-xl mr-1"></i>  VM Support
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-alarm-clock-time-timer text-gray-500 text-xl mr-1"></i>  Docker Support
+                    </span>
+
+                    <span class="card-package-middle-includes"></span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> SPN
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Multiple Identities
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i>  Auto Geo-Unblocking
+                    </span>
+
+                    <span class="card-package-middle-includes"></span>
+                    <span class="card-package-middle-includes"> Socials
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i>  Discord User Flair
+                        <span class="ml-1">
+                            <img src="{{ site.img_url }}page-specific/pricing/package-icons/triangle.png" style="width: 19px; display: inline-block;"  alt="">
+                        </span>
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Private Discord Channel
+                    </span>
+
+                    <span class="card-package-middle-includes-feature"><i class="icon-alarm-clock-time-timer text-gray-500 text-xl mr-1"></i>  Reddit User Flair
+                        <span class="ml-1">
+                            <img src="{{ site.img_url }}page-specific/pricing/package-icons/triangle.png" style="width: 19px; display: inline-block;"  alt="">
+                        </span>
+                    </span>
+
+                    <span class="card-package-middle-includes"></span>
+                    <span class="card-package-middle-includes"> Support
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Community Support
+                    </span>
+                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Priority Support
+                    </span>
+                </div>
+                <div class="card-package-bottom">
+                    <a class="btn-primary justify-center less-round" href="" style=" width: 80%; border-radius: 7px !important; padding-top: 1.2rem; padding-bottom: 1.2rem;">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="showcase-bg"></div> -->
+  </div>  
+
+
+    <div class="showcase-one-container-reverse">
+        <div class="showcase-one-left" style="max-width: 1050px;">
+        <img src="{{ site.img_url }}page-specific/business-model/provide-local-value-for-free-forever.png" alt="">
+        </div>
+        <div class="showcase-one-right">
+            <h2 class="showcase-one-right-title" style="max-width: 450px;">
+            Our Transparent Business Model
+            </h2>
+            <p class="showcase-one-right-desc">
+            Everybody deserves privacy, not only the wealthy. That is why
+            all local privacy features are free, and will remain so forever.
+            This fits perfectly into the Freemium business model.
+            </p>
+            <a class="btn-secondary" href="{{ site.portmaster_url }}">Discover the portmaster</a>
+        </div>
+    </div>
+
+
+
+  <div class="faq-container mb-60" id="faq">
+    <div class="faq-container-top">
+        <h2 class="faq-container-top-title">
+            FAQ
+        </h2>
+        <p class="faq-container-top-desc">
+            You have a question? We answered some already, but you
+            can always contact us at <a class="link-primary" href="mailto:hello@safing.io">hello@safing.io</a>
+        </p>
+    </div>
+    <div class="faq-container-bottom">
+      {% for faq in site.data.faq.spn %}
+        <div class="faq-container-bottom-question">
+            <div class="card-faq darkmode hover-scale-out">
+                <label class="card-label" for="card-toggle-anchor-{{ forloop.index }}">
+                    <div class="wrapper-left">
+                        <div class="card-title">
+                            <h3 class="title">
+                              {{ faq.q }}
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="wrapper-right">
+                        <i class="icon-arrow"></i>
+                    </div>
+                </label>
+                <input class="card-input-toggle" id="card-toggle-anchor-{{ forloop.index }}" type="checkbox">
+                <div class="card-dropdown-toggle">
+                    <div class="card-dropdown-content">
+                        {{ faq.a }}
+                        {% if faq.link %}
+                          <br>
+                          <br>
+                          <a class="link-primary" href="{{ faq.link.url }}">{{ faq.link.text }}</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+      {% endfor %}
+      {% include source_code_faq.html %}
+    </div>
+  </div>
+
+
+
+</section>

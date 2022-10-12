@@ -1,0 +1,162 @@
+---
+layout: page
+title: Features
+---
+
+<section class="general-layout" style="margin-top: -5rem;">
+    <div class="space-y-28">
+      <div class="download-container" id="features">
+        <h2 class="download-container-title">
+          Explore All Portmaster Features
+        </h2>
+        <div class="space-y-8 max-w-3xl mx-auto">
+          <p class="download-container-extra">
+            With Portmaster's great defaults your privacy improves without any effort. And if you want to configure and control everything down to the last detail - Portmaster has you covered too!
+          </p>
+        </div>
+      </div>
+      <div class="showcase-one-container-reverse">
+          <div class="showcase-one-left" style="max-width: 1150px;">
+            <img src="{{ site.img_url }}page-specific/portmaster/monitor-network-activity.png" alt="">
+          </div>
+          <div class="showcase-one-right">
+              <h2 class="showcase-one-right-title" style="max-width: 350px;">
+                Monitor All Network Activity
+              </h2>
+              <p class="showcase-one-right-desc">
+                Discover everything that is happening on your computer. Expose every
+                connection your applications make and detect evil ones. Finally get
+                the power to act accordingly.
+              </p>
+          </div>
+      </div>
+    </div>
+    <div class="showcase-one-container">
+      <div class="showcase-one-left" style="max-width: 850px;">
+        <img src="{{ site.img_url }}page-specific/portmaster/manually-allow-ord-block-connections.png" alt="">
+      </div>
+      <div class="showcase-one-right">
+          <h2 class="showcase-one-right-title" style="max-width: 350px;">
+            Block Domains
+          </h2>
+          <p class="showcase-one-right-desc">
+            Many programs connect to the Internet without your knowledge. When you
+            find unwanted connections, you can now simply block them.
+          </p>
+      </div>
+    </div>
+    <div class="showcase-one-container-reverse">
+      <div class="showcase-one-left" style="max-width: 850px;">
+        <img src="{{ site.img_url }}page-specific/portmaster/block-trackers-system-wide.png" alt="">
+      </div>
+        <div class="showcase-one-right">
+            <h2 class="showcase-one-right-title" style="max-width: 450px;">
+              Auto-Block via Selected Filter Lists
+            </h2>
+            <p class="showcase-one-right-desc">
+              Automatically block ads, trackers and malware hosts via trusted domain-lists,
+              which are also used by Ad-Blockers, etc. Easily change the defaults to fit
+              your needs.
+            </p>
+        </div>
+    </div>
+    <div class="showcase-one-container">
+      <div class="showcase-one-left" style="max-width: 950px;">
+        <img src="{{ site.img_url }}page-specific/portmaster/enforce-dns-over-tls.png" alt="">
+      </div>
+      <div class="showcase-one-right">
+          <h2 class="showcase-one-right-title" style="max-width: 250px;">
+            Enforce Secure DNS
+          </h2>
+          <p class="showcase-one-right-desc">
+            Even with invasive connections gone, you do not want to share your dns requests
+            out in the open. With the Portmaster, you can easily re-route all your dns
+            queries to a DNS-over-TLS provider of your choice.
+          </p>
+      </div>
+    </div>
+    <div class="showcase-two-container">
+      <div class="showcase-two-top-left" style="max-width: 73rem;">
+          <h2 class="showcase-two-top-title" style="max-width: 550px;">
+              Portmaster News
+          </h2>
+          <p class="showcase-two-top-desc" style="max-width: 430px;">
+              Discover everything that is happing on your computer. Expose every connection your applications make.
+          </p>
+      </div>
+      <div class="showcase-two-bottom" style="max-width: 100%;">
+          <div class="blogpod-container" style="margin-top: 0;">
+              <div class="blogpod-container-bottom">
+                  {% assign all_publications = site.publications | sort: "date" | reverse %}
+                  {% for publication in all_publications limit: 3 %}
+                  {% if publication.category == "blog" %}
+                      {% assign post = publication %}
+                      {% include thumbnail_blog.html pre_header="BLOG" %}
+                  {% endif %}
+                  {% endfor %}
+              </div>
+          </div>
+      </div>
+      <!-- <div class="showcase-bg"></div> -->
+    </div>
+    <div class="showcase-one-container-reverse">
+      <div class="showcase-one-left" style="max-width: 850px;">
+        <img src="{{ site.img_url }}page-specific/portmaster/explore-the-docs-and-source-code.png" alt="">
+      </div>
+      <div class="showcase-one-right">
+          <h2 class="showcase-one-right-title" style="max-width: 350px;">
+            Explore the Docs and Source Code
+          </h2>
+          <p class="showcase-one-right-desc">
+            In the age of Mass Surveillance, what good is a service when you cannot see what
+            it is really doing? We believe in open source. We also document everything
+            as good as we can.
+          </p>
+          <div class="col-container w-full text-left md:text-center lg:w-max lg:text-left">
+            <a class="btn-secondary" href="{{ site.docs_url }}">Checkout the docs</a>
+            <a class="btn-tertiary hover-opacity-out" href="{{ site.github_url }}/portmaster"><i class="icon-github text-md mr-2"></i>Inspect source code</a>
+          </div>
+      </div>
+    </div>
+    <div class="showcase-one-container-reverse">
+        <div class="showcase-one-left" style="max-width: 950px;">
+          <img src="{{ site.img_url }}page-specific/portmaster/set-global-and-per-app-configuration.png" alt="">
+        </div>
+        <div class="showcase-one-right">
+            <h2 class="showcase-one-right-title" style="max-width: 350px;">
+                Set Global & per‑App Settings
+            </h2>
+            <p class="showcase-one-right-desc">
+              Make your own rules. Completely cut off applications from the
+              Internet. Or block all p2p connections except for certain apps.
+              Or never connect to specific countries. The Portmaster has you
+              covered.
+            </p>
+        </div>
+    </div>
+    <div class="download-container">
+        <div class="card-package darkmode relative mx-auto" style="max-width: 1210px; width: 100%;">
+            <div class="card-package-top" style="margin-top: 0;">
+              <span class="card-package-top-amount" style="font-size: 2rem;">
+                  Open Source & Free
+              </span>
+              <p class="card-package-top-desc" style="max-width: 480px;">The free version is very powerful tool, but by buying a package you support the devlopment of the portmaster.</p>
+              </div>
+            <div class="card-package-bottom transform scale-105" style="position: absolute; width: 100%; left: 0; bottom: 0px; display: flex; justify-content: end; height: 100%;">
+              <div class="hidden lg:block"  style="display: flex; align-items: center; margin-right: 4rem;">
+                  {% include download_button.html unique_id="2" %}
+                </div>
+            </div>
+        </div>
+        <div class="flex mx-auto w-max mt-8 space-x-8 items-center" style="align-items: center;">
+            <p class="block text-safing-gray-400">Seen and featured on</p>
+            <div class=" space-x-8 hidden lg:flex" style="align-items: center;">
+                <a href="{{ site.seen_itsfoss_url }}" class="hover-scale-in cursor-pointer hover-grayscale-in"><img src="{{ site.img_url }}/external/itsfoss.png"></a>
+                <a href="{{ site.seen_ghacks_url }}" class="hover-scale-in cursor-pointer hover-grayscale-in"><img src="{{ site.img_url }}/external/ghacks.png"></a>
+                <a href="{{ site.seen_techlore_url }}" class="hover-scale-in cursor-pointer hover-grayscale-in"><img src="{{ site.img_url }}/external/techlore.png"></a>
+                <a href="{{ site.seen_privacytools_url }}" class="hover-scale-in cursor-pointer hover-grayscale-in"><img src="{{ site.img_url }}/external/privacytools.png"></a>
+            </div>
+        </div>
+    </div>
+</section>
+  
