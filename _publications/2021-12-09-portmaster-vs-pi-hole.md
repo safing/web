@@ -12,7 +12,7 @@ summary: Both Portmaster and Pi-hole are free and open source privacy tools. The
 
 ## Overview Chart
 
-<div class="card-table">
+<div class="card-table darkmode">
     <table>
       <colgroup class="card-table-colgroup">
         <col class="card-table-colgroup-col">
