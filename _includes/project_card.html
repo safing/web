@@ -1,4 +1,4 @@
-<div class="card card-shadow">
+<div class="card darkmode">
   <label class="card-label" for="card{{ include.state | prepend: '-' }}{{ include.project | prepend: '-' }}-{{ forloop.index }}">
       <div class="wrapper-left">
           <div class="flex">
@@ -10,13 +10,13 @@
               {% if include.state == 'done' %}
                 <i class="icon-tick text-green-500"></i>
               {% elsif include.state == 'in_progress' %}
-                <i class="icon-cog text-gray-500"></i>
+                <i class="icon-cog text-white"></i>
               {% elsif include.state == 'discarded' %}
                 <i class="icon-cross text-red-500"></i>
               {% elsif include.state == 'postponed' %}
-                <i class="icon-files text-gray-800"></i>
+                <i class="icon-files text-white"></i>
               {% elsif include.state == 'backlog' %}
-                <i class="icon-files text-gray-800"></i>
+                <i class="icon-files text-white"></i>
               {% endif %}
               <h3 class="title">{{ card.title }}</h3>
           </div>
