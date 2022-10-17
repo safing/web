@@ -63,29 +63,6 @@ layout: page
             </p>
         </div>
     </div>
-    <div class="showcase-two-container">
-        <div class="showcase-two-top-left" style="max-width: 73rem;">
-            <h2 class="showcase-two-top-title" style="max-width: 550px;">
-                SPN News
-            </h2>
-            <p class="showcase-two-top-desc" style="max-width: 430px;">
-                Discover everything that is happing on your computer. Expose every connection your applications make.
-            </p>
-        </div>
-        <div class="showcase-two-bottom" style="max-width: 100%;">
-            <div class="blogpod-container" style="margin-top: 0;">
-                <div class="blogpod-container-bottom">
-                    {% assign all_publications = site.publications | sort: "date" | reverse %}
-                    {% for publication in all_publications limit: 3 %}
-                    {% if publication.category == "blog" %}
-                        {% assign post = publication %}
-                        {% include thumbnail_blog.html pre_header="BLOG" %}
-                    {% endif %}
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-      </div>
       <div class="showcase-one-container">
         <div class="showcase-one-left" style="max-width: 850px;">
             <img src="{{ site.img_url }}page-specific/spn/built-from-the-ground-up.png" alt="">
@@ -357,6 +334,29 @@ layout: page
             </div>
           {% endfor %}
           {% include source_code_faq.html %}
+        </div>
+    </div>
+    <div class="showcase-two-container">
+        <div class="showcase-two-top-left" style="max-width: 73rem;">
+            <h2 class="showcase-two-top-title" style="max-width: 550px;">
+                SPN News
+            </h2>
+            <p class="showcase-two-top-desc" style="max-width: 430px;">
+                Read everything about the latest updates regarding Portmaster, SPN and Safing.
+            </p>
+        </div>
+        <div class="showcase-two-bottom" style="max-width: 100%;">
+            <div class="blogpod-container" style="margin-top: 0;">
+                <div class="blogpod-container-bottom">
+                    {% assign all_publications = site.publications | sort: "date" | reverse %}
+                    {% for publication in all_publications limit: 3 %}
+                    {% if publication.category == "blog" %}
+                        {% assign post = publication %}
+                        {% include thumbnail_blog.html pre_header="BLOG" %}
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
         </div>
     </div>
 </section>
