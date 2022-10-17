@@ -1,19 +1,4 @@
 spn:
-  - q: Can I use the SPN?
-    a: "Yes! Everybody who pays for the SPN can directly enjoy its privacy protections."
-    link:
-      text: "Look at the current status and capabilities of the SPN"
-      url: https://docs.safing.io/spn/alpha/status
-  - q: "What does \"Alpha\" mean for the SPN?"
-    a: "It means the SPN is available to everyone. But as the SPN is in an early stage, you should still expect bugs here and there, even as a paying customer. We are working hard on making things better!"
-    link:
-      text: "Check out the current status and capabilities of the SPN"
-      url: https://docs.safing.io/spn/alpha/status
-  - q: Is the SPN like Tor?
-    a: The SPN is heavily inspired by Tor, but the mission is different. Next to tightly integrating with other privacy modules, the main focus of the SPN is easy protection for your whole computer, not just your browser. Additionally it spreads your connections across the globe instead of routing everything through the same circuit.
-    link:
-      text: Read our comparison blog to find out more.
-      url: /blog/2020/01/22/how-the-spn-compares-to-tor/
   - q: How does the SPN compare to VPNs?
     a: The VPN technology was built to securely connect two company locations. However, the SPN was developed from the ground up to protect user privacy. As a result the SPN can easily outperform VPNs in every aspect.
     link:
@@ -23,6 +8,11 @@ spn:
     a: You can pay with your creditcard, PayPal, cash and crypto currencies (BTC, ETH, XMR).
   - q: Do you accept crypto currency payments?
     a: Yes - we support Bitcoin, Ethereum and Monero. Aside from that we also support creditcard, PayPal and cash payments.
+  - q: Is the SPN like Tor?
+    a: The SPN is heavily inspired by Tor, but the mission is different. Next to tightly integrating with other privacy modules, the main focus of the SPN is easy protection for your whole computer, not just your browser. Additionally it spreads your connections across the globe instead of routing everything through the same circuit.
+    link:
+      text: Read our comparison blog to find out more.
+      url: /blog/2020/01/22/how-the-spn-compares-to-tor/
   - q: Are all connections routed through the SPN?
     a: Yes, when enabled the Portmaster routes all Internet connections through the Safing Privacy Network. You can easily create exceptions for apps or processes if you so desire.
   - q: Does the SPN route all connections individually? So every connection exits on a different node?
@@ -31,7 +21,7 @@ spn:
       text: View this explainer image showing a computer connecting to Steam, ProtonMail and Spotify.
       url: https://safing.io/assets/img/spn-labeled/spn-community.png
   - q: Does the SPN route connections on a per app basis?
-    a: No, it routes every connection individually. So as an example, when you open several websites in different tabs in your browser, every connection will be calculated individually.
+    a: No, it routes every connection individually. So as an example, when you open several websites in different tabs in your browser, every connection will be calculated individually - giving you multiple identities for each app.
   - q: Am I totally safe from tracking with the SPN? What do service providers see when connecting through the SPN?
     a: No. This is just one piece of the puzzle. The SPN primarily protects your IP-address from exposure, but there are still many other ways services can track and identify you. These include fingerprinting (mostly in browsers), authentication (when logged in to a service), mouse movements (malicious javascripts), etc...
   - q: Can services still identify me through other methods?
