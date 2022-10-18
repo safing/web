@@ -17,3 +17,15 @@
     height: 30px;
     width: 2px;
 }
+
+@media (max-width: 768px) { 
+    .header-two-container .header-bg {
+        display: none;
+    }
+ }
+ 
+ @media (min-width: 1536px) { 
+    .header-two-container .header-bg {
+        display: block !important;
+    } 
+}
