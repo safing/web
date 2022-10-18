@@ -54,7 +54,7 @@ cards:
           text: "Together with the new UI we also re-introduced connection prompting. Instead of allowing or blocking by default, you can make the Portmaster ask per connection. This feature is meant for low volume apps - as browsers and other apps with lots of connections will not work smoothly due to caching."
         - type: a
           text: "Download the Portmaster"
-          href: "https://safing.io/portmaster/#downloads"
+          href: "https://safing.io/download/"
     - title: Get Follow-Up Fundings
       description:
         - Apply for follow-up fundings from Netidee & FFG to ensure our financial stability and increase our run-way.

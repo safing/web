@@ -12,7 +12,7 @@ summary: Both the Portmaster and Simplewall are great open source solutions whic
 
 ## Overview Chart
 
-<div class="card-table">
+<div class="card-table darkmode">
   <table>
     <colgroup class="card-table-colgroup">
       <col class="card-table-colgroup-col">
@@ -58,7 +58,7 @@ summary: Both the Portmaster and Simplewall are great open source solutions whic
       <tr class="card-table-body-row">
         <td class="card-table-body-row-cell-title">Availabilty</td>
         <td class="card-table-body-row-cell">
-          <a class="card-table-body-row-cell-link" href="{{ site.portmaster_url }}#downloads">
+          <a class="card-table-body-row-cell-link" href="{{ site.download_url }}">
             <div class="md:space-x-2">
                 <i class="icon-windows text-2xl text-safing-blue-500"></i>
                 <i class="icon-linux text-2xl"></i>

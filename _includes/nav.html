@@ -1,41 +1,46 @@
 <nav class="nav">
-  <div class="nav-left">
-      <a href="{{ site.base_url }}" class="nav-logo-wrapper">
-          <!-- turn this into a font icon -->
-          <svg class="h-6 w-auto mr-4" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 128 128">
-              <g data-name="Main" fill-rule="evenodd">
-                  <path fill="#fff" d="M176.11 36.73l-5-8.61a41.53 41.53 0 00-14.73 57.22l8.55-5.12a31.58 31.58 0 0111.19-43.49z" transform="translate(-127.99 .01)" style="isolation:isolate" opacity=".8"></path>
-                  <path fill="#fff" d="M222.36 72.63a31.55 31.55 0 01-45 19.35l-4.62 8.84a41.54 41.54 0 0059.17-25.46z" transform="translate(-127.99 .01)" style="isolation:isolate" opacity=".8"></path>
-                  <path fill="#fff" d="M197 83a19.66 19.66 0 01-19.25-32.57l-4.5-4.27A25.87 25.87 0 00198.59 89z" transform="translate(-127.99 .01)" style="isolation:isolate" opacity=".6"></path>
-                  <path fill="#fff" d="M192 112.64A48.64 48.64 0 11240.64 64 48.64 48.64 0 01192 112.64zM256 64a64 64 0 10-64 64 64 64 0 0064-64z" transform="translate(-127.99 .1)"></path>
-              </g>
-          </svg>
-          <span>Safing<span>.io</span></span>
-      </a>
-  </div>
-  <label class="nav-right-burger" for="nav-toggle-visable">
-      <!-- turn this into a font icon -->
-      <svg class="h-6 w-6 fill-current text-white" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-          <path class="inline-flex" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-          <path class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-      </svg>
-  </label>
-  <input class="nav-toggle-burger" id="nav-toggle-visable" type="checkbox">
-  <div class="nav-right">
-      <div class="nav-right-links">
-          <a href="{{ site.portmaster_url }}" class="nav-link"> Download </a>
-          <a href="{{ site.spn_url }}" class="nav-link"> SPN </a>
-          <a href="{{ site.docs_url }}" class="nav-link"> Docs </a>
-          <a href="{{ site.github_url }}/portmaster/" class="nav-link"> Source Code </a>
-          <a href="{{ site.about_url }}" class="nav-link"> About </a>
-          <a href="{{ site.next_page_url }}" class="nav-link"> What's Next </a>
-          <a href="{{ site.help_url }}" class="nav-link"> Get Help </a>
+    <div class="nav-left space-x-3">
+        <a href="{{ site.base_url }}" class=" nav-logo-wrapper z-50">
+            <!-- turn this into a font icon -->
+            <svg class="h-6 w-auto mr-4" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 128 128">
+                <g data-name="Main" fill-rule="evenodd">
+                    <path fill="#fff" d="M176.11 36.73l-5-8.61a41.53 41.53 0 00-14.73 57.22l8.55-5.12a31.58 31.58 0 0111.19-43.49z" transform="translate(-127.99 .01)" style="isolation:isolate" opacity=".8"></path>
+                    <path fill="#fff" d="M222.36 72.63a31.55 31.55 0 01-45 19.35l-4.62 8.84a41.54 41.54 0 0059.17-25.46z" transform="translate(-127.99 .01)" style="isolation:isolate" opacity=".8"></path>
+                    <path fill="#fff" d="M197 83a19.66 19.66 0 01-19.25-32.57l-4.5-4.27A25.87 25.87 0 00198.59 89z" transform="translate(-127.99 .01)" style="isolation:isolate" opacity=".6"></path>
+                    <path fill="#fff" d="M192 112.64A48.64 48.64 0 11240.64 64 48.64 48.64 0 01192 112.64zM256 64a64 64 0 10-64 64 64 64 0 0064-64z" transform="translate(-127.99 .1)"></path>
+                </g>
+            </svg>
+            <span>Safing<span>.io</span></span>
+        </a>
+    </div>
+    <label class="nav-right-burger" for="nav-toggle-visable">
+        <!-- turn this into a font icon -->
+        <svg class="h-6 w-6 fill-current text-white" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <path class="inline-flex" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            <path class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+    </label>
+    <input class="nav-toggle-burger" id="nav-toggle-visable" type="checkbox">
+      <div class="nav-center">
+        <div class="nav-right-links">
+            {% assign currentUrl =  page.url | remove: "/" %}
+            <a href="{{ site.download_url }}" class="nav-link {% if currentUrl == "download" %}selected{% endif %}"> Download </a>
+            <a href="{{ site.features_url }}" class="nav-link {% if currentUrl == "features" %}selected{% endif %}"> Features </a>
+            <a href="{{ site.pricing_url }}" class="nav-link {% if currentUrl == "pricing" %}selected{% endif %}"> Pricing </a>
+            <a href="{{ site.spn_url }}" class="nav-link {% if currentUrl == "spn" %}selected{% endif %}"> SPN </a>
+            <a href="{{ site.about_url }}" class="nav-link {% if currentUrl == "about" %}selected{% endif %}">About</a>
+        </div>
+        <div class="nav-right-actions">
+            <div class="element-x-center-max space-x-3 items-center flex lg:hidden xl:flex">
+                <a target="_blank" href="{{ site.discord_url }}" class="hover-opacity-out"> <i class="icon-discord text-sm"></i> </a>
+                <a target="_blank" href="{{ site.youtube_channel_url }}" class="hover-opacity-out"> <i class="icon-youtube text-lg"></i> </a>
+                <a target="_blank" href="{{ site.twitter_url }}" class="hover-opacity-out"> <i class="icon-twitter text-sm"></i> </a>
+                <a target="_blank" href="{{ site.github_url }}" class="hover-opacity-out"> <i class="icon-github text-md"></i> </a>
+            </div>
+            <div class="vertical-line hidden xl:block"></div>
+            <a href="{{ site.account_server_url }}account/sign_up" class="nav-link"> Sign Up </a>
+            <a href="{{ site.account_server_url }}account/sign_in" class="btn-primary justify-center"> Sign In </a>
+        </div>
       </div>
-      <div class="nav-right-actions">
-          <a href="{{ site.account_server_url }}account/sign_in" class="nav-link"> Sign In </a>
-          <a href="{{ site.account_server_url }}account/sign_up" class="btn-primary justify-center"> Sign Up </a>
-      </div>
-  </div>
 </nav>
-
-
+<div class="horizontal-line"></div>

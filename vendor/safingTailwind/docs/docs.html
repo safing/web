@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../docs/css/highlight.min.css">
     <link rel="stylesheet" href="../docs/css/style.css">
-    <link rel="stylesheet" href="../safingTailwind-1.9.css">
+    <link rel="stylesheet" href="../safingTailwind-1.10.1.css">
     <script src="../docs/js/vendor/jquery.min.js" type="text/javascript"></script>
     <script src="../docs/js/vendor/jquery-resizable.js"></script>
     <script src="../docs/js/vendor/highlight.min.js"></script>
@@ -14,7 +14,7 @@
   </head>
 <body class="antialiased font-sans font-medium">
   <div class="alert-primary rounded-none text-md">
-    <span>There will be some stuff missing in this, and also some bugs. <strong>v1.9</strong></span>
+    <span>There will be some stuff missing in this, and also some bugs. <strong>v1.10</strong></span>
   </div>
   <div class="flex">
     <nav class="overflow-y-auto pb-10 pt-20  ml-20 w-56">
@@ -35,6 +35,7 @@
               <a  class="pl-3 block text-safing-gray-500" href="#transition">Transition</a>
             <a  class="block text-safing-gray-500 pt-2" href="#prebuilt">Prebuilt</a>
               <a  class="pl-3 block text-safing-gray-500" href="#col-container">Col-Container</a>
+              <a  class="pl-3 block text-safing-gray-500" href="#download-button-container">Download-Button-Container</a>
               <a  class="pl-3 block text-safing-gray-500" href="#faq-container">Faq-Container</a>
               <a  class="pl-3 block text-safing-gray-500" href="#footer">Footer</a>
               <a  class="pl-3 block text-safing-gray-500" href="#markdown-container">Markdown-Container</a>
@@ -293,6 +294,7 @@
     @apply whitespace-normal;
     @apply cursor-pointer;
     @apply hover-scale-in;
+    @apply justify-center ;
 }
 
 .btn[disabled],
@@ -324,6 +326,10 @@
 .btn i,
 .btn i {
     @apply align-baseline;
+}
+
+.btn.less-round {
+    @apply rounded-md;
 }</code></pre>
                         </li>
                       
@@ -366,7 +372,7 @@
                         <li id="scss-Primary-Button">
                           <pre><code style="min-height: 200px;" class="language-scss">.btn-primary {
     @apply btn;
-    @apply bg-safing-blue-500;
+    @apply bg-safing-blue-600;
 }</code></pre>
                         </li>
                       
@@ -409,7 +415,7 @@
                         <li id="scss-Secondary-Button">
                           <pre><code style="min-height: 200px;" class="language-scss">.btn-secondary {
     @apply btn;
-    @apply bg-black;
+    background-color: #2a2a2a;
 }</code></pre>
                         </li>
                       
@@ -580,7 +586,8 @@
                       </li>
                       
                         <li id="scss-Default-Card">
-                          <pre><code style="min-height: 200px;" class="language-scss">.card,
+                          <pre><code style="min-height: 200px;" class="language-scss">
+.card,
 .card-extended {
     @apply h-max;
     @apply max-w-7xl;
@@ -595,7 +602,6 @@
     @apply rounded-none;
     margin-bottom: 2.5rem;
 }
-
 
 .card-extended > .card-label,
 .card > .card-label {
@@ -768,7 +774,41 @@
     @apply w-full;
     z-index: -1;
 }
-</code></pre>
+
+.card.darkmode,
+.card-extended.darkmode {
+    border-width: 2px;
+    border-color: #1e1e1e;
+    background-color: #0d0d0d;
+    @apply rounded-lg;
+}
+
+.card.darkmode .card,
+.card-extended.darkmode .card {
+    border-bottom: solid 1px #444343;
+    border-top: solid 1px #444343;
+    background-color: transparent;
+}
+
+
+.card.darkmode .icon-arrow,
+.card-extended.darkmode .icon-arrow,
+.card.darkmode .card-title .title,
+.card-extended.darkmode .card-title .title {
+    color: white;
+}
+
+.card.darkmode .card-label,
+.card-extended.darkmode .card-label {
+    background-color: #0d0d0d;
+    @apply rounded-lg;
+}
+
+
+.card.darkmode .card-dropdown-content,
+.card-extended.darkmode .card-dropdown-content {
+    @apply text-safing-gray-300;
+}</code></pre>
                         </li>
                       
                     </ul>
@@ -1206,7 +1246,7 @@
   font-family : 'safing-icons';
   font-style  : normal;
   font-weight : normal;
-  src         : url('../fonts/safing-icons.woff') format('woff');
+  src         : url('../fonts/safing-icons.woff2') format('woff2');
 }
 
 .icon,
@@ -7478,6 +7518,12 @@
 }
 .icon-mac:before {
   content: var(--icon-mac);
+}
+.icon-discord:before {
+  content: var(--icon-discord);
+}
+.icon-youtube:before {
+  content: var(--icon-youtube);
 }</code></pre>
                         </li>
                       
@@ -7519,6 +7565,7 @@
                       
                         <li id="scss-Variables-Font-Icon">
                           <pre><code style="min-height: 200px;" class="language-scss">:root {
+  --icon-monero: "\ede6";
   --icon-d-shape-object-01: "\e91f";
   --icon-d-shape-object-02: "\e920";
   --icon-d-shape-object-03: "\e921";
@@ -8742,7 +8789,6 @@
   --icon-mobile-display: "\ede3";
   --icon-mobile-laptop-wifi: "\ede4";
   --icon-mobile-tablet: "\ede5";
-  --icon-monero: "\ede6";
   --icon-money-01: "\ede7";
   --icon-money-02: "\ede8";
   --icon-money-03: "\ede9";
@@ -9589,7 +9635,6 @@
   --icon-cog-ring: "\e90a";
   --icon-cross: "\e90b";
   --icon-external: "\e90c";
-  --icon-github: "\e90d";
   --icon-heart: "\e90e";
   --icon-info: "\e90f";
   --icon-linkedin: "\e910";
@@ -9604,6 +9649,9 @@
   --icon-users: "\e919";
   --icon-warning: "\e91a";
   --icon-mac: "\e91b";
+  --icon-github: "\e90d";
+  --icon-discord: "\f125";
+  --icon-youtube: "\f126";
 }</code></pre>
                         </li>
                       
@@ -9994,8 +10042,7 @@
     @apply rounded-full;
     @apply text-white;
     @apply border-2;
-    @apply border-white;
-
+    @apply border-transparent;
 }
 
 .circular-profile:hover img {
@@ -10111,8 +10158,8 @@
                         <li id="scss-Backoffice-Tag">
                           <pre><code style="min-height: 200px;" class="language-scss">.tag-backoffice {
     @apply tag;
-    @apply bg-gray-200;
-    @apply text-gray-800;
+    @apply bg-gray-800;
+    @apply text-gray-100;
 }</code></pre>
                         </li>
                       
@@ -10159,8 +10206,8 @@
                         <li id="scss-Community-Tag">
                           <pre><code style="min-height: 200px;" class="language-scss">.tag-community {
     @apply tag;
-    @apply bg-purple-100;
-    @apply text-purple-800;
+    @apply bg-purple-800;
+    @apply text-purple-100;
 }</code></pre>
                         </li>
                       
@@ -10261,8 +10308,8 @@
                         <li id="scss-Marketing-Tag">
                           <pre><code style="min-height: 200px;" class="language-scss">.tag-marketing {
     @apply tag;
-    @apply bg-yellow-200;
-    @apply text-yellow-800;
+    @apply bg-yellow-800;
+    @apply text-yellow-100;
 }</code></pre>
                         </li>
                       
@@ -10309,8 +10356,8 @@
                         <li id="scss-Portmaster-Tag">
                           <pre><code style="min-height: 200px;" class="language-scss">.tag-portmaster {
     @apply tag;
-    @apply bg-blue-100;
-    @apply text-blue-800;
+    @apply bg-blue-800;
+    @apply text-blue-100;
 }</code></pre>
                         </li>
                       
@@ -10357,8 +10404,8 @@
                         <li id="scss-Spn-Tag">
                           <pre><code style="min-height: 200px;" class="language-scss">.tag-spn {
     @apply tag;
-    @apply bg-green-100;
-    @apply text-green-800;
+    @apply bg-green-800;
+    @apply text-green-100;
 }</code></pre>
                         </li>
                       
@@ -10405,8 +10452,8 @@
                         <li id="scss-Website-Tag">
                           <pre><code style="min-height: 200px;" class="language-scss">.tag-website {
     @apply tag;
-    @apply bg-pink-200;
-    @apply text-pink-800;
+    @apply bg-pink-900;
+    @apply text-pink-200;
 }</code></pre>
                         </li>
                       
@@ -10474,7 +10521,7 @@
     @apply relative;
     @apply m-0;
 
-    @apply bg-safing-gray-800;
+    @apply bg-white;
     transition: all 0.2s ease;
 }
 
@@ -10495,13 +10542,23 @@
     @apply bg-safing-gray-600;
     transition: all 0.2s cubic-bezier(0.5, 0.1, 0.75, 1.35);
 }
+
 .toggle:checked {
-    @apply bg-safing-blue-500;
-    @apply border-safing-blue-500;
+    @apply bg-safing-blue-600;
+    @apply border-safing-blue-600;
 }
 .toggle:checked:after {
     @apply bg-white;
     transform: translatex(20px);
+}
+
+.toggle.darkmode {
+    @apply bg-safing-gray-800;
+}
+
+.toggle:checked.darkmode {
+    @apply bg-safing-blue-600;
+    @apply border-safing-blue-600;
 }</code></pre>
                         </li>
                       
@@ -10581,7 +10638,7 @@
 }
 
 [tooltip]::after {
-    background: #333;
+    background: #2e2e2e;
     border-radius: 5px;
     padding: 20px;
     width: max-content;
@@ -10609,7 +10666,7 @@
 
 @keyframes tooltips-vert {
     to {
-        opacity: 0.9;
+        opacity: 1;
         transform: translate(-50%, 0);
     }
 }</code></pre>
@@ -10937,6 +10994,245 @@
 .col-container-center {
     @apply col-container;
     @apply sm:element-x-center-max;
+}</code></pre>
+                        </li>
+                      
+                    </ul>
+                  </div>
+            </section><section class="w-full space-y-20" style="max-width: 80rem;">
+              <div class="title space-y-3">
+                <h2 id="download-button-container">Download-Button-Container</h2>
+                <span class="desc block text-safing-gray-500">This is still a wip</span>
+              </div>
+                 
+                  <div class="compoent space-y-2">
+                    <div id="tabMenu" class="space-y-4">
+                      <div class="flex">
+                        <div>
+                          <span class="title block text-md">Default</span>
+                        </div>
+                        <ul class="tabs flex space-x-3 ml-auto">
+                          <li><a href="#preview-Default-Download-Button-Container">preview</a></li>
+                          <li><a href="#html-Default-Download-Button-Container">html</a></li>
+                          
+                            <li><a href="#scss-Default-Download-Button-Container">scss</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="tabs-content">
+                      <li id="preview-Default-Download-Button-Container" class="active">
+                        <div class="preview-container">
+                          <div class="preview-panel-left">
+                            <iframe frameborder="0" class="iframe" width="100%" scrolling="no"></iframe>
+                            <div class="data items-center flex h-full" style="height: fit-content;">
+                              <div class="w-full h-full" style="height: fit-content;">
+                                <div class="download-button-container">
+    <label class="download-select-label" for="select"><i class="icon-arrow  text-white"></i></label>
+    <input type="checkbox" id="select" class="download-select-input">
+    <label class="download-os download-os-windows" for="windows-1">Windows (.exe)</label>
+    <input checked="" id="windows-1" type="radio" class="download-os" name="os7">
+    <div class="download-os-actions">
+        <a class="button-left" href="#windows-link">Download for</a>
+        <button class="button-right">Windows</button>
+    </div>
+    <label class="download-os download-os-ubuntu" for="ubuntu-1">Debian/Ubuntu (.deb)</label>
+    <input id="ubuntu-1" type="radio" class="download-os" name="os7">
+    <div class="download-os-actions">
+        <a class="button-left" href="#ubuntu-link">Download for</a>
+        <button class="button-right">Ubuntu</button>
+    </div>
+    <label class="download-os download-os-fedora" for="fedora-1">Fedora (.rpm)</label>
+    <input id="fedora-1" type="radio" class="download-os" name="os7">
+    <div class="download-os-actions">
+        <a class="button-left" href="#fedora-link">Download for</a>
+        <button class="button-right">Fedora</button>
+    </div>
+    <div class="download-os-menu"></div>
+</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-panel-splitter"></div>
+                        </div>
+                      </li>
+                      <li id="html-Default-Download-Button-Container">
+                        <pre><code style="min-height: 200px;" class="language-html">&lt;div class="download-button-container"&gt;
+    &lt;label class="download-select-label" for="select"&gt;&lt;i class="icon-arrow  text-white"&gt;&lt;/i&gt;&lt;/label&gt;
+    &lt;input type="checkbox" id="select" class="download-select-input"&gt;
+    &lt;label class="download-os download-os-windows" for="windows-1"&gt;Windows (.exe)&lt;/label&gt;
+    &lt;input checked="" id="windows-1" type="radio" class="download-os" name="os7"&gt;
+    &lt;div class="download-os-actions"&gt;
+        &lt;a class="button-left" href="#windows-link"&gt;Download for&lt;/a&gt;
+        &lt;button class="button-right"&gt;Windows&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;label class="download-os download-os-ubuntu" for="ubuntu-1"&gt;Debian/Ubuntu (.deb)&lt;/label&gt;
+    &lt;input id="ubuntu-1" type="radio" class="download-os" name="os7"&gt;
+    &lt;div class="download-os-actions"&gt;
+        &lt;a class="button-left" href="#ubuntu-link"&gt;Download for&lt;/a&gt;
+        &lt;button class="button-right"&gt;Ubuntu&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;label class="download-os download-os-fedora" for="fedora-1"&gt;Fedora (.rpm)&lt;/label&gt;
+    &lt;input id="fedora-1" type="radio" class="download-os" name="os7"&gt;
+    &lt;div class="download-os-actions"&gt;
+        &lt;a class="button-left" href="#fedora-link"&gt;Download for&lt;/a&gt;
+        &lt;button class="button-right"&gt;Fedora&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div class="download-os-menu"&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                      </li>
+                      
+                        <li id="scss-Default-Download-Button-Container">
+                          <pre><code style="min-height: 200px;" class="language-scss">.download-button-container {
+    display: flex;
+    position: relative;
+    transform: scale(1.05);
+    z-index: 20;
+    width: 261px; 
+    height: 41px;
+}
+
+.download-button-container .download-select-label {
+    z-index: 30;
+    cursor: pointer;
+    position: absolute; 
+    right: 2.7px;
+    width: 115px;
+    height: 44px;
+}
+
+.download-button-container .download-select-label .icon-arrow{
+    font-size: 0.758rem;
+    transform: rotate(180deg);
+    right: 14.8px;
+    position: absolute;
+    top: 16.2px;
+}
+
+.download-button-container .download-select-input {
+    display: none;
+    z-index: 30;
+    cursor: pointer;
+}
+
+.download-button-container .download-select-input:checked ~ .download-os-menu,
+.download-button-container .download-select-input:checked ~ .download-os {
+    display: block;
+}
+
+.download-os {
+    display: none;
+    position: absolute;
+    right: -111px;
+    font-size: 0.85rem;
+    text-align: center;
+    width: 228px;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    padding: 12px 16px;
+}
+
+input.download-os{
+    opacity: 0;
+}
+
+.download-os:hover {
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.download-os-actions {
+    position: absolute;
+    left: 0;
+    display: none;
+}
+
+.download-os:checked + .download-os-actions {
+    display: flex;
+    z-index: 1;
+}
+
+.download-os-windows {
+    top: 50px;
+}
+
+.download-os-ubuntu {
+    top: 98px;
+}
+
+.download-os-fedora {
+    top: 143px;
+}
+
+.download-os-menu {
+    width: 230px;
+    height: 141px;
+    position: absolute;
+    z-index: -1;
+    right: -112px;
+    top: 48px;
+
+    display: none;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+    background-color: #ffffff;
+}
+
+
+.download-os-actions .button-left {
+    padding-left: 1.9rem;
+    padding-right: 0.5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    background-color: #2e61ff;
+    border-top-left-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    display: inline-flex;
+    align-items: center;
+    line-height: 1.5;
+    white-space: normal;
+    cursor: pointer;
+
+    max-height: 43px;
+    min-width: 140.7px;
+
+    margin-right: 0.15rem;
+}
+
+.download-os-actions  .button-left:hover {
+    background-color: rgb(46 98 255 / 77%);
+}
+
+.download-os-actions .button-right {
+    padding-left: 1.4rem;
+    padding-right: 1.6rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    background-color: #234cc5;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    display: inline-flex;
+    align-items: center;
+    line-height: 1.5;
+    white-space: normal;
+    cursor: pointer;
+
+    max-height: 43px;
+    min-width: 120px;
 }</code></pre>
                         </li>
                       
@@ -12014,6 +12310,24 @@
     margin-top: 1.55rem;
     opacity: 1;
     padding-left: 1rem;
+}
+
+.markdown-container > em > strong {
+    @apply font-medium;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgba(97, 136, 255);
+    text-decoration-thickness: 2px;
+
+}
+
+/* If this breaks stuff in a markdown usecase, well it's the CTO's aka Daniel fault.*/
+.markdown-container table img {
+    border-radius: 0.375rem;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0), 0 0 90px 0 rgba(59, 93, 199, 0.1);
+    display: block;
+    height: auto;
+    max-width: 100%;
 }</code></pre>
                         </li>
                       
@@ -12142,6 +12456,7 @@
     @apply bg-black;
     @apply flex;
     @apply p-6;
+    @apply relative;
 
     @apply lg:pr-12;
     @apply lg:pl-12;
@@ -12183,11 +12498,20 @@
     @apply hidden;
 }
 
+.nav-center {
+    @apply bg-black;
+
+    @apply lg:bg-transparent;
+}
+
+.nav-toggle-burger:checked+.nav-center,
 .nav-toggle-burger:checked+.nav-right {
+    height: 100vh;
     @apply grid;
 }
 
 @media (min-width: 1024px) {
+    .nav-toggle-burger:checked+.nav-center,
     .nav-toggle-burger:checked+.nav-right {
         @apply flex;
     }
@@ -12203,8 +12527,8 @@
     @apply p-10;
     @apply z-10;
     @apply w-full;
-    @apply space-x-10;
 
+    @apply lg:space-x-10;
     @apply lg:flex;
     @apply lg:flex-auto;
     @apply lg:relative;
@@ -12212,6 +12536,30 @@
     @apply lg:p-0;
     @apply lg:h-auto;
 }
+
+.nav > .nav-center {
+    @apply hidden;
+    @apply absolute;
+    @apply content-center;
+    @apply inset-0;
+    @apply h-full;
+    @apply p-10;
+    @apply z-10;
+    @apply w-full;
+    
+    @apply lg:space-x-10;
+    @apply lg:flex;
+    @apply lg:p-0;
+    @apply lg:h-auto;
+
+    @apply ml-auto;
+    @apply mr-auto;
+
+    position: absolute;
+    width: 100%;
+    @apply lg:justify-center;
+}
+
 
 .nav-right > .nav-right-profile {
     @apply flex;
@@ -12250,7 +12598,7 @@
     @apply text-sm;
 }
 
-
+.nav-center > .nav-right-links,
 .nav-right > .nav-right-links {
     @apply space-x-0;
     @apply space-y-11;
@@ -12269,8 +12617,24 @@
     @apply text-white;
     @apply font-bold;
     @apply text-base;
+    @apply relative;
 
     @apply lg:text-sm;
+}
+
+.nav .nav-link.selected::before {
+    position: absolute;
+    @apply bg-transparent;
+    height: 0.45rem; 
+    width: 0.45rem; 
+    border-radius: 100%;
+    content: '';
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    bottom: -11px;
+
+    @apply lg:bg-safing-blue-500;
 }
 
 .nav-right-links > .nav-link {
@@ -12278,9 +12642,10 @@
 }
 
 .nav-right-actions > .nav-link {
-    @apply hover-opacity-out;
+    @apply hover-opacity-in;
 }
 
+.nav-center > .nav-right-actions,
 .nav-right > .nav-right-actions {
     @apply space-y-11;
     @apply items-baseline;
@@ -12295,6 +12660,16 @@
     @apply lg:flex;
     @apply lg:space-y-0;
     @apply lg:space-x-5;
+}
+
+.nav-center > .nav-right-actions {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    @apply right-0;
+
+    @apply lg:absolute;
+    @apply lg:right-10;
 }
 
 .nav-right-actions > .btn-primary {

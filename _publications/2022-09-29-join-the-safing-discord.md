@@ -9,12 +9,21 @@ custom_thumbnail_name: join-the-safing-discord
 portmaster_plug: true
 ---
 
-<div class="text-center">
-  <a href="https://discord.gg/safing">
-    <div class="btn-primary">
-      Join Now
+<div class="download-container" style="margin-top: 0;">
+  <div class="card-package darkmode relative mx-auto" style="max-width: 1210px; width: 100%;">
+    <div class="card-package-top" style="margin-top: 0;">
+        <span class="card-package-top-amount" style="font-size: 2rem;">
+            Discord Server
+        </span>
+        <!-- <p class="card-package-top-desc" style="max-width: 480px;">Popin and say hello :)</p> -->
+        <a class="btn-primary sm:hidden" href="https://discord.gg/safing"> Join Now </a>
+      </div>
+      <div class="card-package-bottom transform scale-105" style="position: absolute; width: 100%; left: 0; bottom: 0px; display: flex; justify-content: end; height: 100%;">
+        <div style="display: flex; align-items: center; margin-right: 4rem;">
+          <a class="btn-primary hidden sm:block" href="https://discord.gg/safing"> Join Now </a>
+        </div>
     </div>
-  </a>
+  </div>
 </div>
 
 ### Get Involved in Portmaster Development Through Discord

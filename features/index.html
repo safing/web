@@ -1,0 +1,130 @@
+---
+layout: page
+title: Safing Portmaster - Features
+---
+
+<section class="general-layout">
+    <div class="space-y-28">
+      <div class="intro-container" id="features">
+        <h2 class="intro-container-title">
+          Explore All Portmaster Features
+        </h2>
+        <p class="intro-container-desc">
+          With Portmaster's great defaults your privacy improves without any effort. And if you want to configure and control everything down to the last detail - Portmaster has you covered too!
+        </p>
+      </div>
+      <div class="showcase-one-container-reverse">
+          <div class="showcase-one-left" style="max-width: 1150px;">
+            <img src="{{ site.img_url }}page-specific/portmaster/monitor-network-activity.png" alt="">
+          </div>
+          <div class="showcase-one-right">
+              <h2 class="showcase-one-right-title" style="max-width: 350px;">
+                Monitor All Network Activity
+              </h2>
+              <p class="showcase-one-right-desc">
+                Discover everything that is happening on your computer. Expose every
+                connection your applications make and detect evil ones. Finally get
+                the power to act accordingly.
+              </p>
+          </div>
+      </div>
+    </div>
+    <div class="showcase-one-container">
+      <div class="showcase-one-left" style="max-width: 850px;">
+        <img src="{{ site.img_url }}page-specific/portmaster/block-trackers-system-wide.png" alt="">
+      </div>
+      <div class="showcase-one-right">
+          <h2 class="showcase-one-right-title" style="max-width: 410px;">
+            Auto-Block Trackers & Malware
+          </h2>
+          <p class="showcase-one-right-desc">
+            Block ads, trackers and malware hosts system-wide. Portmaster does this by default and uses trusted filter lists,
+            which are also used by Ad-Blockers, etc. Easily change the defaults to fit
+            your needs.
+          </p>
+      </div>
+    </div>
+    <div class="showcase-one-container-reverse">
+      <div class="showcase-one-left" style="max-width: 950px;">
+        <img src="{{ site.img_url }}page-specific/portmaster/enforce-dns-over-tls.png" alt="">
+      </div>
+      <div class="showcase-one-right">
+        <h2 class="showcase-one-right-title" style="max-width: 350px;">
+          Secure Your DNS by Default
+        </h2>
+        <p class="showcase-one-right-desc">
+          Even with invasive connections gone, you do not want to share your DNS requests
+          out in the open. With Portmaster, all your DNS queries are automatically secured and re-routed to a DNS-over-TLS provider of your choice.
+        </p>
+      </div>
+    </div>
+    <div class="showcase-one-container">
+      <div class="showcase-one-left" style="max-width: 850px;">
+        <img src="{{ site.img_url }}page-specific/portmaster/explore-the-docs-and-source-code.png" alt="">
+      </div>
+      <div class="showcase-one-right">
+          <h2 class="showcase-one-right-title" style="max-width: 350px;">
+            Explore the Docs and Source Code
+          </h2>
+          <p class="showcase-one-right-desc">
+            In the age of Mass Surveillance, what good is a service when you cannot see what
+            it is really doing? We believe in open source. We also document everything
+            as good as we can.
+          </p>
+          <div class="col-container w-full text-left md:text-center lg:w-max lg:text-left space-x-4" style="margin-left: 0;">
+            <a class="btn-secondary" href="{{ site.docs_url }}">Checkout the docs</a>
+            <a target="_blank" class="link-primary-external inline-flex" href="{{ site.github_url }}/portmaster"><i class="icon-github text-md mr-2"></i>Inspect source code</a>
+          </div>
+      </div>
+    </div>
+    <div class="showcase-one-container-reverse">
+      <div class="showcase-one-left" style="max-width: 850px;">
+        <img src="{{ site.img_url }}page-specific/portmaster/manually-allow-ord-block-connections.png" alt="">
+      </div>
+      <div class="showcase-one-right">
+          <h2 class="showcase-one-right-title" style="max-width: 340px;">
+            Create Your Own Rules
+          </h2>
+          <p class="showcase-one-right-desc">
+            Portmaster has great defaults - but one shoe does not fit all. Customize and configure Portmaster's powerful settings to fit your needs and threat model.
+          </p>
+      </div>
+    </div>
+    <div class="showcase-one-container">
+        <div class="showcase-one-left" style="max-width: 950px;">
+          <img src="{{ site.img_url }}page-specific/portmaster/set-global-and-per-app-configuration.png" alt="">
+        </div>
+        <div class="showcase-one-right">
+            <h2 class="showcase-one-right-title" style="max-width: 350px;">
+              Set Global & per‑App Settings
+            </h2>
+            <p class="showcase-one-right-desc">
+              Easily cut off applications from the Internet. Or block all p2p connections globally but allow them for certain apps. Or never connect to specific countries. Portmaster has you covered.
+            </p>
+        </div>
+    </div>
+    {% include download_container.html %}
+    <div class="showcase-two-container">
+      <div class="showcase-two-top-left" style="max-width: 73rem;">
+          <h2 class="showcase-two-top-title" style="max-width: 550px;">
+              Portmaster News
+          </h2>
+          <p class="showcase-two-top-desc" style="max-width: 430px;">
+              Read everything about the latest updates regarding Portmaster and Safing.
+          </p>
+      </div>
+      <div class="showcase-two-bottom" style="max-width: 100%;">
+          <div class="blogpod-container" style="margin-top: 0;">
+              <div class="blogpod-container-bottom">
+                  {% assign all_publications = site.publications | sort: "date" | reverse %}
+                  {% for publication in all_publications limit: 3 %}
+                  {% if publication.category == "blog" %}
+                      {% assign post = publication %}
+                      {% include thumbnail_blog.html pre_header="BLOG" %}
+                  {% endif %}
+                  {% endfor %}
+              </div>
+          </div>
+      </div>
+    </div>
+</section>

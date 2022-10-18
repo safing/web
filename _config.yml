@@ -15,6 +15,7 @@ base_url: "/" # the subpath of your site, e.g. /blog
 ### assets
 assets_url: /assets/
 img_url: /assets/img/
+video_url: /assets/video/
 vendor_url: /vendor/
 
 ### pages
@@ -30,6 +31,9 @@ ownership_url: /ownership/
 business_model_url: /business-model/
 podcast_url: /podcast/
 portmaster_url: /portmaster/
+download_url: /download/
+pricing_url: /pricing/
+features_url: /features/
 privacy_url: /privacy/
 next_page_url: /next/
 spn_url: /spn/
@@ -45,24 +49,47 @@ simplewall_comparison_url: /blog/2022/04/11/portmaster-vs-simplewall/
 glasswire_comparison_url: /blog/2022/08/17/portmaster-vs-glasswire/
 
 ### external
+docs_url: https://docs.safing.io/
+
 account_server_url: https://account.safing.io/
 account_server_redeem_url: https://account.safing.io/redeem
+
 assets_server_url: https://assets.safing.io/
 company_agreement_url: https://www.firmenmonitor.at/Secure/CompanyDetail.aspx?CID=761761
+
 download_linux_deb_url: https://updates.safing.io/latest/linux_amd64/packages/portmaster-installer.deb
 download_linux_rpm_url: https://updates.safing.io/latest/linux_amd64/packages/portmaster-installer.rpm
 download_windows_url: https://updates.safing.io/latest/windows_amd64/packages/portmaster-installer.exe
-github_url: https://github.com/safing
+download_arch_url: https://aur.archlinux.org/packages/portmaster-stub-bin
+
+installer_checksums: https://github.com/safing/checksums/
+
+img_shields_io_stars_url: https://img.shields.io/github/stars/safing/portmaster?color=%23fff0&label=%20&style=for-the-badge
+img_shields_io_release_url: https://img.shields.io/github/v/release/safing/portmaster?color=%23fff0&label=%20&style=for-the-badge
+
 docs_install_linux_url: https://docs.safing.io/portmaster/install/linux
 docs_install_windows_url: https://docs.safing.io/portmaster/install/windows
 docs_code_of_conduct_url: https://docs.safing.io/community/code-of-conduct
+
 spn_alpha_status_page_url: https://docs.safing.io/spn/alpha/status
-invidious_channel_url: https://invidious.snopyta.org/channel/UC_6TW053IlS4M22g7CxnukA
+
 kickstarter_url: https://www.kickstarter.com/projects/safingio/spn
 reddit_url: https://reddit.com/r/safing
 twitter_url: https://twitter.com/SafingIO
-youtube_channel_url: https://www.youtube.com/channel/UC_6TW053IlS4M22g7CxnukA
-docs_url: https://docs.safing.io/
+discord_url: https:/discord.gg/safing
+github_url: https://github.com/safing
+
+youtube_channel_url: https://www.youtube.com/c/SafingIO
+invidious_channel_url: https://invidious.snopyta.org/channel/UC_6TW053IlS4M22g7CxnukA
+
+youtube_portmaster_tut_getting_started: /video/2022/03/28/portmaster-intro-getting-started/
+youtube_portmaster_tut_filter_lists: /video/2022/04/04/portmaster-intro-filter-lists/
+youtube_spn_tut_multi_identity: /video/2022/03/21/spn-intro-be-everywhere/
+
+seen_itsfoss_url: https://itsfoss.com/portmaster/
+seen_ghacks_url: https://www.ghacks.net/2022/05/16/first-look-at-portmaster-an-open-source-cross-platform-network-monitor/
+seen_techlore_url: https://www.youtube.com/watch?v=E8cTRhGtmcM
+seen_privacytools_url: https://www.privacytools.io/windows/
 
 ### donations
 donations:
@@ -79,7 +106,7 @@ title: Safing
 encoding: "utf-8"
 lang: "en"
 description: > # this means to ignore newlines until "base_url:"
-  Control your computer. Get peace of mind. Portmaster is a free and open-source application that puts you back in charge over all your computer's network connections.
+  Portmaster is a free and open-source application that puts you back in charge over all your computer's network connections. Increase your privacy and security. Get peace of mind.
 
 markdown: kramdown
 

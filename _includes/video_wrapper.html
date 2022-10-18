@@ -1,4 +1,4 @@
-<video style="padding-bottom: 1rem;" src="{{ page.video_source }}" controls></video>
+<video style="padding-bottom: 1rem;" src="{{ page.video_source }}" controls poster="{{ site.img_url }}thumbnails/video/{{ page.custom_thumbnail_name }}.png" style="object-fit: cover; border-radius: 12px;"></video>
 {% unless page.youtube_hash == null  %}
 <p class="text-center">or watch on <a href="https://youtu.be/{{ page.youtube_hash }}">YouTube</a> or <a href="https://invidious.snopyta.org/{{ page.youtube_hash }}">Invidious</a></p>
 {% endunless %}

@@ -16,20 +16,6 @@ Many of you have been asking for this, and finally it is here: The new network m
 
 ![image displaying the v0.9 Portmaster user interface - network activity per app](/assets/img/blog/release-0.9/1_1_network_activity_per_app.png)
 
-<style>
-/*
-  Import before we need it in order to not first render it wrong.
-  TODO: Remove when this has been added to the Safing Tailwind lib.
-*/
-.markdown-container table img {
-    border-radius: 0.375rem;
-    box-shadow: 0 0 5px 0 rgb(0 0 0 / 0%), 0 0 90px 0 rgb(59 93 199 / 10%);
-    display: block;
-    height: auto;
-    max-width: 100%;
-}
-</style>
-
 ![image displaying the v0.9 Portmaster user interface - network activity per app blocked](/assets/img/blog/release-0.9/1_2_network_activity_per_app_blocked.png)  | ![image displaying the v0.9 Portmaster user interface - network activity search](/assets/img/blog/release-0.9/1_3_network_activity_search.png)
 ![image displaying the v0.9 Portmaster user interface - network activity per country](/assets/img/blog/release-0.9/1_4_network_activity_per_country.png) | ![image displaying the v0.9 Portmaster user interface - network activity in app](/assets/img/blog/release-0.9/1_5_network_activity_in_app.png)
 

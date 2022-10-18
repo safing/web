@@ -1,322 +1,484 @@
 ---
-title: Safing Privacy Network
+title: Safing Portmaster - SPN Features
 layout: page
 ---
 
-<a class="alert-primary hover-scale-out rounded-none text-md" data-method="get" href="https://docs.safing.io/spn/alpha/status">
-    <i class="icon-info text-md"></i>
-    <span>
-        SPN is in "Alpha". View
-        <span class="underline">what to expect</span>
-        from current speeds and features
-    </span>
-</a>
-<header class="header-two-container mb-64 mt-20">
-    <div class="header-two-top">
-        <div class="alert max-w-md bg-transparent mx-auto">
-            <i class="icon-add text-xl" style="color: rgba(46, 98, 255, 1);"></i>
-            <span style="color: rgba(0, 0, 0, 0.6);" class="text-md">Portmaster Add-on</span>
+<section class="general-layout">
+    <div class="space-y-28">
+      <div class="intro-container" id="features">
+        <div class="alert max-w-xl bg-transparent mx-auto" style="isplay: flex; align-items: center; max-height: 60px;">
+            <div class="horizontal-line" style="height: 2px;"></div>
+            <a class="link text-xl text-center text-white" href="{{ site.pricing_url }}" style="width: 100%; min-width: 260px;">
+                <div style="align-items: center; display: flex; max-width: max-content;">
+                   <span class="block"> Get Portmaster<span style="color: #029ad0;"> Unlimited </span></span>
+                    <img src="{{ site.img_url }}page-specific/pricing/package-icons/triangle.png" style="width: 19px; height: 19px; display: inline-block;"  alt="">
+                </div>
+            </a>
+            <div class="horizontal-line" style="height: 2px;"></div>
         </div>
-        <h1 class="header-two-top-title" style="margin-top: 0.3rem;">
-            It's Time to <span class="text-safing-blue-600">Ditch VPNs</span>
-        </h1>
-        <p class="header-two-top-desc" style="max-width: 650px;">
-            Stop paying for out-dated technology that was never intended to protect your privacy.
-            Get peace of mind with SPN. Built from scratch and designed to truly protect your privacy
-            from mass surveillance.
+        <h2 class="intro-container-title" style="margin-top: 1rem;">
+            It's Time to Ditch VPNs
+        </h2>
+        <p class="intro-container-desc">
+            Stop paying for out-dated technology that was never intended to protect your privacy. Get peace of mind with SPN. Built from scratch and designed to truly protect your privacy from mass surveillance.
+        </p>
+      </div>
+      <div class="showcase-one-container-reverse">
+        <div class="showcase-one-left" style="max-width: 850px;">
+            <img src="{{ site.img_url }}page-specific/spn/multiple-identities-for-each-app.png" alt="">
+        </div>
+        <div class="showcase-one-right">
+            <h2 class="showcase-one-right-title" style="max-width: 450px;">
+              Get Multiple Identities for Each App
+            </h2>
+            <p class="showcase-one-right-desc">
+              Automatically get a vast amount of identities (IP addresses). The SPN calculates an individual path for every connection through the privacy network. Spread your connections across the globe, without any effort.
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="showcase-one-container">
+        <div class="showcase-one-left" style="max-width: 850px;">
+            <img src="{{ site.img_url }}page-specific/spn/access-regional-content-easily.png" alt="">
+        </div>
+        <div class="showcase-one-right">
+            <h2 class="showcase-one-right-title" style="max-width: 450px;">
+                Simply Access Regional Content
+            </h2>
+            <p class="showcase-one-right-desc">
+              Is a website blocked or restricted in your country? Because SPN makes that connection exit near the destination server, it will automatically unblock the content. SPN has best coverage in Europe and North America.
+            </p>
+        </div>
+    </div>
+    <div class="showcase-one-container-reverse">
+        <div class="showcase-one-left" style="max-width: 950px;">
+            <img src="{{ site.img_url }}page-specific/spn/easily-control-your-privacy.png" alt="">
+        </div>
+        <div class="showcase-one-right">
+            <h2 class="showcase-one-right-title" style="max-width: 350px;">
+                Easily Adjust Your Privacy
+            </h2>
+            <p class="showcase-one-right-desc">
+              SPN just works and does the heavy lifting for you. But of course you can easily configure the settings, so it fits your needs: Exclude certain apps and domains from the SPN. Or never exit in specific countries. And so much more...
+            </p>
+        </div>
+    </div>
+      <div class="showcase-one-container">
+        <div class="showcase-one-left" style="max-width: 850px;">
+            <img src="{{ site.img_url }}page-specific/spn/built-from-the-ground-up.png" alt="">
+        </div>
+        <div class="showcase-one-right">
+            <h2 class="showcase-one-right-title" style="max-width: 450px;">
+                Built from Scratch,<br> for Your Privacy
+            </h2>
+            <p class="showcase-one-right-desc">
+              SPN is built from the ground up. Privacy is cooked right into it. Inspired by Tor, it comes with onion routing and state of the art encryption. Fully open source so all our claims can be validated.
+            </p>
+            <a class="btn-tertiary px-2" href="{{ site.github_url }}/spn"><i class="icon-github text-md mr-2"></i>Inspect source code</a>
+        </div>
+       </div>
+       <div class="showcase-two-container">
+        <div class="showcase-two-top-break-left">
+            <h2 class="showcase-two-top-title" style="max-width: 550px;">
+                SPN in Action
+            </h2>
+            <p class="showcase-two-top-desc">
+                Watch a short video showing how you easily get multiple identities per app, by default.
+            </p>
+        </div>
+        <div class="showcase-two-bottom" style="max-width: 850px;">
+
+            <div class="card" style="background-color: transparent;">
+                <div class="overflow-hidden">
+                     <video preload="auto" src="https://assets.safing.io/spn/feature-tour.mp4" poster="https://assets.safing.io/spn/feature-tour-poster.png" controls="" style="object-fit: cover; border-radius: 12px;">
+                     </video>
+                </div>
+                <img class="hidden lg:block" style="position: absolute; top: -35px; max-width: 80rem; left: -76px; z-index: -1;" src="{{ site.img_url }}page-specific/spn/spn-in-action.png" alt="">
+             </div>
+        </div>
+        <!-- <div class="showcase-bg"></div> -->
+    </div>
+    <div class="showcase-one-container">
+        <div class="showcase-one-left" style="max-width: 850px;">
+            <img src="{{ site.img_url }}page-specific/spn/bye-bye-vpns.png" alt="">
+        </div>
+        <div class="showcase-one-right">
+            <h2 class="showcase-one-right-title" style="max-width: 450px;">
+                Bye Bye, VPNs
+            </h2>
+            <p class="showcase-one-right-desc">
+              VPN technology was NOT built for user privacy, but for company security. Because of that, you can only trust a VPN provider's policy - and many have been caught abusing user data. Honestly, the best way forward: just stop paying for outdated technology.
+            </p>
+            <a class="btn-secondary" href="{{ site.vpn_comparison_url }}">
+              Compare SPN to VPNs
+            </a>
+        </div>
+    </div>
+    <div class="showcase-two-container">
+        <div class="showcase-two-top-break-left">
+          <h2 class="showcase-two-top-title" id="feature-comparison-chart" style="max-width: 550px;">
+            Feature Comparison
+          </h2>
+        </div>
+
+        {% include spn_vs_others.html %}
+      </div>
+    <div class="showcase-two-container">
+        <div class="showcase-two-top-break-left">
+          <h2 class="showcase-two-top-title" id="feature-comparison-chart" style="max-width: 550px;">
+            Upgrade Your Privacy
+          </h2>
+          <p class="showcase-two-top-desc">
+            Everything is built from scratch and designed to truly protect you from mass surveillance.
         </p>
     </div>
-    <div class="header-two-bottom" style="margin-top: 3.5rem;">
-        <div class="element-x-center max-w-sm md:max-w-4xl">
-            <div class="package-billing">
-                <div class="package-billing-line-left"></div>
-                <span class="package-billing-center">Billing: <span class="text-safing-blue-600">One-Time Payment</span></span>
-                <div class="package-billing-line-right"></div>
-            </div>
-            <div class="grid md:grid-cols-2 space-y-3 space-x-3 mt-12 justify-center justify-items-center">
-                <div>
-                    <div class="card-package most-popular card-shadow">
-                        <div class="card-package-most-popular">
-                            <span>Most Popular</span>
-                        </div>
-                        <div class="card-package-top">
-                            <div class="flex">
-                                <span class="card-package-top-title">Early Adopter</span>
-                                <span tooltip="Compared to Monthly &quot;Beta&quot; Prices" class="ml-auto bg-safing-gray-100 text-center rounded-full px-5 py-1 inline-flex text-sm">Save 36%</span>
-                            </div>
-                            <span class="card-package-top-amount">
-                                99.00€
-                            </span>
-                        </div>
-                        <div class="card-package-middle space-y-4">
-                            <span class="card-package-middle-includes-feature"> Use SPN for 1-Year </span>
-                        </div>
-                        <div class="card-package-bottom">
-                            <a class="btn-secondary w-full justify-center" href="{{ site.account_server_url }}charges/checkout?charge[quantity]=1&charge[package_id]=2&commit=Buy">Buy Package</a>
+        <div class="element-x-center max-w-sm md:max-w-7xl">
+            <div class="package-billing darkmode">
+                <div class="package-billing-top">
+                    <div class="package-billing-top-line-left" style="margin-right: 20px;"></div>
+                    <div class="package-billingtop-top-center">
+                        <div class="package-billingtop-top-center-inner">
+                            <span>Per Month</span>
+                            <span>Per Year</span>
                         </div>
                     </div>
-                    <span class="element-x-center-max mt-4 text-sm">Billing does <strong>NOT</strong> auto-renew</span>
+                    <div class="package-billing-top-line-right" style="margin-left: 20px;"></div>
                 </div>
-                <div class="mt-2">
-                    <div class="card-package">
-                        <div class="card-package-top">
-                            <div class="flex">
-                                <span class="card-package-top-title">Early Adopter</span>
-                                <span tooltip="Compared to &quot;Beta&quot; Prices" class="ml-auto bg-safing-gray-100 text-center rounded-full px-5 py-1 inline-flex text-sm">Save 23%</span>
+                <input class="package-billing-toggle darkmode" type="checkbox" id="consent_text" name="consent_text" value="yes">
+                <div class="package-billing-bottom">
+                    <div class="content-one">
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 transform scale-90 xl:scale-100 gap-5 lg:gap-28 xl:gap-0 justify-center justify-items-center mx-auto" style="align-items: center;">
+                            <div class="card-package darkmode" style="height: 650px;">
+                                <div class="card-package-top">
+                                    <div class="flex">
+                                        <span class="card-package-top-title">Portmaster Free</span>
+                                    </div>
+                                    <span class="card-package-top-amount">
+                                        Free
+                                        <span class="card-package-top-amount-monthly">/ Forever</span>
+                                    </span>
+                                    <p class="card-package-top-desc" style="max-width: 480px;">Increase your privacy and security.</p>
+                                </div>
+                                <div class="card-package-middle">
+                                    <span class="card-package-middle-includes">Features
+                                    </span>
+                                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Privacy Filter
+                                    </span>
+                                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Secure DNS
+                                    </span>
+                                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Network Monitor
+                                    </span>
+                                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Community Support
+                                    </span>
+                                </div>
+                                <div class="card-package-bottom" style="bottom: 36px;">
+                                  <div class="hidden lg:block">
+                                      {% include download_button.html unique_id="1" %}
+                                  </div>
+                                </div>
                             </div>
-                            <span class="card-package-top-amount">
-                                9.90€
-                            </span>
-                        </div>
-                        <div class="card-package-middle space-y-4">
-                            <span class="card-package-middle-includes-feature"> Use SPN for 1-Month </span>
-                        </div>
-                        <div class="card-package-bottom">
-                            <a class="btn-secondary w-full justify-center" href="{{ site.account_server_url }}charges/checkout?charge[quantity]=1&charge[package_id]=1&commit=Buy">Buy Package</a>
+                            <form class="new_charge" id="new_charge" action="https://account.safing.io/charges/checkout" accept-charset="UTF-8" method="get">
+                                <input value="9" autocomplete="off" type="hidden" name="charge[plan_id]" id="charge_package_id">
+                                <div class="card-package darkmode mt-0" style="height: 650px;">
+                                    <div class="absolute -top-8 -right-11 hidden xl:block">
+                                        <img src="{{ site.img_url }}page-specific/pricing/package-icons/circle-big.png" alt="">
+                                    </div>
+                                    <div class="card-package-top" style="margin-top: 0;">
+                                        <div class="flex">
+                                            <span class="card-package-top-title">Portmaster  <span style="color: #2fcfae;">Supporter</span> </span>
+                                        </div>
+                                        <span class="card-package-top-amount">
+                                            3€
+                                            <span class="card-package-top-amount-monthly">/ 1-Month</span>
+                                        </span>
+                                        <p class="card-package-top-desc" style="max-width: 480px;">We truly appreciate your support.</p>
+                                    </div>
+                                    <div class="card-package-middle">
+                                        <span class="card-package-middle-includes">Features
+                                        </span>
+                                        <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Everything in Free
+                                        </span>
+                                        <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Priority Support
+                                        </span>
+                                        <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Discord Benefits
+                                          <span class="ml-1">
+                                              <img src="{{ site.img_url }}page-specific/pricing/package-icons/circle-triangle.png" style="width: 19px; display: inline-block;"  alt="">
+                                          </span>
+                                      </span>
+                                      <span class="card-package-middle-includes"></span>
+                                        <span class="card-package-middle-includes-feature"><span tooltip="coming in the future"><i class="icon-alarm-clock-time-timer text-gray-500 text-xl mr-1"></i></span> Early Access to Features
+                                      </span>
+                                        <span class="card-package-middle-includes-feature"><span tooltip="coming in the future"><i class="icon-alarm-clock-time-timer text-gray-500 text-xl mr-1"></i></span> Reddit Benefits
+                                            <span class="ml-1">
+                                                <img src="{{ site.img_url }}page-specific/pricing/package-icons/circle-triangle.png" style="width: 19px; display: inline-block;"  alt="">
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="card-package-bottom" style="display: block;">
+                                        <span class="element-x-center-max mt-4 text-sm">Billing does <strong>NOT</strong> auto-renew</span>
+                                        <div class="mx-auto space-x-2 flex w-percent-80">
+                                          <input class="btn-secondary less-round w-full h-auto py-5" type="submit" name="commit" value="Buy Package"  data-disable-with="Buy Package">
+                                          <nojs>
+                                              <div class="input-counter darkmode h-full">
+                                                  <input class="input-counter-right" value="1" step="1" min="1" max="4" required="required" class="input-counter-right" type="number" name="charge[quantity]" id="charge_quantity">
+                                              </div>
+                                          </nojs>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <form class="new_charge" id="new_charge" action="https://account.safing.io/charges/checkout" accept-charset="UTF-8" method="get">
+                                <input value="1" autocomplete="off" type="hidden" name="charge[plan_id]" id="charge_package_id">
+                                <div class="card-package darkmode mt-0" style="height: 650px;">
+                                    <div class="absolute -top-8 -right-11 hidden xl:block">
+                                        <img src="{{ site.img_url }}page-specific/pricing/package-icons/triangle-big.png" alt="">
+                                    </div>
+                                    <div class="card-package-top" style="margin-top: 0;">
+                                        <div class="flex">
+                                            <span class="card-package-top-title">Portmaster <span style="color: #029ad0;">Unlimited</span></span>
+                                        </div>
+                                        <span class="card-package-top-amount">
+                                            9.90€
+                                            <span class="card-package-top-amount-monthly">/ 1-Month</span>
+                                        </span>
+                                        <p class="card-package-top-desc" style="max-width: 480px;">It's time to ditch VPN's.</p>
+                                    </div>
+                                    <div class="card-package-middle">
+                                        <span class="card-package-middle-includes">Features
+                                        </span>
+                                        <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Everything in <span style="color: #2fcfae;">Supporter</span>
+                                        </span>
+                                        <span class="card-package-middle-includes">SPN Accress
+                                        </span>
+                                        <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Multiple Identities
+                                        </span>
+                                      <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Geo-Unblocking
+                                      </span>
+                                      <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Built for Privacy
+                                      </span>
+                                    </div>
+                                    <div class="card-package-bottom" style="display: block;">
+                                        <span class="element-x-center-max mt-4 text-sm">Billing does <strong>NOT</strong> auto-renew</span>
+                                        <div class="mx-auto space-x-2 flex w-percent-80">
+                                              <input class="btn-primary less-round w-full h-auto py-5" type="submit" name="commit" value="Buy Package"  data-disable-with="Buy Package">
+                                              <nojs>
+                                                  <div class="input-counter darkmode h-full">
+                                                      <input class="input-counter-right" value="1" step="1" min="1" max="4" required="required" class="input-counter-right" type="number" name="charge[quantity]" id="charge_quantity">
+                                                  </div>
+                                              </nojs>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
-                    <span class="element-x-center-max mt-4 text-sm">Billing does <strong>NOT</strong> auto-renew</span>
+                    <div class="content-two">
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 transform scale-90 xl:scale-100 gap-5 lg:gap-28 xl:gap-0 justify-center justify-items-center mx-auto" style="align-items: center;">
+                            <div class="card-package darkmode" style="height: 650px;">
+                                <div class="card-package-top">
+                                    <div class="flex">
+                                        <span class="card-package-top-title">Portmaster Free</span>
+                                    </div>
+                                    <span class="card-package-top-amount">
+                                        Free
+                                        <span class="card-package-top-amount-monthly">/ Forever</span>
+                                    </span>
+                                    <p class="card-package-top-desc" style="max-width: 480px;">Increase your privacy and security.</p>
+                                </div>
+                                <div class="card-package-middle">
+                                    <span class="card-package-middle-includes">Features
+                                    </span>
+                                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Privacy Filter
+                                    </span>
+                                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Secure DNS
+                                    </span>
+                                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Network Monitor
+                                    </span>
+                                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Community Support
+                                    </span>
+                                </div>
+                                <div class="card-package-bottom" style="bottom: 36px;">
+                                  <div class="hidden lg:block">
+                                      {% include download_button.html unique_id="2" %}
+                                  </div>
+                                </div>
+                            </div>
+                            <form class="new_charge" id="new_charge" action="https://account.safing.io/charges/checkout" accept-charset="UTF-8" method="get">
+                                <input value="10" autocomplete="off" type="hidden" name="charge[plan_id]" id="charge_package_id">
+                                <div class="card-package darkmode mt-0" style="height: 650px;">
+                                    <div class="absolute -top-8 -right-11 hidden xl:block">
+                                        <img src="{{ site.img_url }}page-specific/pricing/package-icons/circle-big.png" alt="">
+                                    </div>
+                                    <div class="card-package-top" style="margin-top: 0;">
+                                        <div class="flex">
+                                            <span class="card-package-top-title">Portmaster  <span style="color: #2fcfae;">Supporter</span> </span>
+                                        </div>
+                                        <span class="card-package-top-amount">
+                                            30€
+                                            <span class="card-package-top-amount-monthly">/ 1-Year</span>
+                                        </span>
+                                        <p class="card-package-top-desc" style="max-width: 480px;">We truly appreciate your support.</p>
+                                    </div>
+                                    <div class="card-package-middle">
+                                        <span class="card-package-middle-includes">Features
+                                        </span>
+                                        <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Everything in Free
+                                        </span>
+                                        <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Priority Support
+                                        </span>
+                                        <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Discord Benefits
+                                          <span class="ml-1">
+                                              <img src="{{ site.img_url }}page-specific/pricing/package-icons/circle-triangle.png" style="width: 19px; display: inline-block;"  alt="">
+                                          </span>
+                                      </span>
+                                      <span class="card-package-middle-includes"></span>
+                                        <span class="card-package-middle-includes-feature">
+                                          <span tooltip="coming in the future">
+                                            <i class="icon-alarm-clock-time-timer text-gray-500 text-xl mr-1"></i>
+                                          </span> Early Access to Features
+                                      </span>
+                                        <span class="card-package-middle-includes-feature"><span tooltip="coming in the future"><i class="icon-alarm-clock-time-timer text-gray-500 text-xl mr-1"></i></span> Reddit Benefits
+                                            <span class="ml-1">
+                                                <img src="{{ site.img_url }}page-specific/pricing/package-icons/circle-triangle.png" style="width: 19px; display: inline-block;"  alt="">
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="card-package-bottom" style="display: block;">
+                                        <span class="element-x-center-max mt-4 text-sm">Billing does <strong>NOT</strong> auto-renew</span>
+                                        <div class="mx-auto space-x-2 flex w-percent-80">
+                                          <input class="btn-secondary less-round w-full h-auto py-5" type="submit" name="commit" value="Buy Package"  data-disable-with="Buy Package">
+                                          <nojs>
+                                              <div class="input-counter darkmode h-full">
+                                                  <input class="input-counter-right" value="1" step="1" min="1" max="4" required="required" class="input-counter-right" type="number" name="charge[quantity]" id="charge_quantity">
+                                              </div>
+                                          </nojs>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <form class="new_charge" id="new_charge" action="https://account.safing.io/charges/checkout" accept-charset="UTF-8" method="get">
+                                <input value="2" autocomplete="off" type="hidden" name="charge[plan_id]" id="charge_package_id">
+                                <div class="card-package darkmode mt-0" style="height: 650px;">
+                                    <div class="absolute -top-8 -right-11 hidden xl:block">
+                                        <img src="{{ site.img_url }}page-specific/pricing/package-icons/triangle-big.png" alt="">
+                                    </div>
+                                    <div class="card-package-top" style="margin-top: 0;">
+                                        <div class="flex">
+                                            <span class="card-package-top-title">Portmaster <span style="color: #029ad0;">Unlimited</span></span>
+                                        </div>
+                                        <span class="card-package-top-amount">
+                                            99€
+                                            <span class="card-package-top-amount-monthly">/ 1-Year</span>
+                                        </span>
+                                        <p class="card-package-top-desc" style="max-width: 480px;">It's time to ditch VPN's.</p>
+                                    </div>
+                                    <div class="card-package-middle">
+                                        <span class="card-package-middle-includes">Features
+                                        </span>
+                                        <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Everything in <span style="color: #2fcfae;">Supporter</span>
+                                        </span>
+                                        <span class="card-package-middle-includes">SPN Accress
+                                        </span>
+                                        <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Multiple Identities
+                                        </span>
+                                      <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Geo-Unblocking
+                                      </span>
+                                      <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Built for Privacy
+                                      </span>
+                                    </div>
+                                    <div class="card-package-bottom" style="display: block;">
+                                        <span class="element-x-center-max mt-4 text-sm">Billing does <strong>NOT</strong> auto-renew</span>
+                                        <div class="mx-auto space-x-2 flex w-percent-80">
+                                              <input class="btn-primary less-round w-full h-auto py-5" type="submit" name="commit" value="Buy Package"  data-disable-with="Buy Package">
+                                              <nojs>
+                                                  <div class="input-counter darkmode h-full">
+                                                      <input class="input-counter-right" value="1" step="1" min="1" max="4" required="required" class="input-counter-right" type="number" name="charge[quantity]" id="charge_quantity">
+                                                  </div>
+                                              </nojs>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex mx-auto w-max mt-8 space-x-8 items-center opacity-50" style="position: relative; z-index: -1;">
+                <div class="space-x-8 hidden lg:flex items-center">
+                    <img src="{{ site.img_url }}page-specific/pricing/payment-methods/mastercard.png">
+                    <img src="{{ site.img_url }}page-specific/pricing/payment-methods/visacard.png">
+                    <img src="{{ site.img_url }}page-specific/pricing/payment-methods/amex.png">
+                    <img src="{{ site.img_url }}page-specific/pricing/payment-methods/paypal.png">
+                    <img src="{{ site.img_url }}page-specific/pricing/payment-methods/cash.png">
+                    <img src="{{ site.img_url }}page-specific/pricing/payment-methods/monero.png">
+                    <img src="{{ site.img_url }}page-specific/pricing/payment-methods/bitcoin.png">
                 </div>
             </div>
         </div>
     </div>
-</header>
-<section class="space-y-40">
-    <div class="general-layout">
-        <div class="showcase-one-container-reverse">
-            <div class="showcase-one-left" style="max-width: 850px;">
-                <img src="{{ site.img_url }}page-specific/spn/multiple-identities-for-each-app.png" alt="">
-            </div>
-            <div class="showcase-one-right">
-                <div class="alert-tiny w-max pr-6 bg-safing-blue-600 ml-0 md:mx-auto">
-                    <i class="icon-info text-md"></i>
-                    <span>Alpha Software: SPN is in active development </span>
-                </div>
-                <h2 class="showcase-one-right-title" style="max-width: 450px;">
-                  Get Multiple Identities for Each App
-                </h2>
-                <p class="showcase-one-right-desc">
-                  Automatically get a vast amount of identities (IP addresses). The SPN calculates an individual path for every connection through the privacy network. Spread your connections across the globe, without any effort.
-                </p>
-            </div>
-        </div>
-        <div class="showcase-one-container">
-            <div class="showcase-one-left" style="max-width: 850px;">
-                <img src="{{ site.img_url }}page-specific/spn/access-regional-content-easily.png" alt="">
-            </div>
-            <div class="showcase-one-right">
-                <div class="alert-tiny w-max pr-6 bg-safing-blue-600 ml-0 md:mx-auto">
-                    <i class="icon-info text-md"></i>
-                    <span>Alpha Software: SPN is in active development </span>
-                </div>
-                <h2 class="showcase-one-right-title" style="max-width: 450px;">
-                    Simply Access Regional Content
-                </h2>
-                <p class="showcase-one-right-desc">
-                  Is a website blocked or restricted in your country? Because SPN makes that connection exit near the destination server, it will automatically unblock the content. SPN has best coverage in Europe and North America.
-                </p>
-            </div>
-        </div>
-        <div class="showcase-one-container-reverse">
-            <div class="showcase-one-left" style="max-width: 850px;">
-                <img src="{{ site.img_url }}page-specific/spn/easily-control-your-privacy.png" alt="">
-            </div>
-            <div class="showcase-one-right">
-                <div class="alert-tiny w-max pr-6 bg-safing-blue-600 ml-0 md:mx-auto">
-                    <i class="icon-info text-md"></i>
-                    <span>Alpha Software: SPN is in active development </span>
-                </div>
-                <h2 class="showcase-one-right-title" style="max-width: 350px;">
-                    Easily Adjust Your Privacy
-                </h2>
-                <p class="showcase-one-right-desc">
-                  SPN just works and does the heavy lifting for you. But of course you can easily configure the settings, so it fits your needs: Exclude certain apps and domains from the SPN. Or never exit in specific countries. And so much more...
-                </p>
-            </div>
-        </div>
-        <div class="showcase-one-container">
-            <div class="showcase-one-left" style="max-width: 850px;">
-                <img src="{{ site.img_url }}page-specific/spn/built-from-the-ground-up.png" alt="">
-            </div>
-            <div class="showcase-one-right">
-                <div class="alert-tiny w-max pr-6 bg-safing-blue-600 ml-0 md:mx-auto">
-                    <i class="icon-info text-md"></i>
-                    <span>Alpha Software: SPN is in active development </span>
-                </div>
-                <h2 class="showcase-one-right-title" style="max-width: 450px;">
-                    Built from Scratch,<br> for <span class="text-safing-blue-600">Your Privacy</span>
-                </h2>
-                <p class="showcase-one-right-desc">
-                  SPN is built from the ground up. Privacy is cooked right into it. Inspired by Tor, it comes with onion routing and state of the art encryption. Fully open source so all our claims can be validated.
-                </p>
-                <a class="btn-tertiary px-2" href="{{ site.github_url }}/spn"><i class="icon-github text-md mr-2"></i>Inspect source code</a>
-            </div>
-        </div>
-
-        <div class="showcase-two-container">
-            <div class="showcase-two-top-break-left">
-                <h2 class="showcase-two-top-title" style="max-width: 550px;">
-                    SPN in Action
-                </h2>
-                <p class="showcase-two-top-desc">
-                    Watch a short video showing how you easily get multiple identities per app, by default.
-                </p>
-            </div>
-            <div class="showcase-two-bottom" style="max-width: 850px;">
-                <div class="card">
-                    <div class="overflow-hidden">
-                         <video preload="auto" src="https://assets.safing.io/spn/feature-tour.mp4" poster="https://assets.safing.io/spn/feature-tour-poster.png" controls="">
-                         </video>
-                    </div>
-                 </div>
-            </div>
-            <div class="showcase-bg"></div>
-        </div>
-        <div class="showcase-one-container">
-            <div class="showcase-one-left" style="max-width: 850px;">
-                <img src="{{ site.img_url }}page-specific/spn/bye-bye-vpns.png" alt="">
-            </div>
-            <div class="showcase-one-right">
-                <div class="alert-tiny w-max pr-6 bg-safing-blue-600 ml-0 md:mx-auto">
-                    <i class="icon-info text-md"></i>
-                    <span>Alpha Software: SPN is in active development </span>
-                </div>
-                <h2 class="showcase-one-right-title" style="max-width: 450px;">
-                    Bye Bye, VPNs
-                </h2>
-                <p class="showcase-one-right-desc">
-                  VPN technology was NOT built for user privacy, but for company security. Because of that, you can only trust a VPN provider's policy - and many have been caught abusing user data. Honestly, the best way forward: just stop paying for outdated technology.
-                </p>
-                <a class="btn-secondary" href="{{ site.vpn_comparison_url }}">
-                  Compare SPN to VPNs
-                </a>
-            </div>
-        </div>
-
-        <div class="showcase-two-container">
-          <div class="showcase-two-top-break-left">
-            <h2 class="showcase-two-top-title" id="feature-comparison-chart" style="max-width: 550px;">
-              Feature Comparison
+    <div class="faq-container mb-60" id="faq">
+        <div class="faq-container-top">
+            <h2 class="faq-container-top-title">
+                FAQ
             </h2>
-          </div>
-
-          {% include spn_vs_others.html %}
+            <p class="faq-container-top-desc">
+                You have a question? We answered some already, but you
+                can always contact us at <a class="link-primary" href="mailto:hello@safing.io">hello@safing.io</a>
+            </p>
         </div>
-
-        <div class="showcase-two-container" id="pricing">
-            <div class="showcase-two-top" style="max-width: 690px;">
-                <a class="alert-primary hover-scale-out" data-method="get" href="{{ site.spn_alpha_status_page_url }}">
-                    <span>
-                        SPN is in "Alpha". View
-                        <span class="underline">what to expect</span>
-                        from current speeds and features
-                    </span>
-                </a>
-                <h2 class="showcase-two-top-title">
-                    Protect Your Connections Today
-                </h2>
-                <p class="showcase-two-top-desc">
-                    Subscribe to SPN and lock in the lower Alpha prices forever.
-                </p>
-            </div>
-            <div class="showcase-two-bottom" style="max-width: 850px;">
-                <div class="element-x-center max-w-sm md:max-w-4xl">
-                    <div class="package-billing">
-                        <div class="package-billing-line-left"></div>
-                        <span class="package-billing-center">Billing: <span class="text-safing-blue-600">One-Time Payment</span></span>
-                        <div class="package-billing-line-right"></div>
-                    </div>
-                    <div class="grid md:grid-cols-2 space-y-3 space-x-3 mt-12 justify-center justify-items-center">
-                       <div>
-                        <div class="card-package most-popular card-shadow">
-                            <div class="card-package-most-popular">
-                                <span>Most Popular</span>
-                            </div>
-                            <div class="card-package-top">
-                                <div class="flex">
-                                    <span class="card-package-top-title">Early Adopter</span>
-                                    <span tooltip="Compared to Monthly &quot;Beta&quot; Prices" class="ml-auto bg-safing-gray-100 text-center rounded-full px-5 py-1 inline-flex text-sm">Save 36%</span>
-                                </div>
-                                <span class="card-package-top-amount">
-                                    99.00€
-                                </span>
-                            </div>
-                            <div class="card-package-middle space-y-4">
-                                <span class="card-package-middle-includes-feature"> Use SPN for 1-Year </span>
-                            </div>
-                            <div class="card-package-bottom">
-                                <a class="btn-secondary w-full justify-center" href="{{ site.account_server_url }}charges/checkout?charge[quantity]=1&charge[package_id]=2&commit=Buy">Buy Package</a>
+        <div class="faq-container-bottom">
+          {% for faq in site.data.faq.spn %}
+            <div class="faq-container-bottom-question">
+                <div class="card-faq darkmode hover-scale-out">
+                    <label class="card-label" for="card-toggle-anchor-{{ forloop.index }}">
+                        <div class="wrapper-left">
+                            <div class="card-title">
+                                <h3 class="title">
+                                  {{ faq.q }}
+                                </h3>
                             </div>
                         </div>
-                        <span class="element-x-center-max mt-4 text-sm">Billing does <strong>NOT</strong> auto-renew</span>
-                       </div>
-                        <div>
-                            <div class="card-package">
-                                <div class="card-package-top">
-                                    <div class="flex">
-                                        <span class="card-package-top-title">Early Adopter</span>
-                                        <span tooltip="Compared to &quot;Beta&quot; Prices" class="ml-auto bg-safing-gray-100 text-center rounded-full px-5 py-1 inline-flex text-sm">Save 23%</span>
-                                    </div>
-                                    <span class="card-package-top-amount">
-                                        9.90€
-                                    </span>
-                                </div>
-                                <div class="card-package-middle space-y-4">
-                                    <span class="card-package-middle-includes-feature"> Use SPN for 1-Month </span>
-                                </div>
-                                <div class="card-package-bottom">
-                                    <a class="btn-secondary w-full justify-center" href="{{ site.account_server_url }}charges/checkout?charge[quantity]=1&charge[package_id]=1&commit=Buy">Buy Package</a>
-                                </div>
-                            </div>
-                            <span class="element-x-center-max mt-4 text-sm">Billing does <strong>NOT</strong> auto-renew</span>
+                        <div class="wrapper-right">
+                            <i class="icon-arrow"></i>
+                        </div>
+                    </label>
+                    <input class="card-input-toggle" id="card-toggle-anchor-{{ forloop.index }}" type="checkbox">
+                    <div class="card-dropdown-toggle">
+                        <div class="card-dropdown-content">
+                            {{ faq.a }}
+                            {% if faq.link %}
+                              <br>
+                              <br>
+                              <a class="link-primary" href="{{ faq.link.url }}">{{ faq.link.text }}</a>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
             </div>
+          {% endfor %}
+          {% include source_code_faq.html %}
         </div>
-        <div class="faq-container mb-60" id="faq">
-            <div class="faq-container-top">
-                <h2 class="faq-container-top-title">
-                    FAQ
-                </h2>
-                <p class="faq-container-top-desc">
-                    You have a question? We answered some already, but you
-                    can always contact us at <a class="link-primary" href="mailto:hello@safing.io">hello@safing.io</a>
-                </p>
-            </div>
-            <div class="faq-container-bottom">
-              {% for faq in site.data.faq.spn %}
-                <div class="faq-container-bottom-question">
-                    <div class="card-faq card-shadow hover-scale-out">
-                        <label class="card-label" for="card-toggle-anchor-{{ forloop.index }}">
-                            <div class="wrapper-left">
-                                <div class="card-title">
-                                    <h3 class="title">
-                                      {{ faq.q }}
-                                    </h3>
-                                </div>
-                            </div>
-                            <div class="wrapper-right">
-                                <i class="icon-arrow"></i>
-                            </div>
-                        </label>
-                        <input class="card-input-toggle" id="card-toggle-anchor-{{ forloop.index }}" type="checkbox">
-                        <div class="card-dropdown-toggle">
-                            <div class="card-dropdown-content">
-                              <div class="text-safing-gray-500">
-                                {{ faq.a }}
-                              </div>
-                              {% if faq.link %}
-                                <br>
-                                <br>
-                                <a class="link-primary" href="{{ faq.link.url }}">{{ faq.link.text }}</a>
-                              {% endif %}
-                            </div>
-                        </div>
-                    </div>
+    </div>
+    <div class="showcase-two-container">
+        <div class="showcase-two-top-left" style="max-width: 73rem;">
+            <h2 class="showcase-two-top-title" style="max-width: 550px;">
+                SPN News
+            </h2>
+            <p class="showcase-two-top-desc" style="max-width: 430px;">
+                Read everything about the latest updates regarding Portmaster, SPN and Safing.
+            </p>
+        </div>
+        <div class="showcase-two-bottom" style="max-width: 100%;">
+            <div class="blogpod-container" style="margin-top: 0;">
+                <div class="blogpod-container-bottom">
+                    {% assign all_publications = site.publications | sort: "date" | reverse %}
+                    {% for publication in all_publications limit: 3 %}
+                    {% if publication.category == "blog" %}
+                        {% assign post = publication %}
+                        {% include thumbnail_blog.html pre_header="BLOG" %}
+                    {% endif %}
+                    {% endfor %}
                 </div>
-              {% endfor %}
-              {% include source_code_faq.html %}
             </div>
         </div>
     </div>

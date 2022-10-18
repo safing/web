@@ -1,3 +1,4 @@
+<div class="horizontal-line"></div>
 <footer class="footer" id="footer">
   <div class="footer-form-wrapper">
       <span class="footer-form-title">Stay Connected via Newsletter</span>
@@ -7,11 +8,11 @@
               <input class="btn-primary" type="submit" value="Subscribe">
           </div>
           <div class="footer-form-legal">
-            <input class="toggle" type="checkbox" id="consent_text" name="consent_text" value="yes" required="">
+            <input class="toggle darkmode" type="checkbox" id="consent_text" name="consent_text" value="yes" required="">
               <div>
                   <label class="consent cursor-pointer text-safing-gray-500" for="consent_text">
                       I agree that Safing &
-                      <a class="link-primary-external" href="https://rapidmail.de" target="_blank">rapidmail.de</a>
+                      <a  target="_blank" class="link-primary-external" href="https://rapidmail.de" target="_blank">rapidmail.de</a>
                       may process and use the email for newsletter purposes.
                   </label>
               </div>
@@ -32,7 +33,7 @@
                     <span class="dot absolute -ml-5"></span>
                     <a href="{{ site.jobs_url }}" class="footer-link"> We're Hiring </a>
                 </div>
-                <a href="{{ site.help_url }}" class="footer-link"> Get Help </a>
+                <a href="{{ site.help_url }}" class="footer-link">Support</a>
               </div>
           </div>
       </div>
@@ -43,6 +44,7 @@
           </div>
           <div class="footer-links">
               <div class="footer-links-left">
+                <a href="{{ site.docs_code_of_conduct_url }}" class="footer-link"> Code of Conduct </a>
                 <a href="{{ site.next_page_url }}" class="footer-link"> What's Next? </a>
                 <div class="flex  items-center space-x-2">
                     <a href="{{ site.blog_url }}" class="footer-link"> Blog </a>
@@ -55,10 +57,11 @@
                 <a href="{{ site.video_url }}" class="footer-link"> Videos </a>
               </div>
               <div class="footer-links-right">
-                <a href="{{ site.docs_code_of_conduct_url }}" class="footer-link"> Code of Conduct </a>
-                <a href="{{ site.github_url }}" class="footer-link"> Github </a>
-                <a href="{{ site.reddit_url }}" class="footer-link"> Reddit </a>
-                <a href="{{ site.twitter_url }}" class="footer-link"> Twitter </a>
+                <a target="_blank" href="{{ site.discord_url }}" class="footer-link link-primary-external">Discord </a>
+                <a target="_blank" href="{{ site.github_url }}" class="footer-link link-primary-external">Github </a>
+                <a target="_blank" href="{{ site.reddit_url }}" class="footer-link link-primary-external">Reddit </a>
+                <a target="_blank" href="{{ site.twitter_url }}" class="footer-link link-primary-external">Twitter </a>
+                <a target="_blank" href="{{ site.youtube_channel_url }}" class="footer-link link-primary-external">Youtube </a>
               </div>
           </div>
       </div>
@@ -70,9 +73,10 @@
           </div>
           <div class="footer-links">
               <div class="footer-links-left">
-                  <a href="{{ site.portmaster_url }}" class="footer-link"> Discover </a>
-                  <a href="{{ site.docs_url }}portmaster/architecture/overview" class="footer-link"> Documentation </a>
-                  <a href="{{ site.github_url }}/portmaster/" class="footer-link"> Source Code </a>
+                  <a href="{{ site.download_url }}" class="footer-link"> Download </a>
+                  <a href="{{ site.features_url }}" class="footer-link"> Features </a>
+                  <a href="{{ site.docs_url }}" class="footer-link"> Docs & FAQ </a>
+                  <a target="_blank" href="{{ site.github_url }}/portmaster/" class="footer-link link-primary-external">Source Code </a>
                   <a href="{{ site.backlog_url }}#portmaster" class="footer-link"> Backlog </a>
               </div>
               <div class="footer-links-right">
@@ -89,9 +93,9 @@
           </div>
           <div class="footer-links">
               <div class="footer-links-left">
-                  <a href="{{ site.spn_url }}" class="footer-link"> Discover </a>
+                  <a href="{{ site.spn_url }}" class="footer-link"> Features </a>
                   <a href="{{ site.whitepaper_url }}" class="footer-link"> Whitepaper </a>
-                  <a href="{{ site.github_url }}/spn/" class="footer-link"> Source Code </a>
+                  <a target="_blank" href="{{ site.github_url }}/spn/" class="footer-link link-primary-external">Source Code </a>
                   <a href="{{ site.backlog_url }}#spn" class="footer-link"> Backlog </a>
               </div>
               <div class="footer-links-right">

@@ -12,19 +12,6 @@ redirect_from:
 summary: VPN is an out-dated technology that was never intended to protect your privacy. It simply swaps your one identity with one different identity, creating only a minor obstacle for today's mass surveillance. SPN on the other hand is built from the ground up and fully designed to protect your privacy. It gives you multiple identities by default. Therefore we believe people looking for privacy will prefer SPN.
 ---
 
-<style>
-  /*
-    TODO: Improve and move to tailwind lib.
-  */
-  .emphasize {
-    color: rgb(16, 24, 28);
-    text-decoration-line: underline;
-    text-decoration-style: solid;
-    text-decoration-color: rgba(97, 136, 255);
-    text-decoration-thickness: 2px;
-  }
-</style>
-
 {% include spn_vs_vpns_top.html %}
 
 ### One Shoe Does Not Fit All - What Is Your Threat Model?
@@ -71,7 +58,7 @@ This is how this looks like:
 
 ![Illustration showing the SPN connecting via multiple exit nodes](https://safing.io/assets/img/spn/spn-community-web.png)
 
-Instead of just "beaming" yourself to another place, you can now be everywhere at once. <span class="emphasize">Connections are individually routed through the network in order to make sure you have the best possible privacy and speeds.</span>
+Instead of just "beaming" yourself to another place, you can now be everywhere at once. *__Connections are individually routed through the network in order to make sure you have the best possible privacy and speeds.__*
 
 ### Automatic Geo-Unblocking
 
@@ -109,9 +96,7 @@ VPNs use a technology first created over 20 years ago with the intent to securel
 
 Only later companies started to offer a "VPN" as an online privacy solution for individual users. In order to do that, they had to twist the VPN technology into a direction it was not created for: protecting a device from the network itself. This is why VPN providers have problems with IP leaks and DNS leaks and try to circumvent the negative side effects with "Kill Switches" and "No Log Policies".
 
-<p class="emphasize">
-  The SPN technology, on the other hand, was created from scratch with a single purpose in mind: Protecting your privacy on the Internet. Every single part of the SPN is geared towards this goal. There are no dirty fixes or bandages. Everything is carefully engineered to protect you.
-</p>
+*__The SPN technology, on the other hand, was created from scratch with a single purpose in mind: Protecting your privacy on the Internet. Every single part of the SPN is geared towards this goal. There are no dirty fixes or bandages. Everything is carefully engineered to protect you.__*
 
 The SPN does not have IP or DNS leaks, because it is part of Portmaster, the privacy firewall that is in control of all your connections.
 
@@ -139,7 +124,9 @@ Instead of just doing some tricks with packet routing, the SPN protects your tra
 
 ![Illustration showing the SPN connecting via multiple exit nodes](https://safing.io/assets/img/spn/spn-community-web.png)
 
-But the SPN goes even one step further. Instead of using your username and password - which makes you identifiable - to log into the SPN, Portmaster authenticates itself not against the network itself, but against the SPN Account Service, which verifies you are allowed to access the network. It then give you special cryptographically blinded tokens, which prove your access permission, but are not linked to your account anymore. <span class="emphasize">This way, no server in the SPN will ever know your username.</span>
+But the SPN goes even one step further. Instead of using your username and password - which makes you identifiable - to log into the SPN, Portmaster authenticates itself not against the network itself, but against the SPN Account Service, which verifies you are allowed to access the network. It then give you special cryptographically blinded tokens, which prove your access permission, but are not linked to your account anymore. 
+
+*__This way, no server in the SPN will ever know your username.__*
 
 ### Node Ownership and Logging
 

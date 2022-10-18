@@ -26,7 +26,7 @@ redirect_from:
       </div>
   </div>
   <div class="showcase-one-container-reverse">
-      <div class="showcase-left" style="max-width: 850px;">
+      <div class="showcase-one-left" style="max-width: 850px;">
         <img src="{{ site.img_url }}page-specific/ownership/influences.png" alt="">
       </div>
       <div class="showcase-one-right">
@@ -40,10 +40,10 @@ redirect_from:
             <br>
             Slowly but surely we are migrating into our dream scenario where we only
             have to rely on the support and trust of our users. Help us get there by
-            using the Portmaster and later down the road, purchasing the SPN.
+            using Portmaster and later down the road, purchasing an upgrade.
           </p>
-          <a class="btn-secondary" href="#influences">Explore the Details</a>
-          <a class="btn-tertiary hover-opacity-out" href="{{ site.spn_url }}#pricing">Support with a Purchase</a>
+          <a class="btn-secondary" href="{{ site.pricing_url }}">Support with a Purchase</a>
+          <a class="btn-tertiary hover-opacity-out" href="#influences">Explore the Details</a>
       </div>
   </div>
   <div class="influence-container" id="influences">
@@ -66,7 +66,7 @@ redirect_from:
       </div>
       <div class="influence-container-bottom">
         {% for influence in site.data.finances %}
-          <div class="card-influence card-shadow">
+          <div class="card-influence darkmode">
             <div class="card-influence-top ">
                 <div class="card-influence-title-date">
                     <span class="card-influence-top-title">{{ influence.name }}</span>

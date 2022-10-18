@@ -1,5 +1,5 @@
 ---
-title: Get Help
+title: Safing Portmaster - Support
 layout: page
 ---
 
@@ -27,22 +27,18 @@ layout: page
             Portmaster setting in detail. Report issues and bugs on GitHub while you can
             always ask for more help on our subreddit or via mail.
           </p>
-          <div class="alert-primary">
-              <i class="icon-info text-md"></i>
-              <span> Portmaster is Alpha Software, thanks for being an Early Adopter. Bug reports are appreciated.</span>
-          </div>
         </div>
         <div class="col-container-center w-full md:w-max text-center md:text-left">
-          <a class="btn-secondary" href="{{ site.docs_url }}"">
+          <a class="btn-secondary" href="{{ site.docs_url }}">
             View Documentation
           </a>
           <a href="{{ site.docs_url }}portmaster/guides/contribute#report-bugs-suggest-features-and-improvements" class="btn-secondary"">
             Report Issue
           </a>
-          <a class="btn-secondary" href="{{ site.reddit_url }}"">
+          <a class="btn-secondary" href="{{ site.reddit_url }}">
             Ask On Reddit
           </a>
-          <a class="btn-secondary" href="mailto:support@safing.io"">
+          <a class="btn-secondary" href="mailto:support@safing.io">
             Contact us
           </a>
         </div>
@@ -59,7 +55,7 @@ layout: page
         <div class="faq-container-bottom">
           {% for faq in site.data.faq.portmaster %}
             <div class="faq-container-bottom-question">
-                <div class="card-faq card-shadow hover-scale-out">
+                <div class="card-faq darkmode hover-scale-out">
                     <label class="card-label" for="card-toggle-anchor-portmaster-{{ forloop.index }}">
                         <div class="wrapper-left">
                             <div class="card-title">
@@ -75,9 +71,7 @@ layout: page
                     <input class="card-input-toggle" id="card-toggle-anchor-portmaster-{{ forloop.index }}" type="checkbox">
                     <div class="card-dropdown-toggle">
                         <div class="card-dropdown-content">
-                          <div class="text-safing-gray-500">
-                            {{ faq.a }}
-                          </div>
+                          {{ faq.a }}
                           {% if faq.link %}
                             <br>
                             <br>
@@ -96,12 +90,6 @@ layout: page
       <h2 class="download-container-title">
         Safing Privacy Network
       </h2>
-      <div class="alert-primary max-w-3xl mx-auto">
-        <i class="icon-info text-md"></i>
-        <span>
-          The SPN is Alpha Software, thanks for being an Early Supporter. Always feel free to reach out.
-        </span>
-      </div>
       <div class="col-container-center w-full md:w-max text-center md:text-left">
         <a class="btn-secondary" href="{{ site.github_url }}/spn">
           View SPN Repository
@@ -126,7 +114,7 @@ layout: page
       <div class="faq-container-bottom">
         {% for faq in site.data.faq.spn %}
           <div class="faq-container-bottom-question">
-              <div class="card-faq card-shadow hover-scale-out">
+              <div class="card-faq darkmode hover-scale-out">
                   <label class="card-label" for="card-toggle-anchor-spn-{{ forloop.index }}">
                       <div class="wrapper-left">
                           <div class="card-title">

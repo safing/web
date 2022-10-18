@@ -1,20 +1,66 @@
 ---
 layout: page
-title: Safing - Love Freedom
+title: Safing Portmaster - Easy Privacy
+redirect_from:
+- /portmaster/
+- /technology/
 ---
 
-{% include header.html %}
-
+<header class="header-two-container mt-20">
+  <div class="header-two-top">
+    <h1 class="header-two-top-title" style="max-width: 700px;">
+      Get Peace of Mind with<br>
+      Easy Privacy
+    </h1>
+    <p class="header-two-top-desc">
+      Portmaster is a free and open-source application firewall that does the heavy lifting for you.
+      Restore privacy and take back control over all your computer's network activity.
+    </p>
+    <div class="flex space-x-8 items-center justify-center">
+      <div class="space-x-8 items-center flex">
+        <a href="{{ site.seen_itsfoss_url }}" class="hover-scale-in cursor-pointer hover-grayscale-in"><img src="{{ site.img_url }}/external/itsfoss.png"></a>
+        <a href="{{ site.seen_privacytools_url }}" class="hover-scale-in cursor-pointer hover-grayscale-in"><img src="{{ site.img_url }}/external/privacytools.png"></a>
+      </div>
+      <div class="hidden lg:block">
+        {% include download_button.html unique_id="1" %}
+      </div>
+      <div class="space-x-8 items-center flex">
+        <a href="{{ site.seen_techlore_url }}" class="hover-scale-in cursor-pointer hover-grayscale-in"><img src="{{ site.img_url }}/external/techlore.png"></a>
+        <a href="{{ site.seen_ghacks_url }}" class="hover-scale-in cursor-pointer hover-grayscale-in"><img src="{{ site.img_url }}/external/ghacks.png"></a>
+      </div>
+    </div>
+    <div class="flex space-x-2 max-w-max mx-auto" style="margin-top: 10px;">
+      <div class="flex items-center" style="margin-left: -19px;">
+        <div class="flex items-center">
+          <span class="block">Version:</span>
+          <img src="{{ site.img_shields_io_release_url }}" style="filter: invert(1); width: 80px; height: 38px; margin-left: -8px;">
+        </div>
+        <div class="flex items-center">
+          <span class="block">Github Stars:</span>
+          <img src="{{ site.img_shields_io_stars_url }}" style="filter: invert(1); width: 50px; height: 38px; margin-left: -8px;">
+        </div>
+    </div>
+    </div>
+  </div>
+  <div class="header-two-bottom" style="margin-top: 2rem; position: relative;">
+      <div class="element-x-center max-w-max mx-auto">
+          <video loop autoplay width="auto" height="auto" poster="{{ site.assets_url }}img/page-specific/landing/portmaster-thumbnail.png">
+              <source src="{{ site.assets_url }}video/page-specific/landing/video.webm" type="video/webm" style="object-fit: cover; border-radius: 12px;">
+         </video>
+      </div>
+  </div>
+  <div class="header-bg">
+    <div class="wave-container" style="z-index: -1; bottom: unset; top: 440px; opacity: .45;">
+        <div class="wave-background" style="background-image: url({{ site.img_url }}page-specific/landing/landing-wave.svg); height: 195px; position: unset;"></div>
+    </div>
+  </div>
+</header>
 <section class="general-layout">
   <div class="showcase-one-container-reverse">
-    <div class="showcase-one-left" style="max-width: 1050px;">
+    <div class="showcase-one-left" style="max-width: 1150px;">
       <img src="{{ site.img_url }}page-specific/portmaster/monitor-network-activity.png" alt="">
     </div>
     <div class="showcase-one-right">
-        <div class="alert-tiny w-max pr-6 bg-safing-blue-600 ml-0 md:mx-auto">
-          <i class="icon-info text-md"></i>
-          <span>Alpha Software: Portmaster is in active development</span>
-        </div>
         <h2 class="showcase-one-right-title" style="max-width: 350px;">
           Monitor All Network Activity
         </h2>
@@ -23,7 +69,7 @@ title: Safing - Love Freedom
           connection your applications make and detect evil ones. Finally get
           the power to act accordingly.
         </p>
-        <a class="btn-secondary" href="{{ site.portmaster_url }}#features">Discover More features</a>
+        <a class="btn-secondary" href="{{ site.features_url }}">Discover More features</a>
     </div>
   </div>
   <div class="showcase-one-container">
@@ -31,10 +77,6 @@ title: Safing - Love Freedom
       <img src="{{ site.img_url }}page-specific/portmaster/block-trackers-system-wide.png" alt="">
     </div>
     <div class="showcase-one-right">
-        <div class="alert-tiny w-max pr-6 bg-safing-blue-600 ml-0 md:mx-auto">
-          <i class="icon-info text-md"></i>
-          <span>Alpha Software: Portmaster is in active development</span>
-        </div>
         <h2 class="showcase-one-right-title" style="max-width: 450px;">
             Auto-Block Trackers System-Wide
         </h2>
@@ -43,55 +85,42 @@ title: Safing - Love Freedom
           advertisements and trackers for every application. Easily add
           your own rules and block individual domains.
         </p>
-        <a class="btn-secondary" href="{{ site.portmaster_url }}#features">Discover More features</a>
+        <a class="btn-secondary" href="{{ site.features_url }}">Discover More features</a>
     </div>
   </div>
   <div class="showcase-one-container-reverse">
-    <div class="showcase-one-left" style="max-width: 850px;">
+    <div class="showcase-one-left" style="max-width: 950px;">
       <img src="{{ site.img_url }}page-specific/portmaster/set-global-and-per-app-configuration.png" alt="">
     </div>
     <div class="showcase-one-right">
-        <div class="alert-tiny w-max pr-6 bg-safing-blue-600 ml-0 md:mx-auto">
-          <i class="icon-info text-md"></i>
-          <span>Alpha Software: Portmaster is in active development</span>
-        </div>
         <h2 class="showcase-one-right-title" style="max-width: 350px;">
             Set Global & per‑App Settings
         </h2>
         <p class="showcase-one-right-desc">
           Make your own rules. Completely cut off applications from the
           Internet. Or block all p2p connections except for certain apps.
-          Or never connect to specific countries. The Portmaster has you
+          Or never connect to specific countries. Portmaster has you
           covered.
         </p>
-        <a class="btn-secondary" href="{{ site.portmaster_url }}#features">Discover More features</a>
+        <a class="btn-secondary" href="{{ site.features_url }}">Discover More features</a>
     </div>
   </div>
-  <div class="download-container" id="download">
-    <h2 class="download-container-title" id="downloads">
-        Download
-    </h2>
-    <div class="alert-primary max-w-3xl mx-auto">
-        <i class="icon-twitter text-xs"></i>
-        <span>Portmaster is Alpha Software, treat as such; expect bugs here and there. Early Adopters welcome.</span>
-    </div>
-    <div class="col-container-center w-full md:w-max text-center md:text-left">
-      <a class="btn-secondary" href="{{ site.download_windows_url }}"><i class="icon-windows text-md mr-2"></i>Windows 10 + 11</a>
-      <a class="btn-secondary" href="{{ site.docs_install_linux_url }}#installers"><i class="icon-ubuntu text-md mr-2"></i>Ubuntu</a>
-      <a class="btn-secondary" href="{{ site.docs_install_linux_url }}#installers"><i class="icon-fedora text-md mr-2"></i>Fedora</a>
-      <a disabled class="btn"><i class="icon-mac text-md mr-2"></i>Macos (Not supported)</a>
-    </div>
-    <p class="download-container-extra">
-        View guide and status for <a class="link-primary" href="{{ site.docs_install_windows_url }}">Windows 7, 8</a> or <a class="link-primary" href="{{ site.docs_install_linux_url }}">other Linux 2.4+ distributions</a>. View installer <a class="link-primary" href="{{ site.github_url }}/checksums/">checksums</a>.
-    </p>
-  </div>
+
+  {% include download_container.html %}
+
   <div class="blogpod-container">
       <div class="blogpod-container-top">
-          <span class="blogpod-container-top-bg-title">Follow Us</span>
+          <span class="blogpod-container-top-bg-title" style="margin-top: -6rem; opacity: 0.11;">Follow Us</span>
           <h2 class="blogpod-container-top-title">
               Blog, Podcast &amp; Videos
           </h2>
+          <div class="col-container-center pt-5 md:pt-0  w-full md:w-max text-center md:text-left">
+            <a class="btn-secondary" href="{{ site.blog_url }}">Blogs</a>
+            <a class="btn-secondary" href="{{ site.podcast_url }}">Podcast</a>
+            <a class="btn-secondary" href="{{ site.video_url }}">Videos</a>
+          </div>
       </div>
+
       <div class="blogpod-container-bottom">
           {% assign all_publications = site.publications | sort: "date" | reverse %}
           {% for publication in all_publications limit: 6 %}
@@ -107,10 +136,6 @@ title: Safing - Love Freedom
             {% endif %}
           {% endfor %}
       </div>
-      <div class="col-container-center pt-20 w-full md:w-max text-center md:text-left">
-        <a class="btn-secondary" href="{{ site.blog_url }}">Blogs</a>
-        <a class="btn-secondary" href="{{ site.podcast_url }}">Podcast</a>
-        <a class="btn-secondary" href="{{ site.video_url }}">Videos</a>
-      </div>
+
   </div>
 </section>
