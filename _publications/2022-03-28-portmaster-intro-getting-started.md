@@ -8,7 +8,7 @@ title: "Portmaster Intro #1: Install on Windows"
 date: 2022-03-28
 video_source: https://assets.safing.io/video/tutorials/portmaster-1-getting-started.mp4
 youtube_hash: xHAESh1zKAc
-custom_thumbnail_name: portmaster-1-getting-started
+custom_thumbnail_name: portmaster-1-getting-started-big
 ---
 
 {% include video_wrapper.html %}

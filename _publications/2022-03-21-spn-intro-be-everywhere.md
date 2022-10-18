@@ -8,7 +8,7 @@ title: "SPN Intro #2: Be Everywhere"
 date: 2022-03-21
 video_source: https://assets.safing.io/video/tutorials/spn-intro-1-be-everywhere.mp4
 youtube_hash: p3tjNmFKrDk
-custom_thumbnail_name: spn-2-multi-identity
+custom_thumbnail_name: spn-2-multi-identity-big
 ---
 
 {% include video_wrapper.html %}
