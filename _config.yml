@@ -82,9 +82,9 @@ github_url: https://github.com/safing
 youtube_channel_url: https://www.youtube.com/c/SafingIO
 invidious_channel_url: https://invidious.snopyta.org/channel/UC_6TW053IlS4M22g7CxnukA
 
-youtube_portmaster_tut_getting_started: https://www.youtube.com/watch?v=xHAESh1zKAc
-youtube_portmaster_tut_filter_lists: https://www.youtube.com/watch?v=PeTuVgK5z9o
-youtube_spn_tut_multi_identity: https://www.youtube.com/watch?v=p3tjNmFKrDk
+youtube_portmaster_tut_getting_started: /video/2022/03/28/portmaster-intro-getting-started/
+youtube_portmaster_tut_filter_lists: /video/2022/04/04/portmaster-intro-filter-lists/
+youtube_spn_tut_multi_identity: /video/2022/03/21/spn-intro-be-everywhere/
 
 seen_itsfoss_url: https://itsfoss.com/portmaster/
 seen_ghacks_url: https://www.ghacks.net/2022/05/16/first-look-at-portmaster-an-open-source-cross-platform-network-monitor/
