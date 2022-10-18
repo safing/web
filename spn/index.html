@@ -147,7 +147,7 @@ layout: page
                 <input class="package-billing-toggle darkmode" type="checkbox" id="consent_text" name="consent_text" value="yes">
                 <div class="package-billing-bottom">
                     <div class="content-one">
-                        <div class="grid md:grid-cols-3 space-y-3 lg:space-y-0 space-x-3 mt-14 justify-center justify-items-center items-baseline mx-auto" style="align-items: center;">
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 transform scale-90 xl:scale-100 gap-5 lg:gap-28 xl:gap-0 justify-center justify-items-center mx-auto" style="align-items: center;">
                             <div class="card-package darkmode" style="height: 650px;">
                                 <div class="card-package-top">
                                     <div class="flex">
@@ -178,9 +178,9 @@ layout: page
                                 </div>
                             </div>
                             <form class="new_charge" id="new_charge" action="https://account.safing.io/charges/checkout" accept-charset="UTF-8" method="get">
-                                <input value="9" autocomplete="off" type="hidden" name="charge[plan_id]" id="charge_plan_id">
+                                <input value="9" autocomplete="off" type="hidden" name="charge[plan_id]" id="charge_package_id">
                                 <div class="card-package darkmode mt-0" style="height: 650px;">
-                                    <div class="absolute -top-8 -right-11">
+                                    <div class="absolute -top-8 -right-11 hidden xl:block">
                                         <img src="{{ site.img_url }}page-specific/pricing/package-icons/circle-big.png" alt="">
                                     </div>
                                     <div class="card-package-top" style="margin-top: 0;">
@@ -228,9 +228,9 @@ layout: page
                                 </div>
                             </form>
                             <form class="new_charge" id="new_charge" action="https://account.safing.io/charges/checkout" accept-charset="UTF-8" method="get">
-                                <input value="1" autocomplete="off" type="hidden" name="charge[plan_id]" id="charge_plan_id">
+                                <input value="1" autocomplete="off" type="hidden" name="charge[plan_id]" id="charge_package_id">
                                 <div class="card-package darkmode mt-0" style="height: 650px;">
-                                    <div class="absolute -top-8 -right-11">
+                                    <div class="absolute -top-8 -right-11 hidden xl:block">
                                         <img src="{{ site.img_url }}page-specific/pricing/package-icons/triangle-big.png" alt="">
                                     </div>
                                     <div class="card-package-top" style="margin-top: 0;">
@@ -259,7 +259,6 @@ layout: page
                                     </div>
                                     <div class="card-package-bottom" style="display: block;">
                                         <span class="element-x-center-max mt-4 text-sm">Billing does <strong>NOT</strong> auto-renew</span>
-
                                         <div class="mx-auto space-x-2 flex w-percent-80">
                                               <input class="btn-secondary less-round w-full h-auto py-5" type="submit" name="commit" value="Buy Package"  data-disable-with="Buy Package">
                                               <nojs>
@@ -274,6 +273,133 @@ layout: page
                         </div>
                     </div>
                     <div class="content-two">
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 transform scale-90 xl:scale-100 gap-5 lg:gap-28 xl:gap-0 justify-center justify-items-center mx-auto" style="align-items: center;">
+                            <div class="card-package darkmode" style="height: 650px;">
+                                <div class="card-package-top">
+                                    <div class="flex">
+                                        <span class="card-package-top-title">Portmaster Free</span>
+                                    </div>
+                                    <span class="card-package-top-amount">
+                                        Free
+                                        <span class="card-package-top-amount-monthly">/ Forever</span>
+                                    </span>
+                                    <p class="card-package-top-desc" style="max-width: 480px;">Increase your privacy and security.</p>
+                                </div>
+                                <div class="card-package-middle">
+                                    <span class="card-package-middle-includes">Features
+                                    </span>
+                                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Privacy Filter
+                                    </span>
+                                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Secure DNS
+                                    </span>
+                                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Network Monitor
+                                    </span>
+                                    <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Community Support
+                                    </span>
+                                </div>
+                                <div class="card-package-bottom" style="bottom: 36px;">
+                                  <div class="hidden lg:block">
+                                      {% include download_button.html unique_id="2" %}
+                                  </div>
+                                </div>
+                            </div>
+                            <form class="new_charge" id="new_charge" action="https://account.safing.io/charges/checkout" accept-charset="UTF-8" method="get">
+                                <input value="10" autocomplete="off" type="hidden" name="charge[plan_id]" id="charge_package_id">
+                                <div class="card-package darkmode mt-0" style="height: 650px;">
+                                    <div class="absolute -top-8 -right-11 hidden xl:block">
+                                        <img src="{{ site.img_url }}page-specific/pricing/package-icons/circle-big.png" alt="">
+                                    </div>
+                                    <div class="card-package-top" style="margin-top: 0;">
+                                        <div class="flex">
+                                            <span class="card-package-top-title">Portmaster  <span style="color: #2fcfae;">Supporter</span> </span>
+                                        </div>
+                                        <span class="card-package-top-amount">
+                                            30€
+                                            <span class="card-package-top-amount-monthly">/ 1-Year</span>
+                                        </span>
+                                        <p class="card-package-top-desc" style="max-width: 480px;">We truly appreciate your support.</p>
+                                    </div>
+                                    <div class="card-package-middle">
+                                        <span class="card-package-middle-includes">Features
+                                        </span>
+                                        <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Everything in Free
+                                        </span>
+                                        <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Priority Support
+                                        </span>
+                                        <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Discord Benefits
+                                          <span class="ml-1">
+                                              <img src="{{ site.img_url }}page-specific/pricing/package-icons/circle-triangle.png" style="width: 19px; display: inline-block;"  alt="">
+                                          </span>
+                                      </span>
+                                      <span class="card-package-middle-includes"></span>
+                                        <span class="card-package-middle-includes-feature">
+                                          <span tooltip="Future Feature">
+                                            <i class="icon-alarm-clock-time-timer text-gray-500 text-xl mr-1"></i>
+                                          </span> Early Access to Features
+                                      </span>
+                                        <span class="card-package-middle-includes-feature"><i class="icon-alarm-clock-time-timer text-gray-500 text-xl mr-1"></i> Reddit Benefits
+                                            <span class="ml-1">
+                                                <img src="{{ site.img_url }}page-specific/pricing/package-icons/circle-triangle.png" style="width: 19px; display: inline-block;"  alt="">
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="card-package-bottom" style="display: block;">
+                                        <span class="element-x-center-max mt-4 text-sm">Billing does <strong>NOT</strong> auto-renew</span>
+                                        <div class="mx-auto space-x-2 flex w-percent-80">
+                                          <input class="btn-secondary less-round w-full h-auto py-5" type="submit" name="commit" value="Buy Package"  data-disable-with="Buy Package">
+                                          <nojs>
+                                              <div class="input-counter darkmode h-full">
+                                                  <input class="input-counter-right" value="1" step="1" min="1" max="4" required="required" class="input-counter-right" type="number" name="charge[quantity]" id="charge_quantity">
+                                              </div>
+                                          </nojs>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <form class="new_charge" id="new_charge" action="https://account.safing.io/charges/checkout" accept-charset="UTF-8" method="get">
+                                <input value="2" autocomplete="off" type="hidden" name="charge[plan_id]" id="charge_package_id">
+                                <div class="card-package darkmode mt-0" style="height: 650px;">
+                                    <div class="absolute -top-8 -right-11 hidden xl:block">
+                                        <img src="{{ site.img_url }}page-specific/pricing/package-icons/triangle-big.png" alt="">
+                                    </div>
+                                    <div class="card-package-top" style="margin-top: 0;">
+                                        <div class="flex">
+                                            <span class="card-package-top-title">Portmaster <span style="color: #029ad0;">Unlimited</span></span>
+                                        </div>
+                                        <span class="card-package-top-amount">
+                                            99€
+                                            <span class="card-package-top-amount-monthly">/ 1-Year</span>
+                                        </span>
+                                        <p class="card-package-top-desc" style="max-width: 480px;">It's time to ditch VPN's.</p>
+                                    </div>
+                                    <div class="card-package-middle">
+                                        <span class="card-package-middle-includes">Features
+                                        </span>
+                                        <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Everything in <span style="color: #2fcfae;">Supporter</span>
+                                        </span>
+                                        <span class="card-package-middle-includes">SPN Accress
+                                        </span>
+                                        <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Multiple Identities
+                                        </span>
+                                      <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Geo-Unblocking
+                                      </span>
+                                      <span class="card-package-middle-includes-feature"><i class="icon-tick text-green-500 mr-1"></i> Built for Privacy
+                                      </span>
+                                    </div>
+                                    <div class="card-package-bottom" style="display: block;">
+                                        <span class="element-x-center-max mt-4 text-sm">Billing does <strong>NOT</strong> auto-renew</span>
+                                        <div class="mx-auto space-x-2 flex w-percent-80">
+                                              <input class="btn-secondary less-round w-full h-auto py-5" type="submit" name="commit" value="Buy Package"  data-disable-with="Buy Package">
+                                              <nojs>
+                                                  <div class="input-counter darkmode h-full">
+                                                      <input class="input-counter-right" value="1" step="1" min="1" max="4" required="required" class="input-counter-right" type="number" name="charge[quantity]" id="charge_quantity">
+                                                  </div>
+                                              </nojs>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
