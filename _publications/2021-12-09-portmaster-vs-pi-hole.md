@@ -61,7 +61,7 @@ summary: Both Portmaster and Pi-hole are free and open source privacy tools. The
         <tr class="card-table-body-row">
             <td class="card-table-body-row-cell-title">Availabilty</td>
             <td class="card-table-body-row-cell">
-                <a class="card-table-body-row-cell-link" href="{{ site.portmaster_url }}#downloads">
+                <a class="card-table-body-row-cell-link" href="{{ site.download_url }}">
                     <div class="md:space-x-2">
                         <i class="icon-windows text-2xl text-safing-blue-500"></i>
                         <i class="icon-linux text-2xl"></i>

@@ -73,7 +73,7 @@ cards:
           text: "The new UI was a big step sure, but it is still off from the concept design. Luke is spending a good amount of time to tackle and polish each sub-design individually. This month Patrick fixed a lot of smaller UI bugs, and the network monitor got a face-lift from Luke. The new eye-candy is already live for you to enjoy."
         - type: a
           text: "Download the Portmaster"
-          href: "https://safing.io/portmaster/#downloads"
+          href: "https://safing.io/download/"
     - title: "Define Next Marketing Steps"
       description: Since two vital requirements were completed, (1) re-shifting communication towards the Portmaster and (2) its documentation, now focus on spreading the word again. Define the next steps and keep everyone in the loop.
       team:

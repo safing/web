@@ -126,7 +126,7 @@ cards:
           text: "The new UI was a big step sure, but it is still off from the concept design. Luke is spending a good amount of time to tackle and polish each sub-design individually. This month, the navbar, the side-dash and the widgets were given a face-lift. They are ready and will be included in the next Portmaster Release. The next step will be the Network Monitor - stay tuned!"
         - type: a
           text: "Download the Portmaster"
-          href: "https://safing.io/portmaster/#downloads"
+          href: "https://safing.io/download/"
     - title: "Define Next Steps"
       description: Since two vital requirements were completed, (1) re-shifting communication towards the Portmaster and (2) its documentation, now focus on spreading the word again. Define the next steps and keep everyone in the loop.
       team:
