@@ -8,7 +8,7 @@ title: "Portmaster Intro #2: Block Trackers"
 date: 2022-04-04
 video_source: https://assets.safing.io/video/tutorials/portmaster-2-filter-lists.mp4
 youtube_hash: PeTuVgK5z9o
-custom_thumbnail_name: portmaster-2-filter-lists
+custom_thumbnail_name: portmaster-2-filter-lists-big
 ---
 
 {% include video_wrapper.html %}
