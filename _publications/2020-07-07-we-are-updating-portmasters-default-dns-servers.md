@@ -48,7 +48,7 @@ The new set of DNS Providers (sorted alphabetically) will be:
 - Cloudflare
 - Quad9
 
-All of these each excel in a different combinations of wanted attributes. [Read this blog post]({{ site.blog_url }}/2020/07/07/how-safing-selects-its-default-dns-providers/) for an in-depth insight into how we select DNS providers.
+All of these each excel in a different combinations of wanted attributes. [Read this blog post]({{ site.blog_url }}2020/07/07/how-safing-selects-its-default-dns-providers/) for an in-depth insight into how we select DNS providers.
 
 For the moment, we will be using Cloudflare as our primary default (1), because - quite frankly - its unrivaled speed makes up for some performance issues we have in the Portmaster. Addressing these issues is on our roadmap, but will require lots of time and resources, which we currently lack.
 

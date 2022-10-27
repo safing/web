@@ -22,7 +22,7 @@ summary: "
 
 <h4>Old Website & Design</h4>
 
-- <a href='https://safing.io/assets/podcast/img/old_design.png'>https://safing.io/assets/podcast/img/old_design.png</a><br/>
+- <a href='https://safing.io/assets/img/archive/previous_designs/homepage_v2.png'>https://safing.io/assets/img/archive/previous_designs/homepage_v2.png</a><br/>
 
 <h4>Participate</h4>
 
