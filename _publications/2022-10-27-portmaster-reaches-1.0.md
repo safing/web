@@ -44,7 +44,7 @@ The biggest feature coming with version 1.0 brings all functions of the Portmast
 
 ### Explore Your Multiple Identities
 
-With the new "Side-Dash" you can now easily see what countries each app is connecting through and how many identities you have per app. With [Portmaster Unlimited]({{ site.spn_url }}), it also became easier to navigate to the world map, making exploration not only informative but also fun.
+With the new "Side-Dash" you can now easily see what countries each app is connecting through and how many identities you have per app. With [Portmaster Unlimited]({{ site.spn_url }}), it also has become easier to navigate to the world map, making exploration not only informative but also fun.
 
 ![image displaying the identities graph and shield of the side-dash]({{ site.img_url }}blog/release-1.0/side-dash-1.png)
 
@@ -61,7 +61,7 @@ We are super excited to have reached this milestone! 🎉
 
 #### Portmaster Is Not Done Yet
 
-Naturally, this does not mean we are done with Portmaster or that bugs can no longer appear. However, this is one **huge** checkpoint in our journey, with many milestones and features yet to come.
+Naturally, this does not mean we are done with Portmaster or that bugs can no longer appear. However, reaching version 1.0 is a **huge** checkpoint in our journey, with many milestones and features yet to come.
 
 #### Next Up
 
