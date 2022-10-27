@@ -159,7 +159,7 @@ Most of these privacy protections are enabled and handled by Portmaster automati
 
 Software development and maintenance requires funds, so Portmaster and the GlassWire are supported by a business model. Many of the features mentioned by GlassWire, such as remote connection monitoring, Wi-Fi network monitor, Virus total scanning, and longer connection history, will cost you $39, $69, or $99 depending on your needs.
 
-Portmaster, on the other hand, is both free in terms of freedom and free in terms of price. Safing makes money by charging for the SPN (a powerful VPN alternative), which is a feature built into Portmaster that costs $9.99 per month. In case you enjoy the Portmaster and want to support its development, this is the best way.
+Portmaster, on the other hand, is both free in terms of freedom and free in terms of price. Safing makes money by charging a monthly fee for additional privacy features. In case you enjoy the Portmaster and want to support its development, an upgrade is the best way.
 
 Having a business models and openly communicating this is an important thing for privacy tools. Because without a business model, a project might die or be bought out by Venture Capital, which have a tendency to be quick on monetizing intimate user data.
 
