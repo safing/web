@@ -16,65 +16,29 @@
 
 cards:
   done:
-    - title: Graphs & Full-Device Network Activity
-      description:
-        - Enable users to view connections across all applications. Make it easy to filter based on individual needs. Add graphs for an even better overview.
-      projects:
-        - Portmaster
-      team:
-        - Patrick
-        - Luke
-    - title: Custom Filter Lists
-      description: Integrate custom filter lists into Portmaster so users can block their own local list of domains.
-      projects:
-        - Portmaster
-      team:
-        - Vladimir
-    - title: DNS over HTTPS
-      description: Support DNS over HTTPS so users can chose how to secure their DNS. Even if we prefer DoT, make it possible for user choice.
-      projects:
-        - Portmaster
-      team:
-        - Daniel
-        - Vladimir
-    - title: SPN Page Revamp
-      description: Now that the SPN has been out a few months, redesign the SPN product page to bring it up to speed. Re-think the presented features and include screenshots.
-      projects:
-        - Website
-      team:
-        - Luke
-        - Alex
-    - title: Comparison Blog Posts
-      description: Write blog posts comparing Portmaster with different alternatives. Write an honest review on the strength and weaknesses of Portmaster and others.
-      projects:
-        - Website
-      team:
-        - David
-        - Pranav
-  in_progress:
-    - title: "Move Out of \"Alpha\""
+    - title: "Reach Portmaster Version 1.0"
       description: "Now that Portmaster has matured and stabilized over the years, as well as gained tons of features, we are getting ready to move out of the \"Alpha\" stage."
       projects:
         - Portmaster
       team:
         - Raphael
         - Daniel
-    - title: Improved SPN Interface
+    - title: Cryptographically Sign Updates
       description:
-        - The SPN interface in Portmaster was a quick first implementation. Now that the SPN has been out a few months, re-imagine the interface and make it easy to see and configure the SPN in action.
+        - Add an additional layer of protection to the update framework by cryptographically signing all resources it distributes.
       projects:
-        - SPN
+        - Portmaster
       team:
-        - Luke
         - Patrick
+        - Daniel
     - title: Community Nodes
       description:
         - Now that community nodes are fully supported, make it easy for contributors to get started by creating good documentation. Reach out to first contributors so we get a good base of community nodes.
       projects:
         - SPN
       team:
+        - Raphael
         - Daniel
-        - David
     - title: Dark Mode Redesign
       description: "Since we will be moving out of \"Alpha\", tackle dark mode for the website to then be able to show the big update."
       projects:
@@ -82,17 +46,47 @@ cards:
       team:
         - Luke
         - David
+    - title: Support Multi-Tier Payments
+      description: "With version 1.0, the new \"Supporter\" tier will become available. Make it possible for customers to chose between the different tiers."
+      projects:
+        - Website
+      team:
+        - Alex
+    - title: "Docs: Portmaster Update System"
+      description: Describe how Portmaster updates itself in more detail. What is the purpose of each resource? How do we protect your privacy in the process?
+      projects:
+        - Website
+      team:
+        - Daniel
+        - Raphael
+  in_progress:
+    - title: Improve Windows kext
+      description:
+        - The integration of Portmaster on Windows has a few areas it can be improved upon. Refactor the kernel extension, try to improve speeds and make the overall experience on Windows smoother.
+      projects:
+        - Portmaster
+      team:
+        - Vladimir
+    - title: Improve SPN Interface
+      description:
+        - The SPN interface in Portmaster was a quick first implementation. Now that the SPN has been out a few months, re-imagine the interface and make it easy to see and configure the SPN in action.
+      projects:
+        - SPN
+      team:
+        - Patrick
+    - title: Extend the Network
+      description:
+        - Fire up additional servers to increase speeds as well as covering new areas. Talk with trusted entities who would want to contribute to the network in order to further strengthen the SPN.
+      projects:
+        - SPN
+      team:
+        - Raphael
+        - David
     - title: Portmaster Tutorials
       description: Create guides for Portmaster to help new users find and configure the settings they might need.
       projects:
         - Website
       team:
-        - Pranav
-  postponed:
-    - title: Two-Factor Authentication (2FA)
-      description: Enable customers to secure their accounts with different methods of 2FA.
-      projects:
-        - Website
-      team:
-        - Alex
+        - Daniel
+        - Tabitha
   discarded:
