@@ -14,7 +14,7 @@ spn:
       text: Read our comparison blog to find out more.
       url: /blog/2020/01/22/how-the-spn-compares-to-tor/
   - q: Are all connections routed through the SPN?
-    a: Yes, when enabled the Portmaster routes all Internet connections through the Safing Privacy Network. You can easily create exceptions for apps or processes if you so desire.
+    a: Yes, when enabled Portmaster routes all Internet connections through the Safing Privacy Network. You can easily create exceptions for apps or processes if you so desire.
   - q: Does the SPN route all connections individually? So every connection exits on a different node?
     a: Yes. Every connection is routed separately, giving you a vast amount of identities (IP addresses).
     link:
@@ -29,14 +29,14 @@ spn:
   - q: Does the SPN only protect my browser?
     a: The SPN reroutes all your computers connections, including those of your browser.
   - q: Can I safely log in to sites via the SPN? Like my bank account etc?
-    a: Yes. All serious websites use secure https connections, which encrypts the content of your connection (like login credentials) before the Portmaster wraps them in onion encryption. So no ISP architecture or SPN exit node will be able to manipulate that data. It is protected by https all the way to the destination server.
+    a: Yes. All serious websites use secure https connections, which encrypts the content of your connection (like login credentials) before Portmaster wraps them in onion encryption. So no ISP architecture or SPN exit node will be able to manipulate that data. It is protected by https all the way to the destination server.
   - q: What platforms will you support?
-    a: Since the SPN is integrated into the Portmaster, we support the same platforms as the Portmaster software. Currently these are Windows and Linux. Mac and Mobile are planned, but are further down the road.
+    a: Since the SPN is integrated into Portmaster, we support the same platforms as Portmaster software. Currently these are Windows and Linux. Mac and Mobile are planned, but are further down the road.
   - q: Is there a free trial version for people interested in the SPN?
-    a: No. Providing the network costs us money, so we charge accordingly. However, the Portmaster with its many local privacy features are and will remain free to use.
+    a: No. Providing the network costs us money, so we charge accordingly. However, Portmaster with its many local privacy features are and will remain free to use.
 portmaster:
-  - q: Since the Portmaster can block ads and trackers, do I still need an ad-blocker for my browser?
-    a: Yes, we highly recommend to continue using adblockers, such as uBlock Origin, uMatrix, or similar. They give you more fine grained control over domains. iE you can allow certain domains to allow css files & images while blocking cookies & javascripts. The Portmaster cannot make this distinction.
+  - q: Since Portmaster can block ads and trackers, do I still need an ad-blocker for my browser?
+    a: Yes, we highly recommend to continue using adblockers, such as uBlock Origin, uMatrix, or similar. They give you more fine grained control over domains. iE you can allow certain domains to allow css files & images while blocking cookies & javascripts. Portmaster cannot make this distinction.
   - q: What platforms do you support?
     a: Currently we support Windows and Linux. Mac and Mobile are planned, but are further down the road.
   - q: Incoming connections no longer work. Why?
@@ -50,4 +50,4 @@ portmaster:
       text: Learn how to configure exceptions for Incoming Connections
       url: https://docs.safing.io/portmaster/settings#filter/serviceEndpoints
 
-# ## The Portmaster can block ads and trackers. Do I still need a ad-blocking web extension?
+# ## Portmaster can block ads and trackers. Do I still need a ad-blocking web extension?
