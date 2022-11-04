@@ -33,7 +33,7 @@ Just in time, after reaching the milestone of [4k stars]({{ site.github_url }}/p
 
 ### Navigate Portmaster Smoothly
 
-The biggest feature coming with version 1.0 brings all functions of the Portmaster together. With the new "Side-Dash", you can now easily jump between apps to investigate their connections or quickly jump to their settings. Monitoring your computer and configuring your personal preferences becomes a breeze.
+The biggest feature coming with version 1.0 brings all functions of Portmaster together. With the new "Side-Dash", you can now easily jump between apps to investigate their connections or quickly jump to their settings. Monitoring your computer and configuring your personal preferences becomes a breeze.
 
 ![image displaying the multi-app navigation within the side-dash]({{ site.img_url }}blog/release-1.0/side-dash-2.png)
 
