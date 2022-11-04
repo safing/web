@@ -34,11 +34,6 @@ cards:
       - Utilize this functionality to route all your SPN traffic through multiple Internet uplinks at the same time.
     projects:
       - SPN
-  - title: Routing Profiles
-    description:
-      - Make it possible to prioritize either speed, privacy or latency when using the SPN. Permit configuration per app/security level.
-    projects:
-      - SPN
   - title: IP Leak Protection
     description:
       - Block known services that want to snoop your IP address.
