@@ -41,30 +41,33 @@ layout: page
     </div>
     <div class="horizontal-line max-w-5xl mx-auto"></div>
     <div class="space-y-40">
-      {% for external in site.data.team.externals %}
-        <div class="team-member" id="{{ external.name | slugify }}">
+      <div class="header-three-container">
+        <h2 class="text-5xl">Past Members</h2>
+      </div>
+      {% for prev in site.data.team.previous %}
+        <div class="team-member" id="{{ prev.name | slugify }}">
           <div class="team-member-left">
               <div class="team-member-left-profile relative">
-                  <img src="{{ site.img_url }}profiles/{{ external.name | slugify }}.png" alt="{{ external.name }}">
+                  <img src="{{ site.img_url }}profiles/{{ prev.name | slugify }}.png" alt="{{ prev.name }}">
               </div>
               <div class="team-member-left-scoial">
-                {% for handle in external.handles %}
-                  <a href="{{ handle.external_url }}" target="_blank"><i class="icon-{{ handle.icon }} text-md"></i></a>
+                {% for handle in prev.handles %}
+                  <a href="{{ handle.prev_url }}" target="_blank"><i class="icon-{{ handle.icon }} text-md"></i></a>
                 {% endfor %}
               </div>
           </div>
           <div class="team-member-right">
               <span class="team-member-right-postion">
-                {{ external.title }}
+                {{ prev.title }}
               </span>
               <span class="team-member-right-name">
-                {{ external.name }}
+                {{ prev.name }}
               </span>
               <span class="team-member-right-date">
-                Joined {{ external.joined }}
+                {{ prev.joined }}
               </span>
               <p class="team-member-right-desc">
-                {{ external.description }}
+                {{ prev.description }}
               </p>
           </div>
         </div>
