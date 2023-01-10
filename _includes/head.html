@@ -34,3 +34,7 @@
 <link rel="stylesheet" href="{{ site.assets_url }}css/main.css" type="text/css">
 
 {% include plausible.html %}
+
+{%- if page.redirect -%}  
+<meta http-equiv="refresh" content="{{ page.redirect_after | default: 0 }};url={{ page.redirect }}" />
+{%- endif %}
