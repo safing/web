@@ -9,7 +9,7 @@ layout: publication_container
         {{ page.summary | markdownify | remove: "<p>" | remove: "</p>" }}
       </p>
     {% endif %}
-    <span class="header-four-container-title-author">
+    <span class="header-four-container-title-author text-md">
       {% if page.updated %}
         updated {{ page.updated | date: "%B %-d, %Y" }}
       {% else %}
