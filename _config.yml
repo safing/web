@@ -5,6 +5,9 @@ plugins:
   - jekyll-paginate
   - jekyll-redirect-from
 
+include: 
+  - .well-known
+
 ####################
 ###### routes ######
 ####################
@@ -73,7 +76,7 @@ donations:
 ###########################
 
 title: Safing
-encoding: "utf-8"
+encoding: "UTF-8"
 lang: "en"
 description: > # this means to ignore newlines until "base_url:"
   Safing is a software that protects your privacy online. It's so easy, anyone can use it.
