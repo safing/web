@@ -9,7 +9,7 @@ custom_thumbnail_name: spn-vs-vpn
 portmaster_plug: true
 redirect_from:
   - /blog/2020/01/22/how-the-spn-compares-to-vpns/
-summary: VPN is an out-dated technology that was never intended to protect your privacy. It simply swaps your one identity with one different identity, creating only a minor obstacle for today's mass surveillance. SPN on the other hand is built from the ground up and fully designed to protect your privacy. It gives you multiple identities by default. Therefore we believe people looking for privacy will prefer SPN.
+summary: VPN is an out-dated technology that was never intended to protect your privacy. It simply swaps your one identity with one different identity, creating only a minor obstacle for today's mass surveillance. <span tooltip="Safing Privacy Network">SPN <i class="icon-info text-sm"></i></span> on the other hand is built from the ground up and fully designed to protect your privacy. It gives you multiple identities by default. Therefore we believe people looking for privacy will prefer SPN.
 ---
 
 {% include spn_vs_vpns_top.html %}
