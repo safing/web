@@ -7,7 +7,7 @@ spn:
   - q: What payment methods are supported?
     a: You can pay with your creditcard, PayPal, cash and crypto currencies (BTC, ETH, XMR).
   - q: Do you accept crypto currency payments?
-    a: Yes - we support Bitcoin, Ethereum and Monero. Aside from that we also support creditcard, PayPal and cash payments.
+    a: Yes - we support Bitcoin and Monero. Aside from that we also support creditcard, PayPal and cash payments.
   - q: Is the SPN like Tor?
     a: The SPN is heavily inspired by Tor, but the mission is different. Next to tightly integrating with other privacy modules, the main focus of the SPN is easy protection for your whole computer, not just your browser. Additionally it spreads your connections across the globe instead of routing everything through the same circuit.
     link:
