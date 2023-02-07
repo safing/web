@@ -5,11 +5,11 @@ layout: publication_container
 <div class="header-four-container">
     <h1 class="header-four-container-title">{{ page.title }}</h1>
     {% if page.summary %}
-      <p class="header-four-container-desc">
+      <p class="header-four-container-desc text-2xl">
         {{ page.summary | markdownify | remove: "<p>" | remove: "</p>" }}
       </p>
     {% endif %}
-    <span class="header-four-container-title-author">
+    <span class="header-four-container-title-author text-md">
       {% if page.updated %}
         updated {{ page.updated | date: "%B %-d, %Y" }}
       {% else %}
