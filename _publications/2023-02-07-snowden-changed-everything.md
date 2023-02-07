@@ -2,11 +2,11 @@
 # possible values: blog video podcast
 category: blog
 layout:   blog
-title: "After Snowden, We Quit Our Jobs to Build Privacy Software - It&nbsp;Just&nbsp;Reached&nbsp;1.0"
-date: 2023-01-27
+title: "After Snowden, We Quit Our Jobs to Build Privacy Software - It&nbsp;Reached&nbsp;v1.0"
+date: 2023-02-07
 author: David
 summary: "In 2013 the Snowden Revelations shook up the entire world. Impacted by this, three guys from Austria quit their well-paying jobs to build privacy software for the masses."
-custom_thumbnail_name: portmaster-1.0
+custom_thumbnail_name: snowden-changed-everything
 portmaster_plug: true
 ---
 
@@ -38,7 +38,7 @@ At the same time, little or no transparency is given about the programs of mass 
 {:.text-2xl}
 > As such, mass surveillance is a threat to our democracies and freedoms.
 
-Snowden did not stop these programs, but his revelations made it impossible for the world to continue looking the other way. So while things did not change and some things even got worse, Snowden still changed the world. He changed everything. He changed our perception.
+Snowden could not stop these programs, but his revelations made it impossible for the world to continue looking the other way. So while things did not change and some things even got worse, Snowden still changed the world. He changed everything. He changed our perception.
 
 ### We Quit Our Jobs to Develop Privacy Full-Time
 
@@ -88,7 +88,7 @@ correct - the 1.0 release was recent
 
 Even as our software was labeled as "early development" - it managed to get 4.0k GitHub stars. Thousands of people downloaded and tested early software. Those people were in search for easy privacy.
 
-The masses do not want their entire lives to be surveilled by default. It is simply that they did not have a choice so far. And this is changing. We see it in our growth. And you see it too. More and more people are standing their ground to make privacy possible in the age of mass surveillance.
+The masses do not want their entire lives to be surveilled by default. It is simply that they did not have a choice so far. And this is changing. We see it in our growth. [Portmaster is the fastest growing open-source project in 2022 without investments](https://runacap.com/ross-index/annual-2022/) (#4 overall). And you will notice this trend too. More and more people are standing their ground to make privacy possible in the age of mass surveillance.
 
 And along our societies, Portmaster will continue to evolve to a better future. There are tons of features planned, and we want to continue to make things simpler and simpler. To grandma and beyond!
 
