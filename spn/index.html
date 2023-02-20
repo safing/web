@@ -229,7 +229,8 @@ layout: page
         <div class="showcase-two-bottom" style="max-width: 100%;">
             <div class="blogpod-container" style="margin-top: 0;">
                 <div class="blogpod-container-bottom">
-                    {% assign all_publications = site.publications | sort: "date" | reverse %}
+                    {% assign all_publications = site.publications | where_exp:"item",
+  "item.hide_from_features != true" | sort: "date" | reverse %}
                     {% for publication in all_publications limit: 3 %}
                     {% if publication.category == "blog" %}
                         {% assign post = publication %}

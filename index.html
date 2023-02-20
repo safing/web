@@ -122,7 +122,8 @@ redirect_from:
       </div>
 
       <div class="blogpod-container-bottom">
-          {% assign all_publications = site.publications | sort: "date" | reverse %}
+          {% assign all_publications = site.publications | where_exp:"item",
+"item.hide_from_features != true" | sort: "date" | reverse %}
           {% for publication in all_publications limit: 6 %}
             {% if publication.category == "blog" %}
               {% assign post = publication %}
