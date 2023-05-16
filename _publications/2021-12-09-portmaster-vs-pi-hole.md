@@ -165,7 +165,7 @@ This could result in additional costs and maintenance.
 
 More setup and technical knowledge is required to access it outside the local network and keep the server secure. In the end, it may well be worth the extra efforts if your threat model demands it.
 
-The documentation for the [Pi-hole](https://docs.pi-hole.net/) and [Portmaster](https://docs.safing.io/portmaster/architecture/overview) will provide more details if you wish to dig into the technical details.
+The documentation for the [Pi-hole](https://docs.pi-hole.net/) and [Portmaster](https://wiki.safing.io/en/Portmaster/Architecture/Overview) will provide more details if you wish to dig into the technical details.
 
 ### Portmaster Allows You to Configure Settings System-Wide and Per-App
 
@@ -226,7 +226,7 @@ Portmaster also has a Simple/Advanced switch that shows or hides settings, allow
 
 ### Both Solutions Can Be Used Alongside an Existing VPN Connection
 
-The Portmaster and the Pi-hole support running alongside a VPN. Some VPNs require additional setup, so it is always good if you check the compatibility of your VPN in the latest docs of the [Portmaster](https://docs.safing.io/portmaster/install/status/vpn-compatibility) and the [Pi-hole](https://docs.pi-hole.net/guides/vpn/openvpn/overview/).
+The Portmaster and the Pi-hole support running alongside a VPN. Some VPNs require additional setup, so it is always good if you check the compatibility of your VPN in the latest docs of the [Portmaster](https://wiki.safing.io/en/Portmaster/App/Compatibility/VPN) and the [Pi-hole](https://docs.pi-hole.net/guides/vpn/openvpn/overview/).
 
 ### Portmaster Makes It Easy to Auto-Block Domains By Category
 

@@ -10,9 +10,9 @@ contact_links:
 #   about: "Create issue for everything related to Safing's main website"
 
 - name: "Contribution Guideline"
-  url: https://docs.safing.io/portmaster/guides/contribute
+  url: https://wiki.safing.io/en/Contribute
   about: Learn how to best contribute and make sure your work is aligned with Safing’s current goals and focus
 
 - name: "Code of Conduct"
-  url: https://docs.safing.io/community/code-of-conduct
+  url: https://wiki.safing.io/en/CodeOfConduct
   about: Be nice to other community members

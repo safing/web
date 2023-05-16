@@ -95,7 +95,7 @@ __4/5 Technical Quality__
 While Quad9 is operated in locations where PCH is also present, through which they gain a [remarkable global presence](https://quad9.net/locations/). On the other side, there are reports with their performance, and we have also experienced technical issues with their service. To be fair, one must note that they operate on a shoestring budget and definitely punch above their weight.  
 ➖ Lacking Query Performance.
 
-_You can find the [exact configuration for each provider here](https://docs.safing.io/portmaster/guides/dns-configuration)._
+_You can find the [exact configuration for each provider here](https://wiki.safing.io/en/Portmaster/App/DNSConfiguration)._
 
 ### Our Primary Default
 
@@ -112,7 +112,7 @@ Be reminded that this is not the order in which we rate these providers, but eac
 
 Not all changes between providers in the defined working set will be communicated separately. Be assured that we will [thoroughly communicate any changes to this working set of providers]().
 
-We would highly appreciate any feedback you have on this selection of providers. If you want to set the DNS provider yourself, [here is how you do it](https://docs.safing.io/portmaster/guides/dns-configuration).
+We would highly appreciate any feedback you have on this selection of providers. If you want to set the DNS provider yourself, [here is how you do it](https://wiki.safing.io/en/Portmaster/App/DNSConfiguration).
 By doing so, the Portmaster will never use anything else until you make changes again (for global DNS queries).
 
 ### Conclusion

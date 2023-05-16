@@ -193,7 +193,7 @@ On the other hand, Portmaster uses the Windows Filtering Platform (WFP) in kerne
 
 In order to give you an overview of what is happening on your device, the Portmaster directly feeds the raw network data into its Network monitor, showing you what your network has been up to within the last 10 minutes.
 
-Contrary to GlassWire, Portmaster's system integration is both [documented](https://docs.safing.io/portmaster/architecture/os-integration#windows) and [open source](https://github.com/safing/portmaster-windows-kext/), so you can verify our claims.
+Contrary to GlassWire, Portmaster's system integration is both [documented](https://wiki.safing.io/en/Portmaster/Architecture/OSIntegration#windows) and [open source](https://github.com/safing/portmaster-windows-kext/), so you can verify our claims.
 
 ### Portmaster Safeguards Your DNS queries From ISPs to Enhance Your Privacy
 

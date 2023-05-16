@@ -71,11 +71,9 @@ installer_checksums: https://github.com/safing/checksums/
 img_shields_io_stars_url: https://img.shields.io/github/stars/safing/portmaster?color=%23fff0&label=%20&style=for-the-badge
 img_shields_io_release_url: https://img.shields.io/github/v/release/safing/portmaster?color=%23fff0&label=%20&style=for-the-badge
 
-docs_install_linux_url: https://docs.safing.io/portmaster/install/linux
-docs_install_windows_url: https://docs.safing.io/portmaster/install/windows
-docs_code_of_conduct_url: https://docs.safing.io/community/code-of-conduct
-
-spn_alpha_status_page_url: https://docs.safing.io/spn/alpha/status
+docs_install_linux_url: https://wiki.safing.io/en/Portmaster/Install/Linux
+docs_install_windows_url: https://wiki.safing.io/en/Portmaster/Install/Windows
+docs_code_of_conduct_url: https://wiki.safing.io/en/CodeOfConduct
 
 kickstarter_url: https://www.kickstarter.com/projects/safingio/spn
 reddit_url: https://reddit.com/r/safing

@@ -66,7 +66,7 @@ Although the information collected is basic and may not be classed as PII, we tr
 Safing operates these websites, hosted and managed by GitHub ([Pages](https://pages.github.com/)):
 
 - Website: https://safing.io
-- Documentation: https://docs.safing.io
+- Documentation: https://wiki.safing.io
 
 You can [read GitHub's privacy policy](https://docs.github.com/en/github/site-policy/github-privacy-statement) to see how they handle your data.
 
