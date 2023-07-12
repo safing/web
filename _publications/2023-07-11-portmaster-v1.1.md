@@ -6,7 +6,7 @@ title: "Portmaster&nbsp;1.1"
 date: 2023-07-11
 author: Raphael
 summary: Updated SPN map and lots of optimizations.
-custom_thumbnail_name: release_1.1.png
+custom_thumbnail_name: release_1.1
 portmaster_plug: true
 portmaster_update: true
 ---
