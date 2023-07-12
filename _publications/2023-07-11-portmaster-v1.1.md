@@ -12,8 +12,9 @@ portmaster_update: true
 ---
 
 ### All new SPN map
-In this release we re-imagined the SPN map. The focus was on making more information easier to discover and understand.
-When you open the map now, you can see that some countries are darker then others, this allows you to see in what countries there already are SPN nodes available.
+
+In this release we re-imagined the SPN map. It now focuses on making more information easier to discover and understand.
+When you open the map now, you can see that some countries are darker than others - this allows you to easily see which countries already have SPN nodes.
 
 <img src="{{ site.img_url }}blog/release-1.1/01_map.png" alt="New Portmaster map" style="margin: 0;">
 
@@ -33,22 +34,21 @@ When you open the map now, you can see that some countries are darker then other
   </div>
 </div>
 
-It is also easy to see what nodes you are using and if they are Safing or Community nodes.  
-Safing nodes are triangles while community nodes are circles, and when they are used they are colored.
+It is also easy to see which nodes you are currently using and if they are operated by Safing or by the community.
+Safing nodes are displayed as triangles while community nodes show as circles, and are colored in blue and green respectively, if in use.
 
 <img src="{{ site.img_url }}blog/release-1.1/02_nodeOnMap.png" alt="Nodes on Portmaster map" style="margin: 0;">
 
-The information box for each node has also been updated.  
-You can now get faster into more details on each node.
+The information boxes for nodes now have a lot more information and you can get to all the details a lot faster.
 
 <img src="{{ site.img_url }}blog/release-1.1/03_nodeDetails.png" alt="Nodes Details" style="margin: 0;">
 
-There are many more views to find so go around and discover new things!
+There are many more views to find so go around and discover all the new things in the map!
 
 ### Other Changes
-Of course there have been many under the hood improvements like, optimized traffic management for SPN or added the option for DNS caching. A complete list can always be found here: [GitHub](https://github.com/safing/portmaster/releases)
+
+Of course there have been many under the hood improvements like optimized traffic management for SPN or extended DNS caching. A complete list of changes can always be found here: [GitHub](https://github.com/safing/portmaster/releases)
 
 ### Next Steps
-Thank you to all the people writing in feature ideas, we know you are exited about new Portmaster features. I am glad to let you all know that for the next update we are focusing again on Firewall features. I can’t share much at this point but stay tuned, there are some much requested features in the pipeline.
 
-
+Thank you to all the people telling us their feature ideas - we know you are exited about many new Portmaster features. I am glad to let you all know that for the next update we are focusing again on firewall features. I can’t share much at this point but stay tuned, there are many requested features in the pipeline.
