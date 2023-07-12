@@ -4,11 +4,11 @@ members:
     joined: December 2017
     handles:
       - icon: twitter
-        external_url: https://twitter.com/Raphty101
+        external_url: https://twitter.com/Raphty101/
+      - icon: github
+        external_url: https://github.com/Raphty/
       - icon: linkedin
-        external_url: https://www.linkedin.com/in/raphael-fiedler-808a7441
-      - icon: reddit
-        external_url: https://reddit.com/u/Raphty101
+        external_url: https://www.linkedin.com/in/raphael-fiedler/
     description: >
       Raphael noticed that online - everywhere he went - he was treated like a 1st class citizen. He soon realized: when he received benefits he did not earn, someone else had to pay to cover the costs. His responsibility is developing and managing our business. He also takes care of networking, company culture and accounting.
   - name: Daniel
@@ -19,32 +19,15 @@ members:
         external_url: https://twitter.com/dehaavi/
       - icon: github
         external_url: https://github.com/dhaavi/
-      - icon: reddit
-        external_url: https://reddit.com/u/dhaavi/
+      - icon: linkedin
+        external_url: https://www.linkedin.com/in/daniel-hovie/
     description: >
       Daniel studied IT-Security. At his first job, his skills led him to become the system architect of the first Austrian cyber attack simulation platform. Ever since the Snowden revelations he invested most of his free time to conceptualize privacy solutions. He is the brain behind Portmaster and the Safing Privacy Network and is the lead developer.
   - name: David
     title: CCO
     joined: January 2017
-    handles:
-      - icon: twitter
-        external_url: https://twitter.com/davegson/
-      - icon: github
-        external_url: https://github.com/davegson/
-      - icon: reddit
-        external_url: https://reddit.com/u/davegson/
     description: >
       Previously, David worked on large scale gaming applications with millions of users. Seeing first hand how the industry gathers and processes intimate user data, he became more and more aware of the importance of privacy. His responsibilities at Safing are communication, networking, community management as well as some development.
-  - name: Alex
-    title: Developer
-    joined: September 2019
-    description: >
-      Alex is heavily involved in building the backends of the major web platforms of Safing, including the SPN user platform and payment system - a core to our business. As the first employee he also helped shaping the company.
-  - name: Tabitha
-    title: Backoffice
-    joined: January 2020
-    description: >
-      With her wide range of skills, Tabitha effectively tackles all emerging bottle-necks in the office. May it be accounting, reporting, writing or editing podcasts - her variety in skills is priceless.
   - name: Patrick
     title: Senior Dev & Server Admin
     joined: March 2020
@@ -53,19 +36,24 @@ members:
         external_url: https://github.com/ppacher
     description: >
       With his wide experience, ranging from IT-security and pen-testing to driver development to server management, Patrick rapidly became an invaluable part of the team. With his passion for Go-lang he is primarily advancing Portmaster.
-  - name: Vladimir
-    title: Senior Developer
-    joined: July 2022
-    description: >
-      With his broad skillset, from app development to low level programming, Vladimir quickly became a valuable part of the team. Loving both privacy and challenges, he is unafraid to tackle the tricky areas of Portmaster in order to push it forward.
 previous:
   - name: Luke
     title: Designer
     joined: October 2019 - October 2022
-    handles:
-      - icon: twitter
-        external_url: https://twitter.com/LukeSeers/
-      - icon: github
-        external_url: https://github.com/lukeseers
     description: >
       Luke's uncompromising passion for privacy led us to hire him directly from within the community. During his time with Safing, his pragmatism and determination towards easy design shaped the company. Luke had a great impact.
+  - name: Alex
+    title: Developer
+    joined: September 2019 - January 2023
+    description: >
+      Alex is heavily involved in building the backends of the major web platforms of Safing, including the SPN user platform and payment system - a core to our business. As the first employee he also helped shaping the company.
+  - name: Tabitha
+    title: Backoffice
+    joined: January 2020 - May 2023
+    description: >
+      With her wide range of skills, Tabitha effectively tackles all emerging bottle-necks in the office. May it be accounting, reporting, writing or editing podcasts - her variety in skills is priceless.
+  - name: Vladimir
+    title: Senior Developer
+    joined: July 2022 - June 2023
+    description: >
+      With his broad skillset, from app development to low level programming, Vladimir quickly became a valuable part of the team. Loving both privacy and challenges, he is unafraid to tackle the tricky areas of Portmaster in order to push it forward.
