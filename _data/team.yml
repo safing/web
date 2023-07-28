@@ -23,13 +23,8 @@ members:
         external_url: https://www.linkedin.com/in/daniel-hovie/
     description: >
       Daniel studied IT-Security. At his first job, his skills led him to become the system architect of the first Austrian cyber attack simulation platform. Ever since the Snowden revelations he invested most of his free time to conceptualize privacy solutions. He is the brain behind Portmaster and the Safing Privacy Network and is the lead developer.
-  - name: David
-    title: CCO
-    joined: January 2017
-    description: >
-      Previously, David worked on large scale gaming applications with millions of users. Seeing first hand how the industry gathers and processes intimate user data, he became more and more aware of the importance of privacy. His responsibilities at Safing are communication, networking, community management as well as some development.
   - name: Patrick
-    title: Senior Dev & Server Admin
+    title: Developer & Server Admin
     joined: March 2020
     handles:
       - icon: github
@@ -37,23 +32,18 @@ members:
     description: >
       With his wide experience, ranging from IT-security and pen-testing to driver development to server management, Patrick rapidly became an invaluable part of the team. With his passion for Go-lang he is primarily advancing Portmaster.
 previous:
-  - name: Luke
-    title: Designer
-    joined: October 2019 - October 2022
-    description: >
-      Luke's uncompromising passion for privacy led us to hire him directly from within the community. During his time with Safing, his pragmatism and determination towards easy design shaped the company. Luke had a great impact.
-  - name: Alex
+  - name: David
+    title: Co-Founder
+    joined: January 2017 - 2023
+  - name: Vladimir
     title: Developer
-    joined: September 2019 - January 2023
-    description: >
-      Alex is heavily involved in building the backends of the major web platforms of Safing, including the SPN user platform and payment system - a core to our business. As the first employee he also helped shaping the company.
+    joined: July 2022 - June 2023
   - name: Tabitha
     title: Backoffice
     joined: January 2020 - May 2023
-    description: >
-      With her wide range of skills, Tabitha effectively tackles all emerging bottle-necks in the office. May it be accounting, reporting, writing or editing podcasts - her variety in skills is priceless.
-  - name: Vladimir
-    title: Senior Developer
-    joined: July 2022 - June 2023
-    description: >
-      With his broad skillset, from app development to low level programming, Vladimir quickly became a valuable part of the team. Loving both privacy and challenges, he is unafraid to tackle the tricky areas of Portmaster in order to push it forward.
+  - name: Alex
+    title: Developer
+    joined: September 2019 - January 2023
+  - name: Luke
+    title: Designer
+    joined: October 2019 - October 2022
