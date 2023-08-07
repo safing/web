@@ -3,7 +3,7 @@
 
 services:
   jekyll:
-    image: jekyll/jekyll:3
+    image: jekyll/jekyll:4
     command: jekyll serve --watch --incremental --livereload --future
     ports:
       - 4000:4000
