@@ -1,5 +1,9 @@
 > **Check out the main project repository [safing/portmaster](https://github.com/safing/portmaster)**
 
+# TL;DR
+
+`rm -rf _site .jekyll-cache && sudo docker compose up`
+
 # Safing Website
 
 ### Run Safing locally:
