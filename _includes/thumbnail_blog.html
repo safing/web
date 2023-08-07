@@ -23,20 +23,22 @@
   <div class="card-blog-content" style="max-width: 365px;">
       <div class="content-wrapper">
           <span class="w-full">
-            {% if include.pre_header %}
-            {{ include.pre_header }} -
+            {% if post.progress_update == true %}
+            {% assign title_length = post.title | size %}
+              {{ post.title | slice: 7, title_length }} - #{{ post.title | slice: 2, 2 }}
+            {% else %}
+              {{ post.title }}
             {% endif %}
-            {{ post.date | date: "%-d. %b %Y" }}
           </span>
           <div class="circular-profile" tooltip="{{ post.author | capitalize }}">
               <img src="{{ site.img_url }}profiles/{{ post.author | downcase }}.png" alt="{{ post.author | capitalize }}">
           </div>
       </div>
-      {% if post.progress_update == true %}
-      {% assign title_length = post.title | size %}
-        <span>{{ post.title | slice: 7, title_length }} - #{{ post.title | slice: 2, 2 }}</span>
-      {% else %}
-        <span>{{ post.title }}</span>
-      {% endif %}
+      <span>
+        {% if include.pre_header %}
+        {{ include.pre_header }} -
+        {% endif %}
+        {{ post.date | date: "%-d. %b %Y" }}
+      </span>
   </div>
 </a>
