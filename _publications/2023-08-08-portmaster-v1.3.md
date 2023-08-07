@@ -43,7 +43,7 @@ This is not to be confused with the "Network Noise", where connections from othe
 
 ### Portmaster is easy privacy and pice of mind
 
-Wit Portmaster we set out to create an application that makes privacy as easy as installing an application. Unfortunately, Privacy is quite the battle at the moment, and it gets reduced on multiple angles. Portmaster is built to be a good start in your privacy journey. With Portmaster Plus we added the next step. With the free version you gain great privacy out of the box, and the upgrade helps you understand your device better. 
+With Portmaster we set out to create an application that makes privacy as easy as installing an application. Unfortunately, Privacy is quite the battle at the moment, and it gets reduced on multiple angles. Portmaster is built to be a good start in your privacy journey. With Portmaster Plus we added the next step. With the free version you gain great privacy out of the box, and the upgrade helps you understand your device better. 
 
 ### Portmaster Plus: Investigate Everything
 
