@@ -41,7 +41,7 @@ Portmaster used to regularly have "Other Connections". These were connections Po
 
 This is not to be confused with the "Network Noise", where connections from other devices on the network are pooled, but your device is not listening to them.
 
-### Portmaster is easy privacy and pice of mind
+### Portmaster is easy privacy and peace of mind
 
 With Portmaster we set out to create an application that makes privacy as easy as installing an application. Unfortunately, Privacy is quite the battle at the moment, and it gets reduced on multiple angles. Portmaster is built to be a good start in your privacy journey. With Portmaster Plus we added the next step. With the free version you gain great privacy out of the box, and the upgrade helps you understand your device better. 
 
