@@ -29,3 +29,12 @@
         display: block !important;
     } 
 }
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #6c86ff80;
+    border-radius: 3px;
+}
