@@ -30,22 +30,22 @@ We share this because we feel that you are as invested into Portmaster as we are
         </div>
     </div>
 
-    <p>
+    <h3 class="mt-4 mb-2">
         Help us get to 100% by subscribing to Portmaster Pro or Plus:
-    </p>
+    </h3>
 
-    <a href="https://safing.io/pricing/" class="btn-primary justify-center">
+    <a href="https://safing.io/pricing/" class="btn-primary justify-center mt-2">
         Subscribe
     </a>
 
-    <p>
+    <h3 class="mt-4 mb-2">
         If you would rather donate instead, there are two easy options:
-    </p>
+    </h3>
 
-    <a href="https://opencollective.com/safing-portmaster" class="btn-primary justify-center">
+    <a href="https://opencollective.com/safing-portmaster" class="btn-primary justify-center mt-2">
         Donate via Open Collective
     </a>
-    <a href="https://github.com/sponsors/safing" class="btn-primary justify-center">
+    <a href="https://github.com/sponsors/safing" class="btn-primary justify-center mt-2">
         Donate via GitHub
     </a>
 
