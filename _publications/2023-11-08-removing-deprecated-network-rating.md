@@ -21,6 +21,12 @@ Together with the community, we are beginning to work on recommended settings th
 
 Where is the problem? Well, when settings are exported, their raw values are shown, and for toggles this often is 0, 4, 6 or 7 - because these values are used for the Network Rating system. This makes it really hard and confusing to work with these settings.
 
+### Seamless Migration
+
+When the update that removes Network Rating is rolled out in early December, all network rating settings will be migrated to normal simple switches, assuming a "Normal" network rating.
+
+The migration itself will be seamless and backwards compatible. This means that you will be able to import exported settings that still use the network rating numbers instead of the simple switches (booleans).
+
 ### Something better will come
 
 There is a great silver lining on the horizon: We are currently improving the configuration layering of Portmaster and will add conditional layers in the future. This means that you will be able to change any setting based on a condition.  
