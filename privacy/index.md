@@ -33,7 +33,7 @@ your comments and suggestions.
 - [Article 2. Personal Identifiable Information & Data we collect](#article-2-personal-identifiable-information--data-we-collect)
 - [Article 3. How we store and protect your PII & Data](#article-3-how-we-store-and-protect-your-pii--data)
 - [Article 4. How we use your PII & Data](#article-4-how-we-use-your-pii--data)
-- [Article 5. Third party websites and links](#article-5-third-party-websites-and-links)
+- [Article 5. Third Party Services](#article-5-third-party-websites-and-links)
 - [Article 6. Third Party Disclosure](#article-6-third-party-disclosure)
 - [Article 7. General Data Protection Regulation (GDPR) explained](#article-7-general-data-protection-regulation-gdpr-explained)
 - [Article 8. California Online Privacy Protection Act, (CalOPPA) explained](#article-8-california-online-privacy-protection-act-caloppa-explained)
@@ -235,7 +235,7 @@ software development and the administration of your account.
 -   Referrer: How did you find the site? Used for software development
     purposes.
 
-## Article 5. Third party websites and links
+## Article 5. Third Party Services
 
 -   **Hetzner:** Hosting Provider.
 
@@ -248,6 +248,8 @@ software development and the administration of your account.
 -   **Sparkasse Baden: Bank:** Payments, wire transfer.
 
 -   **Mailbox.org:** Email provider.
+
+-   **Rapidmail.de:** Email sending service.
 
 ## Article 6. Third Party Disclosure
 
@@ -605,6 +607,10 @@ This sentence was originally added for legal flexibility, intended to cover such
 We now run a self-hosted installation of [Plausible Analytics](https://github.com/plausible/analytics) to collect some anonymous usage data for statistical purposes.
 The goal is to track overall trends in our website traffic, it is not to track individual visitors.
 All the data is in aggregate only. No personal data is collected.
+
+### Amendment 0.8. on 16.11.2023
+
+Clarified Article 5 (services we use) by adding Rapidmail.de there as well, instead of just mentioning it with the Newsletter.
 
 ## Article 19. Contact
 
