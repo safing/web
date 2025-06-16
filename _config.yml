@@ -62,9 +62,13 @@ assets_server_url: https://assets.safing.io/
 company_agreement_url: https://www.firmenmonitor.at/Secure/CompanyDetail.aspx?CID=761761
 
 download_linux_deb_url: https://updates.safing.io/latest/linux_amd64/packages/portmaster-installer.deb
+download_linux_deb_url_v2: https://updates.safing.io/latest/linux_amd64/packages/Portmaster_2.0.20_amd64.deb
 download_linux_rpm_url: https://updates.safing.io/latest/linux_amd64/packages/portmaster-installer.rpm
+download_linux_rpm_url_v2: https://updates.safing.io/latest/linux_amd64/packages/Portmaster-2.0.20-1.x86_64.rpm
 download_windows_url: https://updates.safing.io/latest/windows_amd64/packages/portmaster-installer.exe
+download_windows_url_v2: https://updates.safing.io/latest/windows_amd64/packages/Portmaster_2.0.20_x64-setup.exe
 download_arch_url: https://aur.archlinux.org/packages/portmaster-stub-bin
+download_arch_url_v2: https://aur.archlinux.org/packages/portmaster-stub-beta-bin
 
 installer_checksums: https://github.com/safing/checksums/
 
@@ -81,6 +85,7 @@ twitter_url: https://twitter.com/SafingIO
 discord_url: https://safing.io/discord
 discord_direct_url: https://discord.gg/safing
 github_url: https://github.com/safing
+github_issues_url: https://github.com/safing/portmaster/issues 
 
 youtube_channel_url: https://www.youtube.com/c/SafingIO
 invidious_channel_url: https://invidious.snopyta.org/channel/UC_6TW053IlS4M22g7CxnukA
