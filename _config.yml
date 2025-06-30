@@ -62,11 +62,11 @@ assets_server_url: https://assets.safing.io/
 company_agreement_url: https://www.firmenmonitor.at/Secure/CompanyDetail.aspx?CID=761761
 
 download_linux_deb_url: https://updates.safing.io/latest/linux_amd64/packages/portmaster-installer.deb
-download_linux_deb_url_v2: https://updates.safing.io/latest/linux_amd64/packages/Portmaster_2.0.21_amd64.deb
+download_linux_deb_url_v2: https://updates.safing.io/latest/linux_amd64/packages/Portmaster_2.0.22_amd64.deb
 download_linux_rpm_url: https://updates.safing.io/latest/linux_amd64/packages/portmaster-installer.rpm
-download_linux_rpm_url_v2: https://updates.safing.io/latest/linux_amd64/packages/Portmaster-2.0.21-1.x86_64.rpm
+download_linux_rpm_url_v2: https://updates.safing.io/latest/linux_amd64/packages/Portmaster-2.0.22-1.x86_64.rpm
 download_windows_url: https://updates.safing.io/latest/windows_amd64/packages/portmaster-installer.exe
-download_windows_url_v2: https://updates.safing.io/latest/windows_amd64/packages/Portmaster_2.0.21_x64-setup.exe
+download_windows_url_v2: https://updates.safing.io/latest/windows_amd64/packages/Portmaster_2.0.22_x64-setup.exe
 download_arch_url: https://aur.archlinux.org/packages/portmaster-stub-bin
 download_arch_url_v2: https://aur.archlinux.org/packages/portmaster-stub-beta-bin
 
