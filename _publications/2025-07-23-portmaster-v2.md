@@ -6,7 +6,7 @@ title: "Portmaster v2 announcement"
 date: 2025-07-23
 author: Viktor
 summary:  
-custom_thumbnail_name: safing-plus-ivpn
+custom_thumbnail_name: release_2
 portmaster_plug: true
 portmaster_update: true
 ---
