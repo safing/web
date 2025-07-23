@@ -20,7 +20,7 @@ title: Safing Portmaster - Free Download
                 <div class="element-x-center-max lg:ml-0 items-center" style="display: flex;">
                     <div class="flex items-center">
                       <span class="block">Version:</span>
-                      <img src="{{ site.img_shields_io_release_url }}" style="filter: invert(1); width: 80px; height: 38px; margin-left: -8px;">
+                      <span style="color:white; margin-left: 8px; margin-right: 8px">{{ site.portmaster_version }}</span>
                     </div>
                     <div class="flex items-center">
                       <span class="block">Github Stars:</span>
@@ -91,7 +91,7 @@ title: Safing Portmaster - Free Download
     <div class="influence-container-top">
         <div class="influence-container-top-title-date">
             <h2 class="influence-container-top-title">
-              Desktop
+              Desktop v2
             </h2>
         </div>
     </div>
@@ -116,7 +116,7 @@ title: Safing Portmaster - Free Download
                 <br>
             </div>
             <div class="col-container-center w-full md:w-max text-center md:text-left pt-10">
-                <a class="btn-primary" href="{{ site.download_windows_url }}"><i class="icon-windows text-md mr-2"></i>Download</a>
+                <a class="btn-primary" href="{{ site.download_windows_url_v2 }}"><i class="icon-windows text-md mr-2"></i>Download</a>
                 <a target="_blank" class="btn-secondary" href="https://wiki.safing.io/en/Portmaster/Install/Windows">View Docs</a>
             </div>
         </div>
@@ -148,7 +148,7 @@ title: Safing Portmaster - Free Download
                 </span>
             </div>
             <div class="col-container-center w-full md:w-max text-center md:text-left pt-10">
-                <a class="btn-primary" href="{{ site.download_linux_deb_url }}"><i class="icon-ubuntu text-md mr-2"></i>Download</a>
+                <a class="btn-primary" href="{{ site.download_linux_deb_url_v2 }}"><i class="icon-ubuntu text-md mr-2"></i>Download</a>
                 <a target="_blank" class="btn-secondary" href="https://wiki.safing.io/en/Portmaster/Install/Linux">View Docs</a>
             </div>
         </div>
@@ -179,7 +179,7 @@ title: Safing Portmaster - Free Download
                 </span>
             </div>
             <div class="col-container-center w-full md:w-max text-center md:text-left pt-10">
-                <a class="btn-primary" href="{{ site.download_linux_rpm_url }}"><i class="icon-fedora text-md mr-2"></i>Download</a>
+                <a class="btn-primary" href="{{ site.download_linux_rpm_url_v2 }}"><i class="icon-fedora text-md mr-2"></i>Download</a>
                 <a target="_blank" class="btn-secondary" href="https://wiki.safing.io/en/Portmaster/Install/Linux">View Docs</a>
             </div>
         </div>
@@ -218,7 +218,7 @@ title: Safing Portmaster - Free Download
                 </div>
             </div>
             <div class="col-container-center w-full md:w-max text-center md:text-left">
-                <a target="_blank" class="btn-primary" href="{{ site.download_arch_url }}">Download (AUR)</a>
+                <a target="_blank" class="btn-primary" href="{{ site.download_arch_url_v2 }}">Download (AUR)</a>
                 <a target="_blank" class="btn-secondary" href="https://wiki.safing.io/en/Portmaster/Install/Linux">View Docs</a>
             </div>
         </div>
@@ -261,49 +261,44 @@ title: Safing Portmaster - Free Download
   <div class="influence-container" id="influences">
     <div class="influence-container-top">
         <div class="influence-container-top-title-date">
-            <h2 class="influence-container-top-title" id="beta">
-              Beta release
+            <h2 class="influence-container-top-title">
+              Previous version
             </h2>
         </div>
         <div>
-        <h3>Warning! Portmaster v2 is currently in development and offered as beta software.</h3>
-        <h3>Download this version only if you want to test new features and accept issues may occur.</h3>
-        <p class="font-normal">
-            Please share your feedback by <a target="_blank" class="link-primary-external" href="{{ site.github_issues_url }}">opening a GitHub issue</a> 
-            or via the dedicated beta channel on our <a target="_blank" class="link-primary-external" href="{{ site.discord_url }}">Discord</a>.
-        </p>
+            <h3>Stable version of Portmaster v1 is available to download. We recommend installing this version only if you encounter any issues with Portmaster v2. .</h3>
         </div>
-        
-        <div>
-        <p class="font-normal">Main additions:</p>
-        <ul class="font-normal">
-            <li>- Offline installers</li>
-            <li>- A new and improved update system (less storage required)</li>
-            <li>- Correct install paths (e.g. improved support for immutable distros)</li>
-            <li>- DNS Monitoring (enhanced compatibility with IVPN)</li>
-            <li>- SQLite Database Backend (better stability and smaller databases)</li>
-        </ul>
     </div>
-    </div>
-    
     <div class="influence-container-bottom">
         <div class="card-influence darkmode hover-scale-out">
         <div class="card-influence-top ">
             <div class="card-influence-title-date flex space-x-2" style="align-items: center;">
-                <span class="card-influence-top-title">Windows v2 Beta</span>
+                <span class="card-influence-top-title">Windows v1</span>
                 <span class="card-influence-top-date">64bit</span>
             </div>
         </div>
         <div class="card-influence-bottom">
-            <div class="col-container-center w-full md:w-max text-center md:text-left pt-48">
-                <a class="btn-primary" href="{{ site.download_windows_url_v2 }}"><i class="icon-windows text-md mr-2"></i>Download</a>
+            <div class="card-influence-bottom-funding">
+                <span class="card-influence-bottom-funding-date">Additional</span>
+                <span class="card-influence-bottom-funding-amount">
+                      <a target="_blank" href="{{ site.installer_checksums }}" class="link-primary-external">Installer Checksums</a>
+                </span>
+            </div>
+            <div class="card-influence-bottom-funding">
+                <br>
+                <br>
+                <br>
+            </div>
+            <div class="col-container-center w-full md:w-max text-center md:text-left pt-10">
+                <a class="btn-primary" href="{{ site.download_windows_url }}"><i class="icon-windows text-md mr-2"></i>Download</a>
+                <a target="_blank" class="btn-secondary" href="https://wiki.safing.io/en/Portmaster/Install/Windows">View Docs</a>
             </div>
         </div>
       </div>
       <div class="card-influence darkmode hover-scale-out">
         <div class="card-influence-top ">
             <div class="card-influence-title-date flex space-x-2" style="align-items: center;">
-                <span class="card-influence-top-title">Debian/Ubuntu v2 Beta</span>
+                <span class="card-influence-top-title">Debian/Ubuntu v1</span>
                 <span class="card-influence-top-date">64bit</span>
             </div>
         </div>
@@ -319,19 +314,23 @@ title: Safing Portmaster - Free Download
             <div class="card-influence-bottom-funding">
                 <span class="card-influence-bottom-funding-date">Additional</span>
                 <span class="card-influence-bottom-funding-amount">
+                    <a target="_blank" href="{{ site.installer_checksums }}" class="link-primary-external">Installer Checksums</a>
+                </span>
+
+                <span class="card-influence-bottom-funding-amount">
                     <a target="_blank" href="https://linuxconfig.org/install-deb-file-on-ubuntu-20-04-focal-fossa-linux" class="link-primary-external">How to install .deb file?</a>
                 </span>
             </div>
-            <br>
-            <div class="col-container-center w-full md:w-max text-center md:text-left pt-12">
-                <a class="btn-primary" href="{{ site.download_linux_deb_url_v2 }}"><i class="icon-ubuntu text-md mr-2"></i>Download</a>
+            <div class="col-container-center w-full md:w-max text-center md:text-left pt-10">
+                <a class="btn-primary" href="{{ site.download_linux_deb_url }}"><i class="icon-ubuntu text-md mr-2"></i>Download</a>
+                <a target="_blank" class="btn-secondary" href="https://wiki.safing.io/en/Portmaster/Install/Linux">View Docs</a>
             </div>
         </div>
       </div>
       <div class="card-influence darkmode hover-scale-out">
         <div class="card-influence-top ">
             <div class="card-influence-title-date flex space-x-2" style="align-items: center;">
-                <span class="card-influence-top-title">Fedora v2 Beta</span>
+                <span class="card-influence-top-title">Fedora v1</span>
                 <span class="card-influence-top-date">64bit</span>
             </div>
         </div>
@@ -346,20 +345,23 @@ title: Safing Portmaster - Free Download
             </div>
             <div class="card-influence-bottom-funding">
                 <span class="card-influence-bottom-funding-date">Additional</span>
+                <span class="card-influence-bottom-funding-amount">
+                    <a target="_blank" href="{{ site.installer_checksums }}" class="link-primary-external">Installer Checksums</a>
+                </span>
                 <span class="card-influence-bottom-funding-amount">
                     <a target="_blank" href="https://itsfoss.com/install-rpm-files-fedora/" class="link-primary-external">How to install .rpm file?</a>
                 </span>
             </div>
-            <br>
-            <div class="col-container-center w-full md:w-max text-center md:text-left pt-12">
-                <a class="btn-primary" href="{{ site.download_linux_rpm_url_v2 }}"><i class="icon-fedora text-md mr-2"></i>Download</a>
+            <div class="col-container-center w-full md:w-max text-center md:text-left pt-10">
+                <a class="btn-primary" href="{{ site.download_linux_rpm_url }}"><i class="icon-fedora text-md mr-2"></i>Download</a>
+                <a target="_blank" class="btn-secondary" href="https://wiki.safing.io/en/Portmaster/Install/Linux">View Docs</a>
             </div>
         </div>
       </div>
       <div class="card-influence darkmode hover-scale-out">
         <div class="card-influence-top ">
             <div class="card-influence-title-date flex space-x-2" style="align-items: center;">
-                <span class="card-influence-top-title">Arch v2 Beta</span>
+                <span class="card-influence-top-title">Arch v1</span>
                 <span class="card-influence-top-date">64bit</span>
             </div>
         </div>
@@ -374,6 +376,9 @@ title: Safing Portmaster - Free Download
             </div>
             <div class="card-influence-bottom-funding">
                 <span class="card-influence-bottom-funding-date">Additional</span>
+                <span class="card-influence-bottom-funding-amount">
+                    <a target="_blank" href="{{ site.installer_checksums }}" class="link-primary-external">Installer Checksums</a>
+                </span>
                 <span class="card-influence-bottom-funding-amount">
                     <a target="_blank" href="https://itsfoss.com/aur-arch-linux/" class="link-primary-external">How to install from AUR?</a>
                 </span>
@@ -383,11 +388,42 @@ title: Safing Portmaster - Free Download
                     <span class="input-counter-left opacity-75" style="user-select: none;">
                         Package Name
                     </span>
-                    <input class="input-counter-right text-base font-normal" disabled value="portmaster-stub-beta-bin" type="text" >
+                    <input class="input-counter-right text-base font-normal" disabled value="portmaster-stub-bin" type="text" >
                 </div>
             </div>
             <div class="col-container-center w-full md:w-max text-center md:text-left">
-                <a target="_blank" class="btn-primary" href="{{ site.download_arch_url_v2 }}">Download (AUR)</a>
+                <a target="_blank" class="btn-primary" href="{{ site.download_arch_url }}">Download (AUR)</a>
+                <a target="_blank" class="btn-secondary" href="https://wiki.safing.io/en/Portmaster/Install/Linux">View Docs</a>
+            </div>
+        </div>
+      </div>
+      <div class="card-influence darkmode hover-scale-out">
+        <div class="card-influence-top ">
+            <div class="card-influence-title-date flex space-x-2" style="align-items: center;">
+                <span class="card-influence-top-title">Other Linux v1</span>
+                <span class="card-influence-top-date">64bit</span>
+            </div>
+        </div>
+        <div class="card-influence-bottom">
+            <div class="card-influence-bottom-funding">
+                <span class="card-influence-bottom-funding-date">Dependencies</span>
+                <span class="card-influence-bottom-funding-amount">
+                    <a target="_blank" href="https://wiki.gnome.org/Projects/NetworkManager" class="link-primary-external">Network Manager</a>
+                    <span> (Optional)</span>
+                    <span tooltip="This is recommended for better integration, but not required."> <i  class="icon-info text-gray-500 ml-1"></i></span>
+              </span>
+            </div>
+            <div class="card-influence-bottom-funding">
+                <span class="card-influence-bottom-funding-date">Additional</span>
+                <span class="card-influence-bottom-funding-amount">
+                    <a target="_blank" href="{{ site.installer_checksums }}" class="link-primary-external">Installer Checksums</a>
+                </span>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div class="col-container-center w-full md:w-max text-center md:text-left pt-10">
+                <a target="_blank" class="btn-primary" href="https://wiki.safing.io/en/Portmaster/Install/Linux#manual-install-and-launching">Manual Install Guide</a>
             </div>
         </div>
       </div>

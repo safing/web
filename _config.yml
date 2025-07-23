@@ -61,6 +61,8 @@ account_server_redeem_url: https://account.safing.io/redeem
 assets_server_url: https://assets.safing.io/
 company_agreement_url: https://www.firmenmonitor.at/Secure/CompanyDetail.aspx?CID=761761
 
+portmaster_version: V2
+
 download_linux_deb_url: https://updates.safing.io/latest/linux_amd64/packages/portmaster-installer.deb
 download_linux_deb_url_v2: https://updates.safing.io/latest/linux_amd64/packages/Portmaster_2.0.23_amd64.deb
 download_linux_rpm_url: https://updates.safing.io/latest/linux_amd64/packages/portmaster-installer.rpm
