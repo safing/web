@@ -2,7 +2,7 @@
 # possible values: blog video podcast
 category: blog
 layout:   blog
-title: "Portmaster v2 announcement"
+title: "Portmaster v2 is Here: Foundation for the Future"
 date: 2025-07-23
 author: Viktor
 summary:  
@@ -10,8 +10,6 @@ custom_thumbnail_name: release_2
 portmaster_plug: true
 portmaster_update: true
 ---
-
-# Portmaster v2 is Here: Foundation for the Future
 
 We’re excited to announce the official release of Portmaster v2! The latest stable version, 2.0.23, is now available and v2 is our recommended default for all Portmaster users.
 
