@@ -41,7 +41,7 @@ Portmaster v2 doesn’t introduce flashy new features, but it brings major found
 
 Upgrading to Portmaster v2 is simple. The installer will automatically migrate your existing v1 configuration and remove Portmaster v1, ensuring a smooth transition. 
 
-If you need to revert for any reason, you can easily roll back: just uninstall Portmaster v2 and reinstall v1 - your settings will be preserved. *Note: Leave 'Delete application data' checked on Windows during the uninstall process.*
+If you need to revert for any reason, you can easily roll back: just uninstall Portmaster v2 and reinstall v1 - your settings will be preserved. *Note: Leave 'Delete application data' unchecked on Windows during the uninstall process.*
 
 **Ready to upgrade?**  
 Download the latest v2 release [here](https://safing.io/download/). 
