@@ -16,11 +16,11 @@ portmaster_plug: true
             Discord Server
         </span>
         <!-- <p class="card-package-top-desc" style="max-width: 480px;">Popin and say hello :)</p> -->
-        <a class="btn-primary sm:hidden" href="https://discord.gg/safing"> Join Now </a>
+        <a class="btn-primary sm:hidden" href="https://discord.gg/9ScnccuXaZ"> Join Now </a>
       </div>
       <div class="card-package-bottom transform scale-105" style="position: absolute; width: 100%; left: 0; bottom: 0px; display: flex; justify-content: end; height: 100%;">
         <div style="display: flex; align-items: center; margin-right: 4rem;">
-          <a class="btn-primary hidden sm:block" href="https://discord.gg/safing"> Join Now </a>
+          <a class="btn-primary hidden sm:block" href="https://discord.gg/9ScnccuXaZ"> Join Now </a>
         </div>
     </div>
   </div>
@@ -63,4 +63,4 @@ If you support our work, we want to hear your voice loud and clear. For this, we
 
 In these private rooms you can ask questions, discuss ideas with the team and ask for help. You can also help us to decide where to expand the SPN next and give feedback on speeds around the globe. Some of the team already said they will mainly focus on those channels.
 
-So hop on over, and invite others who are interested to [discord.gg/safing](https://discord.gg/safing)
+So hop on over, and invite others who are interested to [discord.gg/9ScnccuXaZ](https://discord.gg/9ScnccuXaZ)

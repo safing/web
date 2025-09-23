@@ -37,6 +37,6 @@ jobs:
           close-issue-message: |
             This issue has been automatically closed because it has not had recent activity. Thank you for your contributions.
 
-            If the issue has not been resolved, you can [find more information in our Wiki](https://wiki.safing.io/) or [continue the conversation on our Discord](https://discord.gg/safing).
+            If the issue has not been resolved, you can [find more information in our Wiki](https://wiki.safing.io/) or [continue the conversation on our Discord](https://discord.gg/9ScnccuXaZ).
           # TODO: Handle stale PRs
           days-before-pr-stale: 36500 # 100 years - effectively disabled.
