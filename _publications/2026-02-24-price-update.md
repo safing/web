@@ -17,6 +17,8 @@ If you're an existing Pro subscriber on recurring billing, the new price applies
 
 Either way, nothing to do on your end.
 
+Note: PayPal limitations prevent updates for subscriptions renewing on or before March 6. If affected, contact support after your renewal to resolve this.
+
 ### Why we're lowering the price
 
 First, we want SPN accessible to more users. The SPN routes connections through a separate path, giving each connection a distinct IP address. It's the core of what Pro offers, and a lower price can remove a barrier for users whose threat model calls for it.
@@ -26,7 +28,7 @@ Second, on the IVPN side we are preparing a product suite that will include Port
 ### What doesn't change
 
 - Portmaster Free remains free
-- Portmaster Plus remains at €40/year (€4/month billed annually)
+- Portmaster Plus remains at €40/year
 - Features, SPN functionality, and platform support are unchanged
 - Portmaster and SPN remain open source
 - Accepted payments: credit card, PayPal, Bitcoin, Monero, cash
