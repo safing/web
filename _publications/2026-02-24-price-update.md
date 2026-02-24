@@ -11,21 +11,19 @@ portmaster_plug: false
 
 Portmaster Pro now costs €80/year or €8/month, down from €99/year and €9.90/month. The change is live today. No action required.
 
-## How this affects your subscription
+### How this affects your subscription
 
 If you're an existing Pro subscriber on recurring billing, the new price applies automatically on your next billing cycle. If you renew manually, you'll see the updated price the next time you add time to your account.
 
 Either way, nothing to do on your end.
 
-## Why we're lowering the price
-
-Two reasons.
+### Why we're lowering the price
 
 First, we want SPN accessible to more users. The SPN routes connections through a separate path, giving each connection a distinct IP address. It's the core of what Pro offers, and a lower price can remove a barrier for users whose threat model calls for it.
 
 Second, on the IVPN side we are preparing a product suite that will include Portmaster alongside other services. We're adjusting the standalone Portmaster Pro price now so that users who prefer to keep services compartmentalized aren't disadvantaged when that suite becomes available.
 
-## What doesn't change
+### What doesn't change
 
 - Portmaster Free remains free
 - Portmaster Plus remains at €40/year (€4/month billed annually)
@@ -33,7 +31,7 @@ Second, on the IVPN side we are preparing a product suite that will include Port
 - Portmaster and SPN remain open source
 - Accepted payments: credit card, PayPal, Bitcoin, Monero, cash
 
-## Thinking about upgrading?
+### Thinking about upgrading?
 
 Portmaster Pro adds SPN access on top of everything in the free tier. Beyond the extra features, a paid subscription directly supports Portmaster's continued development, including the ongoing work toward better VPN integration and future Android support.
 
