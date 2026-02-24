@@ -1,17 +1,26 @@
 <form class="new_charge" id="new_charge" action="https://account.safing.io/charges/checkout" accept-charset="UTF-8" method="get">
     <input value="{{ include.plan_id }}" autocomplete="off" type="hidden" name="charge[plan_id]" id="charge_package_id">
     <input type="hidden" name="new_user" value="true" autocomplete="off" >
-    <div class="card-package darkmode mt-0" style="height: 650px;">
+    <div class="card-package darkmode mt-0" style="height: 650px; position: relative;{% if include.interval == 'Annual only' %} opacity:0.8;pointer-events: none;{% endif %}">
+        {% if include.interval == 'Annual only' %}
+        <div style="position: absolute; inset: 0; background: rgba(128,128,128,0.2); border-radius: inherit; z-index: 10; pointer-events: none; cursor: not-allowed;"></div>
+        {% endif %}
+        {% unless include.interval == 'Annual only' %}
         <div class="absolute -top-8 -right-11 hidden xl:block">
             <img src="{{ site.img_url }}page-specific/pricing/package-icons/circle-big.png" alt="">
         </div>
+        {% endunless %}
         <div class="card-package-top" style="margin-top: 0;">
             <div class="flex">
                 <span class="card-package-top-title">Portmaster  <span style="color: #2fcfae;">Plus</span> </span>
             </div>
             <span class="card-package-top-amount">
+                {% if include.interval == 'Annual only' %}
+                <span class="card-package-top-amount-monthly" style="font-size: 1.4rem; color: white !important; margin-left: 0rem;">{{ include.interval }}</span>
+                {% else %}
                 {{ include.price }}€
                 <span class="card-package-top-amount-monthly">/ {{ include.interval }}</span>
+                {% endif %}
             </span>
             <p class="card-package-top-desc" style="max-width: 480px;">Investigate Everything.</p>
         </div>
@@ -39,6 +48,7 @@
                 </a>
             </span>
         </div>
+        {% unless include.interval == 'Annual only' %}
         <div class="card-package-bottom" style="display: block;">
             <div class="mx-auto space-x-2 flex w-percent-80">
               <input class="btn-secondary less-round w-full h-auto py-5" type="submit" name="commit" value="Buy Package"  data-disable-with="Buy Package">
@@ -49,5 +59,6 @@
               </nojs>
             </div>
         </div>
+        {% endunless %}
     </div>
 </form>
