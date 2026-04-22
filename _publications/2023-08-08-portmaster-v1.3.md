@@ -51,7 +51,7 @@ The motto for the Plus upgrade is "investigate everything". Because Portmaster s
 
 ### Portmaster Pro: Protection Everywhere
 
-We strongly believe that VPNs are an absolutely outdated technology to try to get more privacy online. The whole protocol has been designed for security, which it delivers beautifully, but privacy is and never has been the goal of the protocol. A somewhat fitting anecdote could be, using a VPN for Privacy is like using a knife as a hammer: in the end the knife is super dull and can't do its job very well, and during the process you need to be super careful not to hurt yourself or others. There is the right place for the right tool, and SPN is built for the ground up for privacy. Which in turn also means that it is not super well suited for some things VPNs are good in - because of their different background. This is sort of the point, it is a different tool for a different thing. For the sake of privacy we had to make tradeoffs, SPN is slower than a VPN and has fewer and bigger servers to mix the traffic more.  
+The SPN takes a different approach than a VPN. It was designed from the ground up for privacy on a per-connection basis, routing each connection independently through the network with layered encryption. The tradeoffs: the SPN is slower than a VPN and routes traffic through fewer exit nodes to improve traffic mixing. For a detailed comparison, see our [SPN vs VPNs post](/blog/2022/09/06/spn-vs-vpns/).
 
 ### Focus on Portmaster
 
