@@ -6,6 +6,8 @@ title: How the SPN compares to Tor
 date: 2020-01-22
 author: safing
 custom_thumbnail_name: spn-tor
+updated: 2026-04-22
+updated_author: viktor
 ---
 
 ### Tor's Mission is Broad, Safing Focuses on Ease of Use
@@ -22,9 +24,9 @@ We believe that freedom can only flourish when privacy is the default. And priva
 
 The Tor browser has great coverage, supporting all major operating systems. It protects the browser habits of its users and is a breeze to set up. When one additionally wants to safeguard the whole computer via the Tor network one has to use the [operating system tails](https://tails.boum.org/install/index.en.html), which is great at what it does, but hard and technical to set up and use.
 
-This is one key difference to the SPN. With it, it's a simple plug and play. You download the open source app and then it takes care of all your connections, not only those of the browser. Currently, we support Windows and Linux. We are planning on supporting Mac and Mobile in the future too, so everybody can enjoy easy privacy with their preferred operating system.
+This is one key difference to the SPN. With it, it's a simple plug and play. You download the open source app and then it takes care of all your connections, not only those of the browser. Currently, we support Windows and Linux. Mac and Mobile are planned but not yet available.
 
-Another detail is that Tor does not transport everything, notably UDP traffic. The SPN will support TCP and UDP (+ variants) from the get go and we will see if we will need and implement anything else.
+Another detail is that Tor does not transport everything, notably UDP traffic. The SPN supports TCP and UDP (+ variants).
 
 ### Tor Is Maturer
 
@@ -42,7 +44,7 @@ When the connection arrives at the last server of the circuit it still has to tr
 
 With the SPN however, every connection is calculated individually and leaves the network as near to the destination as possible. This means:
 
-1. your connections are spread across the globe, using vast amounts of identities (IP addresses)
+1. your connections are spread across the globe, using a separate IP address per connection
 2. visibility in the 'open web' is minimized
 3. connections are not slowed down by having to go extra miles
 
@@ -54,10 +56,10 @@ With the SPN however, every connection is calculated individually and leaves the
 Tor's mission for anonymity also enables people to host content anonymously through onion domains. This is a non-goal for Safing.
 
 ###### SPN Enforces DoT and Blocks Ads/Trackers
-As the [open source Portmaster app]({{ site.github_url }}/portmaster/), which hosts the SPN, sits at the kernel, it can add all sorts of amazing privacy features. Current modules (free & optional) include a DNS Resolver which enforces all your DNS queries to use DNS over TLS (DoT) and a Privacy Filter which blocks malicious or unwanted connections.
+As the [open source Portmaster app]({{ site.github_url }}/portmaster/), which hosts the SPN, sits at the kernel, it can incorporate additional privacy features. Current modules (free & optional) include a DNS Resolver which enforces all your DNS queries to use DNS over TLS (DoT) and a Privacy Filter which blocks malicious or unwanted connections.
 
 ###### The SPN Costs Money
-Both the SPN and Tor are FOSS. But Tor is free to use while you have to subscribe to the SPN in order to use it. Be aware you are not only paying for the SPN, but also supporting us to develop the free application firewall and enabling us to continue fighting for a brighter future.
+Both the SPN and Tor are FOSS. But Tor is free to use while you have to subscribe to the SPN in order to use it. The SPN subscription also funds development of the free Portmaster application firewall.
 
 ### Conclusion: It Depends on Your Threat Model
-Tor is a great project which has pioneered privacy technology and is a firm player in the space while the SPN has fresh, innovative solutions which tackle uncharted ground and focuses on ease of use before all. Depending on your threat model, the SPN may be an alternative to Tor. Or it might not.
+Tor is a great project which has pioneered privacy technology and is a firm player in the space while the SPN takes a different architectural approach and focuses on ease of use. Depending on your threat model, the SPN may be an alternative to Tor. Or it might not.
