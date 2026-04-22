@@ -7,7 +7,9 @@ date: 2022-04-11
 author: safing
 custom_thumbnail_name: portmaster-vs-simplewall
 portmaster_plug: true
-summary: Both the Portmaster and Simplewall are great open source solutions which are easy to setup. The Portmaster has a sleek UI with excellent privacy defaults, protecting you from mass surveillance across the board. Simplewall's defaults on the other hand only focus on removing Microsoft Telemetry, forcing you to build your own defenses against other surveillance from scratch. Therefore we believe most people will prefer Portmaster.
+updated: 2026-04-22
+updated_author: viktor
+summary: Both the Portmaster and Simplewall are great open source solutions which are easy to setup. The Portmaster has a sleek UI with excellent privacy defaults, protecting you from tracking and unwanted connections. Simplewall's defaults on the other hand only focus on removing Microsoft Telemetry, forcing you to build your own defenses against other surveillance from scratch. Therefore we believe most people will prefer Portmaster.
 ---
 
 ## Overview Chart
@@ -146,7 +148,7 @@ Also, if you want to block other trackers, there is no simple way to import IPs 
 
 Generally speaking, you can observe that Portmaster and Simplewall view a connection in different ways. Simplewall filters traffic based on individual apps or IP addresses, while the Portmaster filters connections based on domains, IPs or apps.
 
-Since Portmaster can also block by domain, Portmaster can block connections from all the domain's traffic-serving servers. Major CDNs may have hundreds of IPs serving thousands of websites, plus many prominent services like Google and Facebook have hundreds of IPs that are continuously changing. Even self-hosted servers use DDNS to keep their dynamic IPs updated against their domains. So we feel Simplewall's approach to keep track of all those IP addresses is rather cumbersome.
+Since Portmaster can also block by domain, Portmaster can block connections from all the domain's traffic-serving servers. Major CDNs may have hundreds of IPs serving thousands of websites, plus many prominent services like Google and Facebook have hundreds of IPs that are continuously changing. Even self-hosted servers use DDNS to keep their dynamic IPs updated against their domains. Simplewall's approach of tracking all those IP addresses is relatively cumbersome.
 
 ### Simplewall Does Not Give You A Balance Between Usability And Privacy
 
@@ -204,4 +206,4 @@ Portmaster also has a Simple/Advanced switch that shows or hides settings, allow
 
 ### We Recommend: Use Portmaster to Protect Your Privacy; Use Simplewall if You Are Only Concerned About Microsoft
 
-Both the Portmaster and Simplewall are great open source solutions which are easy to setup. The Portmaster has a sleek UI with excellent privacy defaults, protecting you from mass surveillance across the board. Simplewall's defaults on the other hand only focus on removing Microsoft Telemetry, forcing you to build your own defenses against other surveillance from scratch. Therefore we believe most people will prefer Portmaster.
+Both the Portmaster and Simplewall are great open source solutions which are easy to setup. The Portmaster has a sleek UI with excellent privacy defaults, protecting you from tracking and unwanted connections. Simplewall's defaults on the other hand only focus on removing Microsoft Telemetry, forcing you to build your own defenses against other surveillance from scratch. Therefore we believe most people will prefer Portmaster.
