@@ -141,7 +141,7 @@ GlassWire has another feature called "Who’s on your Wi-Fi or Network?" which a
 
 Apart from this, GlassWire also allows you to give network ratings to different networks. Like, you can set your Home Wi-Fi as a trusted network and all others as untrusted networks. This allows you to keep different settings for different networks.
 
-From the perspective of protecting your privacy, GlassWire does not automatically block or give you the option to block ads, trackers, NSFW, etc. GlassWire is more concerned about logging possible trackers, threats, etc. and notifying the user about them. It expects the user to detect and block bad apps/connections, rather than using a predefined technique to stop them automatically. To use GlassWire as a privacy tool, you are required to invest a lot of time into configuring its settings & to block bad domains/IP addresses. It seems GlassWire has no approach to block bad domains by default - so is it worth the time to find and block hundreds of thousands of bad domains yourself?
+From the perspective of protecting your privacy, GlassWire does not automatically block or give you the option to block ads, trackers, NSFW, etc. GlassWire is more concerned about logging possible trackers, threats, etc. and notifying the user about them. It expects the user to detect and block bad apps/connections, rather than using a predefined technique to stop them automatically. To use GlassWire as a privacy tool, you are required to invest a lot of time into configuring its settings & to block bad domains/IP addresses. GlassWire does not include built-in filter lists for blocking known bad domains.
 
 ### Portmaster Focuses on Privacy And Protects You By Default
 

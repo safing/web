@@ -230,7 +230,7 @@ Portmaster also has a Simple/Advanced switch that shows or hides settings, allow
 
 The Portmaster and the Pi-hole support running alongside a VPN. Some VPNs require additional setup, so it is always good if you check the compatibility of your VPN in the latest docs of the [Portmaster](https://wiki.safing.io/en/Portmaster/App/Compatibility/VPN) and the [Pi-hole](https://docs.pi-hole.net/guides/vpn/openvpn/overview/).
 
-### Portmaster Makes It Easy to Auto-Block Domains By Category
+### Portmaster Makes It Easy to Block Domains By Category
 
 The Portmaster allows you to easily block ads, trackers, malware and NSFW sites via integrated domain filter lists.
 You can manage these lists for your full device or configure them for individual applications.

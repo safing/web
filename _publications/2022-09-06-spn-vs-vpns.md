@@ -45,7 +45,7 @@ Now, let us jump into the comparison of SPN vs VPN.
 
 ### A VPN Only Gives You One Identity
 
-Open any VPN app, and you are presented with your most important choice: Choose the country you want to browse the Internet from. You exchange the identity of being a customer of your ISP with the identity of being a customer of your VPN provider. This is good if you trust your VPN more than your ISP, but it will not fool many trackers.
+Open any VPN app, and you are presented with your most important choice: Choose the country you want to browse the Internet from. You exchange the identity of being a customer of your ISP with the identity of being a customer of your VPN provider. In this setup, you need to trust your VPN provider more than your ISP.
 
 This is how this looks like:
 
@@ -94,11 +94,11 @@ The SPN is fully open source. Everyone can inspect the code and verify what it d
 
 ### SPN and Privacy by Design
 
-VPN technology was originally designed to connect corporate networks securely, not to protect individual devices from the network itself. VPN providers have adapted the technology for consumer privacy, with varying results. Features like kill switches and no-log policies address real risks within the VPN architecture.
+VPN technology was originally designed to connect corporate networks securely. VPN providers have adapted the technology for consumer privacy, with varying results. Features like kill switches and no-log policies address real risks within the VPN architecture.
 
 SPN was designed from the start for consumer privacy on a per-connection basis. Because it is integrated into Portmaster's network stack, it does not rely on external kill switches or default-route manipulation.
 
-The SPN does not have IP or DNS leaks because it is part of Portmaster, which controls all network connections on your device. All traffic goes through multiple servers and is encrypted in layers, so no server ever knows both who you are and where you are going.
+IP and DNS leaks are prevented by Portmaster, the underlying application that runs SPN, which controls all network connections on your device. All traffic goes through multiple servers and is encrypted in layers, so no server knows both who you are and where you are going.
 
 ![Illustration showing the SPN connecting via multiple exit nodes](https://safing.io/assets/img/spn/spn-community-web.png)
 
@@ -116,13 +116,13 @@ If you are curious, explore more technical details in the additional write-up be
 
 VPNs (Virtual Private Networks) are, well, networks that carry data packets through a tunnel from one point to the next. They are a more or less seamless part of the network. Packets destined for the Internet go into the VPN and out again without change. This means that packets are just relayed somewhere else and do not receive any advanced protection. Multi-Hop VPNs just relay your packets via one more server, but the problem remains: The packets do not receive any extra protection. Every server in that Multi-Hop chain can see all your traffic. Yes, the last server cannot see your IP address, but the previous servers can see all your traffic unencrypted and could potentially log your traffic. Additionally, if the VPN client authenticates with the last server in the chain, it may also have your VPN login data.
 
-Instead of just doing some tricks with packet routing, the SPN protects your traffic and identity with proper cryptography. Every packet is end-to-end encrypted to every single server along the chain of servers the connection uses. This was originally invented for Tor and is called [Onion Routing](https://en.wikipedia.org/wiki/Onion_routing). This way, every server in the chain only knows the previous and the next hop. No server ever knows who you are _and_ where you are going to.
+The SPN protects your traffic and identity with proper cryptography. Every packet is end-to-end encrypted to every single server along the chain of servers the connection uses. This was originally invented for Tor and is called [Onion Routing](https://en.wikipedia.org/wiki/Onion_routing). This way, every server in the chain only knows the previous and the next hop. No server knows who you are _and_ where you are going to.
 
 ![Illustration showing the SPN connecting via multiple exit nodes](https://safing.io/assets/img/spn/spn-community-web.png)
 
 But the SPN goes even one step further. Instead of using your username and password - which makes you identifiable - to log into the SPN, Portmaster authenticates itself not against the network itself, but against the SPN Account Service, which verifies you are allowed to access the network. It then gives you special cryptographically blinded tokens, which prove your access permission, but are not linked to your account anymore. 
 
-This way, no server in the SPN will ever know your username.
+This way, no server in the SPN will know your username.
 
 ### Node Ownership and Logging
 
