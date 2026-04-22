@@ -10,17 +10,16 @@ layout: page
             <div class="horizontal-line" style="height: 2px;"></div>
             <a class="link text-xl text-center text-white" href="{{ site.pricing_url }}" style="width: 100%; min-width: 205px;">
                 <div style="align-items: center; display: flex; max-width: max-content;">
-                   <span class="block"> Get Portmaster<span style="color: #029ad0;"> Pro </span></span>
-                    <img src="{{ site.img_url }}page-specific/pricing/package-icons/triangle.png" style="width: 19px; height: 19px; display: inline-block;"  alt="">
+                   <span class="block"> SPN / Portmaster<span style="color: #029ad0;"> Pro </span></span>
                 </div>
             </a>
             <div class="horizontal-line" style="height: 2px;"></div>
         </div>
         <h2 class="intro-container-title" style="margin-top: 1rem;">
-            It's Time to Ditch VPNs
+            Per-Connection Privacy, System-Wide
         </h2>
         <p class="intro-container-desc">
-            Stop paying for out-dated technology that was never intended to protect your privacy. Get peace of mind with <span tooltip="Safing Privacy Network">SPN <i class="icon-info text-sm"></i></span>. Built from scratch and designed to truly protect your privacy from mass surveillance.
+            Most VPNs route all traffic through a single exit node. SPN routes each connection through a separate path across different nodes, applying layered encryption at each hop, providing per-connection IP separation across all your applications.
         </p>
       </div>
       <div class="showcase-one-container-reverse">
@@ -32,7 +31,7 @@ layout: page
               Get Multiple Identities for Each App
             </h2>
             <p class="showcase-one-right-desc">
-              Automatically get a vast amount of identities (IP addresses). The <span tooltip="Safing Privacy Network">SPN <i class="icon-info text-sm mr-1"></i></span> calculates an individual path for every connection through the privacy network. Spread your connections across the globe, without any effort.
+              SPN calculates a separate path for each connection, routing it through different nodes and exit points. Each app gets a distinct IP address at a different location.
             </p>
         </div>
       </div>
@@ -43,10 +42,10 @@ layout: page
         </div>
         <div class="showcase-one-right">
             <h2 class="showcase-one-right-title" style="max-width: 350px;" id="easily-adjust-your-privacy">
-                Easily Adjust Your Privacy
+                Configurable Privacy
             </h2>
             <p class="showcase-one-right-desc">
-              SPN just works and does the heavy lifting for you. But of course you can easily configure the settings, so it fits your needs: Exclude certain apps and domains from the <span tooltip="Safing Privacy Network">SPN <i class="icon-info text-sm"></i></span>. Or never exit in specific countries. And so much more...
+              Exclude specific apps or domains from SPN, or restrict exit nodes to certain countries. Each setting is optional. The defaults work for most users without any changes.
             </p>
         </div>
     </div>
@@ -59,7 +58,7 @@ layout: page
                 Built from Scratch,<br> for Your Privacy
             </h2>
             <p class="showcase-one-right-desc">
-              <span tooltip="Safing Privacy Network">SPN <i class="icon-info text-sm mr-1"></i></span> is built from the ground up. Privacy is cooked right into it. Inspired by Tor, it comes with onion routing and state of the art encryption. Fully open source so all our claims can be validated.
+              Inspired by Tor, SPN uses onion routing with layered encryption at each hop. The source code is available to inspect and audit.
             </p>
             <a class="btn-tertiary px-2" href="{{ site.github_url }}/spn"><i class="icon-github text-md mr-2"></i>Inspect source code</a>
         </div>
@@ -70,7 +69,7 @@ layout: page
                 SPN in Action
             </h2>
             <p class="showcase-two-top-desc">
-                Watch a short video showing how you easily get multiple identities per app, by default.
+                Watch a short video showing how SPN routes each app's connections through separate paths.
             </p>
         </div>
         <div class="showcase-two-bottom" style="max-width: 850px;">
@@ -83,22 +82,6 @@ layout: page
              </div>
         </div>
         <!-- <div class="showcase-bg"></div> -->
-    </div>
-    <div class="showcase-one-container">
-        <div class="showcase-one-left" style="max-width: 850px;">
-            <img src="{{ site.img_url }}page-specific/spn/bye-bye-vpns.png" alt="">
-        </div>
-        <div class="showcase-one-right">
-            <h2 class="showcase-one-right-title" style="max-width: 450px;" id="bye-bye-vpns">
-                Bye Bye, VPNs
-            </h2>
-            <p class="showcase-one-right-desc">
-              VPN technology was NOT built for user privacy, but for company security. Because of that, you can only trust a VPN provider's policy - and many have been caught abusing user data. Honestly, the best way forward: just stop paying for outdated technology.
-            </p>
-            <a class="btn-secondary" href="{{ site.vpn_comparison_url }}">
-              Compare SPN to VPNs
-            </a>
-        </div>
     </div>
     <div class="showcase-two-container">
         <div class="showcase-two-top-break-left">
@@ -115,7 +98,7 @@ layout: page
             Upgrade Your Privacy
           </h2>
           <p class="showcase-two-top-desc">
-            Everything is built from scratch and designed to truly protect you from mass surveillance.
+            Built with onion routing and layered encryption, designed to protect your network identity at the connection level.
         </p>
     </div>
         <div class="element-x-center max-w-sm md:max-w-7xl">
@@ -167,7 +150,7 @@ layout: page
                 FAQ
             </h2>
             <p class="faq-container-top-desc">
-                You have more questions? <a class="link-primary" href="{{ site.discord_url }}">Join our Discord community!</a>
+                You have more questions? <a class="link-primary" href="{{ site.discord_url }}">Join the Discord community.</a>
             </p>
         </div>
         <div class="faq-container-bottom">
