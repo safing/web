@@ -7,7 +7,9 @@ date: 2022-08-17
 author: safing
 custom_thumbnail_name: portmaster-vs-glasswire
 portmaster_plug: true
-summary: Both Portmaster and GlassWire are powerful applications, are well designed and are easy to set up. Portmaster has excellent privacy defaults, which protect you from mass surveillance across the board. With GlassWire you have to build your own defenses from scratch. Another weak point of GlassWire is that it is proprietary. Portmaster on the other hand is free and open source, which is why we believe most people will trust Portmaster more.
+updated: 2026-04-22
+updated_author: viktor
+summary: Both Portmaster and GlassWire visualize network activity and allow per-app configuration. Portmaster adds privacy defaults, secure DNS, and filter lists out of the box. GlassWire is proprietary and requires more manual setup to achieve similar privacy outcomes.
 ---
 
 ## Overview Chart
@@ -117,13 +119,13 @@ Open source software allows anyone to look at the code of the software that they
 
 An open source approach allows people to contribute to the software and make the software better and more secure, often outperforming proprietary software. Zero-day exploits and vulnerabilities become rarer, since someone from the community usually discovers them.
 
-Portmaster is free and open source software with a great community involved. We are also transparent about our funding and business model, which gives you additional insight into our organization and motives.
+Portmaster is free and open source software with a great community involved. Portmaster's funding and business model are publicly documented.
 
 ### GlassWire is Proprietary Software
 
 Proprietary software does not allow people to look at the code of the software that they are running. So, reviewing and inspecting their project is either impossible or difficult. It also implies that vulnerabilities and security bugs are only patched by a small group of people. They may be good at it, but having thousands of people look at the code is far more efficient.
 
-As you cannot access the code or build the software yourself, you cannot verify the software's claims. The only way to verify the software's claims is to use workarounds like running an external analysis tools. In the case of GlassWire, you would need to run an independent analysis software to see what GlassWire might be up to. And there is no way to truly find out how it integrates into the system. Anyway, in our opinion, it is difficult to trust a proprietary software that monitors all your device's connections.
+As you cannot access the code or build the software yourself, you cannot verify the software's claims. The only way to verify the software's claims is to use workarounds like running an external analysis tools. In the case of GlassWire, you would need to run an independent analysis software to see what GlassWire might be up to. And there is no way to truly find out how it integrates into the system. It is difficult to independently verify a proprietary application that monitors all your device's connections.
 
 ### Portmaster and GlassWire Are Easy to Install and Use
 
@@ -139,7 +141,7 @@ GlassWire has another feature called "Who’s on your Wi-Fi or Network?" which a
 
 Apart from this, GlassWire also allows you to give network ratings to different networks. Like, you can set your Home Wi-Fi as a trusted network and all others as untrusted networks. This allows you to keep different settings for different networks.
 
-From the perspective of protecting your privacy, GlassWire does not automatically block or give you the option to block ads, trackers, NSFW, etc. GlassWire is more concerned about logging possible trackers, threats, etc. and notifying the user about them. It expects the user to detect and block bad apps/connections, rather than using a predefined technique to stop them automatically. To use GlassWire as a privacy tool, you are required to invest a lot of time into configuring its settings & to block bad domains/IP addresses. It seems GlassWire has no approach to block bad domains by default - so is it worth the time to find and block hundreds of thousands of bad domains yourself?
+From the perspective of protecting your privacy, GlassWire does not automatically block or give you the option to block ads, trackers, NSFW, etc. GlassWire is more concerned about logging possible trackers, threats, etc. and notifying the user about them. It expects the user to detect and block bad apps/connections, rather than using a predefined technique to stop them automatically. To use GlassWire as a privacy tool, you are required to invest a lot of time into configuring its settings & to block bad domains/IP addresses. GlassWire does not include built-in filter lists for blocking known bad domains.
 
 ### Portmaster Focuses on Privacy And Protects You By Default
 
@@ -159,9 +161,7 @@ Most of these privacy protections are enabled and handled by Portmaster automati
 
 Software development and maintenance requires funds, so Portmaster and the GlassWire are supported by a business model. Many of the features mentioned by GlassWire, such as remote connection monitoring, Wi-Fi network monitor, Virus total scanning, and longer connection history, will cost you $39, $69, or $99 depending on your needs.
 
-Portmaster, on the other hand, is both free in terms of freedom and free in terms of price. Safing makes money by charging a monthly fee for additional privacy features. In case you enjoy the Portmaster and want to support its development, an upgrade is the best way.
-
-Having a business models and openly communicating this is an important thing for privacy tools. Because without a business model, a project might die or be bought out by Venture Capital, which have a tendency to be quick on monetizing intimate user data.
+Portmaster is free and open source. Paid plans are available for SPN access and advanced features. A transparent business model is important for privacy tools: it allows users to understand how development is funded and what incentives exist.
 
 ### Portmaster and GlassWire Provide a Simple Dashboard for Detecting and Responding to Privacy Threats
 
@@ -179,13 +179,13 @@ You can even block risky connection types system-wide, such as p2p or incoming, 
 
 ### GlassWire Seems to Be A Proxy for the Windows Filtering Platform
 
-We do not claim to have the full picture on how GlassWire integrates into the operating system, since GlassWire is closed-source. Therefore we had to analyze their software in a blackbox test. We do not have the full picture on how GlassWire integrates into the operating system.
+GlassWire is closed-source, so the analysis below is based on blackbox testing.
 
 What we did find out is that GlassWire uses the Windows Filtering Platform (WFP) in user-space mode, creating rules for applications essentially exactly like the Windows Firewall does itself. This is a similar approach to that of [Simplewall]({{ site.simplewall_comparison_url }}). When Windows Firewall is disabled, this also makes GlassWire blind and incapable of blocking anything.
 
 GlassWire also uses a background service to collect additional data about connections.
 
-Finally, an oddity we came across was that GlassWire provides a tray icon with the "Exit" option. But pressing that button makes GlassWire stop blocking connections, but it does not end GlassWire or the service as expected - instead it continues to run and monitor connections. We feel that this is unfavorable wording and might not align with user expectation.
+Finally, an oddity we came across was that GlassWire provides a tray icon with the "Exit" option. But pressing that button makes GlassWire stop blocking connections, but it does not end GlassWire or the service as expected - instead it continues to run and monitor connections. This appears to be misleading wording that may not align with user expectations.
 
 ### Portmaster Integrates Into the System Using the Kernel Extension
 
@@ -193,7 +193,7 @@ On the other hand, Portmaster uses the Windows Filtering Platform (WFP) in kerne
 
 In order to give you an overview of what is happening on your device, the Portmaster directly feeds the raw network data into its Network monitor, showing you what your network has been up to within the last 10 minutes.
 
-Contrary to GlassWire, Portmaster's system integration is both [documented](https://wiki.safing.io/en/Portmaster/Architecture/OSIntegration#windows) and [open source](https://github.com/safing/portmaster-windows-kext/), so you can verify our claims.
+Contrary to GlassWire, Portmaster's system integration is both [documented](https://wiki.safing.io/en/Portmaster/Architecture/OSIntegration#windows) and [open source](https://github.com/safing/portmaster-windows-kext/), so behavior can be independently verified.
 
 ### Portmaster Safeguards Your DNS queries From ISPs to Enhance Your Privacy
 
@@ -205,4 +205,4 @@ To fully protect your connections, we recommend using [Tor](https://www.torproje
 
 ### Conclusion
 
-Both Portmaster and GlassWire are powerful applications, are well designed and are easy to set up. Portmaster has excellent privacy defaults, which protect you from mass surveillance across the board. With GlassWire you have to build your own defenses from scratch. Another weak point of GlassWire is that it is proprietary. Portmaster on the other hand is free and open source, which is why we believe most people will trust Portmaster more.
+Both Portmaster and GlassWire visualize network activity and allow per-app configuration. Portmaster adds privacy defaults, secure DNS, and filter lists out of the box. GlassWire is proprietary and requires more manual setup to achieve similar privacy outcomes.

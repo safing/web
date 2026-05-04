@@ -7,7 +7,9 @@ date: 2022-04-11
 author: safing
 custom_thumbnail_name: portmaster-vs-simplewall
 portmaster_plug: true
-summary: Both the Portmaster and Simplewall are great open source solutions which are easy to setup. The Portmaster has a sleek UI with excellent privacy defaults, protecting you from mass surveillance across the board. Simplewall's defaults on the other hand only focus on removing Microsoft Telemetry, forcing you to build your own defenses against other surveillance from scratch. Therefore we believe most people will prefer Portmaster.
+updated: 2026-04-22
+updated_author: viktor
+summary: Both the Portmaster and Simplewall are open source solutions which are easy to set up. Portmaster has privacy defaults that block tracking and unwanted connections out of the box. Simplewall's defaults focus on Microsoft Telemetry. Users who want broader privacy protection with less configuration may find Portmaster a better fit.
 ---
 
 ## Overview Chart
@@ -134,7 +136,7 @@ The Portmaster runs in the background by default to protect your privacy, but wh
 
 ### By Default Portmaster Gives You More Privacy Than Simplewall
 
-By default, Portmaster protects you from mass surveillance, while Simplewall protects you from Microsoft telemetry.
+By default, Portmaster blocks a wide range of trackers, ads, and unwanted connections, while Simplewall blocks Microsoft telemetry.
 
 One of the most effective strategies for blocking unwanted connections is to maintain and keep track of filter lists, which Portmaster does for you. Thousands of ads, trackers and malware domains are already blocked by default. These lists are [gathered from open source intelligence](https://github.com/safing/intel-data/blob/master/lists/sources.yml) and are also used by browser extensions, the Pi-hole, etc.
 
@@ -146,9 +148,9 @@ Also, if you want to block other trackers, there is no simple way to import IPs 
 
 Generally speaking, you can observe that Portmaster and Simplewall view a connection in different ways. Simplewall filters traffic based on individual apps or IP addresses, while the Portmaster filters connections based on domains, IPs or apps.
 
-Since Portmaster can also block by domain, Portmaster can block connections from all the domain's traffic-serving servers. Major CDNs may have hundreds of IPs serving thousands of websites, plus many prominent services like Google and Facebook have hundreds of IPs that are continuously changing. Even self-hosted servers use DDNS to keep their dynamic IPs updated against their domains. So we feel Simplewall's approach to keep track of all those IP addresses is rather cumbersome.
+Since Portmaster can also block by domain, Portmaster can block connections from all the domain's traffic-serving servers. Major CDNs may have hundreds of IPs serving thousands of websites, plus many prominent services like Google and Facebook have hundreds of IPs that are continuously changing. Even self-hosted servers use DDNS to keep their dynamic IPs updated against their domains. Simplewall's approach of tracking all those IP addresses is relatively cumbersome.
 
-### Simplewall Does Not Give You A Balance Between Usability And Privacy
+### Simplewall Requires More Manual Configuration
 
 Whenever an application tries to connect to the Internet, Simplewall will display a notification asking you to allow or deny that app's Internet connection. As you might expect, the first time you use Simplewall will result in a slew of pop-ups requesting permission to connect. Simplewall's understanding of your preferences may lead to fewer pop-ups over time, but it is still unwelcoming. Simplewall allows you to create custom rules and has a tab for apps that use the Universal Windows Platform API, but it does not allow the import of any filter lists, whether of IP addresses or domains, which can be restrictive in a number of ways.
 
@@ -202,6 +204,6 @@ Portmaster also has a Simple/Advanced switch that shows or hides settings, allow
 
 ## Conclusion
 
-### We Recommend: Use Portmaster to Protect Your Privacy; Use Simplewall if You Are Only Concerned About Microsoft
+### Portmaster for Broad Privacy Defaults; Simplewall for Microsoft Telemetry
 
-Both the Portmaster and Simplewall are great open source solutions which are easy to setup. The Portmaster has a sleek UI with excellent privacy defaults, protecting you from mass surveillance across the board. Simplewall's defaults on the other hand only focus on removing Microsoft Telemetry, forcing you to build your own defenses against other surveillance from scratch. Therefore we believe most people will prefer Portmaster.
+Both the Portmaster and Simplewall are open source solutions which are easy to set up. Portmaster has privacy defaults that block tracking and unwanted connections out of the box. Simplewall's defaults focus on Microsoft Telemetry. Users who want broader privacy protection with less configuration may find Portmaster a better fit.

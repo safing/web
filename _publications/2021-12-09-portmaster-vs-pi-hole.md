@@ -7,7 +7,9 @@ date: 2021-12-09
 author: safing
 custom_thumbnail_name: portmaster-pi-hole
 portmaster_plug: true
-summary: Both Portmaster and Pi-hole are free and open source privacy tools. The Portmaster has an easy set up with great privacy defaults, giving you a simple way to fully control your device, wherever you go. The Pi-hole on the other hand needs some initial setup; but for the skilled it is an amazing tool to control and manage your home network.
+updated: 2026-04-22
+updated_author: viktor
+summary: Both Portmaster and Pi-hole are free and open source privacy tools. The Portmaster has an easy set up with great privacy defaults, giving you a simple way to fully control your device, wherever you go. The Pi-hole on the other hand needs some initial setup; but for the skilled it is a capable tool for managing your home network.
 ---
 
 ## Overview Chart
@@ -183,7 +185,7 @@ However, since the Pi-hole is a server it also has advantages over the Portmaste
 It can be used to secure your whole local network, as well as any other device that can connect to the Pi-hole over the Internet.
 
 Smart TVs, smart devices and printers in your network may send telemetry data or display advertisements.
-In such situations a Pi-hole is extremely useful, as many hardware and software limitations prevent the installation of client-side blockers like the Portmaster.
+In such situations a Pi-hole is well suited, as many hardware and software limitations prevent the installation of client-side blockers like the Portmaster.
 The Pi-hole will prevent advertisements, trackers, and other intrusions at the network DNS level.
 
 Any changes you make to the Pi-hole settings will be applied to all devices that use it to route their connections.
@@ -228,7 +230,7 @@ Portmaster also has a Simple/Advanced switch that shows or hides settings, allow
 
 The Portmaster and the Pi-hole support running alongside a VPN. Some VPNs require additional setup, so it is always good if you check the compatibility of your VPN in the latest docs of the [Portmaster](https://wiki.safing.io/en/Portmaster/App/Compatibility/VPN) and the [Pi-hole](https://docs.pi-hole.net/guides/vpn/openvpn/overview/).
 
-### Portmaster Makes It Easy to Auto-Block Domains By Category
+### Portmaster Makes It Easy to Block Domains By Category
 
 The Portmaster allows you to easily block ads, trackers, malware and NSFW sites via integrated domain filter lists.
 You can manage these lists for your full device or configure them for individual applications.

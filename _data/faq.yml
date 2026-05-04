@@ -1,44 +1,44 @@
 spn:
   - q: How does the SPN compare to VPNs?
-    a: The VPN technology was built to securely connect two company locations. However, the SPN was developed from the ground up to protect user privacy. As a result the SPN can easily outperform VPNs in every aspect.
+    a: VPN technology was originally designed to connect company networks. The SPN routes each connection independently through different exit nodes, applying layered onion encryption at each hop. For users whose threat model requires per-connection IP separation and onion routing across all applications, SPN offers a different architecture.
     link:
-      text: Read our blog post to read all about the differences.
+      text: Read the full comparison.
       url: /blog/2020/01/22/how-the-spn-compares-to-vpns/
   - q: What payment methods are supported?
-    a: You can pay with your creditcard, PayPal, cash and crypto currencies (BTC, ETH, XMR).
+    a: You can pay with your credit card, PayPal, cash and crypto currencies (BTC, XMR).
   - q: Do you accept crypto currency payments?
-    a: Yes - we support Bitcoin and Monero. Aside from that we also support creditcard, PayPal and cash payments.
+    a: Yes - we support Bitcoin and Monero. Aside from that we also support credit card, PayPal and cash payments.
   - q: Is the SPN like Tor?
-    a: The SPN is heavily inspired by Tor, but the mission is different. Next to tightly integrating with other privacy modules, the main focus of the SPN is easy protection for your whole computer, not just your browser. Additionally it spreads your connections across the globe instead of routing everything through the same circuit.
+    a: The SPN is heavily inspired by Tor, but the mission is different. Next to tightly integrating with other privacy modules, the SPN protects all your computer's connections, not just your browser. Additionally it spreads your connections across the globe instead of routing everything through the same circuit.
     link:
       text: Read our comparison blog to find out more.
       url: /blog/2020/01/22/how-the-spn-compares-to-tor/
   - q: Are all connections routed through the SPN?
-    a: Yes, when enabled Portmaster routes all Internet connections through the Safing Privacy Network. You can easily create exceptions for apps or processes if you so desire.
+    a: Yes, when enabled Portmaster routes all internet connections through the SPN. You can create exceptions for specific apps or processes.
   - q: Does the SPN route all connections individually? So every connection exits on a different node?
-    a: Yes. Every connection is routed separately, giving you a vast amount of identities (IP addresses).
+    a: Yes. Every connection is routed separately, giving you a separate IP address for each connection.
     link:
       text: View this explainer image showing a computer connecting to Steam, ProtonMail and Spotify.
       url: https://safing.io/assets/img/spn-labeled/spn-community.png
   - q: Does the SPN route connections on a per app basis?
     a: No, it routes every connection individually. So as an example, when you open several websites in different tabs in your browser, every connection will be calculated individually - giving you multiple identities for each app.
   - q: Am I totally safe from tracking with the SPN? What do service providers see when connecting through the SPN?
-    a: No. This is just one piece of the puzzle. The SPN primarily protects your IP-address from exposure, but there are still many other ways services can track and identify you. These include fingerprinting (mostly in browsers), authentication (when logged in to a service), mouse movements (malicious javascripts), etc...
+    a: No. This is just one piece of the puzzle. The SPN primarily protects your IP address from exposure, but there are still many other ways services can track and identify you. These include fingerprinting (mostly in browsers), authentication (when logged in to a service), and malicious JavaScript.
   - q: Can services still identify me through other methods?
-    a: Yes, this is just one piece of the puzzle. There are multiple ways services track you, like browser fingerprinting, malicious javascripts, etc... And if you log into services, such as your Google account, they will mostly still know it is you, even though you protect your IP address.
+    a: Yes, this is just one piece of the puzzle. There are multiple ways services track you, like browser fingerprinting and malicious JavaScript. And if you log into services, such as your Google account, they will mostly still know it is you, even though you protect your IP address.
   - q: Does the SPN only protect my browser?
-    a: The SPN reroutes all your computers connections, including those of your browser.
+    a: The SPN reroutes all your computer's connections, including those of your browser.
   - q: Can I safely log in to sites via the SPN? Like my bank account etc?
     a: Yes. All serious websites use secure https connections, which encrypts the content of your connection (like login credentials) before Portmaster wraps them in onion encryption. So no ISP architecture or SPN exit node will be able to manipulate that data. It is protected by https all the way to the destination server.
   - q: What platforms will you support?
-    a: Since the SPN is integrated into Portmaster, we support the same platforms as Portmaster software. Currently these are Windows and Linux. Mac and Mobile are planned, but are further down the road.
+    a: Since the SPN is integrated into Portmaster, we support the same platforms as Portmaster software. Currently these are Windows and Linux. Mac and Mobile are planned but not yet available.
   - q: Is there a free trial version for people interested in the SPN?
-    a: No. Providing the network costs us money, so we charge accordingly. However, Portmaster with its many local privacy features are and will remain free to use.
+    a: No. Providing the network costs us money, so we charge accordingly. Portmaster's local privacy features remain free to use.
 portmaster:
   - q: Since Portmaster can block ads and trackers, do I still need an ad-blocker for my browser?
-    a: Yes, we highly recommend to continue using adblockers, such as uBlock Origin, uMatrix, or similar. They give you more fine grained control over domains. iE you can allow certain domains to allow css files & images while blocking cookies & javascripts. Portmaster cannot make this distinction.
+    a: Yes. Using a browser extension like uBlock Origin alongside Portmaster is recommended. They give more fine-grained control over individual domains. For example, you can allow certain domains to load CSS and images while blocking cookies and JavaScript. Portmaster cannot make this distinction.
   - q: What platforms do you support?
-    a: Currently we support Windows and Linux. Mac and Mobile are planned, but are further down the road.
+    a: Currently Windows and Linux are supported. Mac and Mobile are planned but not yet available.
   - q: Incoming connections no longer work. Why?
     a: As a security measure, Portmaster blocks all incoming connections by default. You can create exceptions for apps and services that need it.
     link:
