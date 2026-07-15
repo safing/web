@@ -9,7 +9,7 @@ spn:
   - q: Do you accept crypto currency payments?
     a: Yes - we support Bitcoin and Monero. Aside from that we also support credit card, PayPal and cash payments.
   - q: Is the SPN like Tor?
-    a: The SPN is heavily inspired by Tor, but the mission is different. Next to tightly integrating with other privacy modules, the SPN protects all your computer's connections, not just your browser. Additionally it spreads your connections across the globe instead of routing everything through the same circuit.
+    a: The SPN is heavily inspired by Tor, but the mission is different. Next to tightly integrating with other privacy modules, the SPN protects all your computer's connections, not just your browser. Additionally, it spreads your connections across the globe, picking exit locations near your destination, while Tor's exit selection isn't destination-aware.
     link:
       text: Read our comparison blog to find out more.
       url: /blog/2020/01/22/how-the-spn-compares-to-tor/
