@@ -2,7 +2,7 @@
 
 # TL;DR
 
-`rm -rf _site .jekyll-cache && sudo docker compose up`
+`rm -rf _site .jekyll-cache && docker compose up --build`
 
 # Safing Website
 
@@ -17,7 +17,8 @@
 #### Known Bug In Docker: https://github.com/docker/for-mac/issues/6467
 if you have problems with **chown permissions**, then you will need todo run this `rm -rf _site .sass-cache .jekyll-metadata .jekyll-cache` before `docker-compose up` every time.
 
-4. Run `docker-compose up`
+4. Run `docker compose up --build` (rebuild is needed after changes to `Gemfile`/`Gemfile.lock`)
+   - On Linux, run the container as your own user so it can write to the source tree: `HOST_UID=$(id -u) HOST_GID=$(id -g) docker compose up --build`
 5. Access the local version at http://localhost:4000
 
 ### Auto refresh not working?!

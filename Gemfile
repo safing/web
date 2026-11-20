@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem 'jekyll', '~> 4.4'
 
 # list of gems supported by github pages:
 # https://pages.github.com/versions/
@@ -11,4 +11,4 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from'
 end
 
-gem 'webrick'
+gem 'webrick', '>= 1.9.1'

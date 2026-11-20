@@ -1,10 +1,18 @@
 # to start the server just run
-# docker-compose up
+# docker compose up --build
+#
+# On Linux, run the container as your own user so it can write to the
+# bind-mounted source tree:
+# HOST_UID=$(id -u) HOST_GID=$(id -g) docker compose up --build
 
 services:
   jekyll:
-    image: jekyll/jekyll:4
-    command: jekyll serve --watch --incremental --livereload --future
+    build:
+      context: .
+      args:
+        UID: "${HOST_UID:-1000}"
+        GID: "${HOST_GID:-1000}"
+    command: bundle exec jekyll serve --host 0.0.0.0 --watch --incremental --livereload --future
     ports:
       - 4000:4000
       - 35729:35729
